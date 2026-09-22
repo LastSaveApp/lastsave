@@ -1,0 +1,64 @@
+# Posts to #announcements when a release is published.
+#
+# **This workflow lives in the PUBLIC repository, and it has to.** The source and every other
+# workflow live in the private `LastSaveApp/lastsave-app`, but a `release` event fires in the
+# repository the release belongs to — this one — and GitHub does not deliver it across repositories.
+#
+# `released` rather than `published` or `created`: it fires when a release stops being a draft,
+# which is the moment a human decided the build was good. A draft must never announce itself.
+#
+# Needs one secret on THIS repository: DISCORD_ANNOUNCE_WEBHOOK, a webhook created in the
+# #announcements channel. A webhook rather than the bot token because it can only post to the one
+# channel it was made for — the blast radius of a leak is a single channel, not the whole server.
+name: Announce release
+
+on:
+  release:
+    types: [released]
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post to Discord
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_ANNOUNCE_WEBHOOK }}
+          TAG: ${{ github.event.release.tag_name }}
+          NOTES: ${{ github.event.release.body }}
+          URL: ${{ github.event.release.html_url }}
+        run: |
+          set -e
+          if [ -z "$WEBHOOK" ]; then
+            echo "::error::DISCORD_ANNOUNCE_WEBHOOK is not set on this repository."
+            exit 1
+          fi
+
+          # Discord caps an embed description at 4096 characters. Long notes are trimmed with a
+          # pointer to the full page rather than silently rejected by the API.
+          description=$(printf '%s' "$NOTES" | head -c 3800)
+          if [ "${#NOTES}" -gt 3800 ]; then
+            description="$description"$'\n\n'"[Read the full notes]($URL)"
+          fi
+
+          # jq builds the JSON so that quotes, newlines and backticks in the notes cannot break it.
+          jq -n \
+            --arg title "LastSave $TAG" \
+            --arg url "$URL" \
+            --arg description "$description" \
+            '{
+              content: "A new version of LastSave is out.",
+              embeds: [{
+                title: $title,
+                url: $url,
+                description: $description,
+                color: 3889883
+              }]
+            }' > payload.json
+
+          code=$(curl -s -o response.txt -w '%{http_code}' \
+            -H 'Content-Type: application/json' \
+            -d @payload.json "$WEBHOOK")
+          echo "Discord responded $code"
+          # 204 is the webhook's success. Anything else should fail the run rather than be a green
+          # tick on an announcement nobody received.
+          [ "$code" = "204" ] || { cat response.txt; exit 1; }
