@@ -20,12 +20,54 @@ jobs:
   announce:
     runs-on: ubuntu-latest
     steps:
+      # What KIND of release this is, read from the two version numbers rather than declared
+      # anywhere. The previous release is the newest published one that is not this one, so an
+      # un-published draft never counts as the predecessor.
+      #
+      # The label is the semver field that moved, which is also the vocabulary CHANGELOG.md uses:
+      # patch for fixes, minor for a large or disruptive change, major for the author's own call.
+      # Before 1.0 that means "minor" is the biggest label a release will normally carry, and that
+      # is correct rather than a shortcoming - it is what the version number is saying.
+      - name: Work out the kind of release
+        id: kind
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          set -e
+          current=${TAG#v}
+          previous=$(gh api "repos/${GITHUB_REPOSITORY}/releases" \
+            --jq "[.[] | select(.draft == false and .prerelease == false and .tag_name != \"${TAG}\")][0].tag_name // empty")
+          previous=${previous#v}
+
+          # Field by field with parameter expansion. A heredoc would work but has to sit at column
+          # zero inside a YAML block scalar, which is a trap for whoever edits this next.
+          if [ -z "$previous" ]; then
+            kind="first release"; color=3889883
+          elif [ "${current%%.*}" != "${previous%%.*}" ]; then
+            kind=major; color=14721051
+          else
+            cmi=${current#*.}; cmi=${cmi%%.*}
+            pmi=${previous#*.}; pmi=${pmi%%.*}
+            if [ "$cmi" != "$pmi" ]; then
+              kind=minor; color=3889883
+            else
+              kind=patch; color=3908445
+            fi
+          fi
+
+          echo "previous=${previous:-none} current=$current kind=$kind"
+          echo "kind=$kind" >> "$GITHUB_OUTPUT"
+          echo "color=$color" >> "$GITHUB_OUTPUT"
+
       - name: Post to Discord
         env:
           WEBHOOK: ${{ secrets.DISCORD_ANNOUNCE_WEBHOOK }}
           TAG: ${{ github.event.release.tag_name }}
           NOTES: ${{ github.event.release.body }}
           URL: ${{ github.event.release.html_url }}
+          KIND: ${{ steps.kind.outputs.kind }}
+          COLOR: ${{ steps.kind.outputs.color }}
         run: |
           set -e
           if [ -z "$WEBHOOK" ]; then
@@ -42,16 +84,17 @@ jobs:
 
           # jq builds the JSON so that quotes, newlines and backticks in the notes cannot break it.
           jq -n \
-            --arg title "LastSave $TAG" \
+            --arg title "LastSave $TAG - $KIND" \
             --arg url "$URL" \
             --arg description "$description" \
+            --argjson color "$COLOR" \
             '{
               content: "A new version of LastSave is out.",
               embeds: [{
                 title: $title,
                 url: $url,
                 description: $description,
-                color: 3889883
+                color: $color
               }]
             }' > payload.json
 
