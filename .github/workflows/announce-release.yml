@@ -7,6 +7,11 @@
 # `released` rather than `published` or `created`: it fires when a release stops being a draft,
 # which is the moment a human decided the build was good. A draft must never announce itself.
 #
+# The name and avatar are set PER MESSAGE rather than on the webhook itself, so they live in this
+# file and change through a pull request like anything else. `app-icon.png` is committed beside this
+# workflow because `avatar_url` has to be a public URL and Discord will not render the `.ico` the
+# Squirrel installer uses — it wants PNG, JPG, GIF or WebP.
+#
 # Needs one secret on THIS repository: DISCORD_ANNOUNCE_WEBHOOK, a webhook created in the
 # #announcements channel. A webhook rather than the bot token because it can only post to the one
 # channel it was made for — the blast radius of a leak is a single channel, not the whole server.
@@ -90,6 +95,8 @@ jobs:
             --argjson color "$COLOR" \
             '{
               content: "A new version of LastSave is out.",
+              username: "LastSave",
+              avatar_url: "https://raw.githubusercontent.com/LastSaveApp/lastsave/main/app-icon.png",
               embeds: [{
                 title: $title,
                 url: $url,
