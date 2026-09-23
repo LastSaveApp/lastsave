@@ -49,9 +49,9 @@ here so they can be contributed.
 
 ## Privacy, briefly
 
-LastSave has no accounts, no analytics and no background telemetry. The only information that ever
-reaches us is a report you fill in and send. The full terms and privacy policy are in the app, under
-**Settings → About**.
+LastSave keeps your library in a database on your own machine, and works without a connection.
+Anything that sends data out is something you turn on. The full terms and privacy policy are in
+the app, under **Settings → About**.
 
 ---
 
