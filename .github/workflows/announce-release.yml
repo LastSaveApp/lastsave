@@ -1,4 +1,9 @@
-# Posts to #announcements when a release is published.
+# Posts to #releases when a release is published, pinging the members who opted in.
+#
+# The ping goes to the "🔔 Release Pings" role, never @everyone: members pick it in the server's
+# onboarding ("Ping me when… A new version is out") and can drop it in Channels & Roles.
+# `allowed_mentions` limits the message to that one role, so a mention inside the release notes
+# can never ping anyone else.
 #
 # **This workflow lives in the PUBLIC repository, and it has to.** The source and every other
 # workflow live in the private `LastSaveApp/lastsave-app`, but a `release` event fires in the
@@ -13,7 +18,7 @@
 # Squirrel installer uses — it wants PNG, JPG, GIF or WebP.
 #
 # Needs one secret on THIS repository: DISCORD_ANNOUNCE_WEBHOOK, a webhook created in the
-# #announcements channel. A webhook rather than the bot token because it can only post to the one
+# #releases channel. A webhook rather than the bot token because it can only post to the one
 # channel it was made for — the blast radius of a leak is a single channel, not the whole server.
 name: Announce release
 
@@ -73,6 +78,8 @@ jobs:
           URL: ${{ github.event.release.html_url }}
           KIND: ${{ steps.kind.outputs.kind }}
           COLOR: ${{ steps.kind.outputs.color }}
+          # The opt-in "🔔 Release Pings" role. Not a secret: a role id only works inside the server.
+          RELEASE_PINGS_ROLE: "1552716045771473026"
         run: |
           set -e
           if [ -z "$WEBHOOK" ]; then
@@ -93,8 +100,10 @@ jobs:
             --arg url "$URL" \
             --arg description "$description" \
             --argjson color "$COLOR" \
+            --arg role "$RELEASE_PINGS_ROLE" \
             '{
-              content: "A new version of LastSave is out.",
+              content: ("<@&" + $role + "> A new version of LastSave is out."),
+              allowed_mentions: { roles: [$role] },
               username: "LastSave",
               avatar_url: "https://raw.githubusercontent.com/LastSaveApp/lastsave/main/app-icon.png",
               embeds: [{
