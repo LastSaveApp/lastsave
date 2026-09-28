@@ -10,9 +10,7 @@ and what happened along the way. All in one app on your PC.
 <a href="https://ko-fi.com/lastsaveapp"><img src="https://img.shields.io/badge/Support_on_Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Support on Ko-fi"></a>
 
 <a href="https://github.com/LastSaveApp/lastsave/releases/latest"><img src="https://img.shields.io/github/v/release/LastSaveApp/lastsave?style=flat-square&label=latest&color=0ea5e9" alt="Latest release"></a>
-<a href="https://github.com/LastSaveApp/lastsave/releases"><img src="https://img.shields.io/github/downloads/LastSaveApp/lastsave/total?style=flat-square&color=8b5cf6" alt="Downloads"></a>
 <img src="https://img.shields.io/badge/Windows-10_%7C_11-3a63d8?style=flat-square" alt="Windows 10 and 11">
-<a href="https://lastsave.app"><img src="https://img.shields.io/badge/lastsave.app-111214?style=flat-square" alt="lastsave.app"></a>
 
 </div>
 
