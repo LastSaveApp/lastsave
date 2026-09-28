@@ -18,8 +18,6 @@ and what happened along the way. All in one app on your PC.
 
 <br>
 
-<img src=".github/assets/home.webp" alt="LastSave's Home: your latest game, your week, recent activity and memories" width="100%">
-
 > **Beta.** LastSave is being built in the open with a small group of players. Things will change,
 > and some of them will break. Tell us when they do. 💙
 
