@@ -7,7 +7,7 @@ and what happened along the way. All in one app on your PC.
 
 <a href="https://lastsave.app/download?ref=github"><img src="https://img.shields.io/badge/Download_for_Windows-0ea5e9?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0wIDBoMTEuNHYxMS40SDB6TTEyLjYgMEgyNHYxMS40SDEyLjZ6TTAgMTIuNmgxMS40VjI0SDB6TTEyLjYgMTIuNkgyNFYyNEgxMi42eiIvPjwvc3ZnPg%3D%3D" alt="Download for Windows"></a>
 <a href="https://discord.gg/cgTuQXwvA4"><img src="https://img.shields.io/badge/Join_the_Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join the Discord"></a>
-<a href="https://ko-fi.com/lastsaveapp"><img src="https://img.shields.io/badge/Support_on_Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Support on Ko-fi"></a>
+<a href="https://buymeacoffee.com/lastsaveapp"><img src="https://img.shields.io/badge/Buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 
 <a href="https://github.com/LastSaveApp/lastsave/releases/latest"><img src="https://img.shields.io/github/v/release/LastSaveApp/lastsave?style=flat-square&label=latest&color=0ea5e9" alt="Latest release"></a>
 <img src="https://img.shields.io/badge/Windows-10_%7C_11-3a63d8?style=flat-square" alt="Windows 10 and 11">
@@ -86,7 +86,7 @@ Every version and its notes are in [**Releases**](https://github.com/LastSaveApp
 | 💬 [**Discord**](https://discord.gg/cgTuQXwvA4) | Where most of it happens: help, ideas, and people who play too much |
 | 🐞 [**Issues**](https://github.com/LastSaveApp/lastsave/issues/new/choose) | Bugs and requests, if you prefer GitHub to Discord |
 | 🗨️ [**Discussions**](https://github.com/LastSaveApp/lastsave/discussions) | Questions, ideas and show-and-tell |
-| ☕ [**Ko-fi**](https://ko-fi.com/lastsaveapp) | Help keep LastSave free and moving |
+| ☕ [**Buy Me a Coffee**](https://buymeacoffee.com/lastsaveapp) | Help keep LastSave free and moving |
 
 You can also report a bug from inside the app — **Settings → About → Report a bug or send
 feedback** — which attaches the log for you.
