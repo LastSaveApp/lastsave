@@ -34,10 +34,15 @@ jobs:
       # anywhere. The previous release is the newest published one that is not this one, so an
       # un-published draft never counts as the predecessor.
       #
-      # The label is the semver field that moved, which is also the vocabulary CHANGELOG.md uses:
-      # patch for fixes, minor for a large or disruptive change, major for the author's own call.
-      # Before 1.0 that means "minor" is the biggest label a release will normally carry, and that
-      # is correct rather than a shortcoming - it is what the version number is saying.
+      # The KIND is the semver field that moved, the vocabulary CHANGELOG.md uses: patch for fixes,
+      # minor for new features, major for the author's own call. The LABEL is that same kind in
+      # players' words, because "minor update" reads as "small update" to anyone who is not a
+      # developer - and 0.2.0, the biggest release so far, went out labelled "minor":
+      #   patch -> 🔧 Patch (Fixes & Polish)
+      #   minor -> ✨ Update (New Features & Content)
+      #   major -> 🚀 Major release (Big Launch)
+      # Before 1.0 an Update is the biggest label a release will normally carry; after it, features
+      # still ship as Updates (1.1, 1.2) and a Major release stays a rare milestone.
       - name: Work out the kind of release
         id: kind
         env:
@@ -53,21 +58,21 @@ jobs:
           # Field by field with parameter expansion. A heredoc would work but has to sit at column
           # zero inside a YAML block scalar, which is a trap for whoever edits this next.
           if [ -z "$previous" ]; then
-            kind="first release"; color=3889883
+            kind=first; label="🎉 First release"; color=3889883
           elif [ "${current%%.*}" != "${previous%%.*}" ]; then
-            kind=major; color=14721051
+            kind=major; label="🚀 Major release (Big Launch)"; color=14721051
           else
             cmi=${current#*.}; cmi=${cmi%%.*}
             pmi=${previous#*.}; pmi=${pmi%%.*}
             if [ "$cmi" != "$pmi" ]; then
-              kind=minor; color=3889883
+              kind=minor; label="✨ Update (New Features & Content)"; color=3889883
             else
-              kind=patch; color=3908445
+              kind=patch; label="🔧 Patch (Fixes & Polish)"; color=3908445
             fi
           fi
 
-          echo "previous=${previous:-none} current=$current kind=$kind"
-          echo "kind=$kind" >> "$GITHUB_OUTPUT"
+          echo "previous=${previous:-none} current=$current kind=$kind label=$label"
+          echo "label=$label" >> "$GITHUB_OUTPUT"
           echo "color=$color" >> "$GITHUB_OUTPUT"
 
       - name: Post to Discord
@@ -76,7 +81,7 @@ jobs:
           TAG: ${{ github.event.release.tag_name }}
           NOTES: ${{ github.event.release.body }}
           URL: ${{ github.event.release.html_url }}
-          KIND: ${{ steps.kind.outputs.kind }}
+          LABEL: ${{ steps.kind.outputs.label }}
           COLOR: ${{ steps.kind.outputs.color }}
           # The opt-in "🔔 Release Pings" role. Not a secret: a role id only works inside the server.
           RELEASE_PINGS_ROLE: "1552716045771473026"
@@ -96,7 +101,7 @@ jobs:
 
           # jq builds the JSON so that quotes, newlines and backticks in the notes cannot break it.
           jq -n \
-            --arg title "LastSave $TAG - $KIND" \
+            --arg title "LastSave $TAG · $LABEL" \
             --arg url "$URL" \
             --arg description "$description" \
             --argjson color "$COLOR" \
