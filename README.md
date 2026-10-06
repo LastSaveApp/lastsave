@@ -53,8 +53,8 @@ logging, screenshots and clips without alt-tabbing out.
 <td width="50%" valign="top">
 
 **Yours, on your machine.**<br>
-Your library is a database on your own PC, and LastSave works without a connection. Anything that
-sends data out is something you turn on.
+Your library is a database on your own PC, and LastSave works without a connection. The privacy
+policy lists everything the app sends, and Settings holds the switches.
 
 </td>
 </tr>
@@ -97,8 +97,9 @@ here so they can be contributed.
 ## 🔒 Privacy, briefly
 
 LastSave keeps your library in a database on your own machine, and works without a connection.
-Anything that sends data out is something you turn on. The full terms and privacy policy are in
-the app, under **Settings → About**, and at [lastsave.app](https://lastsave.app).
+The privacy policy lists everything the app sends, and Settings holds the switches. The full terms
+and privacy policy are in the app, under **Settings → About**, and at
+[lastsave.app](https://lastsave.app/privacy).
 
 ---
 
