@@ -73,9 +73,10 @@ policy lists everything the app sends, and Settings holds the switches.
 **[Download for Windows →](https://lastsave.app/download?ref=github)** · Windows 10 and 11, 64-bit.
 Nothing to configure — install it and open it. LastSave updates itself.
 
-The installer is not code-signed yet, so Windows will show a blue **"Windows protected your PC"**
-screen the first time you run it. That is SmartScreen saying it does not recognise the publisher,
-not that anything is wrong with the file. Choose **More info**, then **Run anyway**.
+The installer is signed by its developer (publisher **Miguel Angel Velez Guerra**). Windows can
+still show a blue **"Windows protected your PC"** screen while LastSave is new: SmartScreen holds
+back apps until enough people have installed them, not because anything is wrong with the file.
+Choose **More info**, then **Run anyway**.
 
 Every version and its notes are in [**Releases**](https://github.com/LastSaveApp/lastsave/releases).
 
