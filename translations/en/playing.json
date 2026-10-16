@@ -257,8 +257,6 @@
     "countdown": {
       "screenshot_one": "Screenshot in {{count}}",
       "screenshot_other": "Screenshot in {{count}}",
-      "record_one": "Recording in {{count}}",
-      "record_other": "Recording in {{count}}",
       "hint": "close the game's menu"
     }
   },

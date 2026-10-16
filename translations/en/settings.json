@@ -232,9 +232,9 @@
     },
     "padModifier": "View",
     "padCaptureDelay": {
-      "title": "Controller capture delay",
-      "description": "A screenshot or a recording from a controller chord waits this long, so you can close whatever the chord opened in the game. Pressing the chord again takes it at once. Keyboard shortcuts never wait.",
-      "keywords": "controller pad delay countdown timer screenshot record menu map",
+      "title": "Controller screenshot delay",
+      "description": "A screenshot from a controller chord waits this long, so you can close whatever the chord opened in the game. Pressing the chord again takes it at once. Recordings and keyboard shortcuts never wait.",
+      "keywords": "controller pad delay countdown timer screenshot capture menu map",
       "off": "Off",
       "seconds_one": "{{count}} s",
       "seconds_other": "{{count}} s"

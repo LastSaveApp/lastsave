@@ -258,9 +258,6 @@
       "screenshot_one": "Captura en {{count}}",
       "screenshot_many": "Captura en {{count}}",
       "screenshot_other": "Captura en {{count}}",
-      "record_one": "Grabando en {{count}}",
-      "record_many": "Grabando en {{count}}",
-      "record_other": "Grabando en {{count}}",
       "hint": "cierra el menú"
     }
   },

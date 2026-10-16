@@ -233,8 +233,8 @@
     "padModifier": "View",
     "padCaptureDelay": {
       "title": "Retraso de captura con control",
-      "description": "Una captura o grabación hecha desde el control espera este tiempo, para que cierres lo que la combinación abrió en el juego. Presionarla otra vez la hace al instante. El teclado nunca espera.",
-      "keywords": "control mando retraso cuenta atrás temporizador captura grabar menú mapa",
+      "description": "Una captura hecha desde el control espera este tiempo, para que cierres lo que la combinación abrió en el juego. Presionarla otra vez la hace al instante. Las grabaciones y el teclado nunca esperan.",
+      "keywords": "control mando retraso cuenta atrás temporizador captura pantallazo menú mapa",
       "off": "No",
       "seconds_one": "{{count}} s",
       "seconds_many": "{{count}} s",
