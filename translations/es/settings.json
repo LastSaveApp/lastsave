@@ -513,7 +513,7 @@
       "action": "Ver créditos",
       "dialog": {
         "title": "Créditos de traducción",
-        "subtitle": "Quién hizo cada idioma de LastSave.",
+        "subtitle": "Las personas detrás de cada idioma de LastSave.",
         "source": "Original",
         "official": "Oficial",
         "community": "Comunidad",
