@@ -1,0 +1,52 @@
+# Credits whoever made a translation, when their pull request is merged.
+#
+# Adds the author's GitHub name to `contributors` in the `language.json` of each language the pull
+# request changed, and commits that to main. Those lists are the credits LastSave shows in
+# Settings → About; the app brings them in with the translations themselves.
+#
+# `pull_request_target` because a pull request from a fork gets a read-only token, and crediting
+# needs to write. That trigger runs with this repository's permissions, so it NEVER checks out or
+# runs the pull request's code: it checks out main, and reads only the author's name and the list of
+# changed files from the API.
+name: Translations · credit
+
+on:
+  pull_request_target:
+    types: [closed]
+    paths: ['translations/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: translations-credits
+  cancel-in-progress: false
+
+jobs:
+  credit:
+    if: github.event.pull_request.merged == true && github.event.pull_request.user.type != 'Bot'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      - name: Add the author to the languages they changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.pull_request.number }}
+          AUTHOR: ${{ github.event.pull_request.user.login }}
+        run: |
+          set -e
+          gh api "repos/$REPO/pulls/$NUMBER/files" --paginate --jq '.[].filename' > "$RUNNER_TEMP/files.txt"
+          xargs -a "$RUNNER_TEMP/files.txt" node .github/scripts/credit-translators.mjs "$AUTHOR"
+          if git diff --quiet -- translations; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Credit @$AUTHOR for their translation (#$NUMBER)"
+          git push origin HEAD:main

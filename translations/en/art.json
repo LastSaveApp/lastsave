@@ -1,0 +1,46 @@
+{
+  "credit": {
+    "from": "Art from",
+    "about": "Banners and logos come from SteamGridDB, where the community makes and shares them, and from Steam's store art. LastSave is independent and isn't affiliated with or endorsed by SteamGridDB, Valve, or the games' developers and publishers."
+  },
+  "entry": {
+    "title": "Art",
+    "hint": "Default follows Settings. What you choose here stays for this game, whatever Settings say.",
+    "banner": "Banner",
+    "logo": "Logo",
+    "choose": "Choose…",
+    "heroOptions": {
+      "auto": "Default",
+      "lookup": "SteamGridDB",
+      "catalog": "Catalog art (IGDB)",
+      "pinned": "Your pick"
+    },
+    "logoOptions": {
+      "auto": "Default",
+      "lookup": "SteamGridDB",
+      "none": "Name in text",
+      "pinned": "Your pick"
+    }
+  },
+  "picker": {
+    "titles": {
+      "hero": "Choose a banner",
+      "logo": "Choose a logo"
+    },
+    "description": "From the SteamGridDB community, and Steam's own store art.",
+    "loading": "Looking for art…",
+    "byAuthor": "by {{author}}",
+    "fromSteam": "Steam's store art",
+    "selected": "Current",
+    "empty": {
+      "hero": "No banners for this game yet.",
+      "logo": "No logos for this game yet."
+    },
+    "errors": {
+      "unavailable": "Art isn't available right now. Try again later.",
+      "noMatch": "SteamGridDB hasn't matched this game yet.",
+      "failed": "Couldn't load the art."
+    },
+    "retry": "Try again"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "greeting": {
+    "morning": "Buenos días,",
+    "afternoon": "Buenas tardes,",
+    "evening": "Buenas noches,",
+    "night": "Trasnochando,"
+  },
+  "hero": {
+    "kicker": {
+      "latestPlayed": "Lo último que jugaste",
+      "recentlyAdded": "Recién añadido",
+      "welcome": "Te damos la bienvenida a LastSave"
+    },
+    "played": "{{hours}} de juego",
+    "lastPlayed": "Jugado {{when}}",
+    "addedWhen": "Añadido {{when}}",
+    "noSessionsYet": "Aún no hay sesiones. Presiona Jugar y LastSave cuenta desde el minuto uno.",
+    "latestLog": {
+      "session": "Última sesión",
+      "journal": "Última entrada",
+      "achievement": "Último logro",
+      "status": "Último estado",
+      "added": "Añadido a la biblioteca"
+    },
+    "openDetail": "Abrir el juego",
+    "links": {
+      "library": "Biblioteca",
+      "explore": "Explorar"
+    },
+    "continue": "Continuar"
+  },
+  "recent": {
+    "title": "Juegos recientes",
+    "titleAdded": "Recién añadidos",
+    "added": "Añadido",
+    "addedWhen": "Añadido {{when}}",
+    "emptyState": {
+      "title": "Todavía no hay nada",
+      "description": "Aquí se alinean los juegos que juegas o añades desde LastSave."
+    }
+  },
+  "activity": {
+    "title": "Actividad reciente",
+    "types": {
+      "session": "Sesión",
+      "achievement": "Logro",
+      "journal": "Diario",
+      "status": "Estado",
+      "added": "Añadido",
+      "review": "Reseña"
+    },
+    "sessionType": {
+      "timer": "cronómetro",
+      "manual": "manual"
+    },
+    "sessionSummary": "{{duration}} · {{type}}",
+    "statusSet": "Ahora: {{status}}",
+    "statusCleared": "Sin estado",
+    "addedToLibrary": "Añadido a tu biblioteca",
+    "emptyState": {
+      "title": "Todavía no hay entradas",
+      "description": "Sesiones, entradas de diario, logros y cambios de estado aparecen aquí, lo más nuevo primero."
+    },
+    "media": {
+      "image": "Tiene una imagen",
+      "video": "Tiene un video"
+    }
+  },
+  "memories": {
+    "title": "Recuerdos",
+    "kinds": {
+      "ago": "{{when}}",
+      "random": "Al azar",
+      "latest": "El último",
+      "review": "Tu reseña · {{rating}}"
+    },
+    "open": "Abrir recuerdo",
+    "kindAria": {
+      "ago": "Un recuerdo de hace tiempo",
+      "random": "Un recuerdo al azar",
+      "latest": "Tu último recuerdo",
+      "review": "Una de tus reseñas"
+    },
+    "emptyLibrary": {
+      "title": "Los recuerdos necesitan juegos",
+      "description": "Cuando juegues y escribas, aquí volverán momentos de hace años."
+    },
+    "emptyLogs": {
+      "title": "Todavía no hay recuerdos",
+      "description": "Las entradas de diario y los logros que anotes se convierten aquí en recuerdos."
+    },
+    "previous": "Recuerdo anterior",
+    "next": "Recuerdo siguiente",
+    "video": "Video"
+  },
+  "stats": {
+    "playing": "Jugando",
+    "backlog": "Por jugar",
+    "completed": "Completados",
+    "lastPlayed": "Jugado {{when}}"
+  },
+  "actions": {
+    "play": "Jugar",
+    "openLibrary": "Biblioteca",
+    "openExplore": "Explorar",
+    "details": "Detalles"
+  },
+  "explore": {
+    "tabs": {
+      "latest": "Lo último",
+      "upcoming": "Próximos"
+    },
+    "latestOffline": "Los lanzamientos aparecen cuando se puede acceder al catálogo.",
+    "upcomingOffline": "Los próximos lanzamientos aparecen cuando se puede acceder al catálogo.",
+    "offlineTitle": "Explorar está sin conexión",
+    "autoRotate": "Alterna entre Lo último y Próximos; pasa el ratón o elige una pestaña para fijarla"
+  },
+  "rail": {
+    "scrollLeft": "Desplazar {{title}} a la izquierda",
+    "scrollRight": "Desplazar {{title}} a la derecha"
+  },
+  "week": {
+    "title": "Tu semana",
+    "thisWeek": "Últimos 7 días",
+    "chartAria": "Horas jugadas por día en los últimos 7 días",
+    "today": "Hoy",
+    "noPlay": "Sin jugar",
+    "sessions": "Sesiones",
+    "games": "Juegos",
+    "logs": "Entradas"
+  },
+  "library": {
+    "games_one": "juego",
+    "games_many": "juegos",
+    "games_other": "juegos",
+    "chartAria": "Tu colección por estado",
+    "moreStores": "Más tiendas",
+    "previousStores": "Tiendas anteriores",
+    "views": {
+      "collection": "Tu colección",
+      "shelves": "Tus estanterías",
+      "journeys": "Tus misiones"
+    },
+    "previousView": "Anterior",
+    "nextView": "Siguiente",
+    "moreShelves_one": "+{{count}} estantería más",
+    "moreShelves_many": "+{{count}} estanterías más",
+    "moreShelves_other": "+{{count}} estanterías más",
+    "journeyCount": "{{done}}/{{counted}}"
+  }
+}

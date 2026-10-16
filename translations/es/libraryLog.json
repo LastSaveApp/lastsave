@@ -1,0 +1,264 @@
+{
+  "labels": {
+    "optional": "(opcional)",
+    "optionalRecommended": "(opcional, pero recomendado)"
+  },
+  "addLog": {
+    "title": "Anotar",
+    "options": {
+      "statusUpdate": {
+        "title": "Cambio de estado",
+        "description": "Anota tu progreso, tiempo, reacción y estado."
+      },
+      "achievement": {
+        "title": "Logro",
+        "description": "Recuerda tus mayores victorias y tus mejores marcas"
+      },
+      "journalEntry": {
+        "title": "Entrada de diario",
+        "description": "Guarda un recuerdo con imagen, video o comentario."
+      },
+      "session": {
+        "title": "Sesión",
+        "description": "Anota una sesión a mano o con cronómetro."
+      }
+    }
+  },
+  "targetSelection": {
+    "prompt": "¿Qué vas a anotar?",
+    "hide": "Ocultar",
+    "showAll": "Mostrar todo",
+    "showLess": "Mostrar menos",
+    "showMore_one": "Mostrar más (+{{count}} elemento)",
+    "showMore_many": "Mostrar más (+{{count}} elementos)",
+    "showMore_other": "Mostrar más (+{{count}} elementos)"
+  },
+  "statusModal": {
+    "titles": {
+      "add": "Anotar",
+      "edit": "Editar entrada"
+    },
+    "labels": {
+      "status": "Estado *",
+      "hoursPlayed": "Horas jugadas",
+      "started": "Empezado",
+      "finished": "Terminado",
+      "impression": "Impresión",
+      "comment": "Comentario"
+    },
+    "placeholders": {
+      "hours": "p. ej. 12,5",
+      "startDate": "Elige la fecha de inicio",
+      "endDate": "Elige la fecha de fin",
+      "commentPlaying": "Una impresión rápida o una nota…",
+      "commentWishlist": "¿Por qué quieres este juego?",
+      "commentBacklog": "¿Por qué lo dejas para jugar luego?"
+    },
+    "units": {
+      "hours": "h"
+    },
+    "hints": {
+      "selectStatus": "Elige un estado para continuar."
+    },
+    "actions": {
+      "decreaseHours": "Menos horas",
+      "increaseHours": "Más horas",
+      "saving": "Guardando…",
+      "saveChanges": "Guardar cambios",
+      "saveLog": "Guardar entrada"
+    },
+    "errors": {
+      "selectStatus": "Elige un estado antes de guardar.",
+      "saveFailed": "No se pudo guardar la entrada.",
+      "updateFailed": "No se pudo actualizar la entrada."
+    },
+    "success": {
+      "saved": "¡Entrada guardada!",
+      "updated": "¡Entrada actualizada!"
+    }
+  },
+  "sessionModal": {
+    "titles": {
+      "add": "Sesión",
+      "edit": "Editar sesión"
+    },
+    "labels": {
+      "mode": "Modo",
+      "sessionDate": "Fecha de la sesión",
+      "duration": "Duración",
+      "adjustDuration": "Ajustar duración",
+      "note": "Nota",
+      "hours": "Horas",
+      "minutes": "Minutos"
+    },
+    "modes": {
+      "manual": {
+        "title": "Manual",
+        "description": "Elige una fecha y escribe cuánto jugaste."
+      },
+      "timer": {
+        "title": "Cronómetro",
+        "description": "Inicia, pausa, reanuda y detén el cronómetro de una sesión en vivo."
+      }
+    },
+    "durationSuffix": {
+      "hours": "h",
+      "minutes": "min"
+    },
+    "timer": {
+      "currentSession": "Sesión actual",
+      "states": {
+        "ready": "Listo para empezar",
+        "running": "Cronómetro en marcha",
+        "paused": "Cronómetro en pausa",
+        "stopped": "Cronómetro detenido"
+      },
+      "start": "Iniciar",
+      "pause": "Pausar",
+      "stop": "Detener",
+      "resume": "Reanudar",
+      "reset": "Reiniciar cronómetro",
+      "summaryTitle": "Resumen del cronómetro",
+      "playedOn": "Jugado el {{date}}",
+      "recordedElapsed": "Tiempo registrado: {{time}}"
+    },
+    "placeholders": {
+      "note": "¿Qué jugaste en esta sesión?"
+    },
+    "actions": {
+      "saving": "Guardando…",
+      "saveChanges": "Guardar cambios",
+      "saveSession": "Guardar sesión",
+      "decreaseHours": "Menos horas",
+      "increaseHours": "Más horas",
+      "decreaseMinutes": "Menos minutos",
+      "increaseMinutes": "Más minutos"
+    },
+    "discard": {
+      "title": "¿Descartar la sesión en curso?",
+      "message": "Esta sesión tiene tiempo registrado, pero todavía no se guardó. Si continúas, se pierde el cronómetro en curso.",
+      "confirm": "Descartar sesión",
+      "cancel": "Conservar sesión"
+    },
+    "errors": {
+      "enterDuration": "Escribe cuánto jugaste en esta sesión.",
+      "futureDate": "La fecha de la sesión no puede ser futura.",
+      "stopTimer": "Detén el cronómetro antes de guardar la sesión.",
+      "durationPositive": "La duración de la sesión tiene que ser mayor que cero.",
+      "saveFailed": "No se pudo guardar la sesión.",
+      "updateFailed": "No se pudo actualizar la sesión."
+    },
+    "success": {
+      "saved": "Sesión guardada.",
+      "updated": "Sesión actualizada."
+    }
+  },
+  "achievementModal": {
+    "titles": {
+      "add": "Logro",
+      "edit": "Editar logro"
+    },
+    "labels": {
+      "achievementType": "Tipo de logro",
+      "title": "Título",
+      "description": "Descripción"
+    },
+    "placeholders": {
+      "title": "Derroté a Malenia sin invocaciones",
+      "description": "¿Qué hace que este logro valga la pena recordarlo?"
+    },
+    "media": {
+      "emptyTitle": "Añade una prueba o un recuerdo",
+      "emptyDescription": "Suelta una captura o un clip, o haz clic para elegirlo"
+    },
+    "actions": {
+      "saving": "Guardando…",
+      "saveChanges": "Guardar cambios",
+      "saveAchievement": "Guardar logro"
+    },
+    "errors": {
+      "chooseType": "Elige primero un tipo de logro.",
+      "mediaNotReady": "La imagen o el video todavía no están listos para guardar.",
+      "saveFailed": "No se pudo guardar el logro.",
+      "updateFailed": "No se pudo actualizar el logro."
+    },
+    "success": {
+      "saved": "Logro guardado.",
+      "updated": "Logro actualizado."
+    }
+  },
+  "journalModal": {
+    "titles": {
+      "add": "Entrada de diario",
+      "edit": "Editar entrada de diario"
+    },
+    "labels": {
+      "comment": "Comentario"
+    },
+    "placeholders": {
+      "comment": "¿Qué pasó aquí?"
+    },
+    "actions": {
+      "saving": "Guardando…",
+      "saveChanges": "Guardar cambios",
+      "saveJournal": "Guardar entrada"
+    },
+    "errors": {
+      "addContent": "Añade un comentario o elige una imagen o un video para la entrada.",
+      "mediaNotReady": "La imagen o el video todavía no están listos para guardar.",
+      "saveFailed": "No se pudo guardar la entrada de diario.",
+      "updateFailed": "No se pudo actualizar la entrada de diario."
+    },
+    "success": {
+      "saved": "Entrada de diario guardada.",
+      "updated": "Entrada de diario actualizada."
+    }
+  },
+  "media": {
+    "label": "Imagen o video",
+    "emptyTitle": "Añade una imagen o un clip",
+    "emptyDescription": "Suéltalo aquí o haz clic para elegir un archivo",
+    "or": "o",
+    "paste": "Pegar",
+    "pasting": "Pegando…",
+    "pasteHint": "Pega una captura, una imagen o un clip que hayas copiado",
+    "pasteTitle": {
+      "unavailable": "Aquí no se puede pegar desde el portapapeles.",
+      "empty": "No hay ninguna imagen ni video compatible en el portapapeles.",
+      "default": "Pegar una imagen o un video del portapapeles"
+    },
+    "drop": {
+      "title": "Suelta para añadir",
+      "subtitle": "Se admiten imágenes y videos"
+    },
+    "pickLocal": "Elegir archivo",
+    "previewAlt": "Vista previa del archivo de la entrada",
+    "remoteUrl": {
+      "label": "URL",
+      "placeholder": "https://.../clip.mp4 o https://.../imagen.jpg",
+      "invalid": "Usa la URL directa de una imagen o un video, que termine en la extensión del archivo."
+    },
+    "largeFile": {
+      "title": "Archivo grande",
+      "body": "Este archivo pesa {{size}}. Puede tardar un poco más en guardarse.",
+      "acknowledge": "Entiendo y quiero guardar este archivo de todos modos."
+    },
+    "validity": {
+      "remoteMustPoint": "La URL tiene que apuntar directamente a una imagen o a un video.",
+      "largeFileAck": "Este archivo es grande ({{size}}). Confirma el aviso antes de guardar."
+    },
+    "errors": {
+      "readPath": "No se pudo leer la ruta del archivo elegido.",
+      "unsupportedFile": "Este tipo de archivo no es compatible.",
+      "clipboardNotMedia": "Lo que hay en el portapapeles tiene que ser una imagen o un video.",
+      "clipboardPasteFailed": "No se pudo pegar desde el portapapeles.",
+      "clipboardUnavailable": "Aquí no se puede pegar desde el portapapeles.",
+      "clipboardEmpty": "El portapapeles no tiene ninguna imagen ni video compatible."
+    },
+    "fromLink": "Desde un enlace",
+    "remove": "Quitar archivo"
+  },
+  "logTime": {
+    "label": "Hora de la entrada"
+  }
+}

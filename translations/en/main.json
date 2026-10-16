@@ -1,0 +1,27 @@
+{
+  "signIn": {
+    "steam": "Connect Steam",
+    "epic": "Connect Epic Games",
+    "xbox": "Connect Xbox"
+  },
+  "uninstall": {
+    "title": "Uninstall LastSave",
+    "message": "Keep your LastSave data?",
+    "detail": "Your games, logs and screenshots are kept unless you delete them.\nDeleting moves them to the Recycle Bin.",
+    "keep": "Keep my data",
+    "delete": "Delete everything"
+  },
+  "databaseTooNew": {
+    "title": "Update LastSave to open this library",
+    "message": "This library was last opened by a newer version of LastSave, and older versions cannot read it safely.\n\nInstall the latest version of LastSave and try again. Your data has not been changed.\n\n(Library format {{databaseVersion}}; this version reads up to {{supportedVersion}}.)"
+  },
+  "scanRoots": {
+    "desktop": "Desktop",
+    "oneDriveDesktop": "OneDrive Desktop",
+    "publicDesktop": "Public Desktop",
+    "startMenu": "Start Menu Programs",
+    "commonStartMenu": "Common Start Menu Programs",
+    "epicManifests": "Epic Manifests",
+    "customFolder": "Custom Lookup Folder"
+  }
+}

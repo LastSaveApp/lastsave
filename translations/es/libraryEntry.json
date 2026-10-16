@@ -1,0 +1,287 @@
+{
+  "remove": {
+    "title": "¿Quitar de la biblioteca?",
+    "confirmQuestion": "¿Seguro que quieres quitar <game>{{title}}</game> de tu biblioteca?",
+    "thisGame": "este juego",
+    "warning": "Atención",
+    "warningBody": "Esto quita el juego de tu biblioteca junto con su historial de progreso. No se puede deshacer.",
+    "removing": "Quitando…",
+    "confirm": "Sí, quitar",
+    "failed": "No se pudo quitar de la biblioteca. Puede que el juego ya no exista."
+  },
+  "removeAttached": {
+    "title_one": "¿Quitar el DLC o la expansión?",
+    "title_many": "¿Quitar los DLC o las expansiones?",
+    "title_other": "¿Quitar los DLC o las expansiones?",
+    "confirmQuestion_one": "¿Seguro que quieres quitar <content>{{title}}</content> de <base>{{baseGameTitle}}</base>?",
+    "confirmQuestion_many": "¿Seguro que quieres quitar estos {{count}} elementos de <base>{{baseGameTitle}}</base>?",
+    "confirmQuestion_other": "¿Seguro que quieres quitar estos {{count}} elementos de <base>{{baseGameTitle}}</base>?",
+    "warning": "No se puede deshacer",
+    "warningBody_one": "Esto quita este DLC o expansión y todo su historial de progreso de este juego. No se puede deshacer.",
+    "warningBody_many": "Esto quita estos DLC o expansiones y todo su historial de progreso de este juego. No se puede deshacer.",
+    "warningBody_other": "Esto quita estos DLC o expansiones y todo su historial de progreso de este juego. No se puede deshacer.",
+    "removing": "Quitando…",
+    "confirm": "Sí, quitar"
+  },
+  "attachedSelector": {
+    "loading": "Comprobando…",
+    "available_one": "{{count}} disponible",
+    "available_many": "{{count}} disponibles",
+    "available_other": "{{count}} disponibles",
+    "selectedOfTotal": "{{selected}} de {{total}} seleccionados",
+    "allDlcs": "Todos los DLC",
+    "allExpansions": "Todas las expansiones",
+    "hide": "Ocultar",
+    "showAll": "Mostrar todo",
+    "showMore_one": "Mostrar más (+{{count}} elemento)",
+    "showMore_many": "Mostrar más (+{{count}} elementos)",
+    "showMore_other": "Mostrar más (+{{count}} elementos)",
+    "showLess": "Mostrar menos",
+    "alreadyAttached": "Ya está vinculado a este juego"
+  },
+  "add": {
+    "title": "Añadir a la biblioteca",
+    "step1": "Elige un juego del catálogo",
+    "step2": "Elige su estado actual",
+    "step3": "Configura el juego en tu biblioteca",
+    "add": "Añadir a la colección",
+    "adding": "Añadiendo…"
+  },
+  "baseGameStatus": {
+    "checking": "Revisando tu Biblioteca…",
+    "alreadyInLibrary": "Ya está en tu Biblioteca",
+    "willBeAdded": "Se añadirá automáticamente"
+  },
+  "edit": {
+    "title": "Editar juego",
+    "close": "Cerrar",
+    "searchHint": "Busca el juego correcto para reemplazar este.",
+    "ownSubtitle": "Añádelo a tu colección con un launcher o una ruta.",
+    "notOwnSubtitle": "Tenlo en la colección sin datos de launcher.",
+    "save": "Guardar cambios",
+    "saving": "Guardando…"
+  },
+  "replace": {
+    "title": "¿Cambiar el juego?",
+    "message": "Al cambiar el juego se borra su historial (sesiones, logros y entradas de diario) y se vuelve a guardar con el juego y la configuración nuevos.",
+    "confirm": "Cambiar juego"
+  },
+  "duplicateWarning": {
+    "heading": "El juego ya está en tu Biblioteca",
+    "message": "Ya tienes «{{title}}» en tu Biblioteca.\nNo puedes cambiar este juego por uno que ya esté en tu Biblioteca."
+  },
+  "attachedContentFallback": "Contenido adicional",
+  "lookup": {
+    "searchTooltip": "Busca en los accesos directos y las carpetas de instalación habituales de este PC para rellenar los datos del juego.",
+    "searchGame": "Buscar juego",
+    "stopAria": "Detener la búsqueda en Windows",
+    "stop": "Detener",
+    "configureFolders": "Configurar las carpetas de búsqueda de Windows",
+    "dismissWarning": "Cerrar aviso",
+    "dismissError": "Cerrar error"
+  },
+  "search": {
+    "placeholder": "Busca por título…",
+    "loading": "Buscando…",
+    "fetchingLatest": "Obteniendo los datos más recientes…",
+    "noResults": "No se encontraron juegos.",
+    "addManually": "¿No lo encuentras? Añádelo a mano",
+    "noDiscovery": "No hay juegos para descubrir."
+  },
+  "source": {
+    "local": "Local",
+    "igdb": "IGDB"
+  },
+  "actions": {
+    "change": "Cambiar",
+    "close": "Cerrar",
+    "discard": "Descartar"
+  },
+  "labels": {
+    "baseGame": "Juego base",
+    "dlcsExpansions": "DLC / Expansiones",
+    "platform": "Plataforma",
+    "launcher": "Launcher",
+    "notSet": "Sin definir",
+    "owned": "Lo tengo",
+    "notOwned": "No lo tengo",
+    "optional": "(opcional)"
+  },
+  "emptyState": {
+    "attachedContent": "Este juego no tiene DLC ni expansiones vinculados."
+  },
+  "status": {
+    "title": "Estado",
+    "current": "Estado actual",
+    "change": "Cambiar estado",
+    "keepCurrent": "Mantener el estado actual"
+  },
+  "ownership": {
+    "ownTitle": "Lo tengo o lo juego",
+    "ownSubtitle": "Añade el launcher y las rutas si hace falta.",
+    "notOwnTitle": "No lo tengo",
+    "notOwnSubtitle": "Tenlo en la colección sin datos de launcher."
+  },
+  "steamAutoSync": {
+    "title": "Autosincronizar con Steam",
+    "description": "Mantén el tiempo de juego al día con Steam sin añadir entradas de diario.",
+    "connectTooltipGame": "Conecta Steam antes de activar la autosincronización de este juego.",
+    "connectTooltip": "Conecta Steam antes de activar la autosincronización."
+  },
+  "romPicker": {
+    "chooseFile": "Elegir archivo…",
+    "chooseFolder": "Elegir carpeta…"
+  },
+  "paths": {
+    "shortcutLabel": "Acceso directo (.lnk)",
+    "shortcutPlaceholder": "C:\\Juegos\\MiJuego.lnk",
+    "browseFiles": "Buscar archivo",
+    "executableLabel": "Ejecutable (.exe)",
+    "executablePlaceholder": "C:\\Juegos\\MiJuego\\juego.exe",
+    "browseExecutable": "Buscar ejecutable",
+    "emulatorLabel": "Ruta del emulador",
+    "emulatorOptional": "(acceso directo o .exe, opcional)",
+    "emulatorPlaceholder": "C:\\Emuladores\\PCSX2\\PCSX2.lnk",
+    "browseLauncher": "Buscar launcher",
+    "emulatorHint": "Las rutas del emulador y de la ROM son opcionales. Con las dos, LastSave puede intentar detectar las sesiones solo.",
+    "romLabel": "Ruta de la ROM",
+    "romPlaceholder": "D:\\RetroBat\\roms\\ps2\\God of War.iso",
+    "browseRom": "Buscar ROM"
+  },
+  "duplicate": {
+    "title": "Este juego ya está en tu colección",
+    "description": "Revisa las diferencias y decide si actualizas el juego que ya tienes o descartas esta configuración nueva.",
+    "columns": {
+      "field": "Campo",
+      "current": "Actual",
+      "new": "Nuevo"
+    },
+    "noChanges": "La configuración nueva es igual a la actual, así que no hay nada que actualizar.",
+    "update": "Actualizar el juego existente",
+    "updating": "Actualizando…",
+    "fields": {
+      "status": "Estado",
+      "ownership": "Propiedad",
+      "platform": "Plataforma",
+      "launcher": "Launcher",
+      "shortcutPath": "Acceso directo",
+      "executablePath": "Ejecutable",
+      "emulatorPath": "Ruta del emulador",
+      "romPath": "Ruta de la ROM"
+    }
+  },
+  "dialog": {
+    "selectShortcut": "Elige el acceso directo del juego",
+    "selectExecutable": "Elige el ejecutable del juego",
+    "selectEmulator": "Elige el acceso directo o el ejecutable del emulador",
+    "selectRom": "Elige el archivo de la ROM",
+    "filterShortcuts": "Accesos directos",
+    "filterExecutables": "Ejecutables",
+    "filterLaunchers": "Launchers"
+  },
+  "errors": {
+    "remoteNoIgdbId": "Este resultado no tiene id de IGDB.",
+    "parentNoIgdbId": "El juego base no tiene id de IGDB.",
+    "detailsFailed": "No se pudieron cargar los datos del juego.",
+    "detailsLoading": "Los datos del juego todavía se están cargando.",
+    "materializeFailed": "No se pudo guardar «{{title}}» en el catálogo.",
+    "resolveRootFailed": "No se pudo encontrar el juego elegido en el catálogo local.",
+    "emulatorResolveFailed": "LastSave no pudo resolver este acceso directo o ejecutable del emulador.",
+    "addFailed": "No se pudo añadir el juego a la biblioteca.",
+    "addAttachedFailed": "No se pudo añadir este DLC o expansión a tu Biblioteca.",
+    "libraryStatusFailed": "LastSave no pudo comprobar si el juego base ya está en tu Biblioteca.",
+    "pcLookupFailed": "No se pudo buscar el juego elegido en este PC.",
+    "updateFailed": "No se pudo actualizar el juego que ya tienes en la biblioteca.",
+    "updateEntryFailed": "No se pudo actualizar el juego.",
+    "replaceFailed": "No se pudo cambiar el juego."
+  },
+  "pathValidation": {
+    "shortcutInvalid": "El acceso directo tiene que ser una ruta de archivo válida.",
+    "shortcutExtension": "El acceso directo tiene que ser un archivo .lnk o .url.",
+    "executableInvalid": "El ejecutable tiene que ser una ruta de archivo válida.",
+    "executableExtension": "El ejecutable tiene que ser un archivo .exe, .bat, .cmd o .com.",
+    "emulatorInvalid": "La ruta del emulador tiene que ser un acceso directo o un ejecutable válido.",
+    "romInvalid": "La ruta de la ROM tiene que ser una ruta de archivo válida.",
+    "romExtension": "La ruta de la ROM tiene que ser una ROM, no un documento, una imagen ni un ejecutable.",
+    "directoryInvalid": "Tiene que ser una ruta de carpeta válida.",
+    "directoryIsFile": "Tiene que ser una carpeta, no un archivo."
+  },
+  "missingPaths": {
+    "title": "Estos archivos ya no están en este PC",
+    "body": "Actualiza las rutas o bórralas.",
+    "clear": "Borrar rutas",
+    "fileGone": "Este archivo ya no está en este PC.",
+    "driveOffline": "Su unidad no está conectada ahora.",
+    "blocksSave": "Una ruta apunta a un archivo que ya no existe. Actualízala, bórrala o marca el juego como que no lo tienes."
+  },
+  "advancedLaunch": {
+    "title": "Inicio y detección avanzados",
+    "configured": "Configurado",
+    "dialogDescription": "Qué se ejecuta cuando le das a Jugar y cómo LastSave reconoce este juego mientras corre.",
+    "launchSection": "Inicio",
+    "detectionSection": "Detección",
+    "commandLine": "Comando que ejecutará LastSave",
+    "commandAutomatic": "Automático",
+    "commandCustom": "Personalizado",
+    "commandReset": "Volver a automático",
+    "commandHint": "Edita la línea para ejecutar tu propio comando; pulsa Enter o haz clic fuera para aplicarlo.",
+    "commandInvalid": "Este comando tiene unas comillas sin cerrar. Corrígelo para aplicarlo.",
+    "commandEmpty": "Todavía no hay nada que abrir: pon una ruta arriba o escribe un comando aquí",
+    "useCustomExecutable": "Usar otro ejecutable",
+    "useCustomExecutableHint": "Cambia cómo se abre este juego. El ejecutable de arriba sigue identificando el juego para la detección.",
+    "customExecutable": "Ejecutable de inicio",
+    "arguments": "Argumentos de inicio",
+    "argumentsPlaceholder": "-fullscreen -- \"D:\\Roms\\juego.iso\"",
+    "argumentsInvalid": "Estos argumentos tienen unas comillas sin cerrar. Corrígelos antes de guardar.",
+    "argumentsWithoutExecutable": "Los argumentos de inicio necesitan un ejecutable propio con el que ejecutarse.",
+    "workingDir": "Carpeta de trabajo",
+    "workingDirHint": "Dónde arranca el comando. Si está vacía, se usa la carpeta del ejecutable.",
+    "installDir": "Carpeta de instalación",
+    "installDirHint": "La carpeta raíz del juego: la que vigila la detección por carpeta de instalación.",
+    "directoryPlaceholder": "C:\\Juegos\\MiJuego",
+    "autoValue": "auto: {{value}}",
+    "browseFolder": "Buscar carpeta",
+    "trackingModes": {
+      "auto": "Automático",
+      "directory": "Carpeta de instalación",
+      "exe": "Ejecutable",
+      "processName": "Nombre del proceso",
+      "manualOnly": "Solo manual"
+    },
+    "trackingModeHints": {
+      "auto": "LastSave elige la mejor señal disponible para este juego.",
+      "directory": "Cuenta cualquier proceso que corra dentro de la carpeta del juego. Ideal para juegos con launcher o con varios ejecutables.",
+      "exe": "Solo cuenta la ruta exacta del ejecutable.",
+      "processName": "Reconoce el proceso por su nombre, se ejecute desde donde se ejecute.",
+      "manualOnly": "Nunca se detecta solo. Las sesiones cuentan solo cuando tú las inicias y las detienes.",
+      "manualOnlyEmulator": "El emulador nunca se detecta solo. Jugar sigue abriendo el juego; el cronómetro es todo tuyo."
+    },
+    "autoResolvesTo": "Ahora mismo se resuelve como: {{mode}}",
+    "trackedProcessName": "Nombre del proceso a vigilar",
+    "trackedProcessNamePlaceholder": "juego.exe"
+  },
+  "emulatorPicker": {
+    "label": "Emulador",
+    "settings": "Configurar emuladores",
+    "placeholder": "Elige un emulador",
+    "other": "Otro emulador",
+    "groups": {
+      "configured": "Configurados",
+      "catalog": "Todos los emuladores",
+      "other": "No está en la lista",
+      "notSetUp": "Sin configurar todavía"
+    },
+    "addAnother": "Añadir otro emulador",
+    "notSetUp": "{{name}} todavía no está configurado en Emuladores.",
+    "keepsOwnPath": "Este juego conserva su propia ruta: {{path}}",
+    "setUp": "Configurar"
+  },
+  "romLookup": {
+    "label": "Buscar",
+    "action": "Buscar la ROM por título",
+    "placeholder": "Busca por título",
+    "searching": "Buscando en tus carpetas de ROM…",
+    "empty": "Ninguna ROM coincide con ese título.",
+    "noSources": "Este emulador todavía no tiene carpetas de ROM. Añádelas en Importar juegos."
+  }
+}

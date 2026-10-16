@@ -1,0 +1,11 @@
+{
+  "searchLibrary": "Search your library",
+  "searchAnywhere": "Search your library or any game",
+  "clearSearch": "Clear search",
+  "inLibrary": "In your library",
+  "moreGames": "More games",
+  "notInLibrary": "Not in your library",
+  "noResults": "No games match.",
+  "anywhereHint": "Type two letters or more to find any game. One you don’t have joins your library with no status, not owned.",
+  "addFailed": "Could not add {{title}} to your library."
+}

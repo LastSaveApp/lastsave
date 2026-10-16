@@ -1,0 +1,11 @@
+{
+  "searchLibrary": "Buscar en tu biblioteca",
+  "searchAnywhere": "Busca en tu biblioteca o cualquier juego",
+  "clearSearch": "Borrar búsqueda",
+  "inLibrary": "En tu biblioteca",
+  "moreGames": "Más juegos",
+  "notInLibrary": "No está en tu biblioteca",
+  "noResults": "Ningún juego coincide.",
+  "anywhereHint": "Escribe dos letras o más para encontrar cualquier juego. Uno que no tengas entra a tu biblioteca sin estado y sin poseerlo.",
+  "addFailed": "No se pudo añadir {{title}} a tu biblioteca."
+}

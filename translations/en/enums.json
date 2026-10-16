@@ -1,0 +1,162 @@
+{
+  "statuses": {
+    "wishlist": {
+      "label": "Wishlist",
+      "description": "Want to own/play"
+    },
+    "backlog": {
+      "label": "Backlog",
+      "description": "Want to play someday"
+    },
+    "playing": {
+      "label": "Playing",
+      "description": "Currently playing"
+    },
+    "paused": {
+      "label": "Paused",
+      "description": "Temporarily paused"
+    },
+    "played": {
+      "label": "Played",
+      "description": "Played it, without finishing or dropping it"
+    },
+    "completed": {
+      "label": "Completed",
+      "description": "Finished the main story"
+    },
+    "endless": {
+      "label": "Endless",
+      "description": "Games without an ending: you play them, you do not finish them"
+    },
+    "dropped": {
+      "label": "Dropped",
+      "description": "Stopped playing"
+    },
+    "unstatus": {
+      "label": "Unstatus",
+      "description": "Added to library without a status yet"
+    }
+  },
+  "labels": {
+    "noStatus": "No Status"
+  },
+  "launcher": {
+    "steam": "Steam",
+    "epic": "Epic",
+    "xbox": "Xbox",
+    "microsoft_store": "Microsoft Store",
+    "gog": "GOG",
+    "local": "Local",
+    "other": "Other"
+  },
+  "platformType": {
+    "windows_pc": "Windows / PC",
+    "emulator": "Emulator",
+    "playstation_console": "PlayStation Console",
+    "xbox_console": "Xbox Console",
+    "nintendo_console": "Nintendo Console",
+    "other_console": "Other Console"
+  },
+  "reactions": {
+    "garbage": "Garbage",
+    "bad": "Bad",
+    "ok": "OK",
+    "great": "Great",
+    "masterpiece": "Masterpiece"
+  },
+  "companyStatus": {
+    "0": "Active",
+    "1": "Defunct",
+    "2": "Merged",
+    "3": "Renamed"
+  },
+  "relationType": {
+    "base": "Base Game",
+    "dlc": "DLC",
+    "expansion": "Expansion",
+    "dlcOrExpansion": "DLC / Expansion",
+    "attachedContent": "Attached content"
+  },
+  "achievements": {
+    "trophy": {
+      "label": "Trophy",
+      "chip": "Achievement: Trophy",
+      "description": "A milestone, achievement, or trophy."
+    },
+    "boss_combat": {
+      "label": "Boss Combat",
+      "chip": "Achievement: Boss",
+      "description": "A hard fight, monster kill, or combat challenge."
+    },
+    "dungeon": {
+      "label": "Dungeon",
+      "chip": "Achievement: Dungeon",
+      "description": "A dungeon, raid, level, or difficult area."
+    },
+    "treasure_loot": {
+      "label": "Treasure",
+      "chip": "Achievement: Loot",
+      "description": "A rare item, secret chest, drop, or collection."
+    },
+    "easter_egg_secret": {
+      "label": "Easter Egg",
+      "chip": "Achievement: Secret",
+      "description": "A hidden detail, easter egg, or secret discovery."
+    },
+    "record_high_score": {
+      "label": "Record",
+      "chip": "Achievement: Record",
+      "description": "A speed, high score, streak, or personal best."
+    },
+    "rank_level": {
+      "label": "Rank / Level",
+      "chip": "Achievement: Rank",
+      "description": "A max level, ladder or competitive rank."
+    },
+    "upgrade": {
+      "label": "Upgrade",
+      "chip": "Achievement: Upgrade",
+      "description": "A new ability, weapon, tool or build that changes how you play."
+    },
+    "chapter": {
+      "label": "Chapter",
+      "chip": "Achievement: Chapter",
+      "description": "A chapter, act, world or stage behind you."
+    },
+    "challenge": {
+      "label": "Challenge",
+      "chip": "Achievement: Challenge",
+      "description": "Done the hard way: no hit, hardest difficulty, no deaths."
+    },
+    "discovery": {
+      "label": "Discovery",
+      "chip": "Achievement: Discovery",
+      "description": "A place found: a new region, a landmark, the whole map."
+    },
+    "other": {
+      "label": "Other",
+      "chip": "Achievement: Other",
+      "description": "Anything memorable."
+    }
+  },
+  "platform": {
+    "windows_pc": "Windows / PC",
+    "emulator": "Emulator",
+    "playstation_console": "PlayStation Console",
+    "xbox_console": "Xbox Console",
+    "nintendo_console": "Nintendo Console",
+    "other_console": "Other"
+  },
+  "scanWarnings": {
+    "already_in_library": "Already in your library",
+    "no_catalog_match": "Couldn't be identified",
+    "catalog_lookup_failed": "Couldn't reach the catalog to check this one",
+    "shortcut_missing": "No shortcut found",
+    "executable_missing": "Executable not found",
+    "emulator_unresolved": "The emulator's executable couldn't be resolved",
+    "parent_unresolved": "The base game couldn't be resolved",
+    "disc_incomplete": "Its disc is incomplete: a track its .cue lists isn't in the folder",
+    "launcher_without_executable": "Found through its launcher, without a direct executable",
+    "found_on_multiple_stores": "Found on more than one store"
+  }
+}

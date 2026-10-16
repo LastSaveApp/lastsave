@@ -1,0 +1,941 @@
+{
+  "interrupted": {
+    "notifyTitle": "Una importación no terminó",
+    "notifyDescription_one": "LastSave se cerró mientras añadía juegos: falta {{count}} de {{total}}.",
+    "notifyDescription_many": "LastSave se cerró mientras añadía juegos: faltan {{count}} de {{total}}.",
+    "notifyDescription_other": "LastSave se cerró mientras añadía juegos: faltan {{count}} de {{total}}.",
+    "review": "Revisar",
+    "title": "¿Terminar de añadir tus juegos?",
+    "message_one": "LastSave se cerró mientras añadía juegos. Falta añadir {{count}} de {{total}}. Reanuda para añadirlo o descártalo; los juegos ya añadidos se quedan en tu biblioteca.",
+    "message_many": "LastSave se cerró mientras añadía juegos. Faltan añadir {{count}} de {{total}}. Reanuda para añadirlos o descártalos; los juegos ya añadidos se quedan en tu biblioteca.",
+    "message_other": "LastSave se cerró mientras añadía juegos. Faltan añadir {{count}} de {{total}}. Reanuda para añadirlos o descártalos; los juegos ya añadidos se quedan en tu biblioteca.",
+    "resume": "Reanudar",
+    "discard": "Descartar",
+    "discarded": "Importación descartada. Los juegos ya añadidos se quedan en tu biblioteca.",
+    "resumeFailed": "No se pudo reanudar la importación."
+  },
+  "jobToast": {
+    "gamesAdded_one": "{{count}} juego añadido",
+    "gamesAdded_many": "{{count}} juegos añadidos",
+    "gamesAdded_other": "{{count}} juegos añadidos",
+    "entriesUpdated_one": "{{count}} juego actualizado",
+    "entriesUpdated_many": "{{count}} juegos actualizados",
+    "entriesUpdated_other": "{{count}} juegos actualizados",
+    "attachedContent_one": "{{count}} contenido adicional",
+    "attachedContent_many": "{{count}} contenidos adicionales",
+    "attachedContent_other": "{{count}} contenidos adicionales",
+    "completed": "Importación completada.",
+    "completedBare": "Importación completada",
+    "withAttached": "{{summary}} con {{attached}}",
+    "cancelled_one": "Importación cancelada después de {{count}} juego.",
+    "cancelled_many": "Importación cancelada después de {{count}} juegos.",
+    "cancelled_other": "Importación cancelada después de {{count}} juegos.",
+    "failed": "Falló una importación en segundo plano.",
+    "warnings_one": "La importación dejó {{count}} aviso.",
+    "warnings_many": "La importación dejó {{count}} avisos.",
+    "warnings_other": "La importación dejó {{count}} avisos."
+  },
+  "scanPanel": {
+    "back": "Volver"
+  },
+  "installed": {
+    "dialog": {
+      "selectFolder": "Elige una carpeta para buscar"
+    }
+  },
+  "emulated": {
+    "dialog": {
+      "selectRomFiles": "Elige archivos de ROM",
+      "selectRomFolder": "Elige una carpeta de ROMs"
+    }
+  },
+  "steam": {
+    "title": "Importar juegos de Steam",
+    "description": "Conecta Steam, busca tus juegos propios, compartidos y deseados, y revísalo todo antes de que llegue a la biblioteca.",
+    "connect": {
+      "required": "Obligatorio",
+      "title": "Conecta tu cuenta de Steam",
+      "description": "La importación de Steam parte de tu cuenta conectada. La usamos para leer tu biblioteca, tu lista de deseados, los juegos compartidos y el tiempo de juego antes de importar nada.",
+      "checking": "Revisando tu conexión con Steam…"
+    },
+    "prefs": {
+      "title": "Elige qué incluir",
+      "description": "Estas preferencias definen qué juegos propone la búsqueda de Steam antes de la revisión.",
+      "nonPlayed": {
+        "title": "Incluir juegos sin jugar",
+        "description": "Trae juegos de tu biblioteca de Steam aunque todavía tengan cero horas."
+      },
+      "wishlist": {
+        "title": "Incluir juegos deseados",
+        "description": "La lista de deseados de Steam llega a LastSave como Deseado, sin pedir rutas locales."
+      },
+      "family": {
+        "title": "Importar juegos de la biblioteca familiar",
+        "description": "Solo se incluyen los juegos compartidos en familia que sí jugaste, para no traer una biblioteca entera que nunca tocaste."
+      },
+      "autoSync": {
+        "title": "Autosincronizar juegos",
+        "description": "Los juegos propios y compartidos en familia mantendrán su tiempo de juego al día con Steam."
+      }
+    },
+    "disconnect": {
+      "title": "¿Desconectar Steam?",
+      "message": "Al desconectar se quita la conexión con Steam de este asistente y se cierra la sesión de Steam vinculada a LastSave.",
+      "confirm": "Desconectar",
+      "cancel": "Mantener conectado"
+    }
+  },
+  "epic": {
+    "capabilities": {
+      "title": "Qué traer de Epic",
+      "description": "Todo lo que sabe tu cuenta de Epic: lo que tienes, cuánto lo jugaste y lo que deseas. Los juegos instalados llegan con su ruta de inicio.",
+      "unplayed": {
+        "title": "Incluir juegos sin jugar",
+        "description": "Trae juegos de tu biblioteca de Epic aunque todavía tengan cero horas."
+      },
+      "wishlist": {
+        "title": "Incluir juegos deseados",
+        "description": "Trae tu lista de deseados de la tienda de Epic, con la fecha en que los añadiste."
+      },
+      "autoSync": {
+        "title": "Autosincronizar juegos",
+        "description": "Los juegos importados mantendrán su tiempo de juego al día con Epic."
+      }
+    },
+    "connect": {
+      "required": "Requiere cuenta",
+      "title": "Conecta tu cuenta de Epic",
+      "description": "Epic le dice a LastSave qué juegos tienes, cuánto los jugaste y cuáles deseas. Los juegos ya instalados aquí los encuentra Este equipo de todos modos.",
+      "checking": "Revisando tu conexión con Epic…",
+      "expired": "Tu sesión de Epic caducó. Vuelve a conectar para seguir importando y sincronizando.",
+      "disclaimer": "LastSave no está afiliado a Epic Games. Al conectar inicias sesión con Epic, y el token resultante se guarda cifrado en este equipo."
+    },
+    "disconnect": {
+      "title": "¿Desconectar Epic?",
+      "message": "Tus juegos de Epic importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con Epic. Puedes volver a conectar la misma cuenta cuando quieras.",
+      "confirm": "Desconectar",
+      "cancel": "Mantener conectado"
+    }
+  },
+  "xbox": {
+    "capabilities": {
+      "title": "Qué traer de Xbox",
+      "description": "Cada juego que tu cuenta de Xbox ha jugado, en PC, Game Pass y consola, con las horas que guardó Xbox. Los instalados llegan con su ruta de inicio.",
+      "console": {
+        "title": "Incluir juegos de consola",
+        "description": "Juegos que jugaste en una consola Xbox. LastSave guarda su historial y sus horas, pero no puede abrirlos."
+      },
+      "autoSync": {
+        "title": "Autosincronizar juegos",
+        "description": "Los juegos importados mantendrán su tiempo de juego al día con Xbox."
+      },
+      "historyNote": "Xbox comparte los juegos que has jugado: uno comprado y nunca abierto no aparece, y los de Game Pass se ven igual que los comprados."
+    },
+    "connect": {
+      "required": "Requiere cuenta",
+      "title": "Conecta tu cuenta de Xbox",
+      "description": "Xbox le dice a LastSave cada juego que has jugado, en PC, Game Pass y consola, y cuánto. Los juegos ya instalados aquí los encuentra Este equipo de todos modos.",
+      "checking": "Revisando tu conexión con Xbox…",
+      "expired": "Tu sesión de Xbox caducó. Vuelve a conectar para seguir importando y sincronizando.",
+      "disclaimer": "LastSave no está afiliado a Microsoft ni a Xbox. Inicias sesión en la página de Microsoft, y LastSave guarda el token resultante cifrado en este equipo."
+    },
+    "disconnect": {
+      "title": "¿Desconectar Xbox?",
+      "message": "Tus juegos de Xbox importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con Xbox. Puedes volver a conectar la misma cuenta cuando quieras.",
+      "confirm": "Desconectar",
+      "cancel": "Mantener conectado"
+    }
+  },
+  "unified": {
+    "title": "Importar juegos",
+    "description": "Configura tus fuentes una vez y luego revisa tus juegos.",
+    "steps": {
+      "sources": "Fuentes",
+      "setup": "Configurar",
+      "review": "Tus juegos"
+    },
+    "entry": {
+      "heading": "Traigamos tus juegos",
+      "hint": "Elige dónde están tus juegos. Luego configuras cada fuente y revisas todo antes de añadirlo.",
+      "connect": "Conectar",
+      "reconnect": "Reconectar",
+      "connected": "Conectado",
+      "connectedAs": "Conectado · {{name}}",
+      "tiers": {
+        "recommended": {
+          "title": "Recomendadas"
+        },
+        "more": {
+          "title": "Más fuentes"
+        }
+      }
+    },
+    "sources": {
+      "pc": {
+        "name": "Este equipo",
+        "tagline": "Juegos instalados, launchers y accesos directos de este equipo."
+      },
+      "steam": {
+        "name": "Steam",
+        "tagline": "Juegos propios, deseados y compartidos, con tiempo de juego."
+      },
+      "epic": {
+        "name": "Epic Games",
+        "tagline": "Tus juegos de Epic, tus horas jugadas y tu lista de deseados."
+      },
+      "xbox": {
+        "name": "Xbox",
+        "tagline": "Jugados en PC, Game Pass y consola Xbox, con tus horas."
+      },
+      "emulators": {
+        "name": "Emuladores",
+        "tagline": "Juegos de tus emuladores y carpetas de ROMs."
+      }
+    },
+    "state": {
+      "ready": "Lista",
+      "needsSetup": "Falta configurar",
+      "notConnected": "Sin conectar"
+    },
+    "summary": {
+      "notSelected": "No elegida",
+      "defaultFolders": "Carpetas predeterminadas",
+      "defaultsPlus": "Predeterminadas · {{additions}}",
+      "pcTypeFolder_one": "{{count}} carpeta",
+      "pcTypeFolder_many": "{{count}} carpetas",
+      "pcTypeFolder_other": "{{count}} carpetas",
+      "pcTypeShortcut_one": "{{count}} acceso directo",
+      "pcTypeShortcut_many": "{{count}} accesos directos",
+      "pcTypeShortcut_other": "{{count}} accesos directos",
+      "pcTypeGame_one": "{{count}} juego",
+      "pcTypeGame_many": "{{count}} juegos",
+      "pcTypeGame_other": "{{count}} juegos",
+      "steamNoneSelected": "Ninguna categoría elegida",
+      "extraFolders_one": "{{count}} carpeta extra",
+      "extraFolders_many": "{{count}} carpetas extra",
+      "extraFolders_other": "{{count}} carpetas extra",
+      "steam": "{{name}} · {{includes}}",
+      "steamNoIncludes": "{{name}}",
+      "steamDisconnected": "Sin conectar",
+      "includeUnplayed": "Sin jugar",
+      "includeWishlist": "Deseados",
+      "includeFamily": "Familia",
+      "includeAutoSync": "Autosincronización",
+      "emulators": "{{emulators}} · {{roms}}",
+      "emulatorsCount_one": "{{count}} emulador",
+      "emulatorsCount_many": "{{count}} emuladores",
+      "emulatorsCount_other": "{{count}} emuladores",
+      "romPaths_one": "{{count}} ruta",
+      "romPaths_many": "{{count}} de rutas",
+      "romPaths_other": "{{count}} rutas",
+      "emulatorsEmpty": "Falta configurar",
+      "epicNoneSelected": "Nada elegido",
+      "epicIncludeOwned": "Tu biblioteca",
+      "epicIncludeWishlist": "deseados",
+      "epicDisconnected": "Conecta Epic para importar tu biblioteca",
+      "epicIncludeUnplayed": "sin jugar",
+      "xboxDisconnected": "Conecta Xbox para importar tu historial",
+      "xboxIncludePlayed": "Tus juegos jugados",
+      "xboxIncludeConsole": "juegos de consola"
+    },
+    "pc": {
+      "yourStuff": {
+        "title": "Añade tus carpetas y juegos",
+        "dropHint": "Suelta aquí carpetas o juegos",
+        "dropActive": "Suelta para añadir",
+        "addFolder": "Añadir carpeta",
+        "addGames": "Añadir juegos",
+        "empty": "Todavía no añadiste carpetas ni juegos."
+      },
+      "entry": {
+        "removeFolder": "Quitar carpeta",
+        "removeGame": "Quitar juego"
+      },
+      "clearAll": "Quitar todo",
+      "clearConfirm": {
+        "title": "¿Quitar todas las carpetas y juegos añadidos?",
+        "message": "Esto quita cada carpeta y juego que añadiste aquí. Las ubicaciones que siempre se revisan no cambian.",
+        "confirm": "Quitar todo"
+      },
+      "alwaysScanned": {
+        "title": "Siempre se revisan",
+        "summary_one": "{{count}} ubicación",
+        "summary_many": "{{count}} ubicaciones",
+        "summary_other": "{{count}} ubicaciones",
+        "hint": "Ya revisamos tus launchers y las ubicaciones habituales automáticamente."
+      },
+      "dialog": {
+        "selectGames": "Elige los juegos a añadir"
+      }
+    },
+    "ignored": {
+      "title": "Ignorados",
+      "summary_one": "{{count}} elemento",
+      "summary_many": "{{count}} elementos",
+      "summary_other": "{{count}} elementos",
+      "summaryEmpty": "Ninguno",
+      "hint": "Lo que descartaste al revisar. Queda fuera de futuras búsquedas y revisiones hasta que lo restaures.",
+      "empty": "Nada ignorado de esta fuente todavía.",
+      "restore": "Restaurar",
+      "clearAll": "Restaurar todo",
+      "open_one": "Ignorados {{count}}",
+      "open_many": "Ignorados {{count}}",
+      "open_other": "Ignorados {{count}}",
+      "dialogHint": "Juegos que ignoraste o que no se pudieron identificar. Las búsquedas y revisiones los saltan hasta que los restaures.",
+      "emptyAll": "No hay nada ignorado.",
+      "doneAndRescan": "Listo, traerlos de vuelta",
+      "clearConfirm": {
+        "title": "¿Restaurar todo lo ignorado?",
+        "message": "Volverán a aparecer la próxima vez que se revise esta fuente. No se añade nada a tu biblioteca.",
+        "confirm": "Restaurar todo"
+      },
+      "origin": {
+        "review": "Descartado al revisar",
+        "identify": "Dejado fuera al identificar",
+        "check": "Descartado en una revisión",
+        "unidentified": "No se pudo identificar"
+      }
+    },
+    "emulators": {
+      "title": "Emuladores",
+      "configTitle": "Emuladores",
+      "configDescription": "Elige tus emuladores, indica el ejecutable de cada uno y añade las carpetas con sus ROMs.",
+      "retroarchCores": {
+        "title": "Cores de RetroArch",
+        "description": "RetroArch necesita un core por sistema para abrir un juego directamente. Asigna a cada plataforma su archivo de core y Jugar abrirá la ROM directamente.",
+        "platformPlaceholder": "Plataforma (p. ej. PlayStation)",
+        "corePlaceholder": "C:\\RetroArch\\cores\\core_libretro.dll",
+        "pickCore": "Elegir archivo de core",
+        "coreFilter": "Cores de Libretro",
+        "add": "Asignar un core",
+        "remove": "Quitar el core de {{platform}}"
+      },
+      "retroarch": {
+        "coresSummary": "{{cores}} cores encontrados · {{systems}} sistemas disponibles",
+        "coresMissing": "No se encontró la carpeta de cores",
+        "needsExe": "Indica el ejecutable de RetroArch para detectar sus cores",
+        "pickCoresDir": "Elige la carpeta de cores",
+        "autoDetect": "Detectar",
+        "systemLabel": "Sistema",
+        "systemPlaceholder": "Elige un sistema…",
+        "coreFor": "Core para {{system}}",
+        "noCore": "Ningún core elegido",
+        "recommended": "recomendado",
+        "coresFolderTitle": "Carpeta de cores",
+        "coresFolderUnknown": "Aún sin detectar",
+        "coresFolderAutoHint": "Detectada a partir del ejecutable de RetroArch y su retroarch.cfg.",
+        "coresFolderOverridden": "Usa tu carpeta personalizada. Detectar vuelve a los cores del ejecutable.",
+        "systemsTitle": "Core por sistema",
+        "manualHint": "Asigna a mano un core a una plataforma cuando la detección no lo ve.",
+        "addSystem": "Añadir sistema…",
+        "addSystemPrompt": "Añade un sistema para ordenar sus ROMs…",
+        "assignSystem": "Asignar a un sistema…",
+        "systemNone": "Sin sistema",
+        "addWithoutSystem": "Añadir ROMs sin sistema…",
+        "suggestedTag": "Sugerido",
+        "suggestedGroup": "Sugeridos para este juego",
+        "allSystemsGroup": "Todos los sistemas",
+        "noSystemHint": "Las ROMs sin sistema se importan bien, pero Jugar no puede abrirlas directo en RetroArch. Las carpetas con nombre de sistema (n64, snes…) se ordenan solas.",
+        "groupNoSystem": "Aún sin sistema",
+        "removeGroup": "Quitar el grupo de {{system}}",
+        "removeGroupConfirm": {
+          "title": "¿Quitar este grupo de sistema?",
+          "message_one": "Esto quita {{system}} y su {{count}} ruta de ROMs de la lista. No se borra nada del disco.",
+          "message_many": "Esto quita {{system}} y sus {{count}} rutas de ROMs de la lista. No se borra nada del disco.",
+          "message_other": "Esto quita {{system}} y sus {{count}} rutas de ROMs de la lista. No se borra nada del disco.",
+          "confirm": "Quitar grupo"
+        },
+        "noCoreForSystem": "Este sistema no tiene core: Jugar abrirá el menú de RetroArch en lugar del juego. Configúralo desde el engranaje de arriba.",
+        "coresTitle": "Cores de RetroArch",
+        "coresDescription": "Dónde están los cores y cuál abre cada sistema. La detección llena todo esto; ajústalo solo si quieres algo concreto.",
+        "manualTitle": "Asignación manual"
+      },
+      "pathPlaceholderNamed": "C:\\...\\{{exe}} (también sirve un acceso directo)",
+      "emulatorPathKinds": "(.exe o acceso directo)",
+      "addManually": "Añadir a mano",
+      "browse": "Buscar el ejecutable",
+      "search": {
+        "action": "Buscar",
+        "searching": "Buscando…",
+        "viewResults": "Ver lo encontrado hasta ahora",
+        "viewCandidates": "Elegir entre los ejecutables encontrados",
+        "candidates_one": "{{count}} candidato",
+        "candidates_many": "{{count}} candidatos",
+        "candidates_other": "{{count}} candidatos",
+        "noResults": "Sin resultados",
+        "viewNoResults": "No se encontró nada la última vez; abre para buscar de nuevo",
+        "stop": "Detener",
+        "minimize": "Minimizar",
+        "minimizeHint": "Oculta este panel; la búsqueda sigue",
+        "busy": "Ya se está buscando otro emulador.",
+        "title": "Elige el ejecutable de {{name}}",
+        "inProgress": "Buscando en tus unidades…",
+        "waiting": "Aún no se encontró nada.",
+        "empty": "No se encontró ningún ejecutable. Busca de nuevo, o usa Examinar para indicarlo directamente.",
+        "cleared": "Resultados borrados. Busca de nuevo el ejecutable.",
+        "again": "Buscar de nuevo",
+        "clear": "Borrar"
+      },
+      "attribution": "LastSave no está afiliado a estos proyectos; los nombres y logos son de sus dueños.",
+      "officialSite": "Visitar sitio oficial",
+      "open": {
+        "action": "Abrir",
+        "hint": "Abre {{name}} solo para configurarlo",
+        "failed": "No se pudo abrir {{name}}. Revisa su ruta."
+      },
+      "clearAll": "Quitar todo",
+      "clearConfirm": {
+        "title": "¿Quitar todas las fuentes de emuladores?",
+        "message": "Cada emulador que añadiste aquí, del catálogo, a mano o importado de un front-end, se quitará de esta importación. Lo instalado en tu PC no cambia.",
+        "confirm": "Quitar todo"
+      },
+      "emptyState": "Todavía no hay emuladores. Toca una tarjeta de arriba para añadir uno.",
+      "needsExe": "Falta la ruta del emulador",
+      "needsRoms": "Faltan ROMs",
+      "untitledSource": "Emulador sin nombre",
+      "emulatorPath": "Ruta del emulador",
+      "customName": "Nombre",
+      "customNamePlaceholder": "p. ej. Mi emulador",
+      "romsTitle": "Archivos y carpetas de ROMs",
+      "clearRoms": "Quitar ROMs",
+      "noRoms": "Todavía no hay carpetas ni archivos de ROMs.",
+      "dropHint": "Suelta carpetas o ROMs aquí",
+      "dropActive": "Suelta para añadir",
+      "addFiles": "Añadir archivos",
+      "addFolder": "Añadir carpeta",
+      "removeSource": "Quitar este emulador",
+      "removeConfirm": {
+        "title": "¿Quitar este emulador?",
+        "message": "{{name}} y las carpetas de ROMs que le añadiste se quitarán de esta importación.",
+        "confirm": "Quitar"
+      },
+      "systems": {
+        "multiSystem": "Multisistema"
+      },
+      "launchOptions": {
+        "open": "Opciones de inicio",
+        "title": "Opciones de inicio de {{emulator}}",
+        "description": "Cómo abre LastSave cada juego de este emulador. Todo viene desactivado: LastSave abre el juego y deja el resto a la configuración del emulador.",
+        "none": "{{emulator}} todavía no tiene opciones de inicio en LastSave. Sus juegos se abren con lo mínimo necesario.",
+        "useEmulatorDefaults": "Usar la configuración del emulador",
+        "useEmulatorDefaultsHint": "LastSave abre el juego sin añadir nada, tal como se abriría desde el emulador.",
+        "defaultBadge": "Predeterminado",
+        "toggle": "{{option}}",
+        "items": {
+          "fullscreen": {
+            "label": "Pantalla completa al iniciar",
+            "description": "Pide al emulador que abra el juego en pantalla completa. Reemplaza el ajuste de pantalla del emulador."
+          },
+          "pauseMenuExit": {
+            "label": "Salir desde el menú de pausa",
+            "description": "Añade «Salir» al menú de pausa, para cerrar el juego solo con el control."
+          }
+        }
+      },
+      "gameLaunchOptions": {
+        "title": "Opciones de inicio de este juego",
+        "description": "Empieza como esté configurado {{emulator}}. Cambiar una aquí afecta solo a este juego.",
+        "following": "Como {{emulator}}",
+        "overridden": "Solo este juego",
+        "reset": "Usar la configuración de {{emulator}}",
+        "customCommand": "Este juego usa un comando personalizado, así que estas opciones ya no se le aplican."
+      }
+    },
+    "continue": {
+      "setUp": "Configurarlas",
+      "scan": "Buscar mis juegos",
+      "reasonNoSelection": "Elige al menos una fuente para seguir.",
+      "reasonNoneReady": "Termina de configurar una fuente para seguir."
+    },
+    "scan": {
+      "title": "Esto es lo que traeremos",
+      "configure": "Configurar",
+      "skippedTag": "No se buscará",
+      "skippedLine": "No hay emulador ni ROMs; configúralo para incluirlo.",
+      "steam": {
+        "unplayed": "Juegos sin jugar",
+        "wishlist": "deseados",
+        "family": "compartidos en familia que jugaste",
+        "autoSync": "tiempo autosincronizado",
+        "none": "Ninguna categoría elegida"
+      },
+      "epic": {
+        "library": "Tu biblioteca de Epic",
+        "unplayed": "juegos sin jugar",
+        "wishlist": "juegos deseados",
+        "autoSync": "tiempo autosincronizado",
+        "none": "Ninguna categoría elegida"
+      },
+      "xbox": {
+        "history": "Tu historial de Xbox",
+        "console": "juegos de consola",
+        "autoSync": "tiempo autosincronizado"
+      },
+      "failed": "La búsqueda falló."
+    },
+    "review": {
+      "foundCount_one": "{{count}} juego encontrado",
+      "foundCount_many": "{{count}} juegos encontrados",
+      "foundCount_other": "{{count}} juegos encontrados",
+      "scanningSource": "Buscando en {{source}}…",
+      "withWarning_one": "{{count}} con aviso",
+      "withWarning_many": "{{count}} con aviso",
+      "withWarning_other": "{{count}} con aviso",
+      "unidentified_one": "{{count}} sin identificar",
+      "unidentified_many": "{{count}} sin identificar",
+      "unidentified_other": "{{count}} sin identificar",
+      "percent": "{{percent}}%",
+      "lookupGate": {
+        "title_one": "{{count}} juego no se pudo comparar con el catálogo",
+        "title_many": "{{count}} juegos no se pudieron comparar con el catálogo",
+        "title_other": "{{count}} juegos no se pudieron comparar con el catálogo",
+        "message": "No se pudo llegar al catálogo para estos, así que aún no tienen coincidencia. Si añades ahora, quedan fuera de esta importación; no se pierden, y una búsqueda posterior los recoge con todo lo que ya decidiste.",
+        "confirm": "Reintentar",
+        "skip": "Añadir sin ellos"
+      },
+      "identifyGate": {
+        "title_one": "{{count}} juego aún sin identificar",
+        "title_many": "{{count}} juegos aún sin identificar",
+        "title_other": "{{count}} juegos aún sin identificar",
+        "message": "No se pueden añadir hasta que cada uno se asocie a un juego, se añada con su propio nombre o se descarte.",
+        "confirm": "Resolverlos",
+        "skip": "Añadir sin ellos"
+      },
+      "wishlistBlock_one": "{{count}} en tu lista de deseados",
+      "wishlistBlock_many": "{{count}} en tu lista de deseados",
+      "wishlistBlock_other": "{{count}} en tu lista de deseados",
+      "ownedBlock_one": "{{count}} juego que tienes",
+      "ownedBlock_many": "{{count}} juegos que tienes",
+      "ownedBlock_other": "{{count}} juegos que tienes",
+      "add_one": "Añadir {{count}} a mi biblioteca",
+      "add_many": "Añadir {{count}} a mi biblioteca",
+      "add_other": "Añadir {{count}} a mi biblioteca",
+      "addAndUpdate_one": "Añadir {{count}} y actualizar {{updates}}",
+      "addAndUpdate_many": "Añadir {{count}} y actualizar {{updates}}",
+      "addAndUpdate_other": "Añadir {{count}} y actualizar {{updates}}",
+      "updateOnly_one": "Actualizar {{count}} juego",
+      "updateOnly_many": "Actualizar {{count}} juegos",
+      "updateOnly_other": "Actualizar {{count}} juegos",
+      "addPending": "Añadir a mi biblioteca",
+      "emptyState": {
+        "title": "No se encontraron juegos",
+        "hint": "Suele significar que alguna de tus fuentes necesita un vistazo.",
+        "sourceEmpty": "Nada encontrado",
+        "sourceInactive": "Sin configurar",
+        "sourceFailed": "No se pudo acceder",
+        "backToSetup": "Volver a Configurar",
+        "searchingTitle": "Buscando en tus fuentes"
+      },
+      "deleteConfirm": {
+        "title": "¿Quitar «{{title}}» de esta lista?",
+        "message": "No se revisará ni importará, y no volverá a menos que busques de nuevo. Todo lo demás que decidiste se queda igual."
+      },
+      "card": {
+        "hasWarning": "Se importa bien, pero algo de su ruta de inicio necesita un vistazo",
+        "inLibrary": "En la biblioteca",
+        "multipleSources_one": "Encontrado por {{count}} fuente",
+        "multipleSources_many": "Encontrado por {{count}} fuentes, añadido una vez",
+        "multipleSources_other": "Encontrado por {{count}} fuentes, añadido una vez",
+        "edit": "Editar",
+        "review": "Revisar",
+        "discard": "Descartar",
+        "discardHint": "No aparecerá en futuras búsquedas ni revisiones",
+        "restore": "Restaurar",
+        "delete": "Quitar",
+        "select": "Elegir este juego",
+        "deselect": "Quitar este juego de la selección",
+        "attachedCount_one": "Incluye {{count}} contenido adicional",
+        "attachedCount_many": "Incluye {{count}} contenidos adicionales",
+        "attachedCount_other": "Incluye {{count}} contenidos adicionales"
+      },
+      "list": {
+        "columns": {
+          "game": "Juego",
+          "source": "Fuente",
+          "hours": "Horas"
+        },
+        "noHours": "—"
+      },
+      "filters": {
+        "all": "Todos",
+        "review": "Revisar",
+        "status": "Estado",
+        "anyStatus": "Cualquier estado",
+        "noStatus": "Sin estado",
+        "discarded": "Descartados",
+        "allSources": "Todas las fuentes",
+        "selectAll_one": "Elegir todos ({{count}})",
+        "selectAll_many": "Elegir todos ({{count}})",
+        "selectAll_other": "Elegir todos ({{count}})",
+        "unselectAll": "Quitar selección",
+        "searchPlaceholder": "Buscar un juego",
+        "searchClear": "Borrar búsqueda",
+        "sort": "Orden",
+        "sortBy": {
+          "arrival": "Orden encontrado",
+          "hoursDesc": "Más horas",
+          "hoursAsc": "Menos horas",
+          "title": "Nombre (A–Z)"
+        },
+        "layout": {
+          "list": "Vista de lista",
+          "grid": "Vista de cuadrícula"
+        }
+      },
+      "bulk": {
+        "selectedCount_one": "{{count}} elegido",
+        "selectedCount_many": "{{count}} elegidos",
+        "selectedCount_other": "{{count}} elegidos",
+        "selectAll": "Elegir los visibles",
+        "unselectAll": "Quitar selección",
+        "clear": "Quitar selección",
+        "status": "Estado",
+        "changeStatus": "Cambiar el estado de la selección",
+        "noStatus": "Sin estado",
+        "discard": "Descartar",
+        "restore": "Restaurar"
+      },
+      "contextMenu": {
+        "subtitle": "Acciones rápidas",
+        "status": "Cambiar estado"
+      },
+      "provenance": {
+        "steam": "De Steam",
+        "steamFamily": "De Steam · compartido en familia",
+        "steamWishlist": "De tu lista de deseados de Steam",
+        "pc": "Encontrado en este equipo",
+        "pcFrom": "Encontrado en este equipo · {{source}}",
+        "emulator": "Jugado con {{emulator}}",
+        "hours_one": "{{count}} h importada",
+        "hours_many": "{{count}} h importadas",
+        "hours_other": "{{count}} h importadas",
+        "epic": "De tu biblioteca de Epic",
+        "epicWishlist": "De tu lista de deseados de Epic",
+        "xbox": "De tu historial de Xbox",
+        "xboxConsole": "De tu historial de Xbox · jugado en consola"
+      },
+      "modal": {
+        "title": "Revisar este juego",
+        "changeGame": "Cambiar juego",
+        "searchHint": "Busca en el catálogo para asociarlo a otro juego.",
+        "noResults": "Ningún juego coincide con esa búsqueda.",
+        "status": "Estado",
+        "sources": {
+          "wishlist": "Deseado",
+          "familyShared": "Compartido en familia",
+          "playedOnConsole": "Jugado en consola",
+          "hours_one": "{{count}} h",
+          "hours_many": "{{count}} h",
+          "hours_other": "{{count}} h",
+          "useThisHint": "Usa esta fuente para el launcher y las rutas. El id de la otra tienda se guarda igual.",
+          "separate": "No es este juego: separarlo"
+        },
+        "foundBy": "Fuentes",
+        "setup": "Plataforma",
+        "fieldNotice": {
+          "notFound": "No encontrado; añádelo después si quieres",
+          "launcherOnly": "Encontrado por su launcher, sin ejecutable directo",
+          "unresolved": "No se pudo resolver; revisa la ruta"
+        },
+        "duplicateTitle": "Ya está en tu biblioteca",
+        "duplicateDiff": "Al actualizar se añade: {{changes}}",
+        "duplicateDiffGeneric": "Al actualizar se completan los datos de inicio con esta búsqueda; tu historial y tu estado no cambian.",
+        "duplicateReplacesPaths": "También reemplaza las rutas de inicio por las que encontró esta búsqueda.",
+        "duplicateAdds": {
+          "steamLink": "vínculo con Steam",
+          "familyShared": "compartido en familia",
+          "playtimeSync": "sincronización de horas",
+          "launchPaths": "rutas de inicio",
+          "emulatorSetup": "configuración del emulador",
+          "attachedContent_one": "{{count}} extra",
+          "attachedContent_many": "{{count}} extras",
+          "attachedContent_other": "{{count}} extras",
+          "xboxLink": "el vínculo con Xbox"
+        },
+        "unknownEmulator": "Emulador desconocido",
+        "discard": {
+          "title": "¿Salir sin guardar?",
+          "message": "El estado, las rutas, el contenido extra y la fuente que elegiste para este juego aún no se guardaron. Si sales ahora, se descartan.",
+          "confirm": "Descartar cambios",
+          "cancel": "Seguir editando"
+        },
+        "addOtherStoreHours": "Sumar las {{hours}} que jugaste en {{source}}",
+        "addOtherStoreHoursHint": "Se suman una vez a las horas de este juego, al importar. No se siguen sincronizando.",
+        "duplicateWhatToDo": "Qué hacer"
+      },
+      "alerts": {
+        "identifyTitle_one": "{{count}} juego no se pudo identificar",
+        "identifyTitle_many": "{{count}} juegos no se pudieron identificar",
+        "identifyTitle_other": "{{count}} juegos no se pudieron identificar",
+        "identifyAction": "Identificar",
+        "lookupFailedTitle_one": "{{count}} juego no se pudo comparar con el catálogo",
+        "lookupFailedTitle_many": "{{count}} juegos no se pudieron comparar con el catálogo",
+        "lookupFailedTitle_other": "{{count}} juegos no se pudieron comparar con el catálogo",
+        "lookupFailedHint": "Seguramente un fallo de conexión: están esperando, no se perdieron.",
+        "lookupFailedAction": "Reintentar",
+        "updatesUndo": "Deshacer"
+      },
+      "identify": {
+        "title": "Juegos que no pudimos identificar",
+        "description": "Para cada uno: busca el juego correcto y elígelo, añádelo con su propio nombre o descártalo. El resto de la importación sigue igual.",
+        "ready": {
+          "title_one": "Listos ({{count}})",
+          "title_many": "Listos ({{count}})",
+          "title_other": "Listos ({{count}})",
+          "description": "Identificados: se añaden con el resto."
+        },
+        "toSort": {
+          "title_one": "Por resolver ({{count}})",
+          "title_many": "Por resolver ({{count}})",
+          "title_other": "Por resolver ({{count}})"
+        },
+        "searchedFor": "Buscamos «{{query}}» en el catálogo sin coincidencias. Prueba un nombre más corto, o quita la edición.",
+        "discardRest_one": "Descartar el resto ({{count}})",
+        "discardRest_many": "Descartar el resto ({{count}})",
+        "discardRest_other": "Descartar el resto ({{count}})",
+        "restoreAll_one": "Restaurar todo ({{count}})",
+        "restoreAll_many": "Restaurar todo ({{count}})",
+        "restoreAll_other": "Restaurar todo ({{count}})",
+        "resolvedGoAlong": "Lo que resuelvas aquí se añade con el resto.",
+        "tools": {
+          "title": "Apps y herramientas",
+          "description": "Aplicaciones conocidas que encontró la búsqueda. No son juegos.",
+          "discardAll_one": "Descartar todo ({{count}})",
+          "discardAll_many": "Descartar todo ({{count}})",
+          "discardAll_other": "Descartar todo ({{count}})"
+        },
+        "searchHint": "Empieza a escribir para buscar en el catálogo.",
+        "noResults": "Nada coincide con esa búsqueda.",
+        "noneOfThese": "¿Ninguno de estos?",
+        "addAsNamed": "Añadir como «{{name}}» igual",
+        "wasNamed": "era «{{name}}»",
+        "discard": "Descartar",
+        "leftOut": "No se añadirá",
+        "undo": "Deshacer",
+        "remaining_one": "Falta {{count}}",
+        "remaining_many": "Faltan {{count}}",
+        "remaining_other": "Faltan {{count}}",
+        "allDone": "Todo resuelto."
+      },
+      "scan": {
+        "stop": "Detener",
+        "again": "Buscar de nuevo",
+        "retry": "Reintentar",
+        "reconnectSource": "Reconectar {{source}}",
+        "failed": "No se pudo buscar en {{source}}",
+        "stoppedTitle": "La búsqueda se detuvo.",
+        "stoppedHint": "Lo que ves es real, pero es solo lo encontrado hasta entonces; busca de nuevo para la lista completa.",
+        "wishlistUnavailable": "No se pudo leer tu lista de deseados de Epic, así que no se incluye. Todo lo demás de Epic se importó con normalidad.",
+        "wishlistNeedsReconnect": "Tu sesión de Epic ya no cubre la tienda, así que se omitió tu lista de deseados. Reconecta Epic para traerla. Todo lo demás de Epic se importó con normalidad.",
+        "xboxPlaytimeUnavailable": "Xbox compartió tus juegos pero no tus horas esta vez, así que llegan sin tiempo de juego. Una sincronización posterior las completa cuando Xbox responda."
+      },
+      "errors": {
+        "add": "No se pudo iniciar la importación."
+      },
+      "sections": {
+        "newGames": "Juegos nuevos",
+        "inLibrary": "En tu biblioteca",
+        "noNewGames": "Ningún juego nuevo: todo lo que encontró esta búsqueda ya está en tu biblioteca."
+      }
+    },
+    "inactive": {
+      "message": "Esta fuente no está en la importación. Elígela para configurarla.",
+      "select": "Elegir fuente"
+    },
+    "exit": {
+      "title": "¿Salir del asistente de importación?",
+      "message": "Saldrás del asistente de importación. Tus fuentes y su configuración se guardan, así que puedes seguir donde lo dejaste.",
+      "messageReview": "Saldrás del asistente de importación. Tus fuentes y su configuración se guardan, pero se pierde esta revisión.",
+      "confirm": "Salir",
+      "cancel": "Seguir editando"
+    }
+  },
+  "check": {
+    "title": "Revisar juegos nuevos",
+    "description": "Revisa todos los lugares donde viven tus juegos y muestra solo lo que aún no está en tu biblioteca.",
+    "entry": {
+      "check": "Revisar juegos nuevos",
+      "checking": "Revisando…",
+      "preparing": "Preparando…",
+      "checkedClear": "Al día",
+      "checkedFound": "Juegos nuevos",
+      "menu": "Más opciones de importación",
+      "importGames": "Importar juegos",
+      "startupTitle": "Al iniciar",
+      "startupOff": "No revisar",
+      "startupNotify": "Revisar juegos nuevos",
+      "startupAuto": "Importar los nuevos"
+    },
+    "sources": {
+      "waiting": "En espera",
+      "notChecked": "Sin revisar",
+      "checking": "Revisando…",
+      "nothingNew": "Nada nuevo",
+      "found_one": "{{count}} nuevo",
+      "found_many": "{{count}} nuevos",
+      "found_other": "{{count}} nuevos",
+      "failed": "No se pudo revisar",
+      "disconnected": "Sin conectar",
+      "reconnect": "Reconectar"
+    },
+    "preparing": {
+      "title": "Preparando la revisión",
+      "hint": "Empieza en un momento, cuando LastSave termine de abrirse.",
+      "now": "Revisar ahora"
+    },
+    "checking": {
+      "title": "Buscando juegos nuevos",
+      "hint": "Recorre tus carpetas, así que puede tardar un minuto. Puedes seguir usando LastSave.",
+      "stop": "Detener"
+    },
+    "stopped": {
+      "title": "Revisión detenida",
+      "message": "Aún no había aparecido nada; puede haber juegos nuevos en lo que no se revisó."
+    },
+    "caughtUp": {
+      "title": "Estás al día",
+      "message": "Nada nuevo desde tu última importación.",
+      "checkedSources": "Revisado: {{sources}}",
+      "close": "Listo",
+      "checkAgain": "Revisar de nuevo"
+    },
+    "results": {
+      "newCount_one": "{{count}} juego nuevo",
+      "newCount_many": "{{count}} juegos nuevos",
+      "newCount_other": "{{count}} juegos nuevos",
+      "add_one": "Añadir {{count}} juego",
+      "add_many": "Añadir {{count}} juegos",
+      "add_other": "Añadir {{count}} juegos",
+      "applyUpdates_one": "Actualizar {{count}} juego",
+      "applyUpdates_many": "Actualizar {{count}} juegos",
+      "applyUpdates_other": "Actualizar {{count}} juegos",
+      "addAndUpdate_one": "Añadir {{count}} y actualizar {{updates}}",
+      "addAndUpdate_many": "Añadir {{count}} y actualizar {{updates}}",
+      "addAndUpdate_other": "Añadir {{count}} y actualizar {{updates}}"
+    },
+    "updates": {
+      "hint": "Juegos que ya tienes. Elige qué pasa con cada uno: nada cambia tus horas ni mueve un juego si no lo eliges.",
+      "facts": {
+        "ownership": "Ahora lo tienes; estaba en tu lista de deseados",
+        "played": "Lo jugaste en Xbox; estaba en tu lista de deseados",
+        "launchPath": "Se encontró dónde está instalado",
+        "movedPath": "Se encontró en un lugar nuevo",
+        "romPath": "Se encontró su ROM",
+        "extraContent": "Se encontró contenido extra",
+        "syncHours": "Sus horas se sincronizarán con Xbox",
+        "addHours": "También jugado en otra tienda; suma esas horas a este juego, una vez"
+      },
+      "open": "Ver lo encontrado",
+      "nothingNew": "Nada nuevo",
+      "columns": {
+        "inLibrary": "En tu biblioteca",
+        "found": "Encontrado",
+        "action": "Qué hacer",
+        "hours": "Horas"
+      },
+      "homes": {
+        "steam": "Steam",
+        "epic": "Epic Games",
+        "xbox": "Xbox",
+        "gog": "GOG",
+        "microsoftStore": "Microsoft Store",
+        "pc": "Este equipo",
+        "emulator": "Emulador",
+        "manual": "Añadido por ti"
+      },
+      "home": {
+        "owned": "{{home}}",
+        "wishlist": "Deseados de {{home}}",
+        "manualWishlist": "Deseado, añadido por ti"
+      },
+      "noHours": "sin horas",
+      "options": {
+        "leave": "No cambiar",
+        "apply": {
+          "ownership": "Marcar como tuyo en {{store}}",
+          "played": "Marcar como jugado en {{store}}",
+          "syncHours": "Sincronizar horas con {{store}}",
+          "launchPath": "Añadir la instalación encontrada",
+          "movedPath": "Usar la nueva ubicación",
+          "romPath": "Añadir la ROM encontrada",
+          "extraContent_one": "Añadir el {{count}} extra encontrado",
+          "extraContent_many": "Añadir los {{count}} extras encontrados",
+          "extraContent_other": "Añadir los {{count}} extras encontrados"
+        },
+        "applyMore_one": "{{first}} y {{count}} más",
+        "applyMore_many": "{{first}} y {{count}} más",
+        "applyMore_other": "{{first}} y {{count}} más",
+        "addHoursKeep": "Dejar en {{home}}, sumar {{hours}} de {{sources}}",
+        "addHours": "Sumar {{hours}} de {{sources}}",
+        "move": "Mover a {{store}}",
+        "moveKeepHours": "Mover a {{store}}, sumar {{hours}} de {{home}}",
+        "moveKeepHoursLocal": "Mover a {{store}}, conservar tus {{hours}}",
+        "result": "({{result}})",
+        "applyAdd": "{{first}}, sumar {{hours}} de {{sources}}",
+        "moveKeepHoursLocalPlus": "Mover a {{store}}, conservar tus {{kept}} y sumar {{hours}} de {{sources}}"
+      },
+      "explain": {
+        "leave": "Nada cambia para este juego.",
+        "apply": "Añade lo que encontró esta búsqueda. Tu historial y tu estado no cambian.",
+        "applyKeep": "Se queda en {{home}}. Gana el vínculo con {{store}} y lo que encontró esta búsqueda.",
+        "addHours": "Suma {{hours}} a este juego, una vez. No se siguen sincronizando.",
+        "move": "El juego ahora vive en {{store}}: se abre y sincroniza sus horas desde ahí.",
+        "applyTarget": "Pasa a ser tu juego de {{store}} y sale de los deseados. Sus horas vienen de {{store}}."
+      },
+      "leaveAll": "Dejar todo igual",
+      "useSuggested": "Usar sugerencias",
+      "result": {
+        "withHours": "{{place}} · {{hours}}",
+        "noHours": "{{place}} · sin horas"
+      }
+    },
+    "missing": {
+      "title_one": "{{count}} juego ya no está en este equipo",
+      "title_many": "{{count}} juegos ya no están en este equipo",
+      "title_other": "{{count}} juegos ya no están en este equipo",
+      "hint": "Sus archivos no están donde LastSave los vio por última vez. Indica dónde están ahora o márcalos como desinstalados; su historial se queda.",
+      "notFoundAt": "No encontrado: {{path}}",
+      "notFound": "Archivos no encontrados",
+      "findAgain": "Volver a ubicarlo",
+      "markUninstalled": "Marcar como desinstalado",
+      "markAll": "Marcar todos como desinstalados"
+    },
+    "toast": {
+      "found_one": "{{count}} juego nuevo encontrado",
+      "found_many": "{{count}} juegos nuevos encontrados",
+      "found_other": "{{count}} juegos nuevos encontrados",
+      "imported_one": "{{count}} juego añadido",
+      "imported_many": "{{count}} juegos añadidos",
+      "imported_other": "{{count}} juegos añadidos",
+      "pending_one": "{{count}} necesita un vistazo",
+      "pending_many": "{{count}} necesitan un vistazo",
+      "pending_other": "{{count}} necesitan un vistazo",
+      "review": "Revisar",
+      "caughtUp": "No se encontraron juegos nuevos.",
+      "sourceBreakdown": "{{source}}: {{count}}"
+    },
+    "errors": {
+      "add": "No se pudo iniciar la importación."
+    }
+  },
+  "lookupFolders": {
+    "title": "Carpetas de búsqueda de Windows",
+    "description": "LastSave siempre revisa el escritorio, el menú Inicio y los launchers. Añade aquí carpetas extra para accesos directos y ejecutables que estén en otro sitio.",
+    "close": "Cerrar las carpetas de búsqueda",
+    "selectFolder": "Elige una carpeta para incluir en la búsqueda de Windows",
+    "alwaysSearched": "Siempre se revisan",
+    "alwaysSearchedHint": "Siempre se incluyen en una búsqueda. No hay nada que configurar: es lo que LastSave cubre por defecto.",
+    "defaultCount_one": "{{count}} ubicación",
+    "defaultCount_many": "{{count}} ubicaciones",
+    "defaultCount_other": "{{count}} ubicaciones",
+    "extraTitle": "Carpetas de búsqueda extra",
+    "dropHint": "Suelta carpetas aquí, o haz clic para buscarlas",
+    "dropActive": "Suelta para añadir",
+    "remove": "Quitar",
+    "empty": "No hay carpetas de búsqueda extra.",
+    "addFolder": "Añadir carpeta",
+    "restoreDefaults": "Restablecer",
+    "saving": "Guardando…",
+    "save": "Guardar carpetas"
+  }
+}

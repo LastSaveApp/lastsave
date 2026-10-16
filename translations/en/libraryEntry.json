@@ -1,0 +1,282 @@
+{
+  "remove": {
+    "title": "Remove from Library?",
+    "confirmQuestion": "Are you sure you want to remove <game>{{title}}</game> from your library?",
+    "thisGame": "this game",
+    "warning": "Warning",
+    "warningBody": "This will remove the library entry and related logs. This action cannot be undone.",
+    "removing": "Removing...",
+    "confirm": "Yes, Remove",
+    "failed": "Failed to remove from library. Game might not exist."
+  },
+  "removeAttached": {
+    "title_one": "Remove DLC or Expansion?",
+    "title_other": "Remove DLCs or Expansions?",
+    "confirmQuestion_one": "Are you sure you want to remove <content>{{title}}</content> from <base>{{baseGameTitle}}</base>?",
+    "confirmQuestion_other": "Are you sure you want to remove these {{count}} items from <base>{{baseGameTitle}}</base>?",
+    "warning": "Irreversible action",
+    "warningBody_one": "This will remove this DLC or expansion and all of its logs from this library entry. This action cannot be undone.",
+    "warningBody_other": "This will remove these DLCs or expansions and all of their logs from this library entry. This action cannot be undone.",
+    "removing": "Removing...",
+    "confirm": "Yes, Remove"
+  },
+  "attachedSelector": {
+    "loading": "Checking...",
+    "available_one": "{{count}} available",
+    "available_other": "{{count}} available",
+    "selectedOfTotal": "{{selected}} of {{total}} selected",
+    "allDlcs": "All DLCs",
+    "allExpansions": "All Expansions",
+    "hide": "Hide",
+    "showAll": "Show all",
+    "showMore_one": "Show more (+{{count}} item)",
+    "showMore_other": "Show more (+{{count}} items)",
+    "showLess": "Show less",
+    "alreadyAttached": "Already attached to this entry"
+  },
+  "add": {
+    "title": "Add to Library",
+    "step1": "Select a game from catalog",
+    "step2": "Set your current status",
+    "step3": "Set up your library entry",
+    "add": "Add to Collection",
+    "adding": "Adding..."
+  },
+  "baseGameStatus": {
+    "checking": "Checking your Library...",
+    "alreadyInLibrary": "Already in your Library",
+    "willBeAdded": "Will be added automatically"
+  },
+  "edit": {
+    "title": "Edit Library Entry",
+    "close": "Close",
+    "searchHint": "Search for the correct game to replace this library entry.",
+    "ownSubtitle": "Add to my collection with a launcher or path.",
+    "notOwnSubtitle": "Keep it in the collection without launcher info.",
+    "save": "Save Changes",
+    "saving": "Saving..."
+  },
+  "replace": {
+    "title": "Replace the game for this entry?",
+    "message": "Changing the game will delete this entry's logs, sessions, and journal entries, then save the entry again with the new game and configuration.",
+    "confirm": "Replace Game"
+  },
+  "duplicateWarning": {
+    "heading": "Game already in your Library",
+    "message": "You already have \"{{title}}\" in your Library.\nYou cannot change this entry to a game that is already in your Library."
+  },
+  "attachedContentFallback": "Attached content",
+  "lookup": {
+    "searchTooltip": "Look through shortcuts and common install locations on this PC to prefill this game.",
+    "searchGame": "Search game",
+    "stopAria": "Stop Windows game lookup",
+    "stop": "Stop",
+    "configureFolders": "Configure Windows lookup folders",
+    "dismissWarning": "Dismiss warning",
+    "dismissError": "Dismiss error"
+  },
+  "search": {
+    "placeholder": "Search by game title...",
+    "loading": "Searching...",
+    "fetchingLatest": "Fetching latest data...",
+    "noResults": "No games found.",
+    "addManually": "Cannot find it? Add manually",
+    "noDiscovery": "No discovery games available."
+  },
+  "source": {
+    "local": "Local",
+    "igdb": "IGDB"
+  },
+  "actions": {
+    "change": "Change",
+    "close": "Close",
+    "discard": "Discard"
+  },
+  "labels": {
+    "baseGame": "Base Game",
+    "dlcsExpansions": "DLCs / Expansions",
+    "platform": "Platform",
+    "launcher": "Launcher",
+    "notSet": "Not set",
+    "owned": "Owned",
+    "notOwned": "Not owned",
+    "optional": "(optional)"
+  },
+  "emptyState": {
+    "attachedContent": "No DLCs or expansions linked to this game."
+  },
+  "status": {
+    "title": "Status",
+    "current": "Current status",
+    "change": "Change status",
+    "keepCurrent": "Keep current status"
+  },
+  "ownership": {
+    "ownTitle": "I own or play this",
+    "ownSubtitle": "Add launcher and paths if needed.",
+    "notOwnTitle": "I do not have it",
+    "notOwnSubtitle": "Keep it in the collection without launcher info."
+  },
+  "steamAutoSync": {
+    "title": "Auto-sync with Steam",
+    "description": "Keep this game's playtime aligned with Steam without adding journal logs.",
+    "connectTooltipGame": "Connect Steam before enabling auto-sync for this game.",
+    "connectTooltip": "Connect Steam before enabling auto-sync."
+  },
+  "romPicker": {
+    "chooseFile": "Choose file…",
+    "chooseFolder": "Choose folder…"
+  },
+  "paths": {
+    "shortcutLabel": "Shortcut Path (.lnk)",
+    "shortcutPlaceholder": "C:\\Games\\MyGame.lnk",
+    "browseFiles": "Browse files",
+    "executableLabel": "Executable Path (.exe)",
+    "executablePlaceholder": "C:\\Games\\MyGame\\game.exe",
+    "browseExecutable": "Browse executable",
+    "emulatorLabel": "Emulator Path",
+    "emulatorOptional": "(optional shortcut or .exe)",
+    "emulatorPlaceholder": "C:\\Emulators\\PCSX2\\PCSX2.lnk",
+    "browseLauncher": "Browse launcher",
+    "emulatorHint": "Emulator and ROM paths are optional. When both are set, LastSave can try automatic session detection.",
+    "romLabel": "ROM Path",
+    "romPlaceholder": "D:\\RetroBat\\roms\\ps2\\God of War.iso",
+    "browseRom": "Browse ROM file"
+  },
+  "duplicate": {
+    "title": "This game is already in your Collection",
+    "description": "Review the differences below and decide if you want to update the existing entry or discard this new configuration.",
+    "columns": {
+      "field": "Field",
+      "current": "Current",
+      "new": "New"
+    },
+    "noChanges": "The new configuration matches your current entry, so there is nothing to update.",
+    "update": "Update Existing Entry",
+    "updating": "Updating...",
+    "fields": {
+      "status": "Status",
+      "ownership": "Ownership",
+      "platform": "Platform",
+      "launcher": "Launcher",
+      "shortcutPath": "Shortcut Path",
+      "executablePath": "Executable Path",
+      "emulatorPath": "Emulator Path",
+      "romPath": "ROM Path"
+    }
+  },
+  "dialog": {
+    "selectShortcut": "Select Game Shortcut",
+    "selectExecutable": "Select Game Executable",
+    "selectEmulator": "Select Emulator Shortcut or Executable",
+    "selectRom": "Select ROM File",
+    "filterShortcuts": "Shortcuts",
+    "filterExecutables": "Executables",
+    "filterLaunchers": "Launchers"
+  },
+  "errors": {
+    "remoteNoIgdbId": "This remote result has no IGDB id.",
+    "parentNoIgdbId": "Parent game has no IGDB id.",
+    "detailsFailed": "Failed to load game details.",
+    "detailsLoading": "Game details are still loading.",
+    "materializeFailed": "Failed to materialize \"{{title}}\".",
+    "resolveRootFailed": "Unable to resolve selected game as a local catalog entry.",
+    "emulatorResolveFailed": "LastSave could not resolve this emulator shortcut or executable.",
+    "addFailed": "Failed to add game to library.",
+    "addAttachedFailed": "Failed to add this DLC or expansion to your Library.",
+    "libraryStatusFailed": "LastSave could not check whether the base game is already in your Library.",
+    "pcLookupFailed": "Unable to search this PC for the selected game.",
+    "updateFailed": "Failed to update your existing library entry.",
+    "updateEntryFailed": "Failed to update library entry.",
+    "replaceFailed": "Failed to replace the game for this library entry."
+  },
+  "pathValidation": {
+    "shortcutInvalid": "Shortcut path must be a valid file path.",
+    "shortcutExtension": "Shortcut path must point to a .lnk or .url file.",
+    "executableInvalid": "Executable path must be a valid file path.",
+    "executableExtension": "Executable path must point to a .exe, .bat, .cmd, or .com file.",
+    "emulatorInvalid": "Emulator path must point to a valid shortcut or executable file.",
+    "romInvalid": "ROM path must be a valid file path.",
+    "romExtension": "ROM path must point to a ROM file, not a document, image, or executable.",
+    "directoryInvalid": "This must be a valid folder path.",
+    "directoryIsFile": "This should be a folder, not a file."
+  },
+  "missingPaths": {
+    "title": "These files are no longer on this PC",
+    "body": "Update the paths or clear them.",
+    "clear": "Clear paths",
+    "fileGone": "This file is no longer on this PC.",
+    "driveOffline": "Its drive isn't connected right now.",
+    "blocksSave": "A path points to a file that no longer exists. Update it, clear it, or mark the game as not owned."
+  },
+  "advancedLaunch": {
+    "title": "Advanced launch & tracking",
+    "configured": "Configured",
+    "dialogDescription": "What runs when you press Play, and how LastSave recognizes this game while it runs.",
+    "launchSection": "Launch",
+    "detectionSection": "Detection",
+    "commandLine": "Command LastSave will run",
+    "commandAutomatic": "Automatic",
+    "commandCustom": "Custom",
+    "commandReset": "Reset to automatic",
+    "commandHint": "Edit the line to run your own command — press Enter or click away to apply.",
+    "commandInvalid": "This command has an unclosed quote. Fix it to apply.",
+    "commandEmpty": "Nothing to launch yet — set a path above, or type a command here",
+    "useCustomExecutable": "Use a custom executable",
+    "useCustomExecutableHint": "Overrides how this game launches. The Executable Path above still identifies the game for detection.",
+    "customExecutable": "Custom launch executable",
+    "arguments": "Launch arguments",
+    "argumentsPlaceholder": "-fullscreen -- \"D:\\Roms\\game.iso\"",
+    "argumentsInvalid": "These arguments have an unclosed quote. Fix them before saving.",
+    "argumentsWithoutExecutable": "Launch arguments need a custom executable to run with.",
+    "workingDir": "Working directory",
+    "workingDirHint": "Where the command starts. Empty uses the executable's own folder.",
+    "installDir": "Install folder",
+    "installDirHint": "The game's root folder — what Install folder detection watches.",
+    "directoryPlaceholder": "C:\\Games\\MyGame",
+    "autoValue": "auto: {{value}}",
+    "browseFolder": "Browse folder",
+    "trackingModes": {
+      "auto": "Automatic",
+      "directory": "Install folder",
+      "exe": "Executable",
+      "processName": "Process name",
+      "manualOnly": "Manual only"
+    },
+    "trackingModeHints": {
+      "auto": "LastSave picks the best available signal for this game.",
+      "directory": "Any process running inside the game's folder counts. Best for games with launchers or several executables.",
+      "exe": "Only the exact executable path counts as this game.",
+      "processName": "Matches by process name, wherever it runs from.",
+      "manualOnly": "Never detected automatically. Sessions count only when you start and stop them yourself.",
+      "manualOnlyEmulator": "The emulator is never detected automatically. Play still launches the game; the timer is fully yours."
+    },
+    "autoResolvesTo": "Currently resolves to: {{mode}}",
+    "trackedProcessName": "Process name to watch",
+    "trackedProcessNamePlaceholder": "game.exe"
+  },
+  "emulatorPicker": {
+    "label": "Emulator",
+    "settings": "Set up emulators",
+    "placeholder": "Choose an emulator",
+    "other": "Other emulator",
+    "groups": {
+      "configured": "Configured",
+      "catalog": "All emulators",
+      "other": "Not in the list",
+      "notSetUp": "Not set up yet"
+    },
+    "addAnother": "Add another emulator",
+    "notSetUp": "{{name}} isn’t set up in Emulators yet.",
+    "keepsOwnPath": "This game keeps its own path: {{path}}",
+    "setUp": "Set up"
+  },
+  "romLookup": {
+    "label": "Find",
+    "action": "Find the ROM by title",
+    "placeholder": "Search by title",
+    "searching": "Searching your ROM folders...",
+    "empty": "No ROM matched that title.",
+    "noSources": "No ROM folders are configured for this emulator yet. Add them in Import Games."
+  }
+}

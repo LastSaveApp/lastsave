@@ -1,0 +1,263 @@
+{
+  "labels": {
+    "optional": "(optional)",
+    "optionalRecommended": "(optional but recommended)"
+  },
+  "addLog": {
+    "title": "Add Log",
+    "options": {
+      "statusUpdate": {
+        "title": "Status Update",
+        "description": "Track progress, playtime, reaction, and status changes."
+      },
+      "achievement": {
+        "title": "Achievement",
+        "description": "Remember your greatest victories and personal bests"
+      },
+      "journalEntry": {
+        "title": "Journal Entry",
+        "description": "Save a memory with optional image, video, or comment."
+      },
+      "session": {
+        "title": "Session",
+        "description": "Log a play session manually or with a lightweight timer."
+      }
+    }
+  },
+  "targetSelection": {
+    "prompt": "What are you logging?",
+    "hide": "Hide",
+    "showAll": "Show all",
+    "showLess": "Show less",
+    "showMore_one": "Show more (+{{count}} item)",
+    "showMore_other": "Show more (+{{count}} items)"
+  },
+  "statusModal": {
+    "titles": {
+      "add": "Add Log",
+      "edit": "Edit Log"
+    },
+    "labels": {
+      "status": "Status *",
+      "hoursPlayed": "Hours played",
+      "started": "Started",
+      "finished": "Finished",
+      "impression": "Impression",
+      "comment": "Comment"
+    },
+    "placeholders": {
+      "hours": "e.g. 12.5",
+      "startDate": "Pick start date",
+      "endDate": "Pick end date",
+      "commentPlaying": "Quick impression or note…",
+      "commentWishlist": "Why do you want this game?",
+      "commentBacklog": "Why are you adding this to your backlog?"
+    },
+    "units": {
+      "hours": "h"
+    },
+    "hints": {
+      "selectStatus": "Select a status to continue."
+    },
+    "actions": {
+      "decreaseHours": "Decrease hours",
+      "increaseHours": "Increase hours",
+      "saving": "Saving…",
+      "saveChanges": "Save Changes",
+      "saveLog": "Save Log"
+    },
+    "errors": {
+      "selectStatus": "Please select a status before saving.",
+      "saveFailed": "Failed to save log.",
+      "updateFailed": "Failed to update log."
+    },
+    "success": {
+      "saved": "Log saved!",
+      "updated": "Log updated!"
+    }
+  },
+  "sessionModal": {
+    "titles": {
+      "add": "Session",
+      "edit": "Edit Session"
+    },
+    "labels": {
+      "mode": "Mode",
+      "sessionDate": "Session Date",
+      "duration": "Duration",
+      "adjustDuration": "Adjust Duration",
+      "note": "Note",
+      "hours": "Hours",
+      "minutes": "Minutes"
+    },
+    "modes": {
+      "manual": {
+        "title": "Manual",
+        "description": "Pick a date and enter how long you played."
+      },
+      "timer": {
+        "title": "Timer",
+        "description": "Start, pause, resume, and stop a live session timer."
+      }
+    },
+    "durationSuffix": {
+      "hours": "hrs",
+      "minutes": "min"
+    },
+    "timer": {
+      "currentSession": "Current Session",
+      "states": {
+        "ready": "Ready to start",
+        "running": "Timer running",
+        "paused": "Timer paused",
+        "stopped": "Timer stopped"
+      },
+      "start": "Start",
+      "pause": "Pause",
+      "stop": "Stop",
+      "resume": "Resume",
+      "reset": "Reset Timer",
+      "summaryTitle": "Timer Summary",
+      "playedOn": "Played on {{date}}",
+      "recordedElapsed": "Recorded elapsed time: {{time}}"
+    },
+    "placeholders": {
+      "note": "What did you play during this session?"
+    },
+    "actions": {
+      "saving": "Saving...",
+      "saveChanges": "Save Changes",
+      "saveSession": "Save Session",
+      "decreaseHours": "Decrease hours",
+      "increaseHours": "Increase hours",
+      "decreaseMinutes": "Decrease minutes",
+      "increaseMinutes": "Increase minutes"
+    },
+    "discard": {
+      "title": "Discard in-progress session?",
+      "message": "This session has recorded elapsed time but has not been saved yet. If you continue, the in-progress timer will be lost.",
+      "confirm": "Discard Session",
+      "cancel": "Keep Session"
+    },
+    "errors": {
+      "enterDuration": "Enter how long you played in this session.",
+      "futureDate": "Session date cannot be in the future.",
+      "stopTimer": "Stop the timer before saving this session.",
+      "durationPositive": "Session duration must be greater than zero.",
+      "saveFailed": "Failed to save session.",
+      "updateFailed": "Failed to update session."
+    },
+    "success": {
+      "saved": "Session saved.",
+      "updated": "Session updated."
+    }
+  },
+  "achievementModal": {
+    "titles": {
+      "add": "Achievement",
+      "edit": "Edit Achievement"
+    },
+    "labels": {
+      "achievementType": "Achievement Type",
+      "title": "Title",
+      "description": "Description"
+    },
+    "placeholders": {
+      "title": "Defeated Malenia without summons",
+      "description": "What made this achievement worth remembering?"
+    },
+    "media": {
+      "emptyTitle": "Add proof or a memory",
+      "emptyDescription": "Drop a screenshot or clip, or click to choose"
+    },
+    "actions": {
+      "saving": "Saving...",
+      "saveChanges": "Save Changes",
+      "saveAchievement": "Save Achievement"
+    },
+    "errors": {
+      "chooseType": "Choose an achievement type first.",
+      "mediaNotReady": "Media is not ready to save.",
+      "saveFailed": "Failed to save achievement.",
+      "updateFailed": "Failed to update achievement."
+    },
+    "success": {
+      "saved": "Achievement saved.",
+      "updated": "Achievement updated."
+    }
+  },
+  "journalModal": {
+    "titles": {
+      "add": "Journal Entry",
+      "edit": "Edit Journal Entry"
+    },
+    "labels": {
+      "comment": "Comment"
+    },
+    "placeholders": {
+      "comment": "What happened here?"
+    },
+    "actions": {
+      "saving": "Saving...",
+      "saveChanges": "Save Changes",
+      "saveJournal": "Save Journal Entry"
+    },
+    "errors": {
+      "addContent": "Add a comment or select media for the journal entry.",
+      "mediaNotReady": "Media is not ready to save.",
+      "saveFailed": "Failed to save journal entry.",
+      "updateFailed": "Failed to update journal entry."
+    },
+    "success": {
+      "saved": "Journal entry saved.",
+      "updated": "Journal entry updated."
+    }
+  },
+  "media": {
+    "label": "Media",
+    "emptyTitle": "Add an image or a clip",
+    "emptyDescription": "Drop it here, or click to choose a file",
+    "or": "or",
+    "paste": "Paste Media",
+    "pasting": "Pasting...",
+    "pasteHint": "Paste a copied screenshot, image, or video clip",
+    "pasteTitle": {
+      "unavailable": "Clipboard media is not available in this environment.",
+      "empty": "No supported image or video found in the clipboard.",
+      "default": "Paste image or video from clipboard"
+    },
+    "drop": {
+      "title": "Drop media to upload",
+      "subtitle": "Images and videos are supported"
+    },
+    "pickLocal": "Pick Local Media",
+    "previewAlt": "Log media preview",
+    "remoteUrl": {
+      "label": "Remote URL",
+      "placeholder": "https://.../clip.mp4 or https://.../image.jpg",
+      "invalid": "Use a direct image/video URL that ends in a file extension."
+    },
+    "largeFile": {
+      "title": "Large file warning",
+      "body": "This file is {{size}}. Saving may take a little longer.",
+      "acknowledge": "I understand and want to continue saving this file."
+    },
+    "validity": {
+      "remoteMustPoint": "Remote URL must point directly to an image or video file.",
+      "largeFileAck": "This file is large ({{size}}). Please acknowledge the warning before saving."
+    },
+    "errors": {
+      "readPath": "Could not read the selected local file path.",
+      "unsupportedFile": "Unsupported media file.",
+      "clipboardNotMedia": "Clipboard media must be an image or video.",
+      "clipboardPasteFailed": "Could not paste media from clipboard.",
+      "clipboardUnavailable": "Clipboard media is not available in this environment.",
+      "clipboardEmpty": "Clipboard does not contain a supported image or video."
+    },
+    "fromLink": "From a link",
+    "remove": "Remove media"
+  },
+  "logTime": {
+    "label": "Time of the log"
+  }
+}

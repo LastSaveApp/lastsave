@@ -1,0 +1,454 @@
+{
+  "sourceBadges": {
+    "fromIgdb": "Game from IGDB"
+  },
+  "search": {
+    "searching": "Searching...",
+    "clearSearch": "Clear search",
+    "clearResultFilter": "Clear result filter",
+    "removeTag": "Remove {{label}} tag",
+    "clearTag": "Clear {{label}}"
+  },
+  "company": {
+    "logoAlt": "{{name}} logo",
+    "foundedYear": "Founded {{year}}",
+    "foundedUnknown": "Founded unknown",
+    "statusUnknown": "Status unknown",
+    "locationUnknown": "Unknown",
+    "summary": "{{founded}} - {{developed}} developed - {{published}} published",
+    "openDetails": "Open {{name}} details"
+  },
+  "event": {
+    "close": "Close event details",
+    "about": "About",
+    "noDescription": "No event description is available from IGDB yet.",
+    "logoAlt": "{{name}} logo",
+    "ongoing": "Ongoing",
+    "upcoming": "Upcoming",
+    "upcomingIn": "Upcoming: {{distance}}",
+    "dateUnknown": "Date unknown",
+    "ended": "Ended",
+    "info": "Info",
+    "openInfo": "Open {{name}} info",
+    "allYears": "All years",
+    "filterByYear": "Filter events by year",
+    "clearYear": "Clear event year",
+    "previousDecade": "Previous decade",
+    "nextDecade": "Next decade",
+    "livestream": "Livestream",
+    "livestreamTitle": "Event livestream",
+    "links": "Links",
+    "watchYoutube": "Watch on YouTube",
+    "watchTwitch": "Watch on Twitch",
+    "openStream": "Open live stream"
+  },
+  "eventModal": {
+    "title": "Games by Event",
+    "searchPlaceholder": "Search IGDB events...",
+    "clearSearch": "Clear event search",
+    "loadError": "Failed to load IGDB events.",
+    "detailNotFound": "No IGDB event details were found.",
+    "detailLoadError": "Failed to load IGDB event details.",
+    "currentSelection": "Current Selection",
+    "clearSelection": "Clear selected event",
+    "noneSelected": "No event selected",
+    "noMatchFilters": "No events match the selected status filters",
+    "noResults": "No events found"
+  },
+  "companyDetail": {
+    "title": "Company Details",
+    "close": "Close company details",
+    "about": "About",
+    "noDescription": "No company description is available from IGDB yet.",
+    "formerlyKnownAs": "Formerly known as",
+    "parentCompany": "Parent Company",
+    "studiosSubsidiaries": "Studios & Subsidiaries",
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "website": "Website",
+    "employees": "{{size}} employees",
+    "more": "+{{count}} more",
+    "selectCompany": "Select (Company)",
+    "selectKind": "Select ({{kind}})",
+    "until": "until {{year}}",
+    "since": "since {{year}}",
+    "changedTo": {
+      "merged": "Merged into",
+      "renamed": "Renamed to",
+      "updated": "Updated to"
+    },
+    "relationKinds": {
+      "former": "Former",
+      "new": "New",
+      "parent": "Parent",
+      "studio": "Studio"
+    },
+    "types": {
+      "1": "Main Company",
+      "2": "Division",
+      "3": "Subsidiary",
+      "4": "Holding Company",
+      "5": "Solo Dev"
+    }
+  },
+  "companies": {
+    "title": "Best of Companies",
+    "searchPlaceholder": "Search IGDB companies...",
+    "clearSearch": "Clear company search",
+    "loadError": "Failed to load IGDB companies.",
+    "detailLoadError": "Failed to load company details.",
+    "noResults": "No companies found",
+    "currentSelection": "Current Selection",
+    "clearSelection": "Clear selected company",
+    "noneSelected": "No company selected"
+  },
+  "sagas": {
+    "title": "Best Sagas",
+    "searchPlaceholder": "Search IGDB sagas...",
+    "clearSearch": "Clear saga search",
+    "loadError": "Failed to load IGDB sagas.",
+    "noResults": "No sagas found",
+    "currentSelection": "Current Selection",
+    "clearSelection": "Clear selected saga",
+    "noneSelected": "No saga selected",
+    "coverAlt": "{{name}} cover",
+    "topCovers": "Top covers for {{name}}",
+    "gameCount_one": "{{count}} game",
+    "gameCount_other": "{{count}} games"
+  },
+  "labels": {
+    "tba": "TBA"
+  },
+  "gameForm": {
+    "titleAdd": "Add Manual Catalog Game",
+    "titleEdit": "Edit Local Metadata",
+    "pickCoverTitle": "Pick a local cover image",
+    "coverPreviewAlt": "Cover preview",
+    "cover": "Cover",
+    "coverHint": "URL or local image file.",
+    "pick": "Pick",
+    "coverUrl": "Cover URL",
+    "urlPlaceholder": "https://...",
+    "localCoverPath": "Local Cover Path",
+    "coverPathPlaceholder": "C:\\path\\cover.png",
+    "background": "Background",
+    "backgroundHint": "Wide image for detail surfaces.",
+    "backgroundPreviewAlt": "Background preview",
+    "noBackground": "No background selected",
+    "backgroundUrl": "Background URL",
+    "localBackgroundPath": "Local Background Path",
+    "backgroundPathPlaceholder": "C:\\path\\background.png",
+    "screenshotsHint": "Structured items saved as local managed media or remote URLs.",
+    "addLocalScreenshot": "Add Local Screenshot",
+    "remoteScreenshotUrls": "Remote Screenshot URLs",
+    "remoteScreenshotPlaceholder": "One direct image URL per line",
+    "localScreenshotPaths": "Local Screenshot Paths",
+    "localScreenshotPlaceholder": "One local image path per line",
+    "screenshotPreviewAlt": "Screenshot preview {{number}}",
+    "remoteUrl": "Remote URL",
+    "localFile": "Local file",
+    "title": "Title",
+    "releaseYear": "Release Year",
+    "releaseDate": "Release Date (YYYY-MM-DD)",
+    "gameType": "Game Type",
+    "gameStatus": "Game Status",
+    "parentBaseGame": "Parent / Base Game",
+    "parentHint": "DLCs and expansions need a base game. You can pick a local game or an IGDB result and we will materialize it automatically if needed.",
+    "sourceIgdb": "IGDB",
+    "sourceLocal": "Local",
+    "searchParentPlaceholder": "Search parent game...",
+    "searchToPick": "Search to pick a base game.",
+    "franchise": "Franchise",
+    "notes": "Notes",
+    "notSpecified": "Not specified",
+    "saving": "Saving...",
+    "saveChanges": "Save Changes",
+    "addGame": "Add Game",
+    "parentRequired": "DLCs and expansions must have a parent/base game.",
+    "materializeFailed": "Failed to materialize selected parent game.",
+    "fields": {
+      "genres": "Genres (CSV)",
+      "themes": "Themes (CSV)",
+      "gameModes": "Game Modes (CSV)",
+      "platforms": "Platforms (CSV)",
+      "developers": "Developers (CSV)",
+      "publishers": "Publishers (CSV)",
+      "collections": "Collections (CSV)"
+    },
+    "placeholders": {
+      "genres": "Action, RPG, Indie",
+      "themes": "Fantasy, Sci-Fi",
+      "gameModes": "Single player, Co-op",
+      "platforms": "PC, PS5, Xbox Series",
+      "developers": "FromSoftware",
+      "publishers": "Bandai Namco",
+      "collections": "Dark Souls Collection",
+      "franchise": "Dark Souls"
+    },
+    "types": {
+      "notSpecified": "Not specified",
+      "mainGame": "Main Game",
+      "dlc": "DLC",
+      "expansion": "Expansion",
+      "standaloneExpansion": "Standalone Expansion",
+      "remake": "Remake",
+      "remaster": "Remaster",
+      "port": "Port",
+      "bundle": "Bundle",
+      "episode": "Episode",
+      "season": "Season",
+      "mod": "Mod",
+      "update": "Update",
+      "expandedGame": "Expanded Game",
+      "pack": "Pack / Addon",
+      "fork": "Fork"
+    },
+    "statuses": {
+      "notSpecified": "Not specified",
+      "released": "Released",
+      "alpha": "Alpha",
+      "beta": "Beta",
+      "earlyAccess": "Early Access",
+      "offline": "Offline",
+      "cancelled": "Cancelled",
+      "rumored": "Rumored",
+      "delisted": "Delisted"
+    }
+  },
+  "mediaCard": {
+    "alreadyAdded": "Already Added",
+    "addToLibrary": "Add to Library",
+    "gameDetails": "Game Details"
+  },
+  "detail": {
+    "noIgdbId": "This remote result has no IGDB id.",
+    "loadError": "Failed to load game details.",
+    "fetchingLatest": "Fetching latest data...",
+    "alreadyInLibrary": "Already in Library",
+    "addToLibrary": "Add to Library",
+    "editLocal": "Edit Local Metadata",
+    "materializeEdit": "Materialize & Edit",
+    "syncFromIgdb": "Sync from IGDB",
+    "openIn": "Open in",
+    "summary": "Summary",
+    "screenshots": "Screenshots",
+    "screenshotAlt": "Screenshot {{number}}",
+    "videos": "Videos",
+    "scrollVideosLeft": "Scroll videos left",
+    "scrollVideosRight": "Scroll videos right",
+    "parentGame": "Parent Game",
+    "noParentGame": "No parent game linked.",
+    "dlcsExpansions": "DLCs / Expansions",
+    "noDlcs": "No DLCs or expansions linked.",
+    "ratings": "Ratings",
+    "userRating": "User Rating",
+    "criticRating": "Critic Rating",
+    "typeOfGame": "Type of Game",
+    "platforms": "Platforms",
+    "timeToBeat": "Time to Beat",
+    "sections": {
+      "genres": "Genres",
+      "themes": "Themes",
+      "gameModes": "Game Modes",
+      "developers": "Developers",
+      "publishers": "Publishers",
+      "collections": "Collections"
+    }
+  },
+  "discoverModal": {
+    "poweredBy": "Powered by",
+    "close": "Close {{title}}",
+    "igdbCredits": "Data and multimedia assets are provided by the IGDB API for identification purposes. This app is strictly independent and is not affiliated with, sponsored, or endorsed by any of the developers, publishers, or brands featured."
+  },
+  "videoGallery": {
+    "video": "Video",
+    "openOnYoutube": "Open on YouTube"
+  },
+  "platforms": {
+    "title": "Platform Icons",
+    "searchPlaceholder": "Search IGDB platforms...",
+    "clearSearch": "Clear platform search",
+    "loadError": "Failed to load IGDB platforms.",
+    "noResults": "No platforms found",
+    "currentSelection": "Current Selection",
+    "clearSelection": "Clear selected platform",
+    "noneSelected": "No platform selected",
+    "generation": "Generation {{number}}",
+    "platformFallback": "Platform"
+  },
+  "timeMachine": {
+    "title": "Time Machine",
+    "quickDecades": "Quick Decades",
+    "previousYear": "Previous year",
+    "selectedYear": "Selected year",
+    "nextYear": "Next year"
+  },
+  "actions": {
+    "clear": "Clear"
+  },
+  "catalogPage": {
+    "title": "Explore",
+    "subtitle": "Browse the latest, what is coming, and all-time greats",
+    "addGame": "Add Game",
+    "filter": "Filter",
+    "seeMore": "See more",
+    "seeMoreAria": "See more {{title}}",
+    "scrollLeftAria": "Scroll {{title}} left",
+    "scrollRightAria": "Scroll {{title}} right",
+    "resultCount_one": "{{count}} result",
+    "resultCount_other": "{{count}} results",
+    "searchPlaceholders": {
+      "filterGames": "Filter games...",
+      "filterNamed": "Filter {{label}} games...",
+      "searchAll": "Search IGDB + local catalog..."
+    },
+    "rails": {
+      "latest": "Latest Releases",
+      "trending": "Trending Now",
+      "anticipated": "Upcoming Releases",
+      "topPopular": "Top Popular"
+    },
+    "exploreTitles": {
+      "timeMachineYear": "Best Games of {{year}}",
+      "timeMachineRange": "Best Games of {{range}}",
+      "timeMachineResults": "Time Machine Results",
+      "gamesFromEvent": "Games from {{name}}",
+      "bestByCompany": "Best Games by {{name}}",
+      "bestForGenre": "Best Games for {{label}}",
+      "bestInSaga": "Best Games in {{name}}",
+      "bestOnPlatform": "Best Games on {{name}}"
+    },
+    "sections": {
+      "yourGames": "Your Games",
+      "filteredResults": "Filtered Results",
+      "searchResults": "Search Results"
+    },
+    "empty": {
+      "latest": "No recent releases available right now.",
+      "trending": "No trending releases available right now.",
+      "anticipated": "No upcoming releases available right now.",
+      "top": "No all-time catalog highlights available right now.",
+      "yourGames": "No local catalog games yet.",
+      "railLatest": "No recent releases available right now",
+      "railTrending": "No trending games available right now",
+      "railAnticipated": "No upcoming releases available right now",
+      "railTop": "No top games available right now",
+      "noMatchFilter": "No games match this filter",
+      "noMatchFilterHint": "Try another filter or clear the current selection.",
+      "noGamesFound": "No games found",
+      "noGamesFoundHint": "Try another query or add a manual game.",
+      "event": "No games found for this event",
+      "company": "No games found for this company",
+      "genre": "No games match these criteria",
+      "saga": "No games found for this saga",
+      "platform": "No iconic games found for this platform",
+      "period": "No games found for this period",
+      "railHint": "Try again after the catalog data refreshes.",
+      "eventHint": "Try another event.",
+      "companyHint": "Try another company.",
+      "genreHint": "Try adjusting the selected genres or game attributes.",
+      "sagaHint": "Try another saga.",
+      "platformHint": "Try another platform.",
+      "periodHint": "Try another year or decade."
+    },
+    "genreSummary": {
+      "genre_one": "{{count}} Genre",
+      "genre_other": "{{count}} Genres",
+      "theme_one": "{{count}} Theme",
+      "theme_other": "{{count}} Themes",
+      "gameMode_one": "{{count}} Game Mode",
+      "gameMode_other": "{{count}} Game Modes",
+      "perspective_one": "{{count}} Perspective",
+      "perspective_other": "{{count}} Perspectives"
+    },
+    "errors": {
+      "trending": "Failed to load trending games",
+      "yourGames": "Failed to load your catalog games",
+      "best": "Failed to load best games",
+      "upcoming": "Failed to load upcoming releases",
+      "latest": "Failed to load latest releases",
+      "rail": "Failed to load these games",
+      "search": "Failed to load catalog",
+      "period": "Failed to explore games for this period",
+      "event": "Failed to load games for this event",
+      "company": "Failed to load games for this company",
+      "criteria": "Failed to explore games for these criteria",
+      "saga": "Failed to load games for this saga",
+      "platform": "Failed to load iconic games for this platform"
+    },
+    "toasts": {
+      "updatedGame": "Updated \"{{title}}\".",
+      "createFailed": "Failed to create local game.",
+      "addedToCatalog": "Added \"{{title}}\" to catalog.",
+      "noIgdbId": "This remote result has no IGDB id.",
+      "materializeFailed": "Failed to materialize remote game.",
+      "notLinkedIgdb": "This local game is not linked to IGDB.",
+      "syncedFromIgdb": "Synced \"{{title}}\" from IGDB.",
+      "materializeFirst": "Materialize this game first to sync.",
+      "addedToLibrary": "Added \"{{title}}\" to your library.",
+      "updateFailed": "Couldn't save this game.",
+      "syncFailed": "Couldn't sync this game from IGDB."
+    },
+    "filters": {
+      "title": "Catalog filters",
+      "subtitle": "Narrow the current catalog results.",
+      "reset": "Reset",
+      "gameType": "Game Type",
+      "allGameTypes": "All Game Types",
+      "platforms": "Platforms",
+      "allPlatforms": "All Platforms",
+      "searchPlatforms": "Search platforms...",
+      "genres": "Genres",
+      "allGenres": "All Genres",
+      "searchGenres": "Search genres...",
+      "releaseYear": "Release Year"
+    },
+    "bento": {
+      "timeMachine": {
+        "title": "Time Machine",
+        "description": "Best games by year"
+      },
+      "companies": {
+        "title": "Best of Companies",
+        "description": "Top picks by studio"
+      },
+      "genres": {
+        "title": "Best by Genre",
+        "description": "Genre-defining games"
+      },
+      "platforms": {
+        "title": "Platform Icons",
+        "description": "Best by console"
+      },
+      "events": {
+        "title": "Events",
+        "description": "Games from major showcases"
+      },
+      "gotys": {
+        "title": "GOTYs",
+        "description": "Award winners"
+      },
+      "sagas": {
+        "title": "Best Sagas",
+        "description": "Pillars of gaming"
+      }
+    }
+  },
+  "genre": {
+    "title": "Best by Genre",
+    "searchPlaceholder": "Search genres, themes, modes, and perspectives...",
+    "clearSearch": "Clear genre search",
+    "loadError": "Unable to load genres, themes, game modes, and perspectives.",
+    "noResults": "No genres, themes, game modes, or perspectives found",
+    "noneSelected": "No genres, themes, game modes, or perspectives selected",
+    "selected": "Selected",
+    "selectedCount": "Selected ({{count}})",
+    "remove": "Remove {{name}}",
+    "kinds": {
+      "genre": "Genre",
+      "theme": "Theme",
+      "playerPerspective": "Perspective",
+      "gameMode": "Game Mode"
+    }
+  }
+}

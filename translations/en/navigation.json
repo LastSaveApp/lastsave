@@ -1,0 +1,22 @@
+{
+  "items": {
+    "home": "Home",
+    "library": "Library",
+    "explore": "Explore",
+    "shelves": "Shelves",
+    "journeys": "Journeys",
+    "settings": "Settings",
+    "profile": "Profile"
+  },
+  "labels": {
+    "localUser": "Local User"
+  },
+  "tooltips": {
+    "collapseShelves": "Collapse shelves",
+    "expandShelves": "Expand shelves",
+    "collapseSidebar": "Collapse sidebar",
+    "expandSidebar": "Expand sidebar",
+    "collapseJourneys": "Collapse journeys",
+    "expandJourneys": "Expand journeys"
+  }
+}

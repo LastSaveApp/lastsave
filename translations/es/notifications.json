@@ -1,0 +1,40 @@
+{
+  "bell": {
+    "open": "Notificaciones",
+    "unread_one": "Notificaciones, {{count}} sin leer",
+    "unread_many": "Notificaciones, {{count}} sin leer",
+    "unread_other": "Notificaciones, {{count}} sin leer"
+  },
+  "tray": {
+    "title": "Notificaciones",
+    "markAllRead": "Marcar todo leído",
+    "markAllUnread": "Marcar todo no leído",
+    "markRead": "Marcar como leída",
+    "markUnread": "Marcar como no leída",
+    "clearAll": "Borrar todo",
+    "dismiss": "Descartar",
+    "today": "Hoy",
+    "earlier": "Antes",
+    "empty": "Estás al día."
+  },
+  "time": {
+    "justNow": "Ahora mismo",
+    "minutesAgo": "hace {{count}}m",
+    "hoursAgo": "hace {{count}}h"
+  },
+  "providerSync": {
+    "updated_one": "{{provider}} actualizó las horas de {{count}} juego",
+    "updated_many": "{{provider}} actualizó las horas de {{count}} juegos",
+    "updated_other": "{{provider}} actualizó las horas de {{count}} juegos",
+    "gamesTwo": "{{first}} y {{second}}",
+    "gamesMore_one": "{{first}}, {{second}} y {{count}} más",
+    "gamesMore_many": "{{first}}, {{second}} y {{count}} más",
+    "gamesMore_other": "{{first}}, {{second}} y {{count}} más",
+    "failed": "{{provider}} no terminó de sincronizar",
+    "failedDescription": "Tus horas no cambiaron. Volverá a intentarlo la próxima vez."
+  },
+  "sessionSaved": {
+    "description": "{{title}} · {{duration}}",
+    "open": "Abrir juego"
+  }
+}

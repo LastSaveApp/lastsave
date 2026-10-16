@@ -1,0 +1,483 @@
+{
+  "titleBar": {
+    "label": "Modo Juego",
+    "tooltip": "Entrar al Modo Juego",
+    "tooltipWithPad": "Entrar al Modo Juego (hay un control conectado)"
+  },
+  "tabs": {
+    "home": "Inicio",
+    "library": "Biblioteca",
+    "shelves": "Estanterías",
+    "soon": "Pronto",
+    "journeys": "Misiones"
+  },
+  "greeting": {
+    "morning": "Buenos días",
+    "afternoon": "Buenas tardes",
+    "evening": "Buenas noches",
+    "night": "¿Sigues despierto?"
+  },
+  "hero": {
+    "kicker": {
+      "jumpBackIn": "Vuelve a jugar",
+      "recentlyAdded": "Añadido hace poco"
+    },
+    "played": "{{hours}} jugadas",
+    "lastPlayed": "Jugado {{when}}",
+    "addedWhen": "Añadido {{when}}",
+    "noSessionsYet": "Aún no hay sesiones. Presiona Jugar y LastSave cuenta desde el minuto uno."
+  },
+  "rails": {
+    "recentGames": "Juegos recientes"
+  },
+  "memories": {
+    "title": "Recuerdos",
+    "empty": "Aquí aparecen las capturas, clips y notas que anotas mientras juegas.",
+    "video": "Video"
+  },
+  "library": {
+    "tabs": {
+      "installed": "Instalados",
+      "all": "Todos",
+      "status": "Estado",
+      "source": "Origen",
+      "shelf": "Estanterías"
+    },
+    "stateLine_one": "Orden: {{sort}} · {{count}} juego",
+    "stateLine_many": "Orden: {{sort}} · {{count}} juegos",
+    "stateLine_other": "Orden: {{sort}} · {{count}} juegos",
+    "stateLineFiltered_one": "Orden: {{sort}} · Filtrado · {{count}} juego",
+    "stateLineFiltered_many": "Orden: {{sort}} · Filtrado · {{count}} juegos",
+    "stateLineFiltered_other": "Orden: {{sort}} · Filtrado · {{count}} juegos",
+    "stateLineSearch_one": "Búsqueda «{{query}}» · Orden: {{sort}} · {{count}} juego",
+    "stateLineSearch_many": "Búsqueda «{{query}}» · Orden: {{sort}} · {{count}} juegos",
+    "stateLineSearch_other": "Búsqueda «{{query}}» · Orden: {{sort}} · {{count}} juegos",
+    "stateLineSearchFiltered_one": "Búsqueda «{{query}}» · Orden: {{sort}} · Filtrado · {{count}} juego",
+    "stateLineSearchFiltered_many": "Búsqueda «{{query}}» · Orden: {{sort}} · Filtrado · {{count}} juegos",
+    "stateLineSearchFiltered_other": "Búsqueda «{{query}}» · Orden: {{sort}} · Filtrado · {{count}} juegos",
+    "sortInLine": {
+      "lastPlayed": "última partida",
+      "title": "título",
+      "playtime": "tiempo de juego",
+      "lastActivity": "última actividad"
+    },
+    "noShelf": "Sin estantería",
+    "empty": {
+      "search": {
+        "title": "Ningún juego coincide con «{{query}}»",
+        "description": "Prueba otra palabra, o borra la búsqueda para ver toda la biblioteca.",
+        "again": "Buscar de nuevo"
+      },
+      "filters": {
+        "title": "Tus filtros ocultan todos los juegos",
+        "description": "Cámbialos, o quítalos para ver toda la biblioteca."
+      },
+      "notInstalled": {
+        "title": "Nada instalado aquí",
+        "description": "Desactiva Solo instalados en Filtros para ver el resto de tu biblioteca."
+      },
+      "nothing": {
+        "title": "Nada por aquí",
+        "description": "Ningún juego coincide con esta vista."
+      },
+      "shelf": {
+        "title": "Esta estantería todavía está vacía",
+        "description": "Añádele juegos con Menú, o desde el escritorio."
+      }
+    }
+  },
+  "search": {
+    "title": "Buscar",
+    "placeholder": "Título, estudio, género…",
+    "count_one": "{{count}} juego",
+    "count_many": "{{count}} juegos",
+    "count_other": "{{count}} juegos",
+    "showKeyboard": "Mostrar el teclado en pantalla",
+    "hideKeyboard": "Ocultar el teclado en pantalla"
+  },
+  "filters": {
+    "title": "Filtros",
+    "count_one": "{{count}} juego",
+    "count_many": "{{count}} juegos",
+    "count_other": "{{count}} juegos",
+    "sort": "Ordenar por",
+    "sortOptions": {
+      "lastPlayed": "Última partida",
+      "title": "Título",
+      "playtime": "Tiempo de juego",
+      "lastActivity": "Última actividad"
+    },
+    "installedOnly": "Solo instalados",
+    "showAttachedContent": "DLC y expansiones como tarjetas propias",
+    "status": "Estado",
+    "source": "Origen",
+    "shelves": "Estanterías",
+    "anyStatus": "Cualquier estado",
+    "anySource": "Cualquier origen",
+    "anyShelf": "Cualquier estantería",
+    "more": "+{{count}}",
+    "nothingToFilter": "Nada que filtrar"
+  },
+  "emptyState": {
+    "title": "Todavía no hay nada para jugar",
+    "description": "El Modo Juego muestra los juegos instalados en este equipo. Importa o añade juegos desde el escritorio y aparecerán aquí."
+  },
+  "legend": {
+    "continue": "Continuar",
+    "play": "Jugar",
+    "start": "Iniciar",
+    "playNow": "Jugar ahora",
+    "open": "Abrir",
+    "goToGame": "Ir al juego",
+    "select": "Elegir",
+    "back": "Volver",
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "options": "Opciones",
+    "menu": "Menú",
+    "exit": "Salir",
+    "keyboard": "Teclado",
+    "device": {
+      "xbox": "Control de Xbox",
+      "xbox360": "Control de Xbox 360",
+      "ps3": "Control de PS3",
+      "ps4": "Control de PS4",
+      "ps5": "Control de PS5",
+      "playstation": "Control de PlayStation",
+      "switch": "Control de Switch",
+      "generic": "Control",
+      "keyboard": "Teclado y mouse"
+    },
+    "change": "Cambiar",
+    "clearAll": "Quitar todo",
+    "clear": "Quitar",
+    "toggle": "Elegir",
+    "clearSearch": "Borrar búsqueda",
+    "search": "Buscar",
+    "filters": "Filtros",
+    "clearFilters": "Quitar filtros",
+    "done": "Listo"
+  },
+  "menu": {
+    "title": "LastSave",
+    "home": "Inicio",
+    "library": "Biblioteca",
+    "shelves": "Estanterías",
+    "journeys": "Misiones",
+    "settings": "Ajustes",
+    "fullscreen": "Pantalla completa",
+    "exit": "Salir del Modo Juego",
+    "quit": "Salir de LastSave",
+    "localUser": "Perfil local"
+  },
+  "splash": {
+    "launching": "Abriendo…",
+    "starting": "Iniciando la sesión…",
+    "waitingForGame": "Esperando la ventana del juego",
+    "tracking": "Detectando. LastSave se hace a un lado.",
+    "launchedUntracked": "Abierto. Este juego no se detecta.",
+    "cancelled": "Cancelado",
+    "blocked": "No se pudo iniciar",
+    "pressToCancel": "Cancelar",
+    "dismiss": "OK",
+    "clipsUnavailable": "Los clips no están configurados. Pedir un clip guarda una captura."
+  },
+  "settingsPage": {
+    "title": "Ajustes",
+    "on": "Sí",
+    "off": "No",
+    "fullscreenDescription": "El Modo Juego se abre como lo dejaste. F11 lo cambia cuando quieras.",
+    "controllerShortcuts": "Atajos del control",
+    "controllerShortcutsNote": "Se mantiene View mientras corre un juego. El juego también recibe los dos botones: View + RB abre lo que View abre en el juego (a menudo su mapa) y presiona RB en él.",
+    "notSet": "Sin asignar",
+    "captures": "Capturas",
+    "clipsTitle": "Clips y grabación",
+    "clipsDescription": "A qué grabador le pide clips LastSave, y qué activar en él.",
+    "open": "Abrir"
+  },
+  "keyboard": {
+    "type": "Escribir",
+    "delete": "Borrar",
+    "space": "Espacio",
+    "done": "Listo",
+    "clear": "Borrar todo",
+    "shift": "Shift",
+    "save": "Guardar"
+  },
+  "notices": {
+    "updated": "LastSave {{version}} está instalado",
+    "updatedDescription": "Mira las novedades cuando vuelvas al escritorio."
+  },
+  "shelves": {
+    "count_one": "{{count}} juego",
+    "count_many": "{{count}} juegos",
+    "count_other": "{{count}} juegos",
+    "more": "+{{count}}",
+    "nothingToPlay": "En esta estantería no hay nada para jugar aquí.",
+    "empty": {
+      "title": "Todavía no hay estanterías",
+      "description": "Las estanterías que crees en el escritorio aparecen aquí, listas para jugar."
+    },
+    "manageGames": "Juegos",
+    "addGames": "Añadir juegos"
+  },
+  "hub": {
+    "sessions": "Sesiones",
+    "journals": "Diarios",
+    "achievements": "Logros",
+    "shelves": "Estanterías",
+    "journeys": "Misiones",
+    "achievementCount": "{{type}} · {{count}}",
+    "noneYet": "Todavía nada",
+    "journeyPosition": "{{position}} de {{total}}",
+    "moreJourneys_one": "y {{count}} misión más",
+    "moreJourneys_many": "y {{count}} misiones más",
+    "moreJourneys_other": "y {{count}} misiones más",
+    "none": "—",
+    "never": "Nunca",
+    "stats": {
+      "status": "Estado",
+      "hours": "Horas",
+      "lastPlayed": "Última partida",
+      "impression": "Impresión",
+      "rating": "Puntaje"
+    },
+    "tabs": {
+      "all": "Todo",
+      "achievements": "Logros",
+      "journals": "Diarios",
+      "status": "Estado",
+      "sessions": "Sesiones"
+    },
+    "scopes": {
+      "all": "Todo",
+      "base": "Juego base"
+    },
+    "logs": {
+      "added": "Añadido a la biblioteca",
+      "empty": "Todavía no hay nada anotado. Tu historia con este juego empieza la primera vez que presionas Jugar."
+    },
+    "viewer": {
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "hideText": "Ocultar texto"
+    },
+    "actions": {
+      "status": "Estado",
+      "note": "Diario",
+      "shelves": "Estanterías",
+      "more": "Más"
+    }
+  },
+  "padStatus": {
+    "none": "No hay ningún control conectado"
+  },
+  "statusSheet": {
+    "title": "Estado",
+    "now": "Ahora",
+    "impression": "Impresión",
+    "comment": "Comentario",
+    "addComment": "Añadir un comentario",
+    "optional": "Opcional",
+    "commentPlaceholder": "¿Qué cambió?",
+    "save": "Guardar",
+    "clearImpression": "Quitar impresión",
+    "saved": "Estado cambiado a {{status}}",
+    "failed": "No se pudo guardar el estado",
+    "discardTitle": "¿Descartar estos cambios?"
+  },
+  "shelvesSheet": {
+    "toggle": "Añadir o quitar",
+    "count_one": "En {{on}} de {{count}} estantería",
+    "count_many": "En {{on}} de {{count}} estanterías",
+    "count_other": "En {{on}} de {{count}} estanterías",
+    "empty": "Todavía no hay estanterías. Crea una en el escritorio y aparece aquí."
+  },
+  "journeysSheet": {
+    "toggle": "Añadir o quitar",
+    "count_one": "En {{on}} de {{count}} misión",
+    "count_many": "En {{on}} de {{count}} misiones",
+    "count_other": "En {{on}} de {{count}} misiones",
+    "games_one": "{{count}} juego",
+    "games_many": "{{count}} juegos",
+    "games_other": "{{count}} juegos",
+    "empty": "Todavía no hay misiones. Empieza una en el escritorio y aparece aquí.",
+    "failed": "No se pudo guardar la misión"
+  },
+  "editor": {
+    "discardTitle": "¿Descartar lo que escribiste?",
+    "discard": "Descartar",
+    "keepEditing": "Conservar"
+  },
+  "note": {
+    "title": "Nueva entrada de diario",
+    "context": "{{game}} · Hoy",
+    "placeholder": "¿Qué pasó?",
+    "saved": "Entrada de diario guardada",
+    "failed": "No se pudo guardar la entrada de diario"
+  },
+  "chord": {
+    "hold": "Mantén"
+  },
+  "captures": {
+    "journal": "Diario"
+  },
+  "captureSheet": {
+    "choices": {
+      "journal": "Entrada de diario",
+      "achievement": "Logro"
+    },
+    "kinds": {
+      "screenshot": "Captura",
+      "clip": "Clip",
+      "note": "Nota"
+    },
+    "position": "{{index}} de {{count}}",
+    "fileAs": "Guardar como",
+    "title": "Título",
+    "titleFromNote": "La nota misma",
+    "titlePlaceholder": "¿Qué lograste?",
+    "text": "Texto",
+    "caption": "Nota",
+    "addCaption": "Añadir una nota…",
+    "captionPlaceholder": "¿Qué estaba pasando aquí?",
+    "discard": "Descartar captura",
+    "discardTitle": "¿Descartar esta captura?",
+    "failed": "No se pudo guardar ese cambio.",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "view": "Ver",
+    "watch": "Ver",
+    "play": "Reproducir",
+    "pause": "Pausar",
+    "restart": "Desde el inicio"
+  },
+  "clipsSheet": {
+    "ready": "Listo",
+    "unavailable": {
+      "gamebar": "Desactivado en Windows",
+      "nvidia": "No está abierto",
+      "amd": "No está abierto"
+    },
+    "test": "Probar",
+    "passed": "Funciona",
+    "failed": "No guardó nada"
+  },
+  "focusMode": {
+    "clips": "Clips y grabación:",
+    "clipsChange": "Cambiar",
+    "clipsSetUp": "Configurar",
+    "log": "Anotar",
+    "newLog": "Nueva entrada",
+    "backToGame": "Volver al juego",
+    "keepPlaying": "Seguir jugando",
+    "thisSession_one": "Esta sesión · {{count}}",
+    "thisSession_many": "Esta sesión · {{count}}",
+    "thisSession_other": "Esta sesión · {{count}}",
+    "empty": "Aquí aparecen las capturas, clips y entradas que tomas mientras juegas.",
+    "nothingIsALog": "Nada se convierte en entrada hasta que termina la sesión."
+  },
+  "nowPlaying": {
+    "live": "En vivo",
+    "startedAt": "Empezó a las {{time}}",
+    "playingFor": "Tiempo de juego",
+    "backToGame": "Volver al juego",
+    "stop": "Terminar sesión"
+  },
+  "sessionOver": {
+    "kicker": "Sesión terminada",
+    "whichGame": "¿Qué juego?",
+    "whichGameHint": "El juego base o una de sus expansiones",
+    "playedOn": "Jugado el",
+    "duration": "Duración",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "tracked": "Detectado: {{duration}}",
+    "status": "Estado",
+    "changed": "cambió",
+    "unchanged": "igual",
+    "note": "Nota de la sesión",
+    "addNote": "Añade una nota sobre esta sesión…",
+    "captures_one": "Capturas · {{count}}",
+    "captures_many": "Capturas · {{count}}",
+    "captures_other": "Capturas · {{count}}",
+    "noCaptures": "No se capturó nada en esta sesión.",
+    "unfiledBecomeJournal": "Lo que no guardes como otra cosa queda como entrada de diario.",
+    "discard": "Descartar sesión",
+    "saved_one": "Sesión guardada · {{duration}} · {{count}} entrada",
+    "saved_many": "Sesión guardada · {{duration}} · {{count}} entradas",
+    "saved_other": "Sesión guardada · {{duration}} · {{count}} entradas"
+  },
+  "padBind": {
+    "prompt": "Mantén {{modifier}} y presiona un botón",
+    "tapOrHold": "Suelta para un toque; mantén para una pulsación larga.",
+    "now": "Ahora",
+    "failed": "No se pudo guardar esa combinación."
+  },
+  "shelfGames": {
+    "hint_one": "{{count}} juego en ella · los cambios se guardan al momento",
+    "hint_many": "{{count}} juegos en ella · los cambios se guardan al momento",
+    "hint_other": "{{count}} juegos en ella · los cambios se guardan al momento",
+    "searchPlaceholder": "Buscar en tu biblioteca",
+    "noResults": "Ningún juego de tu biblioteca coincide.",
+    "unknownGame": "Juego desconocido",
+    "failed": "No se pudo añadir o quitar ese juego. Inténtalo otra vez."
+  },
+  "moreSheet": {
+    "title": "Más",
+    "review": "Puntaje y reseña",
+    "reviewHint": "Puntúalo de 0 a 10 y di por qué",
+    "shelves": "Estanterías",
+    "shelvesHint": "Añádelo a una estantería o quítalo de una",
+    "journeys": "Misiones",
+    "journeysHint": "Añádelo a una misión o quítalo de una"
+  },
+  "reviewSheet": {
+    "title": "Reseña",
+    "rating": "Puntaje",
+    "outOf": "/ 10",
+    "stepHint": "← → de a 0,1",
+    "stepDown": "−1",
+    "stepUp": "+1",
+    "body": "Reseña",
+    "addBody": "Escribe unas palabras",
+    "optional": "Opcional",
+    "bodyPlaceholder": "¿Qué se te quedó?",
+    "save": "Guardar reseña",
+    "saved": "Reseña guardada",
+    "failed": "No se pudo guardar la reseña",
+    "delete": "Eliminar reseña",
+    "deleteTitle": "¿Eliminar esta reseña?",
+    "deleted": "Reseña eliminada",
+    "deleteFailed": "No se pudo eliminar la reseña",
+    "discardTitle": "¿Descartar los cambios de esta reseña?"
+  },
+  "reviewOffer": {
+    "title": "¿Reseñar {{title}} ahora?",
+    "confirm": "Escribir una reseña",
+    "cancel": "Ahora no"
+  },
+  "journeys": {
+    "count": "{{done}} de {{counted}}",
+    "notInLibrary": "No está en tu biblioteca",
+    "skipped": "Saltado",
+    "unknownGame": "Juego desconocido",
+    "empty": {
+      "title": "Todavía no hay misiones",
+      "description": "Las misiones que crees en el escritorio aparecen aquí, listas para jugar."
+    },
+    "groups": {
+      "pending": "Por jugar",
+      "completed": "Completados",
+      "played": "Jugados",
+      "skipped": "Saltados"
+    },
+    "manageGames": "Juegos",
+    "skip": "Saltar",
+    "unskip": "Volver a contarlo",
+    "pickHint_one": "{{count}} juego en el camino · los cambios se guardan al momento",
+    "pickHint_many": "{{count}} juegos en el camino · los cambios se guardan al momento",
+    "pickHint_other": "{{count}} juegos en el camino · los cambios se guardan al momento",
+    "pickFailed": "No se pudo guardar. Inténtalo otra vez."
+  }
+}

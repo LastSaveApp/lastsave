@@ -1,0 +1,70 @@
+{
+  "stepCounter": "Step {{current}} of {{total}}",
+  "nav": {
+    "saving": "Saving...",
+    "finish": "Finish setup"
+  },
+  "steam": {
+    "optional": "Optional",
+    "title": "Connect with Steam",
+    "description": "Connect your Steam account to prefill your avatar and nickname, and get ready to import your Steam library directly later.",
+    "skipNote": "You can skip this and keep using LastSave normally. Steam is not required to finish onboarding."
+  },
+  "identity": {
+    "title": "Your identity",
+    "subtitle": "Choose a nickname and an optional avatar.",
+    "nickname": "Nickname",
+    "nicknamePlaceholder": "e.g. Gamer42",
+    "nicknameRequired": "Nickname is required"
+  },
+  "pcBuild": {
+    "title": "Your PC build",
+    "subtitle": "Optional — we can try to detect it automatically.",
+    "scanning": "Scanning your PC...",
+    "scan": "Scan my PC",
+    "cpu": "CPU",
+    "cpuPlaceholder": "e.g. AMD Ryzen 5 5600X",
+    "gpu": "GPU",
+    "gpuPlaceholder": "e.g. NVIDIA GeForce RTX 3070",
+    "ram": "RAM (GB)",
+    "ramPlaceholder": "e.g. 16",
+    "os": "Operating system",
+    "osPlaceholder": "e.g. Windows 11 Pro"
+  },
+  "genres": {
+    "title": "Favorite genres",
+    "subtitle": "Pick the genres you enjoy most. You can change these later.",
+    "choose": "Choose genres ({{count}})"
+  },
+  "favoriteGames": {
+    "title": "Favorite games",
+    "subtitle": "Pick up to {{max}} games from your catalog. You can skip this for now.",
+    "choose": "Choose games ({{count}}/{{max}})"
+  },
+  "summary": {
+    "title": "All set!",
+    "subtitle": "Here's a summary of your profile. You can edit everything later.",
+    "avatarAlt": "Avatar",
+    "localProfile": "Local profile",
+    "pcBuild": "PC Build",
+    "ram": "{{gb}} GB",
+    "favoriteGenres": "Favorite genres",
+    "favoriteGames": "Favorite games"
+  },
+  "handoff": {
+    "title": "Getting everything ready",
+    "message": "Saving your profile and setting up your home. This only happens once."
+  },
+  "disconnect": {
+    "title": "Disconnect Steam?",
+    "message": "This will remove your current Steam connection, clear the saved session, and reset the Steam-prefilled identity fields in this onboarding step.",
+    "confirm": "Disconnect",
+    "cancel": "Keep connected"
+  },
+  "errors": {
+    "hardware": "Could not detect your PC hardware right now.",
+    "connectSteam": "Could not connect your Steam account right now.",
+    "disconnectSteam": "Could not disconnect your Steam account right now.",
+    "save": "Something went wrong. Please try again."
+  }
+}

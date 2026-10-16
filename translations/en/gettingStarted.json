@@ -1,0 +1,61 @@
+{
+  "brand": {
+    "mark": "LastSave"
+  },
+  "splash": {
+    "languageLabel": "Language",
+    "getStarted": "Get started",
+    "legalNote": "To continue you'll need to accept our <terms>Terms of Use</terms> and <privacy>Privacy Policy</privacy>.",
+    "footer": "LastSave {{year}} · Local-first · Your data stays on your machine"
+  },
+  "welcome": {
+    "title": "Welcome to LastSave",
+    "setUpProfile": "Set up my profile",
+    "features": {
+      "trackSessions": {
+        "title": "Track sessions",
+        "description": "Hit play. The hours count themselves."
+      },
+      "manageBacklog": {
+        "title": "Manage backlog",
+        "description": "No more forgetting what you left half-played."
+      },
+      "journalProgress": {
+        "title": "Journal progress",
+        "description": "Capture thoughts and moments while you play."
+      },
+      "buildArchive": {
+        "title": "Save Memories",
+        "description": "Years from now, it's all still there."
+      }
+    }
+  },
+  "legal": {
+    "title": "Terms & Privacy",
+    "subtitle": "Please read and accept both documents to continue.",
+    "documents": {
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy"
+    },
+    "status": {
+      "pending": "Pending",
+      "accepted": "Accepted"
+    },
+    "lastUpdated": "Last updated: {{date}}",
+    "scrollHint": "Scroll to the end to enable Accept.",
+    "mustAcceptNote": "Accept both documents to continue, or close the app.",
+    "accept": "Accept",
+    "continue": "Continue",
+    "reconsent": {
+      "titleBoth": "Updated Terms of Use and Privacy Policy",
+      "titleTerms": "Updated Terms of Use",
+      "titlePrivacy": "Updated Privacy Policy",
+      "subtitleDated": "Updated on {{date}}. Read what changed and accept to keep using LastSave. Your library and settings are untouched."
+    },
+    "changesHeading": "What changed"
+  },
+  "errors": {
+    "accept": "Could not save your acceptance. Please try again.",
+    "language": "Could not save your language choice. Please try again."
+  }
+}

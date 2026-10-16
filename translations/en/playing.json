@@ -1,0 +1,437 @@
+{
+  "detectionPrompt": {
+    "switchGame": {
+      "title": "{{next}} just started",
+      "message": "You're playing {{current}}. Switch the session to {{next}}? You'll review {{current}}'s session first.",
+      "confirm": "Switch",
+      "cancel": "Ignore"
+    },
+    "gameChange": {
+      "title": "Emulator game change detected",
+      "message": "LastSave detected activity for {{title}} in {{process}}. Switch tracking to this game for the rest of the session?",
+      "confirm": "Switch Game",
+      "cancel": "Keep Current"
+    }
+  },
+  "feedback": {
+    "launchFailed": "LastSave started tracking, but could not launch this game: {{error}}",
+    "launchedNoTracking": "Launched, but there is no executable to watch for — this session is tracked manually.",
+    "trackingOnlyNoLaunch": "Session started. Launch the game when you are ready and LastSave will attach when it is detected.",
+    "trackingOnlyNoConfig": "Session started without launch info. LastSave will keep tracking this session manually.",
+    "launchOnlyNoConfig": "Tracking is off for this game and there is nothing to launch it with.",
+    "launchOnlyFailed": "Could not launch this game: {{error}}",
+    "detectOnlyEntry": "This game is set to never launch from LastSave. Tracking started — launch it yourself and LastSave will attach.",
+    "launchDisabledGlobally": "Launching games from LastSave is turned off in Settings.",
+    "emulatorNoCore": "RetroArch opened without the game — no core is set for this system. Map one under Settings → Games scan → Emulators.",
+    "emulatorStillOpen": "{{emulator}} is still open. Close it, then press Play again.",
+    "discTrackMissing": "This game's disc is incomplete: {{file}} isn't in its folder. Put it back next to the .cue and try again.",
+    "entryNotFound": "This Library entry could not be found.",
+    "unknown": "Something unexpected happened while starting this session."
+  },
+  "sessionButton": {
+    "play": "Play",
+    "start": "Start",
+    "paused": "Paused",
+    "playing": "Playing",
+    "resume": "Resume session",
+    "queued": "{{title}} starts once you finish reviewing the current session.",
+    "starting": "Starting...",
+    "startingSession": "Starting session",
+    "yourGame": "your game",
+    "menu": "Session options",
+    "playAndTrack": "Play (launch & track)",
+    "launchOnly": "Play (not tracked)",
+    "timerOnly": "Start timer only",
+    "launchGame": "Launch game",
+    "launchGameHintOn": "Launches and tracks.",
+    "launchGameHintOnUntracked": "Launches only.",
+    "launchGameHintOff": "Timer only.",
+    "launchGameHintUnavailable": "Nothing to launch.",
+    "launchGameHintNotOwned": "Not owned.",
+    "launchGameHintNotInstalled": "Not installed.",
+    "launchGameHintMissing": "Files not found.",
+    "filesMissing": "Not found on this PC",
+    "findAgain": "Find it again",
+    "findAgainHint": "Point LastSave to where it is now.",
+    "markUninstalled": "Mark as uninstalled",
+    "markUninstalledHint": "It's gone. Keep its history.",
+    "launchGameHintOffline": "Drive not connected.",
+    "recordOnlyTitle": "Played on a console",
+    "recordOnlyHint": "LastSave keeps its record but can't start it.",
+    "launchGameHintGloballyOff": "Off in Settings.",
+    "behaviorUpdateFailed": "Could not update this game's launch preference.",
+    "trackGame": "Track game",
+    "trackGameHintOn": "Times your sessions.",
+    "trackGameHintOff": "Never timed.",
+    "trackGameHintUnavailable": "Nothing to track.",
+    "trackGameHintGloballyOff": "Off in Settings.",
+    "trackingUpdateFailed": "Could not update this game's tracking preference.",
+    "fullscreenHint": {
+      "title": "{{title}} ran in exclusive fullscreen last time",
+      "description": "The overlay can't appear over it. In the game's video settings, pick Borderless or Windowed fullscreen; LastSave keeps tracking either way.",
+      "dismiss": "Don't remind me for this game"
+    },
+    "startBlocked": "Could not start a tracked session.",
+    "startFailed": "Could not start this session."
+  },
+  "confirm": {
+    "replaceActive": {
+      "title": "Another session is already active",
+      "message": "LastSave is tracking {{active}}. End that session, review it, then start {{next}}?",
+      "confirm": "End and Switch"
+    },
+    "closeEmulator": {
+      "title": "{{emulator}} is already open",
+      "message": "To launch {{next}}, LastSave closes {{emulator}} and opens it again with the game. If something in it is unsaved, it will ask you first.",
+      "confirm": "Close and launch"
+    }
+  },
+  "dashboard": {
+    "playingMode": "Playing Mode",
+    "trackingLine": "Tracking <target>{{title}}</target> · {{source}}",
+    "source": {
+      "detected": "detected",
+      "manual": "manual start"
+    },
+    "liveSession": "Live session",
+    "paused": "Paused",
+    "borderlessTitle": "The overlay can't show over this game right now.",
+    "borderlessBody": "It is running in native fullscreen. LastSave keeps tracking in the background; switch the game to borderless or windowed to use the overlay. Shortcuts and this window still work.",
+    "actions": {
+      "pause": "Pause",
+      "resume": "Resume",
+      "stop": "Stop",
+      "addLog": "Add log",
+      "screenshot": "Screenshot",
+      "clip": "Clip",
+      "record": "Record",
+      "stopRecording": "Stop recording"
+    },
+    "thisSession": {
+      "title": "This session",
+      "empty": "Screenshots and notes you take while playing will show up here."
+    },
+    "overlay": {
+      "title": "Overlay",
+      "compact": "Compact",
+      "expanded": "Expanded",
+      "hidden": "Hidden",
+      "resetPosition": "Reset position",
+      "shortcuts": {
+        "overlay": "Show / minimize overlay",
+        "focus": "Focus mode",
+        "hide": "Hide / show overlay",
+        "screenshot": "Screenshot",
+        "quickJournal": "Add note",
+        "pause": "Pause / resume",
+        "stop": "End session",
+        "clip": "Clip last seconds",
+        "record": "Record"
+      },
+      "shortcutUnavailable": "In use by another app",
+      "unavailable": "Unavailable while the game is in native fullscreen.",
+      "unbound": "Not set"
+    },
+    "presentationMode": {
+      "nativeFullscreen": "Native fullscreen",
+      "borderless": "Borderless",
+      "windowed": "Windowed",
+      "detecting": "Detecting"
+    },
+    "liveOnPid": "PID {{pid}}",
+    "configuredExe": "Waiting for the exe",
+    "manualTrackingOnly": "Manual tracking",
+    "unresolvedEmulator": "LastSave is tracking the emulator session while the exact game is still being resolved.",
+    "stopConfirm": {
+      "title": "End this session?",
+      "body": "Your time on {{title}} is saved and the session review opens."
+    },
+    "shortcuts": {
+      "title": "Shortcuts",
+      "hint": "Click to rebind"
+    }
+  },
+  "errors": {
+    "screenshotFailed": "Could not capture a screenshot.",
+    "missingTrackingData": "This playing session is missing required tracking data."
+  },
+  "notifications": {
+    "overlayUnavailableFullscreen": {
+      "title": "LastSave",
+      "body": "The overlay can't appear over this game in native fullscreen. LastSave keeps tracking; switch to borderless to use the overlay."
+    },
+    "clipNoFileGameBar": {
+      "title": "No clip was saved",
+      "body": "Xbox Game Bar did not write a file. Turn on \"Record what happened\" under Settings › Gaming › Captures, then try again."
+    },
+    "clipNoFileNvidia": {
+      "title": "No clip was saved",
+      "body": "NVIDIA's overlay did not write a file. Turn on Instant Replay in the NVIDIA overlay (Alt+Z), then try again."
+    }
+  },
+  "modeHost": {
+    "sessionFallback": "Session",
+    "currentTarget": "Current target"
+  },
+  "finalization": {
+    "title": "Finalize Session",
+    "trackedSession": "Tracked Session",
+    "recordedElapsed": "Recorded elapsed time:",
+    "chooseGame": "Choose Game",
+    "saveSessionTo": "Save Session To",
+    "playedOn": "Played On",
+    "adjustDuration": "Adjust Duration",
+    "hoursSuffix": "hrs",
+    "minutesSuffix": "min",
+    "endReason": "End reason",
+    "note": "Note",
+    "noteOptional": "(optional)",
+    "notePlaceholder": "Anything worth remembering from this session?",
+    "discard": "Discard",
+    "saving": "Saving...",
+    "saveSession": "Save Session",
+    "durationError": "Session duration must be greater than zero.",
+    "futureDateError": "Session date cannot be in the future.",
+    "selectGameError": "Select the game for this tracked session before saving.",
+    "saveFailed": "Could not save this session.",
+    "saved": "Session saved.",
+    "confirmDiscardTitle": "Discard this tracked session?",
+    "confirmDiscardMessage": "This will clear the pending finalization without saving a session log.",
+    "confirmDiscardConfirm": "Discard Session",
+    "confirmDiscardCancel": "Keep It",
+    "helper": {
+      "recovered": "LastSave closed unexpectedly while this session was running. The time below is what was tracked up to the last save — adjust it if you kept playing.",
+      "fullscreenSilent": "This game ran in exclusive fullscreen, so the overlay couldn't appear; LastSave tracked the session in the background. For the overlay next time, pick Borderless or Windowed fullscreen in the game's video settings.",
+      "unresolvedEmulator": "We tracked this emulator session, but could not identify the game. Choose the game you played before saving.",
+      "emulatorGameChange": "LastSave detected a possible ROM or disc change during this emulator session. Choose the game that best matches this tracked session before saving.",
+      "attachedOptions": "Choose whether this session should be saved to the base game or one of its attached DLCs or expansions."
+    }
+  },
+  "followUp": {
+    "title": "Session Saved",
+    "logged": "{{duration}} logged",
+    "updateStatus": "Update Status",
+    "updateStatusHint": "Adjust your progress state.",
+    "achievement": "Achievement",
+    "achievementHint": "Mark an achievement from this session.",
+    "addJournal": "Add Journal Entry",
+    "addJournalHint": "Save a memory or note from this session.",
+    "noThanks": "No thanks"
+  },
+  "overlay": {
+    "playing": "Playing",
+    "paused": "Paused",
+    "minimize": "Minimize",
+    "resume": "Resume",
+    "pause": "Pause",
+    "stop": "Stop",
+    "log": "Log",
+    "screenshot": "Shot",
+    "dragHint": "Drag",
+    "note": {
+      "placeholder": "Quick note…",
+      "hint": "Enter saves · Esc cancels",
+      "save": "Save"
+    },
+    "clip": "Clip",
+    "record": "Record",
+    "stopRecording": "Stop rec",
+    "compactHint": "Open the overlay with <shortcut>{{shortcut}}</shortcut>",
+    "hideOverlay": "Hide overlay",
+    "recording": "Recording",
+    "screenshotLong": "Screenshot",
+    "clipLong": "Clip last 30 s",
+    "focus": {
+      "close": "Back to the game",
+      "closeHint": "<shortcut/> or <esc/> returns to the game"
+    },
+    "focusMode": "Focus",
+    "minimizeHint": "{{shortcut}} to minimize",
+    "hide": "Hide",
+    "file": "File",
+    "pad": {
+      "compactHint": "<chord></chord> panel · hold for focus mode",
+      "keepHolding": "Keep holding for focus mode",
+      "foldHint": "Tap <fold></fold> to fold"
+    },
+    "countdown": {
+      "screenshot_one": "Screenshot in {{count}}",
+      "screenshot_other": "Screenshot in {{count}}",
+      "record_one": "Recording in {{count}}",
+      "record_other": "Recording in {{count}}",
+      "hint": "close the game's menu"
+    }
+  },
+  "captures": {
+    "toast": {
+      "screenshot": "Screenshot saved",
+      "clip": "Clip saved",
+      "note": "Note saved",
+      "file": "Decide",
+      "tagHint": "{{chord}} to file"
+    },
+    "strip": {
+      "count_one": "{{count}} item",
+      "count_other": "{{count}} items",
+      "edit": "Edit",
+      "discard": "Discard",
+      "discardConfirmTitle": "Discard this capture?",
+      "discardConfirmMessage": "It leaves this list now and is deleted when the session is saved.",
+      "discardConfirm": "Discard",
+      "view": "Open"
+    },
+    "discarded": "Capture discarded.",
+    "errors": {
+      "fileFailed": "Could not file this capture."
+    },
+    "chip": {
+      "journal": "Journal",
+      "achievement": "Achievement",
+      "filed": "Saved"
+    },
+    "plan": {
+      "title": {
+        "screenshot": "What is this screenshot?",
+        "clip": "What is this clip?",
+        "note": "Edit this note"
+      },
+      "choices": {
+        "journal": "Journal",
+        "achievement": "Achievement"
+      },
+      "save": "Keep",
+      "discard": "Discard",
+      "achievementTitle": "Title *",
+      "problems": {
+        "emptyJournal": "A journal entry needs a note."
+      }
+    },
+    "note": {
+      "title": "Note for this session",
+      "placeholder": "What happened?",
+      "hint": "Saved with the session as a journal entry. Ctrl+Enter to save.",
+      "save": "Add note"
+    }
+  },
+  "consolidation": {
+    "kicker": "Session ended",
+    "nextUp": "Up next: {{title}}. Its session starts when you save or discard this one.",
+    "items": {
+      "title": "Gathered this session",
+      "empty": "Nothing was captured this session.",
+      "captionPlaceholder": "Say something about it (optional)",
+      "descriptionPlaceholder": "Details (optional)"
+    },
+    "problems": {
+      "emptyJournal": "A journal entry needs a note or media."
+    },
+    "saved_zero": "Session saved.",
+    "saved_one": "Session saved with {{count}} entry.",
+    "saved_other": "Session saved with {{count}} entries.",
+    "partialFailure_one": "Session saved, but {{count}} item could not be filed. It stays in your captures.",
+    "partialFailure_other": "Session saved, but {{count}} items could not be filed. They stay in your captures.",
+    "confirmDiscardMessage": "The tracked time is dropped and nothing is logged. Whatever this session gathered stays on disk, unfiled.",
+    "toBeLogged": "to be logged",
+    "tally": {
+      "screenshots_one": "{{count}} screenshot",
+      "screenshots_other": "{{count}} screenshots",
+      "clips_one": "{{count}} clip",
+      "clips_other": "{{count}} clips",
+      "notes_one": "{{count}} note",
+      "notes_other": "{{count}} notes",
+      "achievementBadge": "{{label}}: {{count}}",
+      "journals_one": "{{count}} journal entry",
+      "journals_other": "{{count}} journal entries",
+      "achievements_one": "{{count}} achievement",
+      "achievements_other": "{{count}} achievements"
+    }
+  },
+  "clips": {
+    "recorders": {
+      "gamebar": "Xbox Game Bar",
+      "nvidia": "NVIDIA App",
+      "none": "no recorder",
+      "amd": "AMD Adrenalin"
+    },
+    "unavailable": {
+      "noRecorder": "No clip recorder found. Enable Xbox Game Bar or NVIDIA's overlay to clip from here.",
+      "gameBarOff": "Xbox Game Bar capture is off in Windows Settings › Gaming › Captures.",
+      "nvidiaOverlayOff": "The NVIDIA App is not running.",
+      "amdSoftwareOff": "AMD Adrenalin is not running."
+    },
+    "failed": {
+      "clip": "Your last clip saved nothing. Your recorder may need one switch turned on.",
+      "record": "Your last recording saved nothing. Your recorder may need one switch turned on.",
+      "both": "Your last clip and recording saved nothing. Your recorder may need a switch turned on.",
+      "check": "Check"
+    },
+    "setUp": "Set up",
+    "pending": {
+      "clip": "Saving the last seconds…",
+      "record": "Starting the recording…",
+      "test-clip": "Testing the clip…",
+      "test-record": "Testing the recording…"
+    },
+    "notice": {
+      "recorderNoFile": "Your recorder saved no clip. Check it from the overlay.",
+      "recorderNoRecording": "Your recorder saved no recording. Check it from the overlay.",
+      "fullscreenBlocked": "Exclusive fullscreen hides the overlay. Set this game to Borderless to see it.",
+      "recorderUnavailable": "Your recorder is not answering right now.",
+      "clipBecameScreenshot": "No recorder could take the clip, so a screenshot of the moment was kept.",
+      "clipKeptScreenshot": "The clip did not save. A screenshot of the moment was kept."
+    },
+    "changeRecorder": "Change",
+    "recorderLabel": "Clips and recording:"
+  },
+  "setup": {
+    "title": "Clips and recording",
+    "subtitle": "Optional. Xbox Game Bar, the NVIDIA App or AMD Adrenalin records the video; LastSave picks up the file and keeps it with your session.",
+    "recorderStep": "Recorder",
+    "recorders": {
+      "autoWith": "Auto: {{recorder}}",
+      "off": "Off"
+    },
+    "detection": {
+      "checking": "Looking for a recorder…",
+      "found": "Ready to use {{recorder}}.",
+      "none": "No recorder found on this PC yet."
+    },
+    "howTo": {
+      "title": "What to turn on",
+      "gamebar": {
+        "clip": "Clip: Windows Settings › Gaming › Captures, turn on \"Record what happened\".",
+        "record": "Record: works as soon as Game Bar capture is on."
+      },
+      "nvidia": {
+        "clip": "Clip: open the NVIDIA overlay (Alt+Z) and turn Instant Replay on.",
+        "record": "Record: works as soon as the NVIDIA overlay is on in the NVIDIA App."
+      },
+      "amd": {
+        "clip": "Clip: AMD Software, Record & Stream, turn Instant Replay on.",
+        "record": "Record: AMD Software, Record & Stream, turn recording on."
+      }
+    },
+    "testStep": "Check it works",
+    "clear": "Clear results",
+    "tests": {
+      "clip": "Clip the last seconds",
+      "record": "Record a few seconds",
+      "run": "Test",
+      "retry": "Retry"
+    },
+    "testsCleanUpInGame": "The game comes to the front for a few seconds so your recorder can capture it, then this panel returns. The file is deleted straight away.",
+    "testsNeedGame": "The check needs a game in front of your recorder, so it runs while you play: press Clip or Record in the overlay and the first press is the test. If nothing is saved, the overlay tells you and brings you back here.",
+    "fix": {
+      "title": "Nothing came back",
+      "folder": "If your captures go to a custom folder, add it under Settings, Clips.",
+      "openWindows": "Open Windows capture settings",
+      "openRecorder": "Open {{recorder}}"
+    },
+    "done": "Done",
+    "unavailable": {
+      "gamebar": "Xbox Game Bar capture is off in Windows Settings, Gaming, Captures.",
+      "nvidia": "The NVIDIA App is not running on this PC.",
+      "amd": "AMD Software: Adrenalin Edition is not running on this PC."
+    }
+  }
+}

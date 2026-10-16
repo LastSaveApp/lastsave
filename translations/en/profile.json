@@ -1,0 +1,196 @@
+{
+  "genrePicker": {
+    "title": "Favorite genres",
+    "subtitle": "Pick what you enjoy most — genres, themes, modes, and perspectives.",
+    "searchPlaceholder": "Search genres, themes, modes...",
+    "clearSearch": "Clear search",
+    "loadError": "Could not load genres right now. Please try again.",
+    "noResults": "No genres or themes match your search.",
+    "confirm": "Done ({{count}})",
+    "selected": "Selected",
+    "selectedCount": "{{count}} selected",
+    "clear": "Clear",
+    "noneSelected": "No genres selected yet.",
+    "remove": "Remove {{name}}"
+  },
+  "steam": {
+    "connect": "Connect with Steam",
+    "connected": "Connected",
+    "connecting": "Connecting...",
+    "disconnect": "Disconnect Steam",
+    "identity": "Steam identity",
+    "expired": "Expired",
+    "steamName": "Steam Name",
+    "accountFallback": "Steam account"
+  },
+  "epic": {
+    "connect": "Connect with Epic",
+    "connected": "Connected",
+    "connecting": "Connecting...",
+    "reconnect": "Reconnect",
+    "disconnect": "Disconnect Epic",
+    "accountFallback": "Epic account",
+    "disconnectConfirm": {
+      "title": "Disconnect Epic?",
+      "message": "Your imported Epic games stay in your library with their hours and history. Only syncing with Epic stops. You can reconnect the same account at any time.",
+      "confirm": "Disconnect",
+      "cancel": "Keep connected"
+    }
+  },
+  "xbox": {
+    "connect": "Connect with Xbox",
+    "connected": "Connected",
+    "connecting": "Connecting...",
+    "reconnect": "Reconnect",
+    "disconnect": "Disconnect Xbox",
+    "accountFallback": "Xbox account",
+    "unavailable": "Xbox sign-in is not available in this build of LastSave.",
+    "connectFailure": {
+      "noXboxProfile": "This Microsoft account has no Xbox profile yet. Open the Xbox app once to create one, then connect again.",
+      "childAccount": "Xbox needs this Microsoft account to be added to a Microsoft family group, or to have its age verified, before it can sign in here.",
+      "countryUnavailable": "Xbox is not offered in the country or region this Microsoft account is registered in.",
+      "generic": "Could not connect your Xbox account right now."
+    }
+  },
+  "integrations": {
+    "title": "Integrations",
+    "status": {
+      "expired": "Reconnect needed"
+    }
+  },
+  "viewSwitch": {
+    "toLocal": "Switch to local profile view",
+    "toSteam": "Switch to Steam profile view",
+    "steamProfile": "Steam Profile",
+    "localProfile": "Local Profile",
+    "steamHint": "Use your connected Steam identity card.",
+    "localHint": "Use your local LastSave profile card."
+  },
+  "card": {
+    "steamProfile": "Steam Profile",
+    "localProfile": "Local Profile",
+    "steamBackgroundAlt": "Steam background"
+  },
+  "edit": {
+    "title": "Edit Profile",
+    "subtitle": "How you show up in LastSave, and the accounts linked to it.",
+    "nav": {
+      "identity": "Profile",
+      "pcBuild": "PC build",
+      "favorites": "Favorites",
+      "accounts": "Connected accounts"
+    },
+    "sections": {
+      "identity": {
+        "title": "Profile",
+        "hint": "Your picture and name, everywhere in LastSave."
+      },
+      "pcBuild": {
+        "title": "PC build",
+        "hint": "Shown on your profile. Detect fills it in from this PC."
+      },
+      "favorites": {
+        "title": "Favorites",
+        "hint": "The genres and games that say the most about your taste."
+      },
+      "accounts": {
+        "title": "Connected accounts",
+        "hint": "Link the stores you play on to import their games and keep your hours in sync. Changes here apply right away."
+      }
+    },
+    "identity": {
+      "steamHint": "Linked to Steam, so your picture and name came from there. Change them whenever you like."
+    },
+    "nicknamePlaceholder": "Your name",
+    "detect": "Detect",
+    "favorites": {
+      "genresTitle": "Favorite genres",
+      "genresEmpty": "No genres picked yet.",
+      "gamesTitle": "Favorite games",
+      "gamesCount": "{{count}}/{{max}}",
+      "gamesEmpty": "No favorite games yet.",
+      "choose": "Choose",
+      "edit": "Edit"
+    },
+    "accounts": {
+      "groups": {
+        "libraries": "Game libraries",
+        "handles": "Other accounts"
+      },
+      "status": {
+        "connected": "Connected",
+        "expired": "Reconnect needed"
+      },
+      "connect": "Connect",
+      "reconnect": "Reconnect",
+      "connecting": "Connecting…",
+      "disconnect": "Disconnect {{name}}",
+      "steam": "Your games, wishlist and hours. Linking also fills in your picture and name.",
+      "epic": "Your Epic games, wishlist and hours.",
+      "xbox": "Games you’ve played on Xbox, on PC and console, with their hours.",
+      "disclaimer": "LastSave isn’t affiliated with Valve, Epic Games or Microsoft. Your sign-ins stay on this PC.",
+      "handlesHint": "The names people can find you by. Typed here, not linked, and shown on your profile card.",
+      "handlePlaceholders": {
+        "discord": "Username",
+        "psn": "Online ID",
+        "nintendo": "Friend code, SW-1234-5678-9012",
+        "battlenet": "BattleTag, Name#1234",
+        "riot": "Riot ID, Name#TAG"
+      }
+    },
+    "nickname": "Nickname",
+    "scanning": "Scanning...",
+    "cpu": "CPU",
+    "gpu": "GPU",
+    "cpuPlaceholder": "e.g. AMD Ryzen 5 5600X",
+    "gpuPlaceholder": "e.g. NVIDIA GeForce RTX 3070",
+    "ram": "RAM (GB)",
+    "ramPlaceholder": "e.g. 16",
+    "os": "Operating system",
+    "osPlaceholder": "e.g. Windows 11 Pro",
+    "saving": "Saving...",
+    "saveChanges": "Save changes",
+    "hardwareError": "Could not detect your PC hardware right now.",
+    "connectError": "Could not connect your Steam account right now.",
+    "disconnectError": "Could not disconnect your Steam account right now.",
+    "nicknameRequired": "Nickname is required.",
+    "saveFailed": "Failed to save profile.",
+    "genericError": "Something went wrong.",
+    "disconnectConfirmTitle": "Disconnect Steam?",
+    "disconnectConfirmMessage": "This will remove your Steam connection, clear the saved Steam session, and remove the cached Steam profile visuals used across the app.",
+    "disconnectConfirm": "Disconnect",
+    "disconnectCancel": "Keep connected",
+    "epicDisconnectConfirmTitle": "Disconnect Epic?",
+    "epicDisconnectConfirmMessage": "Your imported Epic games stay in your library with their hours and history. Only syncing with Epic stops. You can reconnect the same account at any time.",
+    "xboxDisconnectConfirmTitle": "Disconnect Xbox?",
+    "xboxDisconnectConfirmMessage": "Your imported Xbox games stay in your library with their hours and history. Only syncing with Xbox stops. You can reconnect the same account at any time."
+  },
+  "gamePicker": {
+    "title": "Pick Favorite Games",
+    "selected": "{{count}}/{{max}} selected",
+    "searchPlaceholder": "Search games...",
+    "searching": "Searching...",
+    "fetchingLatest": "Fetching latest data...",
+    "noResults": "No games found",
+    "releaseDateUnknown": "Release date unknown",
+    "noMetadata": "No metadata",
+    "selectedTitle": "Selected",
+    "clear": "Clear",
+    "remove": "Remove {{title}}",
+    "noneSelected": "No games selected yet.",
+    "confirm": "Confirm ({{count}})"
+  },
+  "page": {
+    "loading": "Loading profile...",
+    "noProfile": "No profile found. Complete onboarding first.",
+    "editProfile": "Edit Profile",
+    "profileView": "Profile view",
+    "localProfile": "Local profile",
+    "pcBuild": "PC Build",
+    "ramValue": "{{gb}} GB",
+    "favoriteGenres": "Favorite Genres",
+    "favoriteGames": "Favorite Games",
+    "minimal": "Your profile is minimal. Click \"Edit Profile\" to add more details.",
+    "shareProfile": "Share Profile"
+  }
+}

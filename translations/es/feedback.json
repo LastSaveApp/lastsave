@@ -1,0 +1,121 @@
+{
+  "entry": {
+    "open": "Reporta un error o una idea",
+    "openWithVersion": "Reporta un error o una idea · v{{version}}",
+    "version": "v{{version}}"
+  },
+  "dialog": {
+    "title": "Cuéntanos qué pasó",
+    "subtitle": "Errores, comentarios e ideas: una persona lee cada uno.",
+    "crashTitle": "Reportar este fallo",
+    "crashSubtitle": "Los detalles del error ya van adjuntos. Todo lo que recuerdes ayuda."
+  },
+  "types": {
+    "groupLabel": "Qué tipo de reporte es",
+    "bug": "Error",
+    "feedback": "Comentario",
+    "idea": "Idea"
+  },
+  "fields": {
+    "title": "Resumen",
+    "titlePlaceholder": {
+      "bug": "Qué salió mal, en pocas palabras",
+      "crash": "¿Qué hacías cuando falló?",
+      "feedback": "¿De qué se trata?",
+      "idea": "Tu idea, en pocas palabras"
+    },
+    "description": "Detalles",
+    "descriptionPlaceholder": {
+      "bug": "¿Qué hacías, qué esperabas y qué pasó en cambio?",
+      "crash": "¿En qué pantalla estabas? ¿Ya había pasado antes?",
+      "feedback": "¿Qué te funciona y qué te estorba?",
+      "idea": "¿Qué te gustaría que hiciera LastSave y cuándo lo usarías?"
+    },
+    "contact": "Contacto (opcional)",
+    "contactPlaceholder": "Usuario de Discord o correo, si quieres respuesta",
+    "contactHint": "Solo se usa para responder a este reporte.",
+    "errorTitle": "Fallo: {{error}}",
+    "uncleanExitTitle": "LastSave se cerró de forma inesperada",
+    "windowReloadedTitle": "La ventana falló y se recargó"
+  },
+  "images": {
+    "label": "Capturas",
+    "add": "Añadir imagen",
+    "paste": "Pegar imagen",
+    "hint": "Pega, suelta o elige hasta {{max}} imágenes.",
+    "remove": "Quitar la captura {{index}}",
+    "preview": "Captura {{index}}",
+    "errors": {
+      "unreadable": "No se pudo leer esa imagen.",
+      "tooLarge": "Esa imagen es demasiado grande incluso comprimida.",
+      "clipboardEmpty": "No hay ninguna imagen en el portapapeles."
+    }
+  },
+  "diagnostics": {
+    "include": "Incluir registro de diagnóstico",
+    "includeDescription": "El registro reciente de la app, para rastrear el problema.",
+    "whatsIncluded": "¿Qué se incluye?",
+    "hide": "Ocultar detalles",
+    "items": {
+      "log": "Las últimas líneas del archivo de registro de LastSave (hasta unos 1,5 MB).",
+      "crash": "Si hubo un fallo: el error, en qué parte del código de LastSave ocurrió y cómo terminó la última ejecución si se cerró de forma inesperada.",
+      "system": "Versión de la app, versión de Windows, idioma y la pantalla en la que estabas.",
+      "install": "Un ID aleatorio de esta instalación, para distinguir varios reportes de un mismo PC. No está ligado a tu nombre, tu cuenta ni tu hardware.",
+      "scrubbed": "Tu usuario de Windows y el nombre del PC se reemplazan antes de enviar nada, y los tokens o contraseñas nunca se escriben en el registro.",
+      "never": "Nunca se incluye: tu biblioteca, tus partidas guardadas, tus capturas ni nada que no hayas adjuntado tú."
+    }
+  },
+  "actions": {
+    "send": "Enviar reporte",
+    "sending": "Enviando…",
+    "retry": "Reintentar",
+    "copyId": "Copiar ID",
+    "copied": "Copiado",
+    "joinDiscord": "Únete a Discord",
+    "openLogsFolder": "Abrir registros"
+  },
+  "sent": {
+    "title": "Reporte enviado. ¡Gracias!",
+    "idLabel": "ID del reporte",
+    "followUp": "Los reportes se leen en privado. Para darle seguimiento, únete a nuestro Discord y menciona este ID.",
+    "noReply": "No dejaste un contacto, así que no podemos responderte directamente."
+  },
+  "errors": {
+    "unconfigured": "Esta versión no puede enviar reportes. Aun así puedes escribirnos en Discord.",
+    "offline": "LastSave no pudo conectar con el servicio de reportes. Revisa tu conexión e inténtalo otra vez.",
+    "rateLimited": "Son muchos reportes en poco tiempo. Espera un minuto e inténtalo otra vez.",
+    "tooLarge": "El reporte es demasiado grande. Quita una captura e inténtalo otra vez.",
+    "rejected": "El reporte no fue aceptado. Actualizar LastSave puede solucionarlo.",
+    "unavailable": "El servicio de reportes tiene problemas ahora mismo. Inténtalo otra vez en un momento."
+  },
+  "crash": {
+    "title": "Ups. Algo pasó.",
+    "description": "Encontramos un error. Tu biblioteca y tus partidas guardadas están a salvo.",
+    "details": "Detalles técnicos",
+    "actions": {
+      "report": "Enviar reporte",
+      "reload": "Recargar",
+      "restart": "Reiniciar LastSave",
+      "reset": "Restablecer la interfaz y reiniciar"
+    },
+    "keepsHappening": "Si sigue pasando, prueba a restablecer la interfaz o escríbenos en Discord.",
+    "resetTooltip": "Borra el estado guardado de la interfaz (barra lateral, filtros, imágenes en caché) y reinicia. Tu biblioteca, tu historial y tus archivos multimedia quedan intactos."
+  },
+  "notifications": {
+    "backgroundError": {
+      "title": "Algo falló en segundo plano",
+      "description": "LastSave siguió funcionando. Un reporte nos ayuda a arreglarlo.",
+      "action": "Reportar"
+    },
+    "uncleanShutdown": {
+      "title": "LastSave se cerró de forma inesperada la última vez",
+      "description": "Si fue un fallo, un reporte con el registro nos ayuda a saber por qué.",
+      "action": "Enviar reporte"
+    },
+    "windowReloaded": {
+      "title": "La ventana de LastSave falló y se recargó",
+      "description": "No se perdió nada. Un reporte con el registro nos ayuda a saber por qué pasó.",
+      "action": "Enviar reporte"
+    }
+  }
+}

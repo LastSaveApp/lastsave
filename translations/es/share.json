@@ -1,0 +1,184 @@
+{
+  "dialog": {
+    "title": "Compartir entrada",
+    "titleReview": "Compartir reseña",
+    "titleGame": "Compartir juego",
+    "subtitle": "{{game}} · {{type}}"
+  },
+  "variants": {
+    "card": "Tarjeta",
+    "video": "Tarjeta",
+    "original": "Original"
+  },
+  "status": {
+    "generatingCard": "Creando la tarjeta",
+    "renderingVideo": "Renderizando el video",
+    "renderingPercent": "{{percent}}%",
+    "videoCancelled": "Renderizado cancelado",
+    "readyMeta": {
+      "image": "{{width}}×{{height}} · {{format}} · {{size}}",
+      "originalImage": "{{width}}×{{height}} · {{format}} · {{size}}",
+      "originalVideo": "{{width}}×{{height}} · {{format}} · {{duration}} · {{size}}",
+      "video": "{{width}}×{{height}} · MP4 · {{duration}} · {{size}}"
+    }
+  },
+  "errors": {
+    "card": "No se pudo crear la tarjeta.",
+    "video": "No se pudo renderizar el video.",
+    "probe": "No se pudo leer este clip.",
+    "copy": "No se pudo copiar al portapapeles.",
+    "reveal": "No se pudo abrir la carpeta."
+  },
+  "card": {
+    "chips": {
+      "journal": "Diario",
+      "session": "Sesión",
+      "sessionWithDuration": "Sesión · {{duration}}",
+      "statusUpdate": "Cambio de estado",
+      "review": "Mi reseña",
+      "game": "Juego"
+    },
+    "reviewRating": "{{rating}} / 10",
+    "ratingOutOf": "/ 10",
+    "mark": "LastSave",
+    "markFirst": "Last",
+    "markSecond": "Save"
+  },
+  "image": {
+    "label": "Calidad de imagen",
+    "presets": {
+      "compressed": "Comprimida",
+      "lossless": "Sin pérdida"
+    },
+    "presetHints": {
+      "compressed": "JPG · lo bastante liviana para cualquier chat",
+      "lossless": "PNG · cada píxel, varias veces más pesada"
+    }
+  },
+  "video": {
+    "presets": {
+      "quality": "Calidad",
+      "compressed": "Comprimido"
+    },
+    "presetHints": {
+      "quality": "La mejor imagen · cualquier duración",
+      "compressed": "Hasta 2 min · menos de 20 MB"
+    },
+    "trim": {
+      "window": "Parte elegida del clip",
+      "startHandle": "Inicio de la parte elegida",
+      "endHandle": "Final de la parte elegida",
+      "range": "{{start}} – {{end}}",
+      "selected": "{{selected}} de {{total}} · hasta {{max}}"
+    },
+    "estimate": "≈ {{size}}",
+    "overTarget": "Supera el límite del ajuste: puede que la subida se rechace.",
+    "heavy": "Más de 20 MB: demasiado para el límite gratis de Discord. Usa Comprimido para eso.",
+    "cancel": "Cancelar el renderizado",
+    "retry": "Renderizar de nuevo"
+  },
+  "description": {
+    "label": "Descripción",
+    "leadWithDetail": "{{title}}: {{detail}}",
+    "context": {
+      "achievement": "{{game}} · {{chip}} · anotado en LastSave",
+      "journal": "{{game}} · Diario · anotado en LastSave",
+      "session": "{{game}} · Sesión · anotada en LastSave",
+      "sessionWithDuration": "{{game}} · sesión de {{duration}} · anotada en LastSave",
+      "status": "{{game}} · {{status}} · anotado en LastSave",
+      "review": "{{game}} · {{rating}}/10 · reseñado en LastSave"
+    },
+    "cta": "Descárgalo en {{site}}"
+  },
+  "actions": {
+    "copyCard": "Copiar tarjeta",
+    "copyVideo": "Copiar video",
+    "copyOriginal": "Copiar original",
+    "copyDescription": "Copiar descripción",
+    "showInFolder": "Mostrar en la carpeta",
+    "drag": "Arrastra para compartir",
+    "dragHint": "Arrastra la vista previa directo a una ventana de chat"
+  },
+  "toasts": {
+    "cardCopied": "Tarjeta copiada: pégala con Ctrl+V.",
+    "cardCopiedFile": "Tarjeta copiada como archivo: pégala en un chat con Ctrl+V.",
+    "videoCopied": "Video copiado como archivo: pégalo en Discord o WhatsApp.",
+    "originalCopied": "Original copiado: pégalo con Ctrl+V.",
+    "descriptionCopied": "Descripción copiada."
+  },
+  "footer": {
+    "pasteAnywhere": "Pégalo donde quieras"
+  },
+  "sizes": {
+    "mb": "{{value}} MB",
+    "kb": "{{value}} KB"
+  },
+  "time": {
+    "seconds": "{{value}} s"
+  },
+  "gameCard": {
+    "stats": {
+      "played": "jugadas",
+      "sessions_one": "sesión",
+      "sessions_many": "sesiones",
+      "sessions_other": "sesiones",
+      "journals_one": "diario",
+      "journals_many": "diarios",
+      "journals_other": "diarios",
+      "achievements_one": "logro",
+      "achievements_many": "logros",
+      "achievements_other": "logros"
+    },
+    "description": {
+      "played": "{{duration}} jugadas",
+      "rating": "{{rating}}/10",
+      "context": "{{details}} · en LastSave"
+    },
+    "showProfile": "Mostrar mi perfil",
+    "captions": {
+      "impression": "Impresión"
+    }
+  },
+  "profileCard": {
+    "dialogTitle": "Compartir perfil",
+    "backgroundLabel": "Fondo",
+    "backgrounds": {
+      "steam": "Steam",
+      "game": "Más jugado",
+      "last": "Último jugado",
+      "plain": "Liso"
+    },
+    "backgroundHints": {
+      "steam": "El fondo de tu perfil de Steam",
+      "game": "Arte del juego que más jugaste",
+      "last": "Arte del último juego que jugaste",
+      "plain": "Sin imagen detrás"
+    },
+    "hours": "{{hours}} h",
+    "ram": "{{gb}} GB de RAM",
+    "stats": {
+      "games_one": "Juego",
+      "games_many": "Juegos",
+      "games_other": "Juegos",
+      "hours": "Horas",
+      "logs_one": "Entrada",
+      "logs_many": "Entradas",
+      "logs_other": "Entradas"
+    },
+    "sections": {
+      "mostPlayed": "Más jugados",
+      "favorites": "Favoritos",
+      "library": "Biblioteca",
+      "shelves": "Estanterías",
+      "lastPlayed": "Último jugado",
+      "journeys": "Misiones"
+    },
+    "description": {
+      "headline_one": "{{nickname}} en LastSave: {{games}} juego, {{hours}} horas jugadas.",
+      "headline_many": "{{nickname}} en LastSave: {{games}} juegos, {{hours}} horas jugadas.",
+      "headline_other": "{{nickname}} en LastSave: {{games}} juegos, {{hours}} horas jugadas.",
+      "findMe": "Añádeme: {{accounts}}"
+    },
+    "showPc": "Mostrar mi PC"
+  }
+}

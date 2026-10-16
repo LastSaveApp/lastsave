@@ -1,0 +1,178 @@
+{
+  "dialog": {
+    "title": "Share log",
+    "titleReview": "Share review",
+    "titleGame": "Share game",
+    "subtitle": "{{game}} · {{type}}"
+  },
+  "variants": {
+    "card": "Card",
+    "video": "Card",
+    "original": "Original"
+  },
+  "status": {
+    "generatingCard": "Generating card",
+    "renderingVideo": "Rendering video",
+    "renderingPercent": "{{percent}}%",
+    "videoCancelled": "Render cancelled",
+    "readyMeta": {
+      "image": "{{width}}×{{height}} · {{format}} · {{size}}",
+      "originalImage": "{{width}}×{{height}} · {{format}} · {{size}}",
+      "originalVideo": "{{width}}×{{height}} · {{format}} · {{duration}} · {{size}}",
+      "video": "{{width}}×{{height}} · MP4 · {{duration}} · {{size}}"
+    }
+  },
+  "errors": {
+    "card": "Could not generate the card.",
+    "video": "Could not render the video.",
+    "probe": "Could not read this clip.",
+    "copy": "Could not copy to the clipboard.",
+    "reveal": "Could not open the folder."
+  },
+  "card": {
+    "chips": {
+      "journal": "Journal",
+      "session": "Session",
+      "sessionWithDuration": "Session · {{duration}}",
+      "statusUpdate": "Status update",
+      "review": "My review",
+      "game": "Game"
+    },
+    "reviewRating": "{{rating}} / 10",
+    "ratingOutOf": "/ 10",
+    "mark": "LastSave",
+    "markFirst": "Last",
+    "markSecond": "Save"
+  },
+  "image": {
+    "label": "Image quality",
+    "presets": {
+      "compressed": "Compressed",
+      "lossless": "Lossless"
+    },
+    "presetHints": {
+      "compressed": "JPG · light enough for any chat",
+      "lossless": "PNG · every pixel, several times heavier"
+    }
+  },
+  "video": {
+    "presets": {
+      "quality": "Quality",
+      "compressed": "Compressed"
+    },
+    "presetHints": {
+      "quality": "Best picture · any length",
+      "compressed": "Up to 2 min · under 20 MB"
+    },
+    "trim": {
+      "window": "Selected part of the clip",
+      "startHandle": "Start of the selected part",
+      "endHandle": "End of the selected part",
+      "range": "{{start}} – {{end}}",
+      "selected": "{{selected}} of {{total}} · up to {{max}}"
+    },
+    "estimate": "≈ {{size}}",
+    "overTarget": "Over the preset's limit — the upload may be refused.",
+    "heavy": "Over 20 MB — too big for Discord's free limit. Use Compressed for that.",
+    "cancel": "Cancel render",
+    "retry": "Render again"
+  },
+  "description": {
+    "label": "Description",
+    "leadWithDetail": "{{title}} — {{detail}}",
+    "context": {
+      "achievement": "{{game}} · {{chip}} · logged with LastSave",
+      "journal": "{{game}} · Journal · logged with LastSave",
+      "session": "{{game}} · Session · logged with LastSave",
+      "sessionWithDuration": "{{game}} · {{duration}} session · logged with LastSave",
+      "status": "{{game}} · {{status}} · logged with LastSave",
+      "review": "{{game}} · {{rating}}/10 · reviewed with LastSave"
+    },
+    "cta": "Download it at {{site}}"
+  },
+  "actions": {
+    "copyCard": "Copy card",
+    "copyVideo": "Copy video",
+    "copyOriginal": "Copy original",
+    "copyDescription": "Copy description",
+    "showInFolder": "Show in folder",
+    "drag": "Drag to share",
+    "dragHint": "Drag the preview straight into a chat window"
+  },
+  "toasts": {
+    "cardCopied": "Card copied — paste it with Ctrl+V.",
+    "cardCopiedFile": "Card copied as a file — paste it into a chat with Ctrl+V.",
+    "videoCopied": "Video copied as a file — paste it into Discord or WhatsApp.",
+    "originalCopied": "Original copied — paste it with Ctrl+V.",
+    "descriptionCopied": "Description copied."
+  },
+  "footer": {
+    "pasteAnywhere": "Paste it anywhere"
+  },
+  "sizes": {
+    "mb": "{{value}} MB",
+    "kb": "{{value}} KB"
+  },
+  "time": {
+    "seconds": "{{value}} s"
+  },
+  "gameCard": {
+    "stats": {
+      "played": "played",
+      "sessions_one": "session",
+      "sessions_other": "sessions",
+      "journals_one": "journal",
+      "journals_other": "journals",
+      "achievements_one": "achievement",
+      "achievements_other": "achievements"
+    },
+    "description": {
+      "played": "{{duration}} played",
+      "rating": "{{rating}}/10",
+      "context": "{{details}} · tracked with LastSave"
+    },
+    "showProfile": "Show my profile",
+    "captions": {
+      "impression": "Impression"
+    }
+  },
+  "profileCard": {
+    "dialogTitle": "Share profile",
+    "backgroundLabel": "Background",
+    "backgrounds": {
+      "steam": "Steam",
+      "game": "Most played",
+      "last": "Last played",
+      "plain": "Plain"
+    },
+    "backgroundHints": {
+      "steam": "Your Steam profile background",
+      "game": "Art from the game you played most",
+      "last": "Art from the game you played last",
+      "plain": "No picture behind it"
+    },
+    "hours": "{{hours}}h",
+    "ram": "{{gb}} GB RAM",
+    "stats": {
+      "games_one": "Game",
+      "games_other": "Games",
+      "hours": "Hours",
+      "logs_one": "Log",
+      "logs_other": "Logs"
+    },
+    "sections": {
+      "mostPlayed": "Most played",
+      "favorites": "Favorites",
+      "library": "Library",
+      "shelves": "Shelves",
+      "lastPlayed": "Last played",
+      "journeys": "Journeys"
+    },
+    "description": {
+      "headline_one": "{{nickname}} on LastSave: {{games}} game, {{hours}} hours played.",
+      "headline_other": "{{nickname}} on LastSave: {{games}} games, {{hours}} hours played.",
+      "findMe": "Add me: {{accounts}}"
+    },
+    "showPc": "Show my PC"
+  }
+}

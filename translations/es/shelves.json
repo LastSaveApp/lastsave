@@ -1,0 +1,164 @@
+{
+  "page": {
+    "title": "Estanterías",
+    "subtitle": "Tus propias colecciones, como la estantería de casa. Fija hasta seis en la barra lateral.",
+    "addShelf": "Añadir estantería"
+  },
+  "actions": {
+    "openShelf": "Abrir {{name}}",
+    "editShelf": "Editar {{name}}",
+    "reorderShelf": "Arrastra para reordenar"
+  },
+  "loadingShelves": "Cargando estanterías…",
+  "emptyState": "Todavía no hay estanterías. Usa Añadir estantería para crear la primera.",
+  "gameCount_one": "{{count}} juego",
+  "gameCount_many": "{{count}} juegos",
+  "gameCount_other": "{{count}} juegos",
+  "iconPicker": {
+    "title": "Elige el ícono",
+    "close": "Cerrar el selector de íconos",
+    "searchHint": "Busca lo que sea (una estrella, un auto, una espada) y seguro hay un ícono.",
+    "searchPlaceholder": "Buscar íconos en todos los paquetes…",
+    "currentIcon": "Ícono actual",
+    "starterHint": "Unos cuantos para empezar.",
+    "loading": "Cargando íconos…",
+    "noResults": "No se encontraron íconos.",
+    "previewLabel": "Ver el ícono",
+    "closePreview": "Cerrar la vista del ícono",
+    "confirm": "Usar este ícono"
+  },
+  "gamePicker": {
+    "title": "Añadir juegos a {{name}}",
+    "hintWithShelf_one": "{{count}} elegido · se guarda con la estantería",
+    "hintWithShelf_many": "{{count}} elegidos · se guardan con la estantería",
+    "hintWithShelf_other": "{{count}} elegidos · se guardan con la estantería",
+    "hintImmediately_one": "{{count}} en la estantería · se guarda al elegir",
+    "hintImmediately_many": "{{count}} en la estantería · se guarda al elegir",
+    "hintImmediately_other": "{{count}} en la estantería · se guarda al elegir"
+  },
+  "manage": {
+    "discardTitle": "¿Descartar los cambios?",
+    "discardMessage": "Los cambios en «{{name}}» no se guardaron."
+  },
+  "create": {
+    "title": "Nueva estantería",
+    "subtitle": "Ponle nombre, ícono y color, y añade juegos ahora o después.",
+    "close": "Cerrar nueva estantería",
+    "submit": "Crear estantería",
+    "discardTitle": "¿Descartar esta estantería?",
+    "discardMessage": "Todavía no se creó, así que se perderán su nombre y los juegos que elegiste.",
+    "discardConfirm": "Descartar",
+    "keepEditing": "Seguir editando"
+  },
+  "form": {
+    "delete": "Eliminar",
+    "name": "Nombre",
+    "namePlaceholder": "Nombre de la estantería",
+    "charactersLeft_one": "Queda {{count}} carácter",
+    "charactersLeft_many": "Quedan {{count}} caracteres",
+    "charactersLeft_other": "Quedan {{count}} caracteres",
+    "icon": "Ícono",
+    "colorLabel": "Color",
+    "description": "De qué trata",
+    "descriptionPlaceholder": "Una o dos líneas sobre esta estantería: los juegos que te hicieron el jugador que eres…"
+  },
+  "games": {
+    "title": "Juegos",
+    "addGames": "Añadir juegos",
+    "empty": "Todavía no hay juegos aquí. Añade algunos, de tu biblioteca o de donde sea.",
+    "remove": "Quitar de la estantería",
+    "reorder": "Arrastra para reordenar"
+  },
+  "delete": {
+    "title": "¿Eliminar la estantería?",
+    "message": "Se eliminará «{{name}}» y su agrupación de juegos. Los juegos de tu biblioteca y su historial no cambian.",
+    "confirm": "Eliminar estantería"
+  },
+  "toasts": {
+    "saveFailed": "No se pudo guardar la estantería.",
+    "updated": "{{name}} actualizada.",
+    "created": "{{name}} creada.",
+    "gamesUpdateFailed": "No se pudieron actualizar los juegos de la estantería.",
+    "deleted": "Estantería eliminada.",
+    "deleteFailed": "No se pudo eliminar la estantería.",
+    "reorderShelvesFailed": "No se pudieron reordenar tus estanterías."
+  },
+  "ideas": {
+    "title": "¿Necesitas una idea?",
+    "items": {
+      "withFriends": "Con amigos",
+      "soulslike": "Soulslike",
+      "comfort": "Para relajarse",
+      "retro": "Retro y emulados",
+      "finished": "Terminados",
+      "endless": "Siempre vuelvo"
+    },
+    "fromLibrary": "De tu biblioteca",
+    "fromMood": "O empieza por un estado de ánimo",
+    "kinds": {
+      "rpg": "RPG",
+      "shooter": "Shooters",
+      "strategy": "Estrategia",
+      "horror": "Terror",
+      "survival": "Supervivencia",
+      "openWorld": "Mundo abierto",
+      "hackAndSlash": "Hack and slash",
+      "fighting": "Lucha",
+      "platformer": "Plataformas",
+      "puzzle": "Puzles",
+      "racing": "Carreras",
+      "sports": "Deportes",
+      "simulation": "Simulación",
+      "sciFi": "Ciencia ficción",
+      "fantasy": "Fantasía",
+      "stealth": "Sigilo",
+      "indie": "Indies",
+      "cardsAndBoard": "Cartas y mesa"
+    }
+  },
+  "header": {
+    "allShelves": "Todas las estanterías",
+    "statusCount_one": "{{status}}: {{count}}",
+    "statusCount_many": "{{status}}: {{count}}",
+    "statusCount_other": "{{status}}: {{count}}",
+    "statusBar": "Los juegos de la estantería por estado",
+    "edit": "Editar",
+    "addGames": "Añadir juegos",
+    "share": "Compartir",
+    "more": "Leer más",
+    "less": "Ver menos",
+    "gamesLabel_one": "juego",
+    "gamesLabel_many": "juegos",
+    "gamesLabel_other": "juegos"
+  },
+  "editor": {
+    "editTitle": "Editar estantería",
+    "editSubtitle": "Su nombre, lo que dice, su color y sus juegos en orden.",
+    "save": "Guardar estantería"
+  },
+  "share": {
+    "dialogTitle": "Compartir estantería",
+    "description_one": "{{name}}: {{count}} juego en mi estantería, en LastSave.",
+    "description_many": "{{name}}: {{count}} juegos en mi estantería, en LastSave.",
+    "description_other": "{{name}}: {{count}} juegos en mi estantería, en LastSave."
+  },
+  "fanMore": "+{{count}}",
+  "pin": {
+    "label": "Fijar en la barra lateral",
+    "count": "{{count}} de {{total}}",
+    "pin": "Fijar en la barra lateral",
+    "unpin": "Quitar de la barra lateral",
+    "full": "{{count}} de {{count}} fijadas. Quita una primero."
+  },
+  "sections": {
+    "pinned": "Fijadas",
+    "pinnedHint": "en tu barra lateral",
+    "all": "Todas las estanterías",
+    "pinnedEmpty": "Nada fijado. Fija una estantería para tenerla en la barra lateral."
+  },
+  "view": {
+    "label": "Vista",
+    "grid": "Tarjetas",
+    "list": "Lista"
+  }
+}

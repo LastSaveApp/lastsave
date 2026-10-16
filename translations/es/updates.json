@@ -1,0 +1,54 @@
+{
+  "required": {
+    "title": "Actualización obligatoria",
+    "message": "Esta versión de LastSave ya no tiene soporte. Actualiza para seguir usándolo.",
+    "downloading": "Descargando la actualización…",
+    "installing": "Instalando la actualización…",
+    "ready": "La actualización está lista. Reinicia LastSave para aplicarla.",
+    "restart": "Reiniciar ahora",
+    "whatsNew": "Novedades"
+  },
+  "ready": {
+    "title": "Actualización lista",
+    "message": "Reinicia LastSave para instalar la versión {{version}}.",
+    "messageUnknownVersion": "Reinicia LastSave para instalarla.",
+    "restart": "Reiniciar"
+  },
+  "check": {
+    "action": "Buscar actualizaciones",
+    "checking": "Buscando…",
+    "upToDate": "LastSave está al día.",
+    "available": "LastSave {{version}} está disponible.",
+    "failed": "No se pudo buscar actualizaciones."
+  },
+  "notes": {
+    "action": "Notas de la versión"
+  },
+  "available": {
+    "title": "Actualización disponible",
+    "message": "LastSave {{version}} está listo para descargar.",
+    "action": "Descargar"
+  },
+  "downloading": {
+    "title": "Descargando actualización",
+    "message": "LastSave {{version}} se está descargando en segundo plano.",
+    "inline": "Descargando {{version}}…",
+    "progress": "{{percent}}%",
+    "progressWithTime": "{{percent}}% · {{remaining}}",
+    "minutesLeft_one": "falta cerca de {{count}} minuto",
+    "minutesLeft_many": "faltan unos {{count}} de minutos",
+    "minutesLeft_other": "faltan unos {{count}} minutos",
+    "lessThanAMinute": "falta menos de un minuto",
+    "cancel": "Cancelar"
+  },
+  "installing": {
+    "title": "Instalando actualización",
+    "message": "LastSave {{version}} ya se descargó y se está instalando. Estará listo para reiniciar en un momento.",
+    "inline": "Instalando {{version}}…"
+  },
+  "failed": {
+    "title": "No se pudo descargar la actualización",
+    "message": "LastSave lo volverá a intentar más tarde. También puedes reintentar ahora.",
+    "action": "Reintentar"
+  }
+}

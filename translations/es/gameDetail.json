@@ -1,0 +1,316 @@
+{
+  "back": {
+    "toNamed": "Volver a {{name}}",
+    "toLibrary": "Volver a la Biblioteca",
+    "shelfFallback": "Estantería"
+  },
+  "sync": {
+    "notSynced": "Sin sincronizar todavía",
+    "unknown": "Última sincronización desconocida",
+    "justNow": "Sincronizado ahora mismo",
+    "minutesAgo": "Sincronizado hace {{count}}m",
+    "hoursAgo": "Sincronizado hace {{count}}h",
+    "daysAgo": "Sincronizado hace {{count}}d",
+    "age": {
+      "justNow": "ahora mismo",
+      "minutesAgo": "hace {{count}}m",
+      "hoursAgo": "hace {{count}}h",
+      "daysAgo": "hace {{count}}d"
+    }
+  },
+  "timeline": {
+    "thisWeek": "ESTA SEMANA",
+    "lastWeek": "SEMANA PASADA",
+    "daysAgoRange": "Hace {{newest}} - {{oldest}} días"
+  },
+  "errors": {
+    "notInLibrary": "El juego no está en tu biblioteca.",
+    "loadFailed": "No se pudo cargar el juego.",
+    "notFound": "No se encontró el juego."
+  },
+  "toasts": {
+    "updatedGame": "«{{title}}» actualizado.",
+    "deleteLogFailed": "No se pudo eliminar la entrada.",
+    "logDeleted": "Entrada eliminada.",
+    "noIgdbId": "Este resultado no tiene id de IGDB.",
+    "materializeFailed": "No se pudo guardar el juego en el catálogo.",
+    "syncedFromIgdb": "«{{title}}» sincronizado desde IGDB.",
+    "materializeFirst": "Guarda este juego en el catálogo antes de sincronizarlo.",
+    "notLinkedIgdb": "Este juego local no está vinculado a IGDB.",
+    "previewSyncFailed": "No se pudo consultar la sincronización con Steam.",
+    "alreadyInSync": "Este juego ya está sincronizado con Steam.",
+    "syncedHours": "{{hours}}h sincronizadas desde Steam.",
+    "applySyncFailed": "No se pudo aplicar la sincronización de Steam a este juego.",
+    "syncGameFailed": "No se pudo sincronizar este juego desde Steam.",
+    "autoSyncUpdateFailedGame": "No se pudo cambiar la autosincronización de Steam de este juego.",
+    "autoSyncEnabled": "Autosincronización de Steam activada.",
+    "autoSyncDisabled": "Autosincronización de Steam desactivada.",
+    "autoSyncUpdateFailed": "No se pudo cambiar la autosincronización de Steam.",
+    "steamConnected": "Steam conectado.",
+    "steamConnectFailed": "No se pudo conectar tu cuenta de Steam en este momento.",
+    "updatedLibraryWith": "Tu biblioteca se actualizó con «{{title}}».",
+    "previewEpicSyncFailed": "No se pudo consultar la sincronización con Epic.",
+    "alreadyInSyncEpic": "Este juego ya está sincronizado con Epic.",
+    "syncedHoursEpic": "{{hours}}h sincronizadas desde Epic.",
+    "applyEpicSyncFailed": "No se pudo aplicar la sincronización de Epic a este juego.",
+    "syncGameFailedEpic": "No se pudo sincronizar este juego desde Epic.",
+    "autoSyncUpdateFailedGameEpic": "No se pudo cambiar la autosincronización de Epic de este juego.",
+    "autoSyncEnabledEpic": "Autosincronización de Epic activada.",
+    "autoSyncDisabledEpic": "Autosincronización de Epic desactivada.",
+    "autoSyncUpdateFailedEpic": "No se pudo cambiar la autosincronización de Epic.",
+    "epicConnected": "Epic conectado.",
+    "epicConnectFailed": "No se pudo conectar tu cuenta de Epic en este momento.",
+    "previewXboxSyncFailed": "No se pudo consultar la sincronización con Xbox.",
+    "alreadyInSyncXbox": "Este juego ya está sincronizado con Xbox.",
+    "syncedHoursXbox": "{{hours}}h sincronizadas desde Xbox.",
+    "applyXboxSyncFailed": "No se pudo aplicar la sincronización de Xbox a este juego.",
+    "syncGameFailedXbox": "No se pudo sincronizar este juego desde Xbox.",
+    "autoSyncUpdateFailedGameXbox": "No se pudo cambiar la autosincronización de Xbox de este juego.",
+    "autoSyncEnabledXbox": "Autosincronización de Xbox activada.",
+    "autoSyncDisabledXbox": "Autosincronización de Xbox desactivada.",
+    "autoSyncUpdateFailedXbox": "No se pudo cambiar la autosincronización de Xbox.",
+    "xboxConnected": "Xbox conectado.",
+    "xboxConnectFailed": "No se pudo conectar tu cuenta de Xbox en este momento.",
+    "entryDeleted": "{{title}} se quitó de tu biblioteca.",
+    "entryDeleteFailed": "No se pudo eliminar este juego."
+  },
+  "header": {
+    "baseGame": "Juego base",
+    "art": "Arte",
+    "shelves": "Estanterías",
+    "journeys": "Misiones",
+    "shareGame": "Compartir este juego",
+    "editEntry": "Editar",
+    "resumeSession": "Reanudar sesión",
+    "pauseSession": "Pausar sesión",
+    "stopSession": "Detener sesión",
+    "addLog": "Anotar",
+    "playingSessionActive": "Sesión en curso",
+    "syncSteam": "Sincronizar Steam",
+    "syncing": "Sincronizando…",
+    "connectSteamFirstSync": "Conecta Steam para sincronizar este juego.",
+    "autoSync": "Autosincronización",
+    "autoSyncAligned": "Mantener el tiempo de Steam al día en silencio.",
+    "connectSteamToEnable": "Conecta Steam para activarlo.",
+    "connectSteamFirstAuto": "Conecta Steam para activar la autosincronización.",
+    "openCatalogDetails": "Abrir la ficha del juego en el catálogo",
+    "coverPlaceholder": "JUEGO",
+    "syncEpic": "Sincronizar Epic",
+    "connectEpicFirstSync": "Conecta Epic para sincronizar este juego.",
+    "autoSyncAlignedEpic": "Mantener el tiempo de Epic al día en silencio.",
+    "connectEpicToEnable": "Conecta Epic para activarlo.",
+    "connectEpicFirstAuto": "Conecta Epic para activar la autosincronización.",
+    "syncXbox": "Sincronizar Xbox",
+    "connectXboxFirstSync": "Conecta Xbox para sincronizar este juego.",
+    "autoSyncAlignedXbox": "Mantener el tiempo de Xbox al día en silencio.",
+    "connectXboxToEnable": "Conecta Xbox para activarlo.",
+    "connectXboxFirstAuto": "Conecta Xbox para activar la autosincronización.",
+    "config": "Gestionar",
+    "deleteEntry": "Eliminar",
+    "openSteamSyncOptions": "Opciones de sincronización de Steam",
+    "openEpicSyncOptions": "Opciones de sincronización de Epic",
+    "openXboxSyncOptions": "Opciones de sincronización de Xbox"
+  },
+  "stats": {
+    "status": "Estado",
+    "hours": "Horas",
+    "impression": "Impresión",
+    "achievementBadge": "{{label}}: {{count}}",
+    "reactionTooltip": "{{emoji}} {{label}}"
+  },
+  "panel": {
+    "activity": "Actividad",
+    "platform": "Plataforma",
+    "emulator": "Emulador",
+    "notOwned": "No lo tienes",
+    "lastPlayed": "Última partida",
+    "neverPlayed": "Nunca",
+    "started": "Empezado",
+    "completed": "Completado",
+    "lastSynced": "Sincronizado",
+    "added": "Añadido",
+    "shelves": "Estanterías"
+  },
+  "logs": {
+    "progressSummary": "Resumen del progreso",
+    "progressionLogs": "Historial de progreso · {{count}}",
+    "logType": "Tipo de entrada",
+    "newest": "Más nuevos",
+    "oldest": "Más antiguos",
+    "addFirstLog": "Anotar la primera entrada",
+    "filters": {
+      "all": "Todo",
+      "baseGame": "Juego base",
+      "other": "Otro…",
+      "searchPlaceholder": "Buscar DLC o expansiones…",
+      "noMatches": "No se encontraron resultados"
+    },
+    "typeFilters": {
+      "achievements": "Logros",
+      "journals": "Diario",
+      "sessions": "Sesiones",
+      "status": "Estado"
+    },
+    "empty": {
+      "noLogs": "Todavía no hay entradas",
+      "noLogsFilter": "No hay entradas con este filtro",
+      "noLogsHint": "Anota tu progreso, tus reacciones y tus cambios de estado",
+      "noLogsFilterHint": "Prueba con otro filtro o anota una entrada nueva."
+    }
+  },
+  "logTypes": {
+    "addedToLibrary": "Añadido a la biblioteca",
+    "session": "Sesión",
+    "sessions": "Sesiones",
+    "journalEntry": "Entrada de diario",
+    "journalEntryFallback": "Entrada de diario",
+    "achievement": "Logro",
+    "statusUpdate": "Cambio de estado",
+    "statusUpdated": "Estado cambiado",
+    "movedTo": "Pasó a {{status}}",
+    "movedToPrefix": "Pasó a",
+    "libraryImport": "Importado a la biblioteca"
+  },
+  "counts": {
+    "dlc_one": "{{count}} DLC",
+    "dlc_many": "{{count}} DLC",
+    "dlc_other": "{{count}} DLC",
+    "expansion_one": "{{count}} expansión",
+    "expansion_many": "{{count}} expansiones",
+    "expansion_other": "{{count}} expansiones",
+    "sessions_one": "{{count}} sesión",
+    "sessions_many": "{{count}} sesiones",
+    "sessions_other": "{{count}} sesiones"
+  },
+  "actions": {
+    "backToTop": "Volver arriba",
+    "editLog": "Editar entrada",
+    "deleteLog": "Eliminar entrada",
+    "shareLog": "Compartir entrada",
+    "collapseLog": "Contraer entrada",
+    "expandLog": "Expandir entrada",
+    "collapseSessions": "Contraer sesiones",
+    "expandSessions": "Expandir sesiones"
+  },
+  "latest": "El último",
+  "videoLabel": "Video",
+  "loadingLogs": "Cargando el historial…",
+  "loadMore": "Cargar más entradas",
+  "radar": {
+    "categories": {
+      "journalEntry": "ENTRADA DE DIARIO",
+      "added": "AÑADIDO A LA BIBLIOTECA",
+      "statusUpdate": "CAMBIO DE ESTADO"
+    },
+    "achievementCategory": "LOGRO: {{label}}",
+    "statusCategory": "CAMBIO DE ESTADO: {{status}}",
+    "tooltip": {
+      "addedWithContent": "Juego base y contenido adicional añadidos",
+      "addedBase": "Juego base añadido",
+      "clickToJump": "Haz clic para ir"
+    },
+    "jumpTo": "Ir a {{edge}}",
+    "openLog": "Abrir {{title}}"
+  },
+  "carousel": {
+    "tba": "Por anunciar",
+    "scrollLeft": "Desplazar a la izquierda",
+    "scrollRight": "Desplazar a la derecha"
+  },
+  "steamPrompt": {
+    "reconnect": "Volver a conectar Steam",
+    "connect": "Conectar con Steam",
+    "title": "Conexión con Steam",
+    "subtitle": "Conecta Steam para sincronizar el tiempo de juego de este juego.",
+    "close": "Cerrar el aviso de conexión con Steam",
+    "body": "La sincronización manual y la automática necesitan una sesión activa de Steam. Vuelve a conectar tu cuenta aquí y luego repite la sincronización.",
+    "dismissMessage": "Cerrar el mensaje de conexión con Steam",
+    "connected": "Steam conectado"
+  },
+  "epicPrompt": {
+    "title": "Conexión con Epic",
+    "subtitle": "Conecta Epic para sincronizar el tiempo de juego de este juego.",
+    "close": "Cerrar el aviso de conexión con Epic",
+    "body": "La sincronización manual y la automática necesitan una sesión activa de Epic. Vuelve a conectar tu cuenta aquí y luego repite la sincronización.",
+    "dismissMessage": "Cerrar el mensaje de conexión con Epic"
+  },
+  "xboxPrompt": {
+    "title": "Conexión con Xbox",
+    "subtitle": "Conecta Xbox para sincronizar el tiempo de juego de este juego.",
+    "close": "Cerrar el aviso de conexión con Xbox",
+    "body": "La sincronización manual y la automática necesitan una sesión activa de Xbox. Vuelve a conectar tu cuenta aquí y luego repite la sincronización.",
+    "dismissMessage": "Cerrar el mensaje de conexión con Xbox"
+  },
+  "steamSync": {
+    "familyShared": "Biblioteca familiar compartida",
+    "owned": "Biblioteca propia",
+    "badge": "Sincronización de Steam",
+    "title": "¿Sincronizar el tiempo desde Steam?",
+    "subtitle": "Tu tiempo de juego actual se actualizará con las horas que detectó Steam.",
+    "close": "Cerrar la sincronización de Steam",
+    "detectedAs": "Detectado como",
+    "currentHours": "Horas actuales",
+    "detectedInSteam": "Detectado en Steam",
+    "lastPlayed": "Última partida en Steam: {{date}}",
+    "confirm": "Confirmar sincronización",
+    "syncing": "Sincronizando…"
+  },
+  "epicSync": {
+    "badge": "Sincronización de Epic",
+    "title": "¿Sincronizar el tiempo desde Epic?",
+    "subtitle": "Tu tiempo de juego actual se actualizará con las horas que detectó Epic.",
+    "close": "Cerrar la sincronización de Epic",
+    "detectedAs": "Detectado como",
+    "currentHours": "Horas actuales",
+    "detectedInEpic": "Detectado en Epic",
+    "confirm": "Confirmar sincronización",
+    "syncing": "Sincronizando…"
+  },
+  "xboxSync": {
+    "badge": "Sincronización de Xbox",
+    "title": "¿Sincronizar el tiempo desde Xbox?",
+    "subtitle": "Tu tiempo de juego actual se actualizará con las horas que detectó Xbox.",
+    "close": "Cerrar la sincronización de Xbox",
+    "detectedAs": "Detectado como",
+    "currentHours": "Horas actuales",
+    "detectedInXbox": "Detectado en Xbox",
+    "confirm": "Confirmar sincronización",
+    "syncing": "Sincronizando…"
+  },
+  "deleteLog": {
+    "title": "¿Eliminar la entrada?",
+    "message": "La entrada se borrará para siempre, y si cambiaba el estado o el tiempo de juego, se recalcula el resumen de tu biblioteca.",
+    "deleting": "Eliminando…",
+    "confirm": "Eliminar entrada"
+  },
+  "deleteEntry": {
+    "title": "¿Eliminar este juego?",
+    "message": "{{title}} se quitará de tu biblioteca junto con todo su historial: sesiones, logros y entradas de diario. No se puede deshacer.",
+    "deleting": "Eliminando…",
+    "confirm": "Eliminar juego"
+  },
+  "addedDateModal": {
+    "title": "Editar fecha de añadido",
+    "close": "Cerrar el editor de fecha",
+    "success": "Fecha de añadido actualizada.",
+    "labels": {
+      "date": "Fecha en que se añadió a la biblioteca"
+    },
+    "hints": {
+      "beforeFirstActivity": "Elige una fecha igual o anterior al {{date}} para que quede antes de la primera actividad de este juego.",
+      "noLaterThanToday": "Elige cuándo añadiste este juego a tu biblioteca. La fecha no puede ser posterior a hoy."
+    },
+    "actions": {
+      "save": "Guardar cambios",
+      "saving": "Guardando…"
+    },
+    "errors": {
+      "saveFailed": "No se pudo cambiar la fecha de añadido. Asegúrate de que sea anterior a la primera actividad del juego."
+    }
+  },
+  "shelvesDialog": {
+    "title": "Estanterías",
+    "empty": "Todavía no hay estanterías. Crea una desde la barra lateral de la Biblioteca.",
+    "saved": "Estanterías actualizadas."
+  }
+}

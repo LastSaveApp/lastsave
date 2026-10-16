@@ -1,0 +1,467 @@
+{
+  "titleBar": {
+    "label": "Game Mode",
+    "tooltip": "Enter Game Mode",
+    "tooltipWithPad": "Enter Game Mode — a controller is connected"
+  },
+  "tabs": {
+    "home": "Home",
+    "library": "Library",
+    "shelves": "Shelves",
+    "soon": "Soon",
+    "journeys": "Journeys"
+  },
+  "greeting": {
+    "morning": "Good morning",
+    "afternoon": "Good afternoon",
+    "evening": "Good evening",
+    "night": "Still up"
+  },
+  "hero": {
+    "kicker": {
+      "jumpBackIn": "Jump back in",
+      "recentlyAdded": "Recently added"
+    },
+    "played": "{{hours}} played",
+    "lastPlayed": "Last played {{when}}",
+    "addedWhen": "Added {{when}}",
+    "noSessionsYet": "No sessions yet. Press Play and LastSave starts counting from the first minute."
+  },
+  "rails": {
+    "recentGames": "Recent games"
+  },
+  "memories": {
+    "title": "Memories",
+    "empty": "Screenshots, clips and notes you log while playing show up here.",
+    "video": "Video"
+  },
+  "library": {
+    "tabs": {
+      "installed": "Installed",
+      "all": "All",
+      "status": "Status",
+      "source": "Source",
+      "shelf": "Shelves"
+    },
+    "stateLine_one": "Sorted by {{sort}} · {{count}} game",
+    "stateLine_other": "Sorted by {{sort}} · {{count}} games",
+    "stateLineFiltered_one": "Sorted by {{sort}} · Filtered · {{count}} game",
+    "stateLineFiltered_other": "Sorted by {{sort}} · Filtered · {{count}} games",
+    "stateLineSearch_one": "Search “{{query}}” · Sorted by {{sort}} · {{count}} game",
+    "stateLineSearch_other": "Search “{{query}}” · Sorted by {{sort}} · {{count}} games",
+    "stateLineSearchFiltered_one": "Search “{{query}}” · Sorted by {{sort}} · Filtered · {{count}} game",
+    "stateLineSearchFiltered_other": "Search “{{query}}” · Sorted by {{sort}} · Filtered · {{count}} games",
+    "sortInLine": {
+      "lastPlayed": "last played",
+      "title": "title",
+      "playtime": "playtime",
+      "lastActivity": "last activity"
+    },
+    "noShelf": "Not on a shelf",
+    "empty": {
+      "search": {
+        "title": "No games match “{{query}}”",
+        "description": "Try another word, or clear the search to see the whole library.",
+        "again": "Search again"
+      },
+      "filters": {
+        "title": "Your filters hide every game",
+        "description": "Change them, or clear them to see the whole library."
+      },
+      "notInstalled": {
+        "title": "Nothing installed here",
+        "description": "Turn off Installed only in Filters to see the rest of your library."
+      },
+      "nothing": {
+        "title": "Nothing here",
+        "description": "No game matches this view."
+      },
+      "shelf": {
+        "title": "Nothing on this shelf yet",
+        "description": "Add games to it with Menu, or from the desktop."
+      }
+    }
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Title, studio, genre…",
+    "count_one": "{{count}} game",
+    "count_other": "{{count}} games",
+    "showKeyboard": "Show the on-screen keyboard",
+    "hideKeyboard": "Hide the on-screen keyboard"
+  },
+  "filters": {
+    "title": "Filters",
+    "count_one": "{{count}} game",
+    "count_other": "{{count}} games",
+    "sort": "Sort by",
+    "sortOptions": {
+      "lastPlayed": "Last played",
+      "title": "Title",
+      "playtime": "Playtime",
+      "lastActivity": "Last activity"
+    },
+    "installedOnly": "Installed only",
+    "showAttachedContent": "Show DLC and expansions as their own cards",
+    "status": "Status",
+    "source": "Source",
+    "shelves": "Shelves",
+    "anyStatus": "Any status",
+    "anySource": "Any source",
+    "anyShelf": "Any shelf",
+    "more": "+{{count}}",
+    "nothingToFilter": "Nothing to filter"
+  },
+  "emptyState": {
+    "title": "Nothing to launch yet",
+    "description": "Game Mode shows the games installed on this PC. Import or add games from the desktop and they will appear here."
+  },
+  "legend": {
+    "continue": "Continue",
+    "play": "Play",
+    "start": "Start",
+    "playNow": "Play now",
+    "open": "Open",
+    "goToGame": "Go to game",
+    "select": "Select",
+    "back": "Back",
+    "close": "Close",
+    "cancel": "Cancel",
+    "options": "Options",
+    "menu": "Menu",
+    "exit": "Exit Game Mode",
+    "keyboard": "Keyboard",
+    "device": {
+      "xbox": "Xbox controller",
+      "xbox360": "Xbox 360 controller",
+      "ps3": "PS3 controller",
+      "ps4": "PS4 controller",
+      "ps5": "PS5 controller",
+      "playstation": "PlayStation controller",
+      "switch": "Switch controller",
+      "generic": "Controller",
+      "keyboard": "Keyboard & mouse"
+    },
+    "change": "Change",
+    "clearAll": "Clear all",
+    "clear": "Clear",
+    "toggle": "Select",
+    "clearSearch": "Clear search",
+    "search": "Search",
+    "filters": "Filters",
+    "clearFilters": "Clear filters",
+    "done": "Done"
+  },
+  "menu": {
+    "title": "LastSave",
+    "home": "Home",
+    "library": "Library",
+    "shelves": "Shelves",
+    "journeys": "Journeys",
+    "settings": "Settings",
+    "fullscreen": "Fullscreen",
+    "exit": "Exit Game Mode",
+    "quit": "Quit LastSave",
+    "localUser": "Local profile"
+  },
+  "splash": {
+    "launching": "Launching…",
+    "starting": "Starting session…",
+    "waitingForGame": "Waiting for the game window",
+    "tracking": "Tracking now. LastSave steps aside.",
+    "launchedUntracked": "Opened. This game is not tracked.",
+    "cancelled": "Cancelled",
+    "blocked": "Could not start",
+    "pressToCancel": "Cancel",
+    "dismiss": "OK",
+    "clipsUnavailable": "Clips are not set up. A clip press keeps a screenshot instead."
+  },
+  "settingsPage": {
+    "title": "Settings",
+    "on": "On",
+    "off": "Off",
+    "fullscreenDescription": "Game Mode opens the way you leave it. F11 switches it any time.",
+    "controllerShortcuts": "Controller shortcuts",
+    "controllerShortcutsNote": "Held with View while a game runs. The game still gets both buttons: View + RB also opens what View opens in the game (often its map) and presses RB in it.",
+    "notSet": "Not set",
+    "captures": "Captures",
+    "clipsTitle": "Clips and recording",
+    "clipsDescription": "Which recorder LastSave asks for clips, and what to switch on in it.",
+    "open": "Open"
+  },
+  "keyboard": {
+    "type": "Type",
+    "delete": "Delete",
+    "space": "Space",
+    "done": "Done",
+    "clear": "Clear",
+    "shift": "Shift",
+    "save": "Save"
+  },
+  "notices": {
+    "updated": "LastSave {{version}} is installed",
+    "updatedDescription": "See what’s new when you’re back on the desktop."
+  },
+  "shelves": {
+    "count_one": "{{count}} game",
+    "count_other": "{{count}} games",
+    "more": "+{{count}}",
+    "nothingToPlay": "Nothing on this shelf to play here.",
+    "empty": {
+      "title": "No shelves yet",
+      "description": "Shelves you make on the desktop show up here, ready to play from."
+    },
+    "manageGames": "Games",
+    "addGames": "Add games"
+  },
+  "hub": {
+    "sessions": "Sessions",
+    "journals": "Journals",
+    "achievements": "Achievements",
+    "shelves": "Shelves",
+    "journeys": "Journeys",
+    "achievementCount": "{{type}} · {{count}}",
+    "noneYet": "None yet",
+    "journeyPosition": "{{position}} of {{total}}",
+    "moreJourneys_one": "and {{count}} more journey",
+    "moreJourneys_other": "and {{count}} more journeys",
+    "none": "—",
+    "never": "Never",
+    "stats": {
+      "status": "Status",
+      "hours": "Hours",
+      "lastPlayed": "Last played",
+      "impression": "Impression",
+      "rating": "Rating"
+    },
+    "tabs": {
+      "all": "All",
+      "achievements": "Achievements",
+      "journals": "Journals",
+      "status": "Status",
+      "sessions": "Sessions"
+    },
+    "scopes": {
+      "all": "All",
+      "base": "Base game"
+    },
+    "logs": {
+      "added": "Added to library",
+      "empty": "Nothing logged yet. Your story with this game starts the first time you press Play."
+    },
+    "viewer": {
+      "previous": "Previous",
+      "next": "Next",
+      "hideText": "Hide text"
+    },
+    "actions": {
+      "status": "Status",
+      "note": "Journal",
+      "shelves": "Shelves",
+      "more": "More"
+    }
+  },
+  "padStatus": {
+    "none": "No controller connected"
+  },
+  "statusSheet": {
+    "title": "Status",
+    "now": "Now",
+    "impression": "Impression",
+    "comment": "Comment",
+    "addComment": "Add a comment",
+    "optional": "Optional",
+    "commentPlaceholder": "What changed?",
+    "save": "Save",
+    "clearImpression": "Clear impression",
+    "saved": "Status set to {{status}}",
+    "failed": "Couldn’t save the status",
+    "discardTitle": "Discard these changes?"
+  },
+  "shelvesSheet": {
+    "toggle": "Add or remove",
+    "count_one": "On {{on}} of {{count}} shelf",
+    "count_other": "On {{on}} of {{count}} shelves",
+    "empty": "No shelves yet. Make one on the desktop and it shows up here."
+  },
+  "journeysSheet": {
+    "toggle": "Add or remove",
+    "count_one": "On {{on}} of {{count}} journey",
+    "count_other": "On {{on}} of {{count}} journeys",
+    "games_one": "{{count}} game",
+    "games_other": "{{count}} games",
+    "empty": "No journeys yet. Start one on the desktop and it shows up here.",
+    "failed": "Couldn't save the journey"
+  },
+  "editor": {
+    "discardTitle": "Discard what you wrote?",
+    "discard": "Discard",
+    "keepEditing": "Keep editing"
+  },
+  "note": {
+    "title": "New journal entry",
+    "context": "{{game}} · Today",
+    "placeholder": "What happened?",
+    "saved": "Journal entry saved",
+    "failed": "Couldn’t save the journal entry"
+  },
+  "chord": {
+    "hold": "Hold"
+  },
+  "captures": {
+    "journal": "Journal"
+  },
+  "captureSheet": {
+    "choices": {
+      "journal": "Journal entry",
+      "achievement": "Achievement"
+    },
+    "kinds": {
+      "screenshot": "Screenshot",
+      "clip": "Clip",
+      "note": "Note"
+    },
+    "position": "{{index}} of {{count}}",
+    "fileAs": "File as",
+    "title": "Title",
+    "titleFromNote": "The note itself",
+    "titlePlaceholder": "What did you pull off?",
+    "text": "Text",
+    "caption": "Caption",
+    "addCaption": "Add a caption…",
+    "captionPlaceholder": "What was happening here?",
+    "discard": "Discard capture",
+    "discardTitle": "Discard this capture?",
+    "failed": "That change could not be saved.",
+    "previous": "Previous",
+    "next": "Next",
+    "view": "View",
+    "watch": "Watch",
+    "play": "Play",
+    "pause": "Pause",
+    "restart": "Start over"
+  },
+  "clipsSheet": {
+    "ready": "Ready",
+    "unavailable": {
+      "gamebar": "Off in Windows",
+      "nvidia": "Not running",
+      "amd": "Not running"
+    },
+    "test": "Test",
+    "passed": "Works",
+    "failed": "Nothing saved"
+  },
+  "focusMode": {
+    "clips": "Clips and recording:",
+    "clipsChange": "Change",
+    "clipsSetUp": "Set up",
+    "log": "Log",
+    "newLog": "New log",
+    "backToGame": "Back to game",
+    "keepPlaying": "Keep playing",
+    "thisSession_one": "This session · {{count}}",
+    "thisSession_other": "This session · {{count}}",
+    "empty": "Screenshots, clips and logs you take while playing show up here.",
+    "nothingIsALog": "Nothing becomes a log until the session ends."
+  },
+  "nowPlaying": {
+    "live": "Live",
+    "startedAt": "Started {{time}}",
+    "playingFor": "Playing for",
+    "backToGame": "Back to game",
+    "stop": "End session"
+  },
+  "sessionOver": {
+    "kicker": "Session over",
+    "whichGame": "Which game?",
+    "whichGameHint": "The base game or one of its expansions",
+    "playedOn": "Played on",
+    "duration": "Duration",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "tracked": "Tracked {{duration}}",
+    "status": "Status",
+    "changed": "changed",
+    "unchanged": "unchanged",
+    "note": "Session note",
+    "addNote": "Add a note about this session…",
+    "captures_one": "Captures · {{count}}",
+    "captures_other": "Captures · {{count}}",
+    "noCaptures": "Nothing was captured this session.",
+    "unfiledBecomeJournal": "What you do not file is saved as a journal entry.",
+    "discard": "Discard session",
+    "saved_one": "Session saved · {{duration}} · {{count}} log",
+    "saved_other": "Session saved · {{duration}} · {{count}} logs"
+  },
+  "padBind": {
+    "prompt": "Hold {{modifier}} and press a button",
+    "tapOrHold": "Let go for a tap, keep it down for a hold.",
+    "now": "Now",
+    "failed": "That chord could not be saved."
+  },
+  "shelfGames": {
+    "hint_one": "{{count}} game on it · changes save at once",
+    "hint_other": "{{count}} games on it · changes save at once",
+    "searchPlaceholder": "Search your library",
+    "noResults": "No game in your library matches that.",
+    "unknownGame": "Unknown game",
+    "failed": "That game could not be added or removed. Try again."
+  },
+  "moreSheet": {
+    "title": "More",
+    "review": "Rating & review",
+    "reviewHint": "Rate it out of 10 and say why",
+    "shelves": "Shelves",
+    "shelvesHint": "Add it to a shelf or take it off one",
+    "journeys": "Journeys",
+    "journeysHint": "Add it to a journey or take it off one"
+  },
+  "reviewSheet": {
+    "title": "Review",
+    "rating": "Rating",
+    "outOf": "/ 10",
+    "stepHint": "← → by 0.1",
+    "stepDown": "−1",
+    "stepUp": "+1",
+    "body": "Review",
+    "addBody": "Write a few words",
+    "optional": "Optional",
+    "bodyPlaceholder": "What stayed with you?",
+    "save": "Save review",
+    "saved": "Review saved",
+    "failed": "Couldn’t save the review",
+    "delete": "Delete review",
+    "deleteTitle": "Delete this review?",
+    "deleted": "Review deleted",
+    "deleteFailed": "Couldn’t delete the review",
+    "discardTitle": "Discard the changes to this review?"
+  },
+  "reviewOffer": {
+    "title": "Review {{title}} now?",
+    "confirm": "Write a review",
+    "cancel": "Not now"
+  },
+  "journeys": {
+    "count": "{{done}} of {{counted}}",
+    "notInLibrary": "Not in your library",
+    "skipped": "Skipped",
+    "unknownGame": "Unknown game",
+    "empty": {
+      "title": "No journeys yet",
+      "description": "Journeys you make on the desktop show up here, ready to play from."
+    },
+    "groups": {
+      "pending": "Pending",
+      "completed": "Completed",
+      "played": "Played",
+      "skipped": "Skipped"
+    },
+    "manageGames": "Games",
+    "skip": "Skip",
+    "unskip": "Count it again",
+    "pickHint_one": "{{count}} game on the path · changes save at once",
+    "pickHint_other": "{{count}} games on the path · changes save at once",
+    "pickFailed": "That couldn't be saved. Try again."
+  }
+}

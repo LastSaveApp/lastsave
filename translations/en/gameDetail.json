@@ -1,0 +1,313 @@
+{
+  "back": {
+    "toNamed": "Back to {{name}}",
+    "toLibrary": "Back to Library",
+    "shelfFallback": "Shelf"
+  },
+  "sync": {
+    "notSynced": "Not synced yet",
+    "unknown": "Last sync unknown",
+    "justNow": "Last sync just now",
+    "minutesAgo": "Last sync {{count}}m ago",
+    "hoursAgo": "Last sync {{count}}h ago",
+    "daysAgo": "Last sync {{count}}d ago",
+    "age": {
+      "justNow": "just now",
+      "minutesAgo": "{{count}}m ago",
+      "hoursAgo": "{{count}}h ago",
+      "daysAgo": "{{count}}d ago"
+    }
+  },
+  "timeline": {
+    "thisWeek": "THIS WEEK",
+    "lastWeek": "LAST WEEK",
+    "daysAgoRange": "{{newest}} - {{oldest}} days ago"
+  },
+  "errors": {
+    "notInLibrary": "Game not found in your library.",
+    "loadFailed": "Failed to load game.",
+    "notFound": "Game not found."
+  },
+  "toasts": {
+    "updatedGame": "Updated \"{{title}}\".",
+    "deleteLogFailed": "Failed to delete log.",
+    "logDeleted": "Log deleted.",
+    "noIgdbId": "This remote result has no IGDB id.",
+    "materializeFailed": "Failed to materialize remote game.",
+    "syncedFromIgdb": "Synced \"{{title}}\" from IGDB.",
+    "materializeFirst": "Materialize this game first to sync.",
+    "notLinkedIgdb": "This local game is not linked to IGDB.",
+    "previewSyncFailed": "Failed to preview Steam sync.",
+    "alreadyInSync": "This game is already in sync with Steam.",
+    "syncedHours": "Synced {{hours}}h from Steam.",
+    "applySyncFailed": "Failed to apply Steam sync to this game.",
+    "syncGameFailed": "Failed to sync this game from Steam.",
+    "autoSyncUpdateFailedGame": "Could not update Steam auto-sync for this game.",
+    "autoSyncEnabled": "Steam auto-sync enabled.",
+    "autoSyncDisabled": "Steam auto-sync disabled.",
+    "autoSyncUpdateFailed": "Could not update Steam auto-sync.",
+    "steamConnected": "Steam connected successfully.",
+    "steamConnectFailed": "Could not connect your Steam account right now.",
+    "updatedLibraryWith": "Updated your library with \"{{title}}\".",
+    "previewEpicSyncFailed": "Failed to preview Epic sync.",
+    "alreadyInSyncEpic": "This game is already in sync with Epic.",
+    "syncedHoursEpic": "Synced {{hours}}h from Epic.",
+    "applyEpicSyncFailed": "Failed to apply Epic sync to this game.",
+    "syncGameFailedEpic": "Failed to sync this game from Epic.",
+    "autoSyncUpdateFailedGameEpic": "Could not update Epic auto-sync for this game.",
+    "autoSyncEnabledEpic": "Epic auto-sync enabled.",
+    "autoSyncDisabledEpic": "Epic auto-sync disabled.",
+    "autoSyncUpdateFailedEpic": "Could not update Epic auto-sync.",
+    "epicConnected": "Epic connected successfully.",
+    "epicConnectFailed": "Could not connect your Epic account right now.",
+    "previewXboxSyncFailed": "Failed to preview Xbox sync.",
+    "alreadyInSyncXbox": "This game is already in sync with Xbox.",
+    "syncedHoursXbox": "Synced {{hours}}h from Xbox.",
+    "applyXboxSyncFailed": "Failed to apply Xbox sync to this game.",
+    "syncGameFailedXbox": "Failed to sync this game from Xbox.",
+    "autoSyncUpdateFailedGameXbox": "Could not update Xbox auto-sync for this game.",
+    "autoSyncEnabledXbox": "Xbox auto-sync enabled.",
+    "autoSyncDisabledXbox": "Xbox auto-sync disabled.",
+    "autoSyncUpdateFailedXbox": "Could not update Xbox auto-sync.",
+    "xboxConnected": "Xbox connected successfully.",
+    "xboxConnectFailed": "Could not connect your Xbox account right now.",
+    "entryDeleted": "{{title}} was removed from your library.",
+    "entryDeleteFailed": "Could not delete this game."
+  },
+  "header": {
+    "baseGame": "Base Game",
+    "art": "Art",
+    "shelves": "Shelves",
+    "journeys": "Journeys",
+    "shareGame": "Share this game",
+    "editEntry": "Edit",
+    "resumeSession": "Resume Session",
+    "pauseSession": "Pause Session",
+    "stopSession": "Stop Session",
+    "addLog": "Add Log",
+    "playingSessionActive": "Playing Session Active",
+    "syncSteam": "Sync Steam",
+    "syncing": "Syncing...",
+    "connectSteamFirstSync": "Connect Steam first to sync this game.",
+    "autoSync": "Auto-sync",
+    "autoSyncAligned": "Keep Steam playtime aligned silently.",
+    "connectSteamToEnable": "Connect Steam to enable this.",
+    "connectSteamFirstAuto": "Connect Steam first to enable auto-sync.",
+    "openCatalogDetails": "Open catalog game details",
+    "coverPlaceholder": "GAME",
+    "syncEpic": "Sync Epic",
+    "connectEpicFirstSync": "Connect Epic first to sync this game.",
+    "autoSyncAlignedEpic": "Keep Epic playtime aligned silently.",
+    "connectEpicToEnable": "Connect Epic to enable this.",
+    "connectEpicFirstAuto": "Connect Epic first to enable auto-sync.",
+    "syncXbox": "Sync Xbox",
+    "connectXboxFirstSync": "Connect Xbox first to sync this game.",
+    "autoSyncAlignedXbox": "Keep Xbox playtime aligned silently.",
+    "connectXboxToEnable": "Connect Xbox to enable this.",
+    "connectXboxFirstAuto": "Connect Xbox first to enable auto-sync.",
+    "config": "Manage",
+    "deleteEntry": "Delete",
+    "openSteamSyncOptions": "Steam sync options",
+    "openEpicSyncOptions": "Epic sync options",
+    "openXboxSyncOptions": "Xbox sync options"
+  },
+  "stats": {
+    "status": "Status",
+    "hours": "Hours",
+    "impression": "Impression",
+    "achievementBadge": "{{label}}: {{count}}",
+    "reactionTooltip": "{{emoji}} {{label}}"
+  },
+  "panel": {
+    "activity": "Activity",
+    "platform": "Platform",
+    "emulator": "Emulator",
+    "notOwned": "Not owned",
+    "lastPlayed": "Last played",
+    "neverPlayed": "Never",
+    "started": "Started",
+    "completed": "Completed",
+    "lastSynced": "Last synced",
+    "added": "Added",
+    "shelves": "Shelves"
+  },
+  "logs": {
+    "progressSummary": "Progress Summary",
+    "progressionLogs": "Progression Logs · {{count}}",
+    "logType": "Log Type",
+    "newest": "Newest",
+    "oldest": "Oldest",
+    "addFirstLog": "Add first log",
+    "filters": {
+      "all": "All",
+      "baseGame": "Base Game",
+      "other": "Other...",
+      "searchPlaceholder": "Search DLCs or expansions...",
+      "noMatches": "No matches found"
+    },
+    "typeFilters": {
+      "achievements": "Achievements",
+      "journals": "Journals",
+      "sessions": "Sessions",
+      "status": "Status"
+    },
+    "empty": {
+      "noLogs": "No logs yet",
+      "noLogsFilter": "No logs for this filter",
+      "noLogsHint": "Track your progress, reactions, and status changes",
+      "noLogsFilterHint": "Try another target filter or add a new log."
+    }
+  },
+  "logTypes": {
+    "addedToLibrary": "Added to Library",
+    "session": "Session",
+    "sessions": "Sessions",
+    "journalEntry": "Journal Entry",
+    "journalEntryFallback": "Journal entry",
+    "achievement": "Achievement",
+    "statusUpdate": "Status Update",
+    "statusUpdated": "Status updated",
+    "movedTo": "Moved to {{status}}",
+    "movedToPrefix": "Moved to",
+    "libraryImport": "Library import"
+  },
+  "counts": {
+    "dlc_one": "{{count}} DLC",
+    "dlc_other": "{{count}} DLCs",
+    "expansion_one": "{{count}} Expansion",
+    "expansion_other": "{{count}} Expansions",
+    "sessions_one": "{{count}} Session",
+    "sessions_other": "{{count}} Sessions"
+  },
+  "actions": {
+    "backToTop": "Back to top",
+    "editLog": "Edit log",
+    "deleteLog": "Delete log",
+    "shareLog": "Share log",
+    "collapseLog": "Collapse log",
+    "expandLog": "Expand log",
+    "collapseSessions": "Collapse sessions",
+    "expandSessions": "Expand sessions"
+  },
+  "latest": "Latest",
+  "videoLabel": "Video",
+  "loadingLogs": "Loading Logs...",
+  "loadMore": "Load More Logs",
+  "radar": {
+    "categories": {
+      "journalEntry": "JOURNAL ENTRY",
+      "added": "ADDED TO LIBRARY",
+      "statusUpdate": "STATUS UPDATE"
+    },
+    "achievementCategory": "ACHIEVEMENT: {{label}}",
+    "statusCategory": "STATUS UPDATE: {{status}}",
+    "tooltip": {
+      "addedWithContent": "Added base game and additional content",
+      "addedBase": "Added base game",
+      "clickToJump": "Click to jump"
+    },
+    "jumpTo": "Jump to {{edge}}",
+    "openLog": "Open {{title}}"
+  },
+  "carousel": {
+    "tba": "TBA",
+    "scrollLeft": "Scroll targets left",
+    "scrollRight": "Scroll targets right"
+  },
+  "steamPrompt": {
+    "reconnect": "Reconnect Steam",
+    "connect": "Connect with Steam",
+    "title": "Steam connection",
+    "subtitle": "Connect Steam to sync playtime for this game.",
+    "close": "Close Steam connection prompt",
+    "body": "Manual sync and auto-sync need an active Steam session. Reconnect your account here, then return to the sync action.",
+    "dismissMessage": "Dismiss Steam connection message",
+    "connected": "Steam connected"
+  },
+  "epicPrompt": {
+    "title": "Epic connection",
+    "subtitle": "Connect Epic to sync playtime for this game.",
+    "close": "Close Epic connection prompt",
+    "body": "Manual sync and auto-sync need an active Epic session. Reconnect your account here, then return to the sync action.",
+    "dismissMessage": "Dismiss Epic connection message"
+  },
+  "xboxPrompt": {
+    "title": "Xbox connection",
+    "subtitle": "Connect Xbox to sync playtime for this game.",
+    "close": "Close Xbox connection prompt",
+    "body": "Manual sync and auto-sync need an active Xbox session. Reconnect your account here, then return to the sync action.",
+    "dismissMessage": "Dismiss Xbox connection message"
+  },
+  "steamSync": {
+    "familyShared": "Family Shared Library",
+    "owned": "Owned Library",
+    "badge": "Steam Sync",
+    "title": "Sync playtime from Steam?",
+    "subtitle": "Your current playtime will be updated with the hours detected in Steam.",
+    "close": "Close Steam sync dialog",
+    "detectedAs": "Detected as",
+    "currentHours": "Current Hours",
+    "detectedInSteam": "Detected in Steam",
+    "lastPlayed": "Last played on Steam: {{date}}",
+    "confirm": "Confirm Sync",
+    "syncing": "Syncing..."
+  },
+  "epicSync": {
+    "badge": "Epic Sync",
+    "title": "Sync playtime from Epic?",
+    "subtitle": "Your current playtime will be updated with the hours detected in Epic.",
+    "close": "Close Epic sync dialog",
+    "detectedAs": "Detected as",
+    "currentHours": "Current Hours",
+    "detectedInEpic": "Detected in Epic",
+    "confirm": "Confirm Sync",
+    "syncing": "Syncing..."
+  },
+  "xboxSync": {
+    "badge": "Xbox Sync",
+    "title": "Sync playtime from Xbox?",
+    "subtitle": "Your current playtime will be updated with the hours detected in Xbox.",
+    "close": "Close Xbox sync dialog",
+    "detectedAs": "Detected as",
+    "currentHours": "Current Hours",
+    "detectedInXbox": "Detected in Xbox",
+    "confirm": "Confirm Sync",
+    "syncing": "Syncing..."
+  },
+  "deleteLog": {
+    "title": "Delete log?",
+    "message": "This log will be permanently removed and your library snapshot will be recalculated if it affects status or playtime.",
+    "deleting": "Deleting...",
+    "confirm": "Delete Log"
+  },
+  "deleteEntry": {
+    "title": "Delete this game?",
+    "message": "{{title}} will be removed from your library along with all of its logs, sessions and achievements. This cannot be undone.",
+    "deleting": "Deleting...",
+    "confirm": "Delete Game"
+  },
+  "addedDateModal": {
+    "title": "Edit Added Date",
+    "close": "Close added date editor",
+    "success": "Added date updated.",
+    "labels": {
+      "date": "Added to Library date"
+    },
+    "hints": {
+      "beforeFirstActivity": "Choose a date on or before {{date}} so it stays before this game's first activity.",
+      "noLaterThanToday": "Choose when this game was added to your library. The date cannot be later than today."
+    },
+    "actions": {
+      "save": "Save Changes",
+      "saving": "Saving..."
+    },
+    "errors": {
+      "saveFailed": "Could not update the added date. Make sure it is earlier than the first activity for this game."
+    }
+  },
+  "shelvesDialog": {
+    "title": "Shelves",
+    "empty": "No shelves yet. Make one from the Library sidebar.",
+    "saved": "Shelves updated."
+  }
+}

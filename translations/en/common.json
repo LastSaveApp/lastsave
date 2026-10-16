@@ -1,0 +1,66 @@
+{
+  "app": {
+    "name": "LastSave",
+    "description": "A personal archive of your gaming life. Log your sessions, journal as you play, and finally keep track of that backlog you swear you'll finish.",
+    "descriptionShort": "A personal archive of your gaming life. Log your sessions, journal as you play, and finish that backlog.",
+    "logoAlt": "LastSave logo"
+  },
+  "actions": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "upload": "Upload",
+    "back": "Back",
+    "continue": "Continue",
+    "skip": "Skip",
+    "change": "Change",
+    "close": "Close",
+    "done": "Done"
+  },
+  "back": {
+    "toNamed": "Back to {{name}}"
+  },
+  "labels": {
+    "never": "Never",
+    "unknown": "Unknown",
+    "yes": "Yes",
+    "no": "No",
+    "unknownGame": "Unknown Game",
+    "unknownYear": "Unknown Year",
+    "unknownDeveloper": "Unknown Developer",
+    "releaseDateUnknown": "Release date unknown",
+    "searchingGames": "Searching for games...",
+    "notSet": "Not set"
+  },
+  "errors": {
+    "unknown": "Unknown error"
+  },
+  "duration": {
+    "hoursMinutes": "{{hours}}h {{minutes}}m",
+    "hours": "{{hours}}h",
+    "minutes": "{{minutes}}m",
+    "hoursSpaced": "{{value}} h",
+    "minutesSpaced": "{{value}} m"
+  },
+  "splash": {
+    "title": "Loading everything for you",
+    "message": "Your library, your sessions and what is coming next."
+  },
+  "offline": {
+    "title": "You're offline",
+    "message": "This needs an internet connection. It comes back by itself once you're online.",
+    "chip": "Offline · showing what you saw last",
+    "localOnly": "You're offline, so only games already in LastSave show up."
+  },
+  "language": {
+    "community": "{{name}} · Community {{percent}}%",
+    "draft": "{{name}} · Draft {{percent}}%",
+    "info": {
+      "community": "Translated by players like you. If something sounds off, tell us through feedback and we'll improve it together.",
+      "draft": "A translation still in progress: some text may show in English or change. Only development builds offer it.",
+      "personal": "Your own version, made in the Language Studio. Only this PC uses it."
+    },
+    "personal": "{{name}} · Your version"
+  }
+}

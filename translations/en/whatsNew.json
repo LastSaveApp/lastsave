@@ -1,0 +1,13 @@
+{
+  "title": "What's new",
+  "versionTitle": "What's new in {{version}}",
+  "version": "Version {{version}}",
+  "otherVersions": "Earlier versions",
+  "empty": "There are no notes for this version.",
+  "fullChangelog": "Full changelog",
+  "joinDiscord": "Join our Discord",
+  "footer": "Join our Discord",
+  "support": "Support LastSave",
+  "gotIt": "Got it",
+  "open": "What's new in v{{version}}"
+}

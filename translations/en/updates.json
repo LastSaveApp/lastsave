@@ -1,0 +1,53 @@
+{
+  "required": {
+    "title": "Update required",
+    "message": "This version of LastSave is no longer supported. Update to keep using it.",
+    "downloading": "Downloading the update…",
+    "installing": "Installing the update…",
+    "ready": "The update is ready. Restart LastSave to apply it.",
+    "restart": "Restart now",
+    "whatsNew": "What's new"
+  },
+  "ready": {
+    "title": "Update ready",
+    "message": "Restart LastSave to install version {{version}}.",
+    "messageUnknownVersion": "Restart LastSave to install it.",
+    "restart": "Restart"
+  },
+  "check": {
+    "action": "Check for updates",
+    "checking": "Checking…",
+    "upToDate": "LastSave is up to date.",
+    "available": "LastSave {{version}} is available.",
+    "failed": "Could not check for updates."
+  },
+  "notes": {
+    "action": "Release notes"
+  },
+  "available": {
+    "title": "Update available",
+    "message": "LastSave {{version}} is ready to download.",
+    "action": "Download"
+  },
+  "downloading": {
+    "title": "Downloading update",
+    "message": "LastSave {{version}} is downloading in the background.",
+    "inline": "Downloading {{version}}…",
+    "progress": "{{percent}}%",
+    "progressWithTime": "{{percent}}% · {{remaining}}",
+    "minutesLeft_one": "about {{count}} minute left",
+    "minutesLeft_other": "about {{count}} minutes left",
+    "lessThanAMinute": "less than a minute left",
+    "cancel": "Cancel"
+  },
+  "installing": {
+    "title": "Installing update",
+    "message": "LastSave {{version}} is downloaded and installing. It will be ready to restart in a moment.",
+    "inline": "Installing {{version}}…"
+  },
+  "failed": {
+    "title": "Update could not be downloaded",
+    "message": "LastSave will try again later. You can also retry now.",
+    "action": "Retry"
+  }
+}

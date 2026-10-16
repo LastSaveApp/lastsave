@@ -1,0 +1,70 @@
+{
+  "title": "Your rotation",
+  "lanes": {
+    "active": {
+      "name": "Active",
+      "description": "What you're on right now. Free slots fill with your most recent Playing games."
+    },
+    "mains": {
+      "name": "Mains",
+      "description": "What you always go back to. Free slots fill with your most recent Endless games."
+    },
+    "next": {
+      "name": "Next",
+      "description": "What comes after. Free slots fill with your most recent Backlog and Wishlist games."
+    },
+    "countOf": "{{count}} of {{total}}",
+    "empty": "Empty"
+  },
+  "actions": {
+    "manage": "Manage",
+    "remove": "Remove {{title}} from your rotation",
+    "chooseGame": {
+      "active": "Choose a game for Active",
+      "mains": "Choose a game for Mains",
+      "next": "Choose a game for Next"
+    },
+    "add": "Add games"
+  },
+  "slots": {
+    "free": "Free slot",
+    "auto": "Fills itself",
+    "picked": "Your pick"
+  },
+  "menu": {
+    "title": "Your rotation",
+    "full": "Full",
+    "remove": "Remove"
+  },
+  "manage": {
+    "title": "Your rotation",
+    "subtitle": "Your picks come first. Every free slot fills itself with your most recent games.",
+    "pickedCount": "{{count}} of {{total}} picked",
+    "pickerHint": "{{count}} of {{total}} picked · changes save as you pick"
+  },
+  "gaming": {
+    "manage": "Manage rotation",
+    "pickerHint": "{{count}} of {{total}} picked · the rest fill themselves",
+    "manageSubtitle": "Pick a lane to choose its games.",
+    "chooseGames": "Choose games",
+    "emptyHint": "Games you play, keep going back to or plan next show up here. Menu picks them yourself."
+  },
+  "toasts": {
+    "picked": {
+      "active": "{{title}} is in Active",
+      "mains": "{{title}} is in Mains",
+      "next": "{{title}} is in Next"
+    },
+    "removed": "{{title}} left your rotation",
+    "full": {
+      "active": "Active is full. Remove a game from it first.",
+      "mains": "Mains is full. Remove a game from it first.",
+      "next": "Next is full. Remove a game from it first."
+    },
+    "failed": "Couldn't update your rotation."
+  },
+  "emptyState": {
+    "title": "Your rotation is empty",
+    "description": "Games you set to Playing, Endless, Backlog or Wishlist show up here on their own. Right-click any game to add it yourself."
+  }
+}

@@ -1,0 +1,684 @@
+{
+  "button": {
+    "open": "Ayuda",
+    "guideProgress": "Ayuda · Primeros pasos, {{current}} de {{total}} hechos"
+  },
+  "dialog": {
+    "title": "Ayuda",
+    "search": {
+      "placeholder": "Buscar en la ayuda",
+      "clear": "Borrar búsqueda",
+      "results": "Resultados",
+      "empty": "Todavía no hay nada sobre «{{query}}»."
+    },
+    "sectionCount": "{{learned}}/{{total}}",
+    "sectionLearned": "{{learned}} de {{total}} aprendidos",
+    "tipsSwitch": "Consejos automáticos"
+  },
+  "sections": {
+    "guide": "Primeros pasos",
+    "library": "Tu biblioteca",
+    "organize": "Estados y tablero",
+    "shelves": "Estanterías",
+    "journeys": "Misiones",
+    "rotation": "Tu rotación",
+    "art": "Arte de los juegos",
+    "logs": "Entradas y recuerdos",
+    "playing": "Jugando",
+    "captures": "Clips y atajos",
+    "gameMode": "Modo Juego",
+    "explore": "Explorar",
+    "emulators": "Emuladores",
+    "data": "Datos y soporte"
+  },
+  "kinds": {
+    "clip": "Clip",
+    "showMe": "Muéstrame",
+    "read": "Leer"
+  },
+  "status": {
+    "done": "Aprendido",
+    "known": "Ya lo sé",
+    "todo": "Todavía no"
+  },
+  "actions": {
+    "showMe": "Muéstrame en la app",
+    "doIt": "Muéstrame",
+    "markKnown": "Ya lo sé"
+  },
+  "guide": {
+    "progress": "{{current}} de {{total}} hechos",
+    "complete": "Todo listo",
+    "subtitle": "Lo básico, en el orden en que lo verás.",
+    "tagline": "Unos diez minutos, cuando quieras",
+    "fraction": "{{current}}/{{total}}",
+    "fold": "Plegar",
+    "hide": "Ocultar la guía",
+    "show": "Mostrar la guía",
+    "openHelp": "Abrir la ayuda",
+    "completeTitle": "Ya tienes lo básico",
+    "completeBody": "Todo lo demás está en Ayuda, el ? junto a tus notificaciones.",
+    "objectives": {
+      "bringGames": "Importa los juegos de este equipo, o de Steam, Epic y Xbox. Corre en segundo plano.",
+      "buildShelf": "Mientras llegan tus juegos, crea una estantería y añade unos cuantos que vayan juntos: con quién juegas o qué ánimo les va.",
+      "whatPlaying": "Abre el tablero de tu estantería y pasa a Jugando un juego que estés jugando estos días.",
+      "story": "Abre un juego y escribe una línea en su diario. Tu movimiento en el tablero ya está ahí.",
+      "pressStart": "Abre un juego desde LastSave. El overlay te mostrará el resto.",
+      "saveSession": "Cierra el juego cuando termines y guarda la sesión."
+    }
+  },
+  "welcome": {
+    "kicker": "Bienvenida a LastSave",
+    "title": "Qué bueno que estés aquí",
+    "titleNamed": "Qué bueno que estés aquí, {{name}}",
+    "points": {
+      "import": {
+        "title": "Todas tus bibliotecas en un lugar",
+        "body": "Este equipo, Steam, Epic y Xbox, juntos."
+      },
+      "track": {
+        "title": "Sabe a qué estás jugando",
+        "body": "Jugando, en pausa y lo siguiente, en un tablero."
+      },
+      "remember": {
+        "title": "Recuerda cada partida",
+        "body": "Sesiones, diarios y capturas."
+      }
+    },
+    "getStarted": "Empezar",
+    "hint": "Abajo a la izquierda te espera una guía corta.",
+    "close": "Cerrar"
+  },
+  "coach": {
+    "chapter": "Primeros pasos · {{current}} de {{total}}",
+    "showMe": "Muéstrame",
+    "firstTime": "Primera vez aquí",
+    "notNow": "Ahora no",
+    "stop": "Parar",
+    "close": "Cerrar",
+    "ack": "Entendido",
+    "waiting": "Te esperamos",
+    "pressHint": "Haz clic en el botón resaltado para seguir",
+    "shortcut": {
+      "open": "Abrirlo",
+      "switch": "Cambiar a él"
+    },
+    "missingTitle": "Esto no está en pantalla ahora",
+    "missingBody": "Algo lo tapa, o todavía no está disponible. Vuelve a intentarlo desde Ayuda cuando quieras.",
+    "stepOf": "Paso {{current}} de {{total}}",
+    "done": "Listo. Bien hecho."
+  },
+  "quest": {
+    "fraction": "{{current}}/{{total}}",
+    "title": "Primera sesión · {{current}} de {{total}}",
+    "close": "Cerrar",
+    "footer": "Cuando termines, solo cierra el juego. LastSave guarda la sesión por ti.",
+    "complete": {
+      "kicker": "Primera sesión · 3 de 3",
+      "title": "Todo listo",
+      "body": "Juega como siempre: notas, capturas y clips están a un atajo, y al cerrar el juego se cierra la sesión.",
+      "play": "A jugar"
+    },
+    "steps": {
+      "overlay": "Abre el overlay",
+      "screenshot": "Haz una captura",
+      "focus": "Prueba el modo enfoque"
+    }
+  },
+  "tours": {
+    "importGames": {
+      "open": {
+        "title": "Trae tus juegos",
+        "body": "Importar juegos encuentra lo que hay en este equipo y en tus bibliotecas de Steam, Epic y Xbox. Elige tus fuentes y LastSave hace el resto en segundo plano."
+      }
+    },
+    "addGame": {
+      "open": {
+        "title": "Añade un juego",
+        "body": "Para un juego que no tienes instalado, o uno que la importación no encontró. Haz clic en Añadir juego."
+      },
+      "search": {
+        "title": "Búscalo y elige un estado",
+        "body": "Escribe su nombre, elige el resultado correcto, decide dónde va (Jugando, Por jugar…) y añádelo."
+      }
+    },
+    "moveToPlaying": {
+      "shelf": {
+        "title": "Abre tu estantería",
+        "body": "Abre la que acabas de crear: desde la barra lateral, en Estanterías, o desde su tarjeta en la página de Estanterías."
+      },
+      "view": {
+        "title": "Abre el tablero",
+        "body": "Haz clic en Vista para cambiar cómo se muestran estos juegos."
+      },
+      "board": {
+        "title": "Elige Tablero",
+        "body": "El tablero muestra tus juegos en columnas por estado, como una lista de pendientes que puedes arrastrar."
+      },
+      "drag": {
+        "title": "¿A qué estás jugando estos días?",
+        "body": "Arrastra a Jugando un juego que estés jugando ahora. En pausa es para juegos que dejaste un rato, Jugado para los que jugaste sin terminar, y Sin fin para los que nunca terminas de verdad, como Valorant o WoW."
+      }
+    },
+    "createShelf": {
+      "nav": {
+        "title": "Tus estanterías viven aquí",
+        "body": "Las estanterías tienen su propio lugar en la barra lateral. Haz clic en Estanterías."
+      },
+      "open": {
+        "title": "Crea una estantería",
+        "body": "Las estanterías son tus propias colecciones, y algo bueno para hacer mientras llegan tus juegos. Haz clic en Añadir estantería."
+      },
+      "ideas": {
+        "title": "Hazla tuya",
+        "body": "Empieza por una idea, o elige tú un nombre, un ícono y un color."
+      },
+      "games": {
+        "title": "Añade sus juegos",
+        "body": "Elige los juegos que van en ella. Con unos cuantos basta; puedes añadir más cuando quieras."
+      },
+      "create": {
+        "title": "Créala",
+        "body": "Presiona Crear estantería y es tuya."
+      }
+    },
+    "writeJournal": {
+      "game": {
+        "title": "Abre un juego",
+        "body": "Cada juego tiene su página, con su historia hasta ahora. Haz clic en este para abrirlo."
+      },
+      "activity": {
+        "title": "Cada juego guarda una historia",
+        "body": "Este es el historial del juego. Los cambios de estado, las sesiones y las notas llegan aquí, lo más nuevo primero."
+      },
+      "addLog": {
+        "title": "Añade algo",
+        "body": "Haz clic en Anotar para escribir algo."
+      },
+      "journal": {
+        "title": "Escribe una entrada de diario",
+        "body": "Elige Entrada de diario y escribe una o dos líneas: dónde vas, qué acaba de pasar. Luego guárdala."
+      }
+    },
+    "launchGame": {
+      "game": {
+        "title": "Elige un juego para jugar",
+        "body": "Los juegos se abren desde su página, así LastSave sabe a qué juegas. Haz clic en este para abrirlo."
+      },
+      "play": {
+        "title": "Presiona Jugar",
+        "body": "Abre el juego desde aquí y LastSave detecta la sesión solo. Deja el juego en pantalla completa sin bordes o en ventana para que se vea el overlay."
+      }
+    },
+    "wrapUp": {
+      "captures": {
+        "title": "Tu sesión, lista",
+        "body": "Todo lo que capturaste mientras jugabas está aquí. Haz clic en una para guardarla como entrada de diario o como logro."
+      },
+      "save": {
+        "title": "Guárdala",
+        "body": "Revisa el tiempo y la nota, y guarda. La sesión va al historial del juego."
+      }
+    },
+    "explore": {
+      "nav": {
+        "title": "Explorar",
+        "body": "Lanzamientos, lo que viene y los mejores juegos por género y año."
+      }
+    },
+    "helpButton": {
+      "button": {
+        "title": "La ayuda siempre está aquí",
+        "body": "Guías cortas para cada parte de LastSave, con un botón que te muestra dónde está cada cosa."
+      }
+    },
+    "changeArt": {
+      "manage": {
+        "title": "Cambia el arte de un juego",
+        "body": "Abre Gestionar, el engranaje junto a Anotar."
+      },
+      "art": {
+        "title": "Elige Arte",
+        "body": "El arte es el banner detrás del juego y el logo en lugar de su nombre."
+      },
+      "choose": {
+        "title": "Banner y logo, cada uno por su lado",
+        "body": "Predeterminado sigue a los Ajustes. Elige SteamGridDB, el arte del catálogo o el nombre en texto, o presiona Elegir… para ver todas las imágenes que hay. Guardar lo deja para este juego."
+      }
+    },
+    "gameModeButton": {
+      "button": {
+        "title": "Modo Juego",
+        "body": "Tu biblioteca desde el sofá, pensada para el control. Presiona aquí, o su atajo desde cualquier lugar, incluso con un juego abierto. Conecta un control y se ilumina."
+      }
+    },
+    "createJourney": {
+      "nav": {
+        "title": "Las misiones viven aquí",
+        "body": "Las misiones tienen su propio lugar en la barra lateral. Haz clic en Misiones."
+      },
+      "open": {
+        "title": "Empieza una misión",
+        "body": "Una misión son unos cuantos juegos con un propósito y un final: todos los Zelda, los GOTY, lo que nunca terminaste. Haz clic en Nueva misión."
+      },
+      "name": {
+        "title": "Ponle nombre",
+        "body": "Dale un nombre y, si quieres, un porqué. El objetivo dice cuándo cuenta un juego: Completado, o solo jugado."
+      },
+      "games": {
+        "title": "Elige sus juegos",
+        "body": "Tráelos de una estantería, una saga o los GOTY, o añádelos uno a uno. También pueden estar juegos que no tienes."
+      },
+      "create": {
+        "title": "Créala",
+        "body": "Presiona Crear misión. Se completa sola mientras juegas: no hay nada que marcar."
+      }
+    }
+  },
+  "articles": {
+    "guide": {
+      "bringGames": {
+        "title": "Trae tus juegos",
+        "body": "Empieza importando los juegos de este equipo y de tus bibliotecas de Steam, Epic y Xbox. Los emulados pueden venir después. La importación corre en segundo plano, así que puedes seguir mientras trabaja."
+      },
+      "whatPlaying": {
+        "title": "¿A qué estás jugando?",
+        "body": "El tablero muestra una lista de juegos en columnas por estado. Ábrelo en tu estantería, donde la lista es corta, pasa a Jugando los juegos que juegas estos días, y LastSave empieza a parecerse a tu semana."
+      },
+      "buildShelf": {
+        "title": "Crea una estantería",
+        "body": "Las estanterías son tus propias colecciones, como la estantería de casa: con quién juegas, cuándo o qué ánimo le va a un juego. Crea una mientras llegan tus juegos y añade unos cuantos. Así el siguiente paso es corto."
+      },
+      "story": {
+        "title": "Cada juego tiene una historia",
+        "body": "Cada juego guarda su propio historial: cambios de estado, sesiones, entradas de diario y logros. Escribe una línea y la encontrarás ahí la próxima vez que vuelvas."
+      },
+      "pressStart": {
+        "title": "Presiona Start",
+        "body": "Abre un juego desde LastSave y la sesión se detecta sola. El overlay te deja hacer capturas y notas sin salir del juego."
+      },
+      "saveSession": {
+        "title": "Guarda la sesión",
+        "body": "Cuando cierras el juego, LastSave cierra la sesión: el tiempo, tus capturas y una nota. Guárdala y queda en el historial del juego, listo."
+      }
+    },
+    "library": {
+      "import": {
+        "title": "Importa tus juegos",
+        "body": "Importar juegos busca juegos en este equipo y en tus bibliotecas de Steam, Epic y Xbox, y te deja revisar la lista antes de añadir nada.",
+        "step1": "Haz clic en Importar juegos en la Biblioteca.",
+        "step2": "Elige tus fuentes. Steam, Epic y Xbox te piden iniciar sesión una vez.",
+        "step3": "Revisa la lista y añade. Sigue en segundo plano."
+      },
+      "addGame": {
+        "title": "Añade un juego a mano",
+        "body": "Cualquier juego que esté en IGDB, instalado o no. Búscalo, elígelo y dale un estado. Si está en este equipo, LastSave puede vincular su ejecutable para que lo abras desde aquí.",
+        "step1": "Haz clic en Añadir juego en la Biblioteca.",
+        "step2": "Búscalo y elige el resultado correcto.",
+        "step3": "Elige un estado y añádelo."
+      },
+      "xbox": {
+        "title": "Trae tus juegos de Xbox",
+        "body": "Inicia sesión con tu cuenta de Microsoft y LastSave trae los juegos que jugaste en Xbox, en PC, con Game Pass o en consola, con sus horas. Los que tienes pero nunca abriste no aparecen, porque Xbox solo comparte lo que jugaste. Los juegos de consola se guardan como historial: puedes anotarlos y cronometrarlos, pero se abren en la consola.",
+        "step1": "En Importar juegos, elige Xbox en Más fuentes, o conéctalo en tu perfil, en Cuentas conectadas.",
+        "step2": "Inicia sesión en la página de Microsoft. LastSave nunca ve tu contraseña.",
+        "step3": "Decide si incluir los juegos de consola, revisa y añade."
+      },
+      "identify": {
+        "title": "Arregla un juego que no se reconoció",
+        "body": "A veces una importación no sabe qué juego es una carpeta. Esos esperan en la revisión en lugar de adivinarse.",
+        "step1": "En la revisión de la importación, abre los juegos marcados como sin identificar.",
+        "step2": "Busca el juego correcto, o déjalo fuera."
+      },
+      "checkNew": {
+        "title": "Revisa si hay juegos nuevos",
+        "body": "¿Instalaste algo nuevo? Revisar juegos nuevos vuelve a mirar y muestra solo lo que cambió: juegos nuevos, y juegos que ya no están en este equipo. También puedes dejar que revise solo una vez al día."
+      },
+      "views": {
+        "title": "Búsqueda, filtros y vistas",
+        "body": "Buscar encuentra juegos por nombre, género o estudio. Filtrar acota por estado, origen o género, y Vista cambia entre tarjetas, lista y tablero. Pon unos filtros y presiona Guardar filtro, junto a Quitar todo, para guardarlos con un nombre: te esperan en Filtrar, en Tus filtros, en la Biblioteca y en cada estantería."
+      },
+      "dlc": {
+        "title": "DLC y expansiones",
+        "body": "Las expansiones viven dentro de su juego base en lugar de como juegos aparte. Sus horas y entradas cuentan para el juego al que pertenecen."
+      }
+    },
+    "organize": {
+      "statuses": {
+        "title": "Estados",
+        "body": "Por jugar es lo que viene, Jugando es ahora, En pausa es lo que dejaste un rato, Completado es terminado y Abandonado también está bien. Jugado es para un juego que jugaste y dejaste sin terminar, y Sin fin para los que juegas más que terminas, como MMO, MOBA o Minecraft."
+      },
+      "board": {
+        "title": "El tablero",
+        "body": "El tablero muestra tu biblioteca en columnas por estado. Arrastra un juego a otra columna y LastSave anota el cambio, con sus horas.",
+        "step1": "En la Biblioteca, haz clic en Vista.",
+        "step2": "Elige Tablero.",
+        "step3": "Arrastra un juego a otra columna."
+      },
+      "shelves": {
+        "title": "Crea una estantería",
+        "body": "Tus propias colecciones, como la estantería de casa: todas las que quieras, y un juego puede estar en varias, incluso uno que todavía no tienes.",
+        "step1": "Ve a Estanterías y haz clic en Añadir estantería.",
+        "step2": "Elige una idea de tu biblioteca, o ponle nombre tú.",
+        "step3": "Añade juegos, de tu biblioteca o de donde sea, y créala."
+      },
+      "bulk": {
+        "title": "Cambia muchos juegos a la vez",
+        "body": "Elige varios juegos en la Biblioteca para cambiar su estado, añadirlos a una estantería o marcarlos como desinstalados de una vez."
+      }
+    },
+    "shelves": {
+      "page": {
+        "title": "La página de una estantería",
+        "body": "Una estantería se abre por su portada: lo que dice, sus juegos y horas, y una barra con sus estados. Debajo está la Biblioteca que ya conoces, con búsqueda, filtros, vistas y tablero, solo para esa estantería."
+      },
+      "pin": {
+        "title": "Fijar en la barra lateral",
+        "body": "Las estanterías fijadas están en la barra lateral, en Estanterías, hasta seis. También van primero en la página de Estanterías y en el Modo Juego.",
+        "step1": "Ve a Estanterías.",
+        "step2": "Haz clic en el pin de la esquina de una estantería. Vuelve a hacer clic para quitarla."
+      },
+      "order": {
+        "title": "Ordena una estantería",
+        "body": "Una estantería guarda el orden que le das: su página se ordena así, y su collage y su imagen lo siguen. En la cuadrícula, haz clic derecho en un juego para Subir o Mover al principio.",
+        "step1": "Abre la estantería y haz clic en Editar.",
+        "step2": "Arrastra los juegos por sus asas.",
+        "step3": "Guarda."
+      },
+      "filters": {
+        "title": "Filtros guardados",
+        "body": "Un filtro que usas seguido se puede guardar. Aparece en Tus filtros, en la Biblioteca y en cada estantería, y lo que cambies mientras está activo se guarda en él.",
+        "step1": "Pon unos filtros en la Biblioteca o en una estantería.",
+        "step2": "Presiona Guardar filtro, junto a Quitar todo, y ponle nombre."
+      },
+      "share": {
+        "title": "Comparte una estantería",
+        "body": "Compartir crea una imagen de la estantería, con sus portadas en tu orden, como la de verdad. Guárdala o cópiala; no se sube nada.",
+        "step1": "Abre la estantería.",
+        "step2": "Haz clic en Compartir.",
+        "step3": "Guarda o copia la imagen."
+      }
+    },
+    "journeys": {
+      "create": {
+        "title": "Crea una misión",
+        "body": "Una misión es un grupo de juegos con un propósito y un final: todos los Zelda en orden de salida, los Juegos del Año, los que empezaste y nunca terminaste. Lleva la cuenta sola: a medida que completas juegos, avanza.",
+        "step1": "Ve a Misiones y haz clic en Nueva misión.",
+        "step2": "Ponle nombre y elige su objetivo: Completarlos o Jugarlos.",
+        "step3": "Añade juegos de una estantería, una saga, los GOTY o uno a uno, y créala."
+      },
+      "ideas": {
+        "title": "Ideas de tu biblioteca",
+        "body": "Arriba en Misiones hay sugerencias de misiones que ya se esconden en tu biblioteca: una saga de la que tienes varios juegos, lo que estás jugando, juegos con horas que nunca terminaste, expansiones de juegos que completaste. Haz clic en una para empezar por ella. Ocultar guarda las sugerencias; Ver sugerencias las trae de vuelta."
+      },
+      "progress": {
+        "title": "Cómo avanza una misión",
+        "body": "Una misión lee tu biblioteca: cambia el estado de un juego en cualquier lugar y cada misión en la que está avanza. Salta un juego para dejarlo fuera de la cuenta, pon una misión En espera para dejarla a un lado, y arrastra las misiones para ordenarlas: la primera encabeza la barra lateral e Inicio. Cuando el último juego está hecho, la misión lo celebra y puedes compartirla."
+      }
+    },
+    "rotation": {
+      "lanes": {
+        "title": "Tu rotación",
+        "body": "Los pocos juegos que tienes entre manos ahora: Activos, lo que estás jugando; Principales, a los que siempre vuelves; Próximos, lo que viene después. Se llena sola con tus estados, y los juegos que eliges van primero. Está en Inicio, junto a Juegos recientes."
+      },
+      "pick": {
+        "title": "Elige juegos para tu rotación",
+        "body": "Un juego que eliges se queda en su carril hasta que lo terminas, lo abandonas o empiezas a jugar uno de Próximos.",
+        "step1": "Haz clic derecho en un juego, en cualquier parte de LastSave.",
+        "step2": "Ve a Tu rotación y elige Activos, Principales o Próximos.",
+        "step3": "O abre Tu rotación en Inicio y haz clic en Gestionar."
+      }
+    },
+    "art": {
+      "change": {
+        "title": "Cambia el arte de un juego",
+        "body": "Cada juego tiene un banner ancho y un logo en su página, en Inicio y en el Modo Juego. Si no te gusta el que encontró LastSave, elige otro solo para ese juego.",
+        "step1": "Abre el juego y presiona Gestionar, el engranaje junto a Anotar.",
+        "step2": "Elige Arte.",
+        "step3": "Para el banner o el logo, elige una opción o presiona Elegir… para ver las imágenes, y guarda."
+      },
+      "sources": {
+        "title": "De dónde sale el arte",
+        "body": "Los banners salen primero de la página de Steam del juego, luego de SteamGridDB, una comunidad de artistas, y luego del catálogo. Los logos salen primero de SteamGridDB y luego de Steam. Si no hay logo, se escribe el nombre. Cada imagen de SteamGridDB da crédito a su artista."
+      },
+      "settings": {
+        "title": "Desactiva banners o logos",
+        "body": "En Ajustes, Arte hay dos interruptores: banners de SteamGridDB y logos de los juegos. Desactivar uno vuelve al arte del catálogo o al nombre en texto en todas partes. Un juego donde elegiste algo a mano conserva tu elección."
+      }
+    },
+    "logs": {
+      "journal": {
+        "title": "Escribe una entrada de diario",
+        "body": "Con una línea sobre dónde vas o qué acaba de pasar basta. Es lo que te alegrará encontrar cuando vuelvas a un juego meses después.",
+        "step1": "Abre un juego.",
+        "step2": "Haz clic en Anotar.",
+        "step3": "Elige Entrada de diario, escribe y guarda."
+      },
+      "achievements": {
+        "title": "Logros",
+        "body": "Anota los momentos que te importaron: un jefe, un capítulo superado, un reto hecho por las malas, un lugar descubierto, una mejora, un 100 %. Cada tipo tiene su medalla en la página del juego; pasa el mouse por un tipo para ver para qué es."
+      },
+      "activity": {
+        "title": "El historial de progreso",
+        "body": "Todo lo que pasó con un juego, lo más nuevo primero: sesiones, cambios de estado, entradas de diario y logros, con sus capturas y clips."
+      },
+      "memories": {
+        "title": "Recuerdos",
+        "body": "Inicio te trae de vuelta capturas, clips, notas de tu diario y tus reseñas, para que los juegos que amaste no se olviden. Haz clic en uno para verlo en grande: la tira de abajo o la rueda del mouse recorren el resto, y un doble clic llena la ventana."
+      },
+      "reviews": {
+        "title": "Reseña un juego",
+        "body": "Ponle a un juego un puntaje de 0 a 10 y, si quieres, unas palabras. Tu reseña va arriba en la página del juego, y cada DLC o expansión tiene la suya. Cuando marcas un juego como Completado, LastSave te ofrece reseñarlo, y puedes compartir una reseña como tarjeta.",
+        "step1": "Abre un juego.",
+        "step2": "En Mi reseña, haz clic en Puntuar y reseñar.",
+        "step3": "Elige el número entero, ajusta las décimas con − y +, escribe si quieres y guarda."
+      },
+      "share": {
+        "title": "Comparte una entrada, un juego o tu perfil",
+        "body": "Cualquier entrada, juego, reseña o tu perfil se convierte en una tarjeta lista para pegar en Discord, X o WhatsApp; un clip se convierte en un video corto. Comprimida es lo bastante liviana para cualquier chat; Sin pérdida conserva cada píxel. Activa Mostrar mi perfil para poner tu avatar y tu nombre.",
+        "step1": "Haz clic en Compartir en una entrada, en el ícono de compartir junto a los detalles de un juego, o en Compartir perfil en tu perfil.",
+        "step2": "Elige el fondo o la calidad.",
+        "step3": "Cópiala, o arrástrala directo a un chat."
+      },
+      "time": {
+        "title": "El día y la hora de una entrada",
+        "body": "Cada entrada tiene un día y una hora, abajo en su ventana. Si no los tocas, es ahora. Cámbialos para poner las entradas de un día en el orden en que pasaron, o para escribir sobre ayer. Pasa el mouse por la fecha de una entrada en la página del juego para ver su hora."
+      }
+    },
+    "playing": {
+      "launch": {
+        "title": "Abre un juego",
+        "body": "Presiona Jugar en un juego y LastSave lo abre y detecta la sesión solo. Los juegos que abres desde otro lado también se detectan.",
+        "step1": "Abre un juego que tengas instalado.",
+        "step2": "Presiona Jugar.",
+        "step3": "Juega. LastSave cuenta el tiempo en segundo plano."
+      },
+      "overlay": {
+        "title": "El overlay",
+        "body": "Un pequeño panel sobre tu juego: capturas, notas, clips y el reloj de la sesión, sin salir del juego.",
+        "step1": "Presiona Shift+F10 en un juego para abrirlo.",
+        "step2": "Vuelve a presionarlo para plegarlo a la píldora.",
+        "step3": "Cambia los atajos en Ajustes, Atajos."
+      },
+      "screenshots": {
+        "title": "Capturas",
+        "body": "Presiona Shift+F11 en un juego. La captura se une a la sesión, y al final eliges si se convierte en entrada de diario o en logro."
+      },
+      "focus": {
+        "title": "Modo enfoque",
+        "body": "Shift+F9 te saca del juego sin alt-tab: el overlay cubre la pantalla para que ordenes tus capturas o escribas una nota. Esc te devuelve."
+      },
+      "fullscreen": {
+        "title": "Pantalla completa exclusiva y el overlay",
+        "body": "Windows no deja dibujar nada sobre un juego en pantalla completa exclusiva, así que el overlay no puede aparecer ahí. LastSave sigue detectando la sesión. Sin bordes se ve igual y mantiene el overlay.",
+        "step1": "Abre los ajustes de video o pantalla del juego.",
+        "step2": "Pon el modo de pantalla en Sin bordes o Pantalla completa en ventana.",
+        "step3": "Aplica. La próxima vez se verá el overlay."
+      },
+      "wrapUp": {
+        "title": "El cierre de la sesión",
+        "body": "Cuando cierras el juego te aparece una pantalla: el tiempo jugado, lo que capturaste y una nota. Guárdala y la sesión queda en el historial del juego."
+      }
+    },
+    "captures": {
+      "clips": {
+        "title": "Clips y grabación",
+        "body": "LastSave usa el grabador que ya tienes, Xbox Game Bar, la NVIDIA App o AMD Adrenalin, y guarda el clip en tu sesión.",
+        "step1": "Activa el grabador que usas.",
+        "step2": "En un juego, presiona Shift+F6 para un clip o Shift+F7 para grabar.",
+        "step3": "Si no se guarda nada, el overlay te muestra el interruptor a revisar."
+      },
+      "shortcuts": {
+        "title": "Tus atajos",
+        "body": "Cada atajo dentro del juego se cambia en Ajustes, Atajos, presionando las teclas que quieras. Si otra app ya usa uno, LastSave te avisa."
+      }
+    },
+    "gaming": {
+      "enter": {
+        "title": "Entra y sal del Modo Juego",
+        "body": "El Modo Juego es LastSave para el sofá: arte grande, tus juegos y los botones para jugarlos, todo con un control. Puedes entrar y salir cuando quieras, incluso con un juego abierto.",
+        "step1": "Presiona Modo Juego en la barra de título, o su atajo en el teclado.",
+        "step2": "Con un control, presiona su combinación (View + Y, si no la cambiaste).",
+        "step3": "Sal desde el menú, o con el mismo atajo."
+      },
+      "getAround": {
+        "title": "Moverte",
+        "body": "Cada pantalla dice abajo qué hace cada botón. Los gatillos superiores cambian de pestaña, el botón de menú abre el menú de LastSave, y el botón de volver siempre te lleva atrás."
+      },
+      "library": {
+        "title": "Biblioteca, búsqueda y filtros",
+        "body": "Los gatillos agrupan tus juegos por estado, origen o estantería. Buscar abre un teclado en pantalla, y Filtros ordena y acota la lista. Solo instalados, abajo en Filtros, viene activado: desactívalo para ver el resto de tu biblioteca, atenuado."
+      },
+      "hub": {
+        "title": "La página de un juego",
+        "body": "Al abrir un juego caes en Jugar. Al lado: Estado, una entrada de diario y Más, que guarda tu reseña, las estanterías del juego y sus misiones. Los gatillos superiores cambian entre todas sus entradas, logros, diarios y sesiones."
+      },
+      "shelves": {
+        "title": "Estanterías desde el sofá",
+        "body": "Aquí está cada estantería que creaste, con sus juegos en tu orden. Puedes añadir o quitar juegos de una estantería; crear estanterías nuevas se hace en el escritorio."
+      },
+      "inGame": {
+        "title": "Tu control mientras juegas",
+        "body": "Mientras corre un juego, mantén View y presiona un segundo botón: captura, clip, grabar, una entrada de diario o el overlay. El juego también recibe el segundo botón, así que elige combinaciones que tus juegos no usen."
+      },
+      "settings": {
+        "title": "Ajustes del Modo Juego",
+        "body": "Iconos de botones, sonidos, pantalla completa y cada combinación dentro del juego. Abre Ajustes desde el menú del Modo Juego."
+      },
+      "rotation": {
+        "title": "Tu rotación desde el sofá",
+        "body": "En Inicio, RT cambia la fila a Tu rotación. La línea sobre el juego en el que estás dice su carril, y Menú elige los juegos de cada carril."
+      },
+      "controllers": {
+        "title": "Qué controles funcionan",
+        "body": "Los controles de Xbox, los de Switch con cable (PDP, Hori, PowerA) y los de PlayStation 4 y 5 por USB funcionan tal cual, en el Modo Juego y sobre tus juegos. El Pro Controller y los Joy-Con de Nintendo, y el DualShock 3, por ahora necesitan una ayuda como BetterJoy, DsHidMini o Steam. LastSave dibuja los botones del control que tienes en las manos."
+      }
+    },
+    "explore": {
+      "discover": {
+        "title": "Explorar",
+        "body": "Descubre lo nuevo y lo que viene, recorre los mejores juegos por género y año, y añade lo que sea a tu biblioteca o a tus deseados."
+      }
+    },
+    "emulators": {
+      "setup": {
+        "title": "Juegos emulados",
+        "body": "Los clásicos retro reciben lo mismo que todo lo demás: portadas, horas y sesiones.",
+        "step1": "En Importar juegos, elige Emuladores.",
+        "step2": "Indica a LastSave tu emulador y tus ROMs.",
+        "step3": "Revisa los juegos y añádelos."
+      },
+      "options": {
+        "title": "Opciones de inicio del emulador",
+        "body": "Pantalla completa, BIOS y otras opciones de inicio se pueden poner para un emulador, o para un juego en su sección Avanzado."
+      },
+      "launch": {
+        "title": "Abre un emulador solo",
+        "body": "Ajustes, Emuladores lista los emuladores que encontró LastSave. Abrir abre uno sin juego, para cambiar sus ajustes. Si un emulador ya está abierto cuando presionas Jugar, LastSave te pregunta antes de cerrarlo y abrir tu juego."
+      },
+      "discs": {
+        "title": "Juegos en disco",
+        "body": "Para un juego en disco sirven un .cue, un .bin junto a su .cue o un .chd. Un juego de varios discos se guarda junto como uno, así los emuladores que cambian de disco lo hacen dentro del juego. Si a un disco le falta un archivo, la búsqueda dice cuál."
+      }
+    },
+    "data": {
+      "backups": {
+        "title": "Copias de seguridad",
+        "body": "LastSave guarda una copia de tu biblioteca antes de cada actualización y una vez al día. Ajustes, Datos, Copias de seguridad la recupera si algo sale mal."
+      },
+      "updates": {
+        "title": "Actualizaciones",
+        "body": "LastSave descarga las actualizaciones en segundo plano y muestra su avance en la notificación y en Ajustes, Información y ayuda. Cerrar la app pausa la descarga, que sigue donde quedó. Reinicia cuando diga que está lista, y Novedades te cuenta qué cambió."
+      },
+      "feedback": {
+        "title": "Reporta un error o una idea",
+        "body": "El ícono del bicho abajo en la barra lateral envía un reporte directo al desarrollador. Tú eliges qué va en él."
+      },
+      "mediaFolder": {
+        "title": "Guarda tus archivos en otro disco",
+        "body": "Las capturas, clips, imágenes de entradas y archivos para compartir se guardan en tu carpeta multimedia. Para tenerlos en otro lugar, elige una carpeta nueva: lo que ya tienes puede quedarse donde está o moverse con ella; el movimiento muestra su avance, se puede pausar y sigue si LastSave se cierra.",
+        "step1": "Abre Ajustes y luego Datos.",
+        "step2": "En Carpeta multimedia, haz clic en Cambiar… y elige una carpeta.",
+        "step3": "Elige Solo los nuevos o Mover todo aquí."
+      },
+      "offline": {
+        "title": "Usar LastSave sin conexión",
+        "body": "Sin internet, todo lo que guardaste sigue funcionando: tu biblioteca, entradas, sesiones, Modo Juego y capturas. Explorar muestra lo último que viste, la sincronización con las tiendas espera la conexión, y las imágenes que LastSave todavía no vio vuelven cuando tengas internet."
+      }
+    }
+  },
+  "gaming": {
+    "menuItem": "Ayuda",
+    "newTag": "Nuevo",
+    "page": {
+      "title": "Ayuda",
+      "subtitle": "Modo Juego",
+      "takeMeThere": "Llévame",
+      "back": "Volver",
+      "desktopOnly": "Hay más guías en la Ayuda del escritorio."
+    },
+    "rows": {
+      "enter": "Entra o sal del Modo Juego, desde cualquier lugar",
+      "tabs": "Cambia entre Inicio, Biblioteca y Estanterías",
+      "open": "Abre un juego o una estantería",
+      "back": "Vuelve atrás",
+      "menu": "Abre el menú: Ayuda, Ajustes y la salida",
+      "playNow": "Juega al instante el juego en el que estás",
+      "group": "Agrupa por estado, origen o estantería",
+      "search": "Busca, con un teclado en pantalla",
+      "filters": "Ordena y filtra",
+      "play": "Jugar",
+      "logTabs": "Cambia entre las entradas del juego",
+      "hubActions": "Estado, Diario y Más están junto a Jugar",
+      "shelfGames": "Añade o quita juegos de la estantería",
+      "makeShelves": "Las estanterías nuevas se crean en el escritorio",
+      "overlay": "Abre el overlay",
+      "focus": "Modo enfoque",
+      "screenshot": "Captura",
+      "clip": "Clip de los últimos segundos",
+      "record": "Empieza o detén la grabación",
+      "journal": "Escribe una entrada de diario",
+      "settings": "Cambia cualquier combinación en Ajustes"
+    },
+    "controls": {
+      "kicker": "Modo Juego",
+      "title": "Tu biblioteca, desde el sofá",
+      "body": "Todo lo que puedes hacer en una pantalla siempre está escrito abajo. Estas son las que más usarás.",
+      "gotIt": "Vamos",
+      "again": "Encuentra esto de nuevo en el menú, en Ayuda."
+    },
+    "hints": {
+      "tag": "Nuevo aquí",
+      "anyButton": "Cualquier botón cierra esto",
+      "home": "Cambia entre Inicio, Biblioteca y Estanterías",
+      "library": "Agrupa tus juegos por estado, origen o estantería",
+      "shelves": "Abre una estantería para ver sus juegos en tu orden",
+      "hub": "Estado, Diario y Más están justo al lado de Jugar",
+      "hubStatus": "Esto es Estado: dónde está el juego en tu tablero",
+      "libraryHere": "Tu biblioteca: los gatillos cambian cómo se agrupa",
+      "shelvesHere": "Tus estanterías, como las creaste en el escritorio",
+      "homeHere": "Inicio: lo último que jugaste y tus recuerdos",
+      "settingsHere": "Ajustes del Modo Juego: iconos, sonidos y combinaciones"
+    }
+  }
+}

@@ -1,0 +1,577 @@
+{
+  "dialog": {
+    "title": "Settings",
+    "search": {
+      "placeholder": "Search settings",
+      "clear": "Clear search",
+      "emptyTitle": "Nothing matches “{{query}}”",
+      "emptyDescription": "Try a shorter word, or the name of the thing you want to change."
+    }
+  },
+  "general": {
+    "title": "General",
+    "subtitle": "How LastSave looks, and how it behaves towards Windows.",
+    "groups": {
+      "appearance": "Appearance",
+      "startup": "Startup",
+      "window": "Window",
+      "tutorials": "Tutorials and tips"
+    },
+    "language": {
+      "title": "Language",
+      "description": "The language LastSave speaks. More are on the way.",
+      "keywords": "locale, translation, idioma"
+    },
+    "languageStudio": {
+      "title": "Language Studio",
+      "description": "Improve this translation or create one for your language, with LastSave in view.",
+      "keywords": "translate, translation, language, studio, localization, localize",
+      "action": "Open Language Studio"
+    },
+    "tray": {
+      "title": "Minimise to the system tray",
+      "description": "Closing the window keeps LastSave running in the tray, so it can still detect your play sessions.",
+      "keywords": "close, quit, background, taskbar"
+    },
+    "openAtLogin": {
+      "title": "Open LastSave when Windows starts",
+      "description": "Signs you in with the app already running, so nothing has to be launched before a session can be detected.",
+      "keywords": "autostart, boot, login, windows, startup"
+    },
+    "startMinimized": {
+      "title": "Start minimised",
+      "description": "A startup launch goes straight to the system tray instead of opening the window in front of you.",
+      "keywords": "hidden, background, quiet, tray"
+    },
+    "startupDevNote": "Development build: the preference is saved, but no Windows startup entry is written until LastSave is installed.",
+    "tips": {
+      "title": "Show tips automatically",
+      "description": "The getting-started guide, first-time tips and the in-game quest. Help keeps working either way.",
+      "keywords": "help, tutorial, tour, onboarding, hints, guide"
+    },
+    "guide": {
+      "title": "Getting started guide",
+      "description": "The six steps that show you the basics. Bring it back if you hid it.",
+      "keywords": "tutorial, onboarding, first steps, help",
+      "show": "Show the guide",
+      "showing": "Showing"
+    },
+    "resetHelp": {
+      "title": "Reset help progress",
+      "description": "Clears what you marked as known and the tips you have already seen. What you did in your library stays ticked.",
+      "keywords": "tutorial, tips, restart, help",
+      "action": "Reset",
+      "done": "Help progress reset"
+    }
+  },
+  "playing": {
+    "title": "Playing",
+    "subtitle": "What happens when you press Play. Every game keeps its own setting underneath these.",
+    "tracking": {
+      "title": "Track play sessions",
+      "description": "Times your games, notices when they start and keeps a history of each session. Turn it off to use LastSave only to organize and launch. Every game keeps its own tracking setting for when this is back on.",
+      "keywords": "timer, sessions, hours, detection"
+    },
+    "launching": {
+      "title": "Launch games from LastSave",
+      "description": "Opens the game when you press Play. Turn it off to start your games yourself: every one of them offers Start (timer only) instead. Each game keeps its own launch setting for when this is back on.",
+      "keywords": "start, run, open, play"
+    }
+  },
+  "overlay": {
+    "title": "Overlay",
+    "subtitle": "The panel LastSave draws over your game while a session is running.",
+    "groups": {
+      "placement": "Placement",
+      "behaviour": "Behaviour"
+    },
+    "corner": {
+      "title": "Overlay position",
+      "description": "Where the overlay sits until you drag it. Dragging the expanded panel moves the compact one too.",
+      "keywords": "corner, position, place, screen"
+    },
+    "cornerPreview": "· preview",
+    "corners": {
+      "top_left": "Top left",
+      "top_center": "Top, centered",
+      "top_right": "Top right",
+      "left_center": "Left, centered",
+      "right_center": "Right, centered",
+      "bottom_left": "Bottom left",
+      "bottom_center": "Bottom, centered",
+      "bottom_right": "Bottom right"
+    },
+    "sounds": {
+      "title": "Overlay sounds",
+      "description": "Short cues for screenshots, notes, pause and resume.",
+      "keywords": "audio, sound, mute, cue"
+    }
+  },
+  "gaming": {
+    "title": "Game Mode",
+    "subtitle": "The controller-first view of your library.",
+    "groups": {
+      "controller": "Controller"
+    },
+    "glyphs": {
+      "title": "Button prompts",
+      "description": "Which controller’s buttons Game Mode draws. Automatic follows the controller in your hands.",
+      "keywords": "glyphs, icons, prompts, buttons, xbox, playstation, switch, controller, gamepad",
+      "options": {
+        "auto": "Automatic",
+        "xbox": "Xbox Series / One",
+        "xbox360": "Xbox 360",
+        "ps5": "PlayStation 5",
+        "ps4": "PlayStation 4",
+        "ps3": "PlayStation 3",
+        "switch": "Nintendo Switch"
+      }
+    },
+    "sounds": {
+      "title": "Game Mode sounds",
+      "description": "Short cues when you move, open the menu, and enter or leave Game Mode.",
+      "keywords": "audio, sound, mute, cue"
+    },
+    "reduceMotion": {
+      "title": "Reduce motion",
+      "description": "No growing, sliding or crossfading, and clips play only when you watch them. System follows Windows’ animation effects.",
+      "keywords": "motion, animation, animations, accessibility, reduce, still, transitions",
+      "options": {
+        "system": "System",
+        "on": "On",
+        "off": "Off"
+      }
+    }
+  },
+  "captures": {
+    "title": "Captures & clips",
+    "subtitle": "What LastSave records while you play, and where it looks for it.",
+    "groups": {
+      "screenshots": "Screenshots",
+      "clips": "Clips"
+    },
+    "format": {
+      "title": "Screenshot format",
+      "description": "JPEG keeps a 1440p shot under 1 MB; PNG is lossless and several times larger.",
+      "keywords": "jpeg, png, image, quality"
+    },
+    "formats": {
+      "jpeg": "JPEG",
+      "png": "PNG"
+    },
+    "recorder": {
+      "title": "Clip recorder",
+      "description": "LastSave records nothing itself: it presses the recorder's hotkey and imports the file it writes.",
+      "keywords": "game bar, nvidia, amd, replay, record"
+    },
+    "nvidiaFolder": {
+      "title": "NVIDIA clips folder",
+      "description": "Where the NVIDIA overlay saves clips, if you moved it from Videos."
+    },
+    "extraFolder": {
+      "title": "Extra clips folder",
+      "description": "Any other folder to watch for clips while you play."
+    },
+    "folders": {
+      "choose": "Choose",
+      "clear": "Clear",
+      "unset": "Default"
+    }
+  },
+  "shortcuts": {
+    "title": "Shortcuts",
+    "subtitle": "The chords Playing Mode listens for while a session is running, on the keyboard and on a controller.",
+    "groups": {
+      "playing": "Playing Mode",
+      "controller": "Controller"
+    },
+    "unavailable": "{{accelerator}} is held by another app while playing. Choose a different chord.",
+    "capture": {
+      "pressKeys": "Press the keys",
+      "notSet": "Not set",
+      "taken": "Another app already holds that chord.",
+      "bareKey": "A key with no modifier stops reaching other apps while you play.",
+      "pressPad": "Hold {{modifier}}, press a button",
+      "padTaken": "That chord could not be saved."
+    },
+    "overlay": {
+      "title": "Show or minimize the overlay",
+      "description": "Switches the overlay between the pill and the full panel."
+    },
+    "focus": {
+      "title": "Focus mode",
+      "description": "Steps out of the game: dims the screen, frees the mouse, and lets you file captures in place. Press again or Esc to return."
+    },
+    "hide": {
+      "title": "Hide or show the overlay",
+      "description": "Takes the overlay off the screen, pill included, and brings it back."
+    },
+    "screenshot": {
+      "title": "Screenshot",
+      "description": "Captures the game and keeps it with the session."
+    },
+    "quickJournal": {
+      "title": "Add a note",
+      "description": "Opens the one-line note on the overlay. Pressed right after a capture, it files that capture instead."
+    },
+    "pause": {
+      "title": "Pause or resume",
+      "description": "Stops the clock without ending the session."
+    },
+    "stop": {
+      "title": "End the session",
+      "description": "Brings LastSave forward and asks before ending anything."
+    },
+    "clip": {
+      "title": "Clip the last seconds",
+      "description": "Asks Game Bar or NVIDIA for the replay it has been holding."
+    },
+    "record": {
+      "title": "Record",
+      "description": "Starts and stops a recording through your capture tool."
+    },
+    "padModifier": "View",
+    "padCaptureDelay": {
+      "title": "Controller capture delay",
+      "description": "A screenshot or a recording from a controller chord waits this long, so you can close whatever the chord opened in the game. Pressing the chord again takes it at once. Keyboard shortcuts never wait.",
+      "keywords": "controller pad delay countdown timer screenshot record menu map",
+      "off": "Off",
+      "seconds_one": "{{count}} s",
+      "seconds_other": "{{count}} s"
+    }
+  },
+  "games": {
+    "title": "Games & scanning",
+    "subtitle": "What LastSave reads on this machine when it looks for your games.",
+    "lookupFolders": {
+      "title": "Windows lookup folders",
+      "description": "Extra folders to search for Windows game shortcuts and executables beyond the default desktop, Start Menu, and launcher paths.",
+      "keywords": "scan, folders, paths, shortcuts"
+    },
+    "startupCheck": {
+      "title": "Check on startup",
+      "description": "Once a day, the first time LastSave opens, look for games you don't have yet. It only tells you when it finds something new.",
+      "keywords": "new games, launch, automatic"
+    },
+    "configure": "Configure",
+    "foldersSaved": "Windows lookup folders saved.",
+    "foldersRestored": "Windows lookup folders restored to defaults."
+  },
+  "emulators": {
+    "title": "Emulators",
+    "subtitle": "The emulators LastSave plays your ROMs with, and where it finds those ROMs.",
+    "romSetup": {
+      "title": "Emulators and ROM folders",
+      "description": "Point LastSave at each emulator's executable and the folders that hold its ROMs.",
+      "keywords": "roms, retroarch, cores, emulation, pcsx2, dolphin, rpcs3, duckstation, ppsspp, bios, systems"
+    },
+    "configure": "Configure",
+    "summary_one": "{{count}} emulator configured",
+    "summary_other": "{{count}} emulators configured",
+    "romPaths_one": "{{count}} ROM path",
+    "romPaths_other": "{{count}} ROM paths",
+    "empty": "No emulators configured"
+  },
+  "art": {
+    "title": "Art",
+    "subtitle": "The banners and logos LastSave shows for your games.",
+    "heroes": {
+      "title": "Banners from SteamGridDB",
+      "description": "Wide art behind each game, from the SteamGridDB community or Steam's store. Off, games use their catalog art. A game's own choice (Manage → Art) comes first.",
+      "keywords": "banner, hero, background, art, artwork, steamgriddb, steam, igdb, wallpaper"
+    },
+    "logos": {
+      "title": "Game logos",
+      "description": "Each game's logo instead of its name in type, from SteamGridDB or Steam. A game's own choice (Manage → Art) comes first.",
+      "keywords": "logo, title, name, art, steamgriddb, steam"
+    },
+    "visitSteamGridDb": "Visit SteamGridDB",
+    "credit": "Banners and logos come from <brand>SteamGridDB</brand>, where the community makes and shares them, and from Steam's store art. LastSave is independent and isn't affiliated with or endorsed by SteamGridDB, Valve, or the games' developers and publishers."
+  },
+  "data": {
+    "title": "Data",
+    "subtitle": "Where your data lives, and how to clear it.",
+    "groups": {
+      "storage": "Storage",
+      "backups": "Backups",
+      "sharing": "Sharing",
+      "danger": "Danger zone"
+    },
+    "loading": "Loading...",
+    "openFolder": "Open",
+    "database": {
+      "title": "Database",
+      "description": "Location of your local SQLite database.",
+      "keywords": "sqlite, file, path, backup"
+    },
+    "mediaFolder": {
+      "title": "Media folder",
+      "description": "Where screenshots, clips, log images and share files are saved. Your library's database stays where it is.",
+      "keywords": "media, folder, disk, drive, screenshots, clips, videos, captures, storage, space, move, location, path",
+      "change": "Change…",
+      "useDefault": "Use default",
+      "open": "Open media folder",
+      "moveHere": "Move everything here",
+      "unavailable": "Not available. New media is saved in the default folder until it's back.",
+      "others": "Earlier media is also in",
+      "otherUnavailable": "Not available",
+      "locate": "Locate…",
+      "pickTitle": "Choose a folder for your media",
+      "locateTitle": "Where is this folder now?",
+      "chosen": "New media will be saved in this folder.",
+      "located": "Found it. That media shows again.",
+      "dialog": {
+        "title": "Save new media here?",
+        "message": "New screenshots, clips, images and share files will be saved in {{folder}}.",
+        "stays": "What you already have stays where it is and keeps showing in your logs.",
+        "movable_one": "You have {{size}} of media in other folders ({{count}} file). You can move it here too.",
+        "movable_other": "You have {{size}} of media in other folders ({{count}} files). You can move it here too.",
+        "noSpace": "This disk has {{free}} free, which isn't enough to move all of it.",
+        "onlyNew": "Only new media",
+        "moveAll": "Move everything here",
+        "confirm": "Use this folder",
+        "moveTitle": "Move everything here?",
+        "moveMessage_one": "{{size}} in {{count}} file will be copied to {{folder}}, checked, and then removed from where it is now.",
+        "moveMessage_other": "{{size}} in {{count}} files will be copied to {{folder}}, checked, and then removed from where it is now.",
+        "moveSafe": "Nothing changes until every file is copied. You can pause or cancel at any time, and if LastSave closes it carries on next time."
+      },
+      "move": {
+        "copying": "Moving your media",
+        "paused": "Move paused",
+        "finishing": "Checking the copies",
+        "cleanup": "Freeing up the old folder",
+        "done": "All your media is in this folder now.",
+        "cancelled": "Move cancelled. Your media stayed where it was.",
+        "bytes": "{{done}} of {{total}}",
+        "files_one": "{{done}} of {{count}} file",
+        "files_other": "{{done}} of {{count}} files",
+        "etaSoon": "Less than a minute left",
+        "eta": "About {{duration}} left",
+        "pause": "Pause",
+        "resume": "Resume",
+        "cancel": "Cancel move",
+        "dismiss": "Dismiss",
+        "retry": "Try again",
+        "failed": {
+          "noSpace": "Not enough space: the move needs {{size}} free on that disk. Nothing was changed.",
+          "conflict": "This folder already has a different file with the same name, so the move stopped. Nothing was changed.",
+          "copyFailed": "Some files couldn't be copied. Nothing was changed. Try again.",
+          "destinationMissing": "The folder isn't available any more. Plug the disk back in and try again. Nothing was changed."
+        }
+      },
+      "refusal": {
+        "notWritable": "LastSave can't save files in that folder.",
+        "insideAppData": "That folder is inside LastSave's own data. Pick another one.",
+        "nested": "That folder is inside another media folder, or holds one. Pick another one.",
+        "moveRunning": "Wait for the move to finish, or cancel it first.",
+        "sessionLive": "Finish the session you're playing first.",
+        "importRunning": "An import is still running. Let it finish first.",
+        "alreadyRunning": "A move is already running.",
+        "nothingToMove": "There's nothing to move. All your media is already here.",
+        "notRecognized": "That doesn't look like this media folder. Pick the folder you moved."
+      },
+      "failed": "That didn't work. Try again."
+    },
+    "local": {
+      "title": "Data storage",
+      "description": "Where your data lives.",
+      "badge": "Local only"
+    },
+    "backups": {
+      "title": "Restore a backup",
+      "description": "LastSave keeps a copy of your library before every update and once a day, here on your PC.",
+      "keywords": "backup, restore, copy, undo, recover, rollback, update",
+      "empty": "No backups yet",
+      "action": "Restore",
+      "restoring": "Restarting...",
+      "openFolder": "Open backups folder",
+      "kind": {
+        "update": "Before updating from {{version}}",
+        "updateUnknown": "Before an update",
+        "daily": "Daily copy",
+        "beforeRestore": "Before a restore"
+      },
+      "confirmTitle": "Restore this backup?",
+      "confirmMessage": "LastSave will restart with your library as it was on {{date}}.",
+      "replaces": "Anything you did after that is replaced: games, logs, sessions and settings.",
+      "keeps": "Your current library is saved as a backup first, so you can come back to it.",
+      "media": "Screenshots and clips stay on disk as they are now.",
+      "refusal": {
+        "missing": "That backup is no longer there.",
+        "invalid": "That backup can't be read, so it wasn't restored.",
+        "tooNew": "That backup is from a newer LastSave. Update LastSave to restore it."
+      },
+      "failed": "The backup couldn't be restored."
+    },
+    "igdbCache": {
+      "title": "IGDB cache",
+      "description": "Clear cached IGDB rails, picker data, and game details.",
+      "keywords": "cache, igdb, refresh, covers",
+      "action": "Clear IGDB cache",
+      "clearing": "Clearing...",
+      "cleared_one": "Cleared {{count}} cached IGDB entry.",
+      "cleared_other": "Cleared {{count}} cached IGDB entries.",
+      "empty": "IGDB cache was already empty.",
+      "failed": "Failed to clear IGDB cache."
+    },
+    "usageCounts": {
+      "title": "Count this installation",
+      "description": "Adds an anonymous ID to LastSave's requests for game info and art, so we can count installs and catch problems. Your library and activity are never sent.",
+      "keywords": "telemetry, analytics, usage, statistics, privacy, anonymous, id, tracking, opt out"
+    },
+    "resetLibrary": {
+      "title": "Reset library",
+      "description": "Deletes every game, log, session, note, capture and shelf, and leaves LastSave the way it was the day you installed it — with your profile.",
+      "keywords": "start over, wipe, delete library, empty, clean",
+      "action": "Reset library",
+      "confirmTitle": "Reset your library?",
+      "confirmMessage": "This cannot be undone. LastSave will restart its window once it is done.",
+      "keeps": "Kept: your profile and nickname, every setting on these pages, and your Steam, Epic and Xbox connections.",
+      "removes": "Removed: your games, logs, sessions, journal entries, achievements, screenshots, clips and shelves.",
+      "acknowledge": "I understand this cannot be undone.",
+      "done_one": "Reset done — {{count}} row removed.",
+      "done_other": "Reset done — {{count}} rows removed.",
+      "failed": "The library could not be reset."
+    },
+    "clearEverything": {
+      "title": "Clear everything",
+      "description": "Deletes the whole database, your profile and every stored file, then restarts LastSave as a brand new installation.",
+      "keywords": "factory reset, uninstall, erase, fresh start",
+      "action": "Clear everything",
+      "confirmTitle": "Clear everything and start from zero?",
+      "confirmMessage": "LastSave will close, delete its data and open again at the welcome screen.",
+      "removes": "Removed: your profile, your library, every setting, your Steam, Epic and Xbox connections, every screenshot and clip LastSave is keeping, and its backups.",
+      "acknowledge": "I understand this deletes everything, including my profile.",
+      "failed": "LastSave could not clear its data."
+    },
+    "refusal": {
+      "sessionLive": "Finish the session you are playing first — it has not been written yet.",
+      "importRunning": "An import is still running. Let it finish first.",
+      "mediaMoving": "Your media is being moved. Wait for it to finish, or cancel it first."
+    }
+  },
+  "about": {
+    "title": "About & help",
+    "subtitle": "What this build is, and where to get help.",
+    "groups": {
+      "help": "Help",
+      "legal": "Legal",
+      "credits": "Credits"
+    },
+    "loading": "Loading...",
+    "versionPrefix": "v{{version}}",
+    "legalVersion": "v{{version}}",
+    "readDocument": "Read",
+    "application": {
+      "title": "Application",
+      "description": "App name and version.",
+      "keywords": "changelog, release notes, what is new, build"
+    },
+    "updates": {
+      "title": "Updates",
+      "description": "LastSave updates itself in the background and applies it on the next restart.",
+      "keywords": "update, version, upgrade, latest"
+    },
+    "autoDownload": {
+      "title": "Automatic downloads",
+      "description": "Download updates in the background.",
+      "keywords": "download, automatic, background, data"
+    },
+    "feedback": {
+      "title": "Bugs and feedback",
+      "description": "Report a problem, share feedback or suggest an idea.",
+      "keywords": "bug, report, idea, support"
+    },
+    "community": {
+      "title": "Community",
+      "description": "Get help and follow development on Discord.",
+      "keywords": "discord, chat, help"
+    },
+    "logs": {
+      "title": "Logs",
+      "description": "Where LastSave writes its diagnostic log.",
+      "keywords": "diagnostics, log file, troubleshooting"
+    },
+    "terms": {
+      "title": "Terms of Use"
+    },
+    "privacy": {
+      "title": "Privacy Policy"
+    },
+    "translations": {
+      "title": "Translations",
+      "description": "LastSave in your language, made by the people who translate it.",
+      "keywords": "credits, translators, translate, language, languages, contributors",
+      "action": "See credits",
+      "dialog": {
+        "title": "Translation credits",
+        "subtitle": "Who made each language LastSave speaks.",
+        "source": "Original",
+        "official": "Official",
+        "community": "Community",
+        "github": "Open {{login}} on GitHub",
+        "footer": "Every language is open to improve, on GitHub or with the Language Studio.",
+        "help": "Help translate",
+        "helpHint": "Opens the translation guide on GitHub"
+      }
+    },
+    "igdb": {
+      "title": "IGDB",
+      "description": "Game information, covers and screenshots.",
+      "keywords": "credits, attribution, igdb, metadata, covers, data"
+    },
+    "steamgriddb": {
+      "title": "SteamGridDB",
+      "description": "Banners and logos made and shared by its community, alongside Steam's store art.",
+      "keywords": "credits, attribution, steamgriddb, steam, art, banners, logos"
+    },
+    "visitProvider": "Visit {{name}}",
+    "visit": "Visit"
+  },
+  "support": {
+    "title": "Support LastSave",
+    "subtitle": "Free, made by one developer, and kept going by the people who use it.",
+    "groups": {
+      "spread": "Spread the word"
+    },
+    "tip": {
+      "title": "Enjoying LastSave?",
+      "description": "It's built by one developer, one update at a time. If it's helping you finish your backlog or relive the games you love, a tip keeps development moving, and means a lot to the person behind it.",
+      "keywords": "donate, donation, tip, coffee, buy me a coffee, extra life, sponsor, patreon, ko-fi, money, contribute, help the developer",
+      "action": "Support LastSave",
+      "via": "Opens {{platform}} in your browser"
+    },
+    "star": {
+      "title": "Star it on GitHub",
+      "description": "A star helps other players find LastSave.",
+      "keywords": "github, star, repository, share",
+      "action": "Star on GitHub"
+    },
+    "discord": {
+      "title": "Join the community",
+      "description": "Talk about games, share ideas and help shape what comes next.",
+      "keywords": "discord, community, chat, server"
+    },
+    "follow": {
+      "title": "Follow along",
+      "description": "News, sneak peeks and what's coming next.",
+      "keywords": "social, social media, x, twitter, bluesky, instagram, threads, youtube, tiktok, twitch, reddit, website",
+      "open": "LastSave on {{network}}"
+    }
+  },
+  "closeBehavior": {
+    "dialog": {
+      "title": "Keep LastSave running?",
+      "description": "It can only detect your play sessions while it is running. Minimising keeps it in the system tray.",
+      "minimize": "Minimise to tray",
+      "quit": "Close completely",
+      "hint": "You can change it later in Settings."
+    },
+    "tray": {
+      "open": "Open LastSave",
+      "quit": "Quit LastSave",
+      "playing": "Playing {{title}}",
+      "paused": "Paused — {{title}}"
+    }
+  }
+}

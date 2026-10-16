@@ -1,0 +1,196 @@
+{
+  "genrePicker": {
+    "title": "Géneros favoritos",
+    "subtitle": "Elige lo que más disfrutas: géneros, temas, modos y perspectivas.",
+    "searchPlaceholder": "Buscar géneros, temas, modos…",
+    "clearSearch": "Borrar búsqueda",
+    "loadError": "No se pudieron cargar los géneros. Inténtalo otra vez.",
+    "noResults": "Ningún género ni tema coincide con tu búsqueda.",
+    "confirm": "Listo ({{count}})",
+    "selected": "Elegidos",
+    "selectedCount": "{{count}} elegidos",
+    "clear": "Quitar",
+    "noneSelected": "Todavía no elegiste géneros.",
+    "remove": "Quitar {{name}}"
+  },
+  "steam": {
+    "connect": "Conectar con Steam",
+    "connected": "Conectado",
+    "connecting": "Conectando…",
+    "disconnect": "Desconectar Steam",
+    "identity": "Identidad de Steam",
+    "expired": "Caducada",
+    "steamName": "Nombre en Steam",
+    "accountFallback": "Cuenta de Steam"
+  },
+  "epic": {
+    "connect": "Conectar con Epic",
+    "connected": "Conectado",
+    "connecting": "Conectando…",
+    "reconnect": "Reconectar",
+    "disconnect": "Desconectar Epic",
+    "accountFallback": "Cuenta de Epic",
+    "disconnectConfirm": {
+      "title": "¿Desconectar Epic?",
+      "message": "Tus juegos de Epic importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con Epic. Puedes volver a conectar la misma cuenta cuando quieras.",
+      "confirm": "Desconectar",
+      "cancel": "Mantener conectado"
+    }
+  },
+  "xbox": {
+    "connect": "Conectar con Xbox",
+    "connected": "Conectado",
+    "connecting": "Conectando…",
+    "reconnect": "Reconectar",
+    "disconnect": "Desconectar Xbox",
+    "accountFallback": "Cuenta de Xbox",
+    "unavailable": "El inicio de sesión de Xbox no está disponible en esta versión de LastSave.",
+    "connectFailure": {
+      "noXboxProfile": "Esta cuenta de Microsoft todavía no tiene perfil de Xbox. Abre la app de Xbox una vez para crearlo y vuelve a conectar.",
+      "childAccount": "Xbox necesita que esta cuenta de Microsoft esté en un grupo familiar de Microsoft, o que verifique su edad, antes de iniciar sesión aquí.",
+      "countryUnavailable": "Xbox no está disponible en el país o región donde está registrada esta cuenta de Microsoft.",
+      "generic": "No se pudo conectar tu cuenta de Xbox ahora mismo."
+    }
+  },
+  "integrations": {
+    "title": "Integraciones",
+    "status": {
+      "expired": "Hay que reconectar"
+    }
+  },
+  "viewSwitch": {
+    "toLocal": "Cambiar a la vista del perfil local",
+    "toSteam": "Cambiar a la vista del perfil de Steam",
+    "steamProfile": "Perfil de Steam",
+    "localProfile": "Perfil local",
+    "steamHint": "Usa la tarjeta de tu cuenta de Steam.",
+    "localHint": "Usa la tarjeta de tu perfil local de LastSave."
+  },
+  "card": {
+    "steamProfile": "Perfil de Steam",
+    "localProfile": "Perfil local",
+    "steamBackgroundAlt": "Fondo de Steam"
+  },
+  "edit": {
+    "title": "Editar perfil",
+    "subtitle": "Cómo apareces en LastSave y las cuentas vinculadas.",
+    "nav": {
+      "identity": "Perfil",
+      "pcBuild": "Tu PC",
+      "favorites": "Favoritos",
+      "accounts": "Cuentas conectadas"
+    },
+    "sections": {
+      "identity": {
+        "title": "Perfil",
+        "hint": "Tu imagen y tu nombre, en todo LastSave."
+      },
+      "pcBuild": {
+        "title": "Tu PC",
+        "hint": "Se muestra en tu perfil. Detectar lo completa con este equipo."
+      },
+      "favorites": {
+        "title": "Favoritos",
+        "hint": "Los géneros y juegos que mejor dicen cuál es tu gusto."
+      },
+      "accounts": {
+        "title": "Cuentas conectadas",
+        "hint": "Vincula las tiendas donde juegas para importar sus juegos y mantener tus horas al día. Los cambios se aplican al momento."
+      }
+    },
+    "identity": {
+      "steamHint": "Vinculado a Steam, así que tu imagen y tu nombre vienen de ahí. Cámbialos cuando quieras."
+    },
+    "nicknamePlaceholder": "Tu nombre",
+    "detect": "Detectar",
+    "favorites": {
+      "genresTitle": "Géneros favoritos",
+      "genresEmpty": "Todavía no elegiste géneros.",
+      "gamesTitle": "Juegos favoritos",
+      "gamesCount": "{{count}}/{{max}}",
+      "gamesEmpty": "Todavía no hay juegos favoritos.",
+      "choose": "Elegir",
+      "edit": "Editar"
+    },
+    "accounts": {
+      "groups": {
+        "libraries": "Bibliotecas de juegos",
+        "handles": "Otras cuentas"
+      },
+      "status": {
+        "connected": "Conectado",
+        "expired": "Hay que reconectar"
+      },
+      "connect": "Conectar",
+      "reconnect": "Reconectar",
+      "connecting": "Conectando…",
+      "disconnect": "Desconectar {{name}}",
+      "steam": "Tus juegos, deseados y horas. También completa tu imagen y tu nombre.",
+      "epic": "Tus juegos de Epic, lista de deseados y horas.",
+      "xbox": "Los juegos que jugaste en Xbox, en PC y consola, con sus horas.",
+      "disclaimer": "LastSave no está afiliado a Valve, Epic Games ni Microsoft. Tus inicios de sesión se quedan en este equipo.",
+      "handlesHint": "Los nombres con los que te pueden encontrar. Escritos aquí, sin vincular, y visibles en tu tarjeta de perfil.",
+      "handlePlaceholders": {
+        "discord": "Nombre de usuario",
+        "psn": "ID online",
+        "nintendo": "Código de amigo, SW-1234-5678-9012",
+        "battlenet": "BattleTag, Nombre#1234",
+        "riot": "Riot ID, Nombre#TAG"
+      }
+    },
+    "nickname": "Apodo",
+    "scanning": "Detectando…",
+    "cpu": "CPU",
+    "gpu": "GPU",
+    "cpuPlaceholder": "p. ej. AMD Ryzen 5 5600X",
+    "gpuPlaceholder": "p. ej. NVIDIA GeForce RTX 3070",
+    "ram": "RAM (GB)",
+    "ramPlaceholder": "p. ej. 16",
+    "os": "Sistema operativo",
+    "osPlaceholder": "p. ej. Windows 11 Pro",
+    "saving": "Guardando…",
+    "saveChanges": "Guardar cambios",
+    "hardwareError": "No se pudo detectar el hardware de tu PC ahora mismo.",
+    "connectError": "No se pudo conectar tu cuenta de Steam ahora mismo.",
+    "disconnectError": "No se pudo desconectar tu cuenta de Steam ahora mismo.",
+    "nicknameRequired": "El apodo es obligatorio.",
+    "saveFailed": "No se pudo guardar el perfil.",
+    "genericError": "Algo salió mal.",
+    "disconnectConfirmTitle": "¿Desconectar Steam?",
+    "disconnectConfirmMessage": "Esto quita tu conexión con Steam, borra la sesión de Steam guardada y quita las imágenes de tu perfil de Steam que la app tiene en caché.",
+    "disconnectConfirm": "Desconectar",
+    "disconnectCancel": "Mantener conectado",
+    "epicDisconnectConfirmTitle": "¿Desconectar Epic?",
+    "epicDisconnectConfirmMessage": "Tus juegos de Epic importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con Epic. Puedes volver a conectar la misma cuenta cuando quieras.",
+    "xboxDisconnectConfirmTitle": "¿Desconectar Xbox?",
+    "xboxDisconnectConfirmMessage": "Tus juegos de Xbox importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con Xbox. Puedes volver a conectar la misma cuenta cuando quieras."
+  },
+  "gamePicker": {
+    "title": "Elige tus juegos favoritos",
+    "selected": "{{count}}/{{max}} elegidos",
+    "searchPlaceholder": "Buscar juegos…",
+    "searching": "Buscando…",
+    "fetchingLatest": "Actualizando los datos…",
+    "noResults": "Ningún juego encontrado",
+    "releaseDateUnknown": "Sin fecha de lanzamiento",
+    "noMetadata": "Sin datos",
+    "selectedTitle": "Elegidos",
+    "clear": "Quitar",
+    "remove": "Quitar {{title}}",
+    "noneSelected": "Todavía no elegiste juegos.",
+    "confirm": "Confirmar ({{count}})"
+  },
+  "page": {
+    "loading": "Cargando perfil…",
+    "noProfile": "No se encontró un perfil. Termina primero la bienvenida.",
+    "editProfile": "Editar perfil",
+    "profileView": "Vista del perfil",
+    "localProfile": "Perfil local",
+    "pcBuild": "Tu PC",
+    "ramValue": "{{gb}} GB",
+    "favoriteGenres": "Géneros favoritos",
+    "favoriteGames": "Juegos favoritos",
+    "minimal": "Tu perfil está casi vacío. Haz clic en «Editar perfil» para añadir más detalles.",
+    "shareProfile": "Compartir perfil"
+  }
+}

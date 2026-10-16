@@ -1,0 +1,70 @@
+{
+  "stepCounter": "Paso {{current}} de {{total}}",
+  "nav": {
+    "saving": "Guardando…",
+    "finish": "Terminar"
+  },
+  "steam": {
+    "optional": "Opcional",
+    "title": "Conectar con Steam",
+    "description": "Conecta tu cuenta de Steam para completar tu avatar y tu apodo, y deja lista la importación de tu biblioteca de Steam para después.",
+    "skipNote": "Puedes saltarte esto y usar LastSave con normalidad. Steam no hace falta para terminar."
+  },
+  "identity": {
+    "title": "Tu identidad",
+    "subtitle": "Elige un apodo y, si quieres, un avatar.",
+    "nickname": "Apodo",
+    "nicknamePlaceholder": "p. ej. Gamer42",
+    "nicknameRequired": "El apodo es obligatorio"
+  },
+  "pcBuild": {
+    "title": "Tu PC",
+    "subtitle": "Opcional: podemos intentar detectarlo solo.",
+    "scanning": "Escaneando tu PC…",
+    "scan": "Escanear mi PC",
+    "cpu": "CPU",
+    "cpuPlaceholder": "p. ej. AMD Ryzen 5 5600X",
+    "gpu": "GPU",
+    "gpuPlaceholder": "p. ej. NVIDIA GeForce RTX 3070",
+    "ram": "RAM (GB)",
+    "ramPlaceholder": "p. ej. 16",
+    "os": "Sistema operativo",
+    "osPlaceholder": "p. ej. Windows 11 Pro"
+  },
+  "genres": {
+    "title": "Géneros favoritos",
+    "subtitle": "Elige los géneros que más disfrutas. Puedes cambiarlos después.",
+    "choose": "Elegir géneros ({{count}})"
+  },
+  "favoriteGames": {
+    "title": "Juegos favoritos",
+    "subtitle": "Elige hasta {{max}} juegos de tu catálogo. Puedes saltarte esto por ahora.",
+    "choose": "Elegir juegos ({{count}}/{{max}})"
+  },
+  "summary": {
+    "title": "¡Todo listo!",
+    "subtitle": "Este es el resumen de tu perfil. Puedes editarlo todo después.",
+    "avatarAlt": "Avatar",
+    "localProfile": "Perfil local",
+    "pcBuild": "Tu PC",
+    "ram": "{{gb}} GB",
+    "favoriteGenres": "Géneros favoritos",
+    "favoriteGames": "Juegos favoritos"
+  },
+  "handoff": {
+    "title": "Preparándolo todo",
+    "message": "Guardando tu perfil y preparando tu inicio. Esto solo pasa una vez."
+  },
+  "disconnect": {
+    "title": "¿Desconectar Steam?",
+    "message": "Esto quita tu conexión actual con Steam, borra la sesión guardada y restablece los datos de identidad que vinieron de Steam en este paso.",
+    "confirm": "Desconectar",
+    "cancel": "Mantener conectado"
+  },
+  "errors": {
+    "hardware": "No se pudo detectar el hardware de tu PC ahora mismo.",
+    "connectSteam": "No se pudo conectar tu cuenta de Steam ahora mismo.",
+    "disconnectSteam": "No se pudo desconectar tu cuenta de Steam ahora mismo.",
+    "save": "Algo salió mal. Inténtalo otra vez."
+  }
+}

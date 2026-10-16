@@ -92,8 +92,22 @@ Every version and its notes are in [**Releases**](https://github.com/LastSaveApp
 You can also report a bug from inside the app — **Settings → About → Report a bug or send
 feedback** — which attaches the log for you.
 
-The application source is not public. Translations, and later the Gaming Mode themes, will live
-here so they can be contributed.
+The application source is not public. Translations live here so they can be contributed, and
+later the Game Mode themes will too.
+
+## 🌍 Translate LastSave
+
+LastSave speaks **English** and, from 0.6.0, **Español**. Every language lives in
+[`translations/`](translations/), under the MIT license, and you can help it speak yours:
+
+- **No Git needed:** open **Settings → General → Language Studio** in LastSave 0.6.0 or later.
+  Translate beside the app, see every change live, and send your work to the team with your name
+  for the credits.
+- **On GitHub:** fork this repository, translate in `translations/<code>/`, and open a pull
+  request. A check runs on it automatically.
+
+The [translation guide](translations/README.md) has the rules, the files and how to start a new
+language.
 
 ## 🔒 Privacy, briefly
 

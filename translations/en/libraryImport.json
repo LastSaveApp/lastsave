@@ -1,0 +1,886 @@
+{
+  "interrupted": {
+    "notifyTitle": "An import didn't finish",
+    "notifyDescription_one": "LastSave closed while adding games — {{count}} of {{total}} is still waiting.",
+    "notifyDescription_other": "LastSave closed while adding games — {{count}} of {{total}} are still waiting.",
+    "review": "Review",
+    "title": "Finish adding your games?",
+    "message_one": "LastSave closed while adding games. {{count}} of {{total}} wasn't added yet. Resume to add it, or discard it — the games already added stay in your library.",
+    "message_other": "LastSave closed while adding games. {{count}} of {{total}} weren't added yet. Resume to add them, or discard them — the games already added stay in your library.",
+    "resume": "Resume",
+    "discard": "Discard",
+    "discarded": "Import discarded. The games already added stay in your library.",
+    "resumeFailed": "Could not resume the import."
+  },
+  "jobToast": {
+    "gamesAdded_one": "{{count}} game added",
+    "gamesAdded_other": "{{count}} games added",
+    "entriesUpdated_one": "{{count}} library entry updated",
+    "entriesUpdated_other": "{{count}} library entries updated",
+    "attachedContent_one": "{{count}} attached content",
+    "attachedContent_other": "{{count}} attached contents",
+    "completed": "Library import completed.",
+    "completedBare": "Library import completed",
+    "withAttached": "{{summary}} with {{attached}}",
+    "cancelled_one": "Import cancelled after {{count}} game.",
+    "cancelled_other": "Import cancelled after {{count}} games.",
+    "failed": "A background library import failed.",
+    "warnings_one": "{{count}} import warning occurred.",
+    "warnings_other": "{{count}} import warnings occurred."
+  },
+  "scanPanel": {
+    "back": "Back"
+  },
+  "installed": {
+    "dialog": {
+      "selectFolder": "Select a folder to scan"
+    }
+  },
+  "emulated": {
+    "dialog": {
+      "selectRomFiles": "Select ROM Files",
+      "selectRomFolder": "Select ROM Folder"
+    }
+  },
+  "steam": {
+    "title": "Import Steam Games",
+    "description": "Connect Steam, scan your owned, shared, and wishlisted games, and review everything before it reaches Library.",
+    "connect": {
+      "required": "Required",
+      "title": "Connect your Steam account",
+      "description": "Steam import starts from your connected Steam account. We will use it to read your library, wishlist, shared games, and playtime before anything gets imported.",
+      "checking": "Checking your current Steam connection..."
+    },
+    "prefs": {
+      "title": "Choose what to include",
+      "description": "These preferences shape how the Steam scanner builds candidates before the review step.",
+      "nonPlayed": {
+        "title": "Include unplayed games",
+        "description": "Bring in games from your Steam library even if they still show zero playtime."
+      },
+      "wishlist": {
+        "title": "Include wishlisted games",
+        "description": "Steam wishlist entries will land in LastSave as wishlist items and skip local path requirements."
+      },
+      "family": {
+        "title": "Import games from family shared library",
+        "description": "Only family-shared games you actually played will be included, so LastSave does not pull in an entire shared library you never touched."
+      },
+      "autoSync": {
+        "title": "Auto-sync games",
+        "description": "Imported owned and family-shared games will keep playtime aligned with Steam."
+      }
+    },
+    "disconnect": {
+      "title": "Disconnect Steam?",
+      "message": "Disconnecting will remove the Steam connection from this wizard and clear the linked Steam session for LastSave.",
+      "confirm": "Disconnect",
+      "cancel": "Keep connected"
+    }
+  },
+  "epic": {
+    "capabilities": {
+      "title": "What to bring in from Epic",
+      "description": "Everything your Epic account knows about — what you own, how long you've played it, and what you have wishlisted. Installed games arrive with their launch path.",
+      "unplayed": {
+        "title": "Include unplayed games",
+        "description": "Bring in games from your Epic library even if they still show zero playtime."
+      },
+      "wishlist": {
+        "title": "Include wishlisted games",
+        "description": "Bring in what you have wishlisted on the Epic store, dated to when you added it."
+      },
+      "autoSync": {
+        "title": "Auto-sync games",
+        "description": "Imported games will keep playtime aligned with Epic."
+      }
+    },
+    "connect": {
+      "required": "Account required",
+      "title": "Connect your Epic account",
+      "description": "Epic can tell LastSave which games you own, how long you've played them, and what you've wishlisted. Games already installed here are found by This PC either way.",
+      "checking": "Checking your Epic connection...",
+      "expired": "Your Epic session expired. Reconnect to keep importing and syncing.",
+      "disclaimer": "LastSave is not affiliated with Epic Games. Connecting signs you in with Epic and keeps the resulting token encrypted on this PC."
+    },
+    "disconnect": {
+      "title": "Disconnect Epic?",
+      "message": "Your imported Epic games stay in your library with their hours and history. Only syncing with Epic stops. You can reconnect the same account at any time.",
+      "confirm": "Disconnect",
+      "cancel": "Keep connected"
+    }
+  },
+  "xbox": {
+    "capabilities": {
+      "title": "What to bring in from Xbox",
+      "description": "Every game your Xbox account has played — on PC, Game Pass and console — with the hours Xbox kept. Installed games arrive with their launch path.",
+      "console": {
+        "title": "Include console games",
+        "description": "Games you played on an Xbox console. LastSave keeps their history and hours; it can't start them."
+      },
+      "autoSync": {
+        "title": "Auto-sync games",
+        "description": "Imported games will keep playtime aligned with Xbox."
+      },
+      "historyNote": "Xbox shares the games you've played, so a game bought and never launched won't appear, and Game Pass games look the same as the ones you bought."
+    },
+    "connect": {
+      "required": "Account required",
+      "title": "Connect your Xbox account",
+      "description": "Xbox can tell LastSave every game you've played — on PC, Game Pass and console — and how long. Games already installed here are found by This PC either way.",
+      "checking": "Checking your Xbox connection...",
+      "expired": "Your Xbox session expired. Reconnect to keep importing and syncing.",
+      "disclaimer": "LastSave is not affiliated with Microsoft or Xbox. You sign in on Microsoft's own page; LastSave keeps the resulting token encrypted on this PC."
+    },
+    "disconnect": {
+      "title": "Disconnect Xbox?",
+      "message": "Your imported Xbox games stay in your library with their hours and history. Only syncing with Xbox stops. You can reconnect the same account at any time.",
+      "confirm": "Disconnect",
+      "cancel": "Keep connected"
+    }
+  },
+  "unified": {
+    "title": "Import Games",
+    "description": "Set up your sources once, then continue to review your games.",
+    "steps": {
+      "sources": "Sources",
+      "setup": "Set up",
+      "review": "Your games"
+    },
+    "entry": {
+      "heading": "Let's bring in your games",
+      "hint": "Pick where your games are. You'll set each source up next, then review everything before it's added.",
+      "connect": "Connect",
+      "reconnect": "Reconnect",
+      "connected": "Connected",
+      "connectedAs": "Connected · {{name}}",
+      "tiers": {
+        "recommended": {
+          "title": "Recommended"
+        },
+        "more": {
+          "title": "More sources"
+        }
+      }
+    },
+    "sources": {
+      "pc": {
+        "name": "This PC",
+        "tagline": "Installed games, launchers, and shortcuts on this computer."
+      },
+      "steam": {
+        "name": "Steam",
+        "tagline": "Owned, wishlisted, and shared games with playtime."
+      },
+      "epic": {
+        "name": "Epic Games",
+        "tagline": "Games you own on Epic, your played hours, and your wishlist."
+      },
+      "xbox": {
+        "name": "Xbox",
+        "tagline": "Played on PC, Game Pass and Xbox console, with your hours."
+      },
+      "emulators": {
+        "name": "Emulators",
+        "tagline": "Emulated games from your emulator and ROM folders."
+      }
+    },
+    "state": {
+      "ready": "Ready",
+      "needsSetup": "Needs setup",
+      "notConnected": "Not connected"
+    },
+    "summary": {
+      "notSelected": "Not selected",
+      "defaultFolders": "Default folders",
+      "defaultsPlus": "Defaults · {{additions}}",
+      "pcTypeFolder_one": "{{count}} folder",
+      "pcTypeFolder_other": "{{count}} folders",
+      "pcTypeShortcut_one": "{{count}} shortcut",
+      "pcTypeShortcut_other": "{{count}} shortcuts",
+      "pcTypeGame_one": "{{count}} game",
+      "pcTypeGame_other": "{{count}} games",
+      "steamNoneSelected": "No categories selected",
+      "extraFolders_one": "{{count}} extra folder",
+      "extraFolders_other": "{{count}} extra folders",
+      "steam": "{{name}} · {{includes}}",
+      "steamNoIncludes": "{{name}}",
+      "steamDisconnected": "Not connected",
+      "includeUnplayed": "Unplayed",
+      "includeWishlist": "Wishlist",
+      "includeFamily": "Family",
+      "includeAutoSync": "Auto-sync",
+      "emulators": "{{emulators}} · {{roms}}",
+      "emulatorsCount_one": "{{count}} emulator",
+      "emulatorsCount_other": "{{count}} emulators",
+      "romPaths_one": "{{count}} ROM path",
+      "romPaths_other": "{{count}} ROM paths",
+      "emulatorsEmpty": "Needs setup",
+      "epicNoneSelected": "Nothing selected",
+      "epicIncludeOwned": "Your library",
+      "epicIncludeWishlist": "wishlist",
+      "epicDisconnected": "Connect Epic to import your library",
+      "epicIncludeUnplayed": "unplayed",
+      "xboxDisconnected": "Connect Xbox to import your history",
+      "xboxIncludePlayed": "Your played games",
+      "xboxIncludeConsole": "console games"
+    },
+    "pc": {
+      "yourStuff": {
+        "title": "Add your folders & games",
+        "dropHint": "Drop folders or games here",
+        "dropActive": "Drop to add",
+        "addFolder": "Add folder",
+        "addGames": "Add games",
+        "empty": "No folders or games added yet."
+      },
+      "entry": {
+        "removeFolder": "Remove folder",
+        "removeGame": "Remove game"
+      },
+      "clearAll": "Clear all",
+      "clearConfirm": {
+        "title": "Remove all added folders & games?",
+        "message": "This removes every folder and game you added here. Your system's always-scanned locations aren't affected.",
+        "confirm": "Clear all"
+      },
+      "alwaysScanned": {
+        "title": "Always scanned",
+        "summary_one": "{{count}} location",
+        "summary_other": "{{count}} locations",
+        "hint": "We already scan your launchers and common locations automatically."
+      },
+      "dialog": {
+        "selectGames": "Select games to add"
+      }
+    },
+    "ignored": {
+      "title": "Ignored items",
+      "summary_one": "{{count}} item",
+      "summary_other": "{{count}} items",
+      "summaryEmpty": "None",
+      "hint": "Things you discarded while reviewing. They stay out of future scans and checks until you restore them.",
+      "empty": "Nothing ignored from this source yet.",
+      "restore": "Restore",
+      "clearAll": "Restore all",
+      "open_one": "Ignored {{count}}",
+      "open_other": "Ignored {{count}}",
+      "dialogHint": "Games you ignored or that couldn't be identified. Scans and checks skip them until you restore them.",
+      "emptyAll": "Nothing is ignored.",
+      "doneAndRescan": "Done — bring them back",
+      "clearConfirm": {
+        "title": "Restore every ignored item?",
+        "message": "They'll show up again the next time this source is scanned. Nothing is added to your library.",
+        "confirm": "Restore all"
+      },
+      "origin": {
+        "review": "Discarded while reviewing",
+        "identify": "Left out while identifying",
+        "check": "Discarded from a check",
+        "unidentified": "Couldn't be identified"
+      }
+    },
+    "emulators": {
+      "title": "Emulators",
+      "configTitle": "Emulators",
+      "configDescription": "Pick your emulators, point each one at its executable, and add the folders holding their ROMs.",
+      "retroarchCores": {
+        "title": "RetroArch cores",
+        "description": "RetroArch needs a core per system to boot a game directly. Map each platform to its core file and Play will launch straight into the ROM.",
+        "platformPlaceholder": "Platform (e.g. PlayStation)",
+        "corePlaceholder": "C:\\RetroArch\\cores\\core_libretro.dll",
+        "pickCore": "Select core file",
+        "coreFilter": "Libretro cores",
+        "add": "Add core mapping",
+        "remove": "Remove core for {{platform}}"
+      },
+      "retroarch": {
+        "coresSummary": "{{cores}} cores found · {{systems}} systems available",
+        "coresMissing": "Cores folder not found",
+        "needsExe": "Set the RetroArch executable to detect its cores",
+        "pickCoresDir": "Choose the cores folder",
+        "autoDetect": "Auto-detect",
+        "systemLabel": "System",
+        "systemPlaceholder": "Select a system…",
+        "coreFor": "Core for {{system}}",
+        "noCore": "No core selected",
+        "recommended": "recommended",
+        "coresFolderTitle": "Cores folder",
+        "coresFolderUnknown": "Not detected yet",
+        "coresFolderAutoHint": "Detected from the RetroArch executable and its retroarch.cfg.",
+        "coresFolderOverridden": "Using your custom folder. Auto-detect returns to the executable's own cores.",
+        "systemsTitle": "Core per system",
+        "manualHint": "Map a platform to a core file by hand when detection cannot see it.",
+        "addSystem": "Add system…",
+        "addSystemPrompt": "Add a system to organize its ROMs…",
+        "assignSystem": "Assign these to a system…",
+        "systemNone": "No system",
+        "addWithoutSystem": "Add ROMs without a system…",
+        "suggestedTag": "Suggested",
+        "suggestedGroup": "Suggested for this game",
+        "allSystemsGroup": "All systems",
+        "noSystemHint": "ROMs without a system import fine, but Play cannot boot them straight into RetroArch. Folders named after a system (n64, snes…) sort themselves automatically.",
+        "groupNoSystem": "No system yet",
+        "removeGroup": "Remove the {{system}} group",
+        "removeGroupConfirm": {
+          "title": "Remove this system group?",
+          "message_one": "This removes {{system}} and its {{count}} ROM path from the list. Nothing is deleted from disk.",
+          "message_other": "This removes {{system}} and its {{count}} ROM paths from the list. Nothing is deleted from disk.",
+          "confirm": "Remove group"
+        },
+        "noCoreForSystem": "No core is set for this system — Play will open RetroArch's menu instead of the game. Configure it from the gear above.",
+        "coresTitle": "RetroArch cores",
+        "coresDescription": "Where the cores live, and which core boots each system. Detection fills all of this — adjust it only when you want something specific.",
+        "manualTitle": "Manual mapping"
+      },
+      "pathPlaceholderNamed": "C:\\...\\{{exe}} — a shortcut works too",
+      "emulatorPathKinds": "(.exe or shortcut)",
+      "addManually": "Add manually",
+      "browse": "Browse for the executable",
+      "search": {
+        "action": "Search",
+        "searching": "Searching...",
+        "viewResults": "Show what's been found so far",
+        "viewCandidates": "Choose from the executables already found",
+        "candidates_one": "{{count}} candidate",
+        "candidates_other": "{{count}} candidates",
+        "noResults": "No results",
+        "viewNoResults": "Nothing was found last time — open to search again",
+        "stop": "Stop",
+        "minimize": "Minimize",
+        "minimizeHint": "Hide this panel — the search keeps running",
+        "busy": "Another emulator is being searched right now.",
+        "title": "Choose the {{name}} executable",
+        "inProgress": "Searching your drives...",
+        "waiting": "Nothing found yet.",
+        "empty": "No matching executable was found. Search again, or use Browse to point at it directly.",
+        "cleared": "Results cleared. Search again to look for the executable.",
+        "again": "Search again",
+        "clear": "Clear"
+      },
+      "attribution": "LastSave is not affiliated with these projects; names and logos belong to their owners.",
+      "officialSite": "Visit official site",
+      "open": {
+        "action": "Launch",
+        "hint": "Launch {{name}} by itself to set it up",
+        "failed": "Couldn't launch {{name}}. Check its path."
+      },
+      "clearAll": "Clear all",
+      "clearConfirm": {
+        "title": "Remove all emulator sources?",
+        "message": "Every emulator you added here — from the catalog, added manually, or imported from a front-end — will be removed from this import. What's installed on your PC isn't affected.",
+        "confirm": "Clear all"
+      },
+      "emptyState": "No emulator sources added yet. Tap a tile above to add one.",
+      "needsExe": "Needs the emulator path",
+      "needsRoms": "Needs ROMs",
+      "untitledSource": "Untitled emulator",
+      "emulatorPath": "Emulator Path",
+      "customName": "Name",
+      "customNamePlaceholder": "e.g. My Custom Emulator",
+      "romsTitle": "ROM Files & Folders",
+      "clearRoms": "Clear ROMs",
+      "noRoms": "No ROM folders or files added yet.",
+      "dropHint": "Drop ROM folders or files here",
+      "dropActive": "Drop to add",
+      "addFiles": "Add files",
+      "addFolder": "Add folder",
+      "removeSource": "Remove this emulator",
+      "removeConfirm": {
+        "title": "Remove this emulator?",
+        "message": "{{name}} and the ROM folders you added to it will be removed from this import.",
+        "confirm": "Remove"
+      },
+      "systems": {
+        "multiSystem": "Multi-system"
+      },
+      "launchOptions": {
+        "open": "Launch options",
+        "title": "{{emulator}} launch options",
+        "description": "How LastSave starts every game of this emulator. Everything is off by default: LastSave boots the game and leaves the rest to the emulator's own settings.",
+        "none": "{{emulator}} has no launch options in LastSave yet. Its games boot with the minimum needed to start them.",
+        "useEmulatorDefaults": "Use the emulator's own settings",
+        "useEmulatorDefaultsHint": "LastSave boots the game and adds nothing — it opens exactly as it would from the emulator itself.",
+        "defaultBadge": "Default",
+        "toggle": "{{option}}",
+        "items": {
+          "fullscreen": {
+            "label": "Fullscreen on launch",
+            "description": "Asks the emulator to open the game fullscreen. This overrides the display setting inside the emulator."
+          },
+          "pauseMenuExit": {
+            "label": "Exit from the pause menu",
+            "description": "Adds an exit item to the pause menu, so a controller on its own can quit the game."
+          }
+        }
+      },
+      "gameLaunchOptions": {
+        "title": "Launch options for this game",
+        "description": "Starts as whatever {{emulator}} is set to. Changing one here affects this game only.",
+        "following": "Following {{emulator}}",
+        "overridden": "This game only",
+        "reset": "Use {{emulator}}'s settings",
+        "customCommand": "This game runs a custom command, so these options no longer apply to it."
+      }
+    },
+    "continue": {
+      "setUp": "Set them up",
+      "scan": "Scan my games",
+      "reasonNoSelection": "Select at least one source to continue.",
+      "reasonNoneReady": "Finish setting up a source to continue."
+    },
+    "scan": {
+      "title": "Here's what we'll bring in",
+      "configure": "Set it up",
+      "skippedTag": "Won't be scanned",
+      "skippedLine": "No emulator or ROMs added — set it up to include it.",
+      "steam": {
+        "unplayed": "Unplayed games",
+        "wishlist": "wishlist",
+        "family": "family shared you've played",
+        "autoSync": "auto-synced playtime",
+        "none": "No categories selected"
+      },
+      "epic": {
+        "library": "Your Epic library",
+        "unplayed": "unplayed games",
+        "wishlist": "wishlisted games",
+        "autoSync": "auto-synced playtime",
+        "none": "No categories selected"
+      },
+      "xbox": {
+        "history": "Your Xbox history",
+        "console": "console games",
+        "autoSync": "auto-synced playtime"
+      },
+      "failed": "Scan failed."
+    },
+    "review": {
+      "foundCount_one": "{{count}} game found",
+      "foundCount_other": "{{count}} games found",
+      "scanningSource": "Scanning {{source}}…",
+      "withWarning_one": "{{count}} with a warning",
+      "withWarning_other": "{{count}} with a warning",
+      "unidentified_one": "{{count}} couldn't be identified",
+      "unidentified_other": "{{count}} couldn't be identified",
+      "percent": "{{percent}}%",
+      "lookupGate": {
+        "title_one": "{{count}} game couldn't be checked against the catalog",
+        "title_other": "{{count}} games couldn't be checked against the catalog",
+        "message": "The catalog couldn't be reached for these, so they have no match yet. Adding now leaves them out of this import — they aren't lost, and a later scan picks them up with everything you've already decided.",
+        "confirm": "Retry matching",
+        "skip": "Add without them"
+      },
+      "identifyGate": {
+        "title_one": "{{count}} game still needs identifying",
+        "title_other": "{{count}} games still need identifying",
+        "message": "They can't be added until each one is matched to a game, added under its own name, or skipped.",
+        "confirm": "Sort them out",
+        "skip": "Add without them"
+      },
+      "wishlistBlock_one": "{{count}} on your wishlist",
+      "wishlistBlock_other": "{{count}} on your wishlist",
+      "ownedBlock_one": "{{count}} game you have",
+      "ownedBlock_other": "{{count}} games you have",
+      "add_one": "Add {{count}} to my library",
+      "add_other": "Add {{count}} to my library",
+      "addAndUpdate_one": "Add {{count}} and update {{updates}}",
+      "addAndUpdate_other": "Add {{count}} and update {{updates}}",
+      "updateOnly_one": "Update {{count}} game",
+      "updateOnly_other": "Update {{count}} games",
+      "addPending": "Add to my library",
+      "emptyState": {
+        "title": "No games found",
+        "hint": "That usually means one of your sources needs a look.",
+        "sourceEmpty": "Nothing found",
+        "sourceInactive": "Not set up",
+        "sourceFailed": "Couldn't be reached",
+        "backToSetup": "Back to Set up",
+        "searchingTitle": "Looking through your sources"
+      },
+      "deleteConfirm": {
+        "title": "Delete \"{{title}}\" from this list?",
+        "message": "It won't be reviewed or imported, and it won't come back unless you scan again. Everything else you've decided stays as it is."
+      },
+      "card": {
+        "hasWarning": "Imports fine, but something about its launch path needs a look",
+        "inLibrary": "In library",
+        "multipleSources_one": "Found by {{count}} source",
+        "multipleSources_other": "Found by {{count}} sources, added once",
+        "edit": "Edit",
+        "review": "Review",
+        "discard": "Discard",
+        "discardHint": "Won't show up in future scans or checks",
+        "restore": "Restore",
+        "delete": "Delete",
+        "select": "Select this game",
+        "deselect": "Deselect this game",
+        "attachedCount_one": "{{count}} piece of attached content included",
+        "attachedCount_other": "{{count}} pieces of attached content included"
+      },
+      "list": {
+        "columns": {
+          "game": "Game",
+          "source": "Source",
+          "hours": "Hours"
+        },
+        "noHours": "—"
+      },
+      "filters": {
+        "all": "All",
+        "review": "Review",
+        "status": "Status",
+        "anyStatus": "Any status",
+        "noStatus": "No status",
+        "discarded": "Discarded",
+        "allSources": "All sources",
+        "selectAll_one": "Select all ({{count}})",
+        "selectAll_other": "Select all ({{count}})",
+        "unselectAll": "Unselect all",
+        "searchPlaceholder": "Find a game",
+        "searchClear": "Clear the search",
+        "sort": "Sort",
+        "sortBy": {
+          "arrival": "Found order",
+          "hoursDesc": "Most hours",
+          "hoursAsc": "Fewest hours",
+          "title": "Name (A–Z)"
+        },
+        "layout": {
+          "list": "List view",
+          "grid": "Grid view"
+        }
+      },
+      "bulk": {
+        "selectedCount_one": "{{count}} selected",
+        "selectedCount_other": "{{count}} selected",
+        "selectAll": "Select all shown",
+        "unselectAll": "Clear selection",
+        "clear": "Clear selection",
+        "status": "Status",
+        "changeStatus": "Set status for the selection",
+        "noStatus": "No status",
+        "discard": "Discard",
+        "restore": "Restore"
+      },
+      "contextMenu": {
+        "subtitle": "Quick actions",
+        "status": "Set status"
+      },
+      "provenance": {
+        "steam": "From Steam",
+        "steamFamily": "From Steam · family shared",
+        "steamWishlist": "From your Steam wishlist",
+        "pc": "Found on this PC",
+        "pcFrom": "Found on this PC · {{source}}",
+        "emulator": "Played through {{emulator}}",
+        "hours_one": "{{count}} h imported",
+        "hours_other": "{{count}} h imported",
+        "epic": "From your Epic library",
+        "epicWishlist": "From your Epic wishlist",
+        "xbox": "From your Xbox history",
+        "xboxConsole": "From your Xbox history · played on console"
+      },
+      "modal": {
+        "title": "Review this game",
+        "changeGame": "Change game",
+        "searchHint": "Search the catalog to point this at a different game.",
+        "noResults": "No games matched that search.",
+        "status": "Status",
+        "sources": {
+          "wishlist": "Wishlist",
+          "familyShared": "Family shared",
+          "playedOnConsole": "Played on console",
+          "hours_one": "{{count}} h",
+          "hours_other": "{{count}} h",
+          "useThisHint": "Use this source for the launcher and paths. The other store’s id is kept either way.",
+          "separate": "Not this game — separate it"
+        },
+        "foundBy": "Sources",
+        "setup": "Platform",
+        "fieldNotice": {
+          "notFound": "Not found — add it later if you want",
+          "launcherOnly": "Found through its launcher, no direct executable",
+          "unresolved": "Couldn't be resolved — check the path"
+        },
+        "duplicateTitle": "Already in your library",
+        "duplicateDiff": "Updating adds: {{changes}}",
+        "duplicateDiffGeneric": "Updating fills in launch info from this scan; your history and status stay untouched.",
+        "duplicateReplacesPaths": "It also replaces the launch paths with the ones this scan found.",
+        "duplicateAdds": {
+          "steamLink": "Steam link",
+          "familyShared": "family shared",
+          "playtimeSync": "playtime sync",
+          "launchPaths": "launch paths",
+          "emulatorSetup": "emulator setup",
+          "attachedContent_one": "{{count}} extra",
+          "attachedContent_other": "{{count}} extras",
+          "xboxLink": "the Xbox link"
+        },
+        "unknownEmulator": "Unknown emulator",
+        "discard": {
+          "title": "Leave without saving?",
+          "message": "The status, paths, extra content and source you chose for this game have not been saved yet. Leaving now discards them.",
+          "confirm": "Discard changes",
+          "cancel": "Keep editing"
+        },
+        "addOtherStoreHours": "Add the {{hours}} you played on {{source}}",
+        "addOtherStoreHoursHint": "Added to this game's hours once, at import. They don't keep syncing.",
+        "duplicateWhatToDo": "What to do"
+      },
+      "alerts": {
+        "identifyTitle_one": "{{count}} game couldn't be identified",
+        "identifyTitle_other": "{{count}} games couldn't be identified",
+        "identifyAction": "Identify",
+        "lookupFailedTitle_one": "{{count}} game couldn't be checked against the catalog",
+        "lookupFailedTitle_other": "{{count}} games couldn't be checked against the catalog",
+        "lookupFailedHint": "Probably a connection hiccup — they're waiting, not lost.",
+        "lookupFailedAction": "Try matching again",
+        "updatesUndo": "Undo"
+      },
+      "identify": {
+        "title": "Games we couldn't identify",
+        "description": "For each one: search for the right game and pick it, add it under its own name, or discard it. The rest of the import goes ahead either way.",
+        "ready": {
+          "title_one": "Ready ({{count}})",
+          "title_other": "Ready ({{count}})",
+          "description": "Identified — these are added with the rest."
+        },
+        "toSort": {
+          "title_one": "To sort ({{count}})",
+          "title_other": "To sort ({{count}})"
+        },
+        "searchedFor": "We searched the catalog for “{{query}}” and found no match. Try a shorter name, or leave out the edition.",
+        "discardRest_one": "Discard the rest ({{count}})",
+        "discardRest_other": "Discard the rest ({{count}})",
+        "restoreAll_one": "Restore all ({{count}})",
+        "restoreAll_other": "Restore all ({{count}})",
+        "resolvedGoAlong": "Anything you sort out here is added with the rest.",
+        "tools": {
+          "title": "Apps & tools",
+          "description": "Known applications the scan picked up. Not games.",
+          "discardAll_one": "Discard all ({{count}})",
+          "discardAll_other": "Discard all ({{count}})"
+        },
+        "searchHint": "Start typing to search the catalog.",
+        "noResults": "Nothing matched that search.",
+        "noneOfThese": "None of these?",
+        "addAsNamed": "Add as \"{{name}}\" anyway",
+        "wasNamed": "was \"{{name}}\"",
+        "discard": "Discard",
+        "leftOut": "Won't be added",
+        "undo": "Undo",
+        "remaining_one": "{{count}} still to go",
+        "remaining_other": "{{count}} still to go",
+        "allDone": "All sorted."
+      },
+      "scan": {
+        "stop": "Stop",
+        "again": "Scan again",
+        "retry": "Try again",
+        "reconnectSource": "Reconnect {{source}}",
+        "failed": "{{source}} couldn't be scanned",
+        "stoppedTitle": "The scan was stopped.",
+        "stoppedHint": "What's here is real, but it's only what had been found by then — scan again for the full list.",
+        "wishlistUnavailable": "Your Epic wishlist could not be read, so it is not included. Everything else from Epic imported normally.",
+        "wishlistNeedsReconnect": "Your Epic sign-in no longer covers the store, so your wishlist was skipped. Reconnect Epic to bring it in. Everything else from Epic imported normally.",
+        "xboxPlaytimeUnavailable": "Xbox shared your games but not your hours this time, so they arrive without playtime. A sync later fills them in when Xbox answers."
+      },
+      "errors": {
+        "add": "Couldn't start the import."
+      },
+      "sections": {
+        "newGames": "New games",
+        "inLibrary": "In your library",
+        "noNewGames": "No new games — everything this scan found is already in your library."
+      }
+    },
+    "inactive": {
+      "message": "This source isn't included in the import. Select it to configure it.",
+      "select": "Select source"
+    },
+    "exit": {
+      "title": "Leave the import wizard?",
+      "message": "You'll leave the import wizard. Your selected sources and their setup are saved, so you can pick up where you left off.",
+      "messageReview": "You'll leave the import wizard. Your sources and setup are saved, but this review progress will be lost.",
+      "confirm": "Leave",
+      "cancel": "Keep editing"
+    }
+  },
+  "check": {
+    "title": "Check for new games",
+    "description": "Looks over everywhere your games live and shows only what isn't in your library yet.",
+    "entry": {
+      "check": "Check new games",
+      "checking": "Checking…",
+      "preparing": "Preparing…",
+      "checkedClear": "Up to date",
+      "checkedFound": "New games",
+      "menu": "More import options",
+      "importGames": "Import games",
+      "startupTitle": "On startup",
+      "startupOff": "Don't check",
+      "startupNotify": "Check new games",
+      "startupAuto": "Auto import new games"
+    },
+    "sources": {
+      "waiting": "Waiting",
+      "notChecked": "Not checked",
+      "checking": "Checking…",
+      "nothingNew": "Nothing new",
+      "found_one": "{{count}} new",
+      "found_other": "{{count}} new",
+      "failed": "Couldn't be checked",
+      "disconnected": "Not connected",
+      "reconnect": "Reconnect"
+    },
+    "preparing": {
+      "title": "Getting ready to check",
+      "hint": "Starting in a moment, once LastSave has finished opening.",
+      "now": "Check now"
+    },
+    "checking": {
+      "title": "Looking for new games",
+      "hint": "This walks your folders, so it can take a minute. You can keep using LastSave.",
+      "stop": "Stop"
+    },
+    "stopped": {
+      "title": "Check stopped",
+      "message": "Nothing had turned up yet — there may still be new games in what wasn't checked."
+    },
+    "caughtUp": {
+      "title": "You're all caught up",
+      "message": "Nothing new since your last import.",
+      "checkedSources": "Checked {{sources}}",
+      "close": "Done",
+      "checkAgain": "Check again"
+    },
+    "results": {
+      "newCount_one": "{{count}} new game",
+      "newCount_other": "{{count}} new games",
+      "add_one": "Add {{count}} game",
+      "add_other": "Add {{count}} games",
+      "applyUpdates_one": "Update {{count}} entry",
+      "applyUpdates_other": "Update {{count}} entries",
+      "addAndUpdate_one": "Add {{count}} and update {{updates}}",
+      "addAndUpdate_other": "Add {{count}} and update {{updates}}"
+    },
+    "updates": {
+      "hint": "Games you already have. Pick what happens to each one — nothing changes your hours or moves a game unless you choose it.",
+      "facts": {
+        "ownership": "You own it now — it was on your wishlist",
+        "played": "You've played it on Xbox — it was on your wishlist",
+        "launchPath": "Found where it's installed",
+        "movedPath": "Found it in a new place",
+        "romPath": "Found its ROM",
+        "extraContent": "Found extra content for it",
+        "syncHours": "Its hours will sync with Xbox",
+        "addHours": "Also played on another store — add those hours to this game, once"
+      },
+      "open": "See what was found",
+      "nothingNew": "Nothing new",
+      "columns": {
+        "inLibrary": "In your library",
+        "found": "Found",
+        "action": "What to do",
+        "hours": "Hours"
+      },
+      "homes": {
+        "steam": "Steam",
+        "epic": "Epic Games",
+        "xbox": "Xbox",
+        "gog": "GOG",
+        "microsoftStore": "Microsoft Store",
+        "pc": "This PC",
+        "emulator": "Emulator",
+        "manual": "Added by you"
+      },
+      "home": {
+        "owned": "{{home}}",
+        "wishlist": "{{home}} wishlist",
+        "manualWishlist": "Wishlist, added by you"
+      },
+      "noHours": "no hours",
+      "options": {
+        "leave": "Don't change",
+        "apply": {
+          "ownership": "Mark as owned on {{store}}",
+          "played": "Mark as played on {{store}}",
+          "syncHours": "Sync hours with {{store}}",
+          "launchPath": "Add the install found",
+          "movedPath": "Use the new install location",
+          "romPath": "Add the ROM found",
+          "extraContent_one": "Add the {{count}} extra found",
+          "extraContent_other": "Add the {{count}} extras found"
+        },
+        "applyMore_one": "{{first}} and {{count}} more",
+        "applyMore_other": "{{first}} and {{count}} more",
+        "addHoursKeep": "Keep on {{home}}, add {{hours}} from {{sources}}",
+        "addHours": "Add {{hours}} from {{sources}}",
+        "move": "Move to {{store}}",
+        "moveKeepHours": "Move to {{store}}, add {{hours}} from {{home}}",
+        "moveKeepHoursLocal": "Move to {{store}}, keep your {{hours}}",
+        "result": "({{result}})",
+        "applyAdd": "{{first}}, add {{hours}} from {{sources}}",
+        "moveKeepHoursLocalPlus": "Move to {{store}}, keep your {{kept}} and add {{hours}} from {{sources}}"
+      },
+      "explain": {
+        "leave": "Nothing changes for this game.",
+        "apply": "Adds what this scan found. Your history and status stay as they are.",
+        "applyKeep": "Stays on {{home}}. It gains the {{store}} link and what this scan found.",
+        "addHours": "Adds {{hours}} to this game, once. They don’t keep syncing.",
+        "move": "The game now lives on {{store}}: it launches and syncs its hours from there.",
+        "applyTarget": "Becomes your {{store}} game and comes off the wishlist. Its hours come from {{store}}."
+      },
+      "leaveAll": "Leave all as is",
+      "useSuggested": "Use suggestions",
+      "result": {
+        "withHours": "{{place}} · {{hours}}",
+        "noHours": "{{place}} · no hours"
+      }
+    },
+    "missing": {
+      "title_one": "{{count}} game no longer on this PC",
+      "title_other": "{{count}} games no longer on this PC",
+      "hint": "Their files aren't where LastSave last saw them. Point it to where they are now, or mark them as uninstalled — their history stays.",
+      "notFoundAt": "Not found: {{path}}",
+      "notFound": "Files not found",
+      "findAgain": "Find it again",
+      "markUninstalled": "Mark as uninstalled",
+      "markAll": "Mark all as uninstalled"
+    },
+    "toast": {
+      "found_one": "{{count}} new game found",
+      "found_other": "{{count}} new games found",
+      "imported_one": "{{count}} game added",
+      "imported_other": "{{count}} games added",
+      "pending_one": "{{count}} needs a look",
+      "pending_other": "{{count}} need a look",
+      "review": "Review",
+      "caughtUp": "No new games found.",
+      "sourceBreakdown": "{{source}}: {{count}}"
+    },
+    "errors": {
+      "add": "Couldn't start the import."
+    }
+  },
+  "lookupFolders": {
+    "title": "Windows Lookup Folders",
+    "description": "LastSave always checks your desktop, Start Menu, and common launcher roots. Add extra folders here for shortcuts and executables that live somewhere unusual.",
+    "close": "Close lookup folders dialog",
+    "selectFolder": "Select a folder to include in Windows lookup",
+    "alwaysSearched": "Always searched",
+    "alwaysSearchedHint": "These are always included in a scan. Nothing to configure here — it is just what LastSave covers by default.",
+    "defaultCount_one": "{{count}} location",
+    "defaultCount_other": "{{count}} locations",
+    "extraTitle": "Extra lookup folders",
+    "dropHint": "Drop folders here, or click to browse",
+    "dropActive": "Drop to add",
+    "remove": "Remove",
+    "empty": "No extra lookup folders configured.",
+    "addFolder": "Add Folder",
+    "restoreDefaults": "Restore Defaults",
+    "saving": "Saving...",
+    "save": "Save Folders"
+  }
+}

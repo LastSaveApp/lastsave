@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "back": "Volver a Explorar",
+    "top": "Inicio",
+    "newest": "Recientes",
+    "oldest": "Antiguos",
+    "decadeNavigation": "Navegación por décadas",
+    "jumpTo": "Ir a {{year}}",
+    "decadeLabel": "{{decade}}s"
+  },
+  "filters": {
+    "all": "Todos"
+  },
+  "header": {
+    "eyebrow": "Salón de la fama",
+    "title": "GOTY",
+    "description": "Los ganadores del Juego del Año, de generación en generación, elegidos por las academias que definen el gaming."
+  },
+  "card": {
+    "userRating": "Puntaje de usuarios",
+    "grandSlam": "Grand Slam",
+    "allFiveMajors": "Todos los premios",
+    "releaseDateUnavailable": "Sin fecha de lanzamiento"
+  },
+  "states": {
+    "loadError": "No se pudo cargar el Salón de la fama.",
+    "unableToLoad": "No se pudo cargar el Salón de la fama",
+    "tryAgain": "Reintentar",
+    "empty": "No hay ganadores de esta academia."
+  },
+  "toasts": {
+    "editFromCatalog": "Edita este juego desde el catálogo.",
+    "syncFromCatalog": "Sincroniza este juego desde el catálogo.",
+    "added": "«{{title}}» añadido a tu biblioteca."
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "title": "Library",
+  "installState": {
+    "installed": "Installed",
+    "notInstalled": "Not installed",
+    "missing": "Not found on this PC",
+    "offline": "Drive not connected",
+    "startupToast_one": "{{count}} game is no longer on this PC.",
+    "startupToast_other": "{{count}} games are no longer on this PC.",
+    "review": "Review",
+    "storeUninstalled": {
+      "single": "{{title}} was uninstalled",
+      "singleDetail": "Its old paths were cleared.",
+      "many_one": "{{count}} game was uninstalled",
+      "many_other": "{{count}} games were uninstalled",
+      "more_one": "{{count}} more",
+      "more_other": "{{count}} more"
+    },
+    "markUninstalled": {
+      "title_one": "Mark as uninstalled?",
+      "title_other": "Mark {{count}} games as uninstalled?",
+      "message_one": "LastSave forgets where this game's missing files were, and shows it as not installed. Its sessions, logs and status stay. You can set a path again anytime from Edit.",
+      "message_other": "LastSave forgets where these games' missing files were, and shows them as not installed. Their sessions, logs and status stay. Paths that are still on your PC, or on a drive that isn't connected, are left as they are.",
+      "confirm": "Mark as uninstalled",
+      "confirmBusy": "Marking...",
+      "done_one": "{{count}} game marked as uninstalled.",
+      "done_other": "{{count}} games marked as uninstalled.",
+      "skipped_one": "{{count}} game was left as is: its files are back, or its drive isn't connected.",
+      "skipped_other": "{{count}} games were left as they are: their files are back, or their drive isn't connected.",
+      "error": "Could not mark these games as uninstalled."
+    }
+  },
+  "subtitle": {
+    "collection": {
+      "games_one": "{{count}} game in your collection",
+      "games_other": "{{count}} games in your collection",
+      "gamesFiltered_one": "{{filtered}} of {{count}} game in your collection",
+      "gamesFiltered_other": "{{filtered}} of {{count}} games in your collection",
+      "items_one": "{{count}} item in your collection",
+      "items_other": "{{count}} items in your collection",
+      "itemsFiltered_one": "{{filtered}} of {{count}} item in your collection",
+      "itemsFiltered_other": "{{filtered}} of {{count}} items in your collection"
+    },
+    "shelf": {
+      "games_one": "{{count}} game in this shelf",
+      "games_other": "{{count}} games in this shelf",
+      "gamesFiltered_one": "{{filtered}} of {{count}} game in this shelf",
+      "gamesFiltered_other": "{{filtered}} of {{count}} games in this shelf",
+      "items_one": "{{count}} item in this shelf",
+      "items_other": "{{count}} items in this shelf",
+      "itemsFiltered_one": "{{filtered}} of {{count}} item in this shelf",
+      "itemsFiltered_other": "{{filtered}} of {{count}} items in this shelf"
+    }
+  },
+  "actions": {
+    "addGame": "Add Game",
+    "importGames": "Import Games",
+    "openImportOptions": "Open direct import options",
+    "importInstalledGames": "Import installed games",
+    "importEmulatedGames": "Import emulated games",
+    "importSteamGames": "Import Steam games",
+    "stopImportJob": "Stop import job",
+    "removeEntry": "Remove entry",
+    "removeFromShelf": "Remove from shelf"
+  },
+  "order": {
+    "top": "Send to top",
+    "up": "Move up",
+    "down": "Move down",
+    "bottom": "Send to bottom"
+  },
+  "attachedMode": {
+    "contained": "Contained",
+    "separated": "Separated"
+  },
+  "importJob": {
+    "addingGames": "Adding games...",
+    "phase": {
+      "resolvingGames": "Resolving games",
+      "fetchingMetadata": "Fetching metadata",
+      "savingEntries": "Saving entries",
+      "attachingDlcs": "Attaching DLCs",
+      "creatingLogs": "Creating logs",
+      "cancelled": "Cancelled",
+      "failed": "Failed",
+      "finishing": "Finishing"
+    }
+  },
+  "bulk": {
+    "selectedCount_one": "{{count}} selected",
+    "selectedCount_other": "{{count}} selected",
+    "selectAll": "Select all",
+    "unselect": "Unselect",
+    "clear": "Clear",
+    "status": "Status",
+    "changeStatus": "Change status",
+    "actions": "Actions",
+    "attachedContent": "Attached content",
+    "launchOn": "Launch game: On",
+    "launchOnHint": "Play launches and tracks.",
+    "launchOff": "Launch game: Off",
+    "launchOffHint": "Start only tracks the timer.",
+    "markUninstalled": "Mark as uninstalled",
+    "shelves": "Shelves",
+    "journeys": "Journeys",
+    "noAttachedContent": "No attached content in the current selection.",
+    "noShelves": "No shelves yet.",
+    "noJourneys": "No journeys yet."
+  },
+  "contextMenu": {
+    "bulkActions": "Bulk actions",
+    "quickActions": "Quick actions",
+    "launchSettings": "Launch",
+    "launchPanelTitle": "Launch and tracking",
+    "launchDisabledGlobally": "Launching is off in Settings.",
+    "order": "Order",
+    "current": "Current",
+    "active": "Active"
+  },
+  "card": {
+    "selectCard": "Select card",
+    "deselectCard": "Deselect card",
+    "addLog": "Add Log",
+    "moreActions": "More actions"
+  },
+  "list": {
+    "columns": {
+      "game": "Game",
+      "status": "Status",
+      "platform": "Platform",
+      "totalPlaytime": "Total Playtime",
+      "lastActivity": "Last Activity",
+      "actions": "Actions"
+    },
+    "noMetadata": "No metadata",
+    "selectRow": "Select row",
+    "deselectRow": "Deselect row"
+  },
+  "board": {
+    "itemCount": "{{count}} items",
+    "dropHere": "Drop here",
+    "selection": "Selection",
+    "cardCount": "{{count}} cards",
+    "scrollLeft": "Previous columns",
+    "scrollRight": "Next columns"
+  },
+  "grouping": {
+    "none": "None",
+    "status": "Status",
+    "source": "Source",
+    "genre": "Genre",
+    "releaseYear": "Release Year",
+    "developer": "Developer",
+    "publisher": "Publisher",
+    "collection": "Collection"
+  },
+  "groupKey": {
+    "allGames": "All Games",
+    "unknownYear": "Unknown Year"
+  },
+  "toolbar": {
+    "searchPlaceholder": "Search games, genres, developers...",
+    "filter": "Filter",
+    "view": "View",
+    "collection": "Collection",
+    "collectionHint": "View, grouping and sort preferences.",
+    "reset": "Reset",
+    "viewMode": "View mode",
+    "modes": {
+      "cards": "Cards",
+      "list": "List",
+      "board": "Board"
+    },
+    "grouping": "Grouping",
+    "sort": "Sort",
+    "sortFields": {
+      "title": "Title",
+      "releaseYear": "Release Year",
+      "dateAdded": "Date Added",
+      "lastUpdated": "Last Updated",
+      "totalPlaytime": "Total Playtime",
+      "lastActivity": "Last Activity",
+      "lastPlayed": "Last Played",
+      "myRating": "My Rating",
+      "custom": "Custom"
+    },
+    "direction": "Direction",
+    "asc": "Asc",
+    "desc": "Desc",
+    "attachedContent": "Attached Content",
+    "custom": "Custom",
+    "chooseMode": "Choose mode",
+    "attachedModes": {
+      "contained": "Contained",
+      "separated": "Separated"
+    },
+    "overridesActive_one": "{{count}} game override active.",
+    "overridesActive_other": "{{count}} game overrides active.",
+    "containedHint": "Show DLCs and expansions inside each base game by default.",
+    "separatedHint": "Render DLCs and expansions as visible items by default.",
+    "shelves": "Shelves",
+    "shelvesShow": "Show games in shelves",
+    "shelvesHide": "Hide games in shelves",
+    "shelvesShowHint": "Show every Library game, including games already grouped in shelves.",
+    "shelvesHideHint": "Hide any Library game that belongs to at least one shelf.",
+    "shelvesCustomHint_one": "{{count}} shelf hidden from Library.",
+    "shelvesCustomHint_other": "{{count}} shelves hidden from Library.",
+    "boardColumns": "Board columns",
+    "boardColumnsHint": "Drag to reorder. Click to hide or show.",
+    "noShelves": "No shelves yet.",
+    "hidden": "Hidden",
+    "shown": "Shown",
+    "quickStatusAll": "All",
+    "sections": {
+      "layout": "Layout",
+      "display": "Display"
+    },
+    "visibleColumnsCount": "{{visible}}/{{total}} shown",
+    "resultCount_one": "{{count}} game",
+    "resultCount_other": "{{count}} games",
+    "clearSearch": "Clear search",
+    "removeFilter": "Remove filter: {{filter}}",
+    "clearAllFilters": "Clear all",
+    "savedFilter": {
+      "save": "Save filter",
+      "nameLabel": "Name this filter",
+      "namePlaceholder": "Name it, like Backlog RPGs",
+      "confirm": "Save filter",
+      "cancel": "Cancel",
+      "unfold": "Show what this filter is made of",
+      "fold": "Hide what this filter is made of",
+      "takeOff": "Take off {{name}}"
+    }
+  },
+  "filters": {
+    "title": "Filters",
+    "subtitle": "Narrow the shelf to what you are looking for.",
+    "reset": "Reset",
+    "clear": "Clear",
+    "more": "More filters",
+    "sections": {
+      "status": "Status",
+      "source": "Source",
+      "genres": "Genres & modes",
+      "releaseYear": "Release year",
+      "playtime": "Playtime",
+      "availableOn": "Available on",
+      "developers": "Developers",
+      "publishers": "Publishers",
+      "collections": "Collections",
+      "otherEmulator": "Other emulator",
+      "myRating": "My rating",
+      "quick": "Quick filters"
+    },
+    "toggles": {
+      "installed": "Installed",
+      "notFound": "Not found",
+      "hasPlaytime": "With playtime",
+      "withAttachedContent": "Has DLCs"
+    },
+    "playtimeBuckets": {
+      "under1": "Under 1h",
+      "1to10": "1 - 10h",
+      "10to50": "10 - 50h",
+      "over50": "Over 50h"
+    },
+    "chips": {
+      "yearRange": "{{from}} - {{to}}",
+      "yearFrom": "From {{from}}",
+      "yearTo": "Until {{to}}"
+    },
+    "allGenres": "All genres",
+    "allStatuses": "All statuses",
+    "allPlatforms": "All platforms",
+    "allDevelopers": "All developers",
+    "allPublishers": "All publishers",
+    "allCollections": "All collections",
+    "searchGenres": "Search genres...",
+    "searchPlatforms": "Search platforms...",
+    "searchCompanies": "Search companies...",
+    "searchCollections": "Search collections...",
+    "allSources": "All sources",
+    "sourcesSelected_one": "{{count}} source",
+    "sourcesSelected_other": "{{count}} sources",
+    "expandSourceGroup": "Show {{source}} sources",
+    "collapseSourceGroup": "Hide {{source}} sources",
+    "myRating": {
+      "any": "Any",
+      "anyHint": "Every game you have reviewed",
+      "atLeast": "{{value}}+",
+      "atLeastHint": "Rated {{value}} or more",
+      "chipAny": "Reviewed",
+      "chipAtLeast": "Rated {{value}}+"
+    },
+    "quick": {
+      "none": "None",
+      "count_one": "{{count}} on",
+      "count_other": "{{count}} on",
+      "builtIn": "Built in",
+      "yours": "Your filters",
+      "yoursEmpty": "Set some filters and press Save filter, next to Clear all, to keep them here.",
+      "editing": "Editing {{name}}: what you change here is saved into it.",
+      "edit": "Rename or delete {{name}}",
+      "renameLabel": "Filter name",
+      "saveName": "Save name",
+      "cancelRename": "Cancel",
+      "delete": "Delete",
+      "confirmDelete": "Delete it"
+    },
+    "save": {
+      "taken": "You already have a filter with that name."
+    }
+  },
+  "emptyState": {
+    "search": {
+      "title": "No games match your search",
+      "subtitle": "Try a different search term or clear the current query."
+    },
+    "filter": {
+      "title": "Nothing matches this workspace right now",
+      "subtitle": "Try clearing filters, changing the view, or resetting the workspace."
+    },
+    "library": {
+      "title": "Your library is empty",
+      "description": "You can add your first game manually, import your installed PC games, scan your emulated games, or import your games and progress from <steam>Steam</steam>, <epic>Epic</epic> and <xbox>Xbox</xbox>.",
+      "addFirstGame": "Add your first game"
+    }
+  },
+  "errorState": {
+    "title": "Failed to load library",
+    "retry": "Try again"
+  },
+  "fallback": {
+    "thisGame": "this game",
+    "thisAttachedContent": "this attached content",
+    "thisLibraryEntry": "this library entry",
+    "attachedContent": "attached content"
+  },
+  "confirm": {
+    "bulkLaunch": {
+      "title": "Change the launch setting?",
+      "willEnable_one": "\"Launch game\" will be turned on for {{count}} game.",
+      "willEnable_other": "\"Launch game\" will be turned on for {{count}} games.",
+      "willDisable_one": "\"Launch game\" will be turned off for {{count}} game (timer only).",
+      "willDisable_other": "\"Launch game\" will be turned off for {{count}} games (timer only).",
+      "alreadySet_one": "{{count}} is already set and stays as is.",
+      "alreadySet_other": "{{count}} are already set and stay as is.",
+      "skipped_one": "{{count}} has nothing to launch and is skipped.",
+      "skipped_other": "{{count}} have nothing to launch and are skipped.",
+      "confirm": "Apply",
+      "confirmBusy": "Applying..."
+    },
+    "stopImport": {
+      "title": "Stop adding games?",
+      "message": "This will stop the current import job for “{{label}}”. Games already added will stay in your library, but the remaining pending games will not be imported.",
+      "messageGeneric": "This will stop the current import job for these games. Games already added will stay in your library, but the remaining pending games will not be imported.",
+      "confirm": "Stop import",
+      "confirmBusy": "Stopping...",
+      "cancel": "Keep importing"
+    },
+    "removeFromShelf": {
+      "title": "Remove game from shelf?",
+      "message": "This will remove {{game}} from {{shelf}}. The game will stay in your Library.",
+      "confirmBusy": "Removing..."
+    },
+    "bulkDelete": {
+      "title": "Delete selected cards?",
+      "titleShelf": "Remove selected games from shelf?",
+      "message_one": "This will remove {{count}} selected item from your library workspace. If a base game and its attached content are both selected, the base game deletion takes priority. This action cannot be undone.",
+      "message_other": "This will remove {{count}} selected items from your library workspace. If a base game and its attached content are both selected, the base game deletion takes priority. This action cannot be undone.",
+      "messageShelf_one": "This will remove {{count}} selected item from {{shelf}}. The games will stay in your Library.",
+      "messageShelf_other": "This will remove {{count}} selected items from {{shelf}}. The games will stay in your Library.",
+      "confirmDeletingBusy": "Deleting...",
+      "confirmRemovingBusy": "Removing...",
+      "confirmDelete": "Delete selected"
+    }
+  },
+  "toast": {
+    "launchBehaviorApplied_one": "Updated launch for {{count}} game.",
+    "launchBehaviorApplied_other": "Updated launch for {{count}} games.",
+    "launchBehaviorAppliedSkipped_one": "Updated launch for {{count}} game; {{skipped}} skipped (nothing to launch).",
+    "launchBehaviorAppliedSkipped_other": "Updated launch for {{count}} games; {{skipped}} skipped (nothing to launch).",
+    "launchBehaviorPartial_one": "Updated launch for {{count}} game; {{failed}} failed.",
+    "launchBehaviorPartial_other": "Updated launch for {{count}} games; {{failed}} failed.",
+    "launchBehaviorNoneEligible": "Nothing to change — the selection is already set, or has nothing to launch.",
+    "launchBehaviorError": "Could not update launch for these games.",
+    "removedAttachedContent": "Removed {{content}} from your library workspace.",
+    "removeAttachedContentError": "Could not remove this attached content.",
+    "removedFromShelf": "Removed {{game}} from {{shelf}}.",
+    "removeFromShelfError": "Could not remove this game from the shelf.",
+    "movedCardsToStatus_one": "Moved {{count}} card to {{status}}.",
+    "movedCardsToStatus_other": "Moved {{count}} cards to {{status}}.",
+    "movedCardsPartial_one": "Moved {{count}} card, but {{failed}} failed.",
+    "movedCardsPartial_other": "Moved {{count}} cards, but {{failed}} failed.",
+    "moveCardsError": "Could not move the selected cards.",
+    "removedGamesFromShelf_one": "Removed {{count}} game from {{shelf}}.",
+    "removedGamesFromShelf_other": "Removed {{count}} games from {{shelf}}.",
+    "removeGamesFromShelfError": "Could not remove the selected games from this shelf.",
+    "deletedCards_one": "Deleted {{count}} card.",
+    "deletedCards_other": "Deleted {{count}} cards.",
+    "deletedCardsPartial_one": "Deleted {{count}} card, but {{failed}} failed.",
+    "deletedCardsPartial_other": "Deleted {{count}} cards, but {{failed}} failed.",
+    "deleteCardsError": "Could not delete the selected cards.",
+    "appliedAttachedMode_one": "Applied {{mode}} to {{count}} game.",
+    "appliedAttachedMode_other": "Applied {{mode}} to {{count}} games.",
+    "attachedModeError": "Could not update attached content display mode.",
+    "shelfOrderError": "Could not update shelf order.",
+    "updatedShelves_one": "Updated shelves for {{count}} game.",
+    "updatedShelves_other": "Updated shelves for {{count}} games.",
+    "updateShelvesError": "Could not update shelves.",
+    "shelfGamesError": "Could not update shelf games.",
+    "filterSaved": "Saved {{name}}. Find it in Filter, under Your filters."
+  },
+  "cleanup": {
+    "offerOne": "{{title}} is in your library only because of that.",
+    "offerMany_one": "{{count}} game is in your library only because of that.",
+    "offerMany_other": "{{count}} games are in your library only because of that.",
+    "description": "No status, not owned, nothing logged. Take it out of your library too?",
+    "remove": "Remove from library",
+    "removed_one": "Removed from your library.",
+    "removed_other": "Removed {{count}} games from your library.",
+    "failed": "Could not remove it from your library."
+  }
+}

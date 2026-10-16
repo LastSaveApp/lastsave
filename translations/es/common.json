@@ -1,0 +1,66 @@
+{
+  "app": {
+    "name": "LastSave",
+    "description": "Un archivo personal de tu vida gamer. Anota tus sesiones, escribe mientras juegas y por fin ordena esos pendientes que juras terminar.",
+    "descriptionShort": "Un archivo personal de tu vida gamer. Anota tus sesiones, escribe mientras juegas y termina tus pendientes.",
+    "logoAlt": "Logo de LastSave"
+  },
+  "actions": {
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "upload": "Subir",
+    "back": "Volver",
+    "continue": "Continuar",
+    "skip": "Omitir",
+    "change": "Cambiar",
+    "close": "Cerrar",
+    "done": "Listo"
+  },
+  "back": {
+    "toNamed": "Volver a {{name}}"
+  },
+  "labels": {
+    "never": "Nunca",
+    "unknown": "Desconocido",
+    "yes": "Sí",
+    "no": "No",
+    "unknownGame": "Juego desconocido",
+    "unknownYear": "Año desconocido",
+    "unknownDeveloper": "Desarrollador desconocido",
+    "releaseDateUnknown": "Fecha de lanzamiento desconocida",
+    "searchingGames": "Buscando juegos…",
+    "notSet": "Sin definir"
+  },
+  "errors": {
+    "unknown": "Error desconocido"
+  },
+  "duration": {
+    "hoursMinutes": "{{hours}}h {{minutes}}m",
+    "hours": "{{hours}}h",
+    "minutes": "{{minutes}}m",
+    "hoursSpaced": "{{value}} h",
+    "minutesSpaced": "{{value}} m"
+  },
+  "splash": {
+    "title": "Cargando todo para ti",
+    "message": "Tu biblioteca, tus sesiones y lo que viene."
+  },
+  "offline": {
+    "title": "Estás sin conexión",
+    "message": "Esto necesita internet. Vuelve solo en cuanto te conectes.",
+    "chip": "Sin conexión · mostrando lo último que viste",
+    "localOnly": "Estás sin conexión, así que solo aparecen los juegos que ya están en LastSave."
+  },
+  "language": {
+    "community": "{{name}} · Comunidad {{percent}} %",
+    "draft": "{{name}} · Borrador {{percent}} %",
+    "info": {
+      "community": "Traducido por jugadores como tú. Si algo suena raro, cuéntanoslo con un comentario y lo mejoramos entre todos.",
+      "draft": "Una traducción en curso: algunos textos pueden salir en inglés o cambiar. Solo la ofrecen las versiones de desarrollo.",
+      "personal": "Tu propia versión, hecha en el Language Studio. Solo se usa en este equipo."
+    },
+    "personal": "{{name}} · Tu versión"
+  }
+}

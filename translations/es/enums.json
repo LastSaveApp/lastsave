@@ -1,0 +1,162 @@
+{
+  "statuses": {
+    "wishlist": {
+      "label": "Deseado",
+      "description": "Quieres tenerlo o jugarlo"
+    },
+    "backlog": {
+      "label": "Por jugar",
+      "description": "Quieres jugarlo algún día"
+    },
+    "playing": {
+      "label": "Jugando",
+      "description": "Lo estás jugando ahora"
+    },
+    "paused": {
+      "label": "En pausa",
+      "description": "Lo dejaste en pausa por un tiempo"
+    },
+    "played": {
+      "label": "Jugado",
+      "description": "Lo jugaste, sin terminarlo ni abandonarlo"
+    },
+    "completed": {
+      "label": "Completado",
+      "description": "Terminaste la historia principal"
+    },
+    "endless": {
+      "label": "Sin fin",
+      "description": "Juegos sin final: se juegan, no se terminan"
+    },
+    "dropped": {
+      "label": "Abandonado",
+      "description": "Dejaste de jugarlo"
+    },
+    "unstatus": {
+      "label": "Sin estado",
+      "description": "En tu biblioteca, todavía sin estado"
+    }
+  },
+  "labels": {
+    "noStatus": "Sin estado"
+  },
+  "launcher": {
+    "steam": "Steam",
+    "epic": "Epic",
+    "xbox": "Xbox",
+    "microsoft_store": "Microsoft Store",
+    "gog": "GOG",
+    "local": "Local",
+    "other": "Otro"
+  },
+  "platformType": {
+    "windows_pc": "Windows / PC",
+    "emulator": "Emulador",
+    "playstation_console": "Consola PlayStation",
+    "xbox_console": "Consola Xbox",
+    "nintendo_console": "Consola Nintendo",
+    "other_console": "Otra consola"
+  },
+  "reactions": {
+    "garbage": "Basura",
+    "bad": "Malo",
+    "ok": "OK",
+    "great": "Genial",
+    "masterpiece": "Maravilla"
+  },
+  "companyStatus": {
+    "0": "Activa",
+    "1": "Desaparecida",
+    "2": "Fusionada",
+    "3": "Renombrada"
+  },
+  "relationType": {
+    "base": "Juego base",
+    "dlc": "DLC",
+    "expansion": "Expansión",
+    "dlcOrExpansion": "DLC / Expansión",
+    "attachedContent": "Contenido adicional"
+  },
+  "achievements": {
+    "trophy": {
+      "label": "Trofeo",
+      "chip": "Logro: Trofeo",
+      "description": "Un hito, un logro o un trofeo."
+    },
+    "boss_combat": {
+      "label": "Jefe",
+      "chip": "Logro: Jefe",
+      "description": "Una pelea difícil, un monstruo abatido o un reto de combate."
+    },
+    "dungeon": {
+      "label": "Mazmorra",
+      "chip": "Logro: Mazmorra",
+      "description": "Una mazmorra, una raid, un nivel o una zona difícil."
+    },
+    "treasure_loot": {
+      "label": "Tesoro",
+      "chip": "Logro: Botín",
+      "description": "Un objeto raro, un cofre secreto, un drop o una colección."
+    },
+    "easter_egg_secret": {
+      "label": "Easter egg",
+      "chip": "Logro: Secreto",
+      "description": "Un detalle oculto, un easter egg o un secreto descubierto."
+    },
+    "record_high_score": {
+      "label": "Récord",
+      "chip": "Logro: Récord",
+      "description": "Una velocidad, una puntuación, una racha o tu mejor marca."
+    },
+    "rank_level": {
+      "label": "Rango / Nivel",
+      "chip": "Logro: Rango",
+      "description": "Nivel máximo, una escalera o un rango competitivo."
+    },
+    "upgrade": {
+      "label": "Mejora",
+      "chip": "Logro: Mejora",
+      "description": "Una habilidad, arma, herramienta o build nueva que cambia cómo juegas."
+    },
+    "chapter": {
+      "label": "Capítulo",
+      "chip": "Logro: Capítulo",
+      "description": "Un capítulo, acto, mundo o fase que ya quedó atrás."
+    },
+    "challenge": {
+      "label": "Reto",
+      "chip": "Logro: Reto",
+      "description": "Por las malas: sin daño, en la máxima dificultad, sin morir."
+    },
+    "discovery": {
+      "label": "Hallazgo",
+      "chip": "Logro: Hallazgo",
+      "description": "Un lugar encontrado: una región nueva, un punto de referencia, el mapa completo."
+    },
+    "other": {
+      "label": "Otro",
+      "chip": "Logro: Otro",
+      "description": "Cualquier cosa memorable."
+    }
+  },
+  "platform": {
+    "windows_pc": "Windows / PC",
+    "emulator": "Emulador",
+    "playstation_console": "Consola PlayStation",
+    "xbox_console": "Consola Xbox",
+    "nintendo_console": "Consola Nintendo",
+    "other_console": "Otra"
+  },
+  "scanWarnings": {
+    "already_in_library": "Ya está en tu biblioteca",
+    "no_catalog_match": "No se pudo identificar",
+    "catalog_lookup_failed": "No se pudo consultar el catálogo para comprobarlo",
+    "shortcut_missing": "No se encontró el acceso directo",
+    "executable_missing": "No se encontró el ejecutable",
+    "emulator_unresolved": "No se pudo resolver el ejecutable del emulador",
+    "parent_unresolved": "No se pudo resolver el juego base",
+    "disc_incomplete": "El disco está incompleto: falta en la carpeta una pista que su .cue indica",
+    "launcher_without_executable": "Encontrado por su launcher, sin un ejecutable directo",
+    "found_on_multiple_stores": "Encontrado en más de una tienda"
+  }
+}

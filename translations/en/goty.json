@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "back": "Back to Explore",
+    "top": "Top",
+    "newest": "Newest",
+    "oldest": "Oldest",
+    "decadeNavigation": "GOTY decade navigation",
+    "jumpTo": "Jump to {{year}}",
+    "decadeLabel": "{{decade}}s"
+  },
+  "filters": {
+    "all": "All"
+  },
+  "header": {
+    "eyebrow": "Hall of Fame",
+    "title": "GOTYs",
+    "description": "Game of the Year award winners, preserved across generations and celebrated by gaming's defining academies."
+  },
+  "card": {
+    "userRating": "User Rating",
+    "grandSlam": "Grand Slam",
+    "allFiveMajors": "All Five Majors",
+    "releaseDateUnavailable": "Release date unavailable"
+  },
+  "states": {
+    "loadError": "Could not load the GOTY Hall of Fame.",
+    "unableToLoad": "Unable to load the Hall of Fame",
+    "tryAgain": "Try again",
+    "empty": "No winners are available for this academy."
+  },
+  "toasts": {
+    "editFromCatalog": "Edit this game from the main Catalog.",
+    "syncFromCatalog": "Sync this game from the main Catalog.",
+    "added": "Added \"{{title}}\" to your library."
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "greeting": {
+    "morning": "Good morning,",
+    "afternoon": "Good afternoon,",
+    "evening": "Good evening,",
+    "night": "Still up,"
+  },
+  "hero": {
+    "kicker": {
+      "latestPlayed": "Latest played",
+      "recentlyAdded": "Recently added",
+      "welcome": "Welcome to LastSave"
+    },
+    "played": "{{hours}} played",
+    "lastPlayed": "Last played {{when}}",
+    "addedWhen": "Added {{when}}",
+    "noSessionsYet": "No sessions yet. Press Play and LastSave starts counting from the first minute.",
+    "latestLog": {
+      "session": "Latest session",
+      "journal": "Latest journal",
+      "achievement": "Latest achievement",
+      "status": "Latest status",
+      "added": "Added to library"
+    },
+    "openDetail": "Open game detail",
+    "links": {
+      "library": "Library",
+      "explore": "Explore"
+    },
+    "continue": "Continue"
+  },
+  "recent": {
+    "title": "Recent games",
+    "titleAdded": "Recently added",
+    "added": "Added",
+    "addedWhen": "Added {{when}}",
+    "emptyState": {
+      "title": "Nothing to show yet",
+      "description": "Games you play or add from LastSave line up here."
+    }
+  },
+  "activity": {
+    "title": "Latest activity",
+    "types": {
+      "session": "Session",
+      "achievement": "Achievement",
+      "journal": "Journal",
+      "status": "Status",
+      "added": "Added",
+      "review": "Review"
+    },
+    "sessionType": {
+      "timer": "timer",
+      "manual": "manual"
+    },
+    "sessionSummary": "{{duration}} · {{type}}",
+    "statusSet": "Now {{status}}",
+    "statusCleared": "Status cleared",
+    "addedToLibrary": "Added to your library",
+    "emptyState": {
+      "title": "Nothing logged yet",
+      "description": "Sessions, journals, achievements and status changes all land here, newest first."
+    },
+    "media": {
+      "image": "Has an image",
+      "video": "Has a video"
+    }
+  },
+  "memories": {
+    "title": "Memories",
+    "kinds": {
+      "ago": "{{when}}",
+      "random": "Random",
+      "latest": "Latest",
+      "review": "Your review · {{rating}}"
+    },
+    "open": "Open memory",
+    "kindAria": {
+      "ago": "A memory from a while back",
+      "random": "A random memory",
+      "latest": "Your latest memory",
+      "review": "One of your reviews"
+    },
+    "emptyLibrary": {
+      "title": "Memories need games",
+      "description": "Once you play and write, this bento resurfaces moments from years back."
+    },
+    "emptyLogs": {
+      "title": "No memories yet",
+      "description": "Journals and achievements you log become memories here."
+    },
+    "previous": "Previous memory",
+    "next": "Next memory",
+    "video": "Video"
+  },
+  "stats": {
+    "playing": "Playing",
+    "backlog": "Backlog",
+    "completed": "Completed",
+    "lastPlayed": "Last played {{when}}"
+  },
+  "actions": {
+    "play": "Play",
+    "openLibrary": "Library",
+    "openExplore": "Explore",
+    "details": "Details"
+  },
+  "explore": {
+    "tabs": {
+      "latest": "Latest",
+      "upcoming": "Upcoming"
+    },
+    "latestOffline": "New releases show up when the catalog is reachable.",
+    "upcomingOffline": "Upcoming releases show up when the catalog is reachable.",
+    "offlineTitle": "Explore is offline",
+    "autoRotate": "Rotates between Latest and Upcoming; hover or pick a tab to hold it"
+  },
+  "rail": {
+    "scrollLeft": "Scroll {{title}} left",
+    "scrollRight": "Scroll {{title}} right"
+  },
+  "week": {
+    "title": "Your week",
+    "thisWeek": "Last 7 days",
+    "chartAria": "Hours played per day over the last 7 days",
+    "today": "Today",
+    "noPlay": "No play",
+    "sessions": "Sessions",
+    "games": "Games",
+    "logs": "Logs"
+  },
+  "library": {
+    "games_one": "game",
+    "games_other": "games",
+    "chartAria": "Your collection by status",
+    "moreStores": "More stores",
+    "previousStores": "Previous stores",
+    "views": {
+      "collection": "Your collection",
+      "shelves": "Your shelves",
+      "journeys": "Your journeys"
+    },
+    "previousView": "Previous",
+    "nextView": "Next",
+    "moreShelves_one": "+{{count}} more shelf",
+    "moreShelves_other": "+{{count}} more shelves",
+    "journeyCount": "{{done}}/{{counted}}"
+  }
+}

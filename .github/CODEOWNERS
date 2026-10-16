@@ -1,0 +1,12 @@
+# Who reviews what. A pull request asks these people for a review automatically.
+
+# The English mirror and the checker come from the app; only the team changes them.
+/translations/en/       @mvelezg99
+/translations/tools/    @mvelezg99
+
+# Official languages are maintained by the team.
+/translations/es/       @mvelezg99
+
+# The folder's own files.
+/translations/*.md      @mvelezg99
+/translations/LICENSE   @mvelezg99

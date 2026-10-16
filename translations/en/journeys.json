@@ -1,0 +1,234 @@
+{
+  "page": {
+    "title": "Journeys",
+    "subtitle": "Games with a purpose and an ending."
+  },
+  "sections": {
+    "inProgress": "In progress",
+    "finished": "Finished",
+    "suggestions": "Hiding in your library",
+    "path": "The path",
+    "games": "Games",
+    "collapse": "Hide {{section}}",
+    "expand": "Show {{section}}",
+    "onHold": "On hold"
+  },
+  "actions": {
+    "newJourney": "New journey",
+    "openJourney": "Open {{name}}",
+    "edit": "Edit journey",
+    "delete": "Delete journey",
+    "share": "Share",
+    "addGames": "Add games",
+    "remove": "Remove from journey",
+    "skip": "Skip it",
+    "unskip": "Count it again",
+    "addToJourney": "Add to a journey",
+    "turnIntoJourney": "Turn into a journey",
+    "startJourney": "Start this journey",
+    "seeJourney": "See journey",
+    "newWithGame": "New journey with this game",
+    "back": "Journeys",
+    "allJourneys": "All journeys",
+    "fromSaga": "From a saga",
+    "openGameNamed": "Open {{title}}",
+    "seeGameNamed": "See {{title}}",
+    "reorder": "Drag to reorder",
+    "changeStatus": "Change status",
+    "setStatus": "Set status",
+    "addToLibrary": "Add to library",
+    "fromShelf": "From a shelf",
+    "showSuggestions": "Show suggestions",
+    "showSuggestionsHint": "Bring the suggestions back",
+    "reorderJourney": "Drag to reorder",
+    "fromGoty": "From the GOTYs"
+  },
+  "labels": {
+    "kicker": "Journey",
+    "progress": "{{done}} of {{counted}} completed",
+    "progressPlay": "{{done}} of {{counted}} played",
+    "percent": "{{percent}}%",
+    "upNext": "Up next",
+    "nowPlaying": "Now playing",
+    "complete": "Complete",
+    "finishedOn": "Finished {{date}}",
+    "notInLibrary": "Not in your library",
+    "skipped": "Skipped",
+    "gameCount_one": "{{count}} game",
+    "gameCount_other": "{{count}} games",
+    "position": "{{position}} of {{total}}",
+    "hours": "across the journey",
+    "finishedCount_one": "{{count}} finished",
+    "finishedCount_other": "{{count}} finished",
+    "inProgressCount_one": "{{count}} in progress",
+    "inProgressCount_other": "{{count}} in progress",
+    "coverAlt": "{{title}} cover",
+    "nothingUpNext": "Every game is done or skipped",
+    "started": "started",
+    "upNextPlayed": "Up next · last played {{when}}",
+    "nowPlayingPlayed": "Now playing · last played {{when}}",
+    "noHours": "—",
+    "onHold": "On hold"
+  },
+  "goals": {
+    "finish": {
+      "label": "Complete them",
+      "description": "A game counts once it is Completed, or Endless."
+    },
+    "play": {
+      "label": "Play them",
+      "description": "A game counts once Played, Dropped or Endless."
+    }
+  },
+  "emptyState": {
+    "title": "Where are you going next?",
+    "body": "A journey is a set of games with a purpose: every Zelda, the games of your childhood, the ones you left halfway. LastSave keeps count as you finish them.",
+    "detailGames": "No games on this journey yet."
+  },
+  "editor": {
+    "createTitle": "New journey",
+    "editTitle": "Edit journey",
+    "subtitle": "A name, a goal and the games, in the order you want to play them.",
+    "name": "Name",
+    "namePlaceholder": "Every mainline Zelda",
+    "purpose": "Why",
+    "purposePlaceholder": "Optional. In release order, the way I never got to.",
+    "goal": "Goal",
+    "games": "Games",
+    "noGames": "No games yet. Add some from your library or search for any game.",
+    "create": "Create journey",
+    "save": "Save",
+    "discardTitle": "Discard this journey?",
+    "discardMessage": "What you changed here will be lost.",
+    "discardConfirm": "Discard",
+    "keepEditing": "Keep editing",
+    "onHold": "On hold",
+    "onHoldHint": "Set it aside: it keeps its progress, out of the sidebar and Home until you resume it",
+    "sortBy": "Order by",
+    "sort": {
+      "release": "Release date",
+      "rating": "Rating",
+      "title": "Name"
+    }
+  },
+  "picker": {
+    "title": "Add games",
+    "searchPlaceholder": "Search your library or any game",
+    "clearSearch": "Clear search",
+    "inLibrary": "In your library",
+    "moreGames": "More games",
+    "searching": "Searching…",
+    "noResults": "No games match.",
+    "selected_one": "{{count}} game on the journey",
+    "selected_other": "{{count}} games on the journey"
+  },
+  "suggestions": {
+    "seriesDetail_one": "You have {{count}}",
+    "seriesDetail_other": "You have {{count}}",
+    "seriesDone_one": "You have {{count}} · {{done}} finished",
+    "seriesDone_other": "You have {{count}} · {{done}} finished",
+    "unfinishedName": "Finish what you started",
+    "unfinishedDetail_one": "{{count}} playing or paused",
+    "unfinishedDetail_other": "{{count}} playing or paused",
+    "playedName": "Played, never finished",
+    "playedDetail_one": "{{count}} game with hours",
+    "playedDetail_other": "{{count}} games with hours",
+    "expansionsName": "Expansions waiting",
+    "expansionsDetail_one": "{{count}} for games you finished",
+    "expansionsDetail_other": "{{count}} for games you finished",
+    "hide": "Hide",
+    "hideHint": "Hide the suggestions; Show suggestions brings them back",
+    "scrollLeft": "Earlier suggestions",
+    "scrollRight": "More suggestions"
+  },
+  "detail": {
+    "notFound": "This journey isn't here anymore."
+  },
+  "delete": {
+    "title": "Delete this journey?",
+    "message": "{{name}} will be deleted. Your games and everything you logged stay in your library.",
+    "confirm": "Delete"
+  },
+  "addTo": {
+    "title": "Add to a journey",
+    "subtitle": "{{title}} on your journeys",
+    "empty": "No journeys yet."
+  },
+  "gameDetail": {
+    "title": "Journeys"
+  },
+  "finale": {
+    "kicker": "Journey complete",
+    "summary_one": "{{count}} game · {{hours}}",
+    "summary_other": "{{count}} games · {{hours}}",
+    "since": "Started {{date}}",
+    "close": "Keep going",
+    "open": "See the journey"
+  },
+  "toasts": {
+    "created": "{{name}} is on its way",
+    "saved": "Journey saved",
+    "deleted": "Journey deleted",
+    "saveFailed": "Couldn't save the journey",
+    "deleteFailed": "Couldn't delete the journey",
+    "gameDone": "{{done}} of {{counted}} in {{name}}",
+    "gameDoneUpNext": "Up next: {{title}}",
+    "addedToJourney": "Added to {{name}}",
+    "removedFromJourney": "Removed from {{name}}",
+    "journeysUpdated": "Journeys updated",
+    "addedToLibrary": "{{title}} is in your library"
+  },
+  "saga": {
+    "subtitle": "Every game of the saga, newest first. Yours are ticked.",
+    "filters": {
+      "main": "Main games",
+      "remakes": "Remakes and remasters"
+    },
+    "loading": "Finding every game of the saga…",
+    "empty": "IGDB lists no games for this saga.",
+    "error": "Couldn't reach IGDB. Try again in a moment.",
+    "searchPlaceholder": "Search this saga",
+    "noMatch": "No game of this saga matches."
+  },
+  "shelfPicker": {
+    "title": "From a shelf",
+    "subtitle": "Pick a shelf, then the games from it you want on the path.",
+    "empty": "No shelves yet.",
+    "gamesSubtitle": "In the shelf’s order. Tick the ones for this journey; the shelf stays as it is.",
+    "emptyShelf": "This shelf has no games yet.",
+    "searchPlaceholder": "Search this shelf",
+    "noMatch": "No game on this shelf matches."
+  },
+  "share": {
+    "dialogTitle": "Share journey",
+    "kicker": "Journey",
+    "kickerComplete": "Journey complete",
+    "headlineComplete": "{{done}}/{{counted}}",
+    "since": "Since {{date}}",
+    "period": "{{from}} → {{to}}",
+    "descriptionProgress": "{{name}}: {{done}} of {{counted}} so far, on LastSave.",
+    "descriptionComplete": "{{name}}: all {{count}} done, {{hours}} played. Tracked on LastSave.",
+    "hoursChart": "Where the hours went",
+    "hoursChartRest_one": "+{{count}} more game",
+    "hoursChartRest_other": "+{{count}} more games"
+  },
+  "list": {
+    "inLibrary": "In your library",
+    "selected_one": "{{count}} selected · {{owned}} in your library",
+    "selected_other": "{{count}} selected · {{owned}} in your library",
+    "confirm": "Add to the journey",
+    "onJourney": "On the journey",
+    "clearSearch": "Clear search",
+    "selectAll": "Select all",
+    "selectNone": "Select none"
+  },
+  "goty": {
+    "title": "Games of the Year",
+    "subtitle": "Every year’s winner, newest first. Tick the ones for this journey.",
+    "journeyName": "Games of the Year",
+    "loading": "Gathering every Game of the Year…",
+    "empty": "No winners to show.",
+    "searchPlaceholder": "Search the winners",
+    "noMatch": "No winner matches."
+  }
+}

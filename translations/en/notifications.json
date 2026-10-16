@@ -1,0 +1,37 @@
+{
+  "bell": {
+    "open": "Notifications",
+    "unread_one": "Notifications, {{count}} unread",
+    "unread_other": "Notifications, {{count}} unread"
+  },
+  "tray": {
+    "title": "Notifications",
+    "markAllRead": "Mark all read",
+    "markAllUnread": "Mark all unread",
+    "markRead": "Mark as read",
+    "markUnread": "Mark as unread",
+    "clearAll": "Clear all",
+    "dismiss": "Dismiss",
+    "today": "Today",
+    "earlier": "Earlier",
+    "empty": "You're all caught up."
+  },
+  "time": {
+    "justNow": "Just now",
+    "minutesAgo": "{{count}}m ago",
+    "hoursAgo": "{{count}}h ago"
+  },
+  "providerSync": {
+    "updated_one": "{{provider}} updated playtime for {{count}} game",
+    "updated_other": "{{provider}} updated playtime for {{count}} games",
+    "gamesTwo": "{{first}} and {{second}}",
+    "gamesMore_one": "{{first}}, {{second}} and {{count}} more",
+    "gamesMore_other": "{{first}}, {{second}} and {{count}} more",
+    "failed": "{{provider}} sync didn't finish",
+    "failedDescription": "Your hours were left as they were. It will try again next time."
+  },
+  "sessionSaved": {
+    "description": "{{title}} · {{duration}}",
+    "open": "Open game"
+  }
+}

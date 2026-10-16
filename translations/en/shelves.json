@@ -1,0 +1,157 @@
+{
+  "page": {
+    "title": "Shelves",
+    "subtitle": "Your own collections, like the shelf at home. Pin up to six to keep them in your sidebar.",
+    "addShelf": "Add shelf"
+  },
+  "actions": {
+    "openShelf": "Open {{name}}",
+    "editShelf": "Edit {{name}}",
+    "reorderShelf": "Drag to reorder"
+  },
+  "loadingShelves": "Loading shelves...",
+  "emptyState": "No shelves yet. Use Add shelf to create your first one.",
+  "gameCount_one": "{{count}} game",
+  "gameCount_other": "{{count}} games",
+  "iconPicker": {
+    "title": "Choose shelf icon",
+    "close": "Close icon picker",
+    "searchHint": "Search for anything — a star, a car, a sword — and there's likely an icon for it.",
+    "searchPlaceholder": "Search icons across all packs...",
+    "currentIcon": "Current icon",
+    "starterHint": "A few to start with.",
+    "loading": "Loading icons...",
+    "noResults": "No icons found.",
+    "previewLabel": "Preview icon",
+    "closePreview": "Close icon preview",
+    "confirm": "Confirm icon"
+  },
+  "gamePicker": {
+    "title": "Add games to {{name}}",
+    "hintWithShelf_one": "{{count}} selected · kept when you save the shelf",
+    "hintWithShelf_other": "{{count}} selected · kept when you save the shelf",
+    "hintImmediately_one": "{{count}} on this shelf · changes save as you pick",
+    "hintImmediately_other": "{{count}} on this shelf · changes save as you pick"
+  },
+  "manage": {
+    "discardTitle": "Discard your changes?",
+    "discardMessage": "Your changes to \"{{name}}\" have not been saved."
+  },
+  "create": {
+    "title": "New shelf",
+    "subtitle": "Name it, give it an icon and a color, and add games now or later.",
+    "close": "Close new shelf",
+    "submit": "Create shelf",
+    "discardTitle": "Discard this shelf?",
+    "discardMessage": "It has not been created yet, so its name and the games you picked will be lost.",
+    "discardConfirm": "Discard",
+    "keepEditing": "Keep editing"
+  },
+  "form": {
+    "delete": "Delete",
+    "name": "Name",
+    "namePlaceholder": "Shelf name",
+    "charactersLeft_one": "{{count}} character left",
+    "charactersLeft_other": "{{count}} characters left",
+    "icon": "Icon",
+    "colorLabel": "Color",
+    "description": "What it is",
+    "descriptionPlaceholder": "A line or two about this shelf: the ones that made you who you are as a player…"
+  },
+  "games": {
+    "title": "Games",
+    "addGames": "Add games",
+    "empty": "No games on this shelf yet. Add some, from your library or anywhere.",
+    "remove": "Remove from shelf",
+    "reorder": "Drag to reorder"
+  },
+  "delete": {
+    "title": "Delete shelf?",
+    "message": "This deletes \"{{name}}\" and removes its game grouping. Your Library games and logs stay intact.",
+    "confirm": "Delete shelf"
+  },
+  "toasts": {
+    "saveFailed": "Could not save shelf.",
+    "updated": "{{name}} updated.",
+    "created": "{{name}} created.",
+    "gamesUpdateFailed": "Could not update shelf games.",
+    "deleted": "Shelf deleted.",
+    "deleteFailed": "Could not delete shelf.",
+    "reorderShelvesFailed": "Could not reorder your shelves."
+  },
+  "ideas": {
+    "title": "Need an idea?",
+    "items": {
+      "withFriends": "With friends",
+      "soulslike": "Soulslike",
+      "comfort": "Comfort games",
+      "retro": "Retro & emulated",
+      "finished": "Finished",
+      "endless": "Always coming back"
+    },
+    "fromLibrary": "From your library",
+    "fromMood": "Or start from a mood",
+    "kinds": {
+      "rpg": "RPGs",
+      "shooter": "Shooters",
+      "strategy": "Strategy",
+      "horror": "Horror",
+      "survival": "Survival",
+      "openWorld": "Open worlds",
+      "hackAndSlash": "Hack and slash",
+      "fighting": "Fighting",
+      "platformer": "Platformers",
+      "puzzle": "Puzzles",
+      "racing": "Racing",
+      "sports": "Sports",
+      "simulation": "Simulation",
+      "sciFi": "Sci-fi",
+      "fantasy": "Fantasy",
+      "stealth": "Stealth",
+      "indie": "Indies",
+      "cardsAndBoard": "Cards & board"
+    }
+  },
+  "header": {
+    "allShelves": "All shelves",
+    "statusCount_one": "{{count}} {{status}}",
+    "statusCount_other": "{{count}} {{status}}",
+    "statusBar": "The shelf’s games by status",
+    "edit": "Edit",
+    "addGames": "Add games",
+    "share": "Share",
+    "more": "Read more",
+    "less": "Show less",
+    "gamesLabel_one": "game",
+    "gamesLabel_other": "games"
+  },
+  "editor": {
+    "editTitle": "Edit shelf",
+    "editSubtitle": "Its name, what it says, its colour, and its games in order.",
+    "save": "Save shelf"
+  },
+  "share": {
+    "dialogTitle": "Share shelf",
+    "description_one": "{{name}}: {{count}} game on my shelf, on LastSave.",
+    "description_other": "{{name}}: {{count}} games on my shelf, on LastSave."
+  },
+  "fanMore": "+{{count}}",
+  "pin": {
+    "label": "Pin to the sidebar",
+    "count": "{{count}} of {{total}}",
+    "pin": "Pin to the sidebar",
+    "unpin": "Unpin from the sidebar",
+    "full": "{{count}} of {{count}} pinned. Unpin one first."
+  },
+  "sections": {
+    "pinned": "Pinned",
+    "pinnedHint": "in your sidebar",
+    "all": "All shelves",
+    "pinnedEmpty": "Nothing pinned. Pin a shelf to keep it in your sidebar."
+  },
+  "view": {
+    "label": "View",
+    "grid": "Cards",
+    "list": "List"
+  }
+}

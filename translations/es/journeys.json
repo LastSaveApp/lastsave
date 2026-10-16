@@ -1,0 +1,246 @@
+{
+  "page": {
+    "title": "Misiones",
+    "subtitle": "Juegos con un propósito y un final."
+  },
+  "sections": {
+    "inProgress": "En curso",
+    "finished": "Cumplidas",
+    "suggestions": "Escondidas en tu biblioteca",
+    "path": "El camino",
+    "games": "Juegos",
+    "collapse": "Ocultar {{section}}",
+    "expand": "Mostrar {{section}}",
+    "onHold": "En espera"
+  },
+  "actions": {
+    "newJourney": "Nueva misión",
+    "openJourney": "Abrir {{name}}",
+    "edit": "Editar misión",
+    "delete": "Eliminar misión",
+    "share": "Compartir",
+    "addGames": "Añadir juegos",
+    "remove": "Quitar de la misión",
+    "skip": "Saltarlo",
+    "unskip": "Volver a contarlo",
+    "addToJourney": "Añadir a una misión",
+    "turnIntoJourney": "Convertir en misión",
+    "startJourney": "Empezar esta misión",
+    "seeJourney": "Ver la misión",
+    "newWithGame": "Nueva misión con este juego",
+    "back": "Misiones",
+    "allJourneys": "Todas las misiones",
+    "fromSaga": "De una saga",
+    "openGameNamed": "Abrir {{title}}",
+    "seeGameNamed": "Ver {{title}}",
+    "reorder": "Arrastra para reordenar",
+    "changeStatus": "Cambiar estado",
+    "setStatus": "Poner estado",
+    "addToLibrary": "Añadir a la biblioteca",
+    "fromShelf": "De una estantería",
+    "showSuggestions": "Ver sugerencias",
+    "showSuggestionsHint": "Volver a mostrar las sugerencias",
+    "reorderJourney": "Arrastra para reordenar",
+    "fromGoty": "De los GOTY"
+  },
+  "labels": {
+    "kicker": "Misión",
+    "progress": "{{done}} de {{counted}} completados",
+    "progressPlay": "{{done}} de {{counted}} jugados",
+    "percent": "{{percent}}%",
+    "upNext": "Lo siguiente",
+    "nowPlaying": "Jugando ahora",
+    "complete": "Cumplida",
+    "finishedOn": "Cumplida el {{date}}",
+    "notInLibrary": "No está en tu biblioteca",
+    "skipped": "Saltado",
+    "gameCount_one": "{{count}} juego",
+    "gameCount_many": "{{count}} juegos",
+    "gameCount_other": "{{count}} juegos",
+    "position": "{{position}} de {{total}}",
+    "hours": "en toda la misión",
+    "finishedCount_one": "{{count}} cumplida",
+    "finishedCount_many": "{{count}} cumplidas",
+    "finishedCount_other": "{{count}} cumplidas",
+    "inProgressCount_one": "{{count}} en curso",
+    "inProgressCount_many": "{{count}} en curso",
+    "inProgressCount_other": "{{count}} en curso",
+    "coverAlt": "Portada de {{title}}",
+    "nothingUpNext": "Todos los juegos están hechos o saltados",
+    "started": "empezada",
+    "upNextPlayed": "Lo siguiente · jugado {{when}}",
+    "nowPlayingPlayed": "Jugando ahora · jugado {{when}}",
+    "noHours": "—",
+    "onHold": "En espera"
+  },
+  "goals": {
+    "finish": {
+      "label": "Completarlos",
+      "description": "Un juego cuenta cuando está Completado o Sin fin."
+    },
+    "play": {
+      "label": "Jugarlos",
+      "description": "Un juego cuenta cuando está Jugado, Abandonado o Sin fin."
+    }
+  },
+  "emptyState": {
+    "title": "¿A dónde vas ahora?",
+    "body": "Una misión es un grupo de juegos con un propósito: todos los Zelda, los juegos de tu infancia, los que dejaste a medias. LastSave lleva la cuenta a medida que los terminas.",
+    "detailGames": "Todavía no hay juegos en esta misión."
+  },
+  "editor": {
+    "createTitle": "Nueva misión",
+    "editTitle": "Editar misión",
+    "subtitle": "Un nombre, un objetivo y los juegos, en el orden en que quieres jugarlos.",
+    "name": "Nombre",
+    "namePlaceholder": "Todos los Zelda principales",
+    "purpose": "Por qué",
+    "purposePlaceholder": "Opcional. En orden de salida, como nunca pude.",
+    "goal": "Objetivo",
+    "games": "Juegos",
+    "noGames": "Todavía no hay juegos. Añade de tu biblioteca o busca cualquier juego.",
+    "create": "Crear misión",
+    "save": "Guardar",
+    "discardTitle": "¿Descartar esta misión?",
+    "discardMessage": "Se perderá lo que cambiaste aquí.",
+    "discardConfirm": "Descartar",
+    "keepEditing": "Seguir editando",
+    "onHold": "En espera",
+    "onHoldHint": "Déjala a un lado: conserva su progreso, fuera de la barra lateral y de Inicio hasta que la retomes",
+    "sortBy": "Ordenar por",
+    "sort": {
+      "release": "Fecha de salida",
+      "rating": "Puntaje",
+      "title": "Nombre"
+    }
+  },
+  "picker": {
+    "title": "Añadir juegos",
+    "searchPlaceholder": "Busca en tu biblioteca o cualquier juego",
+    "clearSearch": "Borrar búsqueda",
+    "inLibrary": "En tu biblioteca",
+    "moreGames": "Más juegos",
+    "searching": "Buscando…",
+    "noResults": "Ningún juego coincide.",
+    "selected_one": "{{count}} juego en la misión",
+    "selected_many": "{{count}} juegos en la misión",
+    "selected_other": "{{count}} juegos en la misión"
+  },
+  "suggestions": {
+    "seriesDetail_one": "Tienes {{count}}",
+    "seriesDetail_many": "Tienes {{count}}",
+    "seriesDetail_other": "Tienes {{count}}",
+    "seriesDone_one": "Tienes {{count}} · {{done}} terminados",
+    "seriesDone_many": "Tienes {{count}} · {{done}} terminados",
+    "seriesDone_other": "Tienes {{count}} · {{done}} terminados",
+    "unfinishedName": "Termina lo que empezaste",
+    "unfinishedDetail_one": "{{count}} jugando o en pausa",
+    "unfinishedDetail_many": "{{count}} jugando o en pausa",
+    "unfinishedDetail_other": "{{count}} jugando o en pausa",
+    "playedName": "Jugados, nunca terminados",
+    "playedDetail_one": "{{count}} juego con horas",
+    "playedDetail_many": "{{count}} juegos con horas",
+    "playedDetail_other": "{{count}} juegos con horas",
+    "expansionsName": "Expansiones esperando",
+    "expansionsDetail_one": "{{count}} de juegos que terminaste",
+    "expansionsDetail_many": "{{count}} de juegos que terminaste",
+    "expansionsDetail_other": "{{count}} de juegos que terminaste",
+    "hide": "Ocultar",
+    "hideHint": "Oculta las sugerencias; Ver sugerencias las trae de vuelta",
+    "scrollLeft": "Sugerencias anteriores",
+    "scrollRight": "Más sugerencias"
+  },
+  "detail": {
+    "notFound": "Esta misión ya no está."
+  },
+  "delete": {
+    "title": "¿Eliminar esta misión?",
+    "message": "Se eliminará {{name}}. Tus juegos y todo lo que anotaste se quedan en tu biblioteca.",
+    "confirm": "Eliminar"
+  },
+  "addTo": {
+    "title": "Añadir a una misión",
+    "subtitle": "{{title}} en tus misiones",
+    "empty": "Todavía no hay misiones."
+  },
+  "gameDetail": {
+    "title": "Misiones"
+  },
+  "finale": {
+    "kicker": "Misión cumplida",
+    "summary_one": "{{count}} juego · {{hours}}",
+    "summary_many": "{{count}} juegos · {{hours}}",
+    "summary_other": "{{count}} juegos · {{hours}}",
+    "since": "Empezada el {{date}}",
+    "close": "Seguir",
+    "open": "Ver la misión"
+  },
+  "toasts": {
+    "created": "{{name}} ya está en marcha",
+    "saved": "Misión guardada",
+    "deleted": "Misión eliminada",
+    "saveFailed": "No se pudo guardar la misión",
+    "deleteFailed": "No se pudo eliminar la misión",
+    "gameDone": "{{done}} de {{counted}} en {{name}}",
+    "gameDoneUpNext": "Lo siguiente: {{title}}",
+    "addedToJourney": "Añadido a {{name}}",
+    "removedFromJourney": "Quitado de {{name}}",
+    "journeysUpdated": "Misiones actualizadas",
+    "addedToLibrary": "{{title}} está en tu biblioteca"
+  },
+  "saga": {
+    "subtitle": "Todos los juegos de la saga, del más nuevo al más antiguo. Los tuyos están marcados.",
+    "filters": {
+      "main": "Principales",
+      "remakes": "Remakes y remasters"
+    },
+    "loading": "Buscando todos los juegos de la saga…",
+    "empty": "IGDB no tiene juegos para esta saga.",
+    "error": "No se pudo conectar con IGDB. Inténtalo en un momento.",
+    "searchPlaceholder": "Buscar en esta saga",
+    "noMatch": "Ningún juego de esta saga coincide."
+  },
+  "shelfPicker": {
+    "title": "De una estantería",
+    "subtitle": "Elige una estantería y luego los juegos que quieres en el camino.",
+    "empty": "Todavía no hay estanterías.",
+    "gamesSubtitle": "En el orden de la estantería. Marca los de esta misión; la estantería no cambia.",
+    "emptyShelf": "Esta estantería todavía no tiene juegos.",
+    "searchPlaceholder": "Buscar en esta estantería",
+    "noMatch": "Ningún juego de esta estantería coincide."
+  },
+  "share": {
+    "dialogTitle": "Compartir misión",
+    "kicker": "Misión",
+    "kickerComplete": "Misión cumplida",
+    "headlineComplete": "{{done}}/{{counted}}",
+    "since": "Desde el {{date}}",
+    "period": "{{from}} → {{to}}",
+    "descriptionProgress": "{{name}}: {{done}} de {{counted}} hasta ahora, en LastSave.",
+    "descriptionComplete": "{{name}}: los {{count}} hechos, {{hours}} jugadas, en LastSave.",
+    "hoursChart": "En qué se fueron las horas",
+    "hoursChartRest_one": "+{{count}} juego más",
+    "hoursChartRest_many": "+{{count}} juegos más",
+    "hoursChartRest_other": "+{{count}} juegos más"
+  },
+  "list": {
+    "inLibrary": "En tu biblioteca",
+    "selected_one": "{{count}} elegido · {{owned}} en tu biblioteca",
+    "selected_many": "{{count}} elegidos · {{owned}} en tu biblioteca",
+    "selected_other": "{{count}} elegidos · {{owned}} en tu biblioteca",
+    "confirm": "Añadir a la misión",
+    "onJourney": "En la misión",
+    "clearSearch": "Borrar búsqueda",
+    "selectAll": "Elegir todos",
+    "selectNone": "Quitar todos"
+  },
+  "goty": {
+    "title": "Juegos del Año",
+    "subtitle": "El ganador de cada año, del más nuevo al más antiguo. Marca los de esta misión.",
+    "journeyName": "Juegos del Año",
+    "loading": "Reuniendo cada Juego del Año…",
+    "empty": "No hay ganadores para mostrar.",
+    "searchPlaceholder": "Buscar entre los ganadores",
+    "noMatch": "Ningún ganador coincide."
+  }
+}

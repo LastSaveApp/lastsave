@@ -1,0 +1,22 @@
+{
+  "items": {
+    "home": "Inicio",
+    "library": "Biblioteca",
+    "explore": "Explorar",
+    "shelves": "Estanterías",
+    "journeys": "Misiones",
+    "settings": "Ajustes",
+    "profile": "Perfil"
+  },
+  "labels": {
+    "localUser": "Usuario local"
+  },
+  "tooltips": {
+    "collapseShelves": "Contraer estanterías",
+    "expandShelves": "Expandir estanterías",
+    "collapseSidebar": "Contraer barra lateral",
+    "expandSidebar": "Expandir barra lateral",
+    "collapseJourneys": "Contraer misiones",
+    "expandJourneys": "Expandir misiones"
+  }
+}

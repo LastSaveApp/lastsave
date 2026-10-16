@@ -1,0 +1,116 @@
+{
+  "select": {
+    "placeholder": "Elige una opción…",
+    "searchPlaceholder": "Buscar…",
+    "noMatches": "Sin resultados"
+  },
+  "multiSelect": {
+    "placeholder": "Elige opciones…",
+    "selectedCount_one": "{{count}} opción seleccionada",
+    "selectedCount_many": "{{count}} de opciones seleccionadas",
+    "selectedCount_other": "{{count}} opciones seleccionadas",
+    "removeTag": "Quitar {{label}}"
+  },
+  "checkboxMultiSelect": {
+    "searchPlaceholder": "Buscar opciones…",
+    "selectedCount_one": "{{count}} seleccionada",
+    "selectedCount_many": "{{count}} seleccionadas",
+    "selectedCount_other": "{{count}} seleccionadas",
+    "selectAll": "Seleccionar todo",
+    "unselectAll": "Quitar selección",
+    "noMatches": "No se encontraron resultados",
+    "clearSearch": "Borrar búsqueda",
+    "openOptions": "Abrir opciones",
+    "closeOptions": "Cerrar opciones"
+  },
+  "datePicker": {
+    "placeholder": "Elige una fecha",
+    "today": "Hoy · {{date}}",
+    "hintPickYear": "Haz clic en un año y luego elige un día",
+    "hintChangeYear": "Haz clic en {{month}} para cambiar el año"
+  },
+  "timePicker": {
+    "now": "Ahora",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "clock": "Reloj",
+    "twelveHour": "12 horas",
+    "twentyFourHour": "24 horas"
+  },
+  "colorPicker": {
+    "placeholder": "#f5c542 o rgb(245,197,66)",
+    "open": "Abrir selector de color",
+    "pickerButton": "Selector",
+    "saturation": "Saturación y brillo del color",
+    "hue": "Tono del color",
+    "selected": "Seleccionado",
+    "presets": {
+      "gold": "Dorado",
+      "red": "Rojo",
+      "orange": "Naranja",
+      "green": "Verde",
+      "emerald": "Esmeralda",
+      "accent": "Acento",
+      "blue": "Azul",
+      "violet": "Violeta",
+      "pink": "Rosa",
+      "slate": "Pizarra",
+      "gray": "Gris",
+      "dark": "Oscuro"
+    }
+  },
+  "video": {
+    "loading": "Cargando video…",
+    "unavailableTitle": "Vista previa no disponible",
+    "unavailableBody": "No se pudo cargar este archivo para la vista previa.",
+    "seek": "Moverse por el video",
+    "volume": "Ajustar el volumen del video",
+    "mute": "Silenciar video",
+    "unmute": "Activar el sonido del video",
+    "fullscreen": "Ver video en pantalla completa",
+    "play": "Reproducir video"
+  },
+  "avatar": {
+    "pickTitle": "Haz clic para elegir una imagen local",
+    "previewAlt": "Vista previa del avatar",
+    "placeholder": "https://... o C:\\ruta\\a\\imagen.png",
+    "clear": "Quitar imagen",
+    "pickLocalFile": "Elegir archivo local",
+    "hint": "Pega la URL de una imagen o elige un archivo local para tu avatar."
+  },
+  "gallery": {
+    "screenshotAlt": "Captura {{index}}",
+    "mediaAlt": "Archivo {{index}}",
+    "close": "Cerrar galería",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "goToLog": "Ir a la entrada",
+    "goToReview": "Ir a la reseña",
+    "fullscreen": "Llenar la ventana (F)",
+    "exitFullscreen": "Volver al tamaño normal (F)"
+  },
+  "timeToBeat": {
+    "rush": "Rápido",
+    "normal": "Normal",
+    "complete": "Completo"
+  },
+  "gameCard": {
+    "edit": "Editar juego",
+    "remove": "Quitar juego"
+  },
+  "toast": {
+    "dismiss": "Cerrar"
+  },
+  "alert": {
+    "dismiss": "Cerrar aviso"
+  },
+  "yearRange": {
+    "from": "Desde",
+    "to": "Hasta",
+    "placeholder": "Año",
+    "clearFrom": "Borrar año inicial",
+    "clearTo": "Borrar año final",
+    "previousDecade": "Década anterior",
+    "nextDecade": "Década siguiente"
+  }
+}

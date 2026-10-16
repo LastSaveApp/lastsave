@@ -1,0 +1,447 @@
+{
+  "detectionPrompt": {
+    "switchGame": {
+      "title": "{{next}} acaba de empezar",
+      "message": "Estás jugando {{current}}. ¿Pasar la sesión a {{next}}? Primero revisarás la sesión de {{current}}.",
+      "confirm": "Cambiar",
+      "cancel": "Ignorar"
+    },
+    "gameChange": {
+      "title": "Cambio de juego en el emulador",
+      "message": "LastSave detectó actividad de {{title}} en {{process}}. ¿Pasar la detección a este juego el resto de la sesión?",
+      "confirm": "Cambiar de juego",
+      "cancel": "Mantener el actual"
+    }
+  },
+  "feedback": {
+    "launchFailed": "LastSave empezó a detectar la sesión, pero no pudo abrir este juego: {{error}}",
+    "launchedNoTracking": "Abierto, pero no hay ejecutable que vigilar: esta sesión va con el cronómetro.",
+    "trackingOnlyNoLaunch": "Sesión iniciada. Abre el juego cuando quieras y LastSave se engancha en cuanto lo detecte.",
+    "trackingOnlyNoConfig": "Sesión iniciada sin datos para abrir el juego. LastSave la llevará con el cronómetro.",
+    "launchOnlyNoConfig": "La detección está desactivada para este juego y no hay con qué abrirlo.",
+    "launchOnlyFailed": "No se pudo abrir este juego: {{error}}",
+    "detectOnlyEntry": "Este juego está configurado para no abrirse nunca desde LastSave. La detección empezó: ábrelo tú y LastSave se engancha.",
+    "launchDisabledGlobally": "Abrir juegos desde LastSave está desactivado en Ajustes.",
+    "emulatorNoCore": "RetroArch se abrió sin el juego: no hay un core asignado para este sistema. Asígnalo en Ajustes → Juegos y escaneo → Emuladores.",
+    "emulatorStillOpen": "{{emulator}} sigue abierto. Ciérralo y vuelve a darle a Jugar.",
+    "discTrackMissing": "El disco de este juego está incompleto: falta {{file}} en su carpeta. Vuelve a ponerlo junto al .cue e inténtalo otra vez.",
+    "entryNotFound": "No se encontró este juego en la Biblioteca.",
+    "unknown": "Pasó algo inesperado al iniciar esta sesión."
+  },
+  "sessionButton": {
+    "play": "Jugar",
+    "start": "Iniciar",
+    "paused": "En pausa",
+    "playing": "Jugando",
+    "resume": "Reanudar sesión",
+    "queued": "{{title}} empieza en cuanto termines de revisar la sesión actual.",
+    "starting": "Iniciando…",
+    "startingSession": "Iniciando la sesión",
+    "yourGame": "tu juego",
+    "menu": "Opciones de sesión",
+    "playAndTrack": "Jugar (abrir y detectar)",
+    "launchOnly": "Jugar (sin detectar)",
+    "timerOnly": "Solo el cronómetro",
+    "launchGame": "Abrir el juego",
+    "launchGameHintOn": "Lo abre y lo detecta.",
+    "launchGameHintOnUntracked": "Solo lo abre.",
+    "launchGameHintOff": "Solo cronómetro.",
+    "launchGameHintUnavailable": "Nada que abrir.",
+    "launchGameHintNotOwned": "No lo tienes.",
+    "launchGameHintNotInstalled": "No instalado.",
+    "launchGameHintMissing": "Archivos no encontrados.",
+    "filesMissing": "No está en este PC",
+    "findAgain": "Volver a encontrarlo",
+    "findAgainHint": "Dile a LastSave dónde está ahora.",
+    "markUninstalled": "Marcar como desinstalado",
+    "markUninstalledHint": "Ya no está. Conserva su historia.",
+    "launchGameHintOffline": "Unidad desconectada.",
+    "recordOnlyTitle": "Jugado en consola",
+    "recordOnlyHint": "LastSave guarda su historial, pero no puede abrirlo.",
+    "launchGameHintGloballyOff": "Desactivado en Ajustes.",
+    "behaviorUpdateFailed": "No se pudo cambiar cómo se abre este juego.",
+    "trackGame": "Detectar el juego",
+    "trackGameHintOn": "Detecta tus sesiones.",
+    "trackGameHintOff": "Nunca se detecta.",
+    "trackGameHintUnavailable": "Nada que detectar.",
+    "trackGameHintGloballyOff": "Desactivado en Ajustes.",
+    "trackingUpdateFailed": "No se pudo cambiar la detección de este juego.",
+    "fullscreenHint": {
+      "title": "{{title}} se ejecutó en pantalla completa exclusiva la última vez",
+      "description": "El overlay no puede aparecer encima. En los ajustes de video del juego, elige pantalla completa sin bordes o en ventana; LastSave sigue detectando de cualquier forma.",
+      "dismiss": "No recordármelo para este juego"
+    },
+    "startBlocked": "No se pudo iniciar la sesión.",
+    "startFailed": "No se pudo iniciar esta sesión."
+  },
+  "confirm": {
+    "replaceActive": {
+      "title": "Ya hay otra sesión activa",
+      "message": "LastSave está detectando {{active}}. ¿Terminar esa sesión, revisarla y luego empezar {{next}}?",
+      "confirm": "Terminar y cambiar"
+    },
+    "closeEmulator": {
+      "title": "{{emulator}} ya está abierto",
+      "message": "Para abrir {{next}}, LastSave cierra {{emulator}} y lo vuelve a abrir con el juego. Si hay algo sin guardar, te lo preguntará primero.",
+      "confirm": "Cerrar y abrir"
+    }
+  },
+  "dashboard": {
+    "playingMode": "Partida en curso",
+    "trackingLine": "Detectando <target>{{title}}</target> · {{source}}",
+    "source": {
+      "detected": "detectado",
+      "manual": "inicio manual"
+    },
+    "liveSession": "Sesión en vivo",
+    "paused": "En pausa",
+    "borderlessTitle": "El overlay no puede mostrarse sobre este juego ahora mismo.",
+    "borderlessBody": "Se está ejecutando en pantalla completa nativa. LastSave sigue detectando en segundo plano; pon el juego sin bordes o en ventana para usar el overlay. Los atajos y esta ventana siguen funcionando.",
+    "actions": {
+      "pause": "Pausar",
+      "resume": "Reanudar",
+      "stop": "Detener",
+      "addLog": "Anotar",
+      "screenshot": "Captura",
+      "clip": "Clip",
+      "record": "Grabar",
+      "stopRecording": "Detener grabación"
+    },
+    "thisSession": {
+      "title": "Esta sesión",
+      "empty": "Aquí aparecen las capturas y las notas que tomes mientras juegas."
+    },
+    "overlay": {
+      "title": "Overlay",
+      "compact": "Compacto",
+      "expanded": "Expandido",
+      "hidden": "Oculto",
+      "resetPosition": "Restablecer posición",
+      "shortcuts": {
+        "overlay": "Mostrar / minimizar overlay",
+        "focus": "Modo enfoque",
+        "hide": "Ocultar / mostrar overlay",
+        "screenshot": "Captura",
+        "quickJournal": "Añadir nota",
+        "pause": "Pausar / reanudar",
+        "stop": "Terminar sesión",
+        "clip": "Clip de los últimos segundos",
+        "record": "Grabar"
+      },
+      "shortcutUnavailable": "Lo usa otra app",
+      "unavailable": "No disponible con el juego en pantalla completa nativa.",
+      "unbound": "Sin asignar"
+    },
+    "presentationMode": {
+      "nativeFullscreen": "Pantalla completa nativa",
+      "borderless": "Sin bordes",
+      "windowed": "En ventana",
+      "detecting": "Comprobando la ventana"
+    },
+    "liveOnPid": "PID {{pid}}",
+    "configuredExe": "Esperando el ejecutable",
+    "manualTrackingOnly": "Solo cronómetro",
+    "unresolvedEmulator": "LastSave está detectando la sesión del emulador mientras identifica el juego exacto.",
+    "stopConfirm": {
+      "title": "¿Terminar esta sesión?",
+      "body": "Tu tiempo en {{title}} se guarda y se abre la revisión de la sesión."
+    },
+    "shortcuts": {
+      "title": "Atajos",
+      "hint": "Haz clic para cambiarlo"
+    }
+  },
+  "errors": {
+    "screenshotFailed": "No se pudo tomar la captura.",
+    "missingTrackingData": "A esta sesión le faltan datos de detección necesarios."
+  },
+  "notifications": {
+    "overlayUnavailableFullscreen": {
+      "title": "LastSave",
+      "body": "El overlay no puede aparecer sobre este juego en pantalla completa nativa. LastSave sigue detectando; ponlo sin bordes para usar el overlay."
+    },
+    "clipNoFileGameBar": {
+      "title": "No se guardó ningún clip",
+      "body": "Xbox Game Bar no creó ningún archivo. Activa «Grabar lo que sucedió» en Configuración › Juegos › Capturas e inténtalo otra vez."
+    },
+    "clipNoFileNvidia": {
+      "title": "No se guardó ningún clip",
+      "body": "El overlay de NVIDIA no creó ningún archivo. Activa la Repetición instantánea en el overlay de NVIDIA (Alt+Z) e inténtalo otra vez."
+    }
+  },
+  "modeHost": {
+    "sessionFallback": "Sesión",
+    "currentTarget": "Juego actual"
+  },
+  "finalization": {
+    "title": "Terminar sesión",
+    "trackedSession": "Sesión detectada",
+    "recordedElapsed": "Tiempo registrado:",
+    "chooseGame": "Elige el juego",
+    "saveSessionTo": "Guardar la sesión en",
+    "playedOn": "Jugado el",
+    "adjustDuration": "Ajustar duración",
+    "hoursSuffix": "h",
+    "minutesSuffix": "min",
+    "endReason": "Motivo del fin",
+    "note": "Nota",
+    "noteOptional": "(opcional)",
+    "notePlaceholder": "¿Algo que valga la pena recordar de esta sesión?",
+    "discard": "Descartar",
+    "saving": "Guardando…",
+    "saveSession": "Guardar sesión",
+    "durationError": "La duración de la sesión tiene que ser mayor que cero.",
+    "futureDateError": "La fecha de la sesión no puede ser futura.",
+    "selectGameError": "Elige el juego de esta sesión antes de guardar.",
+    "saveFailed": "No se pudo guardar esta sesión.",
+    "saved": "Sesión guardada.",
+    "confirmDiscardTitle": "¿Descartar esta sesión?",
+    "confirmDiscardMessage": "Se borra lo pendiente sin guardar ninguna entrada de sesión.",
+    "confirmDiscardConfirm": "Descartar sesión",
+    "confirmDiscardCancel": "Conservarla",
+    "helper": {
+      "recovered": "LastSave se cerró de forma inesperada durante esta sesión. El tiempo de abajo es lo registrado hasta el último guardado; ajústalo si seguiste jugando.",
+      "fullscreenSilent": "Este juego se ejecutó en pantalla completa exclusiva, así que el overlay no pudo aparecer; LastSave detectó la sesión en segundo plano. Para tener el overlay la próxima vez, elige pantalla completa sin bordes o en ventana en los ajustes de video del juego.",
+      "unresolvedEmulator": "Detectamos esta sesión del emulador, pero no pudimos identificar el juego. Elige el juego que jugaste antes de guardar.",
+      "emulatorGameChange": "LastSave detectó un posible cambio de ROM o de disco durante esta sesión del emulador. Elige el juego que mejor corresponda antes de guardar.",
+      "attachedOptions": "Elige si esta sesión se guarda en el juego base o en uno de sus DLC o expansiones."
+    }
+  },
+  "followUp": {
+    "title": "Sesión guardada",
+    "logged": "Anotado: {{duration}}",
+    "updateStatus": "Cambiar estado",
+    "updateStatusHint": "Ajusta tu progreso.",
+    "achievement": "Logro",
+    "achievementHint": "Marca un logro de esta sesión.",
+    "addJournal": "Añadir entrada de diario",
+    "addJournalHint": "Guarda un recuerdo o una nota de esta sesión.",
+    "noThanks": "No, gracias"
+  },
+  "overlay": {
+    "playing": "Jugando",
+    "paused": "En pausa",
+    "minimize": "Minimizar",
+    "resume": "Reanudar",
+    "pause": "Pausar",
+    "stop": "Detener",
+    "log": "Anotar",
+    "screenshot": "Captura",
+    "dragHint": "Arrastrar",
+    "note": {
+      "placeholder": "Nota rápida…",
+      "hint": "Enter guarda · Esc cancela",
+      "save": "Guardar"
+    },
+    "clip": "Clip",
+    "record": "Grabar",
+    "stopRecording": "Parar",
+    "compactHint": "Abre el overlay con <shortcut>{{shortcut}}</shortcut>",
+    "hideOverlay": "Ocultar overlay",
+    "recording": "Grabando",
+    "screenshotLong": "Captura",
+    "clipLong": "Clip de 30 s",
+    "focus": {
+      "close": "Volver al juego",
+      "closeHint": "<shortcut/> o <esc/> vuelve al juego"
+    },
+    "focusMode": "Enfoque",
+    "minimizeHint": "{{shortcut}} para minimizar",
+    "hide": "Ocultar",
+    "file": "Archivar",
+    "pad": {
+      "compactHint": "<chord></chord> panel · mantén para el modo enfoque",
+      "keepHolding": "Mantén para el modo enfoque",
+      "foldHint": "Toca <fold></fold> para plegar"
+    },
+    "countdown": {
+      "screenshot_one": "Captura en {{count}}",
+      "screenshot_many": "Captura en {{count}}",
+      "screenshot_other": "Captura en {{count}}",
+      "record_one": "Grabando en {{count}}",
+      "record_many": "Grabando en {{count}}",
+      "record_other": "Grabando en {{count}}",
+      "hint": "cierra el menú"
+    }
+  },
+  "captures": {
+    "toast": {
+      "screenshot": "Captura guardada",
+      "clip": "Clip guardado",
+      "note": "Nota guardada",
+      "file": "Decidir",
+      "tagHint": "{{chord}} para archivar"
+    },
+    "strip": {
+      "count_one": "{{count}} elemento",
+      "count_many": "{{count}} elementos",
+      "count_other": "{{count}} elementos",
+      "edit": "Editar",
+      "discard": "Descartar",
+      "discardConfirmTitle": "¿Descartar esta captura?",
+      "discardConfirmMessage": "Sale de la lista ahora y se borra cuando se guarde la sesión.",
+      "discardConfirm": "Descartar",
+      "view": "Abrir"
+    },
+    "discarded": "Captura descartada.",
+    "errors": {
+      "fileFailed": "No se pudo archivar esta captura."
+    },
+    "chip": {
+      "journal": "Diario",
+      "achievement": "Logro",
+      "filed": "Guardado"
+    },
+    "plan": {
+      "title": {
+        "screenshot": "¿Qué es esta captura?",
+        "clip": "¿Qué es este clip?",
+        "note": "Editar esta nota"
+      },
+      "choices": {
+        "journal": "Diario",
+        "achievement": "Logro"
+      },
+      "save": "Conservar",
+      "discard": "Descartar",
+      "achievementTitle": "Título *",
+      "problems": {
+        "emptyJournal": "Una entrada de diario necesita una nota."
+      }
+    },
+    "note": {
+      "title": "Nota de esta sesión",
+      "placeholder": "¿Qué pasó?",
+      "hint": "Se guarda con la sesión como entrada de diario. Ctrl+Enter para guardar.",
+      "save": "Añadir nota"
+    }
+  },
+  "consolidation": {
+    "kicker": "Sesión terminada",
+    "nextUp": "A continuación: {{title}}. Su sesión empieza cuando guardes o descartes esta.",
+    "items": {
+      "title": "Lo que reuniste en esta sesión",
+      "empty": "No se capturó nada en esta sesión.",
+      "captionPlaceholder": "Di algo sobre esto (opcional)",
+      "descriptionPlaceholder": "Detalles (opcional)"
+    },
+    "problems": {
+      "emptyJournal": "Una entrada de diario necesita una nota, una imagen o un video."
+    },
+    "saved_zero": "Sesión guardada.",
+    "saved_one": "Sesión guardada con {{count}} entrada.",
+    "saved_many": "Sesión guardada con {{count}} entradas.",
+    "saved_other": "Sesión guardada con {{count}} entradas.",
+    "partialFailure_one": "Sesión guardada, pero {{count}} elemento no se pudo archivar. Sigue en tus capturas.",
+    "partialFailure_many": "Sesión guardada, pero {{count}} elementos no se pudieron archivar. Siguen en tus capturas.",
+    "partialFailure_other": "Sesión guardada, pero {{count}} elementos no se pudieron archivar. Siguen en tus capturas.",
+    "confirmDiscardMessage": "Se descarta el tiempo registrado y no se guarda nada. Lo que reunió esta sesión se queda en el disco, sin archivar.",
+    "toBeLogged": "por anotar",
+    "tally": {
+      "screenshots_one": "{{count}} captura",
+      "screenshots_many": "{{count}} capturas",
+      "screenshots_other": "{{count}} capturas",
+      "clips_one": "{{count}} clip",
+      "clips_many": "{{count}} clips",
+      "clips_other": "{{count}} clips",
+      "notes_one": "{{count}} nota",
+      "notes_many": "{{count}} notas",
+      "notes_other": "{{count}} notas",
+      "achievementBadge": "{{label}}: {{count}}",
+      "journals_one": "{{count}} entrada de diario",
+      "journals_many": "{{count}} entradas de diario",
+      "journals_other": "{{count}} entradas de diario",
+      "achievements_one": "{{count}} logro",
+      "achievements_many": "{{count}} logros",
+      "achievements_other": "{{count}} logros"
+    }
+  },
+  "clips": {
+    "recorders": {
+      "gamebar": "Xbox Game Bar",
+      "nvidia": "NVIDIA App",
+      "none": "ningún grabador",
+      "amd": "AMD Adrenalin"
+    },
+    "unavailable": {
+      "noRecorder": "No se encontró ningún grabador de clips. Activa Xbox Game Bar o el overlay de NVIDIA para grabar clips desde aquí.",
+      "gameBarOff": "La captura de Xbox Game Bar está desactivada en Configuración › Juegos › Capturas de Windows.",
+      "nvidiaOverlayOff": "La NVIDIA App no se está ejecutando.",
+      "amdSoftwareOff": "AMD Adrenalin no se está ejecutando."
+    },
+    "failed": {
+      "clip": "Tu último clip no guardó nada. Puede que tu grabador necesite activar una opción.",
+      "record": "Tu última grabación no guardó nada. Puede que tu grabador necesite activar una opción.",
+      "both": "Tu último clip y tu última grabación no guardaron nada. Puede que tu grabador necesite activar una opción.",
+      "check": "Revisar"
+    },
+    "setUp": "Configurar",
+    "pending": {
+      "clip": "Guardando los últimos segundos…",
+      "record": "Iniciando la grabación…",
+      "test-clip": "Probando el clip…",
+      "test-record": "Probando la grabación…"
+    },
+    "notice": {
+      "recorderNoFile": "Tu grabador no guardó ningún clip. Revísalo desde el overlay.",
+      "recorderNoRecording": "Tu grabador no guardó ninguna grabación. Revísalo desde el overlay.",
+      "fullscreenBlocked": "La pantalla completa exclusiva oculta el overlay. Pon este juego sin bordes para verlo.",
+      "recorderUnavailable": "Tu grabador no responde ahora mismo.",
+      "clipBecameScreenshot": "Ningún grabador pudo hacer el clip, así que se guardó una captura del momento.",
+      "clipKeptScreenshot": "El clip no se guardó. Se conservó una captura del momento."
+    },
+    "changeRecorder": "Cambiar",
+    "recorderLabel": "Clips y grabación:"
+  },
+  "setup": {
+    "title": "Clips y grabación",
+    "subtitle": "Opcional. Xbox Game Bar, la NVIDIA App o AMD Adrenalin graban el video; LastSave recoge el archivo y lo guarda con tu sesión.",
+    "recorderStep": "Grabador",
+    "recorders": {
+      "autoWith": "Auto: {{recorder}}",
+      "off": "Desactivado"
+    },
+    "detection": {
+      "checking": "Buscando un grabador…",
+      "found": "Listo para usar {{recorder}}.",
+      "none": "Todavía no hay ningún grabador en este PC."
+    },
+    "howTo": {
+      "title": "Qué activar",
+      "gamebar": {
+        "clip": "Clip: en Configuración › Juegos › Capturas de Windows, activa «Grabar lo que sucedió».",
+        "record": "Grabar: funciona en cuanto está activada la captura de Game Bar."
+      },
+      "nvidia": {
+        "clip": "Clip: abre el overlay de NVIDIA (Alt+Z) y activa la Repetición instantánea.",
+        "record": "Grabar: funciona en cuanto el overlay de NVIDIA está activado en la NVIDIA App."
+      },
+      "amd": {
+        "clip": "Clip: en AMD Software, Grabar y transmitir, activa la Repetición instantánea.",
+        "record": "Grabar: en AMD Software, Grabar y transmitir, activa la grabación."
+      }
+    },
+    "testStep": "Comprueba que funciona",
+    "clear": "Borrar resultados",
+    "tests": {
+      "clip": "Clip de los últimos segundos",
+      "record": "Grabar unos segundos",
+      "run": "Probar",
+      "retry": "Reintentar"
+    },
+    "testsCleanUpInGame": "El juego pasa al frente unos segundos para que tu grabador lo capture y luego vuelve este panel. El archivo se borra enseguida.",
+    "testsNeedGame": "La prueba necesita un juego delante de tu grabador, así que se hace mientras juegas: pulsa Clip o Grabar en el overlay y la primera vez es la prueba. Si no se guarda nada, el overlay te avisa y te trae de vuelta aquí.",
+    "fix": {
+      "title": "No llegó nada",
+      "folder": "Si tus capturas van a una carpeta propia, añádela en Ajustes, Clips.",
+      "openWindows": "Abrir la configuración de capturas de Windows",
+      "openRecorder": "Abrir {{recorder}}"
+    },
+    "done": "Listo",
+    "unavailable": {
+      "gamebar": "La captura de Xbox Game Bar está desactivada en Configuración, Juegos, Capturas de Windows.",
+      "nvidia": "La NVIDIA App no se está ejecutando en este PC.",
+      "amd": "AMD Software: Adrenalin Edition no se está ejecutando en este PC."
+    }
+  }
+}

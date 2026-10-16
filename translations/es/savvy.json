@@ -1,0 +1,166 @@
+{
+  "mascotAlt": "La mascota de LastSave",
+  "shuffle": "Otra frase",
+  "quips": {
+    "q001": {
+      "text": "Psycho Mantis leyó tu memory card en 1998. Kojima lleva presumiendo desde entonces.",
+      "source": "Metal Gear Solid"
+    },
+    "q002": {
+      "text": "La cámara era tan importante que tuvo su propio personaje: Lakitu.",
+      "source": "Super Mario 64"
+    },
+    "q003": {
+      "text": "Es peligroso ir solo. Toma una partida guardada.",
+      "source": "The Legend of Zelda"
+    },
+    "q004": {
+      "text": "El pastel era mentira. Tus pendientes no.",
+      "source": "Portal"
+    },
+    "q005": {
+      "text": "Un juego retrasado acaba siendo bueno. Tus pendientes están de acuerdo.",
+      "source": "Shigeru Miyamoto"
+    },
+    "q006": {
+      "text": "Nació como un respiro de dispararle a aliens. Terminó siendo el arcade más jugado de la historia.",
+      "source": "Pac-Man"
+    },
+    "q007": {
+      "text": "Ha corrido en una prueba de embarazo. Nada está a salvo.",
+      "source": "Doom"
+    },
+    "q008": {
+      "text": "Cada hoguera es una promesa: vas a morir y vas a volver.",
+      "source": "Dark Souls"
+    },
+    "q009": {
+      "text": "Ha sobrevivido a la Unión Soviética, a la Game Boy y a casi todas tus consolas.",
+      "source": "Tetris"
+    },
+    "q010": {
+      "text": "Se aceleraba al limpiar la pantalla porque el hardware iba menos cargado. Un bug se volvió regla del género.",
+      "source": "Space Invaders"
+    },
+    "q011": {
+      "text": "El primer easter egg fue un programador escondiendo su nombre en el juego. Atari no le daba créditos.",
+      "source": "Adventure, Atari 2600"
+    },
+    "q012": {
+      "text": "Kojima lo lanzó con Raiden y dejó que los tráilers mintieran. Troleo legendario.",
+      "source": "Metal Gear Solid 2"
+    },
+    "q013": {
+      "text": "Arriba, arriba, abajo, abajo. Sigue siendo la secuencia de botones más famosa del planeta.",
+      "source": "Konami"
+    },
+    "q014": {
+      "text": "Half-Life 3 sigue siendo el juego más esperado que no existe.",
+      "source": "Valve"
+    },
+    "q015": {
+      "text": "El Templo del Agua le enseñó a una generación lo que es el miedo de verdad.",
+      "source": "The Legend of Zelda: Ocarina of Time"
+    },
+    "q016": {
+      "text": "Lo crearon para que Mario pareciera lento. Mario sigue aquí.",
+      "source": "Sonic the Hedgehog"
+    },
+    "q017": {
+      "text": "Solo necesitaba una instrucción: no dejes pasar la pelota si quieres un récord.",
+      "source": "Pong"
+    },
+    "q018": {
+      "text": "El equipo nunca había hecho un shooter. Y entonces hizo EL shooter.",
+      "source": "GoldenEye 007"
+    },
+    "q019": {
+      "text": "Dieciséis jefes y ni un solo enemigo normal. Con dieciséis bastaba.",
+      "source": "Shadow of the Colossus"
+    },
+    "q020": {
+      "text": "Traía un juego de cartas tan bueno que acabó teniendo su propio juego.",
+      "source": "The Witcher 3: Wild Hunt"
+    },
+    "q021": {
+      "text": "Alabado sea el sol. O por lo menos el punto de guardado.",
+      "source": "Dark Souls"
+    },
+    "q022": {
+      "text": "La primera versión se hizo en seis días. El mundo todavía se sigue terminando.",
+      "source": "Minecraft"
+    },
+    "q023": {
+      "text": "La caja dice The Legend of Zelda. Zelda no es a quien controlas.",
+      "source": "The Legend of Zelda"
+    },
+    "q024": {
+      "text": "Los speedrunners lo acaban en menos de cinco minutos. Tú, con calma.",
+      "source": "Super Mario Bros."
+    },
+    "q025": {
+      "text": "PlayStation existe porque Nintendo dejó plantada a Sony. Historia rencorosa, consola legendaria.",
+      "source": "Sony & Nintendo"
+    },
+    "q026": {
+      "text": "Está escrito casi entero en ensamblador. Por una sola persona.",
+      "source": "RollerCoaster Tycoon"
+    },
+    "q027": {
+      "text": "Tom Nook nunca te ha cobrado intereses. El mejor casero de los videojuegos.",
+      "source": "Animal Crossing"
+    },
+    "q028": {
+      "text": "Tardó tanto que los fans le montaron una religión.",
+      "source": "Hollow Knight: Silksong"
+    },
+    "q029": {
+      "text": "«Prepárate para morir» era un reto. Millones lo aceptaron.",
+      "source": "FromSoftware"
+    },
+    "q030": {
+      "text": "MissingNo. te regalaba Caramelos Raros infinitos. El mejor bug que se ha publicado.",
+      "source": "Pokémon Rojo"
+    },
+    "q031": {
+      "text": "Empezó como un proyecto de estudiantes llamado Narbacular Drop. Valve contrató al equipo entero.",
+      "source": "Portal"
+    },
+    "q032": {
+      "text": "Trece finales en 1995. Los juegos todavía lo están alcanzando.",
+      "source": "Chrono Trigger"
+    },
+    "q033": {
+      "text": "Los NPC tenían horarios. También se te quedaban mirando. Mucho.",
+      "source": "The Elder Scrolls IV: Oblivion"
+    },
+    "q034": {
+      "text": "Puso su nombre en la caja porque sabía que lo ibas a recordar.",
+      "source": "Hideo Kojima"
+    },
+    "q035": {
+      "text": "Lo hizo casi una sola persona y aun así te hizo sentir mal por una pelea.",
+      "source": "Undertale"
+    },
+    "q036": {
+      "text": "Empezó como un juego de arquitectura. Luego se mudó la gente.",
+      "source": "Los Sims"
+    },
+    "q037": {
+      "text": "Retrasaron GTA VI e internet envejeció un año en un día.",
+      "source": "Rockstar Games"
+    },
+    "q038": {
+      "text": "Le enseñó la velocidad a un género que hoy lleva su nombre.",
+      "source": "Super Metroid"
+    },
+    "q039": {
+      "text": "Podías tener un romance con un oso. Y aun así ganó el GOTY.",
+      "source": "Baldur's Gate 3"
+    },
+    "q040": {
+      "text": "Tu partida guardada es un diario que escribiste con un mando.",
+      "source": "LastSave"
+    }
+  }
+}

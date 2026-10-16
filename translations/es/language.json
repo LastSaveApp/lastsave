@@ -1,0 +1,10 @@
+{
+  "code": "es",
+  "name": "Español",
+  "englishName": "Spanish",
+  "status": "official",
+  "maintainers": [
+    { "name": "Miguel Velez", "github": "mvelezg99" }
+  ],
+  "contributors": []
+}

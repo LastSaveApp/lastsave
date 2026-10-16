@@ -1,0 +1,52 @@
+# Checks the translations on every pull request that touches translations/, and on main.
+#
+# `translations/tools/check.mjs` is the same checker the app runs on its own languages (copied from
+# it, with the English in `translations/en/`): keys, placeholders, plural forms, JSON. Errors fail
+# the check; stale strings and formatting are warnings, shown in the log without failing.
+#
+# A pull request from outside the team may not change `en/` or `tools/`: both are copied from the
+# app, so an edit there would be overwritten by the next update, or would change the rules the
+# pull request itself is judged by.
+#
+# Read-only on purpose: `pull_request` from a fork gets no secrets and a read-only token, and this
+# workflow needs nothing more. It never uses `pull_request_target`.
+name: Translations
+
+on:
+  pull_request:
+    paths: ['translations/**']
+  push:
+    branches: [main]
+    paths: ['translations/**']
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      # 22.18+ runs the checker's TypeScript directly (it strips the types).
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      - name: Check every language
+        run: node translations/tools/check.mjs translations
+
+      - name: English and the checker come from the app
+        if: github.event_name == 'pull_request' && github.event.pull_request.user.login != 'mvelezg99'
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          changed=$(git diff --name-only "$BASE" HEAD -- translations/en translations/tools)
+          if [ -n "$changed" ]; then
+            echo "::error::These files are copied from the app and cannot be changed in a pull request:"
+            echo "$changed"
+            echo "If the English is wrong, open an issue instead: https://github.com/LastSaveApp/lastsave/issues/new?template=translation.yml"
+            exit 1
+          fi

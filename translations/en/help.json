@@ -1,0 +1,684 @@
+{
+  "button": {
+    "open": "Help",
+    "guideProgress": "Help · Getting started, {{current}} of {{total}} done"
+  },
+  "dialog": {
+    "title": "Help",
+    "search": {
+      "placeholder": "Search help",
+      "clear": "Clear search",
+      "results": "Results",
+      "empty": "Nothing about “{{query}}” yet."
+    },
+    "sectionCount": "{{learned}}/{{total}}",
+    "sectionLearned": "{{learned}} of {{total}} learned",
+    "tipsSwitch": "Show tips automatically"
+  },
+  "sections": {
+    "guide": "Getting started",
+    "library": "Your library",
+    "organize": "Statuses and board",
+    "shelves": "Shelves",
+    "journeys": "Journeys",
+    "rotation": "Your rotation",
+    "art": "Game art",
+    "logs": "Logs and memories",
+    "playing": "Playing",
+    "captures": "Clips and shortcuts",
+    "gameMode": "Game Mode",
+    "explore": "Explore",
+    "emulators": "Emulators",
+    "data": "Data and support"
+  },
+  "kinds": {
+    "clip": "Clip",
+    "showMe": "Show me",
+    "read": "Read"
+  },
+  "status": {
+    "done": "Learned",
+    "known": "Marked as known",
+    "todo": "Not yet"
+  },
+  "actions": {
+    "showMe": "Show me in app",
+    "doIt": "Show me",
+    "markKnown": "Mark as known"
+  },
+  "guide": {
+    "progress": "{{current}} of {{total}} done",
+    "complete": "All done",
+    "subtitle": "The basics, in the order you'll meet them.",
+    "tagline": "About ten minutes, whenever you like",
+    "fraction": "{{current}}/{{total}}",
+    "fold": "Fold",
+    "hide": "Hide the guide",
+    "show": "Show the guide",
+    "openHelp": "Open Help",
+    "completeTitle": "You've got the basics",
+    "completeBody": "Everything else lives in Help, the ? next to your notifications.",
+    "objectives": {
+      "bringGames": "Import the games on this PC, or from Steam, Epic and Xbox. It runs in the background.",
+      "buildShelf": "While your games come in, make a shelf and add a few that belong together: who you play with, or what mood they fit.",
+      "whatPlaying": "Open your shelf's board and move a game you're playing these days to Playing.",
+      "story": "Open a game and write a line in its journal. Your board move is already there.",
+      "pressStart": "Launch a game from LastSave. The overlay will show you the rest.",
+      "saveSession": "Close the game when you're done and save the session."
+    }
+  },
+  "welcome": {
+    "kicker": "Welcome to LastSave",
+    "title": "Glad you're here",
+    "titleNamed": "Glad you're here, {{name}}",
+    "points": {
+      "import": {
+        "title": "Every library in one place",
+        "body": "This PC, Steam, Epic and Xbox, together."
+      },
+      "track": {
+        "title": "Know what you're playing",
+        "body": "Playing, paused and up next, on one board."
+      },
+      "remember": {
+        "title": "Remember every run",
+        "body": "Sessions, journals and screenshots."
+      }
+    },
+    "getStarted": "Get started",
+    "hint": "A short guide is waiting for you at the bottom left.",
+    "close": "Close"
+  },
+  "coach": {
+    "chapter": "Getting started · {{current}} of {{total}}",
+    "showMe": "Show me",
+    "firstTime": "First time here",
+    "notNow": "Not now",
+    "stop": "Stop",
+    "close": "Close",
+    "ack": "Got it",
+    "waiting": "Waiting for you",
+    "pressHint": "Click the highlighted button to continue",
+    "shortcut": {
+      "open": "Open it",
+      "switch": "Switch to it"
+    },
+    "missingTitle": "This isn't on screen right now",
+    "missingBody": "Something is covering it, or it isn't available yet. Try again from Help when you're ready.",
+    "stepOf": "Step {{current}} of {{total}}",
+    "done": "That's it. Nicely done."
+  },
+  "quest": {
+    "fraction": "{{current}}/{{total}}",
+    "title": "First session · {{current}} of {{total}}",
+    "close": "Close",
+    "footer": "When you're done, just close the game. LastSave saves the session for you.",
+    "complete": {
+      "kicker": "First session · 3 of 3",
+      "title": "You're all set",
+      "body": "Play as usual: notes, screenshots and clips are a shortcut away, and closing the game wraps up the session.",
+      "play": "Let's play"
+    },
+    "steps": {
+      "overlay": "Open the overlay",
+      "screenshot": "Take a screenshot",
+      "focus": "Try focus mode"
+    }
+  },
+  "tours": {
+    "importGames": {
+      "open": {
+        "title": "Bring your games in",
+        "body": "Import Games finds what's on this PC and in your Steam, Epic and Xbox libraries. Pick your sources and LastSave does the rest in the background."
+      }
+    },
+    "addGame": {
+      "open": {
+        "title": "Add one game",
+        "body": "For a game you don't have installed, or one an import missed. Click Add Game."
+      },
+      "search": {
+        "title": "Find it and pick a status",
+        "body": "Type its name, pick the right result, choose where it sits (Playing, Backlog…) and add it."
+      }
+    },
+    "moveToPlaying": {
+      "shelf": {
+        "title": "Open your shelf",
+        "body": "Open the one you just made: from the sidebar, under Shelves, or from its card on the Shelves page."
+      },
+      "view": {
+        "title": "Open the board",
+        "body": "Click View to change how these games are laid out."
+      },
+      "board": {
+        "title": "Pick Board",
+        "body": "The board shows your games as columns by status, like a backlog you can drag around."
+      },
+      "drag": {
+        "title": "What are you playing these days?",
+        "body": "Drag a game you're playing now into Playing. Paused is for games on hold, Played for games you played without finishing, and Endless for games you never really finish, like Valorant or WoW."
+      }
+    },
+    "createShelf": {
+      "nav": {
+        "title": "Your shelves live here",
+        "body": "Shelves have their own place in the sidebar. Click Shelves."
+      },
+      "open": {
+        "title": "Make a shelf",
+        "body": "Shelves are your own collections, and a good thing to do while your games come in. Click Add shelf."
+      },
+      "ideas": {
+        "title": "Make it yours",
+        "body": "Start from an idea, or pick a name, icon and color yourself."
+      },
+      "games": {
+        "title": "Add its games",
+        "body": "Pick the games that belong on it. A few is plenty; you can add more anytime."
+      },
+      "create": {
+        "title": "Create it",
+        "body": "Press Create shelf and it's yours."
+      }
+    },
+    "writeJournal": {
+      "game": {
+        "title": "Open a game",
+        "body": "Every game has its own page, with its story so far. Click this one to open it."
+      },
+      "activity": {
+        "title": "Every game keeps a story",
+        "body": "This is the game's activity. Status changes, sessions and notes all land here, newest first."
+      },
+      "addLog": {
+        "title": "Add to it",
+        "body": "Click Add log to write something down."
+      },
+      "journal": {
+        "title": "Write a journal entry",
+        "body": "Pick Journal entry and write a line or two: where you are, what just happened. Then save it."
+      }
+    },
+    "launchGame": {
+      "game": {
+        "title": "Pick a game to play",
+        "body": "Games start from their own page, so LastSave knows what you're playing. Click this one to open it."
+      },
+      "play": {
+        "title": "Press Play",
+        "body": "Launch the game from here and LastSave tracks the session on its own. Keep the game in borderless or windowed fullscreen so the overlay can show."
+      }
+    },
+    "wrapUp": {
+      "captures": {
+        "title": "Your session, wrapped up",
+        "body": "Everything you captured while playing is here. Click one to keep it as a journal entry or an achievement."
+      },
+      "save": {
+        "title": "Save it",
+        "body": "Check the time and the note, then save. The session goes to the game's activity."
+      }
+    },
+    "explore": {
+      "nav": {
+        "title": "Explore",
+        "body": "New releases, what's coming, and the best games by genre and year."
+      }
+    },
+    "helpButton": {
+      "button": {
+        "title": "Help is always here",
+        "body": "Short guides for every part of LastSave, with a button that shows you where things are."
+      }
+    },
+    "changeArt": {
+      "manage": {
+        "title": "Change a game's art",
+        "body": "Open Manage, the gear next to Add log."
+      },
+      "art": {
+        "title": "Pick Art",
+        "body": "Art is the banner behind the game and the logo in place of its name."
+      },
+      "choose": {
+        "title": "Banner and logo, each its own",
+        "body": "Default follows Settings. Pick SteamGridDB, the catalog art or the name in text, or press Choose… to browse every picture there is. Save keeps it for this game."
+      }
+    },
+    "gameModeButton": {
+      "button": {
+        "title": "Game Mode",
+        "body": "Your library from the couch, built for a controller. Press this, or its shortcut from anywhere, even with a game open. Plug in a controller and it lights up."
+      }
+    },
+    "createJourney": {
+      "nav": {
+        "title": "Journeys live here",
+        "body": "Journeys have their own place in the sidebar. Click Journeys."
+      },
+      "open": {
+        "title": "Start a journey",
+        "body": "A journey is a few games with a purpose and an ending: every Zelda, the GOTYs, what you never finished. Click New journey."
+      },
+      "name": {
+        "title": "Name it",
+        "body": "Give it a name, and a why if you like. The goal says when a game counts: Completed, or just played."
+      },
+      "games": {
+        "title": "Pick its games",
+        "body": "Bring them from a shelf, a saga or the GOTYs, or add them one by one. Games you don’t own can be on it too."
+      },
+      "create": {
+        "title": "Create it",
+        "body": "Press Create journey. It fills in by itself as you play: nothing to tick off."
+      }
+    }
+  },
+  "articles": {
+    "guide": {
+      "bringGames": {
+        "title": "Bring your games",
+        "body": "Start by importing the games on this PC and in your Steam, Epic and Xbox libraries. Emulated games can come later. The import runs in the background, so you can keep going while it works."
+      },
+      "whatPlaying": {
+        "title": "What are you playing?",
+        "body": "The board shows a list of games as columns by status. Open it on your shelf, where the list is short, move the games you're playing these days to Playing, and LastSave starts to look like your week."
+      },
+      "buildShelf": {
+        "title": "Build a shelf",
+        "body": "Shelves are your own collections, like the shelf at home: who you play with, when, or what mood a game fits. Make one while your games come in and add a few. It keeps the next step short."
+      },
+      "story": {
+        "title": "Every game has a story",
+        "body": "Each game keeps its own activity: status changes, sessions, journal entries and achievements. Write one line and you'll find it there next time you come back."
+      },
+      "pressStart": {
+        "title": "Press start",
+        "body": "Launch a game from LastSave and the session is tracked on its own. The overlay lets you take screenshots and notes without leaving the game."
+      },
+      "saveSession": {
+        "title": "Save the session",
+        "body": "When you close the game, LastSave wraps the session up: the time, your captures and a note. Save it and it's in the game's activity, done."
+      }
+    },
+    "library": {
+      "import": {
+        "title": "Import your games",
+        "body": "Import Games looks for games on this PC and in your Steam, Epic and Xbox libraries, and lets you review the list before anything is added.",
+        "step1": "Click Import Games in the Library.",
+        "step2": "Pick your sources. Steam, Epic and Xbox ask you to sign in once.",
+        "step3": "Review the list and add. It keeps going in the background."
+      },
+      "addGame": {
+        "title": "Add a game by hand",
+        "body": "Any game you can find on IGDB, installed or not. Search it, pick it and choose a status. If it's on this PC, LastSave can link its executable so you can launch it from here.",
+        "step1": "Click Add Game in the Library.",
+        "step2": "Search for it and pick the right result.",
+        "step3": "Choose a status and add it."
+      },
+      "xbox": {
+        "title": "Bring in your Xbox games",
+        "body": "Sign in with your Microsoft account and LastSave brings in the games you've played on Xbox, on PC, through Game Pass or on a console, with their hours. Games you own but never launched don't show up, because Xbox only shares what you played. Console games are kept as a record: you can log them and time them, but they launch on the console.",
+        "step1": "In Import Games, pick Xbox under More sources, or connect it in your profile, under Connected accounts.",
+        "step2": "Sign in on Microsoft's own page. LastSave never sees your password.",
+        "step3": "Choose whether to include console games, then review and add."
+      },
+      "identify": {
+        "title": "Fix a game that wasn't recognised",
+        "body": "Sometimes an import can't tell which game a folder is. Those wait in the review instead of being guessed.",
+        "step1": "In the import review, open the games marked as not identified.",
+        "step2": "Search for the right game, or leave it out."
+      },
+      "checkNew": {
+        "title": "Check for new games",
+        "body": "Installed something new? Check for new games looks again and lists only what changed: new games, and games that are no longer on this PC. You can also let it check by itself once a day."
+      },
+      "views": {
+        "title": "Search, filters and views",
+        "body": "Search finds games by name, genre or studio. Filter narrows by status, source or genre, and View switches between cards, a list and the board. Set a few filters and press Save filter, next to Clear all, to keep them under a name: they wait in Filter, under Your filters, in the Library and in every shelf."
+      },
+      "dlc": {
+        "title": "DLC and expansions",
+        "body": "Expansions live inside their base game rather than as separate games. Their hours and logs count towards the game they belong to."
+      }
+    },
+    "organize": {
+      "statuses": {
+        "title": "Statuses",
+        "body": "Backlog is what's next, Playing is now, Paused is on hold, Completed is done and Dropped is fine too. Played is for a game you played and put down without finishing it, and Endless for games you play rather than finish, like MMOs, MOBAs or Minecraft."
+      },
+      "board": {
+        "title": "The board",
+        "body": "The board lays your library out as columns by status. Drag a game to a new column and LastSave logs the change, with its hours.",
+        "step1": "In the Library, click View.",
+        "step2": "Pick Board.",
+        "step3": "Drag a game into another column."
+      },
+      "shelves": {
+        "title": "Make a shelf",
+        "body": "Your own collections, like the shelf at home: as many as you like, and a game can sit on several, even one you don't own yet.",
+        "step1": "Go to Shelves and click Add shelf.",
+        "step2": "Pick an idea from your library, or name it yourself.",
+        "step3": "Add games, from your library or anywhere, and create it."
+      },
+      "bulk": {
+        "title": "Change many games at once",
+        "body": "Select several games in the Library to change their status, add them to a shelf or mark them as uninstalled in one go."
+      }
+    },
+    "shelves": {
+      "page": {
+        "title": "A shelf's page",
+        "body": "A shelf opens on its face: what it says, its games and hours, and a bar of their statuses. Below it is the Library you know, with search, filters, views and the board, for that shelf alone."
+      },
+      "pin": {
+        "title": "Pin a shelf to the sidebar",
+        "body": "Pinned shelves sit in the sidebar under Shelves, up to six. They also come first on the Shelves page and in Game Mode.",
+        "step1": "Go to Shelves.",
+        "step2": "Click the pin in a shelf's corner. Click it again to unpin it."
+      },
+      "order": {
+        "title": "Put a shelf in order",
+        "body": "A shelf keeps the order you give it: its page sorts by it, and its collage and its picture follow it. In the grid, right-click a game for Move up or Send to top.",
+        "step1": "Open the shelf and click Edit.",
+        "step2": "Drag the games by their handles.",
+        "step3": "Save."
+      },
+      "filters": {
+        "title": "Saved filters",
+        "body": "A filter you use often can be kept. It shows up under Your filters, in the Library and in every shelf, and what you change while it is on is saved into it.",
+        "step1": "Set some filters in the Library or a shelf.",
+        "step2": "Press Save filter, next to Clear all, and name it."
+      },
+      "share": {
+        "title": "Share a shelf",
+        "body": "Share makes a picture of the shelf, its covers in your order like the real thing. Save it or copy it; nothing is uploaded.",
+        "step1": "Open the shelf.",
+        "step2": "Click Share.",
+        "step3": "Save or copy the picture."
+      }
+    },
+    "journeys": {
+      "create": {
+        "title": "Make a journey",
+        "body": "A journey is a set of games with a purpose and an ending — every Zelda in release order, the Games of the Year, the ones you started and never finished. It keeps track of itself: as you complete games, it moves on.",
+        "step1": "Go to Journeys and click New journey.",
+        "step2": "Name it, and pick its goal: Complete them or Play them.",
+        "step3": "Add its games from a shelf, a saga, the GOTYs or one by one, then create it."
+      },
+      "ideas": {
+        "title": "Ideas from your library",
+        "body": "The top of Journeys suggests journeys already hiding in your library: a saga you own several games of, what you’re playing, games you put hours into and never finished, expansions of games you completed. Click one to start from it. Hide puts the suggestions away; Show suggestions brings them back."
+      },
+      "progress": {
+        "title": "How a journey moves on",
+        "body": "A journey reads your library: change a game’s status anywhere and every journey it’s on moves. Skip a game to leave it out of the count, put a journey On hold to set it aside, and drag journeys to order them — the first one leads the sidebar and Home. When the last game is done, the journey celebrates and you can share it."
+      }
+    },
+    "rotation": {
+      "lanes": {
+        "title": "Your rotation",
+        "body": "The handful of games in your hands right now: Active, what you're playing; Mains, the ones you always go back to; Next, what comes after. It fills itself from your statuses, and the games you pick come first. It's on Home, next to Recent games."
+      },
+      "pick": {
+        "title": "Pick games for your rotation",
+        "body": "A game you pick stays in its lane until you finish it, drop it or start playing a Next one.",
+        "step1": "Right-click a game, anywhere in LastSave.",
+        "step2": "Point at Your rotation and pick Active, Mains or Next.",
+        "step3": "Or open Your rotation on Home and click Manage."
+      }
+    },
+    "art": {
+      "change": {
+        "title": "Change a game's banner or logo",
+        "body": "Every game gets a wide banner and a logo on its page, on Home and in Game Mode. If you don't like the one LastSave found, pick another for that game alone.",
+        "step1": "Open the game and press Manage, the gear next to Add log.",
+        "step2": "Choose Art.",
+        "step3": "For the banner or the logo, pick an option or press Choose… to browse the pictures, then save."
+      },
+      "sources": {
+        "title": "Where the art comes from",
+        "body": "Banners come from the game's Steam page first, then from SteamGridDB, a community of artists, then from the catalog. Logos come from SteamGridDB first, then Steam. When there is no logo, the name is written instead. Every picture from SteamGridDB credits its artist."
+      },
+      "settings": {
+        "title": "Turn banners or logos off",
+        "body": "Settings, Art has two switches: banners from SteamGridDB and game logos. Turning one off goes back to the catalog art or to the name in text everywhere. A game where you picked something by hand keeps your choice."
+      }
+    },
+    "logs": {
+      "journal": {
+        "title": "Write a journal entry",
+        "body": "A line about where you are or what just happened is enough. It's what you'll be glad to find when you come back to a game months later.",
+        "step1": "Open a game.",
+        "step2": "Click Add log.",
+        "step3": "Pick Journal entry, write and save."
+      },
+      "achievements": {
+        "title": "Achievements",
+        "body": "Log the moments that mattered to you: a boss, a chapter behind you, a challenge done the hard way, a place found, an upgrade, a 100%. Each type has its own medal on the game's page; hover a type to see what it's for."
+      },
+      "activity": {
+        "title": "A game's activity",
+        "body": "Everything that happened with a game, newest first: sessions, status changes, journal entries and achievements, with their screenshots and clips."
+      },
+      "memories": {
+        "title": "Memories",
+        "body": "Home brings back screenshots, clips, notes from your journal and your reviews, so the games you loved don't fade. Click one to see it big: the strip below or the mouse wheel walks through the rest, and a double-click fills the window."
+      },
+      "reviews": {
+        "title": "Review a game",
+        "body": "Give a game a rating out of 10 and, if you like, a few words. Your review sits at the top of the game's page, and each DLC or expansion gets its own. When you mark a game Completed, LastSave offers to review it, and you can share a review as a card.",
+        "step1": "Open a game.",
+        "step2": "Under My review, click Rate & review.",
+        "step3": "Pick the whole number, adjust the tenths with − and +, write if you like and save."
+      },
+      "share": {
+        "title": "Share a log, a game or your profile",
+        "body": "Any log, game, review or your profile can become a card ready to paste into Discord, X or WhatsApp — a clip becomes a short video. Compressed is light enough for any chat; Lossless keeps every pixel. Turn on Show my profile to put your avatar and name on it.",
+        "step1": "Click Share on a log, the share icon next to a game's details, or Share Profile on your profile.",
+        "step2": "Pick the background or the quality.",
+        "step3": "Copy it, or drag it straight into a chat."
+      },
+      "time": {
+        "title": "A log’s day and time",
+        "body": "Every log has a day and a time, at the bottom of its window. Leave them alone and it's now. Change them to put a day's logs in the order they happened, or to write about yesterday. Hover a log's date on a game's page to see its time."
+      }
+    },
+    "playing": {
+      "launch": {
+        "title": "Launch a game",
+        "body": "Press Play on a game and LastSave launches it and tracks the session on its own. Games you start elsewhere are detected too.",
+        "step1": "Open a game you have installed.",
+        "step2": "Press Play.",
+        "step3": "Play. LastSave keeps time in the background."
+      },
+      "overlay": {
+        "title": "The overlay",
+        "body": "A small panel over your game: screenshots, notes, clips and the session clock, without leaving the game.",
+        "step1": "Press Shift+F10 in a game to open it.",
+        "step2": "Press it again to fold it back to the small pill.",
+        "step3": "Change the shortcuts in Settings, Shortcuts."
+      },
+      "screenshots": {
+        "title": "Screenshots",
+        "body": "Press Shift+F11 in a game. The screenshot joins the session, and at the end you choose whether it becomes a journal entry or an achievement."
+      },
+      "focus": {
+        "title": "Focus mode",
+        "body": "Shift+F9 steps out of the game without alt-tab: the overlay covers the screen so you can sort your captures or write a note. Escape takes you back."
+      },
+      "fullscreen": {
+        "title": "Exclusive fullscreen and the overlay",
+        "body": "Windows won't let anything draw over a game in exclusive fullscreen, so the overlay can't show there. LastSave still tracks the session. Borderless looks the same and keeps the overlay.",
+        "step1": "Open the game's video or display settings.",
+        "step2": "Set the display mode to Borderless or Windowed fullscreen.",
+        "step3": "Apply. The overlay will show next time."
+      },
+      "wrapUp": {
+        "title": "The session wrap-up",
+        "body": "When you close the game you get one screen: the time played, what you captured, and a note. Save it and the session is in the game's activity."
+      }
+    },
+    "captures": {
+      "clips": {
+        "title": "Clips and recording",
+        "body": "LastSave uses the recorder you already have, Xbox Game Bar, the NVIDIA App or AMD Adrenalin, and files the clip in your session.",
+        "step1": "Turn on the recorder you use.",
+        "step2": "In a game, press Shift+F6 for a clip or Shift+F7 to record.",
+        "step3": "If nothing is saved, the overlay shows the one switch to check."
+      },
+      "shortcuts": {
+        "title": "Your shortcuts",
+        "body": "Every in-game shortcut can be changed in Settings, Shortcuts, by pressing the keys you want. If another app already uses one, LastSave tells you."
+      }
+    },
+    "gaming": {
+      "enter": {
+        "title": "Enter and leave Game Mode",
+        "body": "Game Mode is LastSave for the couch: big art, your games and the buttons to play them, all with a controller. You can switch in and out at any time, even with a game open.",
+        "step1": "Press Game Mode in the title bar, or its shortcut on the keyboard.",
+        "step2": "With a controller, press its chord (View + Y unless you changed it).",
+        "step3": "Leave from the menu, or with the same shortcut."
+      },
+      "getAround": {
+        "title": "Getting around",
+        "body": "Every screen says what each button does at the bottom. The shoulders change tabs, the menu button opens LastSave's menu, and the back button always takes you back."
+      },
+      "library": {
+        "title": "Library, search and filters",
+        "body": "The triggers group your games by status, source or shelf. Search opens a keyboard on screen, and Filters sorts and narrows the list. Installed only, at the bottom of Filters, is on to begin with: turn it off to see the rest of your library, dimmed."
+      },
+      "hub": {
+        "title": "A game's page",
+        "body": "Opening a game lands on Play. Next to it: Status, a journal entry and More, which holds your review, the game's shelves and its journeys. The shoulders switch between all its logs, achievements, journals and sessions."
+      },
+      "shelves": {
+        "title": "Shelves on the couch",
+        "body": "Every shelf you made is here, with its games in your order. You can add or remove games from a shelf; making new shelves stays on the desktop."
+      },
+      "inGame": {
+        "title": "Your controller while you play",
+        "body": "While a game runs, hold View and press a second button: screenshot, clip, record, a journal entry, or the overlay. The game still sees the second button, so pick chords your games don't need."
+      },
+      "settings": {
+        "title": "Game Mode settings",
+        "body": "Button prompts, sounds, fullscreen and every in-game chord. Open Settings from Game Mode's menu."
+      },
+      "rotation": {
+        "title": "Your rotation on the couch",
+        "body": "On Home, RT switches the row to Your rotation. The line above the game you're on says its lane, and Menu picks the games for each lane."
+      },
+      "controllers": {
+        "title": "Which controllers work",
+        "body": "Xbox controllers, wired Switch controllers (PDP, Hori, PowerA) and PlayStation 4 and 5 controllers over USB work as they are, in Game Mode and over your games. Nintendo's own Pro Controller and Joy-Con, and the DualShock 3, need a helper like BetterJoy, DsHidMini or Steam for now. LastSave draws the buttons of the controller in your hands."
+      }
+    },
+    "explore": {
+      "discover": {
+        "title": "Explore",
+        "body": "Discover what's new and what's coming, browse the best games by genre and year, and add anything to your library or wishlist."
+      }
+    },
+    "emulators": {
+      "setup": {
+        "title": "Emulated games",
+        "body": "Retro classics get the same treatment as everything else: covers, hours and sessions.",
+        "step1": "In Import Games, pick Emulators.",
+        "step2": "Point LastSave to your emulator and your ROMs.",
+        "step3": "Review the games and add them."
+      },
+      "options": {
+        "title": "Emulator launch options",
+        "body": "Fullscreen, BIOS and other launch switches can be set for an emulator, or for one game in its Advanced section."
+      },
+      "launch": {
+        "title": "Open an emulator on its own",
+        "body": "Settings, Emulators lists the emulators LastSave found. Launch opens one without a game, to change its settings. If an emulator is already open when you press Play, LastSave asks before closing it and starting your game."
+      },
+      "discs": {
+        "title": "Disc games",
+        "body": "For a disc game, a .cue, a .bin next to its .cue or a .chd all work. A game on several discs is kept together as one, so emulators that can swap discs do it in game. If a disc is missing a file, the scan says which one."
+      }
+    },
+    "data": {
+      "backups": {
+        "title": "Backups",
+        "body": "LastSave keeps a copy of your library before every update and once a day. Settings, Data, Backups puts it back if anything goes wrong."
+      },
+      "updates": {
+        "title": "Updates",
+        "body": "LastSave downloads updates in the background and shows how far along it is in the notification and in Settings, About. Closing the app pauses the download and it picks up where it left off. Restart when it says it's ready, and What's new tells you what changed."
+      },
+      "feedback": {
+        "title": "Report a bug or share an idea",
+        "body": "The bug icon at the bottom of the sidebar sends a report straight to the developer. You choose what goes in it."
+      },
+      "mediaFolder": {
+        "title": "Keep your media on another disk",
+        "body": "Screenshots, clips, log pictures and share files are saved in your media folder. To keep them somewhere else, choose a new folder: what you already have can stay where it is, or move there with it — the move shows its progress, can be paused, and carries on if LastSave closes.",
+        "step1": "Open Settings, then Data.",
+        "step2": "Under Media folder, click Change… and pick a folder.",
+        "step3": "Choose Only new media or Move everything here."
+      },
+      "offline": {
+        "title": "Using LastSave offline",
+        "body": "Without internet, everything you've saved still works: your library, logs, sessions, Game Mode and captures. Explore shows what you saw last, store syncs wait for the connection, and pictures LastSave hasn't seen yet come back once you're online."
+      }
+    }
+  },
+  "gaming": {
+    "menuItem": "Help",
+    "newTag": "New",
+    "page": {
+      "title": "Help",
+      "subtitle": "Game Mode",
+      "takeMeThere": "Take me there",
+      "back": "Back",
+      "desktopOnly": "More guides live in Help on the desktop."
+    },
+    "rows": {
+      "enter": "Enter or leave Game Mode, from anywhere",
+      "tabs": "Switch between Home, Library and Shelves",
+      "open": "Open a game or a shelf",
+      "back": "Go back",
+      "menu": "Open the menu: Help, Settings and the way out",
+      "playNow": "Play the game you are on, right away",
+      "group": "Group by status, source or shelf",
+      "search": "Search, with a keyboard on screen",
+      "filters": "Sort and filter",
+      "play": "Play",
+      "logTabs": "Switch between the game’s logs",
+      "hubActions": "Status, Journal and More sit next to Play",
+      "shelfGames": "Add or remove the shelf’s games",
+      "makeShelves": "New shelves are made on the desktop",
+      "overlay": "Open the overlay",
+      "focus": "Focus mode",
+      "screenshot": "Screenshot",
+      "clip": "Clip the last seconds",
+      "record": "Start or stop recording",
+      "journal": "Write a journal entry",
+      "settings": "Change any chord in Settings"
+    },
+    "controls": {
+      "kicker": "Game Mode",
+      "title": "Your library, from the couch",
+      "body": "Everything you can do on a screen is always written at the bottom. These are the ones you’ll use most.",
+      "gotIt": "Let’s go",
+      "again": "Find this again in the menu, under Help."
+    },
+    "hints": {
+      "tag": "New here",
+      "anyButton": "Any button closes this",
+      "home": "Switch between Home, Library and Shelves",
+      "library": "Group your games by status, source or shelf",
+      "shelves": "Open a shelf to see its games in your order",
+      "hub": "Status, Journal and More are right next to Play",
+      "hubStatus": "This is Status: where the game sits on your board",
+      "libraryHere": "Your library: the triggers change how it is grouped",
+      "shelvesHere": "Your shelves, as you made them on the desktop",
+      "homeHere": "Home: what you played last, and your memories",
+      "settingsHere": "Game Mode settings: prompts, sounds and chords"
+    }
+  }
+}

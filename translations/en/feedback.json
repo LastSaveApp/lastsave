@@ -1,0 +1,121 @@
+{
+  "entry": {
+    "open": "Report a bug or send feedback",
+    "openWithVersion": "Report a bug or send feedback · v{{version}}",
+    "version": "v{{version}}"
+  },
+  "dialog": {
+    "title": "Tell us what happened",
+    "subtitle": "Bugs, feedback and ideas, a person reads every one.",
+    "crashTitle": "Report this crash",
+    "crashSubtitle": "The error details are already attached. Anything you remember helps."
+  },
+  "types": {
+    "groupLabel": "What kind of report is this",
+    "bug": "Bug",
+    "feedback": "Feedback",
+    "idea": "Idea"
+  },
+  "fields": {
+    "title": "Summary",
+    "titlePlaceholder": {
+      "bug": "What went wrong, in a few words",
+      "crash": "What were you doing when it crashed?",
+      "feedback": "What is this about?",
+      "idea": "Your idea, in a few words"
+    },
+    "description": "Details",
+    "descriptionPlaceholder": {
+      "bug": "What were you doing, what did you expect, and what happened instead?",
+      "crash": "Which screen were you on? Did it happen before?",
+      "feedback": "What works for you, and what gets in your way?",
+      "idea": "What would you like LastSave to do, and when would you use it?"
+    },
+    "contact": "Contact (optional)",
+    "contactPlaceholder": "Discord username or email, if you want a reply",
+    "contactHint": "Only used to answer this report.",
+    "errorTitle": "Crash: {{error}}",
+    "uncleanExitTitle": "LastSave closed unexpectedly",
+    "windowReloadedTitle": "The window crashed and reloaded"
+  },
+  "images": {
+    "label": "Screenshots",
+    "add": "Add image",
+    "paste": "Paste image",
+    "hint": "Paste, drop or pick up to {{max}} images.",
+    "remove": "Remove screenshot {{index}}",
+    "preview": "Screenshot {{index}}",
+    "errors": {
+      "unreadable": "That image could not be read.",
+      "tooLarge": "That image is too large even after compressing it.",
+      "clipboardEmpty": "There is no image on the clipboard."
+    }
+  },
+  "diagnostics": {
+    "include": "Include diagnostic log",
+    "includeDescription": "The recent app log, so the problem can be traced.",
+    "whatsIncluded": "What's included?",
+    "hide": "Hide details",
+    "items": {
+      "log": "The most recent lines of LastSave's own log file (up to about 1.5 MB).",
+      "crash": "For a crash: the error and where in LastSave's code it happened, and how LastSave's last run ended if it closed unexpectedly.",
+      "system": "App version, Windows version, language and the screen you were on.",
+      "install": "A random ID for this installation, so several reports from one PC can be told apart. It is not tied to your name, account or hardware.",
+      "scrubbed": "Your Windows user name and PC name are replaced before anything is sent, and tokens or passwords are never written to the log.",
+      "never": "Never included: your library, your saves, your screenshots or anything you did not attach yourself."
+    }
+  },
+  "actions": {
+    "send": "Send report",
+    "sending": "Sending…",
+    "retry": "Try again",
+    "copyId": "Copy ID",
+    "copied": "Copied",
+    "joinDiscord": "Join our Discord",
+    "openLogsFolder": "Open logs folder"
+  },
+  "sent": {
+    "title": "Report sent. Thank you!",
+    "idLabel": "Report ID",
+    "followUp": "Reports are read privately. If you want to follow up, join our Discord and mention this ID.",
+    "noReply": "You did not leave a contact, so we cannot reply directly."
+  },
+  "errors": {
+    "unconfigured": "This build cannot send reports. You can still reach us on Discord.",
+    "offline": "LastSave could not reach the report service. Check your connection and try again.",
+    "rateLimited": "That is a lot of reports in a short time. Wait a minute and try again.",
+    "tooLarge": "The report is too large. Remove a screenshot and try again.",
+    "rejected": "The report was not accepted. Updating LastSave may fix this.",
+    "unavailable": "The report service is having trouble right now. Try again in a moment."
+  },
+  "crash": {
+    "title": "Whoops. Something happened.",
+    "description": "We ran into an error. Your library and your saves are safe.",
+    "details": "Technical details",
+    "actions": {
+      "report": "Send report",
+      "reload": "Reload",
+      "restart": "Restart LastSave",
+      "reset": "Reset interface and restart"
+    },
+    "keepsHappening": "If this keeps happening, try resetting the interface or contact us on Discord.",
+    "resetTooltip": "Clears saved interface state (sidebar, filters, cached images) and restarts. Your library, logs and media are not touched."
+  },
+  "notifications": {
+    "backgroundError": {
+      "title": "Something went wrong in the background",
+      "description": "LastSave kept running. A report helps us fix it.",
+      "action": "Report"
+    },
+    "uncleanShutdown": {
+      "title": "LastSave closed unexpectedly last time",
+      "description": "If it crashed, a report with the log helps us find out why.",
+      "action": "Send report"
+    },
+    "windowReloaded": {
+      "title": "LastSave's window crashed and was reloaded",
+      "description": "Nothing was lost. A report with the log helps us find out why it happened.",
+      "action": "Send report"
+    }
+  }
+}

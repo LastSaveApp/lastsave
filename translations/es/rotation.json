@@ -1,0 +1,70 @@
+{
+  "title": "Tu rotación",
+  "lanes": {
+    "active": {
+      "name": "Activos",
+      "description": "Lo que juegas ahora. Los huecos se llenan con tus Jugando recientes."
+    },
+    "mains": {
+      "name": "Principales",
+      "description": "A lo que siempre vuelves. Los huecos se llenan con tus Sin fin recientes."
+    },
+    "next": {
+      "name": "Próximos",
+      "description": "Lo que viene después. Los huecos se llenan con tus juegos Por jugar y Deseados."
+    },
+    "countOf": "{{count}} de {{total}}",
+    "empty": "Vacío"
+  },
+  "actions": {
+    "manage": "Gestionar",
+    "remove": "Quitar {{title}} de tu rotación",
+    "chooseGame": {
+      "active": "Elige un juego para Activos",
+      "mains": "Elige un juego para Principales",
+      "next": "Elige un juego para Próximos"
+    },
+    "add": "Añadir juegos"
+  },
+  "slots": {
+    "free": "Hueco libre",
+    "auto": "Se llena solo",
+    "picked": "Elegido por ti"
+  },
+  "menu": {
+    "title": "Tu rotación",
+    "full": "Lleno",
+    "remove": "Quitar"
+  },
+  "manage": {
+    "title": "Tu rotación",
+    "subtitle": "Lo que eliges va primero. Cada hueco libre se llena con tus juegos más recientes.",
+    "pickedCount": "{{count}} de {{total}} elegidos",
+    "pickerHint": "{{count}} de {{total}} elegidos · se guarda al elegir"
+  },
+  "gaming": {
+    "manage": "Gestionar la rotación",
+    "pickerHint": "{{count}} de {{total}} elegidos · el resto se llena solo",
+    "manageSubtitle": "Elige un carril para escoger sus juegos.",
+    "chooseGames": "Elegir juegos",
+    "emptyHint": "Aquí aparecen los juegos que juegas, a los que vuelves o que planeas jugar. Con Menú los eliges tú."
+  },
+  "toasts": {
+    "picked": {
+      "active": "{{title}} está en Activos",
+      "mains": "{{title}} está en Principales",
+      "next": "{{title}} está en Próximos"
+    },
+    "removed": "{{title}} salió de tu rotación",
+    "full": {
+      "active": "Activos está lleno. Quita un juego primero.",
+      "mains": "Principales está lleno. Quita un juego primero.",
+      "next": "Próximos está lleno. Quita un juego primero."
+    },
+    "failed": "No se pudo actualizar tu rotación."
+  },
+  "emptyState": {
+    "title": "Tu rotación está vacía",
+    "description": "Los juegos que pongas en Jugando, Sin fin, Por jugar o Deseado aparecen aquí solos. Haz clic derecho en cualquier juego para añadirlo tú."
+  }
+}

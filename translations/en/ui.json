@@ -1,0 +1,114 @@
+{
+  "select": {
+    "placeholder": "Select an option...",
+    "searchPlaceholder": "Search…",
+    "noMatches": "No matches"
+  },
+  "multiSelect": {
+    "placeholder": "Select options...",
+    "selectedCount_one": "{{count}} option selected",
+    "selectedCount_other": "{{count}} options selected",
+    "removeTag": "Remove {{label}}"
+  },
+  "checkboxMultiSelect": {
+    "searchPlaceholder": "Search options...",
+    "selectedCount_one": "{{count}} selected",
+    "selectedCount_other": "{{count}} selected",
+    "selectAll": "Select All",
+    "unselectAll": "Unselect All",
+    "noMatches": "No matches found",
+    "clearSearch": "Clear search",
+    "openOptions": "Open options",
+    "closeOptions": "Close options"
+  },
+  "datePicker": {
+    "placeholder": "Pick a date",
+    "today": "Today · {{date}}",
+    "hintPickYear": "Click a year, then pick a day",
+    "hintChangeYear": "Click {{month}} to change year"
+  },
+  "timePicker": {
+    "now": "Now",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "clock": "Clock",
+    "twelveHour": "12-hour",
+    "twentyFourHour": "24-hour"
+  },
+  "colorPicker": {
+    "placeholder": "#f5c542 or rgb(245,197,66)",
+    "open": "Open color picker",
+    "pickerButton": "Picker",
+    "saturation": "Color saturation and brightness",
+    "hue": "Color hue",
+    "selected": "Selected",
+    "presets": {
+      "gold": "Gold",
+      "red": "Red",
+      "orange": "Orange",
+      "green": "Green",
+      "emerald": "Emerald",
+      "accent": "Accent",
+      "blue": "Blue",
+      "violet": "Violet",
+      "pink": "Pink",
+      "slate": "Slate",
+      "gray": "Gray",
+      "dark": "Dark"
+    }
+  },
+  "video": {
+    "loading": "Loading video...",
+    "unavailableTitle": "Video preview unavailable",
+    "unavailableBody": "This media could not be loaded for preview.",
+    "seek": "Seek video",
+    "volume": "Adjust video volume",
+    "mute": "Mute video",
+    "unmute": "Unmute video",
+    "fullscreen": "Open video fullscreen",
+    "play": "Play video"
+  },
+  "avatar": {
+    "pickTitle": "Click to pick a local image",
+    "previewAlt": "Avatar preview",
+    "placeholder": "https://... or C:\\path\\to\\image.png",
+    "clear": "Clear image",
+    "pickLocalFile": "Pick local file",
+    "hint": "Paste an image URL or pick a local file. Both work as avatar source."
+  },
+  "gallery": {
+    "screenshotAlt": "Screenshot {{index}}",
+    "mediaAlt": "Media {{index}}",
+    "close": "Close gallery",
+    "previous": "Previous media",
+    "next": "Next media",
+    "goToLog": "Go to log",
+    "goToReview": "Go to review",
+    "fullscreen": "Fill the window (F)",
+    "exitFullscreen": "Back to normal size (F)"
+  },
+  "timeToBeat": {
+    "rush": "Rush",
+    "normal": "Normal",
+    "complete": "Complete"
+  },
+  "gameCard": {
+    "edit": "Edit entry",
+    "remove": "Remove entry"
+  },
+  "toast": {
+    "dismiss": "Dismiss"
+  },
+  "alert": {
+    "dismiss": "Dismiss alert"
+  },
+  "yearRange": {
+    "from": "From",
+    "to": "To",
+    "placeholder": "Year",
+    "clearFrom": "Clear start year",
+    "clearTo": "Clear end year",
+    "previousDecade": "Previous decade",
+    "nextDecade": "Next decade"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "credit": {
+    "from": "Arte de",
+    "about": "Los banners y logos vienen de SteamGridDB, donde la comunidad los crea y comparte, y del arte de la tienda de Steam. LastSave es independiente, sin vínculo ni aval de SteamGridDB, Valve ni los estudios y editoras de los juegos."
+  },
+  "entry": {
+    "title": "Arte",
+    "hint": "Predeterminado sigue a los Ajustes; lo que elijas aquí manda en este juego.",
+    "banner": "Banner",
+    "logo": "Logo",
+    "choose": "Elegir…",
+    "heroOptions": {
+      "auto": "Predeterminado",
+      "lookup": "SteamGridDB",
+      "catalog": "Arte del catálogo (IGDB)",
+      "pinned": "Tu elección"
+    },
+    "logoOptions": {
+      "auto": "Predeterminado",
+      "lookup": "SteamGridDB",
+      "none": "Nombre en texto",
+      "pinned": "Tu elección"
+    }
+  },
+  "picker": {
+    "titles": {
+      "hero": "Elige un banner",
+      "logo": "Elige un logo"
+    },
+    "description": "De la comunidad de SteamGridDB y del arte de la tienda de Steam.",
+    "loading": "Buscando arte…",
+    "byAuthor": "de {{author}}",
+    "fromSteam": "Arte de la tienda de Steam",
+    "selected": "Actual",
+    "empty": {
+      "hero": "Este juego aún no tiene banners.",
+      "logo": "Este juego aún no tiene logos."
+    },
+    "errors": {
+      "unavailable": "El arte no está disponible ahora. Inténtalo más tarde.",
+      "noMatch": "SteamGridDB aún no reconoce este juego.",
+      "failed": "No se pudo cargar el arte."
+    },
+    "retry": "Reintentar"
+  }
+}

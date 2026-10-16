@@ -1,0 +1,61 @@
+{
+  "brand": {
+    "mark": "LastSave"
+  },
+  "splash": {
+    "languageLabel": "Idioma",
+    "getStarted": "Empezar",
+    "legalNote": "Para seguir tendrás que aceptar los <terms>Términos de uso</terms> y la <privacy>Política de privacidad</privacy>.",
+    "footer": "LastSave {{year}} · Local · Tus datos se quedan en tu equipo"
+  },
+  "welcome": {
+    "title": "Bienvenido a LastSave",
+    "setUpProfile": "Crear mi perfil",
+    "features": {
+      "trackSessions": {
+        "title": "Detecta sesiones",
+        "description": "Presiona Jugar. Las horas se cuentan solas."
+      },
+      "manageBacklog": {
+        "title": "Tus pendientes",
+        "description": "Nunca más olvides lo que dejaste a medias."
+      },
+      "journalProgress": {
+        "title": "Anota tu progreso",
+        "description": "Ideas y momentos mientras juegas."
+      },
+      "buildArchive": {
+        "title": "Guarda recuerdos",
+        "description": "Dentro de años, todo seguirá ahí."
+      }
+    }
+  },
+  "legal": {
+    "title": "Términos y privacidad",
+    "subtitle": "Lee y acepta los dos documentos para seguir.",
+    "documents": {
+      "terms": "Términos de uso",
+      "privacy": "Política de privacidad"
+    },
+    "status": {
+      "pending": "Pendiente",
+      "accepted": "Aceptado"
+    },
+    "lastUpdated": "Última actualización: {{date}}",
+    "scrollHint": "Desplázate hasta el final para poder aceptar.",
+    "mustAcceptNote": "Acepta los dos documentos para seguir, o cierra la app.",
+    "accept": "Aceptar",
+    "continue": "Continuar",
+    "reconsent": {
+      "titleBoth": "Términos de uso y Política de privacidad actualizados",
+      "titleTerms": "Términos de uso actualizados",
+      "titlePrivacy": "Política de privacidad actualizada",
+      "subtitleDated": "Actualizados el {{date}}. Lee qué cambió y acepta para seguir usando LastSave. Tu biblioteca y tus ajustes no cambian."
+    },
+    "changesHeading": "Qué cambió"
+  },
+  "errors": {
+    "accept": "No se pudo guardar tu aceptación. Inténtalo otra vez.",
+    "language": "No se pudo guardar el idioma elegido. Inténtalo otra vez."
+  }
+}
