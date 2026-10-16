@@ -107,7 +107,7 @@ LastSave speaks **English** and, from 0.6.0, **Español**. Every language lives 
   request. A check runs on it automatically.
 
 The [translation guide](translations/README.md) has the rules, the files and how to start a new
-language.
+language, and [the credits](translations/CREDITS.md) name everyone who helped.
 
 ## 🔒 Privacy, briefly
 

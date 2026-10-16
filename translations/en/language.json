@@ -1,0 +1,10 @@
+{
+  "code": "en",
+  "name": "English",
+  "englishName": "English",
+  "status": "source",
+  "maintainers": [
+    { "name": "Miguel Velez", "github": "mvelezg99" }
+  ],
+  "contributors": []
+}

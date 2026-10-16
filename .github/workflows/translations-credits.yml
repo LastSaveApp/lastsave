@@ -1,19 +1,27 @@
-# Credits whoever made a translation, when their pull request is merged.
+# Credits whoever made a translation, and keeps translations/CREDITS.md in step.
 #
-# Adds the author's GitHub name to `contributors` in the `language.json` of each language the pull
-# request changed, and commits that to main. Those lists are the credits LastSave shows in
-# Settings → About; the app brings them in with the translations themselves.
+# When a translation pull request is merged, the author's GitHub name is added to `contributors` in
+# the `language.json` of each language it changed. Those lists are the credits LastSave shows in
+# Settings → About → Translations (the app brings them in with the translations), and
+# `translations/CREDITS.md` is written from them here, so the same list is readable on GitHub.
+# CREDITS.md is also rewritten whenever a language.json changes on main any other way: the sync from
+# the app, or an edit by hand.
 #
 # `pull_request_target` because a pull request from a fork gets a read-only token, and crediting
 # needs to write. That trigger runs with this repository's permissions, so it NEVER checks out or
 # runs the pull request's code: it checks out main, and reads only the author's name and the list of
-# changed files from the API.
+# changed files from the API. Its commits are pushed by GITHUB_TOKEN, which starts no other workflow,
+# so this never runs itself again.
 name: Translations · credit
 
 on:
   pull_request_target:
     types: [closed]
     paths: ['translations/**']
+  push:
+    branches: [main]
+    paths: ['translations/*/language.json']
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -24,7 +32,7 @@ concurrency:
 
 jobs:
   credit:
-    if: github.event.pull_request.merged == true && github.event.pull_request.user.type != 'Bot'
+    if: github.event_name != 'pull_request_target' || (github.event.pull_request.merged == true && github.event.pull_request.user.type != 'Bot')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -36,17 +44,34 @@ jobs:
           node-version: '22'
 
       - name: Add the author to the languages they changed
+        if: github.event_name == 'pull_request_target'
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.pull_request.number }}
           AUTHOR: ${{ github.event.pull_request.user.login }}
         run: |
-          set -e
           gh api "repos/$REPO/pulls/$NUMBER/files" --paginate --jq '.[].filename' > "$RUNNER_TEMP/files.txt"
           xargs -a "$RUNNER_TEMP/files.txt" node .github/scripts/credit-translators.mjs "$AUTHOR"
-          if git diff --quiet -- translations; then exit 0; fi
+
+      - name: Write CREDITS.md
+        run: node .github/scripts/credits-md.mjs
+
+      - name: Commit what changed
+        env:
+          EVENT: ${{ github.event_name }}
+          NUMBER: ${{ github.event.pull_request.number }}
+          AUTHOR: ${{ github.event.pull_request.user.login }}
+        run: |
+          set -e
+          if [ -z "$(git status --porcelain -- translations)" ]; then
+            echo "The credits are already up to date."
+            exit 0
+          fi
+          message="Update the translation credits"
+          if [ "$EVENT" = "pull_request_target" ]; then message="Credit @$AUTHOR for their translation (#$NUMBER)"; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Credit @$AUTHOR for their translation (#$NUMBER)"
+          git add -- translations
+          git commit -m "$message"
           git push origin HEAD:main

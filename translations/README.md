@@ -26,6 +26,7 @@ GitHub** walks you through this with a folder it exports for you.
 | `<code>/` | One language (`es`, `pt-BR`, …): the same JSON files, translated, plus `language.json`, `GLOSSARY.md`, `STYLE.md` and `.source.json`. |
 | `tools/` | The checker. It is copied from the app too. |
 | `SKILL.md` | The rules below, written for an AI assistant if you use one. |
+| `CREDITS.md` | Everyone who translated LastSave, written from the `language.json` files. |
 
 - **`language.json`**: the language's code, its name in itself and in English, its status,
   maintainers and contributors. Those lists are the credits in LastSave (**Settings → About →
@@ -96,7 +97,8 @@ check only one language. Errors fail the pull request; warnings do not.
 
 ## Credits
 
-Everyone who translates is credited in LastSave, in **Settings → About → Translations**:
+Everyone who translates is credited in LastSave, in **Settings → About → Translations**, and
+here in [CREDITS.md](CREDITS.md):
 
 - **A pull request here:** when it is merged, your GitHub name is added to `contributors` in the
   `language.json` of each language it changed. Nothing to do on your side.
