@@ -505,7 +505,7 @@
       "action": "See credits",
       "dialog": {
         "title": "Translation credits",
-        "subtitle": "Who made each language LastSave speaks.",
+        "subtitle": "The people behind every language LastSave speaks.",
         "source": "Original",
         "official": "Official",
         "community": "Community",
