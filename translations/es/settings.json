@@ -105,6 +105,11 @@
       "title": "Sonidos del overlay",
       "description": "Avisos cortos para capturas, notas, pausa y reanudar.",
       "keywords": "audio, sonido, silenciar, aviso"
+    },
+    "recap": {
+      "title": "La última vez, al empezar a jugar",
+      "description": "Al empezar a jugar, el overlay te enseña lo que hiciste la última vez y el modo foco se abre en tus sesiones anteriores.",
+      "keywords": "resumen, última vez, sesiones anteriores, recordar"
     }
   },
   "gaming": {

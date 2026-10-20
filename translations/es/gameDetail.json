@@ -156,7 +156,9 @@
       "noLogsFilter": "No hay entradas con este filtro",
       "noLogsHint": "Anota tu progreso, tus reacciones y tus cambios de estado",
       "noLogsFilterHint": "Prueba con otro filtro o anota una entrada nueva."
-    }
+    },
+    "expandAllSessions": "Expandir todo",
+    "collapseAllSessions": "Contraer todo"
   },
   "logTypes": {
     "addedToLibrary": "Añadido a la biblioteca",
@@ -190,7 +192,12 @@
     "collapseLog": "Contraer entrada",
     "expandLog": "Expandir entrada",
     "collapseSessions": "Contraer sesiones",
-    "expandSessions": "Expandir sesiones"
+    "expandSessions": "Expandir sesiones",
+    "expandPlaySession": "Expandir sesión",
+    "collapsePlaySession": "Contraer sesión",
+    "openMedia": "Abrir en el visor",
+    "readMore": "Leer más",
+    "showLess": "Mostrar menos"
   },
   "latest": "El último",
   "videoLabel": "Video",
@@ -210,7 +217,8 @@
       "clickToJump": "Haz clic para ir"
     },
     "jumpTo": "Ir a {{edge}}",
-    "openLog": "Abrir {{title}}"
+    "openLog": "Abrir {{title}}",
+    "sessionCategory": "SESIÓN · {{duration}}"
   },
   "carousel": {
     "tba": "Por anunciar",
@@ -312,5 +320,16 @@
     "title": "Estanterías",
     "empty": "Todavía no hay estanterías. Crea una desde la barra lateral de la Biblioteca.",
     "saved": "Estanterías actualizadas."
+  },
+  "playSession": {
+    "lastNote": "Última nota",
+    "entries_one": "{{count}} entrada",
+    "entries_many": "{{count}} entradas",
+    "entries_other": "{{count}} entradas",
+    "achievements_one": "{{count}} logro",
+    "achievements_many": "{{count}} logros",
+    "achievements_other": "{{count}} logros",
+    "moreTiles": "+{{extra}}",
+    "groupLabel": "{{date}} · {{duration}}"
   }
 }

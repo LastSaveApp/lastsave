@@ -156,7 +156,9 @@
       "noLogsFilter": "No logs for this filter",
       "noLogsHint": "Track your progress, reactions, and status changes",
       "noLogsFilterHint": "Try another target filter or add a new log."
-    }
+    },
+    "expandAllSessions": "Expand all",
+    "collapseAllSessions": "Collapse all"
   },
   "logTypes": {
     "addedToLibrary": "Added to Library",
@@ -187,7 +189,12 @@
     "collapseLog": "Collapse log",
     "expandLog": "Expand log",
     "collapseSessions": "Collapse sessions",
-    "expandSessions": "Expand sessions"
+    "expandSessions": "Expand sessions",
+    "expandPlaySession": "Expand session",
+    "collapsePlaySession": "Collapse session",
+    "openMedia": "Open in the viewer",
+    "readMore": "Read more",
+    "showLess": "Show less"
   },
   "latest": "Latest",
   "videoLabel": "Video",
@@ -207,7 +214,8 @@
       "clickToJump": "Click to jump"
     },
     "jumpTo": "Jump to {{edge}}",
-    "openLog": "Open {{title}}"
+    "openLog": "Open {{title}}",
+    "sessionCategory": "SESSION · {{duration}}"
   },
   "carousel": {
     "tba": "TBA",
@@ -309,5 +317,14 @@
     "title": "Shelves",
     "empty": "No shelves yet. Make one from the Library sidebar.",
     "saved": "Shelves updated."
+  },
+  "playSession": {
+    "lastNote": "Last note",
+    "entries_one": "{{count}} entry",
+    "entries_other": "{{count}} entries",
+    "achievements_one": "{{count}} achievement",
+    "achievements_other": "{{count}} achievements",
+    "moreTiles": "+{{extra}}",
+    "groupLabel": "{{date}} · {{duration}}"
   }
 }

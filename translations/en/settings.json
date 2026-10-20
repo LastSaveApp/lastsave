@@ -105,6 +105,11 @@
       "title": "Overlay sounds",
       "description": "Short cues for screenshots, notes, pause and resume.",
       "keywords": "audio, sound, mute, cue"
+    },
+    "recap": {
+      "title": "Last time when a session starts",
+      "description": "When you start playing, the overlay shows what you did last time, and focus mode opens on your previous sessions.",
+      "keywords": "recap, last time, previous sessions, remember, recall"
     }
   },
   "gaming": {

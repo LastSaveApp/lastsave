@@ -460,7 +460,7 @@
       },
       "activity": {
         "title": "A game's activity",
-        "body": "Everything that happened with a game, newest first: sessions, status changes, journal entries and achievements, with their screenshots and clips."
+        "body": "Everything that happened with a game, newest first: sessions, status changes, journal entries and achievements, with their screenshots and clips. What you made while playing stays inside its session."
       },
       "memories": {
         "title": "Memories",
@@ -506,7 +506,7 @@
       },
       "focus": {
         "title": "Focus mode",
-        "body": "Shift+F9 steps out of the game without alt-tab: the overlay covers the screen so you can sort your captures or write a note. Escape takes you back."
+        "body": "Shift+F9 steps out of the game without alt-tab: the overlay covers the screen so you can sort your captures or write a note. Previous sessions, next to This session, brings back what you noted and captured last time. Escape takes you back."
       },
       "fullscreen": {
         "title": "Exclusive fullscreen and the overlay",
