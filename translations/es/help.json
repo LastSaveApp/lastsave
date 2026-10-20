@@ -460,7 +460,7 @@
       },
       "activity": {
         "title": "El historial de progreso",
-        "body": "Todo lo que pasó con un juego, lo más nuevo primero: sesiones, cambios de estado, entradas de diario y logros, con sus capturas y clips."
+        "body": "Todo lo que pasó con un juego, lo más nuevo primero: sesiones, cambios de estado, entradas de diario y logros, con sus capturas y clips. Lo que hiciste mientras jugabas queda dentro de su sesión."
       },
       "memories": {
         "title": "Recuerdos",
@@ -506,7 +506,7 @@
       },
       "focus": {
         "title": "Modo enfoque",
-        "body": "Shift+F9 te saca del juego sin alt-tab: el overlay cubre la pantalla para que ordenes tus capturas o escribas una nota. Esc te devuelve."
+        "body": "Shift+F9 te saca del juego sin alt-tab: el overlay cubre la pantalla para que ordenes tus capturas o escribas una nota. Sesiones anteriores, junto a Esta sesión, te recuerda lo que anotaste y capturaste la última vez. Esc te devuelve."
       },
       "fullscreen": {
         "title": "Pantalla completa exclusiva y el overlay",

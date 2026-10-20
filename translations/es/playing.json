@@ -259,6 +259,11 @@
       "screenshot_many": "Captura en {{count}}",
       "screenshot_other": "Captura en {{count}}",
       "hint": "cierra el menú"
+    },
+    "recap": {
+      "title": "La última vez",
+      "recallKeyboard": "<shortcut>{{shortcut}}</shortcut> Recordar",
+      "recallPad": "<chord></chord> Recordar"
     }
   },
   "captures": {
@@ -440,5 +445,27 @@
       "nvidia": "La NVIDIA App no se está ejecutando en este PC.",
       "amd": "AMD Software: Adrenalin Edition no se está ejecutando en este PC."
     }
+  },
+  "history": {
+    "tabs": {
+      "thisSession": "Esta sesión",
+      "previousSessions": "Sesiones anteriores"
+    },
+    "searchPlaceholder": "Escribe para buscar",
+    "clearSearch": "Borrar búsqueda",
+    "found_one": "{{count}} resultado",
+    "found_many": "{{count}} resultados",
+    "found_other": "{{count}} resultados",
+    "nothingFound": "Nada en tus sesiones anteriores coincide con «{{query}}».",
+    "empty": "Todavía no hay nada de sesiones anteriores. Lo que captures ahora estará aquí la próxima vez.",
+    "olderSessions_one": "Sesiones más antiguas · {{count}}",
+    "olderSessions_many": "Sesiones más antiguas · {{count}}",
+    "olderSessions_other": "Sesiones más antiguas · {{count}}",
+    "session": "Sesión",
+    "noWords": "Sin texto.",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "position": "{{index}} de {{total}}",
+    "searchQuery": "«{{query}}»"
   }
 }

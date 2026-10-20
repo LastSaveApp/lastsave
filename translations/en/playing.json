@@ -258,6 +258,11 @@
       "screenshot_one": "Screenshot in {{count}}",
       "screenshot_other": "Screenshot in {{count}}",
       "hint": "close the game's menu"
+    },
+    "recap": {
+      "title": "Last time",
+      "recallKeyboard": "<shortcut>{{shortcut}}</shortcut> Recall",
+      "recallPad": "<chord></chord> Recall"
     }
   },
   "captures": {
@@ -431,5 +436,25 @@
       "nvidia": "The NVIDIA App is not running on this PC.",
       "amd": "AMD Software: Adrenalin Edition is not running on this PC."
     }
+  },
+  "history": {
+    "tabs": {
+      "thisSession": "This session",
+      "previousSessions": "Previous sessions"
+    },
+    "searchPlaceholder": "Type to search",
+    "clearSearch": "Clear search",
+    "found_one": "{{count}} found",
+    "found_other": "{{count}} found",
+    "nothingFound": "Nothing in your previous sessions matches “{{query}}”.",
+    "empty": "Nothing from previous sessions yet. What you capture now will be here next time.",
+    "olderSessions_one": "Older sessions · {{count}}",
+    "olderSessions_other": "Older sessions · {{count}}",
+    "session": "Session",
+    "noWords": "No words for this one.",
+    "previous": "Previous",
+    "next": "Next",
+    "position": "{{index}} of {{total}}",
+    "searchQuery": "“{{query}}”"
   }
 }

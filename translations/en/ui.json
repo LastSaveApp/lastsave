@@ -85,7 +85,8 @@
     "goToLog": "Go to log",
     "goToReview": "Go to review",
     "fullscreen": "Fill the window (F)",
-    "exitFullscreen": "Back to normal size (F)"
+    "exitFullscreen": "Back to normal size (F)",
+    "session": "Session · {{label}}"
   },
   "timeToBeat": {
     "rush": "Rush",
