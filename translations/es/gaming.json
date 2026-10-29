@@ -237,6 +237,7 @@
     "never": "Nunca",
     "stats": {
       "status": "Estado",
+      "progress": "Progreso",
       "hours": "Horas",
       "lastPlayed": "Última partida",
       "impression": "Impresión",
@@ -388,6 +389,7 @@
     "kicker": "Sesión terminada",
     "whichGame": "¿Qué juego?",
     "whichGameHint": "El juego base o una de sus expansiones",
+    "whichGameHintEdition": "Uno de los juegos o expansiones que contiene",
     "playedOn": "Jugado el",
     "duration": "Duración",
     "hours": "Horas",

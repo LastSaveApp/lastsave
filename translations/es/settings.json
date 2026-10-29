@@ -15,6 +15,8 @@
       "appearance": "Apariencia",
       "startup": "Inicio",
       "window": "Ventana",
+      "notifications": "Notificaciones",
+      "content": "Contenido",
       "tutorials": "Tutoriales y consejos"
     },
     "language": {
@@ -32,6 +34,21 @@
       "title": "Minimizar a la bandeja del sistema",
       "description": "Al cerrar la ventana, LastSave sigue abierto en la bandeja para poder detectar tus sesiones.",
       "keywords": "cerrar, salir, segundo plano, barra de tareas, bandeja"
+    },
+    "adultGames": {
+      "title": "Mostrar juegos para adultos",
+      "description": "Los juegos eróticos en Explorar y sus portadas al buscar.",
+      "keywords": "adultos, maduro, nsfw, erótico, sexual, explícito, +18, filtro de contenido, adult",
+      "confirm": {
+        "title": "¿Mostrar juegos para adultos?",
+        "message": "Los juegos para adultos pueden tener contenido sexual e imágenes explícitas. Actívalo solo si tienes 18 años o más.",
+        "confirm": "Mostrarlos"
+      }
+    },
+    "releaseNotices": {
+      "title": "Avisos de lanzamiento",
+      "description": "Cuando sale o se retrasa un juego de tus Deseados o Por jugar, y lo que pediste con Avísame.",
+      "keywords": "calendario, lanzamiento, deseados, por jugar, retraso, recordatorio, avísame, notificación"
     },
     "openAtLogin": {
       "title": "Abrir LastSave al iniciar Windows",

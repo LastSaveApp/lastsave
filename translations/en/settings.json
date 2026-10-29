@@ -15,6 +15,8 @@
       "appearance": "Appearance",
       "startup": "Startup",
       "window": "Window",
+      "notifications": "Notifications",
+      "content": "Content",
       "tutorials": "Tutorials and tips"
     },
     "language": {
@@ -32,6 +34,21 @@
       "title": "Minimise to the system tray",
       "description": "Closing the window keeps LastSave running in the tray, so it can still detect your play sessions.",
       "keywords": "close, quit, background, taskbar"
+    },
+    "adultGames": {
+      "title": "Show adult games",
+      "description": "Erotic games in Explore, and their covers when you search.",
+      "keywords": "adult, mature, nsfw, erotic, sexual, explicit, 18+, content filter",
+      "confirm": {
+        "title": "Show adult games?",
+        "message": "Adult games can include sexual content and explicit images. Turn this on only if you are 18 or older.",
+        "confirm": "Show them"
+      }
+    },
+    "releaseNotices": {
+      "title": "Release notifications",
+      "description": "When a game on your Wishlist or Backlog comes out or is delayed, and what you asked Notify me for.",
+      "keywords": "calendar, release, launch, wishlist, backlog, delay, reminder, notify me, notification"
     },
     "openAtLogin": {
       "title": "Open LastSave when Windows starts",

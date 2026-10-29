@@ -204,7 +204,8 @@
       "fullscreenSilent": "Este juego se ejecutó en pantalla completa exclusiva, así que el overlay no pudo aparecer; LastSave detectó la sesión en segundo plano. Para tener el overlay la próxima vez, elige pantalla completa sin bordes o en ventana en los ajustes de video del juego.",
       "unresolvedEmulator": "Detectamos esta sesión del emulador, pero no pudimos identificar el juego. Elige el juego que jugaste antes de guardar.",
       "emulatorGameChange": "LastSave detectó un posible cambio de ROM o de disco durante esta sesión del emulador. Elige el juego que mejor corresponda antes de guardar.",
-      "attachedOptions": "Elige si esta sesión se guarda en el juego base o en uno de sus DLC o expansiones."
+      "attachedOptions": "Elige si esta sesión se guarda en el juego base o en uno de sus DLC o expansiones.",
+      "editionOptions": "Elige a qué juego o expansión de esta edición va esta sesión."
     }
   },
   "followUp": {

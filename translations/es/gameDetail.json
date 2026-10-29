@@ -109,14 +109,17 @@
     "deleteEntry": "Eliminar",
     "openSteamSyncOptions": "Opciones de sincronización de Steam",
     "openEpicSyncOptions": "Opciones de sincronización de Epic",
-    "openXboxSyncOptions": "Opciones de sincronización de Xbox"
+    "openXboxSyncOptions": "Opciones de sincronización de Xbox",
+    "showWholeEntry": "Ver todo {{title}}"
   },
   "stats": {
     "status": "Estado",
     "hours": "Horas",
     "impression": "Impresión",
     "achievementBadge": "{{label}}: {{count}}",
-    "reactionTooltip": "{{emoji}} {{label}}"
+    "reactionTooltip": "{{emoji}} {{label}}",
+    "progress": "Progreso",
+    "finishedOfTotal": "{{finished}} de {{total}} terminados"
   },
   "panel": {
     "activity": "Actividad",

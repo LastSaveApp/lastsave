@@ -75,7 +75,8 @@
     "dlc": "DLC",
     "expansion": "Expansión",
     "dlcOrExpansion": "DLC / Expansión",
-    "attachedContent": "Contenido adicional"
+    "attachedContent": "Contenido adicional",
+    "included": "Incluido"
   },
   "achievements": {
     "trophy": {
@@ -157,6 +158,7 @@
     "parent_unresolved": "No se pudo resolver el juego base",
     "disc_incomplete": "El disco está incompleto: falta en la carpeta una pista que su .cue indica",
     "launcher_without_executable": "Encontrado por su launcher, sin un ejecutable directo",
-    "found_on_multiple_stores": "Encontrado en más de una tienda"
+    "found_on_multiple_stores": "Encontrado en más de una tienda",
+    "in_bundle": "Está dentro de un bundle que tienes: añádelo solo si es otra copia"
   }
 }

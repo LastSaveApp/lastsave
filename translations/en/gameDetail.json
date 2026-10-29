@@ -109,14 +109,17 @@
     "deleteEntry": "Delete",
     "openSteamSyncOptions": "Steam sync options",
     "openEpicSyncOptions": "Epic sync options",
-    "openXboxSyncOptions": "Xbox sync options"
+    "openXboxSyncOptions": "Xbox sync options",
+    "showWholeEntry": "Show all of {{title}}"
   },
   "stats": {
     "status": "Status",
     "hours": "Hours",
     "impression": "Impression",
     "achievementBadge": "{{label}}: {{count}}",
-    "reactionTooltip": "{{emoji}} {{label}}"
+    "reactionTooltip": "{{emoji}} {{label}}",
+    "progress": "Progress",
+    "finishedOfTotal": "{{finished}} of {{total}} finished"
   },
   "panel": {
     "activity": "Activity",

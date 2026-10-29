@@ -1,4 +1,8 @@
 {
+  "adultCover": {
+    "badge": "18+",
+    "label": "Adult game: its cover is hidden. Settings → General → Content."
+  },
   "sourceBadges": {
     "fromIgdb": "Game from IGDB"
   },
@@ -253,7 +257,8 @@
       "developers": "Developers",
       "publishers": "Publishers",
       "collections": "Collections"
-    }
+    },
+    "inBundle": "In {{title}}"
   },
   "discoverModal": {
     "poweredBy": "Powered by",

@@ -204,7 +204,8 @@
       "fullscreenSilent": "This game ran in exclusive fullscreen, so the overlay couldn't appear; LastSave tracked the session in the background. For the overlay next time, pick Borderless or Windowed fullscreen in the game's video settings.",
       "unresolvedEmulator": "We tracked this emulator session, but could not identify the game. Choose the game you played before saving.",
       "emulatorGameChange": "LastSave detected a possible ROM or disc change during this emulator session. Choose the game that best matches this tracked session before saving.",
-      "attachedOptions": "Choose whether this session should be saved to the base game or one of its attached DLCs or expansions."
+      "attachedOptions": "Choose whether this session should be saved to the base game or one of its attached DLCs or expansions.",
+      "editionOptions": "Choose which game or expansion of this edition this session goes to."
     }
   },
   "followUp": {

@@ -33,7 +33,7 @@
     },
     "contact": "Contact (optional)",
     "contactPlaceholder": "Discord username or email, if you want a reply",
-    "contactHint": "Only used to answer this report.",
+    "contactHint": "Used to answer you. Ideas may be posted in #ideas on Discord so others can vote.",
     "errorTitle": "Crash: {{error}}",
     "uncleanExitTitle": "LastSave closed unexpectedly",
     "windowReloadedTitle": "The window crashed and reloaded"
