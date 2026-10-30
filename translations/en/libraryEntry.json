@@ -20,6 +20,22 @@
     "removing": "Removing...",
     "confirm": "Yes, Remove"
   },
+  "edition": {
+    "sync": {
+      "running": "Adding what your editions include",
+      "runningDetail_one": "{{count}} edition or collection",
+      "runningDetail_other": "{{count}} editions or collections",
+      "done": "Editions ready to log",
+      "doneDetail_one": "{{title}}: each game and expansion can now be logged on its own.",
+      "doneDetail_other": "{{count}} editions: each game and expansion can now be logged on its own.",
+      "failed": "Could not add what your editions include",
+      "failedDetail": "LastSave will try again when it can reach the catalog."
+    },
+    "title": "Included in this edition",
+    "count_one": "{{count}} item",
+    "count_other": "{{count}} items",
+    "hint": "It comes with the edition. Log each one on its own once it is in your library."
+  },
   "attachedSelector": {
     "loading": "Checking...",
     "available_one": "{{count}} available",
@@ -56,10 +72,17 @@
     "save": "Save Changes",
     "saving": "Saving..."
   },
-  "replace": {
-    "title": "Replace the game for this entry?",
-    "message": "Changing the game will delete this entry's logs, sessions, and journal entries, then save the entry again with the new game and configuration.",
-    "confirm": "Replace Game"
+  "changeGame": {
+    "title": "Change the game of this entry?",
+    "keepsHistory": "Your logs, sessions and journal entries stay with the entry, on these games:",
+    "nothingLogged": "Nothing is logged on this entry yet. It will be saved with the new game and configuration.",
+    "logCount_one": "{{count}} log",
+    "logCount_other": "{{count}} logs",
+    "confirm": "Change Game",
+    "startOver": "Change and delete all",
+    "startOverTitle": "Delete all and change the game?",
+    "startOverMessage": "This deletes every log, session, journal entry and achievement of this entry, then saves it with the new game. It cannot be undone.",
+    "startOverConfirm": "Delete all and change"
   },
   "duplicateWarning": {
     "heading": "Game already in your Library",
@@ -278,5 +301,8 @@
     "searching": "Searching your ROM folders...",
     "empty": "No ROM matched that title.",
     "noSources": "No ROM folders are configured for this emulator yet. Add them in Import Games."
+  },
+  "inBundle": {
+    "note": "Also in {{title}}. This keeps it as its own game, with a history of its own."
   }
 }

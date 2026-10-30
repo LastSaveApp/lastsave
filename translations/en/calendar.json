@@ -1,0 +1,115 @@
+{
+  "title": "Calendar",
+  "toolbar": {
+    "previousMonth": "Previous month",
+    "nextMonth": "Next month",
+    "pickMonth": "Choose month",
+    "previousYear": "Previous year",
+    "nextYear": "Next year",
+    "today": "Today",
+    "scope": "Games shown",
+    "scopes": {
+      "all": "All",
+      "mine": "Mine",
+      "notable": "Featured"
+    },
+    "view": "View",
+    "views": {
+      "month": "Month",
+      "timeline": "Timeline",
+      "agenda": "Agenda"
+    },
+    "events": "Events"
+  },
+  "month": {
+    "undated": "{{month}}, no exact day yet",
+    "more": "+{{count}}",
+    "undatedCount_one": "{{count}} game",
+    "undatedCount_other": "{{count}} games"
+  },
+  "timeline": {
+    "more_one": "+{{count}} release",
+    "more_other": "+{{count}} releases"
+  },
+  "agenda": {
+    "empty": "Nothing comes out this month.",
+    "unannounced": "To be announced"
+  },
+  "milestones": {
+    "release": "Launch",
+    "onePointOh": "Version 1.0",
+    "earlyAccess": "Early Access",
+    "advancedAccess": "Advance access",
+    "beta": "Beta",
+    "alpha": "Alpha"
+  },
+  "precision": {
+    "quarter": "Q{{quarter}} {{year}}",
+    "tbd": "TBA"
+  },
+  "marks": {
+    "owned": "In your library",
+    "addOn": "Expansion of {{title}}",
+    "content": "In {{title}}",
+    "reminded": "Notify me is on",
+    "notify": "Notify me"
+  },
+  "detail": {
+    "close": "Close",
+    "empty": "Nothing comes out this day.",
+    "otherDates": "Other dates",
+    "actions": {
+      "notify": "Notify me",
+      "notifying": "We'll notify you"
+    },
+    "notifyAutoHint": "Games on your Wishlist or Backlog notify you when they come out.",
+    "hints": {
+      "onePointOh": "Leaves Early Access: the full release.",
+      "earlyAccess": "Playable before the full release, while it is still being made.",
+      "advancedAccess": "Early play for whoever preordered a special edition."
+    },
+    "event": {
+      "games_one": "{{count}} game",
+      "games_other": "{{count}} games",
+      "open": "Event details"
+    }
+  },
+  "empty": {
+    "mine": {
+      "title": "Nothing of yours this month",
+      "body": "Mark a game as Wishlist and it shows up here with its date. Meanwhile, here are the featured releases.",
+      "action": "See featured"
+    }
+  },
+  "states": {
+    "error": "The calendar could not load this month.",
+    "retry": "Try again"
+  },
+  "notices": {
+    "today": {
+      "release": "{{title}} comes out today",
+      "onePointOh": "{{title}} reaches version 1.0 today",
+      "earlyAccess": "{{title}} enters Early Access today",
+      "advancedAccess": "Advance access to {{title}} starts today",
+      "beta": "The {{title}} beta starts today"
+    },
+    "tomorrow": {
+      "release": "{{title}} comes out tomorrow",
+      "onePointOh": "{{title}} reaches version 1.0 tomorrow",
+      "earlyAccess": "{{title}} enters Early Access tomorrow",
+      "advancedAccess": "Advance access to {{title}} starts tomorrow",
+      "beta": "The {{title}} beta starts tomorrow"
+    },
+    "delayed": "{{title}} was delayed",
+    "delayedFromTo": "From {{from}} to {{to}}.",
+    "eventToday": "Today: {{title}} at {{time}}",
+    "eventStarting": "{{title}} is starting",
+    "reasons": {
+      "wishlist": "It's on your Wishlist.",
+      "backlog": "It's on your Backlog.",
+      "reminder": "You asked to be notified."
+    },
+    "open": "Open calendar",
+    "watch": "Watch stream"
+  }
+}

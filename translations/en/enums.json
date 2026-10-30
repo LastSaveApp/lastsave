@@ -75,7 +75,8 @@
     "dlc": "DLC",
     "expansion": "Expansion",
     "dlcOrExpansion": "DLC / Expansion",
-    "attachedContent": "Attached content"
+    "attachedContent": "Attached content",
+    "included": "Included"
   },
   "achievements": {
     "trophy": {
@@ -157,6 +158,7 @@
     "parent_unresolved": "The base game couldn't be resolved",
     "disc_incomplete": "Its disc is incomplete: a track its .cue lists isn't in the folder",
     "launcher_without_executable": "Found through its launcher, without a direct executable",
-    "found_on_multiple_stores": "Found on more than one store"
+    "found_on_multiple_stores": "Found on more than one store",
+    "in_bundle": "Inside a bundle you have — add it only if it is another copy"
   }
 }

@@ -578,6 +578,13 @@
       "discover": {
         "title": "Explore",
         "body": "Discover what's new and what's coming, browse the best games by genre and year, and add anything to your library or wishlist."
+      },
+      "calendar": {
+        "title": "The release calendar",
+        "body": "Calendar, below Explore, shows when your games come out, next to the most awaited releases and the showcases where dates get announced. Games on your Wishlist or Backlog notify you the day before and on the day, and when their date moves.",
+        "step1": "Pick Month, Timeline or Agenda, and All, Mine or Featured, in the bar on top. Events shows or hides the showcases.",
+        "step2": "Rest on a day for a quick look, or click it to see everything that day. Click a game to see it and add it.",
+        "step3": "Press the bell on a game or showcase, or Notify me on a game's page in Explore, to be notified too. Games with no date yet are under To be announced."
       }
     },
     "emulators": {

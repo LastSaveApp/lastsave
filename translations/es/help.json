@@ -578,6 +578,13 @@
       "discover": {
         "title": "Explorar",
         "body": "Descubre lo nuevo y lo que viene, recorre los mejores juegos por género y año, y añade lo que sea a tu biblioteca o a tus deseados."
+      },
+      "calendar": {
+        "title": "El calendario de lanzamientos",
+        "body": "Calendario, debajo de Explorar, te muestra cuándo salen tus juegos, junto a los lanzamientos más esperados y los eventos donde se anuncian fechas. Los juegos en Deseados o Por jugar te avisan el día antes y el mismo día, y si cambian de fecha.",
+        "step1": "Elige Mes, Línea o Agenda, y Todos, Míos o Destacados, en la barra de arriba. Eventos muestra u oculta los eventos.",
+        "step2": "Pasa el ratón por un día para echar un vistazo, o haz clic para ver todo lo de ese día. Haz clic en un juego para verlo y añadirlo.",
+        "step3": "Pulsa la campana en un juego o evento, o Avísame en la ficha de un juego en Explorar, para que también te avise. Los que aún no tienen fecha están en Por anunciar."
       }
     },
     "emulators": {

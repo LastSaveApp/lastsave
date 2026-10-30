@@ -23,6 +23,25 @@
     "removing": "Quitando…",
     "confirm": "Sí, quitar"
   },
+  "edition": {
+    "sync": {
+      "running": "Agregando lo que traen tus ediciones",
+      "runningDetail_one": "{{count}} edición o colección",
+      "runningDetail_many": "{{count}} ediciones o colecciones",
+      "runningDetail_other": "{{count}} ediciones o colecciones",
+      "done": "Ediciones listas para registrar",
+      "doneDetail_one": "{{title}}: ya puedes registrar cada juego y expansión por separado.",
+      "doneDetail_many": "{{count}} ediciones: ya puedes registrar cada juego y expansión por separado.",
+      "doneDetail_other": "{{count}} ediciones: ya puedes registrar cada juego y expansión por separado.",
+      "failed": "No se pudo agregar lo que traen tus ediciones",
+      "failedDetail": "LastSave lo volverá a intentar cuando pueda conectarse al catálogo."
+    },
+    "title": "Incluido en esta edición",
+    "count_one": "{{count}} elemento",
+    "count_many": "{{count}} elementos",
+    "count_other": "{{count}} elementos",
+    "hint": "Viene con la edición. Registra cada uno por separado cuando esté en tu biblioteca."
+  },
   "attachedSelector": {
     "loading": "Comprobando…",
     "available_one": "{{count}} disponible",
@@ -61,10 +80,18 @@
     "save": "Guardar cambios",
     "saving": "Guardando…"
   },
-  "replace": {
-    "title": "¿Cambiar el juego?",
-    "message": "Al cambiar el juego se borra su historial (sesiones, logros y entradas de diario) y se vuelve a guardar con el juego y la configuración nuevos.",
-    "confirm": "Cambiar juego"
+  "changeGame": {
+    "title": "¿Cambiar el juego de esta entrada?",
+    "keepsHistory": "Tus logs, sesiones y entradas de diario se quedan en la entrada, en estos juegos:",
+    "nothingLogged": "Esta entrada aún no tiene nada registrado. Se guardará con el juego y la configuración nuevos.",
+    "logCount_one": "{{count}} log",
+    "logCount_many": "{{count}} logs",
+    "logCount_other": "{{count}} logs",
+    "confirm": "Cambiar juego",
+    "startOver": "Cambiar y borrar todo",
+    "startOverTitle": "¿Borrar todo y cambiar el juego?",
+    "startOverMessage": "Se borran todos los logs, sesiones, entradas de diario y logros de esta entrada, y se guarda con el juego nuevo. No se puede deshacer.",
+    "startOverConfirm": "Borrar todo y cambiar"
   },
   "duplicateWarning": {
     "heading": "El juego ya está en tu Biblioteca",
@@ -283,5 +310,8 @@
     "searching": "Buscando en tus carpetas de ROM…",
     "empty": "Ninguna ROM coincide con ese título.",
     "noSources": "Este emulador todavía no tiene carpetas de ROM. Añádelas en Importar juegos."
+  },
+  "inBundle": {
+    "note": "También está en {{title}}. Así queda como un juego aparte, con su propio historial."
   }
 }

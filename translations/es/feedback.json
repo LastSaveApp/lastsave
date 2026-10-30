@@ -33,7 +33,7 @@
     },
     "contact": "Contacto (opcional)",
     "contactPlaceholder": "Usuario de Discord o correo, si quieres respuesta",
-    "contactHint": "Solo se usa para responder a este reporte.",
+    "contactHint": "Se usa para responderte. Las ideas pueden publicarse en #ideas de Discord para que otros voten.",
     "errorTitle": "Fallo: {{error}}",
     "uncleanExitTitle": "LastSave se cerró de forma inesperada",
     "windowReloadedTitle": "La ventana falló y se recargó"

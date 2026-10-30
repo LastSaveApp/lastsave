@@ -1,4 +1,8 @@
 {
+  "adultCover": {
+    "badge": "+18",
+    "label": "Juego para adultos: su portada está oculta. Ajustes → General → Contenido."
+  },
   "sourceBadges": {
     "fromIgdb": "Juego de IGDB"
   },
@@ -254,7 +258,8 @@
       "developers": "Desarrolladores",
       "publishers": "Distribuidores",
       "collections": "Sagas"
-    }
+    },
+    "inBundle": "En {{title}}"
   },
   "discoverModal": {
     "poweredBy": "Datos de",

@@ -1,0 +1,118 @@
+{
+  "title": "Calendario",
+  "toolbar": {
+    "previousMonth": "Mes anterior",
+    "nextMonth": "Mes siguiente",
+    "pickMonth": "Elegir mes",
+    "previousYear": "Año anterior",
+    "nextYear": "Año siguiente",
+    "today": "Hoy",
+    "scope": "Juegos que se ven",
+    "scopes": {
+      "all": "Todos",
+      "mine": "Míos",
+      "notable": "Destacados"
+    },
+    "view": "Vista",
+    "views": {
+      "month": "Mes",
+      "timeline": "Línea",
+      "agenda": "Agenda"
+    },
+    "events": "Eventos"
+  },
+  "month": {
+    "undated": "{{month}}, sin día confirmado",
+    "more": "+{{count}}",
+    "undatedCount_one": "{{count}} juego",
+    "undatedCount_many": "{{count}} juegos",
+    "undatedCount_other": "{{count}} juegos"
+  },
+  "timeline": {
+    "more_one": "+{{count}} lanzamiento",
+    "more_many": "+{{count}} lanzamientos",
+    "more_other": "+{{count}} lanzamientos"
+  },
+  "agenda": {
+    "empty": "Este mes no sale nada.",
+    "unannounced": "Por anunciar"
+  },
+  "milestones": {
+    "release": "Lanzamiento",
+    "onePointOh": "Versión 1.0",
+    "earlyAccess": "Acceso anticipado",
+    "advancedAccess": "Acceso adelantado",
+    "beta": "Beta",
+    "alpha": "Alfa"
+  },
+  "precision": {
+    "quarter": "T{{quarter}} {{year}}",
+    "tbd": "Por anunciar"
+  },
+  "marks": {
+    "owned": "En tu biblioteca",
+    "addOn": "Expansión de {{title}}",
+    "content": "En {{title}}",
+    "reminded": "Avísame activado",
+    "notify": "Avísame"
+  },
+  "detail": {
+    "close": "Cerrar",
+    "empty": "Ese día no sale nada.",
+    "otherDates": "Otras fechas",
+    "actions": {
+      "notify": "Avísame",
+      "notifying": "Te avisaremos"
+    },
+    "notifyAutoHint": "Los juegos en Deseados o Por jugar te avisan cuando salen.",
+    "hints": {
+      "onePointOh": "Sale del acceso anticipado: el lanzamiento completo.",
+      "earlyAccess": "Se puede jugar antes del lanzamiento, mientras se termina.",
+      "advancedAccess": "Para quien reservó una edición especial: juega antes."
+    },
+    "event": {
+      "games_one": "{{count}} juego",
+      "games_many": "{{count}} juegos",
+      "games_other": "{{count}} juegos",
+      "open": "Detalles del evento"
+    }
+  },
+  "empty": {
+    "mine": {
+      "title": "Nada de lo tuyo sale este mes",
+      "body": "Marca un juego como Deseado y aparecerá aquí con su fecha. Mientras, estos son los destacados.",
+      "action": "Ver destacados"
+    }
+  },
+  "states": {
+    "error": "El calendario no pudo cargar este mes.",
+    "retry": "Reintentar"
+  },
+  "notices": {
+    "today": {
+      "release": "Hoy sale {{title}}",
+      "onePointOh": "{{title}} llega hoy a la versión 1.0",
+      "earlyAccess": "{{title}} entra hoy en acceso anticipado",
+      "advancedAccess": "Hoy empieza el acceso adelantado a {{title}}",
+      "beta": "Hoy empieza la beta de {{title}}"
+    },
+    "tomorrow": {
+      "release": "Mañana sale {{title}}",
+      "onePointOh": "{{title}} llega mañana a la versión 1.0",
+      "earlyAccess": "{{title}} entra mañana en acceso anticipado",
+      "advancedAccess": "Mañana empieza el acceso adelantado a {{title}}",
+      "beta": "Mañana empieza la beta de {{title}}"
+    },
+    "delayed": "{{title}} se retrasó",
+    "delayedFromTo": "De {{from}} a {{to}}.",
+    "eventToday": "Hoy: {{title}} a las {{time}}",
+    "eventStarting": "Empieza {{title}}",
+    "reasons": {
+      "wishlist": "Está en tus Deseados.",
+      "backlog": "Está en tu Por jugar.",
+      "reminder": "Pediste que te avisáramos."
+    },
+    "open": "Abrir calendario",
+    "watch": "Ver directo"
+  }
+}

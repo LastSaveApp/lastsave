@@ -229,6 +229,7 @@
     "never": "Never",
     "stats": {
       "status": "Status",
+      "progress": "Progress",
       "hours": "Hours",
       "lastPlayed": "Last played",
       "impression": "Impression",
@@ -376,6 +377,7 @@
     "kicker": "Session over",
     "whichGame": "Which game?",
     "whichGameHint": "The base game or one of its expansions",
+    "whichGameHintEdition": "One of the games or expansions it contains",
     "playedOn": "Played on",
     "duration": "Duration",
     "hours": "Hours",
