@@ -6,6 +6,7 @@
 and what happened along the way. All in one app on your PC.
 
 <a href="https://lastsave.app/download?ref=github"><img src="https://img.shields.io/badge/Download_for_Windows-0ea5e9?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0wIDBoMTEuNHYxMS40SDB6TTEyLjYgMEgyNHYxMS40SDEyLjZ6TTAgMTIuNmgxMS40VjI0SDB6TTEyLjYgMTIuNkgyNFYyNEgxMi42eiIvPjwvc3ZnPg%3D%3D" alt="Download for Windows"></a>
+<a href="https://apps.microsoft.com/detail/XP8CNC2FSP3T93?cid=github"><img src="https://img.shields.io/badge/Microsoft_Store-1f2937?style=for-the-badge" alt="Get it on the Microsoft Store"></a>
 <a href="https://discord.gg/cgTuQXwvA4"><img src="https://img.shields.io/badge/Join_the_Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join the Discord"></a>
 <a href="https://buymeacoffee.com/lastsaveapp"><img src="https://img.shields.io/badge/Buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 
@@ -72,6 +73,9 @@ policy lists everything the app sends, and Settings holds the switches.
 
 **[Download for Windows →](https://lastsave.app/download?ref=github)** · Windows 10 and 11, 64-bit.
 Nothing to configure — install it and open it. LastSave updates itself.
+
+Also on the **[Microsoft Store](https://apps.microsoft.com/detail/XP8CNC2FSP3T93?cid=github)**. It is the same app, and it keeps
+updating itself the same way.
 
 The installer is signed by its developer (publisher **Miguel Angel Velez Guerra**). Windows can
 still show a blue **"Windows protected your PC"** screen while LastSave is new: SmartScreen holds
