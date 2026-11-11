@@ -1,0 +1,68 @@
+{
+  "select": {
+    "placeholder": "Wybierz opcję..."
+  },
+  "checkboxMultiSelect": {
+    "searchPlaceholder": "Wyszukaj opcji...",
+    "selectAll": "Zaznacz wszystko",
+    "unselectAll": "Odznacz wszystko",
+    "openOptions": "Otwórz opcje"
+  },
+  "datePicker": {
+    "placeholder": "Wprowadź datę",
+    "today": "Dzisiaj - {{date}}",
+    "hintChangeYear": "Kliknij {{month}} żeby zmienić rok"
+  },
+  "timePicker": {
+    "now": "Teraz",
+    "hours": "Godziny",
+    "minutes": "Minuty",
+    "clock": "Zegar",
+    "twelveHour": "12-godzinny",
+    "twentyFourHour": "24-godzinny"
+  },
+  "colorPicker": {
+    "placeholder": "#f5c542 lub rgb(245,197,66)",
+    "open": "Otwórz paletę kolorów",
+    "pickerButton": "Kolor",
+    "selected": "Wybrany",
+    "presets": {
+      "gold": "Złoty",
+      "red": "Czerwony",
+      "orange": "Pomarańczowy",
+      "green": "Zielony",
+      "emerald": "Szmaragdowy",
+      "blue": "Niebieski",
+      "violet": "Fioletowy",
+      "pink": "Róźowy",
+      "slate": "Łupkowy",
+      "gray": "Szary",
+      "dark": "Ciemny"
+    }
+  },
+  "avatar": {
+    "pickTitle": "Kliknij aby wybrać zdjęcie z dysku",
+    "placeholder": "http://... lub C:\\sciezka\\do\\zdjecia.png",
+    "pickLocalFile": "Wybierz plik z dysku",
+    "hint": "Wklej adres URL zdjęcia lub wybierz plik z dysku. Oba posłużą jako zdjęcie awatara."
+  },
+  "gallery": {
+    "goToLog": "Przejdź do wpisu",
+    "exitFullscreen": "Wróć do normalnego rozmiaru (F)"
+  },
+  "timeToBeat": {
+    "rush": "Pośpiech",
+    "normal": "Zwykły",
+    "complete": "Pełny"
+  },
+  "gameCard": {
+    "edit": "Edytuj"
+  },
+  "yearRange": {
+    "from": "Od",
+    "to": "Do",
+    "placeholder": "Rok",
+    "previousDecade": "Poprzednia dekada",
+    "nextDecade": "Następna dekada"
+  }
+}

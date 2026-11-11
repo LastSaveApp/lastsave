@@ -1,0 +1,501 @@
+{
+  "interrupted": {
+    "title": "Zakończyć dodawanie gier?",
+    "resume": "Wznów",
+    "discard": "Zniszcz"
+  },
+  "scanPanel": {
+    "back": "Wróć"
+  },
+  "installed": {
+    "dialog": {
+      "selectFolder": "Wybierz folder do skanowania"
+    }
+  },
+  "emulated": {
+    "dialog": {
+      "selectRomFiles": "Wybierz pliki ROM",
+      "selectRomFolder": "Wybierz katalog z plikami ROM"
+    }
+  },
+  "steam": {
+    "prefs": {
+      "nonPlayed": {
+        "title": "Uwzględnij niegrane gry"
+      }
+    }
+  },
+  "epic": {
+    "capabilities": {
+      "unplayed": {
+        "title": "Uwzględnij niegrane gry"
+      }
+    }
+  },
+  "unified": {
+    "title": "Importowanie gier",
+    "description": "Skonfiguruj źródła raz, a potem przejrzyj swoje gry.",
+    "steps": {
+      "sources": "Wybór źródła",
+      "setup": "Konfiguracja",
+      "review": "Twoje gry"
+    },
+    "entry": {
+      "heading": "Dodajmy twoje gry",
+      "hint": "Wskaż, gdzie znajdują się twoje gry. Następnie skonfigurujesz każde źródło i sprawdzisz całość przed dodaniem do biblioteki.",
+      "connect": "Połącz",
+      "connectedAs": "Połączono · {{name}}",
+      "tiers": {
+        "recommended": {
+          "title": "Polecane"
+        },
+        "more": {
+          "title": "Inne żródła"
+        }
+      }
+    },
+    "sources": {
+      "pc": {
+        "name": "Ten komputer",
+        "tagline": "Zainstalowane gry, launchery i skróty znajdujące się na tym komputerze."
+      },
+      "steam": {
+        "name": "Steam",
+        "tagline": "Gry posiadane, z listy życzeń i udostępnione, wraz z czasem rozgrywki."
+      },
+      "epic": {
+        "name": "Epic Games",
+        "tagline": "Gry posiadane w Epic, czas gry i lista życzeń."
+      },
+      "xbox": {
+        "name": "Xbox",
+        "tagline": "Gry na PC, w Game Passie i na konsoli Xbox, z czasem gry."
+      },
+      "emulators": {
+        "name": "Emulatory",
+        "tagline": "Gry emulowane z folderów emulatorów i ROM-ów."
+      }
+    },
+    "state": {
+      "notConnected": "Nie połączony"
+    },
+    "summary": {
+      "notSelected": "Nie wybrany",
+      "defaultFolders": "Domyślne katalogi",
+      "steamDisconnected": "Brak połączenia",
+      "includeUnplayed": "Niegrane",
+      "emulatorsEmpty": "Wymaga ustawienia",
+      "epicDisconnected": "Połącz z Epic, aby zaimportować bibliotekę",
+      "epicIncludeUnplayed": "niegrane",
+      "xboxDisconnected": "Połącz z Xbox, aby zaimportować bibliotekę"
+    },
+    "pc": {
+      "yourStuff": {
+        "title": "Dodaj swoje katalogi i gry",
+        "dropHint": "Przeciągnij foldery lub gry tutaj",
+        "addFolder": "Dodaj folder",
+        "addGames": "Dodaj gry",
+        "empty": "Nie dodano jeszcze żadnych gier i folderów."
+      },
+      "alwaysScanned": {
+        "title": "Zawsze skanowane",
+        "summary_one": "{{count}} lokacja",
+        "summary_few": "{{count}} lokacje",
+        "summary_many": "{{count}} lokacji",
+        "summary_other": "{{count}} lokacji",
+        "hint": "Automatycznie skanujemy już Twoje platformy z grami i typowe lokalizacje."
+      },
+      "dialog": {
+        "selectGames": "Wybierz gry do dodania"
+      }
+    },
+    "ignored": {
+      "title": "Pozycje zignorowane",
+      "summary_one": "{{count}} pozycja",
+      "summary_few": "{{count}} pozycje",
+      "summary_many": "{{count}} pozycji",
+      "summary_other": "{{count}} pozycji",
+      "hint": "Odrzucone pozycje. Nie będą uwzględniane w kolejnych skanowaniach, dopóki ich nie przywrócisz",
+      "restore": "Przywróć",
+      "clearAll": "Przywróć wszystkie",
+      "open_one": "{{count}} zignorowana",
+      "open_few": "{{count}} zignorowane",
+      "open_many": "{{count}} zignorowanych",
+      "open_other": "{{count}} zignorowanych",
+      "clearConfirm": {
+        "title": "Przywrócić wszystkie elementy?",
+        "message": "Pojawią się ponownie przy następnym skanowaniu tego źródła. Nic nie zostanie dodane do biblioteki.",
+        "confirm": "Przywróć wszystkie"
+      },
+      "origin": {
+        "review": "Odrzucono podczas przeglądania",
+        "identify": "Pominięto podczas rozpoznania"
+      }
+    },
+    "emulators": {
+      "title": "Emulatory",
+      "configTitle": "Emulatory",
+      "configDescription": "Wybierz emulatory, wskaż plik wykonywalny każdego z nich i dodaj foldery z plikami ROM.",
+      "retroarchCores": {
+        "platformPlaceholder": "Platforma (np. PlayStation)",
+        "corePlaceholder": "C:\\RetroArch\\cores\\core_libretro.dll",
+        "pickCore": "Wybierz plik rdzenia",
+        "add": "Dodaj przypisany rdzeń"
+      },
+      "retroarch": {
+        "needsExe": "Ustaw plik wykonywalny RetroArch, aby wykryć jego rdzenie.",
+        "pickCoresDir": "Wybierz katalog z rdzeniami",
+        "coresFolderTitle": "Katalog rdzeni",
+        "coresFolderUnknown": "Jeszcze nie wykryte",
+        "coresFolderAutoHint": "Wykryto na podstawie pliku wykonywalnego RetroArch i pliku retroarch.cfg.",
+        "manualHint": "Ręcznie przypisz platformę do pliku rdzenia, jeśli automatyczne wykrywanie go nie znajduje.",
+        "addWithoutSystem": "Dodaj pliki ROM nie przypisane do systemu...",
+        "noSystemHint": "Pliki ROM bez przypisanego systemu zaimportują się poprawnie, ale nie będzie można ich uruchomić bezpośrednio w RetroArch. Foldery nazwane według systemu (n64, snes itd.) zostaną automatycznie przypisane.",
+        "coresTitle": "Rdzenie RetroArch",
+        "coresDescription": "Gdzie znajdują się rdzenie i który rdzeń uruchamia dany system. Wykrywanie uzupełnia te dane automatycznie — zmieniaj je tylko w razie potrzeby.",
+        "manualTitle": "Ręczne przypisanie"
+      },
+      "pathPlaceholderNamed": "C:\\...\\{{exe}} - działają również skróty",
+      "emulatorPathKinds": "(.exe lub skrót)",
+      "addManually": "Dodaj ręcznie",
+      "browse": "Wskaż pliki wykonywalne",
+      "search": {
+        "action": "Wyszukaj",
+        "searching": "Wyszukiwanie...",
+        "stop": "Zatrzymaj",
+        "minimize": "Minimalizuj",
+        "title": "Wybierz plik wykonywalny dla {{name}}",
+        "inProgress": "Przeszukiwanie dysków...",
+        "waiting": "Jeszcze nie znaleziono",
+        "cleared": "Wyczyszczono wyniki. Szukaj ponownie pliku wykonywalnego.",
+        "again": "Szukaj ponownie",
+        "clear": "Wyczyść"
+      },
+      "attribution": "LastSave nie jest powiązany z tymi projektami. Nazwy i logotypy należą do ich właścicieli.",
+      "officialSite": "Odwiedź stronę oficjalną",
+      "open": {
+        "action": "Uruchom"
+      },
+      "clearAll": "Wyczyść wszystko",
+      "clearConfirm": {
+        "title": "Usunąć wszystkie źródła emulatorów?",
+        "message": "Wszystkie dodane tutaj emulatory — z katalogu, ręcznie lub zaimportowane z programu do zarządzania grami — zostaną usunięte z tego importu. Nie wpłynie to na emulatory zainstalowane na komputerze.",
+        "confirm": "Wyczyść wszystko"
+      },
+      "needsExe": "Wymaga ścieżki do emulatora",
+      "needsRoms": "Wymaga plików ROM",
+      "untitledSource": "Nieznany emulator",
+      "emulatorPath": "Ścieżka do emulatora",
+      "customName": "Nazwa",
+      "customNamePlaceholder": "np. Mój własny emulator",
+      "romsTitle": "Katalogi i pliki ROM",
+      "dropHint": "Przeciągnij tutaj pliki ROM lub katalogi z nimi",
+      "addFiles": "Dodaj pliki",
+      "addFolder": "Dodaj katalog",
+      "removeSource": "Usuń ten emulator",
+      "removeConfirm": {
+        "title": "Usunąć emulator?",
+        "confirm": "Usuń"
+      },
+      "launchOptions": {
+        "open": "Opcje uruchamiania",
+        "title": "Opcje uruchomienia  {{emulator}}",
+        "description": "Sposób uruchamiania gier w emulatorze przez LastSave. Wszystkie opcje są domyślnie wyłączone — LastSave uruchamia grę, a pozostałe ustawienia pozostawia emulatorowi.",
+        "none": "LastSave nie obsługuje jeszcze konfiguracji uruchamiania {{emulator}}. Gry uruchamiają się z podstawowymi ustawieniami.",
+        "useEmulatorDefaults": "Użyj ustawień własnych emulatora",
+        "useEmulatorDefaultsHint": "LastSave uruchamia grę nie dodając nic od siebie - skutek jest identyczny do uruchomienia gry przez emulator.",
+        "defaultBadge": "Domyślnie",
+        "toggle": "{{option}}",
+        "items": {
+          "fullscreen": {
+            "label": "Pełny ekran przy uruchomieniu",
+            "description": "Wymusza uruchomienie gry w trybie pełnoekranowym, niezależnie od ustawień wyświetlania emulatora."
+          }
+        }
+      }
+    },
+    "continue": {
+      "setUp": "Skonfiguruj",
+      "scan": "Skanuj moje gry",
+      "reasonNoSelection": "Wybierz przynajmniej jedno źródło, aby przejść dalej.",
+      "reasonNoneReady": "Dokończ konfigurację źródła, aby przejść dalej."
+    },
+    "scan": {
+      "title": "Oto, co przeszukamy",
+      "steam": {
+        "unplayed": "Niegrane gry",
+        "wishlist": "lista życzeń",
+        "autoSync": "czas gry z synchronizacji"
+      },
+      "epic": {
+        "unplayed": "niegrane gry"
+      }
+    },
+    "review": {
+      "foundCount_one": "{{count}} gra znaleziona",
+      "foundCount_few": "{{count}} znalezione gry",
+      "foundCount_many": "{{count}} znalezionych gier",
+      "foundCount_other": "{{count}} znalezionej gry",
+      "scanningSource": "Skanuję {{source}}...",
+      "percent": "{{percent}} %",
+      "wishlistBlock_one": "{{count}} gra na liście życzeń",
+      "wishlistBlock_few": "{{count}} gry na liście życzeń",
+      "wishlistBlock_many": "{{count}} gier na liście życzeń",
+      "wishlistBlock_other": "{{count}} gry na liście życzeń",
+      "ownedBlock_one": "{{count}} gra, którą posiadasz",
+      "ownedBlock_few": "{{count}} gry, które posiadasz",
+      "ownedBlock_many": "{{count}} gier, które posiadasz",
+      "ownedBlock_other": "{{count}} gry, które posiadasz",
+      "add_one": "Dodaj {{count}} do biblioteki",
+      "add_few": "Dodaj {{count}} do biblioteki",
+      "add_many": "Dodaj {{count}} do biblioteki",
+      "add_other": "Dodaj {{count}} do biblioteki",
+      "addAndUpdate_one": "Dodaj {{count}}, uaktualnij {{updates}}",
+      "addAndUpdate_few": "Dodaj {{count}}, uaktualnij {{updates}}",
+      "addAndUpdate_many": "Dodaj {{count}}, uaktualnij {{updates}}",
+      "addAndUpdate_other": "Dodaj {{count}}, uaktualnij {{updates}}",
+      "addPending": "Dodaj do biblioteki",
+      "emptyState": {
+        "title": "Nie znaleziono gier",
+        "hint": "Zwykle oznacza to, że trzeba sprawdzić jedno ze źródeł.",
+        "sourceEmpty": "Nic nie znaleziono",
+        "sourceInactive": "Nie ustawione",
+        "backToSetup": "Wróć do konfiguracji",
+        "searchingTitle": "Przeszukiwanie źródeł"
+      },
+      "deleteConfirm": {
+        "title": "Usunąć \"{{title}}\" z tej listy?",
+        "message": "Nie zostanie zaimportowana ani ponownie wyświetlona bez kolejnego skanowania. Pozostałe decyzje pozostają bez zmian."
+      },
+      "card": {
+        "edit": "Edytuj",
+        "review": "Sprawdź",
+        "discard": "Zniszcz",
+        "restore": "Przywróć",
+        "delete": "Usuń",
+        "select": "Wybierz tę grę"
+      },
+      "list": {
+        "columns": {
+          "game": "Gra",
+          "source": "Żródło",
+          "hours": "Godziny"
+        }
+      },
+      "filters": {
+        "all": "Wszystkie",
+        "review": "Do sprawdzenia",
+        "status": "Status",
+        "anyStatus": "Dowolny status",
+        "noStatus": "Bez statusu",
+        "discarded": "Odrzucone",
+        "allSources": "Wszystkie źródła",
+        "selectAll_one": "Wybierz {{count}}",
+        "selectAll_few": "Wybierz wszystkie {{count}}",
+        "selectAll_many": "Wybierz wszystkie {{count}}",
+        "selectAll_other": "Wybierz wszystkie {{count}}",
+        "searchPlaceholder": "Znajdź grę",
+        "sort": "Sortuj",
+        "sortBy": {
+          "arrival": "Kolejność znalezienia",
+          "hoursDesc": "Najwięcej godzin",
+          "hoursAsc": "Najmniej godzin",
+          "title": "Tytuł (A-Z)"
+        },
+        "layout": {
+          "list": "Widok listy",
+          "grid": "Widok siatki"
+        }
+      },
+      "bulk": {
+        "noStatus": "Bez statusu"
+      },
+      "provenance": {
+        "steam": "ze Steam",
+        "pcFrom": "Znaleziono na tym komputerze · {{source}}",
+        "emulator": "Grano przez {{emulator}}",
+        "hours_one": "Importuj czas {{count}} godz.",
+        "hours_few": "Importuj czas {{count}} godz.",
+        "hours_many": "Importuj czas {{count}} godz.",
+        "hours_other": "Importuj czas {{count}} godz."
+      },
+      "modal": {
+        "title": "Sprawdź tę grę",
+        "changeGame": "Zmień grę",
+        "status": "Status",
+        "foundBy": "Żródła",
+        "setup": "Platforma",
+        "fieldNotice": {
+          "notFound": "Nie znaleziono - możesz dodać później jeśli chcesz"
+        },
+        "duplicateTitle": "Jest w bibliotece",
+        "discard": {
+          "title": "Wyjść bez zapisywania?",
+          "confirm": "Usuń zmiany"
+        },
+        "duplicateWhatToDo": "Co zrobić?"
+      },
+      "alerts": {
+        "identifyTitle_one": "{{count}} gra nie została zidentyfikowana",
+        "identifyTitle_few": "{{count}} gry nie zostały zidentyfikowane",
+        "identifyTitle_many": "{{count}} gier nie zostało zidentyfikowanych",
+        "identifyTitle_other": "{{count}} gry nie zostało zidentyfikowanej",
+        "identifyAction": "Identyfikuj"
+      },
+      "identify": {
+        "title": "Gry których nie mogliśmy zidentyfikować",
+        "description": "Dla każdej pozycji wyszukaj właściwą grę i wybierz ją, dodaj ją pod jej własną nazwą albo odrzuć. Pozostałe gry zostaną zaimportowane niezależnie od twoich decyzji.",
+        "toSort": {
+          "title_one": "Do sprawdzenia ({{count}})",
+          "title_few": "Do sprawdzenia ({{count}})",
+          "title_many": "Do sprawdzenia ({{count}})",
+          "title_other": "Do sprawdzenia {{count}})"
+        },
+        "searchedFor": "W katalogu nie znaleźliśmy gry {{query}}. Spróbuj wpisać krótszą nazwę lub pomiń edycję.",
+        "discardRest_one": "Zniszcz pozostałe ({{count}})",
+        "discardRest_few": "Zniszcz pozostałe ({{count}})",
+        "discardRest_many": "Zniszcz pozostałe ({{count}})",
+        "discardRest_other": "Zniszcz pozostałe ({{count}})",
+        "restoreAll_one": "Przywróć {{count}}",
+        "restoreAll_few": "Przywróć obie",
+        "restoreAll_many": "Przywróć wszystkie {{count}}",
+        "restoreAll_other": "Przywróć wszystkie {{count}}",
+        "resolvedGoAlong": "Wszystko, co tu rozstrzygniesz, zostanie dodane razem z resztą.",
+        "noResults": "Nie znaleziono dopasowania",
+        "noneOfThese": "Nic z tego?",
+        "addAsNamed": "Mimo wszystko dodaj do biblioteki jako \"{{name}}\".",
+        "discard": "Zniszcz",
+        "leftOut": "Nie zostanie dodana",
+        "undo": "Cofnij",
+        "remaining_one": "Pozostała jeszcze {{count}}",
+        "remaining_few": "Pozostały jeszcze {{count}}",
+        "remaining_many": "Pozostało jeszcze {{count}}",
+        "remaining_other": "Pozostało jeszcze {{count}}",
+        "allDone": "Wszystko sprawdzone"
+      },
+      "scan": {
+        "stop": "Zatrzymaj",
+        "again": "Skanuj ponownie",
+        "stoppedTitle": "Skanowanie zostało zatrzymane",
+        "stoppedHint": "To rzeczywiste dane, ale obejmują tylko gry znalezione do tej pory. Ponów skanowanie, aby uzyskać pełną listę."
+      },
+      "sections": {
+        "newGames": "Nowe gry",
+        "inLibrary": "Z twojej biblioteki",
+        "noNewGames": "Brak nowych gier."
+      }
+    },
+    "inactive": {
+      "select": "Wybierz źródło"
+    },
+    "exit": {
+      "title": "Opuścić kreator importu?",
+      "message": "Kreator zostanie zamknięty. Źródła i ich konfiguracja zostały zapisane, więc możesz kontynuować później.",
+      "messageReview": "Opuścisz kreator importu. Źródła i ustawienia zostaną zapisane, ale postęp weryfikacji zostanie utracony.",
+      "confirm": "Wyjdź",
+      "cancel": "Kontynuuj edycję"
+    }
+  },
+  "check": {
+    "title": "Wykrywanie nowych gier",
+    "description": "Przeszukuje wszystkie miejsca, w których masz gry, i pokazuje tylko te, których nie ma jeszcze w twojej bibliotece",
+    "entry": {
+      "check": "Wykryj nowe gry",
+      "checking": "Skanowanie...",
+      "checkedClear": "Stan aktualny",
+      "checkedFound": "Nowe gry",
+      "importGames": "Importuj gry",
+      "startupTitle": "Przy uruchomieniu",
+      "startupOff": "Nie skanuj",
+      "startupNotify": "Sprawdź czy są nowe gry",
+      "startupAuto": "Zaimportuj nowe gry"
+    },
+    "sources": {
+      "waiting": "Oczekiwanie",
+      "notChecked": "Nie sprawdzone",
+      "checking": "Sprawdzanie..."
+    },
+    "checking": {
+      "title": "Wyszukiwanie nowych gier",
+      "hint": "Przeszukiwanie folderów może chwilę potrwać. W tym czasie możesz nadal korzystać z LastSave",
+      "stop": "Zatrzymaj"
+    },
+    "stopped": {
+      "title": "Wyszukiwanie przerwane",
+      "message": "Na razie niczego nie znaleziono. W nieprzeszukanych jeszcze miejscach mogą znajdować się nowe gry."
+    },
+    "caughtUp": {
+      "title": "Wszystko aktualne",
+      "message": "Brak nowych gier od ostatniego importu.",
+      "close": "Gotowe",
+      "checkAgain": "Sprawdź ponownie"
+    },
+    "results": {
+      "newCount_one": "{{count}} nowa gra",
+      "newCount_few": "{{count}} nowe gry",
+      "newCount_many": "{{count}} nowych gier",
+      "newCount_other": "{{count}} nowej gry"
+    },
+    "updates": {
+      "hint": "Gry, które już masz w bibliotece. Wybierz, co zrobić z każdą z nich — nic nie zmieni czasu gry ani nie przeniesie gry, jeśli sam tego nie wybierzesz.",
+      "open": "Zobacz znalezioną pozycję",
+      "nothingNew": "Nic nowego",
+      "columns": {
+        "inLibrary": "W twojej bibliotece",
+        "found": "Znaleziono",
+        "action": "Co zrobić?",
+        "hours": "Godziny"
+      },
+      "homes": {
+        "steam": "Steam",
+        "gog": "GOG",
+        "pc": "Ten komputer"
+      },
+      "home": {
+        "owned": "{{home}}",
+        "manualWishlist": "Dodana przez ciebie"
+      },
+      "noHours": "brak godzin",
+      "options": {
+        "leave": "Nic nie zmieniaj",
+        "apply": {
+          "ownership": "Oznacz, jako \"Mam ją\" na {{store}};",
+          "launchPath": "Dodaj znalezioną instalację"
+        },
+        "applyMore_one": "{{first}} i {{count}} więcej",
+        "applyMore_few": "{{first}} i {{count}} więcej",
+        "applyMore_many": "{{first}} i {{count}} więcej",
+        "applyMore_other": "{{first}} i {{count}} więcej",
+        "move": "Przenieś do {{store}}",
+        "result": "({{result}})"
+      },
+      "explain": {
+        "leave": "Brak zmian dla tej gry"
+      },
+      "leaveAll": "Pozostaw wszystkie bez zmian",
+      "useSuggested": "Użyj sugestii",
+      "result": {
+        "withHours": "{{place}} · {{hours}}",
+        "noHours": "{{place}} - bez godzin"
+      }
+    }
+  },
+  "lookupFolders": {
+    "title": "Skanowanie folderów",
+    "description": "LastSave sprawdza pulpit, menu Start i typowe foldery programów uruchamiających. Możesz wskazać inne miejsca, zawierające skróty lub pliki wykonywalne.",
+    "close": "Zamknij",
+    "selectFolder": "Wybierz folder do uwzględnienia  podczas skanowania",
+    "alwaysSearched": "Zawsze skanowane",
+    "alwaysSearchedHint": "Te lokalizacje są zawsze uwzględniane podczas skanowania. Nie musisz niczego konfigurować — LastSave domyślnie sprawdza te miejsca.",
+    "defaultCount_one": "{{count}} lokacja",
+    "defaultCount_few": "{{count}} lokacje",
+    "defaultCount_many": "{{count}} lokacji",
+    "defaultCount_other": "{{count}} lokacji",
+    "extraTitle": "Dodatkowe foldery do skanowania",
+    "dropHint": "Przeciągnij foldery tutaj, lub wciśnij przycisk poniżej",
+    "empty": "Nie skonfigurowano dodatkowych folderów.",
+    "addFolder": "Dodaj folder",
+    "restoreDefaults": "Przywróć domyślne",
+    "save": "Zapisz foldery"
+  }
+}

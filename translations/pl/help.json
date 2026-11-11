@@ -1,0 +1,402 @@
+{
+  "button": {
+    "open": "Pomoc",
+    "guideProgress": "Pomoc · Pierwsze kroki, {{current}} z {{total}} ukończone"
+  },
+  "dialog": {
+    "title": "Pomoc",
+    "search": {
+      "placeholder": "Szukaj w pomocy",
+      "clear": "Wyczyść wyszukiwanie"
+    },
+    "sectionCount": "{{learned}} / {{total}}",
+    "sectionLearned": "{{learned}} z {{total}} nauczone",
+    "tipsSwitch": "Pokazuj podpowiedzi"
+  },
+  "sections": {
+    "guide": "Pierwsze kroki",
+    "library": "Twoja biblioteka",
+    "organize": "Statusy i tablice",
+    "shelves": "Półki",
+    "journeys": "Szlaki",
+    "rotation": "W obiegu",
+    "art": "Grafiki z gier",
+    "logs": "Sesje i wspomnienia",
+    "playing": "Granie",
+    "captures": "Klipy i skróty",
+    "gameMode": "Tryb kanapowy",
+    "explore": "Odkrywaj",
+    "emulators": "Emulatory",
+    "data": "Dane i wsparcie"
+  },
+  "kinds": {
+    "clip": "Klip",
+    "showMe": "Pokaż mi",
+    "read": "Przeczytaj"
+  },
+  "status": {
+    "done": "Nauczone",
+    "todo": "Jeszcze nie"
+  },
+  "actions": {
+    "showMe": "Pokaż w aplikacji",
+    "doIt": "Pokaż mi",
+    "markKnown": "Oznacz jako nauczone"
+  },
+  "guide": {
+    "progress": "{{current}} z {{total}} wykonane",
+    "complete": "Wszystkie kroki ukończone",
+    "subtitle": "Podstawy, w zwyczajowej kolejności",
+    "tagline": "Około 10 minut, w dogodnej chwili",
+    "fraction": "{{current}} / {{total}}",
+    "hide": "Ukryj podpowiedź",
+    "openHelp": "Otwórz pomoc",
+    "completeTitle": "Znasz już podstawy.",
+    "completeBody": " Resztę znajdziesz w Pomocy — pod znakiem ? obok powiadomień.",
+    "objectives": {
+      "buildShelf": "Podczas dodawania gier utwórz półkę i umieść na niej pasujące tytuły - np. gry do wspólnej zabawy lub na określony nastrój."
+    }
+  },
+  "welcome": {
+    "kicker": "Witaj w LastSave",
+    "title": "Cieszę się, że tu jesteś",
+    "points": {
+      "import": {
+        "title": "Całą biblioteka w jednym miejscu",
+        "body": "Twój komputer, Steam, Epic i Xbox razem."
+      },
+      "track": {
+        "title": "Wiedz, w co grasz",
+        "body": "Gry ogrywane, odłożone i planowane - w jednym miejscu."
+      },
+      "remember": {
+        "title": "Zapisz każdą rozgrywkę",
+        "body": "Sesje, dzienniki i zrzuty ekranu."
+      }
+    },
+    "getStarted": "Rozpocznij",
+    "hint": "W lewym dolnym rogu znajdziesz krótki przewodnik.",
+    "close": "Zamknij"
+  },
+  "coach": {
+    "chapter": "Pierwsze kroki · {{current}} z {{total}}",
+    "notNow": "Nie teraz",
+    "close": "Zamknij",
+    "waiting": "Czekam na ciebie",
+    "pressHint": "Kliknij podświetlony przycisk aby przejść dalej",
+    "shortcut": {
+      "open": "Otwórz"
+    }
+  },
+  "quest": {
+    "fraction": "{{current}} / {{total}}",
+    "title": "Pierwsza sesja · {{current}} z {{total}}",
+    "close": "Zamknij",
+    "complete": {
+      "body": "Graj jak zwykle: notatki, zrzuty ekranu i nagrania masz zawsze pod ręką, a zamknięcie gry kończy sesję."
+    },
+    "steps": {
+      "overlay": "Otwórz interfejs",
+      "screenshot": "Zrób zrzut ekranu",
+      "focus": "Wypróbuj tryb skupienia"
+    }
+  },
+  "tours": {
+    "createShelf": {
+      "nav": {
+        "title": "Półki są tutaj",
+        "body": "Półki mają własne miejsce na pasku bocznym. Kliknij „Półki”."
+      },
+      "open": {
+        "title": "Stwórz półkę",
+        "body": "Półki to Twoje własne kolekcje. Możesz je tworzyć aby porządkować swoją kolekcję. Kliknij \"Dodaj półkę\"."
+      },
+      "ideas": {
+        "title": "Dostosuj do siebie",
+        "body": "Skorzystaj z gotowego pomysłu albo samodzielnie wybierz nazwę, ikonę i kolor."
+      }
+    }
+  },
+  "articles": {
+    "guide": {
+      "bringGames": {
+        "title": "Dodaj swoje gry"
+      },
+      "whatPlaying": {
+        "title": "W co grasz?"
+      },
+      "buildShelf": {
+        "title": "Utwórz półkę"
+      },
+      "story": {
+        "title": "Każda gra ma swoją historię"
+      },
+      "pressStart": {
+        "title": "Uruchom grę"
+      },
+      "saveSession": {
+        "title": "Zapisz sesję"
+      }
+    },
+    "library": {
+      "import": {
+        "title": "Importowanie gier",
+        "body": "Funkcja importu wyszukuje gry na tym komputerze oraz w bibliotekach Steam, Epic i Xbox. Przed dodaniem gier możesz przejrzeć znalezioną listę.",
+        "step1": "Wybierz \"Importuj gry\" w bibliotece.",
+        "step2": "Wskaż źródło importu. Steam, Epic and Xbox wymaga logowania.",
+        "step3": "Zweryfikuj listę i dodaj. Importowanie będzie kontynuowane w tle."
+      },
+      "addGame": {
+        "title": "Ręczne dodawanie gry",
+        "body": "Każda gra dostępna w IGDB, zainstalowana lub nie. Wyszukaj ją, wybierz i ustaw jej status. Jeśli gra znajduje się na tym komputerze, LastSave może powiązać ją z plikiem wykonywalnym, abyś mógł ją stąd uruchamiać.",
+        "step1": "Wybierz \"Dodaj grę\" w zakładce Biblioteka.",
+        "step2": "Wyszukaj grę i wybierz właściwy wynik",
+        "step3": "Wybierz status gry i dodaj do biblioteki."
+      },
+      "xbox": {
+        "title": "Importowanie gier z Xboxa",
+        "body": "Zaloguj się na konto Microsoft, a LastSave zaimportuje gry, w które grałeś na Xboxie — na komputerze, w ramach Game Passa lub na konsoli — wraz z czasem gry. Gry, które posiadasz, ale nigdy ich nie uruchomiłeś, nie pojawią się na liście, ponieważ Xbox udostępnia tylko dane o grach, w które grałeś. Gry konsolowe będą widoczne jako wpisy w bibliotece. Możesz rejestrować w nich rozgrywkę i mierzyć czas gry, ale uruchomisz je na konsoli.",
+        "step1": "W sekcji „Importuj gry” wybierz Xbox wśród dodatkowych źródeł albo połącz konto w swoim profilu, w sekcji „Połączone konta”.",
+        "step2": "Zaloguj się na stronie Microsoftu. LastSave nie ma dostępu do twojego hasła.",
+        "step3": "Zdecyduj, czy dodać gry konsolowe, a następnie sprawdź listę i dodaj gry."
+      },
+      "identify": {
+        "title": "Gdy gra nie została rozpoznana",
+        "body": "Czasem podczas importu nie da się ustalić, jakiej grze odpowiada dany folder. Takie przypadki trafiają do weryfikacji, zamiast być przypisane na chybił trafił.",
+        "step1": "W weryfikacji importu otwórz gry oznaczone jako nierozpoznane.",
+        "step2": "Wyszukaj właściwą grę lub pomiń ją."
+      },
+      "checkNew": {
+        "title": "Sprawdzanie, czy są nowe gry",
+        "body": "Zainstalowałeś coś nowego? Funkcja „Wykryj nowe gry” ponownie skanuje komputer i wyświetla tylko zmiany: nowe gry oraz te, których już na nim nie ma. Możesz też włączyć automatyczne sprawdzanie raz dziennie."
+      },
+      "views": {
+        "title": "Wyszukiwanie, filtry i widoki",
+        "body": "Wyszukiwanie znajduje gry według nazwy, gatunku lub twórcy. Filtry zawężają wyniki według statusu, źródła lub gatunku i trybu gry, a «Widok» zmienia sposób wyświetlania: karty, lista lub tablice. Zapisz wybrane filtry pod własną nazwą. Znajdziesz je w sekcji «Twoje filtry» w Bibliotece i na każdej półce."
+      },
+      "dlc": {
+        "title": "Dodatki i rozszerzenia gier",
+        "body": "Dodatki są częścią gry podstawowej, a nie osobnymi grami. Ich czas gry i dzienniki rozgrywki są przypisywane do gry, której dotyczą."
+      }
+    },
+    "organize": {
+      "statuses": {
+        "title": "Statusy",
+        "body": "«Zaległości» oznacza gry na później, «W trakcie» – te, w które grasz obecnie, «Wstrzymane» – odłożone na jakiś czas, «Ukończone» – te, które przeszedłeś, a «Porzucone» – te, z których zrezygnowałeś.\n\n«Grałem» oznacza gry, w które grałeś, ale nie ukończyłeś. «Bez końca» to gry, w które się gra, a nie przechodzi, np. MMO, MOBA czy Minecraft."
+      },
+      "board": {
+        "title": "Tablice",
+        "body": "Tablica dzieli bibliotekę na kolumny według statusu gier. Przeciągnij grę do innej kolumny, a LastSave zapisze zmianę wraz z czasem gry.",
+        "step1": "W bibliotece wybierz «Widok».",
+        "step2": "Wybierz tablicę.",
+        "step3": "Przeciągnij grę do innej kolumny."
+      },
+      "shelves": {
+        "title": "Tworzenie półki",
+        "body": "Własne kolekcje, jak półki w domu: możesz mieć ich tyle, ile chcesz, a jedna gra może trafić na kilka półek, nawet jeśli jeszcze jej nie masz.",
+        "step1": "Wejdź w «Półki» i wciśnij «Dodaj półkę»",
+        "step2": "Wybierz propozycję z biblioteki, lub nazwij są według własnego pomysłu.",
+        "step3": "Dodaj gry z biblioteki lub z innych miejsc, i stwórz półkę."
+      },
+      "bulk": {
+        "title": "Zmiana wielu gier na raz",
+        "body": "Zaznacz kilka gier w bibliotece, aby jednocześnie zmienić ich status, dodać je do półki lub oznaczyć jako odinstalowane."
+      }
+    },
+    "shelves": {
+      "page": {
+        "title": "Strona półki",
+        "body": "Po otwarciu półki zobaczysz jej opis, przypisane do niej gry, łączny czas gry i pasek przedstawiający ich statusy. Niżej znajduje się znana Ci biblioteka — z wyszukiwarką, filtrami, widokami i tablicą, ograniczona do gier z tej półki."
+      },
+      "pin": {
+        "title": "Przypnij półkę do panelu bocznego",
+        "body": "Przypięte półki pojawiają się na pasku bocznym, w sekcji «Półki» — możesz przypiąć maksymalnie sześć. Są też wyświetlane na początku strony «Półki» i w trybie kanapowym.",
+        "step1": "Przejdź do sekcji «Półki».",
+        "step2": "Wciśnij pinezkę w roku półki. Wciśnij ponownie, aby odpiąć półkę."
+      },
+      "order": {
+        "title": "Ustalanie kolejności gier na półce",
+        "body": "Kolejność gier na półce wpływa na ich układ, mozaikę i grafikę. W widoku kart, kliknij grę PPM, by wybrać «Przesuń wyżej» lub «Przenieś na początek».",
+        "step1": "Otwórz półkę i wybierz «Edytuj».",
+        "step2": "Przeciągnij grę, chwytając ją za uchwyt.",
+        "step3": "Zapisz."
+      },
+      "filters": {
+        "title": "Zapisywanie filtrów",
+        "body": "Zapisz często używany filtr. Znajdziesz go w sekcji «Twoje filtry» w bibliotece i na każdej półce.",
+        "step1": "Ustaw dowolnie filtry w bibliotece lub na półce.",
+        "step2": "Wciśnij «Zapisz filtr», obok «Wyczyść wszystko», i nazwij go."
+      },
+      "share": {
+        "title": "Udostępnij półkę",
+        "body": "Funkcja «Udostępnij» tworzy obraz półki z okładkami w wybranej kolejności. Możesz go zapisać lub skopiować — bez wysyłania do internetu.",
+        "step1": "Otwórz półkę.",
+        "step2": "Wciśnij «Udostępnij».",
+        "step3": "Zapisz lub skopiuj wygenerowaną kartę."
+      }
+    },
+    "journeys": {
+      "create": {
+        "title": "Utwórz szlak",
+        "body": "Zestaw gier połączonych wspólnym celem, np. przejście wszystkich części Zeldy lub ukończenie porzuconych tytułów. Szlak śledzi postępy i wskazuje kolejną grę.",
+        "step1": "Wejdź w «Szlaki» i wybierz «Nowy szlak».",
+        "step2": "Nazwij go i wskaż jeden z celów: «Ukończ je» lub «Zagraj w nie».",
+        "step3": "Umieść na szlaku gry według uznania i stwórz go."
+      },
+      "ideas": {
+        "title": "Pomysły z twojej biblioteki",
+        "body": "Na górze sekcji «Szlaki» znajdziesz propozycje oparte na twojej bibliotece: serie, aktualnie ogrywane gry, nieukończone tytuły i dodatki do ukończonych gier. Kliknij, aby rozpocząć szlak. Opcja «Ukryj» wyłącza podpowiedzi, a «Pokaż sugestie» przywraca je."
+      },
+      "progress": {
+        "title": "Jak działa szlak",
+        "body": "Szlak śledzi twoją bibliotekę – zmiana statusu gry aktualizuje wszystkie szlaki, do których należy. Pomiń grę, aby nie wliczała się do postępów, lub wstrzymaj szlak, by odłożyć go na później. Przeciągaj szlaki, aby ustalić ich kolejność – pierwszy pojawi się w panelu bocznym i na stronie głównej. Po ukończeniu ostatniej gry szlak zostanie podsumowany i będzie można się nim podzielić."
+      }
+    },
+    "rotation": {
+      "lanes": {
+        "title": "W obiegu",
+        "body": "Trzy grupy gier: Na bieżąco – aktualnie ogrywane, Nieśmiertelne – te, do których wracasz, Następne – te, w które zagrasz później. Lista uzupełnia się według statusów, a wybrane gry trafiają na początek. Znajdziesz ją na stronie głównej, obok ostatnich gier."
+      },
+      "pick": {
+        "title": "Wybierz gry do swojego obiegu",
+        "body": "Wybrana gra pozostaje w swojej grupie, dopóki jej nie ukończysz, nie porzucisz lub nie zaczniesz grać w tytuł z grupy «Następne».",
+        "step1": "Kliknij PPM na grze, gdziekolwiek w LastSave.",
+        "step2": "Wybierz pożądany stan: «Na bieżąco», «Nieśmiertelne», «Następne».",
+        "step3": "Lub na stronie głównej, w sekcji «W obiegu», wybierz «Zarządzaj»."
+      }
+    },
+    "art": {
+      "change": {
+        "title": "Zmień baner lub logotyp gry",
+        "body": "Każda gra ma własny baner i logo, widoczne na jej stronie, stronie głównej i w trybie kanapowym. Jeśli nie odpowiada ci grafika wybrana przez LastSave, możesz ustawić inną dla danej gry.",
+        "step1": "Otwórz grę i wybierz «Zarządzaj», znajdujący się obok «Dodaj wpis».",
+        "step2": "Wybierz grafikę.",
+        "step3": "Wybierz źródło dla banerów i logotypów lub wciśnij «Wybierz», żeby przeglądać dostępne grafiki."
+      },
+      "sources": {
+        "title": "Skąd pochodzą grafiki",
+        "body": "Banery pobierane są odpowiednio ze strony gry na Steamie, SteamGridDB – społeczności artystów – a na końcu z katalogu. Logotypy pochodzą najpierw ze SteamGridDB, a potem ze Steama. Jeśli logotyp nie jest dostępny, wyświetlana jest nazwa gry. Każda grafika ze SteamGridDB zawiera informację o autorze."
+      },
+      "settings": {
+        "title": "Włącz / wyłącz banery i logotypy",
+        "body": "W «Ustawienia» → «Grafiki» są dwa przełączniki: «Banery ze SteamGridDB» i «Logotypy gier». Wyłączenie każdego z nich przywraca grafikę z katalogu lub tekstową nazwę gry. Ręcznie wybrane grafiki pozostają bez zmian."
+      }
+    },
+    "logs": {
+      "journal": {
+        "title": "Dodaj wpis do dziennika",
+        "body": "Wystarczy kilka słów o tym, gdzie jesteś lub co się właśnie wydarzyło. Po kilku miesiącach miło będzie do tego wrócić.",
+        "step1": "Otwórz grę.",
+        "step2": "Wybierz «Dodaj wpis».",
+        "step3": "Wybierz «Wpis do dziennika», napisz i zapisz."
+      },
+      "achievements": {
+        "title": "Osiągnięcia",
+        "body": "Zapisuj ważne chwile: pokonanie bossa, ukończenie rozdziału, trudnego wyzwania, odkrycie miejsca, zdobycie ulepszenia czy osiągnięcie 100%. Każdy rodzaj wpisu ma własny medal na stronie gry."
+      },
+      "activity": {
+        "title": "Aktywność w grze",
+        "body": "Wszystko, co wydarzyło się w grze, od najnowszych: sesje, zmiany statusu, wpisy w dzienniku i osiągnięcia wraz ze zrzutami ekranu i nagraniami. Materiały utworzone podczas gry pozostają przypisane do danej sesji."
+      },
+      "memories": {
+        "title": "Wspomnienia",
+        "body": "Na stronie głównej zobaczysz zrzuty ekranu, nagrania, notatki z dziennika i recenzje, dzięki czemu wspomnienia o ulubionych grach nie przemijają. Kliknij wybrany element, aby go powiększyć. Pozostałe możesz przeglądać za pomocą paska poniżej lub kółka myszy. Dwukrotne kliknięcie wyświetla go na pełnym ekranie."
+      },
+      "reviews": {
+        "title": "Recenzja gry",
+        "body": "Oceń grę w skali od 1 do 10 i, jeśli chcesz, dodaj kilka słów od siebie. Twoja recenzja pojawi się na górze strony gry. Każdy dodatek i rozszerzenie ma osobną recenzję. Po oznaczeniu gry jako ukończonej LastSave zaproponuje Ci jej ocenę. Recenzję możesz też udostępnić w formie karty.",
+        "step1": "Otwórz stronę gry.",
+        "step2": "W panelu «Moja recenzja», wybierz «Ocena i recenzja».",
+        "step3": "Przydziel ocenę, napisz coś jeśli chcesz i zapisz."
+      },
+      "share": {
+        "title": "Udostępnij wpis, grę lub profil",
+        "body": "Wpisy, gry, recenzje i profil możesz udostępnić w formie grafiki na Discordzie, X lub WhatsAppie. Nagrania zamieniane są w krótkie filmy. Wersja skompresowana zajmuje mniej miejsca, a bezstratna zachowuje pełną jakość. Włącz «Pokaż mój profil», aby dodać awatar i nazwę użytkownika.",
+        "step1": "Wybierz «Udostępnij» we wpisie, na stronie gry lub na swoim profilu.",
+        "step2": "Wybierz tło i jakość zdjęcia.",
+        "step3": "Skopiuj wygenerowaną kartę, lub przeciągnij ją bezpośrednio do okna czatu. "
+      },
+      "time": {
+        "title": "Data i godzina wpisu",
+        "body": "Każdy wpis ma datę i godzinę, widoczne na dole jego okna. Jeśli ich nie zmienisz, zostanie ustawiony bieżący czas. Możesz je edytować, aby uporządkować wpisy z jednego dnia według kolejności wydarzeń lub opisać coś, co wydarzyło się wczoraj. Najedź kursorem na datę wpisu na stronie gry, aby zobaczyć dokładną godzinę."
+      }
+    },
+    "playing": {
+      "launch": {
+        "title": "Uruchom grę",
+        "body": "Kliknij «Graj», a LastSave uruchomi grę i automatycznie zarejestruje sesję. Gry uruchomione poza programem też zostaną wykryte.",
+        "step1": "Otwórz kartę zainstalowanej gry.",
+        "step2": "Wciśnij «Graj».",
+        "step3": "Podczas gry LastSave będzie liczył czas sesji w tle."
+      },
+      "overlay": {
+        "title": "Interfejs",
+        "body": "Podczas gry pojawi się mały panel za pomocą, którego możesz robić zrzuty ekranu, nagrywać klipy. Widać na nim również czas trwania sesji.",
+        "step1": "Podczas gry wciśnij Shift + F10, aby otworzyć panel.",
+        "step2": "Wciśnij kombinację ponownie aby zwinąć go do formy pigułki.",
+        "step3": "Możesz zmienić skróty w «Ustawienia», «Skróty klawiszowe»."
+      },
+      "screenshots": {
+        "title": "Zrzuty ekranu",
+        "body": "Podczas gry wciśnij Shift+F11, a zrzut ekranu zostanie dodany do sesji. Na końcu zdecydujesz czy chcesz go zachować jako wpis w dzienniku czy osiągnięcie."
+      },
+      "focus": {
+        "title": "Tryb skupienia"
+      }
+    },
+    "gaming": {
+      "enter": {
+        "title": "Tryb kanapowy"
+      },
+      "getAround": {
+        "title": "Poruszanie się po aplikacji"
+      },
+      "library": {
+        "title": "Biblioteka, wyszukiwanie i filtry"
+      },
+      "shelves": {
+        "title": "Półki na kanapie"
+      },
+      "inGame": {
+        "title": "Kontroler w czasie gry"
+      },
+      "settings": {
+        "title": "Ustawienia trybu gry"
+      }
+    }
+  },
+  "gaming": {
+    "menuItem": "Pomoc",
+    "newTag": "Nowość",
+    "page": {
+      "title": "Pomoc",
+      "subtitle": "Tryb kanapowy",
+      "takeMeThere": "Przejdź tam",
+      "back": "Wróć",
+      "desktopOnly": "Więcej w Pomocy w trybie komputerowym."
+    },
+    "rows": {
+      "enter": "Wejdź lub wyjdź z trybu kanapowego",
+      "tabs": "Przełącza pomiędzy zakładkami główną, biblioteki i półek",
+      "open": "Otwórz grę lub półkę",
+      "back": "Wstecz",
+      "playNow": "Uruchom wybraną grę",
+      "play": "Graj",
+      "logTabs": "Przełączaj się pomiędzy wpisami do gry",
+      "shelfGames": "Dodaj lub usuń gry z półki",
+      "makeShelves": "Półki możesz tworzyć w trybie komputerowym",
+      "overlay": "Otwórz interfejs",
+      "focus": "Tryb skupienia",
+      "screenshot": "Zrzut ekranu",
+      "record": "Rozpocznij / zatrzymaj nagrywanie",
+      "journal": "Napisz wspis w dzienniku"
+    },
+    "controls": {
+      "kicker": "Tryb kanapowy",
+      "title": "Twoja biblioteka z kanapy",
+      "body": "Wszystko co możesz zrobić na ekranie jest wypisane na dole. To skróty których będziesz używał najczęściej.",
+      "gotIt": "Zaczynajmy",
+      "again": "To okno znajdziesz w menu w pomocy."
+    }
+  }
+}

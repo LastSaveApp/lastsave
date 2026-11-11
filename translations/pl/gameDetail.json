@@ -1,0 +1,199 @@
+{
+  "back": {
+    "toNamed": "Wróć do {{name}}"
+  },
+  "sync": {
+    "notSynced": "Nigdy"
+  },
+  "timeline": {
+    "thisWeek": "TEN TYDZIEŃ",
+    "lastWeek": "OSTATNI TYDZIEŃ"
+  },
+  "toasts": {
+    "logDeleted": "Wpis został usunięty.",
+    "previewSyncFailed": "Nie udało się wyświetlić okna synchronizacji ze Steamem.",
+    "autoSyncEnabled": "Autosynchronizacja ze Steamem włączona.",
+    "autoSyncDisabled": "Autosynchronizacja ze Steamem wyłączona.",
+    "steamConnectFailed": "Nie udało się połączyć z kontem Steam.",
+    "epicConnectFailed": "Nie udało się połączyć z kontem Epic.",
+    "xboxConnectFailed": "Nie udało się połączyć z kontem Xbox.",
+    "entryDeleted": "Gra {{title}} została usunięta z biblioteki.",
+    "entryDeleteFailed": "Nie udało się usunąć gry."
+  },
+  "header": {
+    "art": "Grafiki",
+    "shelves": "Półki",
+    "journeys": "Szlaki",
+    "shareGame": "Udostępnij",
+    "editEntry": "Edytuj",
+    "addLog": "Dodaj wpis",
+    "syncSteam": "Synchronizuj",
+    "syncing": "Synchronizacja...",
+    "connectSteamFirstSync": "Połącz ze Steam, żeby zsynchronizować grę.",
+    "autoSync": "Autosynchronizacja",
+    "autoSyncAligned": "Automatycznie synchronizuj czas gry ze Steamem.",
+    "openCatalogDetails": "Otwórz katalog szczegółów gry",
+    "config": "Zarządzaj",
+    "deleteEntry": "Usuń",
+    "openSteamSyncOptions": "Opcje synchronizacji ze Steamem",
+    "showWholeEntry": "Pokaż wszystkie z {{title}}"
+  },
+  "stats": {
+    "status": "Status",
+    "hours": "Czas",
+    "impression": "Wrażenia",
+    "achievementBadge": "{{label}} : {{count}}",
+    "progress": "Postęp",
+    "finishedOfTotal": "{{finished}} z {{total}} ukończona"
+  },
+  "panel": {
+    "activity": "Aktywność",
+    "platform": "Platforma",
+    "notOwned": "Nie posiadam",
+    "lastPlayed": "Ostatnia rozgrywka",
+    "neverPlayed": "Nigdy",
+    "started": "Rozpoczęcie",
+    "completed": "Ukończenie",
+    "lastSynced": "Ostatnia synchronizacja",
+    "added": "Dodanie",
+    "shelves": "Półki"
+  },
+  "logs": {
+    "progressSummary": "Podsumowanie postępu",
+    "progressionLogs": "Dziennik postępów: {{count}}",
+    "logType": "Rodzaj wpisu",
+    "newest": "Najnowsze",
+    "oldest": "Najstarsze",
+    "filters": {
+      "all": "Wszystkie",
+      "baseGame": "Gra główna",
+      "other": "Inne",
+      "searchPlaceholder": "Wyszukaj dodatki lub rozszerzenia..."
+    },
+    "typeFilters": {
+      "achievements": "Osiągnięcia",
+      "journals": "Dziennik",
+      "sessions": "Sesje",
+      "status": "Status"
+    },
+    "empty": {
+      "noLogsFilter": "Brak wpisów pod tą pozycją",
+      "noLogsFilterHint": "Wybierz inny element zestawu lub dodaj wpis."
+    }
+  },
+  "logTypes": {
+    "addedToLibrary": "Dodano do biblioteki",
+    "session": "Sesja",
+    "sessions": "Sesje",
+    "journalEntry": "Wpis w dzienniku",
+    "achievement": "Osiągnięcie",
+    "movedTo": "Oznaczono jako {{status}}",
+    "movedToPrefix": "Oznaczono jako"
+  },
+  "counts": {
+    "dlc_one": "{{count}} dodatek",
+    "dlc_few": "{{count}} dodatki",
+    "dlc_many": "{{count}} dodatków",
+    "dlc_other": "{{count}} dodatku",
+    "expansion_one": "{{count}} rozszerzenie",
+    "expansion_few": "{{count}} rozszerzenia",
+    "expansion_many": "{{count}} rozszerzeń",
+    "expansion_other": "{{count}} rozszerzenia",
+    "sessions_one": "{{count}} sesja",
+    "sessions_few": "{{count}} sesje",
+    "sessions_many": "{{count}} sesji",
+    "sessions_other": "{{count}} sesji"
+  },
+  "actions": {
+    "backToTop": "Wróć na górę",
+    "editLog": "Edytuj wpis",
+    "deleteLog": "Usuń wpis",
+    "shareLog": "Udostępnij wpis",
+    "collapseSessions": "Zwiń sesje",
+    "expandSessions": "Rozwiń sesje"
+  },
+  "latest": "Ostatnie",
+  "loadMore": "Wyświetl więcej wpisów",
+  "radar": {
+    "categories": {
+      "added": "Dodano do biblioteki"
+    },
+    "achievementCategory": "Osiągnięcie: {{label}}",
+    "tooltip": {
+      "addedBase": "Dodano grę główną",
+      "clickToJump": "Kliknij, aby przejść"
+    },
+    "jumpTo": "Przejdź do {{edge}}",
+    "openLog": "Otwórz {{title}}"
+  },
+  "steamPrompt": {
+    "connect": "Połącz ze Steam'em",
+    "title": "Połączenie ze Steam",
+    "connected": "Połączono ze Steam"
+  },
+  "steamSync": {
+    "owned": "Twoja biblioteka",
+    "badge": "Synchronizacja ze Steamem",
+    "title": "Synchronizować czas gry ze Steamem?",
+    "subtitle": "Twój obecny czas gry zostanie zaktualizowany na podstawie danych ze Steam.",
+    "close": "Zamknij okno synchronizacji ze Steamem",
+    "detectedAs": "Wykryto jako",
+    "currentHours": "Obecne godziny",
+    "detectedInSteam": "Wykryte w Steamie",
+    "confirm": "Synchronizuj",
+    "syncing": "Synchronizowanie..."
+  },
+  "epicSync": {
+    "badge": "Synchronizacja z Epic",
+    "title": "Synchronizować czas gry z Epic?",
+    "subtitle": "Twój obecny czas gry zostanie zaktualizowany na podstawie danych z Epic.",
+    "close": "Zamknij okno synchronizacji z Epic",
+    "detectedAs": "Wykryto jako",
+    "currentHours": "Obecne godziny",
+    "detectedInEpic": "Wykryte w Epic",
+    "confirm": "Synchronizuj",
+    "syncing": "Synchronizowanie..."
+  },
+  "xboxSync": {
+    "badge": "Synchronizacja z Xbox",
+    "title": "Synchronizować czas gry z Xbox?",
+    "subtitle": "Twój obecny czas gry zostanie zaktualizowany na podstawie danych z Xbox.",
+    "close": "Zamknij okno synchronizacji z Xbox",
+    "detectedAs": "Wykryto jako",
+    "currentHours": "Obecne godziny",
+    "detectedInXbox": "Wykryte w Xbox",
+    "confirm": "Synchronizuj",
+    "syncing": "Synchronizowanie..."
+  },
+  "deleteLog": {
+    "title": "Usunąć wpis?",
+    "message": "Ten wpis zostanie trwale usunięty, a dane biblioteki przeliczone ponownie, jeśli wpływa na status lub czas gry.",
+    "deleting": "Usuwanie...",
+    "confirm": "Usuń wpis"
+  },
+  "deleteEntry": {
+    "title": "Usunąć grę?",
+    "message": "Gra {{title}} zostanie usunięta z biblioteki wraz ze wszystkimi wpisami, sesjami i osiągnięciami. Operacji nie można cofnąć.",
+    "confirm": "Usuń grę"
+  },
+  "addedDateModal": {
+    "title": "Edytowanie daty dodania",
+    "labels": {
+      "date": "Data dodania do biblioteki"
+    },
+    "hints": {
+      "beforeFirstActivity": "Wybierz datę nie późniejszą niż {{date}}, aby zachować ją przed pierwszą aktywnością w tej grze.",
+      "noLaterThanToday": "Wybierz datę dodania gry do biblioteki. Nie może być późniejsza niż dzisiejsza."
+    },
+    "actions": {
+      "save": "Zapisz zmiany"
+    }
+  },
+  "playSession": {
+    "lastNote": "Ostatni wpis",
+    "entries_one": "{{count}} wpis",
+    "entries_few": "{{count}} wpisy",
+    "entries_many": "{{count}} wpisów",
+    "entries_other": "{{count}} wpisów"
+  }
+}

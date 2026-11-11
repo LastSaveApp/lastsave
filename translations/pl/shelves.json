@@ -1,0 +1,159 @@
+{
+  "page": {
+    "title": "Półki",
+    "subtitle": "Twoje własne kolekcje, niczym półki w domu. Sześć z nich możesz przypiąć do panelu bocznego.",
+    "addShelf": "Dodaj półkę"
+  },
+  "actions": {
+    "openShelf": "Owtórz {{name}}",
+    "editShelf": "Edytuj {{name}}",
+    "reorderShelf": "Przeciągnij, aby zmienić kolejność"
+  },
+  "loadingShelves": "Wczytywanie półki...",
+  "emptyState": "Na razie nie masz półek. Wciśnij «Dodaj półkę» aby stworzyć pierwszą.",
+  "gameCount_one": "{{count}} gra",
+  "gameCount_few": "{{count}} gry",
+  "gameCount_many": "{{count}} gier",
+  "gameCount_other": "{{count}} gier",
+  "iconPicker": {
+    "title": "Wybierz ikonę dla  półki",
+    "close": "Zamknij okno wyboru ikony",
+    "searchHint": "Szukaj czegokolwiek - gwiazdy, samochodu, miecza - a najpewniej znajdziesz odpowiednią ikonę.",
+    "searchPlaceholder": "Wyszukaj ikonę z obszernego zbioru...",
+    "currentIcon": "Obecna ikona",
+    "starterHint": "Kilka ikon na początek.",
+    "loading": "Ładowanie ikony...",
+    "noResults": "Nie znaleziono ikon",
+    "previewLabel": "Podgląd ikony",
+    "closePreview": "Zamknij podgląd ikony",
+    "confirm": "Potwierdź wybór"
+  },
+  "gamePicker": {
+    "title": "Dodaj gry do \"{{name}}\"",
+    "hintWithShelf_one": "{{count}} wybrana · zostanie umieszczona po zapisaniu półki",
+    "hintWithShelf_few": "{{count}} wybrane · zostaną umieszczone po zapisaniu półki",
+    "hintWithShelf_many": "{{count}} wybranych · zostaną umieszczone po zapisaniu półki",
+    "hintWithShelf_other": "{{count}} wybranych · zostaną umieszczone po zapisaniu półki",
+    "hintImmediately_one": "{{count}} gra na półce · zmiany zapisują się na bieżąco",
+    "hintImmediately_few": "{{count}} gry na półce · zmiany zapisują się na bieżąco",
+    "hintImmediately_many": "{{count}} gier na półce · zmiany zapisują się na bieżąco",
+    "hintImmediately_other": "{{count}} gry na półce · zmiany zapisują się na bieżąco"
+  },
+  "manage": {
+    "discardTitle": "Usunąć zmiany?",
+    "discardMessage": "Zmiany w \"{{name}}\" nie zostały zapisane."
+  },
+  "create": {
+    "title": "Nowa półka",
+    "subtitle": "Nazwij ją, przypisz ikonę i kolor, a później umieść na niej gry.",
+    "close": "Zamknij",
+    "submit": "Stwórz półkę",
+    "discardTitle": "Zniszczyć półkę?",
+    "discardMessage": "Półka nie została jeszcze utworzona, więc jej nazwa i wybrane gry zostaną utracone.",
+    "discardConfirm": "Zniszcz",
+    "keepEditing": "Kontynuuj edycję"
+  },
+  "form": {
+    "delete": "Usuń",
+    "name": "Nazwa",
+    "namePlaceholder": "Nazwa półki",
+    "charactersLeft_one": "Pozostał {{count}} znak",
+    "charactersLeft_few": "Pozostały {{count}} znaki",
+    "charactersLeft_many": "Pozostało {{count}} znaków",
+    "charactersLeft_other": "Pozostało {{count}} znaku",
+    "icon": "Ikona",
+    "colorLabel": "Kolor",
+    "description": "Charakter półki",
+    "descriptionPlaceholder": "Kilka słów o tej półce: o grach, które ukształtowały Cię jako gracza…"
+  },
+  "games": {
+    "title": "Gry",
+    "addGames": "Dodaj gry",
+    "empty": "Nie ma jeszcze żadnych gier na półce. Możesz je dodać z biblioteki lub skądkolwiek.",
+    "remove": "Usuń z półki",
+    "reorder": "Przeciągnij, aby zmienić kolejność"
+  },
+  "delete": {
+    "title": "Usunąć półkę?",
+    "message": "Półka {{name}} zostanie usunięta. Twoja biblioteka i wpisy dotyczące gier pozostaną nienaruszone. ",
+    "confirm": "Usuń półkę"
+  },
+  "toasts": {
+    "saveFailed": "Nie udało się zapisać półki.",
+    "updated": "{{name}} została zaktualizowana.",
+    "created": "{{name}} została utworzona.",
+    "gamesUpdateFailed": "Nie udało się uaktualnić gier na półce.",
+    "deleted": "Półka została usunięta.",
+    "deleteFailed": "Nie udało się usunąć półki.",
+    "reorderShelvesFailed": "Nie udało się zmienić kolejności półek."
+  },
+  "ideas": {
+    "title": "Potrzebujesz podpowiedzi?",
+    "items": {
+      "withFriends": "Z przyjaciółmi",
+      "soulslike": "Soulslike",
+      "comfort": "Relaksujące",
+      "retro": "Retro i emulacje",
+      "finished": "Ukończone"
+    },
+    "fromLibrary": "Z mojej biblioteki",
+    "kinds": {
+      "rpg": "RPG",
+      "shooter": "Strzelanki",
+      "strategy": "Strategie",
+      "horror": "Horrory",
+      "survival": "Surwiwal",
+      "openWorld": "Otwarte światy",
+      "hackAndSlash": "Hack and slash",
+      "fighting": "Bijatyki",
+      "platformer": "Platformówki",
+      "puzzle": "Łamigłówki",
+      "racing": "Wyścigowe",
+      "sports": "Sportowe",
+      "simulation": "Symulatory",
+      "sciFi": "Fantastyka naukowa",
+      "fantasy": "Fantasy",
+      "stealth": "Skradanki",
+      "indie": "Gry niezależne",
+      "cardsAndBoard": "Karciane i planszowe"
+    }
+  },
+  "header": {
+    "allShelves": "Wszystkie półki",
+    "edit": "Edytuj",
+    "addGames": "Dodaj gry",
+    "share": "Udostępnij",
+    "more": "Czytaj więcej",
+    "less": "Pokaż mniej",
+    "gamesLabel_one": "gra",
+    "gamesLabel_few": "gry",
+    "gamesLabel_many": "gier",
+    "gamesLabel_other": "gry"
+  },
+  "editor": {
+    "editTitle": "Edytuj półkę",
+    "save": "Zapisz półkę"
+  },
+  "share": {
+    "dialogTitle": "Udostępnij półkę"
+  },
+  "fanMore": "+ {{count}}",
+  "pin": {
+    "label": "Przypnij do panelu bocznego",
+    "count": "{{count}} z {{total}}",
+    "pin": "Przypnij do panelu bocznego",
+    "unpin": "Odepnij od panelu bocznego",
+    "full": "{{count}} z {{count}} przypiętych. Najpierw odepnij jedną."
+  },
+  "sections": {
+    "pinned": "Przypięte",
+    "pinnedHint": "do panelu bocznego",
+    "all": "Pozostałe półki",
+    "pinnedEmpty": "Nic nie przypięto. Przypnij półkę, aby była widoczna na pasku bocznym."
+  },
+  "view": {
+    "label": "Widok",
+    "grid": "Karty",
+    "list": "Lista"
+  }
+}

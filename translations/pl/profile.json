@@ -1,0 +1,186 @@
+{
+  "genrePicker": {
+    "title": "Ulubione gatunki",
+    "subtitle": "Wybierz co najbardziej lubisz - gatunki, tematyki, tryby gry i rodzaje perspektywy.",
+    "searchPlaceholder": "Wyszukaj gatunki, tematyki, tryby gry...",
+    "loadError": "Nie udało się załadować gatunków. Spróbuj ponownie.",
+    "confirm": "Gotowe ( {{count}} )",
+    "selected": "Wybrane",
+    "selectedCount": "{{count}} wybrane",
+    "clear": "Wyczyść",
+    "noneSelected": "Niczego nie wybrano",
+    "remove": "Usuń {{name}}"
+  },
+  "steam": {
+    "connect": "Połącz ze Steam",
+    "connected": "Połączono",
+    "connecting": "Łączenie...",
+    "disconnect": "Rozłącz ze Steam",
+    "expired": "Wygasły",
+    "steamName": "Nazwa Steam",
+    "accountFallback": "Konto Steam"
+  },
+  "epic": {
+    "connect": "Połącz z Epic",
+    "connected": "Połączono",
+    "connecting": "Łączenie...",
+    "reconnect": "Połącz ponownie",
+    "disconnect": "Rozłącz z Epic",
+    "accountFallback": "Konto Epic",
+    "disconnectConfirm": {
+      "title": "Rozłączyć z Epic?",
+      "confirm": "Rozłącz"
+    }
+  },
+  "xbox": {
+    "connect": "Połącz z Xbox",
+    "connected": "Połączono",
+    "connecting": "Łączenie",
+    "reconnect": "Połącz ponownie",
+    "disconnect": "Rozłącz z Xbox",
+    "accountFallback": "Konto Xbox",
+    "connectFailure": {
+      "generic": "Nie udało się połączyć z kontem Xbox."
+    }
+  },
+  "integrations": {
+    "title": "Integracje",
+    "status": {
+      "expired": "Wymagane ponowne połączenie"
+    }
+  },
+  "viewSwitch": {
+    "toLocal": "Przełącz na lokalny widok profilu",
+    "toSteam": "Przełącz na widok profilu Steam",
+    "steamProfile": "Profil Steam",
+    "localProfile": "Profil lokalny",
+    "steamHint": "Użyj karty profilu konta Steam.",
+    "localHint": "Użyj lokalnej karty profilu LastSave"
+  },
+  "card": {
+    "steamProfile": "Profil Steam",
+    "localProfile": "Profil lokalny",
+    "steamBackgroundAlt": "Tło Steam"
+  },
+  "edit": {
+    "title": "Edycja profilu",
+    "subtitle": "Twój profil w LastSave i połączone z nim konta.",
+    "nav": {
+      "identity": "Profil",
+      "pcBuild": "Twój sprzęt",
+      "favorites": "Ulubione",
+      "accounts": "Połączone konta"
+    },
+    "sections": {
+      "identity": {
+        "title": "Profil",
+        "hint": "Twoje zdjęcie i imię w LastSave."
+      },
+      "pcBuild": {
+        "title": "Twój zestaw PC",
+        "hint": "Widoczne na twoim profilu. Opcja „Wykryj” automatycznie wypełnia pola."
+      },
+      "favorites": {
+        "title": "Ulubione",
+        "hint": "Gatunki i gry, które najlepiej odzwierciedlają twój gust."
+      },
+      "accounts": {
+        "title": "Połączone konta",
+        "hint": "Połącz sklepy, z których korzystasz, aby zaimportować gry i synchronizować czas rozgrywki. Zmiany są stosowane od razu."
+      }
+    },
+    "identity": {
+      "steamHint": "Połączono ze Steam, więc zdjęcie i nazwa pochodzą z tego konta. Możesz je zmienić w dowolnej chwili."
+    },
+    "nicknamePlaceholder": "Nazwa profilu",
+    "detect": "Wykryj",
+    "favorites": {
+      "genresTitle": "Ulubione gatunki",
+      "genresEmpty": "Nie wybrano żadnych gatunków",
+      "gamesTitle": "Ulubione gry",
+      "gamesCount": "{{count}}/{{max}}",
+      "gamesEmpty": "Nie wybrano ulubionych gier",
+      "choose": "Wybierz",
+      "edit": "Edytuj"
+    },
+    "accounts": {
+      "groups": {
+        "libraries": "Biblioteki growe",
+        "handles": "Inne konta"
+      },
+      "status": {
+        "connected": "Połączono",
+        "expired": "Wymagane ponowne połączenie"
+      },
+      "connect": "Połącz",
+      "reconnect": "Połącz ponownie",
+      "connecting": "Łączenie...",
+      "disconnect": "Rozłącz {{name}}",
+      "steam": "Twoje gry, lista życzeń i czas gry. Połączenie zmieni też zdjęcie profilowe i nazwę.",
+      "epic": "Twoje gry z Epic Games, lista życzeń i czas rozgrywki.",
+      "xbox": "Twoje gry z Xbox'a - na komputerze i konsoli - wraz z czasem rozgrywki.",
+      "disclaimer": "LastSave nie jest powiązany z Valve, Epic Games ani Microsoft. Dane logowania pozostają na komputerze.",
+      "handlesHint": "Nazwy, po których inni mogą cię znaleźć. Nie powoduje łączenia kont. Będą widoczne na karcie profilu.",
+      "handlePlaceholders": {
+        "discord": "Nazwa użytkownika",
+        "psn": "Online ID",
+        "nintendo": "Kod znajomego, SW-1234-5678-9012",
+        "battlenet": "BattleTag, Nazwa#1234",
+        "riot": "Riot ID, Nazwa#TAG"
+      }
+    },
+    "nickname": "Pseudonim",
+    "scanning": "Skanowanie...",
+    "cpu": "CPU",
+    "gpu": "GPU",
+    "cpuPlaceholder": "np. AMD Ryzen 5 5600X",
+    "gpuPlaceholder": "np. NVIDIA GeForce RTX 3070",
+    "ram": "RAM (GB)",
+    "ramPlaceholder": "np. 16",
+    "os": "System operacyjny",
+    "osPlaceholder": "np. Windows 11 Pro",
+    "saving": "Zapisywanie...",
+    "saveChanges": "Zapisz zmiany",
+    "hardwareError": "Nie udało się rozpoznać konfiguracji sprzętowej komputera.",
+    "connectError": "Nie udało się połączyć z kontem Steam.",
+    "disconnectError": "Nie udało się odłączyć konta Steam.",
+    "nicknameRequired": "Pseudonim jest wymagany.",
+    "saveFailed": "Nie udało się zapisać profilu.",
+    "genericError": "Coś poszło nie tak.",
+    "disconnectConfirmTitle": "Rozłączyć ze Steam?",
+    "disconnectConfirmMessage": "Spowoduje to odłączenie konta Steam, usunięcie zapisanej sesji Steam i wyczyszczenie zapisanych grafik profilu Steam używanych w aplikacji.",
+    "disconnectConfirm": "Rozłącz",
+    "disconnectCancel": "Zachowaj połączenie",
+    "epicDisconnectConfirmTitle": "Rozłączyć z Epic?",
+    "epicDisconnectConfirmMessage": "Zaimportowane gry z Epic, wraz z czasem gry i historią, pozostaną w bibliotece. Zostanie wyłączona tylko synchronizacja z Epic. W każdej chwili możesz ponownie połączyć to samo konto.",
+    "xboxDisconnectConfirmTitle": "Rozłączyć z Xbox?",
+    "xboxDisconnectConfirmMessage": "Zaimportowane gry z Xbox, wraz z czasem gry i historią, pozostaną w bibliotece. Zostanie wyłączona tylko synchronizacja z Xbox. W każdej chwili możesz ponownie połączyć to samo konto."
+  },
+  "gamePicker": {
+    "title": "Wybierz ulubione gry",
+    "selected": "{{count}} / {{max}} wybranych",
+    "searchPlaceholder": "Wyszukaj gier...",
+    "searching": "Wyszukiwanie...",
+    "fetchingLatest": "Pobieranie najnowszych danych...",
+    "noResults": "Nie znaleziono gier",
+    "releaseDateUnknown": "Nieznana data wydania",
+    "noMetadata": "Brak metadanych",
+    "selectedTitle": "Wybrane",
+    "clear": "Wyczyść",
+    "remove": "Usuń {{title}}",
+    "noneSelected": "Nie wybrano żadnej gry",
+    "confirm": "Potwierdź ({{count}})"
+  },
+  "page": {
+    "loading": "Ładowanie profilu...",
+    "editProfile": "Edytuj profil",
+    "profileView": "Widok profilu",
+    "localProfile": "Profil lokalny",
+    "pcBuild": "Konfiguracja komputera",
+    "ramValue": "{{gb}} GB",
+    "favoriteGenres": "Ulubione gatunki",
+    "favoriteGames": "Ulubione gry",
+    "minimal": "W twoim profilu jest mało danych. Wybierz \"Edytuj profil\", aby uzupełnić dane.",
+    "shareProfile": "Udostępnij profil"
+  }
+}

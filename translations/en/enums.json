@@ -74,6 +74,7 @@
     "base": "Base Game",
     "dlc": "DLC",
     "expansion": "Expansion",
+    "mod": "Mod",
     "dlcOrExpansion": "DLC / Expansion",
     "attachedContent": "Attached content",
     "included": "Included"
@@ -159,6 +160,6 @@
     "disc_incomplete": "Its disc is incomplete: a track its .cue lists isn't in the folder",
     "launcher_without_executable": "Found through its launcher, without a direct executable",
     "found_on_multiple_stores": "Found on more than one store",
-    "in_bundle": "Inside a bundle you have — add it only if it is another copy"
+    "in_bundle": "Already inside another game of yours — add it only if it is its own copy"
   }
 }

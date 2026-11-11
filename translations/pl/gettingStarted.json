@@ -1,0 +1,53 @@
+{
+  "brand": {
+    "mark": "LastSave"
+  },
+  "splash": {
+    "languageLabel": "Język",
+    "getStarted": "Rozpocznij",
+    "legalNote": "Aby kontynuować musisz zaakceptować <terms>Warunki korzystania</terms> i <privacy>Politykę prywatności</privacy>.",
+    "footer": "LastSave {{year}} · Działający lokalnie · Twoje dane na twoim dysku"
+  },
+  "welcome": {
+    "title": "Witaj w LastSave",
+    "setUpProfile": "Ustaw profil",
+    "features": {
+      "trackSessions": {
+        "title": "Śledź sesje"
+      },
+      "journalProgress": {
+        "description": "Łap chwile i odczucia podczas gry."
+      },
+      "buildArchive": {
+        "title": "Zapisuj wspomnienia"
+      }
+    }
+  },
+  "legal": {
+    "title": "Warunki i prywatność",
+    "subtitle": "Przeczytaj i zaakceptuj oba dokumenty aby kontynuować",
+    "documents": {
+      "terms": "Warunki korzystania",
+      "privacy": "Polityka prywatności"
+    },
+    "status": {
+      "accepted": "Zaakceptowałeś"
+    },
+    "lastUpdated": "Ostatnie zmiany: {{date}}",
+    "scrollHint": "Przewiń do końca, aby wyrazić zgodę.",
+    "mustAcceptNote": "Zaakceptuj oba dokumenty, albo zamknij aplikację.",
+    "accept": "Zgoda",
+    "continue": "Kontynuuj",
+    "reconsent": {
+      "titleBoth": "Zaktualizowane Warunki użytkowania i Polityka prywatności",
+      "titleTerms": "Zaktualizowane Warunki użytkowania",
+      "titlePrivacy": "Zaktualizowana Polityka prywatności",
+      "subtitleDated": "Zaktualizowano {{date}}. Zapoznaj się ze zmianami i zaakceptuj aby nadal używać LastSave. Biblioteka i ustawienia będą nienaruszone."
+    },
+    "changesHeading": "Zmiany"
+  },
+  "errors": {
+    "accept": "Nie udało się zapisać twojej zgody. Spróbuj ponownie.",
+    "language": "Nie udało się zapisać wybranego języka. Spróbuj ponownie."
+  }
+}

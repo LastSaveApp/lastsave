@@ -1,0 +1,17 @@
+{
+  "signIn": {
+    "steam": "Połącz ze Steam",
+    "epic": "Połącz z Epic",
+    "xbox": "Połącz z Xbox"
+  },
+  "uninstall": {
+    "title": "Odinstaluj LastSave",
+    "message": "Chcesz zachować swoje dane z LastSave?",
+    "detail": "Twoje gry, wpisy i zrzuty ekranu będą zachowane dopóki sam ich nie usuniesz. Usunięcie przeniesie je do Kosza.",
+    "keep": "Zachowaj moje dane",
+    "delete": "Usuń wszystko"
+  },
+  "scanRoots": {
+    "startMenu": "Programy w menu Start"
+  }
+}

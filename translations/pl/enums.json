@@ -1,0 +1,158 @@
+{
+  "statuses": {
+    "wishlist": {
+      "label": "Lista życzeń",
+      "description": "Chcę mieć/zagrać"
+    },
+    "backlog": {
+      "label": "Zaległości",
+      "description": "Któregoś dnia chcę zagrać"
+    },
+    "playing": {
+      "label": "W trakcie",
+      "description": "Gram obecnie"
+    },
+    "paused": {
+      "label": "Wstrzymane",
+      "description": "Czasowo wstrzymana"
+    },
+    "played": {
+      "label": "Grałem",
+      "description": "Grałem, ale bez ukończenia ani porzucenia"
+    },
+    "completed": {
+      "label": "Ukończone",
+      "description": "Ukończony główny wątek."
+    },
+    "endless": {
+      "label": "Bez końca",
+      "description": "Gry niemające końca: grasz i nie przestajesz"
+    },
+    "dropped": {
+      "label": "Porzucone",
+      "description": "Zrezygnowałeś z gry"
+    },
+    "unstatus": {
+      "label": "Bez statusu",
+      "description": "Gra nie ma jeszcze przypisanego statusu"
+    }
+  },
+  "labels": {
+    "noStatus": "Bez statusu"
+  },
+  "launcher": {
+    "steam": "Steam",
+    "epic": "Epic",
+    "xbox": "Xbox",
+    "microsoft_store": "Microsoft Store",
+    "gog": "GOG",
+    "local": "Lokalnie",
+    "other": "Inne"
+  },
+  "platformType": {
+    "windows_pc": "Windows / PC",
+    "emulator": "Emulator",
+    "playstation_console": "Konsola PlayStation",
+    "xbox_console": "Konsola Xbox",
+    "nintendo_console": "Konsola Nintendo",
+    "other_console": "Inne konsole"
+  },
+  "reactions": {
+    "garbage": "Szrot",
+    "bad": "Zła",
+    "ok": "Dobra",
+    "great": "Świetna",
+    "masterpiece": "Arcydzieło"
+  },
+  "companyStatus": {
+    "0": "Aktywna",
+    "1": "Nieistniejąca",
+    "2": "Połączono",
+    "3": "Przemianowano"
+  },
+  "relationType": {
+    "base": "Gra główna",
+    "dlc": "Dodatek",
+    "expansion": "Rozszerzenie",
+    "dlcOrExpansion": "Dodatek / rozszerzenie",
+    "attachedContent": "Dołączona zawartość",
+    "included": "W pakiecie"
+  },
+  "achievements": {
+    "trophy": {
+      "label": "Trofeum",
+      "chip": "Osiągnięcie: Trofeum",
+      "description": "Ważny etap, osiągnięcie lub zdobyte trofeum."
+    },
+    "boss_combat": {
+      "label": "Walka z bossem",
+      "chip": "Osiągnięcie: Boss",
+      "description": "Trudna walka, pokonanie potwora lub wyzwanie bojowe."
+    },
+    "dungeon": {
+      "label": "Poziom",
+      "chip": "Osiągnięcie: Poziom",
+      "description": "Loch, rajd, poziom lub trudny obszar."
+    },
+    "treasure_loot": {
+      "label": "Skarb",
+      "chip": "Osiągnięcie: Łup",
+      "description": "Ukryty szczegół, tajemnica lub nieoczekiwane odkrycie."
+    },
+    "easter_egg_secret": {
+      "label": "Smaczek",
+      "chip": "Osiągnięcie: Sekret",
+      "description": "Ukryty szczegół, nawiązanie kulturowe lub odkrycie tajemnicy."
+    },
+    "record_high_score": {
+      "label": "Rekord",
+      "chip": "Osiągnięcie: Rekord",
+      "description": "Czas przejścia, wysoki wynik, seria sukcesów lub własny rekord."
+    },
+    "rank_level": {
+      "label": "Ranga / Poziom",
+      "chip": "Osiągnięcie: Ranga",
+      "description": "Maksymalny poziom postaci, miejsce w rankingu lub ranga w rywalizacji."
+    },
+    "upgrade": {
+      "label": "Ulepszenie",
+      "chip": "Osiągnięcie: Ulepszenie",
+      "description": "Nowa umiejętność, broń, narzędzie lub zestaw umiejętności zmieniający sposób gry."
+    },
+    "chapter": {
+      "label": "Rozdział",
+      "chip": "Osiągnięcie: Rozdział",
+      "description": "Ukończony rozdział, akt, świat lub etap gry."
+    },
+    "challenge": {
+      "label": "Wyzwanie",
+      "chip": "Osiągnięcie: Wyzwanie",
+      "description": "Ukończenie gry w trudniejszy sposób: bez otrzymania obrażeń, na najwyższym poziomie trudności lub bez utraty życia."
+    },
+    "discovery": {
+      "label": "Odkrycie",
+      "chip": "Osiągnięcie: Odkrycie",
+      "description": "Odkryte miejsce: nowy region, charakterystyczny punkt lub cała mapa."
+    },
+    "other": {
+      "label": "Inne",
+      "chip": "Osiągnięcie: Inne",
+      "description": "Wszystko, co warte zapamiętania."
+    }
+  },
+  "platform": {
+    "windows_pc": "Windows / PC",
+    "emulator": "Emulator",
+    "playstation_console": "Konsola Playstation",
+    "xbox_console": "Konsola Xbox",
+    "nintendo_console": "Konsola Nintendo",
+    "other_console": "Inne"
+  },
+  "scanWarnings": {
+    "already_in_library": "Już znajduje się w bibliotece",
+    "shortcut_missing": "Nie znaleziono skrótu",
+    "executable_missing": "Nie znaleziono pliku wykonywalnego",
+    "launcher_without_executable": "Znaleziono przez launcher, bez pliku wykonywalnego.",
+    "in_bundle": "Z pakietu - dodaj tylko gdy masz osobną kopię"
+  }
+}

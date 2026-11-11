@@ -181,6 +181,8 @@
     "dlc_other": "{{count}} DLCs",
     "expansion_one": "{{count}} Expansion",
     "expansion_other": "{{count}} Expansions",
+    "mod_one": "{{count}} Mod",
+    "mod_other": "{{count}} Mods",
     "sessions_one": "{{count}} Session",
     "sessions_other": "{{count}} Sessions"
   },

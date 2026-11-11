@@ -1,0 +1,29 @@
+{
+  "credit": {
+    "from": "Grafiki pochodzą z "
+  },
+  "entry": {
+    "title": "Grafiki",
+    "hint": "Domyślnie według ustawień. Powyższe ustawienia obowiązują tylko dla tej gry.",
+    "banner": "Baner",
+    "logo": "Logo",
+    "choose": "Wybierz...",
+    "heroOptions": {
+      "auto": "Domyślnie",
+      "lookup": "SteamGridDB",
+      "pinned": "Twoje wskazanie"
+    },
+    "logoOptions": {
+      "auto": "Domyślnie",
+      "lookup": "SteamGridDB",
+      "pinned": "Twoje wskazanie"
+    }
+  },
+  "picker": {
+    "titles": {
+      "hero": "Wybierz baner",
+      "logo": "Wybierz logo"
+    },
+    "byAuthor": "autor: {{author}}"
+  }
+}

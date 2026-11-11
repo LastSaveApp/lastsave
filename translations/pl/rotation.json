@@ -1,0 +1,56 @@
+{
+  "title": "W obiegu",
+  "lanes": {
+    "active": {
+      "name": "Na bieżąco",
+      "description": "To, w co teraz grasz. Wolne miejsca zajmą ostatnio grane gry ze statusem „W trakcie”."
+    },
+    "mains": {
+      "name": "Nieśmiertelne",
+      "description": "Gry, do których wracasz. Wolne miejsca zajmą ostatnie gry ze statusem „Bez końca”."
+    },
+    "next": {
+      "name": "Następne",
+      "description": "Gry w kolejce. Wolne miejsca zajmą ostatnie gry z \"Zaległości\" i listy życzeń."
+    },
+    "countOf": "{{count}} z {{total}}"
+  },
+  "actions": {
+    "manage": "Zarządzaj",
+    "remove": "Usuń {{title}} z obiegu",
+    "add": "Dodaj gry"
+  },
+  "slots": {
+    "free": "Wolne miejsce",
+    "auto": "Wybrane automatycznie",
+    "picked": "Twój wybór"
+  },
+  "menu": {
+    "title": "W obiegu",
+    "full": "Pełny",
+    "remove": "Usuń"
+  },
+  "manage": {
+    "title": "Gry z twojego obiegu",
+    "subtitle": "Twoje wybory mają pierwszeństwo. Wolne miejsca zajmą ostatnio ogrywane gry.",
+    "pickedCount": "Wybrałeś {{count}} z {{total}}",
+    "pickerHint": "Wybrałeś {{count}} z {{total}} · zmiany zapisują się przy wyborze"
+  },
+  "toasts": {
+    "picked": {
+      "active": "{{title}} jest w Na bieżąco",
+      "mains": "{{title}} należy do Nieśmiertelnych",
+      "next": "{{title}} należy do Następnych"
+    },
+    "removed": "{{title}} wyszedł z twojego obiegu",
+    "full": {
+      "active": "Na bieżąco jest wypełniona. Najpierw usuń z niej grę.",
+      "mains": "Nieśmiertelne jest wypełniona. Najpierw usuń z niej grę.",
+      "next": "Następne jest wypełniona. Najpierw usuń z niej grę."
+    },
+    "failed": "Nie udało się zaktualizować twojego obiegu."
+  },
+  "emptyState": {
+    "title": "Twój obieg jest pusty"
+  }
+}

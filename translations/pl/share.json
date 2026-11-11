@@ -1,0 +1,127 @@
+{
+  "dialog": {
+    "title": "Udostępnij wpis",
+    "titleGame": "Udostępnianie gry",
+    "subtitle": "{{game}} · {{type}}"
+  },
+  "variants": {
+    "card": "Karta"
+  },
+  "status": {
+    "generatingCard": "Generowanie karty",
+    "readyMeta": {
+      "image": "{{width}} x {{height}} · {{format}} · {{size}}"
+    }
+  },
+  "errors": {
+    "card": "Nie udało się wygenerować karty.",
+    "copy": "Nie udało się skopiować do schowka."
+  },
+  "card": {
+    "chips": {
+      "sessionWithDuration": "Sesja · {{duration}}",
+      "game": "Gra"
+    },
+    "ratingOutOf": "/ 10",
+    "mark": "LastSave"
+  },
+  "image": {
+    "label": "Jakość zdjęcia",
+    "presets": {
+      "compressed": "Skompresowana",
+      "lossless": "Bezstratna"
+    },
+    "presetHints": {
+      "compressed": "JPG - na tyle lekki, by wysłać go na czacie.",
+      "lossless": "PNG - co do piksela, kilkukrotnie większy rozmiar"
+    }
+  },
+  "video": {
+    "presets": {
+      "quality": "Jakość",
+      "compressed": "Skompresowana"
+    },
+    "presetHints": {
+      "quality": "Najlepszy obraz · dowolna długość",
+      "compressed": "Do 2 minut · poniżej 20 MB"
+    }
+  },
+  "description": {
+    "label": "Opis",
+    "context": {
+      "sessionWithDuration": "{{game}} · czas sesji {{duration}} · zarejestrowano w LastSave"
+    },
+    "cta": "Pobierz z {{site}}"
+  },
+  "actions": {
+    "copyCard": "Skopiuj kartę",
+    "copyDescription": "Skopiuj opis",
+    "showInFolder": "Pokaż w folderze",
+    "dragHint": "Przeciągnij podgląd na okno czatu"
+  },
+  "footer": {
+    "pasteAnywhere": "Wklej gdzie chcesz"
+  },
+  "sizes": {
+    "mb": "{{value}} MB",
+    "kb": "{{value}} KB"
+  },
+  "gameCard": {
+    "stats": {
+      "played": "czasu gry",
+      "sessions_one": "sesja",
+      "sessions_few": "sesje",
+      "sessions_many": "sesji",
+      "sessions_other": "sesji",
+      "achievements_one": "osiągnięcie",
+      "achievements_few": "osiągnięcia",
+      "achievements_many": "osiągnięć",
+      "achievements_other": "osiągnięć"
+    },
+    "description": {
+      "played": "{{duration}} czasu gry",
+      "context": "{{details}} · rejestrowane przez LastSave"
+    },
+    "showProfile": "Pokaż mój profil",
+    "captions": {
+      "impression": "Wrażenia"
+    }
+  },
+  "profileCard": {
+    "dialogTitle": "Udostępnij profil",
+    "backgroundLabel": "Tło",
+    "backgrounds": {
+      "steam": "Steam",
+      "game": "Najczęściej grane",
+      "last": "Ostatnio grane",
+      "plain": "Czyste"
+    },
+    "stats": {
+      "games_one": "Gra",
+      "games_few": "Gry",
+      "games_many": "Gier",
+      "games_other": "Gier",
+      "hours": "Godzin",
+      "logs_one": "Wpis",
+      "logs_few": "Wpisy",
+      "logs_many": "Wpisów",
+      "logs_other": "Wpisów"
+    },
+    "sections": {
+      "mostPlayed": "Najczęściej grane",
+      "favorites": "Ulubione",
+      "library": "Biblioteka",
+      "shelves": "Półki",
+      "lastPlayed": "Ostatnio grane",
+      "journeys": "Szlaki"
+    },
+    "description": {
+      "headline_one": "{{nickname}} na LastSave: {{games}} gra, {{hours}} rozegranych godzin",
+      "headline_few": "{{nickname}} na LastSave: {{games}} gry, {{hours}} rozegranych godzin",
+      "headline_many": "{{nickname}} na LastSave: {{games}} gier, {{hours}} rozegranych godzin",
+      "headline_other": "{{nickname}} na LastSave: {{games}} gier, {{hours}} rozegranych godzin",
+      "findMe": "Dodaj mnie: {{accounts}}"
+    },
+    "showPc": "Pokaż mój komputer"
+  }
+}

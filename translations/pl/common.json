@@ -1,0 +1,52 @@
+{
+  "app": {
+    "name": "LastSave",
+    "logoAlt": "Logotyp LastSave"
+  },
+  "actions": {
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź",
+    "save": "Zapisz",
+    "delete": "Usuń",
+    "upload": "Wstaw",
+    "back": "Cofnij",
+    "continue": "Kontynuuj",
+    "skip": "Pomiń",
+    "change": "Zmień",
+    "close": "Zamknij",
+    "done": "Gotowe"
+  },
+  "back": {
+    "toNamed": "Wróć do {{name}}"
+  },
+  "labels": {
+    "yes": "Tak",
+    "no": "Nie",
+    "unknownGame": "Nieznana gra",
+    "unknownYear": "Rok nieznany",
+    "unknownDeveloper": "Producent nieznany",
+    "releaseDateUnknown": "Nieznana data wydania",
+    "searchingGames": "Wyszukiwanie gier..."
+  },
+  "errors": {
+    "unknown": "Nieznany błąd"
+  },
+  "duration": {
+    "hoursMinutes": "{{hours}} godz. {{minutes}} min",
+    "hours": "{{hours}} godz.",
+    "minutes": "{{minutes}} min",
+    "hoursSpaced": "{{value}} godz.",
+    "minutesSpaced": "{{value}} min"
+  },
+  "splash": {
+    "title": "Wczytuję wszystko dla ciebie",
+    "message": "Twoja biblioteka, twoje sesje i to, co przed tobą."
+  },
+  "offline": {
+    "title": "Jesteś offline",
+    "localOnly": "Jesteś offline. Zobaczysz tylko gry zapisane lokalnie przez LastSave."
+  },
+  "language": {
+    "community": "{{name}} Społeczność {{percent}}%"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "page": {
+    "title": "Szlaki",
+    "subtitle": "Gry z celem i zakończeniem."
+  },
+  "sections": {
+    "inProgress": "W trakcie",
+    "finished": "Ukończone",
+    "suggestions": "Sugestie z twojej biblioteki",
+    "path": "Ścieżka",
+    "games": "Gry",
+    "collapse": "Ukryj \"{{section}}\"",
+    "expand": "Pokaż \"{{section}}\"",
+    "onHold": "Odłożone"
+  },
+  "actions": {
+    "newJourney": "Nowy szlak",
+    "openJourney": "Otwórz {{name}}",
+    "edit": "Edytuj szlak",
+    "delete": "Usuń szlak",
+    "share": "Udostępnij",
+    "addGames": "Dodaj gry",
+    "remove": "Usuń ze szlaku",
+    "skip": "Pomiń",
+    "addToJourney": "Umieść na szlaku",
+    "turnIntoJourney": "Przekształć w szlak",
+    "startJourney": "Rozpocznij ten szlak",
+    "seeJourney": "Zobacz szlak",
+    "back": "Szlaki",
+    "allJourneys": "Wszystkie szlaki",
+    "fromSaga": "Z jednej sagi",
+    "openGameNamed": "Otwórz {{title}}",
+    "seeGameNamed": "Zobacz {{title}}",
+    "reorder": "Przeciągnij, aby zmienić kolejność",
+    "changeStatus": "Zmień status",
+    "setStatus": "Wybierz status",
+    "addToLibrary": "Dodaj do biblioteki",
+    "fromShelf": "Z półki",
+    "showSuggestions": "Pokaż sugestie",
+    "showSuggestionsHint": "Przywróć sugestie",
+    "reorderJourney": "Przeciągnij, aby zmienić kolejność",
+    "fromGoty": "Gry roku"
+  },
+  "labels": {
+    "kicker": "Szlak",
+    "progress": "{{done}} z {{counted}} ukończone",
+    "progressPlay": "{{done}} z {{counted}} rozegrane",
+    "percent": "{{percent}} %",
+    "upNext": "Następna",
+    "nowPlaying": "Obecny etap",
+    "finishedOn": "Ukończono {{date}}",
+    "notInLibrary": "Nie ma w bibliotece",
+    "skipped": "Pominięta",
+    "gameCount_one": "{{count}} gra",
+    "gameCount_few": "{{count}} gry",
+    "gameCount_many": "{{count}} gier",
+    "gameCount_other": "{{count}} gier",
+    "coverAlt": "Okładka {{title}}",
+    "nothingUpNext": "Wszystkie gry zostały ukończone lub pominięte",
+    "started": "Rozpoczęty",
+    "onHold": "Wstrzymane"
+  },
+  "goals": {
+    "finish": {
+      "label": "Ukończ je",
+      "description": "Liczą się gry statusem ukończona lub nieskończona."
+    },
+    "play": {
+      "label": "Zagraj w nie",
+      "description": "Liczą się gry ze statusem grana, porzucona, nieskończona."
+    }
+  },
+  "emptyState": {
+    "title": "Gdzie wybierzesz się tym razem?",
+    "body": "Szlak to zestaw gier, które łączy wspólny cel: wszystkie części Zeldy, gry z dzieciństwa albo te, które kiedyś porzuciłeś w połowie. LastSave śledzi twoje postępy w ich przechodzeniu.",
+    "detailGames": "Nie ma jeszcze gier na szlaku."
+  },
+  "editor": {
+    "createTitle": "Nowy szlak",
+    "editTitle": "Edytowanie szlaku",
+    "subtitle": "Nazwij szlak, określ jego cel i ułóż gry w kolejności, w jakiej zamierzasz zagrać.",
+    "name": "Nazwa",
+    "namePlaceholder": "Wszystkie główne części Zeldy",
+    "purpose": "Dlaczego?",
+    "purposePlaceholder": "Opcjonalnie. W kolejności premier, tak jak nigdy nie udało mi się zagrać.",
+    "goal": "Cel",
+    "games": "Gry",
+    "noGames": "Nie ma tu jeszcze żadnych gier. Dodaj je z biblioteki lub wyszukaj dowolną grę.",
+    "create": "Stwórz szlak",
+    "save": "Zapisz",
+    "discardTitle": "Odrzucić zmiany w szlaku?",
+    "discardMessage": "Zmiany, których dokonałeś nie zostaną zapisane.",
+    "discardConfirm": "Odrzuć",
+    "keepEditing": "Kontynuuj",
+    "onHold": "Odłożone",
+    "onHoldHint": "Odłóż na bok: zachowuje postęp ale szlak nie pokazuje się w panelu bocznym i na stronie głównej",
+    "sortBy": "Kolejność",
+    "sort": {
+      "release": "Data wydania",
+      "rating": "Ocena",
+      "title": "Tytuł"
+    }
+  },
+  "picker": {
+    "title": "Dodaj gry",
+    "searchPlaceholder": "Przeszukaj bibliotekę lub znajdź dowolną grę.",
+    "inLibrary": "W bibliotece",
+    "moreGames": "Więcej gier",
+    "searching": "Wyszukiwanie...",
+    "selected_one": "{{count}} gra na szlaku",
+    "selected_few": "{{count}} gry na szlaku",
+    "selected_many": "{{count}} gier na szlaku",
+    "selected_other": "{{count}} gry na szlaku"
+  },
+  "suggestions": {
+    "seriesDetail_one": "Masz {{count}}",
+    "seriesDetail_few": "Masz {{count}}",
+    "seriesDetail_many": "Masz {{count}}",
+    "seriesDetail_other": "Masz {{count}}",
+    "seriesDone_one": "Masz {{count}} · {{done}} ukończona",
+    "seriesDone_few": "Masz {{count}} · {{done}} ukończone",
+    "seriesDone_many": "Masz {{count}} · {{done}} ukończonych",
+    "seriesDone_other": "Masz {{count}} · {{done}} ukończonej",
+    "unfinishedName": "Dokończ co zacząłeś",
+    "unfinishedDetail_one": "{{count}} gra w trakcie lub wstrzymana",
+    "unfinishedDetail_few": "{{count}} gry w trakcie lub wstrzymane",
+    "unfinishedDetail_many": "{{count}} gier w trakcie lub wstrzymanych",
+    "unfinishedDetail_other": "{{count}} gier w trakcie lub wstrzymanych",
+    "playedName": "Grałem, nie ukończyłem",
+    "hide": "Ukryj",
+    "hideHint": "Ukryj sugestie; Przycisk \"Pokaż sugestie\", przywraca je z powrotem",
+    "scrollLeft": "Wcześniejsze sugestie",
+    "scrollRight": "Więcej sugestii"
+  },
+  "delete": {
+    "title": "Usunąć ten szlak?",
+    "confirm": "Usuń"
+  },
+  "addTo": {
+    "title": "Umieść na szlaku"
+  },
+  "gameDetail": {
+    "title": "Szlaki"
+  },
+  "finale": {
+    "kicker": "Szlak ukończony"
+  },
+  "toasts": {
+    "saved": "Szlak zapisany",
+    "deleted": "Szlak usunięty",
+    "gameDoneUpNext": "Następne: {{title}}",
+    "removedFromJourney": "Usunięto ze szlaku {{name}}",
+    "addedToLibrary": "{{title}} jest w bibliotece"
+  },
+  "saga": {
+    "filters": {
+      "remakes": "Odnowienia i odświeżenia"
+    },
+    "error": "Nie udało się pobrać danych z IGDB. Spróbuj ponownie za chwilę."
+  },
+  "shelfPicker": {
+    "title": "Z półki"
+  },
+  "share": {
+    "dialogTitle": "Udostępnij szlak",
+    "kicker": "Szlak",
+    "since": "Od {{date}}",
+    "descriptionProgress": "{{name}} : dotychczas {{done}} z {{counted}} ukończone, na LastSave"
+  },
+  "list": {
+    "inLibrary": "W bibliotece",
+    "selected_one": "{{count}} wybrana - {{owned}} w twojej bibliotece",
+    "selected_few": "{{count}} wybrane - {{owned}} w twojej bibliotece",
+    "selected_many": "{{count}} wybranych - {{owned}} w twojej bibliotece",
+    "selected_other": "{{count}} wybranych - {{owned}} w twojej bibliotece",
+    "confirm": "Umieść na szlaku",
+    "selectAll": "Wybierz wszystkie"
+  },
+  "goty": {
+    "title": "Gry roku",
+    "subtitle": "Wszyscy zdobywcy wybranych nagród, od najnowszych. Wybierz te, które chcesz umieścić na szlaku.",
+    "searchPlaceholder": "Wyszukaj zwycięzców"
+  }
+}

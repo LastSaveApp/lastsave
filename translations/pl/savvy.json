@@ -1,0 +1,166 @@
+{
+  "mascotAlt": "Maskotka LastSave",
+  "shuffle": "Kolejna ciekawostka",
+  "quips": {
+    "q001": {
+      "text": "W 1998 roku Psycho Mantis odczytywał zawartość twojej karty pamięci. Od tamtej pory Kojima nie przestaje popisywać się pomysłowością.",
+      "source": "Metal Gear Solid"
+    },
+    "q002": {
+      "text": "Kamera była tak ważnym elementem, że doczekała się własnej postaci – Lakitu.",
+      "source": "Super Mario 64"
+    },
+    "q003": {
+      "text": "Niebezpiecznie jest wyruszać samemu. Weź ze sobą plik zapisu.",
+      "source": "The Legend of Zelda"
+    },
+    "q004": {
+      "text": "Ciasto było kłamstwem. Twój stos gier do ogrania to już prawdziwa sprawa.",
+      "source": "Portal"
+    },
+    "q005": {
+      "text": "Opóźniona gra w końcu staje się dobra. Twój stos zaległych gier też tak uważa.",
+      "source": "Shigeru Miyamoto"
+    },
+    "q006": {
+      "text": "Miała być odskocznią od strzelania do kosmitów. Została najczęściej ogrywaną grą zręcznościową w historii.",
+      "source": "Pac-Man"
+    },
+    "q007": {
+      "text": "Uruchomiono ją nawet na teście ciążowym. Nic nie jest bezpieczne.",
+      "source": "Doom"
+    },
+    "q008": {
+      "text": "Każde ognisko jest obietnicą: umrzesz i powrócisz.",
+      "source": "Dark Souls"
+    },
+    "q009": {
+      "text": "Przetrwała Związek Radziecki, Game Boya i większość twoich konsol.",
+      "source": "Tetris"
+    },
+    "q010": {
+      "text": "Im mniej obcych pozostawało na ekranie, tym szybciej się poruszali, bo sprzęt mniej się zacinał. Błąd stał się regułą gatunku.",
+      "source": "Space Invaders"
+    },
+    "q011": {
+      "text": "Pierwszym easter eggiem było ukrycie przez programistę swojego nazwiska w grze. Atari nie chciało umieścić go w napisach końcowych.",
+      "source": "Adventure, Atari 2600"
+    },
+    "q012": {
+      "text": "Kojima wypuścił grę z Raidenem, pozwalając, by zwiastuny wprowadzały graczy w błąd. Mistrz trollowania.",
+      "source": "Metal Gear Solid 2"
+    },
+    "q013": {
+      "text": "Góra, góra, dół, dół. Wciąż najsłynniejsza kombinacja przycisków w historii gier.",
+      "source": "Konami"
+    },
+    "q014": {
+      "text": "Half-Life 3 wciąż pozostaje najbardziej wyczekiwaną grą, która nie istnieje.",
+      "source": "Valve"
+    },
+    "q015": {
+      "text": "Świątynia Wody nauczyła całe pokolenie, czym jest groza.",
+      "source": "The Legend of Zelda: Ocarina od Time"
+    },
+    "q016": {
+      "text": "Stworzono go, by Mario wydawał się powolny. Mario wciąż jest z nami.",
+      "source": "Sonic the Hedgehog"
+    },
+    "q017": {
+      "text": "Wystarczyła jedna instrukcja: nie przepuść piłki, by zdobyć jak najwięcej punktów.",
+      "source": "Pong"
+    },
+    "q018": {
+      "text": "Ten zespół nigdy wcześniej nie stworzył strzelanki. A potem stworzyli strzelankę.",
+      "source": "GoldenEye 007"
+    },
+    "q019": {
+      "text": "Szesnastu bossów, żadnych zwykłych przeciwników. Tyle wystarczyło.",
+      "source": "Shadow of the Colossus"
+    },
+    "q020": {
+      "text": "Dołączona do gry karcianka była tak dobra, że doczekała się własnej gry.",
+      "source": "Wiedźmin 3: Dziki Gon"
+    },
+    "q021": {
+      "text": "Chwal słońce! Albo chociaż punkt zapisu.",
+      "source": "Dark Souls"
+    },
+    "q022": {
+      "text": "Pierwszą wersję stworzono w sześć dni. Świat wciąż jest w budowie.",
+      "source": "Minecraft"
+    },
+    "q023": {
+      "text": "Na pudełku widnieje tytuł The Legend of Zelda. Tyle że nie grasz Zeldą.",
+      "source": "The Legend of Zelda"
+    },
+    "q024": {
+      "text": "Speedrunnerzy przechodzą tę grę w mniej niż pięć minut. Ty możesz grać we własnym tempie.",
+      "source": "Super Mario Bros."
+    },
+    "q025": {
+      "text": "PlayStation powstało, bo Nintendo wycofało się z umowy z Sony. Historia pełna złośliwości, ale za to jaka konsola!",
+      "source": "Sony i Nintendo"
+    },
+    "q026": {
+      "text": "Gra została napisana niemal w całości w asemblerze. Przez jedną osobę.",
+      "source": "RollerCoaster Tycoon"
+    },
+    "q027": {
+      "text": "Tom Nook nie nalicza odsetek. Najlepszy gospodarz w świecie gier.",
+      "source": "Animal Crossing"
+    },
+    "q028": {
+      "text": "Trwało to tak długo, że fani zdążyli stworzyć wokół tego całą religię.",
+      "source": "Hollow Knight: Silksong"
+    },
+    "q029": {
+      "text": "„Prepare to Die” było wyzwaniem. Miliony je podjęły.",
+      "source": "FromSoftware"
+    },
+    "q030": {
+      "text": "MissingNo. dawał nieskończoną liczbę Rare Candy. Najlepszy błąd w historii gier.",
+      "source": "Pokémon Red"
+    },
+    "q031": {
+      "text": "Wszystko zaczęło się od studenckiego projektu o nazwie Narbacular Drop. Valve zatrudniło cały zespół.",
+      "source": "Portal"
+    },
+    "q032": {
+      "text": "Trzynaście zakończeń już w 1995 roku. Do dziś gry próbują jej dorównać.",
+      "source": "Chrono Trigger"
+    },
+    "q033": {
+      "text": "Postacie niezależne miały własny rozkład dnia. I często się w ciebie wpatrywały.",
+      "source": "The Elder Scrolls IV: Oblivion"
+    },
+    "q034": {
+      "text": "Umieścił swoje nazwisko na pudełku, bo wiedział, że go nie zapomnisz.",
+      "source": "Hideo Kojima"
+    },
+    "q035": {
+      "text": "Stworzona głównie przez jedną osobę, a mimo to potrafiła sprawić, że miałeś wyrzuty sumienia po walce.",
+      "source": "Undertale"
+    },
+    "q036": {
+      "text": "Zaczęło się od gry o architekturze. Potem wprowadzili się ludzie.",
+      "source": "The Sims"
+    },
+    "q037": {
+      "text": "Przesunęli premierę GTA VI, a internet postarzał się o rok w jeden dzień.",
+      "source": "Rockstar Games"
+    },
+    "q038": {
+      "text": "Wyznaczyła tempo gatunkowi, który dziś nosi jej imię.",
+      "source": "Super Metroid"
+    },
+    "q039": {
+      "text": "Można było romansować z niedźwiedziem. A mimo to gra zdobyła tytuł Gry Roku.",
+      "source": "Baldur's Gate 3"
+    },
+    "q040": {
+      "text": "Zapis gry to pamiętnik, który piszesz za pomocą kontrolera.",
+      "source": "LastSave"
+    }
+  }
+}

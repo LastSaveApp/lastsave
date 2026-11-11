@@ -304,5 +304,19 @@
   },
   "inBundle": {
     "note": "Also in {{title}}. This keeps it as its own game, with a history of its own."
+  },
+  "mods": {
+    "title": "Mods",
+    "selected_one": "{{count}} selected",
+    "selected_other": "{{count}} selected",
+    "available_one": "{{count, number}} available",
+    "available_other": "{{count, number}} available",
+    "none": "None listed",
+    "hint": "Mods kept here live inside this entry, each with its own status and hours. To play one as a game of its own, add it from the search instead.",
+    "actions": {
+      "browse": "Browse mods",
+      "browseCount_one": "Browse {{count, number}} mod",
+      "browseCount_other": "Browse {{count, number}} mods"
+    }
   }
 }

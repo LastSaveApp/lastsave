@@ -1,0 +1,205 @@
+{
+  "detectionPrompt": {
+    "switchGame": {
+      "message": "Grasz w {{current}}. Przełączyć sesję na grę {{next}}? Najpierw zaproponuję recenzję {{current}}.",
+      "confirm": "Przełącz",
+      "cancel": "Ignoruj"
+    },
+    "gameChange": {
+      "confirm": "Przełącz grę",
+      "cancel": "Pozostań przy obecnej"
+    }
+  },
+  "feedback": {
+    "launchOnlyFailed": "Nie udało się uruchomić gry: {{error}}",
+    "launchDisabledGlobally": "Uruchamianie gier przez LastSave jest wyłączone w «Ustawieniach».",
+    "emulatorStillOpen": "{{emulator}} jest wciąż otwarty. Zamknij go, i ponownie wybierz «Uruchom»."
+  },
+  "sessionButton": {
+    "play": "Graj",
+    "start": "Start",
+    "starting": "Uruchamianie...",
+    "menu": "Ustawienia sesji",
+    "playAndTrack": "Graj (uruchom i śledź)",
+    "launchOnly": "Graj (bez śledzenia czasu)",
+    "timerOnly": "Uruchom tylko stoper",
+    "launchGame": "Uruchom grę",
+    "launchGameHintOn": "Uruchamia i śledzi czas",
+    "launchGameHintOnUntracked": "Tylko uruchamia",
+    "launchGameHintOff": "Tylko stoper",
+    "launchGameHintNotOwned": "Nie masz jej.",
+    "launchGameHintMissing": "Nie znaleziono pliku",
+    "launchGameHintGloballyOff": "Wyłączone w ustawieniach",
+    "trackGame": "Śledź czas gry",
+    "trackGameHintOn": "Mierzy czas sesji w grze",
+    "trackGameHintOff": "Bez mierzenia czasu",
+    "trackGameHintUnavailable": "Nie ma czego śledzić."
+  },
+  "confirm": {
+    "closeEmulator": {
+      "title": "{{emulator}} jest obecnie otwarty",
+      "message": "Aby uruchomić {{next}}, LastSave zamknie {{emulator}} i otworzy go ponownie z tą grą. Jeśli są w nim niezapisane zmiany, najpierw zapyta Cię o zgodę.",
+      "confirm": "Zamknij i uruchom"
+    }
+  },
+  "dashboard": {
+    "playingMode": "Tryb gry",
+    "trackingLine": "Śledzenie <target> {{title}} </target> · {{source}}",
+    "source": {
+      "manual": "uruchomione ręcznie"
+    },
+    "liveSession": "Na żywo",
+    "paused": "Wstrzymana",
+    "actions": {
+      "pause": "Wstrzymaj",
+      "resume": "Wznów",
+      "stop": "Zakończ",
+      "addLog": "Dodaj wpis",
+      "screenshot": "Zrzut ekranu",
+      "clip": "Klip",
+      "record": "Nagrywaj",
+      "stopRecording": "Zatrzymaj nagrywanie"
+    },
+    "overlay": {
+      "title": "Interfejs",
+      "compact": "Kompaktowy",
+      "expanded": "Rozszerzony",
+      "hidden": "Ukryty",
+      "resetPosition": "Zresetuj pozycję",
+      "shortcuts": {
+        "overlay": "Pokaż / minimalizuj interfejs",
+        "focus": "Tryb skupienia",
+        "hide": "Ukryj / pokaż interfejs",
+        "screenshot": "Zrzut ekranu",
+        "quickJournal": "Dodaj wpis",
+        "pause": "Wstrzymaj / wznów",
+        "stop": "Zakończ sesję",
+        "clip": "Zapisz ostatnie sekundy",
+        "record": "Nagrywaj"
+      },
+      "shortcutUnavailable": "W użyciu przez inną aplikację"
+    },
+    "presentationMode": {
+      "windowed": "W oknie",
+      "detecting": "Wykrywanie"
+    },
+    "liveOnPid": "PID {{pid}}",
+    "configuredExe": "Czekanie na exe",
+    "stopConfirm": {
+      "title": "Zakończyć sesję?",
+      "body": "Twój czas w {{title}} zostanie zapisany, a następnie otworzy się ekran podsumowania sesji."
+    },
+    "shortcuts": {
+      "title": "Skróty",
+      "hint": "Przypisz ponownie"
+    }
+  },
+  "finalization": {
+    "playedOn": "Grano dnia",
+    "adjustDuration": "Czas trwania",
+    "note": "Notatka",
+    "noteOptional": "(opcjonalnie)",
+    "notePlaceholder": "Było coś wartego zapamiętanie podczas tej sesji?",
+    "discard": "Zniszcz",
+    "saveSession": "Zapisz sesję",
+    "confirmDiscardTitle": "Zniszczyć tą sesję?",
+    "confirmDiscardConfirm": "Zniszcz sesję",
+    "confirmDiscardCancel": "Zachowaj"
+  },
+  "followUp": {
+    "title": "Sesja została zapisana",
+    "logged": "Zapisano {{duration}} sesji",
+    "updateStatus": "Zaktualizuj status",
+    "updateStatusHint": "Dostosuj status do postępu",
+    "achievement": "Osiągnięcie",
+    "achievementHint": "Zanotuj osiągnięcie podczas tej sesji",
+    "addJournal": "Dodaj wpis do dziennika",
+    "addJournalHint": "Zapisz wspomnienie lub notatkę z tej sesji.",
+    "noThanks": "Nie, dziękuję"
+  },
+  "overlay": {
+    "playing": "W grze",
+    "paused": "Wstrzymana",
+    "minimize": "Minimalizuj",
+    "resume": "Wznów",
+    "pause": "Wstrzymaj",
+    "stop": "Zatrzymaj",
+    "log": "Wpis",
+    "screenshot": "Zrzut",
+    "dragHint": "Przeciągnij",
+    "note": {
+      "hint": "Enter zapisuje · Esc anuluje",
+      "save": "Zapisz"
+    },
+    "clip": "Klip",
+    "record": "Nagrywaj",
+    "stopRecording": "Zatrzymaj nagrywanie",
+    "hideOverlay": "Ukryj interfejs",
+    "recording": "Nagrywanie",
+    "screenshotLong": "Zrzut ekranu",
+    "clipLong": "Zapisz ostatnie 30 sek.",
+    "focus": {
+      "close": "Wróć do gry",
+      "closeHint": "<shortcut/> lub <esc/> powraca do gry"
+    },
+    "focusMode": "Skupienie",
+    "hide": "Ukryj"
+  },
+  "captures": {
+    "strip": {
+      "edit": "Edytuj",
+      "discardConfirmTitle": "Zniszczyć ten zrzut?",
+      "discardConfirmMessage": "Znika teraz z tej listy i zostaje usunięty po zapisaniu sesji.",
+      "discardConfirm": "Zniszcz",
+      "view": "Otwórz"
+    },
+    "chip": {
+      "journal": "Dziennik"
+    },
+    "plan": {
+      "title": {
+        "screenshot": "Czym jest ten zrzut ekranu?"
+      },
+      "choices": {
+        "journal": "Dziennik",
+        "achievement": "Osiągnięcie"
+      },
+      "save": "Zachowaj",
+      "discard": "Zniszcz"
+    }
+  },
+  "consolidation": {
+    "kicker": "Sesja zakończona",
+    "items": {
+      "title": "Zebrane podczas sesji",
+      "empty": "Podczas tej sesji nic nie zostało zarejestrowane.",
+      "captionPlaceholder": "Napisz kilka słów (opcjonalnie)",
+      "descriptionPlaceholder": "Szczegóły (opcjonalnie)"
+    },
+    "confirmDiscardMessage": "Czas gry będzie usunięty. Wszystko zebrane podczas tej sesji pozostaje na dysku, ale nie będzie nigdzie przypisane.",
+    "toBeLogged": "do zapisania"
+  },
+  "clips": {
+    "recorders": {
+      "gamebar": "Pasek gry Xbox"
+    },
+    "setUp": "Ustaw"
+  },
+  "setup": {
+    "recorders": {
+      "off": "Wył."
+    },
+    "detection": {
+      "none": "Nie znaleziono rejestratorów na tym komputerze"
+    },
+    "testsNeedGame": "Test wymaga uruchomionej gry, dlatego odbywa się podczas rozgrywki. Naciśnij „Klip” lub „Nagrywaj” na nakładce - pierwsze naciśnięcie będzie testem. Jeśli nic się nie zapisze, nakładka poinformuje Cię o tym i wrócisz tutaj."
+  },
+  "history": {
+    "tabs": {
+      "thisSession": "Aktualna sesja",
+      "previousSessions": "Poprzednie sesje"
+    },
+    "searchPlaceholder": "Wyszukaj",
+    "empty": "Brak poprzednich sesji. Ta która trwa teraz będzie widoczna tutaj następnym razem."
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "title": "Kalendarz",
+  "toolbar": {
+    "previousMonth": "Poprzedni miesiąc",
+    "nextMonth": "Nestępny miesiąc",
+    "pickMonth": "Wybierz miesiąc",
+    "previousYear": "Poprzedni rok",
+    "nextYear": "Następny rok",
+    "today": "Dzisiaj",
+    "scope": "Wyświetlone gry",
+    "scopes": {
+      "all": "Wszystkie",
+      "mine": "Moje",
+      "notable": "Wyróżnione"
+    },
+    "view": "Widok",
+    "views": {
+      "month": "Miesiąc",
+      "timeline": "Linia czasu",
+      "agenda": "Terminarz"
+    },
+    "events": "Wydarzenia"
+  },
+  "month": {
+    "undated": "{{month}}, brak dokładnej daty",
+    "more": "+ {{count}}",
+    "undatedCount_one": "{{count}} gra",
+    "undatedCount_few": "{{count}} gry",
+    "undatedCount_many": "{{count}} gier",
+    "undatedCount_other": "{{count}} gry"
+  },
+  "timeline": {
+    "more_one": "+ {{count}} premiera",
+    "more_few": "+ {{count}} premiery",
+    "more_many": "+ {{count}} premier",
+    "more_other": "+ {{count}} premiery"
+  },
+  "agenda": {
+    "empty": "W tym miesiącu nic się nie ukaże",
+    "unannounced": "Data nie ogłoszona"
+  },
+  "milestones": {
+    "release": "Premiera",
+    "onePointOh": "Wersja 1.0",
+    "earlyAccess": "Wczesny dostęp",
+    "advancedAccess": "Wcześniejszy dostęp",
+    "beta": "Beta",
+    "alpha": "Alfa"
+  },
+  "precision": {
+    "quarter": "{{quarter}} kwartał {{year}}",
+    "tbd": "Data nie ogłoszona"
+  },
+  "marks": {
+    "owned": "W bibliotece",
+    "addOn": "Rozszerzenie gry {{title}}",
+    "reminded": "Powiadomienie jest włączone",
+    "notify": "Powiadom mnie"
+  },
+  "detail": {
+    "close": "Zamknij",
+    "empty": "W tym dniu nic się nie ukaże.",
+    "otherDates": "Inne daty",
+    "actions": {
+      "notify": "Powiadom mnie",
+      "notifying": "Powiadomimy cię"
+    },
+    "notifyAutoHint": "Gry z listy życzeń lub zaległości powiadomią Cię o premierze.",
+    "hints": {
+      "onePointOh": "Koniec wczesnego dostępu: pełna premiera.",
+      "earlyAccess": "Gra dostępna przed pełną premierą, w trakcie dalszego rozwoju.",
+      "advancedAccess": "Wcześniejszy dostęp dla nabywców specjalnej edycji w przedsprzedaży."
+    },
+    "event": {
+      "games_one": "{{count}} gra",
+      "games_few": "{{count}} gry",
+      "games_many": "{{count}} gier",
+      "games_other": "{{count}} gry",
+      "open": "Szczegóły wydarzenia"
+    }
+  },
+  "empty": {
+    "mine": {
+      "title": "W tym miesiącu nie ma nic z twojej listy",
+      "body": "Dodaj grę do listy życzeń, a pojawi się tutaj wraz z datą premiery. Tymczasem zobacz wyróżnione premiery.",
+      "action": "Zobacz wyróżnione"
+    }
+  },
+  "states": {
+    "retry": "Spróbuj ponownie"
+  },
+  "notices": {
+    "today": {
+      "release": "{{title}} ma dziś premierę",
+      "onePointOh": "Dziś ukazuje się wersja 1.0 {{title}}",
+      "earlyAccess": "{{title}} debiutuje dziś we wczesnym dostępie",
+      "advancedAccess": "Wcześniejszy dostęp do {{title}} rozpoczyna się dziś",
+      "beta": "Dziś rozpoczynają się testy beta {{title}}"
+    },
+    "tomorrow": {
+      "release": "{{title}} ma jutro premierę",
+      "onePointOh": "Jutro ukazuje się wersja 1.0 {{title}}",
+      "earlyAccess": "{{title}} debiutuje jutro we wczesnym dostępie",
+      "advancedAccess": "Wcześniejszy dostęp do {{title}} rozpoczyna się jutro",
+      "beta": "Jutro rozpoczynają się testy beta {{title}}"
+    },
+    "delayed": "Premiera {{title}} została opóźniona",
+    "delayedFromTo": "Z {{from}} na {{to}}",
+    "eventToday": "Dziś: {{title}} o {{time}}",
+    "eventStarting": "Rozpoczyna się {{title}}",
+    "reasons": {
+      "wishlist": "Znajduje się na liście życzeń.",
+      "backlog": "Jest w twoich zaległościach.",
+      "reminder": "Prosiłeś o powiadomienie."
+    },
+    "open": "Otwórz kalendarz",
+    "watch": "Oglądaj transmisję"
+  }
+}

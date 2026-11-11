@@ -153,11 +153,11 @@
     "localFile": "Local file",
     "title": "Title",
     "releaseYear": "Release Year",
-    "releaseDate": "Release Date (YYYY-MM-DD)",
+    "releaseDate": "Release date",
     "gameType": "Game Type",
     "gameStatus": "Game Status",
-    "parentBaseGame": "Parent / Base Game",
-    "parentHint": "DLCs and expansions need a base game. You can pick a local game or an IGDB result and we will materialize it automatically if needed.",
+    "parentBaseGame": "Base game (optional)",
+    "parentHint": "Link the DLC or expansion to its base game so it lives inside that game's entry. Left unlinked, it is an entry of its own.",
     "sourceIgdb": "IGDB",
     "sourceLocal": "Local",
     "searchParentPlaceholder": "Search parent game...",
@@ -168,26 +168,25 @@
     "saving": "Saving...",
     "saveChanges": "Save Changes",
     "addGame": "Add Game",
-    "parentRequired": "DLCs and expansions must have a parent/base game.",
     "materializeFailed": "Failed to materialize selected parent game.",
     "fields": {
-      "genres": "Genres (CSV)",
-      "themes": "Themes (CSV)",
-      "gameModes": "Game Modes (CSV)",
-      "platforms": "Platforms (CSV)",
-      "developers": "Developers (CSV)",
-      "publishers": "Publishers (CSV)",
-      "collections": "Collections (CSV)"
+      "genres": "Genres",
+      "themes": "Themes",
+      "gameModes": "Game modes",
+      "platforms": "Platforms",
+      "developers": "Developers",
+      "publishers": "Publishers",
+      "collections": "Collections"
     },
     "placeholders": {
-      "genres": "Action, RPG, Indie",
-      "themes": "Fantasy, Sci-Fi",
-      "gameModes": "Single player, Co-op",
-      "platforms": "PC, PS5, Xbox Series",
-      "developers": "FromSoftware",
-      "publishers": "Bandai Namco",
-      "collections": "Dark Souls Collection",
-      "franchise": "Dark Souls"
+      "genres": "Shooter, RPG…",
+      "themes": "Fantasy, Horror…",
+      "gameModes": "Single player…",
+      "platforms": "PC (Microsoft Windows)…",
+      "developers": "id Software…",
+      "publishers": "Bandai Namco…",
+      "collections": "Doom…",
+      "franchise": "Doom"
     },
     "types": {
       "notSpecified": "Not specified",
@@ -217,7 +216,10 @@
       "cancelled": "Cancelled",
       "rumored": "Rumored",
       "delisted": "Delisted"
-    }
+    },
+    "parentModGame": "Game it modifies (optional)",
+    "parentModHint": "Link the mod to its game to find it among that game's mods and keep it inside its entry.",
+    "parentNone": "Not linked"
   },
   "mediaCard": {
     "alreadyAdded": "Already Added",
@@ -258,7 +260,11 @@
       "publishers": "Publishers",
       "collections": "Collections"
     },
-    "inBundle": "In {{title}}"
+    "inBundle": "In {{title}}",
+    "mods": "Mods",
+    "browseMods_one": "Browse {{count, number}} mod",
+    "browseMods_other": "Browse {{count, number}} mods",
+    "modsHint": "Campaigns, total conversions and romhacks made by players."
   },
   "discoverModal": {
     "poweredBy": "Powered by",
@@ -455,5 +461,29 @@
       "playerPerspective": "Perspective",
       "gameMode": "Game Mode"
     }
+  },
+  "gameTypeChip": {
+    "modOf": "Mod · {{title}}"
+  },
+  "mods": {
+    "title": "Mods for {{title}}",
+    "count_one": "{{count, number}} mod",
+    "count_other": "{{count, number}} mods",
+    "selected_one": "{{count}} selected",
+    "selected_other": "{{count}} selected",
+    "emptyState": {
+      "search": "No mods match that search.",
+      "none": "No mods listed for this game yet."
+    },
+    "errors": {
+      "loadFailed": "Couldn't load the mods."
+    },
+    "actions": {
+      "showMore": "Show more",
+      "loadingMore": "Loading…",
+      "confirm": "Done"
+    },
+    "countWithOriginal_one": "{{count, number}} mod, the original game's included",
+    "countWithOriginal_other": "{{count, number}} mods, the original game's included"
   }
 }

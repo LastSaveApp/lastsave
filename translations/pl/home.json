@@ -1,0 +1,121 @@
+{
+  "greeting": {
+    "morning": "Dzień dobry,",
+    "afternoon": "Dzień dobry,",
+    "evening": "Dobry wieczór,"
+  },
+  "hero": {
+    "kicker": {
+      "latestPlayed": "Ostatnio grane",
+      "recentlyAdded": "Ostatnio dodane",
+      "welcome": "Witaj w LastSave"
+    },
+    "played": "grałeś {{hours}}",
+    "lastPlayed": "Ostatnia rozgrywka {{when}}",
+    "addedWhen": "Dodano {{when}}",
+    "noSessionsYet": "Brak zapisanych sesji. Wciśnij «Graj», a LastSave rozpocznie naliczanie.",
+    "latestLog": {
+      "session": "Ostatnia sesja",
+      "journal": "Ostatnio wpis w dzienniku",
+      "achievement": "Ostatnie osiągnięcie",
+      "status": "Aktualny status",
+      "added": "Dodano do biblioteki"
+    },
+    "openDetail": "Przejdź do szczegółów gry",
+    "links": {
+      "library": "Biblioteka",
+      "explore": "Odkrywaj"
+    },
+    "continue": "Kontynuuj"
+  },
+  "recent": {
+    "title": "Ostatnie gry",
+    "titleAdded": "Ostatnio dodane",
+    "added": "Dodane",
+    "addedWhen": "Dodane {{when}}",
+    "emptyState": {
+      "title": "Nie ma nic do pokazania"
+    }
+  },
+  "activity": {
+    "title": "Ostatnia aktywność",
+    "types": {
+      "session": "Sesja",
+      "achievement": "Osiągnięcie",
+      "journal": "Dziennik",
+      "status": "Status",
+      "review": "Recenzja"
+    },
+    "sessionType": {
+      "timer": "stoper",
+      "manual": "ręcznie"
+    },
+    "sessionSummary": "{{duration}} · {{type}}",
+    "statusSet": "Teraz {{status}}",
+    "addedToLibrary": "Dodano do biblioteki"
+  },
+  "memories": {
+    "title": "Wspomnienia",
+    "kinds": {
+      "ago": "{{when}}",
+      "random": "Losowe",
+      "latest": "Ostatnie",
+      "review": "Twoja ocena · {{rating}}"
+    },
+    "open": "Otwórz wspomnienie",
+    "kindAria": {
+      "ago": "Wspomnienie sprzed jakiegoś czasu",
+      "random": "Losowe wspomnienie",
+      "latest": "Twoje ostatnie wspomnienie",
+      "review": "Jedna z twoich recenzji"
+    },
+    "previous": "Poprzednie wspomnienie",
+    "next": "Następne wspomnienie"
+  },
+  "stats": {
+    "lastPlayed": "Ostatnio grałeś {{when}}"
+  },
+  "actions": {
+    "openLibrary": "Biblioteka",
+    "openExplore": "Odkrywaj",
+    "details": "Szczegóły"
+  },
+  "explore": {
+    "tabs": {
+      "latest": "Najnowsze",
+      "upcoming": "Nadchodzące"
+    },
+    "offlineTitle": "Odkrywaj bez połączenia"
+  },
+  "week": {
+    "title": "Twój tydzień",
+    "thisWeek": "Ostatnie 7 dni",
+    "chartAria": "Liczba godzin gry dziennie w ciągu ostatnich 7 dni",
+    "today": "Dzisiaj",
+    "noPlay": "Nie grałeś",
+    "sessions": "Sesje",
+    "games": "Gier",
+    "logs": "Wpisów"
+  },
+  "library": {
+    "games_one": "gra",
+    "games_few": "gry",
+    "games_many": "gier",
+    "games_other": "gier",
+    "chartAria": "Twoja kolekcja według statusu",
+    "moreStores": "Więcej sklepów",
+    "previousStores": "Poprzednie sklepy",
+    "views": {
+      "collection": "Twoja kolekcja",
+      "shelves": "Twoje półki",
+      "journeys": "Twoje szlaki"
+    },
+    "previousView": "Poprzedni",
+    "nextView": "Następny",
+    "moreShelves_one": "+ {{count}} dodatkowa półka",
+    "moreShelves_few": "+ {{count}} dodatkowe półki",
+    "moreShelves_many": "+ {{count}} dodatkowych półek",
+    "moreShelves_other": "+ {{count}} dodatkowej półki",
+    "journeyCount": "{{done}} / {{counted}}"
+  }
+}

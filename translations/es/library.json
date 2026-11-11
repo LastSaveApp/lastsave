@@ -446,7 +446,8 @@
     "updatedShelves_other": "Se actualizaron las estanterías de {{count}} juegos.",
     "updateShelvesError": "No se pudieron actualizar las estanterías.",
     "shelfGamesError": "No se pudieron actualizar los juegos de la estantería.",
-    "filterSaved": "{{name}} guardado. Lo encuentras en Filtrar, en Tus filtros."
+    "filterSaved": "{{name}} guardado. Lo encuentras en Filtrar, en Tus filtros.",
+    "manualCreateFailed": "No se pudo crear el juego."
   },
   "cleanup": {
     "offerOne": "{{title}} está en tu biblioteca solo por eso.",

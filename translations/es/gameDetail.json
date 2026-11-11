@@ -183,6 +183,9 @@
     "expansion_one": "{{count}} expansión",
     "expansion_many": "{{count}} expansiones",
     "expansion_other": "{{count}} expansiones",
+    "mod_one": "{{count}} mod",
+    "mod_many": "{{count}} mods",
+    "mod_other": "{{count}} mods",
     "sessions_one": "{{count}} sesión",
     "sessions_many": "{{count}} sesiones",
     "sessions_other": "{{count}} sesiones"

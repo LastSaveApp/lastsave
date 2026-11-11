@@ -409,7 +409,8 @@
     "updatedShelves_other": "Updated shelves for {{count}} games.",
     "updateShelvesError": "Could not update shelves.",
     "shelfGamesError": "Could not update shelf games.",
-    "filterSaved": "Saved {{name}}. Find it in Filter, under Your filters."
+    "filterSaved": "Saved {{name}}. Find it in Filter, under Your filters.",
+    "manualCreateFailed": "Couldn't create the game."
   },
   "cleanup": {
     "offerOne": "{{title}} is in your library only because of that.",

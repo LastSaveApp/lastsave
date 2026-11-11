@@ -74,6 +74,7 @@
     "base": "Juego base",
     "dlc": "DLC",
     "expansion": "Expansión",
+    "mod": "Mod",
     "dlcOrExpansion": "DLC / Expansión",
     "attachedContent": "Contenido adicional",
     "included": "Incluido"
@@ -159,6 +160,6 @@
     "disc_incomplete": "El disco está incompleto: falta en la carpeta una pista que su .cue indica",
     "launcher_without_executable": "Encontrado por su launcher, sin un ejecutable directo",
     "found_on_multiple_stores": "Encontrado en más de una tienda",
-    "in_bundle": "Está dentro de un bundle que tienes: añádelo solo si es otra copia"
+    "in_bundle": "Ya está dentro de otro juego tuyo: añádelo solo si es una copia aparte"
   }
 }
