@@ -64,7 +64,8 @@
       "whatPlaying": "Open your shelf's board and move a game you're playing these days to Playing.",
       "story": "Open a game and write a line in its journal. Your board move is already there.",
       "pressStart": "Launch a game from LastSave. The overlay will show you the rest.",
-      "saveSession": "Close the game when you're done and save the session."
+      "saveSession": "Close the game when you're done and save the session.",
+      "meetLibrary": "Find your games, click one for a quick look, then step into Board and Panel."
     }
   },
   "welcome": {
@@ -97,6 +98,7 @@
     "stop": "Stop",
     "close": "Close",
     "ack": "Got it",
+    "skip": "Skip",
     "waiting": "Waiting for you",
     "pressHint": "Click the highlighted button to continue",
     "shortcut": {
@@ -106,7 +108,8 @@
     "missingTitle": "This isn't on screen right now",
     "missingBody": "Something is covering it, or it isn't available yet. Try again from Help when you're ready.",
     "stepOf": "Step {{current}} of {{total}}",
-    "done": "That's it. Nicely done."
+    "done": "That's it. Nicely done.",
+    "whatsNew": "What's new"
   },
   "quest": {
     "fraction": "{{current}}/{{total}}",
@@ -152,7 +155,7 @@
         "body": "Click View to change how these games are laid out."
       },
       "board": {
-        "title": "Pick Board",
+        "title": "Switch to Board",
         "body": "The board shows your games as columns by status, like a backlog you can drag around."
       },
       "drag": {
@@ -185,7 +188,15 @@
     "writeJournal": {
       "game": {
         "title": "Open a game",
-        "body": "Every game has its own page, with its story so far. Click this one to open it."
+        "body": "Click a game for a quick look: its status, the time you have played and its latest moments."
+      },
+      "openPage": {
+        "title": "Its full page",
+        "body": "This opens the game's own page, with its whole story. A click on the picture above does it too."
+      },
+      "launcher": {
+        "title": "Or go straight there",
+        "body": "From any screen, Ctrl+K or this bar takes you to any game: type its name and press Enter."
       },
       "activity": {
         "title": "Every game keeps a story",
@@ -273,6 +284,62 @@
         "title": "Create it",
         "body": "Press Create journey. It fills in by itself as you play: nothing to tick off."
       }
+    },
+    "libraryNew": {
+      "toolbar": {
+        "title": "Filter, Group and Sort live here now",
+        "body": "Inside the search bar. Group shows the grouping in use and Sort the order, and Filter can pick shelves too."
+      },
+      "panel": {
+        "title": "New: Panel view",
+        "body": "Your games as a list on the left and the game's page on the right, like a launcher. Switch to it and have a look: Grid, List and Board stay one click away."
+      },
+      "panelView": {
+        "title": "This is Panel",
+        "body": "Pick a game on the left and its page opens right here. Like it? Stay. Grid, List and Board are still in these icons."
+      },
+      "launcher": {
+        "title": "Any game, from anywhere",
+        "body": "Press Ctrl+K and type a few letters. Enter opens the game's page, Ctrl+Enter plays it."
+      },
+      "preview": {
+        "title": "A click is a quick look",
+        "body": "Click a game and a sheet opens with Play, Add log and its latest moment. A double click still opens its page. Try it on this one."
+      },
+      "sheet": {
+        "title": "Everything at hand",
+        "body": "Play, log or manage the game from here. Enter opens its page and the arrows move to the next one."
+      },
+      "previewSwitch": {
+        "title": "Prefer the old click?",
+        "body": "Preview on click lives in Display options. Turn it off and a click opens the game's page, like before."
+      }
+    },
+    "meetLibrary": {
+      "toolbar": {
+        "title": "Find anything",
+        "body": "Search by name, genre or studio, or press Ctrl+K on any screen. Filter narrows it down, Group splits it into sections and Sort puts it in order."
+      },
+      "preview": {
+        "title": "Click a game",
+        "body": "A click opens a quick look at it, and a double click opens its page. Try it on this one."
+      },
+      "sheet": {
+        "title": "A quick look",
+        "body": "Play, add a log or manage the game from here. Enter opens its page, and the arrows move to the next game."
+      },
+      "board": {
+        "title": "Board: your statuses as columns",
+        "body": "Your games in columns by status, from Backlog to Completed, and you drag them from one to another. Switch to it."
+      },
+      "panel": {
+        "title": "And Panel, like a launcher",
+        "body": "A list on the left and the game's page on the right. Switch to it: Grid, List and Board stay in these icons."
+      },
+      "panelView": {
+        "title": "This is Panel",
+        "body": "Pick a game on the left and its page opens right here. Grid, List and Board are in these icons whenever you want them."
+      }
     }
   },
   "articles": {
@@ -300,6 +367,10 @@
       "saveSession": {
         "title": "Save the session",
         "body": "When you close the game, LastSave wraps the session up: the time, your captures and a note. Save it and it's in the game's activity, done."
+      },
+      "meetLibrary": {
+        "title": "Meet your library",
+        "body": "Your games as a grid, a list, a board by status, or a panel beside each game's page. Search, filter, group and sort from one bar, and click a game for a quick look without leaving the list."
       }
     },
     "library": {
@@ -336,11 +407,31 @@
       },
       "views": {
         "title": "Search, filters and views",
-        "body": "Search finds games by name, genre or studio. Filter narrows by status, source or genre, and View switches between cards, a list and the board. Set a few filters and press Save filter, next to Clear all, to keep them under a name: they wait in Filter, under Your filters, in the Library and in every shelf."
+        "body": "Search finds games by name, genre or studio. Filter, Group and Sort sit inside the search bar: Filter narrows by status, source, shelf and more, Group splits the games into sections you can fold, and Sort puts them in order. Installed, at the start of the row below, shows only what is on this PC. Set a few filters and press Save filter to keep them under a name, in the Library and in every shelf.",
+        "step1": "Grid shows the covers, List the details, and Board your statuses as columns.",
+        "step2": "Panel lists your games on the left and opens each one's page on the right, like a launcher.",
+        "step3": "The four icons at the end of the bar switch between them. Each shelf remembers its own."
       },
       "dlc": {
         "title": "DLC and expansions",
         "body": "Expansions live inside their base game rather than as separate games. Their hours and logs count towards the game they belong to."
+      },
+      "whatsNew": {
+        "title": "What's new in the Library",
+        "body": "Filter, Group and Sort moved inside the search bar, and Filter can pick shelves. Panel is a new view: a list beside the game's page, like a launcher. A click on a game opens a quick look (you can turn it off in Display options), and Ctrl+K finds any game from anywhere."
+      },
+      "preview": {
+        "title": "Quick look",
+        "body": "A click on a game opens a sheet beside your list: play it, add a log, see its numbers and latest moment, or manage it, without leaving where you were. It works in the Library, on Home and in your journeys.",
+        "step1": "Click a game. A double click goes straight to its page.",
+        "step2": "Enter or the art opens the full page, Esc closes the sheet, and the arrows move along the list.",
+        "step3": "Rather have a click open the page? Turn off Preview on click in Display options or in Settings."
+      },
+      "quickLauncher": {
+        "title": "Search or launch with Ctrl+K",
+        "body": "From any screen, Ctrl+K (or the bar at the top of the window) finds a game in your library by its name or initials. Games in LastSave's catalog show up too, and IGDB is searched only when you ask.",
+        "step1": "Press Ctrl+K and type a few letters.",
+        "step2": "Enter opens the game's page. Ctrl+Enter plays it."
       }
     },
     "organize": {
@@ -351,8 +442,8 @@
       "board": {
         "title": "The board",
         "body": "The board lays your library out as columns by status. Drag a game to a new column and LastSave logs the change, with its hours.",
-        "step1": "In the Library, click View.",
-        "step2": "Pick Board.",
+        "step1": "In the Library, find the view icons beside Sort.",
+        "step2": "Pick Board, the last one.",
         "step3": "Drag a game into another column."
       },
       "shelves": {

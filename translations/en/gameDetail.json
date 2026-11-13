@@ -110,7 +110,8 @@
     "openSteamSyncOptions": "Steam sync options",
     "openEpicSyncOptions": "Epic sync options",
     "openXboxSyncOptions": "Xbox sync options",
-    "showWholeEntry": "Show all of {{title}}"
+    "showWholeEntry": "Show all of {{title}}",
+    "fullPage": "Full page"
   },
   "stats": {
     "status": "Status",

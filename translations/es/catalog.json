@@ -304,6 +304,17 @@
     "subtitle": "Lo más nuevo, lo que viene y los grandes de siempre",
     "addGame": "Añadir juego",
     "filter": "Filtrar",
+    "sort": {
+      "heading": "Ordenar por",
+      "reset": "Restablecer",
+      "options": {
+        "relevance": "Relevancia",
+        "newest": "Más recientes",
+        "oldest": "Más antiguos",
+        "title": "Título",
+        "rating": "Valoración"
+      }
+    },
     "seeMore": "Ver más",
     "seeMoreAria": "Ver más de {{title}}",
     "scrollLeftAria": "Desplazar {{title}} a la izquierda",

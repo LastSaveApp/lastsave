@@ -111,5 +111,36 @@
     "clearTo": "Clear end year",
     "previousDecade": "Previous decade",
     "nextDecade": "Next decade"
+  },
+  "quickLauncher": {
+    "title": "Quick launch",
+    "placeholder": "Search or launch a game",
+    "pill": "Search or launch a game",
+    "noMatch": "Nothing in your library matches “{{query}}”.",
+    "noInstalled": "No installed games yet. Type to search your whole library.",
+    "sections": {
+      "games": "Games",
+      "recent": "Recent · installed",
+      "catalog": "In the catalog",
+      "igdb": "On IGDB"
+    },
+    "play": "Play",
+    "start": "Start timer",
+    "open": "Open",
+    "catalogSearching": "Searching the catalog",
+    "searchInCatalog": "Search “{{query}}” on IGDB",
+    "catalogEmpty": "Nothing on IGDB either.",
+    "searchInExplore": "Search “{{query}}” in Explore",
+    "notInstalled": "not installed",
+    "notOwned": "not owned",
+    "keys": {
+      "escape": "Esc",
+      "shortcut": "Ctrl K"
+    },
+    "hints": {
+      "play": "Ctrl ↵ Play",
+      "openPage": "↵ Open page",
+      "move": "↑ ↓ Move"
+    }
   }
 }

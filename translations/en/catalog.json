@@ -302,6 +302,17 @@
     "subtitle": "Browse the latest, what is coming, and all-time greats",
     "addGame": "Add Game",
     "filter": "Filter",
+    "sort": {
+      "heading": "Sort by",
+      "reset": "Reset",
+      "options": {
+        "relevance": "Relevance",
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "title": "Title",
+        "rating": "Rating"
+      }
+    },
     "seeMore": "See more",
     "seeMoreAria": "See more {{title}}",
     "scrollLeftAria": "Scroll {{title}} left",
