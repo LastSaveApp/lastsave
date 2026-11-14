@@ -1,9 +1,11 @@
 {
   "titleBar": {
     "label": "Tryb kanapowy",
-    "tooltip": "Uruchom tryb kanapowy"
+    "tooltip": "Uruchom tryb kanapowy",
+    "tooltipWithPad": "Przełącz się w tryb kanapowy - kontroler jest podłączony"
   },
   "tabs": {
+    "home": "Główna",
     "library": "Biblioteka",
     "shelves": "Półki",
     "soon": "Wkrótce",
@@ -12,13 +14,15 @@
   "greeting": {
     "morning": "Dzień dobry",
     "afternoon": "Dzień dobry",
-    "evening": "Dobry wieczór"
+    "evening": "Dobry wieczór",
+    "night": "Jeszcze nie śpisz?"
   },
   "hero": {
     "kicker": {
       "jumpBackIn": "Wróć do gry",
       "recentlyAdded": "Ostatnio dodane"
     },
+    "played": "grałeś {{hours}}",
     "lastPlayed": "Ostatnie uruchomienie {{when}}",
     "addedWhen": "Dodane {{when}}",
     "noSessionsYet": "Brak sesji. Kliknij «Graj», a LastSave zacznie liczyć czas od pierwszej minuty."
@@ -28,6 +32,7 @@
   },
   "memories": {
     "title": "Wspomnienia",
+    "empty": "Tutaj zobaczysz zrzuty ekranu, klipy i notatki zrobione podczas gry.",
     "video": "Filmy"
   },
   "library": {
@@ -42,11 +47,23 @@
     "stateLine_few": "Posortowano według {{sort}} · {{count}} gry",
     "stateLine_many": "Posortowano według {{sort}} · {{count}} gier",
     "stateLine_other": "Posortowano według {{sort}} · {{count}} gier",
+    "stateLineFiltered_one": "Posortowano wegług {{sort}} · Użyto filtra · {{count}} gra",
+    "stateLineFiltered_few": "Posortowano wegług {{sort}} · Użyto filtra · {{count}} gry",
+    "stateLineFiltered_many": "Posortowano wegług {{sort}} · Użyto filtra · {{count}} gier",
+    "stateLineFiltered_other": "Posortowano wegług {{sort}} · Użyto filtra · {{count}} gry",
+    "stateLineSearch_one": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · {{count}} gra",
+    "stateLineSearch_few": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · {{count}} gry",
+    "stateLineSearch_many": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · {{count}} gier",
+    "stateLineSearch_other": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · {{count}} gry",
+    "stateLineSearchFiltered_one": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · Użyto filtra · {{count}} gra",
+    "stateLineSearchFiltered_few": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · Użyto filtra · {{count}} gry",
+    "stateLineSearchFiltered_many": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · Użyto filtra · {{count}} gier",
+    "stateLineSearchFiltered_other": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · Użyto filtra · {{count}} gry",
     "sortInLine": {
       "lastPlayed": "ostatniego uruchomienia",
-      "title": "Tytuł",
-      "playtime": "czas gry",
-      "lastActivity": "ostatnia aktywność"
+      "title": "tytułu",
+      "playtime": "czasu gry",
+      "lastActivity": "ostatniej aktywności"
     },
     "noShelf": "Bez półki",
     "empty": {
@@ -70,6 +87,10 @@
   },
   "filters": {
     "title": "Filtry",
+    "count_one": "{{count}} gra",
+    "count_few": "{{count}} gry",
+    "count_many": "{{count}} gier",
+    "count_other": "{{count}} gry",
     "sort": "Sortuj według",
     "sortOptions": {
       "lastPlayed": "Ostatnio grane",
@@ -77,10 +98,19 @@
       "playtime": "Czas gry",
       "lastActivity": "Ostatnia aktywność"
     },
-    "installedOnly": "Tylko zainstalowane"
+    "installedOnly": "Tylko zainstalowane",
+    "showAttachedContent": "Dodatki i rozszerzenia w osobnych kartach",
+    "status": "Status",
+    "source": "Źródło",
+    "shelves": "Półki",
+    "anyStatus": "Dowolny status",
+    "anySource": "Dowolne źródło",
+    "anyShelf": "Dowolna półka"
   },
   "legend": {
+    "continue": "Kontynuuj",
     "play": "Graj",
+    "start": "Start",
     "open": "Otwórz",
     "goToGame": "Przejdź do gry",
     "select": "Wybierz",
@@ -106,9 +136,11 @@
     "clearAll": "Wyczyść wszystko",
     "clear": "Wyczyść",
     "toggle": "Wybierz",
+    "clearSearch": "Wyczyść szukanie",
     "search": "Wyszukaj",
     "filters": "Filtry",
-    "clearFilters": "Wyczyść filtry"
+    "clearFilters": "Wyczyść filtry",
+    "done": "Gotowe"
   },
   "menu": {
     "title": "LastSave",
@@ -125,9 +157,20 @@
     "launching": "Uruchamianie..."
   },
   "settingsPage": {
+    "title": "Ustawienia",
+    "on": "Wł.",
+    "off": "Wył.",
+    "fullscreenDescription": "Tryb kanapowy otwiera się tak jak go pozostawiono. Klawiszem F11 możesz włączać/wyłączać pełny ekran.",
+    "controllerShortcuts": "Skróty kontrolera",
+    "controllerShortcutsNote": "Przytrzymaj przycisk podglądu podczas gry. Gra nadal reaguje na oba przyciski: kombinacja Podgląd + RB otwiera ekran przypisany do Podglądu (najczęściej mapę), a następnie naciska RB na tym ekranie.",
+    "notSet": "Brak",
+    "captures": "Materiały",
+    "clipsTitle": "Rejestrowanie klipów",
+    "clipsDescription": "Rejestrator, którego LastSave użyje do nagrywania klipów, i jakie opcje w nim włączyć.",
     "open": "Otwórz"
   },
   "keyboard": {
+    "delete": "Delete",
     "space": "Spacja",
     "save": "Zapisz"
   },
@@ -153,6 +196,7 @@
     "achievementCount": "{{type}} · {{count}}",
     "noneYet": "Brak",
     "journeyPosition": "{{position}} z {{total}}",
+    "none": "—",
     "never": "Nigdy",
     "stats": {
       "status": "Status",
@@ -223,6 +267,9 @@
     "context": "{{game}} | Dzisiaj",
     "placeholder": "Co się wydarzyło?"
   },
+  "chord": {
+    "hold": "Trzymaj"
+  },
   "captures": {
     "journal": "Dziennik"
   },
@@ -233,20 +280,78 @@
     },
     "kinds": {
       "screenshot": "Zrzut ekranu",
-      "clip": "Klip"
+      "clip": "Klip",
+      "note": "Zanotuj"
     },
+    "fileAs": "Zapisz jako",
     "title": "Tytuł",
+    "titlePlaceholder": "Czego udało ci się dokonać?",
+    "text": "Treść",
+    "captionPlaceholder": "Co się wydarzyło?",
+    "discard": "Zniszcz wpis",
+    "discardTitle": "Zniszczyć ten wpis?",
     "failed": "Nie udało się zapisać zmian."
   },
+  "clipsSheet": {
+    "ready": "Gotowy",
+    "unavailable": {
+      "nvidia": "Nie działa",
+      "amd": "Nie działa"
+    }
+  },
   "focusMode": {
+    "clips": "Rejestrowanie klipów:",
+    "newLog": "Nowy wpis",
     "backToGame": "Wróć do gry",
-    "keepPlaying": "Kontynuuj rozgrywkę"
+    "keepPlaying": "Kontynuuj rozgrywkę",
+    "thisSession_one": "Ta sesja · {{count}}",
+    "thisSession_few": "Ta sesja · {{count}}",
+    "thisSession_many": "Ta sesja · {{count}}",
+    "thisSession_other": "Ta sesja · {{count}}",
+    "empty": "Tutaj zobaczysz zrzuty ekranu, klipy i notatki zrobione podczas gry."
+  },
+  "nowPlaying": {
+    "live": "Na żywo",
+    "startedAt": "Rozpoczęto o {{time}}",
+    "playingFor": "Grasz przez",
+    "backToGame": "Wróć do gry",
+    "stop": "Zakończ sesję"
   },
   "sessionOver": {
+    "kicker": "Sesja zakończona",
+    "whichGame": "Która gra?",
+    "whichGameHintEdition": "Wskaż jedną z gier lub dodatków, które zawiera",
     "playedOn": "Grano dnia",
+    "duration": "Czas trwania",
     "hours": "Godziny",
     "minutes": "Minuty",
-    "status": "Status"
+    "status": "Status",
+    "unchanged": "bez zmian",
+    "note": "Notatka o sesji",
+    "addNote": "Dodaj notatkę opisującą sesję...",
+    "captures_one": "{{count}} materiał",
+    "captures_few": "{{count}} materiały",
+    "captures_many": "{{count}} materiałów",
+    "captures_other": "{{count}} materiału",
+    "noCaptures": "Niczego nie zarejestrowano podczas sesji",
+    "discard": "Zniszcz sesję",
+    "saved_one": "Sesja zapisana · {{duration}} · {{count}} wpis",
+    "saved_few": "Sesja zapisana · {{duration}} · {{count}} wpisy",
+    "saved_many": "Sesja zapisana · {{duration}} · {{count}} wpisów",
+    "saved_other": "Sesja zapisana · {{duration}} · {{count}} wpisu"
+  },
+  "padBind": {
+    "prompt": "Przytrzymaj {{modifier}} i wciśnij przycisk",
+    "tapOrHold": "Naciśnij krótko lub przytrzymaj.",
+    "now": "Obecnie"
+  },
+  "shelfGames": {
+    "hint_one": "{{count}} gra na półce · zmiany są zapisywane natychmiast",
+    "hint_few": "{{count}} gry na półce · zmiany są zapisywane natychmiast",
+    "hint_many": "{{count}} gier na półce · zmiany są zapisywane natychmiast",
+    "hint_other": "{{count}} gry na półce · zmiany są zapisywane natychmiast",
+    "searchPlaceholder": "Przeszukaj bibliotekę",
+    "noResults": "W bibliotece nie znaleziono dopasowania."
   },
   "moreSheet": {
     "title": "Więcej",

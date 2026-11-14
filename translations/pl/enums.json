@@ -13,7 +13,7 @@
       "description": "Gram obecnie"
     },
     "paused": {
-      "label": "Wstrzymane",
+      "label": "Wstrzymana",
       "description": "Czasowo wstrzymana"
     },
     "played": {
@@ -152,7 +152,9 @@
     "already_in_library": "Już znajduje się w bibliotece",
     "shortcut_missing": "Nie znaleziono skrótu",
     "executable_missing": "Nie znaleziono pliku wykonywalnego",
+    "emulator_unresolved": "Nie można odnaleźć pliku wykonywalnego emulatora.",
     "launcher_without_executable": "Znaleziono przez launcher, bez pliku wykonywalnego.",
+    "found_on_multiple_stores": "Dostępna w kilku sklepach",
     "in_bundle": "Z pakietu - dodaj tylko gdy masz osobną kopię"
   }
 }

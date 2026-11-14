@@ -4,10 +4,11 @@
     "label": "Gry dla dorosłych: ich okładki są ukryte. Ustawienia - Ogólne - Zawartość"
   },
   "sourceBadges": {
-    "fromIgdb": "Gra z IGDB"
+    "fromIgdb": "Dane z IGDB"
   },
   "search": {
-    "searching": "Wyszukiwanie..."
+    "searching": "Wyszukiwanie...",
+    "clearSearch": "Wyczyść"
   },
   "company": {
     "logoAlt": "Logotyp {{name}}",
@@ -30,7 +31,9 @@
     "previousDecade": "Poprzednia dekada",
     "nextDecade": "Następna dekada",
     "livestream": "Transmisja na żywo",
-    "links": "Odnośniki"
+    "livestreamTitle": "Transmisja na żywo",
+    "links": "Odnośniki",
+    "watchYoutube": "Obejrzyj w YouTube"
   },
   "eventModal": {
     "title": "Gry według wydarzenia",
@@ -87,6 +90,9 @@
     "gameCount_many": "{{count}} gier",
     "gameCount_other": "{{count}} gier"
   },
+  "labels": {
+    "tba": "Zostanie ogłoszona"
+  },
   "gameForm": {
     "titleAdd": "Ręczne dodawanie gry do katalogu",
     "titleEdit": "Edytuj  lokalne metadane",
@@ -114,15 +120,22 @@
     "localScreenshotPlaceholder": "Każda ścieżka do pliku w osobnej linii",
     "screenshotPreviewAlt": "Podgląd zrzutu ekranu {{number}}",
     "remoteUrl": "Adres URL",
+    "localFile": "Plik lokalny",
     "title": "Tytuł",
     "releaseYear": "Rok wydania",
     "releaseDate": "Data wydania (RRRR-MM-DD)",
     "gameType": "Rodzaj gry",
     "gameStatus": "Status gry",
+    "parentBaseGame": "Pierwowzór / Gra główna",
+    "parentHint": "Dodatki i rozszerzenia wymagają gry głównej. Możesz wskazać ją lokalnie lub z bazy IGDB i w razie potrzeby ją utworzymy.",
+    "sourceIgdb": "IGDB",
+    "searchParentPlaceholder": "Wyszukiwanie pierwowzoru...",
     "franchise": "Marka",
     "notes": "Notatka",
+    "saving": "Zapisywanie...",
     "saveChanges": "Zapisz zmiany",
     "addGame": "Dodaj grę",
+    "materializeFailed": "Nie udało się utworzyć wybranego pierwowzoru.",
     "fields": {
       "genres": "Gatunki (CSV)",
       "themes": "Tematyka (CSV)",
@@ -189,6 +202,7 @@
     "scrollVideosLeft": "Przewiń filmy w lewo",
     "scrollVideosRight": "Przewiń filmy w prawo",
     "parentGame": "Pierwowzór",
+    "noParentGame": "Nie podłączono do pierwowzoru.",
     "dlcsExpansions": "Dodatki / Rozszerzenia",
     "ratings": "Oceny",
     "userRating": "Ocena użytkowników",
@@ -292,7 +306,8 @@
         "description": "Najlepsze gry danego roku"
       },
       "companies": {
-        "title": "Najlepsze według wydawców"
+        "title": "Najlepsze według wydawców",
+        "description": "Najlepsze według studia"
       },
       "genres": {
         "title": "Najlepsze z danego gatunku",

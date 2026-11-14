@@ -2,7 +2,8 @@
   "dialog": {
     "title": "Ustawienia",
     "search": {
-      "placeholder": "Wyszukaj"
+      "placeholder": "Wyszukaj",
+      "clear": "Wyczyść"
     }
   },
   "general": {
@@ -18,11 +19,12 @@
     },
     "language": {
       "title": "Język",
-      "description": "Język, którym posługuje się LastSave. Kolejne już wkrótce."
+      "description": "Język, którym posługuje się LastSave. Kolejne już wkrótce.",
+      "keywords": "tłumaczenie, język"
     },
     "languageStudio": {
       "title": "Language Studio",
-      "description": "Ulepsz to tłumaczenie lub stwórz własne dla swojego języka, współtworząc LastSave.",
+      "description": "Ulepsz to tłumaczenie lub stwórz dla swojego języka, współtworząc LastSave.",
       "keywords": "tłumaczenie, język, lokalizacja",
       "action": "Otwórz Language Studio"
     },
@@ -116,6 +118,11 @@
       "title": "Dźwięki interfejsu",
       "description": "Krótkie dźwięki przy zrzutach ekranu, notatkach, pauzie i wznowieniu.",
       "keywords": "dźwięk, muzyka, wycisz, sygnał"
+    },
+    "recap": {
+      "title": "Ostatnia sesja",
+      "description": "Po uruchomieniu gry nakładka przypomina, na czym ostatnio skończyłeś, a tryb skupienia wyświetla Twoje poprzednie sesje.",
+      "keywords": "przypomnienie, poprzednia sesja, ostatnio"
     }
   },
   "gaming": {
@@ -127,6 +134,7 @@
     "glyphs": {
       "title": "Podpowiedzi przycisków",
       "description": "Wybierz układ przycisków kontrolera. „Automatycznie” wykrywa używany kontroler.",
+      "keywords": "znaki, ikony, przyciski, xbox, playstation, kontroler, pad",
       "options": {
         "auto": "Automatycznie",
         "xbox": "Xbox Series / One",
@@ -237,7 +245,7 @@
       "title": "Rozpocznij / zakończ nagrywanie",
       "description": "Rozpoczyna i kończy nagrywanie z użyciem wybranego narzędzia."
     },
-    "padModifier": "Widok",
+    "padModifier": "Podgląd",
     "padCaptureDelay": {
       "title": "Opóźnienie zrzutu ekranu z kontrolera",
       "description": "Zrzut ekranu wywołany skrótem na kontrolerze zostanie wykonany po upływie tego czasu, aby umożliwić zamknięcie okna lub menu otwartego w grze. Ponowne użycie skrótu wykona zrzut natychmiast. Nagrania i skróty klawiaturowe nie podlegają temu opóźnieniu.",
@@ -297,7 +305,7 @@
       "keywords": "logo, tytuł, nazwa, grafiki, steamgriddb, steam"
     },
     "visitSteamGridDb": "Odwiedź SteamGridDB",
-    "credit": "Banery i logotypy pochodzą ze <brand>SteamGridDB</brand>, gdzie społeczność tworzy je i udostępnia, oraz z grafik sklepowych Steam. LastSave jest niezależnym projektem i nie jest powiązany z serwisem SteamGridDB, firmą Valve ani twórcami i wydawcami gier, ani przez nich wspierany."
+    "credit": "Banery i logotypy pochodzą ze <brand>SteamGridDB</brand>, gdzie prezentowane są prace społeczności, oraz z grafik sklepowych Steam. LastSave jest niezależnym projektem i nie jest powiązany z serwisem SteamGridDB, firmą Valve ani twórcami i wydawcami gier, ani przez nich wspierany."
   },
   "data": {
     "title": "Dane",
@@ -473,7 +481,9 @@
   "closeBehavior": {
     "dialog": {
       "title": "Pozostawić LastSave uruchomione?",
-      "minimize": "Minimalizuj do zasobnika systemowego",
+      "description": "Wykrywa sesje gry tylko wtedy, gdy jest uruchomiony. Minimalizacja przenosi go do zasobnika systemowego.",
+      "minimize": "Minimalizuj",
+      "quit": "Zamknij",
       "hint": "Możesz to później zmienić w ustawieniach."
     },
     "tray": {

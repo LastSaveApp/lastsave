@@ -344,9 +344,15 @@
         "title": "Tryb skupienia"
       }
     },
+    "captures": {
+      "clips": {
+        "title": "Rejestrowanie klipów"
+      }
+    },
     "gaming": {
       "enter": {
-        "title": "Tryb kanapowy"
+        "title": "Tryb kanapowy",
+        "body": "Tryb kanapowy to wygodne korzystanie gdy siedzisz z dala od komputera. Większe grafiki, obsługa i granie przy użyciu kontrolera. Możesz przełączać tryby  w dowolnej chwili, również podczas gry."
       },
       "getAround": {
         "title": "Poruszanie się po aplikacji"
@@ -354,11 +360,17 @@
       "library": {
         "title": "Biblioteka, wyszukiwanie i filtry"
       },
+      "hub": {
+        "title": "Strona gry",
+        "body": "Grę możesz uruchomić przyciskiem «Graj». Obok znajdziesz: «Status», «Dziennik» i «Więcej», pod którym jest recenzja, oraz półki i szlaki dla tej gry. Przyciskami bocznymi przewijasz wpisy, osiągnięcia i sesje."
+      },
       "shelves": {
-        "title": "Półki na kanapie"
+        "title": "Półki z kanapy",
+        "body": "Zobaczysz tutaj wszystkie swoje półki wraz z grami ułożone według kolejności. Możesz dodawać lub usuwać gry z półki. Tworzenie nowych półek jest możliwe tylko w trybie komputerowym."
       },
       "inGame": {
-        "title": "Kontroler w czasie gry"
+        "title": "Kontroler w czasie gry",
+        "body": "Przytrzymaj \"Podgląd\" podczas gry i wciśnij drugi przycisk odpowiedzialny za: zrzut ekranu, klip, nagranie, wpis do dziennika lub nakładkę. Gra nadal wykrywa drugi przycisk więc użyj takiej kombinacji, która nie wpłynie na grę."
       },
       "settings": {
         "title": "Ustawienia trybu gry"
@@ -381,15 +393,18 @@
       "open": "Otwórz grę lub półkę",
       "back": "Wstecz",
       "playNow": "Uruchom wybraną grę",
-      "play": "Graj",
+      "play": "Przycisk «Graj», uruchamia grę",
       "logTabs": "Przełączaj się pomiędzy wpisami do gry",
+      "hubActions": "«Status», «Dziennik» i «Więcej» znajdują się obok",
       "shelfGames": "Dodaj lub usuń gry z półki",
       "makeShelves": "Półki możesz tworzyć w trybie komputerowym",
       "overlay": "Otwórz interfejs",
       "focus": "Tryb skupienia",
       "screenshot": "Zrzut ekranu",
+      "clip": "Klip: zapisz kilka ostatnich sekund",
       "record": "Rozpocznij / zatrzymaj nagrywanie",
-      "journal": "Napisz wspis w dzienniku"
+      "journal": "Napisz wspis w dzienniku",
+      "settings": "Kombinacje klawiszy zmienisz w Ustawianiach"
     },
     "controls": {
       "kicker": "Tryb kanapowy",

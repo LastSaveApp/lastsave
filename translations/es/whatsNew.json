@@ -8,6 +8,8 @@
   "joinDiscord": "Únete a Discord",
   "footer": "Únete a Discord",
   "support": "Apoya a LastSave",
+  "follow": "Sigue a LastSave",
+  "followHint": "Noticias, adelantos y lo que viene.",
   "gotIt": "Entendido",
   "open": "Novedades de la v{{version}}"
 }

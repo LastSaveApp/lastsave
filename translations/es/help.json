@@ -65,7 +65,7 @@
       "story": "Abre un juego y escribe una línea en su diario. Tu movimiento en el tablero ya está ahí.",
       "pressStart": "Abre un juego desde LastSave. El overlay te mostrará el resto.",
       "saveSession": "Cierra el juego cuando termines y guarda la sesión.",
-      "meetLibrary": "Encuentra tus juegos, haz clic en uno para echarle un vistazo y entra en Tablero y en Panel."
+      "meetLibrary": "Encuentra tus juegos y entra en Tablero y en Panel."
     }
   },
   "welcome": {
@@ -188,11 +188,7 @@
     "writeJournal": {
       "game": {
         "title": "Abre un juego",
-        "body": "Haz clic en un juego para echarle un vistazo: su estado, el tiempo que llevas y sus últimos momentos."
-      },
-      "openPage": {
-        "title": "Su página completa",
-        "body": "Esto abre la página del juego, con toda su historia. Un clic en la imagen de arriba también la abre."
+        "body": "Haz clic en un juego para abrir su página, con toda su historia."
       },
       "launcher": {
         "title": "O ve directo",
@@ -301,32 +297,12 @@
       "launcher": {
         "title": "Cualquier juego, desde donde sea",
         "body": "Presiona Ctrl+K y escribe unas letras. Enter abre la página del juego, Ctrl+Enter lo juega."
-      },
-      "preview": {
-        "title": "Un clic es un vistazo",
-        "body": "Haz clic en un juego y se abre una hoja con Jugar, Añadir registro y su último momento. Doble clic sigue abriendo su página. Pruébalo con este."
-      },
-      "sheet": {
-        "title": "Todo a mano",
-        "body": "Juega, registra o gestiona el juego desde aquí. Enter abre su página y las flechas pasan al siguiente."
-      },
-      "previewSwitch": {
-        "title": "¿Prefieres el clic de antes?",
-        "body": "Vista previa al hacer clic está en Opciones de vista. Apágala y un clic abre la página del juego, como antes."
       }
     },
     "meetLibrary": {
       "toolbar": {
         "title": "Encuentra lo que sea",
         "body": "Busca por nombre, género o estudio, o presiona Ctrl+K en cualquier pantalla. Filtrar acota, Agrupar reparte en secciones y Ordenar pone orden."
-      },
-      "preview": {
-        "title": "Haz clic en un juego",
-        "body": "Un clic abre una vista previa y doble clic abre su página. Pruébalo con este."
-      },
-      "sheet": {
-        "title": "Una vista previa",
-        "body": "Juega, añade un registro o gestiona el juego desde aquí. Enter abre su página y las flechas pasan al siguiente juego."
       },
       "board": {
         "title": "Tablero: tus estados en columnas",
@@ -370,7 +346,7 @@
       },
       "meetLibrary": {
         "title": "Conoce tu biblioteca",
-        "body": "Tus juegos en cuadrícula, en lista, en un tablero por estado o en un panel junto a la página de cada juego. Busca, filtra, agrupa y ordena desde una sola barra, y haz clic en un juego para echarle un vistazo sin salir de la lista."
+        "body": "Tus juegos en cuadrícula, en lista, en un tablero por estado o en un panel junto a la página de cada juego. Busca, filtra, agrupa y ordena desde una sola barra."
       }
     },
     "library": {
@@ -418,14 +394,7 @@
       },
       "whatsNew": {
         "title": "Novedades de la Biblioteca",
-        "body": "Filtrar, Agrupar y Ordenar se mudaron dentro de la barra de búsqueda, y Filtrar ya puede elegir estanterías. Panel es una vista nueva: una lista junto a la página del juego, como un launcher. Un clic en un juego abre una vista previa (puedes apagarla en Opciones de vista), y Ctrl+K encuentra cualquier juego desde cualquier pantalla."
-      },
-      "preview": {
-        "title": "Vista previa",
-        "body": "Un clic en un juego abre una hoja junto a tu lista: juégalo, añade un registro, mira sus números y su último momento, o gestiónalo, sin salir de donde estabas. Funciona en la Biblioteca, en Inicio y en tus journeys.",
-        "step1": "Haz clic en un juego. Doble clic va directo a su página.",
-        "step2": "Enter o el arte abre la página completa, Esc cierra la hoja y las flechas recorren la lista.",
-        "step3": "¿Prefieres que un clic abra la página? Apaga Vista previa al hacer clic en Opciones de vista o en Ajustes."
+        "body": "Filtrar, Agrupar y Ordenar se mudaron dentro de la barra de búsqueda, y Filtrar ya puede elegir estanterías. Panel es una vista nueva: una lista junto a la página del juego, como un launcher. Y Ctrl+K encuentra cualquier juego desde cualquier pantalla."
       },
       "quickLauncher": {
         "title": "Busca o lanza con Ctrl+K",

@@ -291,6 +291,8 @@
   "deleteLog": {
     "title": "Delete log?",
     "message": "This log will be permanently removed and your library snapshot will be recalculated if it affects status or playtime.",
+    "sessionMessage_one": "This session will be permanently removed, with its time. Its entry, a journal or an achievement, stays in the game's activity.",
+    "sessionMessage_other": "This session will be permanently removed, with its time. Its {{count}} entries, journals and achievements, stay in the game's activity.",
     "deleting": "Deleting...",
     "confirm": "Delete Log"
   },

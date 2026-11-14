@@ -2,7 +2,8 @@
   "greeting": {
     "morning": "Dzień dobry,",
     "afternoon": "Dzień dobry,",
-    "evening": "Dobry wieczór,"
+    "evening": "Dobry wieczór,",
+    "night": "Jeszcze nie śpisz?"
   },
   "hero": {
     "kicker": {
@@ -52,7 +53,14 @@
     },
     "sessionSummary": "{{duration}} · {{type}}",
     "statusSet": "Teraz {{status}}",
-    "addedToLibrary": "Dodano do biblioteki"
+    "addedToLibrary": "Dodano do biblioteki",
+    "emptyState": {
+      "description": "Sesje, dziennik, osiągnięcia, najnowsze"
+    },
+    "media": {
+      "image": "Zawiera zdjęcie",
+      "video": "Zawiera wideo"
+    }
   },
   "memories": {
     "title": "Wspomnienia",
@@ -69,10 +77,21 @@
       "latest": "Twoje ostatnie wspomnienie",
       "review": "Jedna z twoich recenzji"
     },
+    "emptyLibrary": {
+      "title": "Aby tworzyć wspomnienia, dodaj gry.",
+      "description": "Gdy zaczniesz grać i zapisywać swoje wrażenia, ta sekcja będzie przywoływać wspomnienia sprzed lat."
+    },
+    "emptyLogs": {
+      "title": "Nie zapisałeś jeszcze wspomnień",
+      "description": "Wpisy z dziennika i osiągnięcia będą prezentowane tu jako wspomnienia."
+    },
     "previous": "Poprzednie wspomnienie",
-    "next": "Następne wspomnienie"
+    "next": "Następne wspomnienie",
+    "video": "Wideo"
   },
   "stats": {
+    "playing": "W trakcie",
+    "completed": "Ukończone",
     "lastPlayed": "Ostatnio grałeś {{when}}"
   },
   "actions": {

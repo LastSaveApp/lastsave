@@ -13,13 +13,20 @@
     "setUpProfile": "Ustaw profil",
     "features": {
       "trackSessions": {
-        "title": "Śledź sesje"
+        "title": "Śledź sesje",
+        "description": "Wciśnij Graj. Godziny policzą się same."
+      },
+      "manageBacklog": {
+        "title": "Porządkuj zaległości",
+        "description": "Nie zapomnisz już o grach, które zostawiłeś."
       },
       "journalProgress": {
+        "title": "Dziennik postępu",
         "description": "Łap chwile i odczucia podczas gry."
       },
       "buildArchive": {
-        "title": "Zapisuj wspomnienia"
+        "title": "Zapisz wspomnienia",
+        "description": "Lata mijają, a wszystko wciąż tu jest."
       }
     }
   },

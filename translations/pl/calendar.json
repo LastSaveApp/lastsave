@@ -54,6 +54,7 @@
   "marks": {
     "owned": "W bibliotece",
     "addOn": "Rozszerzenie gry {{title}}",
+    "content": "W {{title}}",
     "reminded": "Powiadomienie jest włączone",
     "notify": "Powiadom mnie"
   },
@@ -87,6 +88,7 @@
     }
   },
   "states": {
+    "error": "Kalendarz nie załadował tego miesiąca.",
     "retry": "Spróbuj ponownie"
   },
   "notices": {

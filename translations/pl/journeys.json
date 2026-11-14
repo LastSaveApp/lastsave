@@ -127,6 +127,11 @@
     "unfinishedDetail_many": "{{count}} gier w trakcie lub wstrzymanych",
     "unfinishedDetail_other": "{{count}} gier w trakcie lub wstrzymanych",
     "playedName": "Grałem, nie ukończyłem",
+    "expansionsName": "Oczekujące rozszerzenia",
+    "expansionsDetail_one": "{{count}} do gry, którą ukończyłeś",
+    "expansionsDetail_few": "{{count}} do gry, którą ukończyłeś",
+    "expansionsDetail_many": "{{count}} do gry, którą ukończyłeś",
+    "expansionsDetail_other": "{{count}} do gry, którą ukończyłeś",
     "hide": "Ukryj",
     "hideHint": "Ukryj sugestie; Przycisk \"Pokaż sugestie\", przywraca je z powrotem",
     "scrollLeft": "Wcześniejsze sugestie",
@@ -134,6 +139,7 @@
   },
   "delete": {
     "title": "Usunąć ten szlak?",
+    "message": "Szlak \"{{name}}\" zostanie usunięty. Gry i wszystkie powiązane wpisy pozostaną w bibliotece.",
     "confirm": "Usuń"
   },
   "addTo": {
@@ -153,10 +159,16 @@
     "addedToLibrary": "{{title}} jest w bibliotece"
   },
   "saga": {
+    "subtitle": "Wszystkie gry z sagi, od najnowszych.",
     "filters": {
+      "main": "Gry główne",
       "remakes": "Odnowienia i odświeżenia"
     },
-    "error": "Nie udało się pobrać danych z IGDB. Spróbuj ponownie za chwilę."
+    "loading": "Wyszukiwanie gier z wybranej sagi...",
+    "empty": "Nie znaleziono gier dla tej sagi w IGDB.",
+    "error": "Nie udało się pobrać danych z IGDB. Spróbuj ponownie za chwilę.",
+    "searchPlaceholder": "Wyszukaj gry z sagi",
+    "noMatch": "Nie znaleziono pasującej gry z sagi."
   },
   "shelfPicker": {
     "title": "Z półki"
@@ -174,6 +186,7 @@
     "selected_many": "{{count}} wybranych - {{owned}} w twojej bibliotece",
     "selected_other": "{{count}} wybranych - {{owned}} w twojej bibliotece",
     "confirm": "Umieść na szlaku",
+    "clearSearch": "Wyczyść",
     "selectAll": "Wybierz wszystkie"
   },
   "goty": {

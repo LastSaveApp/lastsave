@@ -1,6 +1,7 @@
 {
   "back": {
-    "toNamed": "Wróć do {{name}}"
+    "toNamed": "Wróć do {{name}}",
+    "toLibrary": "Wróć do Biblioteki"
   },
   "sync": {
     "notSynced": "Nigdy"
@@ -86,8 +87,9 @@
     "session": "Sesja",
     "sessions": "Sesje",
     "journalEntry": "Wpis w dzienniku",
+    "journalEntryFallback": "Wpis w dzienniku",
     "achievement": "Osiągnięcie",
-    "movedTo": "Oznaczono jako {{status}}",
+    "movedTo": "Oznaczono jako \"{{status}}\"",
     "movedToPrefix": "Oznaczono jako"
   },
   "counts": {
@@ -99,9 +101,9 @@
     "expansion_few": "{{count}} rozszerzenia",
     "expansion_many": "{{count}} rozszerzeń",
     "expansion_other": "{{count}} rozszerzenia",
-    "sessions_one": "{{count}} sesja",
-    "sessions_few": "{{count}} sesje",
-    "sessions_many": "{{count}} sesji",
+    "sessions_one": "Sesja",
+    "sessions_few": "Sesje",
+    "sessions_many": "Sesje",
     "sessions_other": "{{count}} sesji"
   },
   "actions": {
@@ -110,7 +112,9 @@
     "deleteLog": "Usuń wpis",
     "shareLog": "Udostępnij wpis",
     "collapseSessions": "Zwiń sesje",
-    "expandSessions": "Rozwiń sesje"
+    "expandSessions": "Rozwiń sesje",
+    "expandPlaySession": "Rozwiń sesje",
+    "collapsePlaySession": "Zwiń sesje"
   },
   "latest": "Ostatnie",
   "loadMore": "Wyświetl więcej wpisów",
@@ -191,9 +195,9 @@
   },
   "playSession": {
     "lastNote": "Ostatni wpis",
-    "entries_one": "{{count}} wpis",
-    "entries_few": "{{count}} wpisy",
-    "entries_many": "{{count}} wpisów",
-    "entries_other": "{{count}} wpisów"
+    "entries_one": "{{count}} element",
+    "entries_few": "{{count}} elementy",
+    "entries_many": "{{count}} elementów",
+    "entries_other": "{{count}} elementu"
   }
 }

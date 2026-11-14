@@ -3,7 +3,11 @@
   "card": {
     "title": "Moja recenzja",
     "edit": "Edytuj",
-    "atReview": "Recenzja {{status}} · {{hours}}",
+    "share": "Udostępnij recenzję",
+    "readMore": "Czytaj dalej",
+    "outOf": "/ 10",
+    "atReview": "Status podczas recenzji: {{status}} · {{hours}}",
+    "statusAtReview": "Status podczas recenzji: {{status}} ",
     "noWords": "Sama ocena, bez recenzji.",
     "empty": {
       "finished": "Co o niej myślisz?",
@@ -23,12 +27,17 @@
     "rating": "Ocena",
     "ratingSlider": "Ocena, od 1 do 10",
     "ratingHint": "Wybierz liczbę całkowitą, a potem ustaw części dziesiętne przyciskami − i + lub przeciągnij.",
+    "ratingDown": "Obniż o 0.1",
+    "ratingUp": "Podnieś o 0.1",
     "body": "Recenzja",
     "bodyPlaceholder": "Co zapadło Ci w pamięć? Opis jest opcjonalny.",
     "savedWith": "Zapisano przy stanie",
     "playtime": "{{hours}} gry",
     "save": "Zapisz recenzję",
     "delete": "Usuń recenzję",
+    "toasts": {
+      "saved": "Recenzja została zapisana."
+    },
     "errors": {
       "save": "Nie udało się zapisać recenzji.",
       "delete": "Nie udało się usunąć recenzji."
@@ -42,5 +51,9 @@
     "message": "Oznaczyłeś grę jako ukończoną. Oceń ją, póki masz ją świeżo w pamięci, lub zrób to później.",
     "confirm": "Napisz recenzję",
     "cancel": "Nie teraz"
+  },
+  "reader": {
+    "title": "Twoja recenzja {{title}}",
+    "goToGame": "Przejdź do gry"
   }
 }

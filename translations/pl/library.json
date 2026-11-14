@@ -101,6 +101,7 @@
     "changeStatus": "Zmień status",
     "actions": "Akcje",
     "attachedContent": "Powiązana zawartość",
+    "launchOffHint": "Start uruchamia tylko stoper.",
     "shelves": "Półki",
     "journeys": "Szlaki",
     "noAttachedContent": "Brak powiązanej zawartości w bieżącym wyborze."
@@ -124,7 +125,8 @@
       "status": "Status",
       "platform": "Platforma",
       "totalPlaytime": "Łączny czas gry",
-      "lastActivity": "Ostatnia aktywność"
+      "lastActivity": "Ostatnia aktywność",
+      "actions": "Działania"
     }
   },
   "board": {
@@ -279,7 +281,8 @@
   },
   "confirm": {
     "bulkLaunch": {
-      "title": "Zmienić opcje uruchamiania?"
+      "title": "Zmienić opcje uruchamiania?",
+      "confirm": "Zatwierdź"
     },
     "stopImport": {
       "confirm": "Zatrzymaj importowanie",
@@ -302,5 +305,10 @@
   },
   "toast": {
     "filterSaved": "Filtr zapisano jako \"{{name}}\". Znajdziesz go w sekcji «Twoje filtry» -> «Filtr»."
+  },
+  "cleanup": {
+    "offerOne": "{{title}} nadal jest w twojej bibliotece.",
+    "description": "Gra bez statusu, nie oznaczona jako posiadana, brak wpisów. Usunąć ją również z biblioteki?",
+    "remove": "Usuń z biblioteki"
   }
 }

@@ -22,5 +22,12 @@
     "justNow": "Teraz",
     "minutesAgo": "{{count}} min. temu",
     "hoursAgo": "{{count}} godz. temu"
+  },
+  "providerSync": {
+    "gamesTwo": "{{first}} i {{second}}"
+  },
+  "sessionSaved": {
+    "description": "{{title}} · {{duration}}",
+    "open": "Otwórz grę"
   }
 }

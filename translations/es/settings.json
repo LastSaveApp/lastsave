@@ -15,7 +15,6 @@
       "appearance": "Apariencia",
       "startup": "Inicio",
       "window": "Ventana",
-      "games": "Juegos",
       "notifications": "Notificaciones",
       "content": "Contenido",
       "tutorials": "Tutoriales y consejos"
@@ -30,11 +29,6 @@
       "description": "Mejora esta traducción o crea la de tu idioma, viendo LastSave mientras escribes.",
       "keywords": "traducir, traducción, idioma, studio, localización, language",
       "action": "Abrir Language Studio"
-    },
-    "previewOnClick": {
-      "title": "Vista previa al hacer clic",
-      "description": "Un clic en un juego —en la Biblioteca, una estantería, el Inicio o una misión— lo muestra en una hoja lateral; doble clic abre su página. Desactivado, un clic abre la página.",
-      "keywords": "hoja, inspector, panel lateral, abrir juego, doble clic"
     },
     "tray": {
       "title": "Minimizar a la bandeja del sistema",

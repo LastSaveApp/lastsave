@@ -1656,7 +1656,7 @@
   "help:tours.writeJournal.activity.title": "ce6f6fda",
   "help:tours.writeJournal.addLog.body": "e249f206",
   "help:tours.writeJournal.addLog.title": "970ff412",
-  "help:tours.writeJournal.game.body": "b227ed37",
+  "help:tours.writeJournal.game.body": "d463cd94",
   "help:tours.writeJournal.game.title": "817788f8",
   "help:tours.writeJournal.journal.body": "7510b783",
   "help:tours.writeJournal.journal.title": "0fbd69f4",
@@ -3332,7 +3332,7 @@
   "playing:confirm.replaceActive.confirm": "658a9bd1",
   "playing:confirm.replaceActive.message": "fca68823",
   "playing:confirm.replaceActive.title": "6baa29b6",
-  "playing:consolidation.confirmDiscardMessage": "f5b06fb8",
+  "playing:consolidation.confirmDiscardMessage": "a2614834",
   "playing:consolidation.items.captionPlaceholder": "c4e37afd",
   "playing:consolidation.items.descriptionPlaceholder": "e4ff1500",
   "playing:consolidation.items.empty": "8c91f2f1",
@@ -4553,5 +4553,14 @@
   "whatsNew:support": "eda5f775",
   "whatsNew:title": "091ebd33",
   "whatsNew:version": "5f6e0687",
-  "whatsNew:versionTitle": "17b8c1ee"
+  "whatsNew:versionTitle": "17b8c1ee",
+  "help:guide.objectives.meetLibrary": "f426e278",
+  "help:articles.guide.meetLibrary.body": "33227e4e",
+  "help:articles.library.whatsNew.body": "4fc0ed46",
+  "playing:consolidation.close": "fe122a23",
+  "gaming:sessionOver.saveAndClose": "03c2d7d9",
+  "gaming:sessionOver.discardDetail": "f2fba951",
+  "whatsNew:follow": "d5f9877d",
+  "whatsNew:followHint": "9b362e79",
+  "gameDetail:deleteLog.sessionMessage": "13179fbe"
 }

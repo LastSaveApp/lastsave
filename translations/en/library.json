@@ -238,8 +238,6 @@
     "moreGroupings": "More groupings",
     "sortByField": "Sort by: {{field}}",
     "displayOptions": "Display options",
-    "previewOnClick": "Preview on click",
-    "previewOnClickHint": "A click shows the game in a side sheet; a double click opens its page.",
     "installed": "Installed",
     "installedHint": "Only the games installed on this PC",
     "scrollBack": "Scroll back",
@@ -444,21 +442,6 @@
     "expandAll": "Expand all",
     "collapse": "Collapse {{group}}",
     "expand": "Expand {{group}}"
-  },
-  "inspector": {
-    "label": "Preview of {{title}}",
-    "openPage": "Open game page",
-    "sourceWithEmulator": "{{platform}} · {{emulator}}",
-    "seeInPage": "See in game page",
-    "close": "Close preview",
-    "keys": {
-      "label": "Keyboard",
-      "move": "Move",
-      "openPage": "Open page",
-      "close": "Close",
-      "enter": "Enter",
-      "escape": "Esc"
-    }
   },
   "panel": {
     "empty": "No games match.",

@@ -94,9 +94,11 @@
       "soulslike": "Soulslike",
       "comfort": "Relaksujące",
       "retro": "Retro i emulacje",
-      "finished": "Ukończone"
+      "finished": "Ukończone",
+      "endless": "Do których zawsze wracam"
     },
     "fromLibrary": "Z mojej biblioteki",
+    "fromMood": "Lub według nastroju",
     "kinds": {
       "rpg": "RPG",
       "shooter": "Strzelanki",
@@ -120,6 +122,10 @@
   },
   "header": {
     "allShelves": "Wszystkie półki",
+    "statusCount_one": "{{count}} {{status}}",
+    "statusCount_few": "{{count}} {{status}}",
+    "statusCount_many": "{{count}} {{status}}",
+    "statusCount_other": "{{count}} {{status}}",
     "edit": "Edytuj",
     "addGames": "Dodaj gry",
     "share": "Udostępnij",
@@ -132,6 +138,7 @@
   },
   "editor": {
     "editTitle": "Edytuj półkę",
+    "editSubtitle": "Nazwa półki, jej charakter, kolor i gry ułożone w kolejności.",
     "save": "Zapisz półkę"
   },
   "share": {

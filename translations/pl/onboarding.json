@@ -4,10 +4,14 @@
     "saving": "Zapisywanie..."
   },
   "steam": {
-    "title": "Połącz ze Steam"
+    "optional": "Opcjonalnie",
+    "title": "Połącz ze Steam",
+    "description": "Połącz z kontem Steam, aby pobrać pseudonim i awatar oraz umożliwić późniejszy import biblioteki gier.",
+    "skipNote": "Możesz zignorować tę opcję i normalnie korzystać z LastSave. Steam nie jest wymagany aby zakończyć konfigurację."
   },
   "identity": {
-    "subtitle": "Wpisz pseudonim i opcjonalnie awatar.",
+    "title": "Twoja tożsamość",
+    "subtitle": "Wybierz pseudonim i opcjonalnie awatar.",
     "nickname": "Pseudonim",
     "nicknamePlaceholder": "np. Gracz42",
     "nicknameRequired": "Pseudonim jest wymagany"

@@ -164,6 +164,7 @@
         "searching": "Wyszukiwanie...",
         "stop": "Zatrzymaj",
         "minimize": "Minimalizuj",
+        "minimizeHint": "Ukryj ten panel - wyszukiwanie będzie kontynuowane",
         "title": "Wybierz plik wykonywalny dla {{name}}",
         "inProgress": "Przeszukiwanie dysków...",
         "waiting": "Jeszcze nie znaleziono",

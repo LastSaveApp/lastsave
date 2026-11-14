@@ -3,7 +3,9 @@
     "title": "Ulubione gatunki",
     "subtitle": "Wybierz co najbardziej lubisz - gatunki, tematyki, tryby gry i rodzaje perspektywy.",
     "searchPlaceholder": "Wyszukaj gatunki, tematyki, tryby gry...",
+    "clearSearch": "Wyczyść",
     "loadError": "Nie udało się załadować gatunków. Spróbuj ponownie.",
+    "noResults": "Żaden gatunek ani tematyka nie pasuje do wpisanego klucza.",
     "confirm": "Gotowe ( {{count}} )",
     "selected": "Wybrane",
     "selectedCount": "{{count}} wybrane",
@@ -16,6 +18,7 @@
     "connected": "Połączono",
     "connecting": "Łączenie...",
     "disconnect": "Rozłącz ze Steam",
+    "identity": "Tożsamość Steam",
     "expired": "Wygasły",
     "steamName": "Nazwa Steam",
     "accountFallback": "Konto Steam"
@@ -29,7 +32,9 @@
     "accountFallback": "Konto Epic",
     "disconnectConfirm": {
       "title": "Rozłączyć z Epic?",
-      "confirm": "Rozłącz"
+      "message": "Gry zaimportowane z Epic pozostaną w bibliotece wraz z czasem i historią. Nie będzie działała jedynie synchronizacja. Możesz połączyć się ponownie w każdej chwili.",
+      "confirm": "Rozłącz",
+      "cancel": "Zachowaj połączenie"
     }
   },
   "xbox": {
@@ -39,7 +44,11 @@
     "reconnect": "Połącz ponownie",
     "disconnect": "Rozłącz z Xbox",
     "accountFallback": "Konto Xbox",
+    "unavailable": "Logowanie do Xbox nie jest dostępne w tej wersji LastSave.",
     "connectFailure": {
+      "noXboxProfile": "To konto Microsoft nie ma założonego profilu Xbox. Otwórz aplikację Xbox, załóż konto i połącz ponownie.",
+      "childAccount": "Aby zalogować się do Xbox, konto Microsoft musi zostać dodane do grupy rodzinnej Microsoft lub musi zostać potwierdzony wiek użytkownika.",
+      "countryUnavailable": "Usługa Xbox nie jest dostępna w kraju lub regionie przypisanym do tego konta Microsoft.",
       "generic": "Nie udało się połączyć z kontem Xbox."
     }
   },
@@ -173,6 +182,7 @@
   },
   "page": {
     "loading": "Ładowanie profilu...",
+    "noProfile": "Nie znaleziono profilu. Najpierw dokończ konfigurację początkową.",
     "editProfile": "Edytuj profil",
     "profileView": "Widok profilu",
     "localProfile": "Profil lokalny",

@@ -127,12 +127,16 @@
       "increaseMinutes": "Zwiększ liczbę minut"
     },
     "discard": {
+      "title": "Zniszczyć trwającą sesję?",
+      "message": "Stoper odmierza czas gry ale sesja nie została zapisana. Jeżeli ją usuniesz, stoper zostanie wyzerowany a czas stracony.",
+      "confirm": "Zniszcz sesję",
       "cancel": "Zachowaj sesję"
     },
     "errors": {
       "enterDuration": "Wpisz jak długo grałeś podczas tej sesji.",
       "futureDate": "Data sesji nie może pochodzić z przyszłości.",
       "stopTimer": "Zatrzymaj licznik przed zapisem sesji.",
+      "durationPositive": "Czas trwania sesji musi być wyższy od zera.",
       "saveFailed": "Nie udało się zapisać sesji.",
       "updateFailed": "Nie udało się zaktualizować sesji."
     },
@@ -159,8 +163,18 @@
       "emptyDescription": "Przeciągnij zrzut ekranu lub klip, albo kliknij aby wybrać plik"
     },
     "actions": {
+      "saving": "Zapisywanie...",
       "saveChanges": "Zapisz zmiany",
       "saveAchievement": "Zapisz osiągnięcie"
+    },
+    "errors": {
+      "chooseType": "Najpierw wybierz rodzaj osiągnięcia.",
+      "saveFailed": "Nie udało się zapisać osiągnięcia.",
+      "updateFailed": "Nie udało się uaktualnić osiągnięcia."
+    },
+    "success": {
+      "saved": "Osiągnięcie zostało zapisane.",
+      "updated": "Osiągnięcie zostało zaktualizowane."
     }
   },
   "journalModal": {
@@ -174,15 +188,27 @@
       "comment": "Co się wydarzyło?"
     },
     "actions": {
+      "saving": "Zapisywanie...",
+      "saveChanges": "Zapisz zmiany",
       "saveJournal": "Zapisz w dzienniku"
+    },
+    "errors": {
+      "saveFailed": "Nie udało się zapisać wpisu do dziennika.",
+      "updateFailed": "Nie udało się uaktualnić wpisu do dziennika."
+    },
+    "success": {
+      "saved": "Wpis do dziennika został zapisany.",
+      "updated": "Wpis do dziennika został zaktualizowany."
     }
   },
   "media": {
     "label": "Media",
     "emptyTitle": "Dodaj zdjęcie lub klip",
     "emptyDescription": "Przeciągnij tutaj, albo wybierz plik",
+    "or": "lub",
     "paste": "Wklej materiał",
     "pasting": "Wklejanie...",
+    "pasteHint": "Wklej ze schowka zrzut ekranu, zdjęcie lub klip.",
     "pasteTitle": {
       "empty": "W schowku nie znaleziono obsługiwanego obrazu ani filmu.",
       "default": "Wklej obraz lub film ze schowka"
@@ -190,6 +216,14 @@
     "remoteUrl": {
       "label": "Zewnętrzny URL",
       "placeholder": "https://.../klip.mp4 lub https://.../zdjecie.jpg"
+    },
+    "largeFile": {
+      "title": "Ostrzeżenie o dużym rozmiarze pliku",
+      "body": "Ten plik zajmuje {{size}}. Zapisanie go może trochę potrwać.",
+      "acknowledge": "Zrozumiałem i chcę zapisać plik."
+    },
+    "validity": {
+      "remoteMustPoint": "Adres URL musi wskazywać dokładnie na zdjęcie lub plik wideo."
     },
     "errors": {
       "clipboardEmpty": "Schowek nie zawiera obsługiwanego obrazu ani filmu."

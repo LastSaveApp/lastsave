@@ -11,6 +11,9 @@
     "keep": "Zachowaj moje dane",
     "delete": "Usuń wszystko"
   },
+  "databaseTooNew": {
+    "title": "Zaktualizuj LastSave, aby otworzyć tę bibliotekę."
+  },
   "scanRoots": {
     "startMenu": "Programy w menu Start"
   }

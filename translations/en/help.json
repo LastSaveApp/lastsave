@@ -65,7 +65,7 @@
       "story": "Open a game and write a line in its journal. Your board move is already there.",
       "pressStart": "Launch a game from LastSave. The overlay will show you the rest.",
       "saveSession": "Close the game when you're done and save the session.",
-      "meetLibrary": "Find your games, click one for a quick look, then step into Board and Panel."
+      "meetLibrary": "Find your games, then step into Board and Panel."
     }
   },
   "welcome": {
@@ -188,11 +188,7 @@
     "writeJournal": {
       "game": {
         "title": "Open a game",
-        "body": "Click a game for a quick look: its status, the time you have played and its latest moments."
-      },
-      "openPage": {
-        "title": "Its full page",
-        "body": "This opens the game's own page, with its whole story. A click on the picture above does it too."
+        "body": "Click a game to open its page, with its whole story."
       },
       "launcher": {
         "title": "Or go straight there",
@@ -301,32 +297,12 @@
       "launcher": {
         "title": "Any game, from anywhere",
         "body": "Press Ctrl+K and type a few letters. Enter opens the game's page, Ctrl+Enter plays it."
-      },
-      "preview": {
-        "title": "A click is a quick look",
-        "body": "Click a game and a sheet opens with Play, Add log and its latest moment. A double click still opens its page. Try it on this one."
-      },
-      "sheet": {
-        "title": "Everything at hand",
-        "body": "Play, log or manage the game from here. Enter opens its page and the arrows move to the next one."
-      },
-      "previewSwitch": {
-        "title": "Prefer the old click?",
-        "body": "Preview on click lives in Display options. Turn it off and a click opens the game's page, like before."
       }
     },
     "meetLibrary": {
       "toolbar": {
         "title": "Find anything",
         "body": "Search by name, genre or studio, or press Ctrl+K on any screen. Filter narrows it down, Group splits it into sections and Sort puts it in order."
-      },
-      "preview": {
-        "title": "Click a game",
-        "body": "A click opens a quick look at it, and a double click opens its page. Try it on this one."
-      },
-      "sheet": {
-        "title": "A quick look",
-        "body": "Play, add a log or manage the game from here. Enter opens its page, and the arrows move to the next game."
       },
       "board": {
         "title": "Board: your statuses as columns",
@@ -370,7 +346,7 @@
       },
       "meetLibrary": {
         "title": "Meet your library",
-        "body": "Your games as a grid, a list, a board by status, or a panel beside each game's page. Search, filter, group and sort from one bar, and click a game for a quick look without leaving the list."
+        "body": "Your games as a grid, a list, a board by status, or a panel beside each game's page. Search, filter, group and sort from one bar."
       }
     },
     "library": {
@@ -418,14 +394,7 @@
       },
       "whatsNew": {
         "title": "What's new in the Library",
-        "body": "Filter, Group and Sort moved inside the search bar, and Filter can pick shelves. Panel is a new view: a list beside the game's page, like a launcher. A click on a game opens a quick look (you can turn it off in Display options), and Ctrl+K finds any game from anywhere."
-      },
-      "preview": {
-        "title": "Quick look",
-        "body": "A click on a game opens a sheet beside your list: play it, add a log, see its numbers and latest moment, or manage it, without leaving where you were. It works in the Library, on Home and in your journeys.",
-        "step1": "Click a game. A double click goes straight to its page.",
-        "step2": "Enter or the art opens the full page, Esc closes the sheet, and the arrows move along the list.",
-        "step3": "Rather have a click open the page? Turn off Preview on click in Display options or in Settings."
+        "body": "Filter, Group and Sort moved inside the search bar, and Filter can pick shelves. Panel is a new view: a list beside the game's page, like a launcher. And Ctrl+K finds any game from anywhere."
       },
       "quickLauncher": {
         "title": "Search or launch with Ctrl+K",

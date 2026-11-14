@@ -1,6 +1,15 @@
 {
   "select": {
-    "placeholder": "Wybierz opcję..."
+    "placeholder": "Wybierz opcję...",
+    "searchPlaceholder": "Wyszukiwanie..."
+  },
+  "multiSelect": {
+    "placeholder": "Wybierz opcje...",
+    "selectedCount_one": "{{count}} opcja wybrana",
+    "selectedCount_few": "{{count}} opcje wybrane",
+    "selectedCount_many": "{{count}} opcji wybranych",
+    "selectedCount_other": "{{count}} opcji wybranej",
+    "removeTag": "Usuń {{label}}"
   },
   "checkboxMultiSelect": {
     "searchPlaceholder": "Wyszukaj opcji...",
@@ -11,6 +20,7 @@
   "datePicker": {
     "placeholder": "Wprowadź datę",
     "today": "Dzisiaj - {{date}}",
+    "hintPickYear": "Wybierz rok, a nasętpnie dzień",
     "hintChangeYear": "Kliknij {{month}} żeby zmienić rok"
   },
   "timePicker": {
@@ -25,6 +35,8 @@
     "placeholder": "#f5c542 lub rgb(245,197,66)",
     "open": "Otwórz paletę kolorów",
     "pickerButton": "Kolor",
+    "saturation": "Nasycenie i jasność koloru",
+    "hue": "Odcień koloru",
     "selected": "Wybrany",
     "presets": {
       "gold": "Złoty",
@@ -40,6 +52,13 @@
       "dark": "Ciemny"
     }
   },
+  "video": {
+    "volume": "Dostosuj głośność",
+    "mute": "Wyłącz dźwięk",
+    "unmute": "Włącz dźwięk",
+    "fullscreen": "Otwórz na pełnym ekranie",
+    "play": "Włącz film"
+  },
   "avatar": {
     "pickTitle": "Kliknij aby wybrać zdjęcie z dysku",
     "placeholder": "http://... lub C:\\sciezka\\do\\zdjecia.png",
@@ -47,8 +66,11 @@
     "hint": "Wklej adres URL zdjęcia lub wybierz plik z dysku. Oba posłużą jako zdjęcie awatara."
   },
   "gallery": {
+    "close": "Zamknij galerię",
     "goToLog": "Przejdź do wpisu",
-    "exitFullscreen": "Wróć do normalnego rozmiaru (F)"
+    "fullscreen": "Dopasuj do ekranu (F)",
+    "exitFullscreen": "Wróć do normalnego rozmiaru (F)",
+    "session": "Sesja · {{label}}"
   },
   "timeToBeat": {
     "rush": "Pośpiech",

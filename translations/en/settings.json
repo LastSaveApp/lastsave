@@ -15,7 +15,6 @@
       "appearance": "Appearance",
       "startup": "Startup",
       "window": "Window",
-      "games": "Games",
       "notifications": "Notifications",
       "content": "Content",
       "tutorials": "Tutorials and tips"
@@ -30,11 +29,6 @@
       "description": "Improve this translation or create one for your language, with LastSave in view.",
       "keywords": "translate, translation, language, studio, localization, localize",
       "action": "Open Language Studio"
-    },
-    "previewOnClick": {
-      "title": "Preview on click",
-      "description": "A click on a game — in the Library, a shelf, Home or a journey — shows it in a side sheet; a double click opens its page. Off, a click opens the page.",
-      "keywords": "sheet, inspector, side panel, open game, double click"
     },
     "tray": {
       "title": "Minimise to the system tray",

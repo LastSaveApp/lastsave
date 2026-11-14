@@ -406,6 +406,8 @@
     "noCaptures": "No se capturó nada en esta sesión.",
     "unfiledBecomeJournal": "Lo que no guardes como otra cosa queda como entrada de diario.",
     "discard": "Descartar sesión",
+    "saveAndClose": "Guardar y cerrar",
+    "discardDetail": "Se descarta el tiempo registrado, no se guarda nada y el juego no aparecerá entre los jugados recientemente.",
     "saved_one": "Sesión guardada · {{duration}} · {{count}} entrada",
     "saved_many": "Sesión guardada · {{duration}} · {{count}} entradas",
     "saved_other": "Sesión guardada · {{duration}} · {{count}} entradas"
