@@ -71,6 +71,17 @@
     "autoSyncUpdateFailedXbox": "Could not update Xbox auto-sync.",
     "xboxConnected": "Xbox connected successfully.",
     "xboxConnectFailed": "Could not connect your Xbox account right now.",
+    "previewGogSyncFailed": "Failed to preview GOG sync.",
+    "alreadyInSyncGog": "This game is already in sync with GOG.",
+    "syncedHoursGog": "Synced {{hours}}h from GOG.",
+    "applyGogSyncFailed": "Failed to apply GOG sync to this game.",
+    "syncGameFailedGog": "Failed to sync this game from GOG.",
+    "autoSyncUpdateFailedGameGog": "Could not update GOG auto-sync for this game.",
+    "autoSyncEnabledGog": "GOG auto-sync enabled.",
+    "autoSyncDisabledGog": "GOG auto-sync disabled.",
+    "autoSyncUpdateFailedGog": "Could not update GOG auto-sync.",
+    "gogConnected": "GOG connected successfully.",
+    "gogConnectFailed": "Could not connect your GOG account right now.",
     "entryDeleted": "{{title}} was removed from your library.",
     "entryDeleteFailed": "Could not delete this game."
   },
@@ -110,6 +121,12 @@
     "openSteamSyncOptions": "Steam sync options",
     "openEpicSyncOptions": "Epic sync options",
     "openXboxSyncOptions": "Xbox sync options",
+    "syncGog": "Sync GOG",
+    "connectGogFirstSync": "Connect GOG first to sync this game.",
+    "autoSyncAlignedGog": "Keep GOG playtime aligned silently.",
+    "connectGogToEnable": "Connect GOG to enable this.",
+    "connectGogFirstAuto": "Connect GOG first to enable auto-sync.",
+    "openGogSyncOptions": "GOG sync options",
     "showWholeEntry": "Show all of {{title}}",
     "fullPage": "Full page"
   },
@@ -252,6 +269,13 @@
     "body": "Manual sync and auto-sync need an active Xbox session. Reconnect your account here, then return to the sync action.",
     "dismissMessage": "Dismiss Xbox connection message"
   },
+  "gogPrompt": {
+    "title": "GOG connection",
+    "subtitle": "Connect GOG to sync playtime for this game.",
+    "close": "Close GOG connection prompt",
+    "body": "Manual sync and auto-sync need an active GOG session. Reconnect your account here, then return to the sync action.",
+    "dismissMessage": "Dismiss GOG connection message"
+  },
   "steamSync": {
     "familyShared": "Family Shared Library",
     "owned": "Owned Library",
@@ -285,6 +309,17 @@
     "detectedAs": "Detected as",
     "currentHours": "Current Hours",
     "detectedInXbox": "Detected in Xbox",
+    "confirm": "Confirm Sync",
+    "syncing": "Syncing..."
+  },
+  "gogSync": {
+    "badge": "GOG Sync",
+    "title": "Sync playtime from GOG?",
+    "subtitle": "Your current playtime will be updated with the hours detected in GOG.",
+    "close": "Close GOG sync dialog",
+    "detectedAs": "Detected as",
+    "currentHours": "Current Hours",
+    "detectedInGog": "Detected in GOG",
     "confirm": "Confirm Sync",
     "syncing": "Syncing..."
   },

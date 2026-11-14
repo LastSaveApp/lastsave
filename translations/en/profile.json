@@ -52,6 +52,15 @@
       "generic": "Could not connect your Xbox account right now."
     }
   },
+  "gog": {
+    "connect": "Connect with GOG",
+    "connected": "Connected",
+    "connecting": "Connecting...",
+    "reconnect": "Reconnect",
+    "disconnect": "Disconnect GOG",
+    "accountFallback": "GOG account",
+    "connectFailed": "Could not connect your GOG account right now."
+  },
   "integrations": {
     "title": "Integrations",
     "status": {
@@ -128,6 +137,7 @@
       "steam": "Your games, wishlist and hours. Linking also fills in your picture and name.",
       "epic": "Your Epic games, wishlist and hours.",
       "xbox": "Games you’ve played on Xbox, on PC and console, with their hours.",
+      "gog": "Games you own on GOG, with the hours GOG Galaxy kept.",
       "disclaimer": "LastSave isn’t affiliated with Valve, Epic Games or Microsoft. Your sign-ins stay on this PC.",
       "handlesHint": "The names people can find you by. Typed here, not linked, and shown on your profile card.",
       "handlePlaceholders": {
@@ -163,7 +173,9 @@
     "epicDisconnectConfirmTitle": "Disconnect Epic?",
     "epicDisconnectConfirmMessage": "Your imported Epic games stay in your library with their hours and history. Only syncing with Epic stops. You can reconnect the same account at any time.",
     "xboxDisconnectConfirmTitle": "Disconnect Xbox?",
-    "xboxDisconnectConfirmMessage": "Your imported Xbox games stay in your library with their hours and history. Only syncing with Xbox stops. You can reconnect the same account at any time."
+    "xboxDisconnectConfirmMessage": "Your imported Xbox games stay in your library with their hours and history. Only syncing with Xbox stops. You can reconnect the same account at any time.",
+    "gogDisconnectConfirmTitle": "Disconnect GOG?",
+    "gogDisconnectConfirmMessage": "Your imported GOG games stay in your library with their hours and history. Only syncing with GOG stops. You can reconnect the same account at any time."
   },
   "gamePicker": {
     "title": "Pick Favorite Games",

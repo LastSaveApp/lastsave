@@ -71,6 +71,17 @@
     "autoSyncUpdateFailedXbox": "No se pudo cambiar la autosincronización de Xbox.",
     "xboxConnected": "Xbox conectado.",
     "xboxConnectFailed": "No se pudo conectar tu cuenta de Xbox en este momento.",
+    "previewGogSyncFailed": "No se pudo consultar la sincronización con GOG.",
+    "alreadyInSyncGog": "Este juego ya está sincronizado con GOG.",
+    "syncedHoursGog": "{{hours}}h sincronizadas desde GOG.",
+    "applyGogSyncFailed": "No se pudo aplicar la sincronización de GOG a este juego.",
+    "syncGameFailedGog": "No se pudo sincronizar este juego desde GOG.",
+    "autoSyncUpdateFailedGameGog": "No se pudo cambiar la autosincronización de GOG de este juego.",
+    "autoSyncEnabledGog": "Autosincronización de GOG activada.",
+    "autoSyncDisabledGog": "Autosincronización de GOG desactivada.",
+    "autoSyncUpdateFailedGog": "No se pudo cambiar la autosincronización de GOG.",
+    "gogConnected": "GOG conectado.",
+    "gogConnectFailed": "No se pudo conectar tu cuenta de GOG en este momento.",
     "entryDeleted": "{{title}} se quitó de tu biblioteca.",
     "entryDeleteFailed": "No se pudo eliminar este juego."
   },
@@ -110,6 +121,12 @@
     "openSteamSyncOptions": "Opciones de sincronización de Steam",
     "openEpicSyncOptions": "Opciones de sincronización de Epic",
     "openXboxSyncOptions": "Opciones de sincronización de Xbox",
+    "syncGog": "Sincronizar GOG",
+    "connectGogFirstSync": "Conecta GOG para sincronizar este juego.",
+    "autoSyncAlignedGog": "Mantener el tiempo de GOG al día en silencio.",
+    "connectGogToEnable": "Conecta GOG para activarlo.",
+    "connectGogFirstAuto": "Conecta GOG para activar la autosincronización.",
+    "openGogSyncOptions": "Opciones de sincronización de GOG",
     "showWholeEntry": "Ver todo {{title}}",
     "fullPage": "Pantalla completa"
   },
@@ -256,6 +273,13 @@
     "body": "La sincronización manual y la automática necesitan una sesión activa de Xbox. Vuelve a conectar tu cuenta aquí y luego repite la sincronización.",
     "dismissMessage": "Cerrar el mensaje de conexión con Xbox"
   },
+  "gogPrompt": {
+    "title": "Conexión con GOG",
+    "subtitle": "Conecta GOG para sincronizar el tiempo de juego de este juego.",
+    "close": "Cerrar el aviso de conexión con GOG",
+    "body": "La sincronización manual y la automática necesitan una sesión activa de GOG. Vuelve a conectar tu cuenta aquí y luego repite la sincronización.",
+    "dismissMessage": "Cerrar el mensaje de conexión con GOG"
+  },
   "steamSync": {
     "familyShared": "Biblioteca familiar compartida",
     "owned": "Biblioteca propia",
@@ -289,6 +313,17 @@
     "detectedAs": "Detectado como",
     "currentHours": "Horas actuales",
     "detectedInXbox": "Detectado en Xbox",
+    "confirm": "Confirmar sincronización",
+    "syncing": "Sincronizando…"
+  },
+  "gogSync": {
+    "badge": "Sincronización de GOG",
+    "title": "¿Sincronizar el tiempo desde GOG?",
+    "subtitle": "Tu tiempo de juego actual se actualizará con las horas que detectó GOG.",
+    "close": "Cerrar la sincronización de GOG",
+    "detectedAs": "Detectado como",
+    "currentHours": "Horas actuales",
+    "detectedInGog": "Detectado en GOG",
     "confirm": "Confirmar sincronización",
     "syncing": "Sincronizando…"
   },

@@ -59,7 +59,7 @@
     "completeTitle": "Ya tienes lo básico",
     "completeBody": "Todo lo demás está en Ayuda, el ? junto a tus notificaciones.",
     "objectives": {
-      "bringGames": "Importa los juegos de este equipo, o de Steam, Epic y Xbox. Corre en segundo plano.",
+      "bringGames": "Importa los juegos de este equipo, o de Steam, Epic, Xbox y GOG. Corre en segundo plano.",
       "buildShelf": "Mientras llegan tus juegos, crea una estantería y añade unos cuantos que vayan juntos: con quién juegas o qué ánimo les va.",
       "whatPlaying": "Abre el tablero de tu estantería y pasa a Jugando un juego que estés jugando estos días.",
       "story": "Abre un juego y escribe una línea en su diario. Tu movimiento en el tablero ya está ahí.",
@@ -75,7 +75,7 @@
     "points": {
       "import": {
         "title": "Todas tus bibliotecas en un lugar",
-        "body": "Este equipo, Steam, Epic y Xbox, juntos."
+        "body": "Este equipo, Steam, Epic, Xbox y GOG, juntos."
       },
       "track": {
         "title": "Sabe a qué estás jugando",
@@ -132,7 +132,7 @@
     "importGames": {
       "open": {
         "title": "Trae tus juegos",
-        "body": "Importar juegos encuentra lo que hay en este equipo y en tus bibliotecas de Steam, Epic y Xbox. Elige tus fuentes y LastSave hace el resto en segundo plano."
+        "body": "Importar juegos encuentra lo que hay en este equipo y en tus bibliotecas de Steam, Epic, Xbox y GOG. Elige tus fuentes y LastSave hace el resto en segundo plano."
       }
     },
     "addGame": {
@@ -322,7 +322,7 @@
     "guide": {
       "bringGames": {
         "title": "Trae tus juegos",
-        "body": "Empieza importando los juegos de este equipo y de tus bibliotecas de Steam, Epic y Xbox. Los emulados pueden venir después. La importación corre en segundo plano, así que puedes seguir mientras trabaja."
+        "body": "Empieza importando los juegos de este equipo y de tus bibliotecas de Steam, Epic, Xbox y GOG. Los emulados pueden venir después. La importación corre en segundo plano, así que puedes seguir mientras trabaja."
       },
       "whatPlaying": {
         "title": "¿A qué estás jugando?",
@@ -352,9 +352,9 @@
     "library": {
       "import": {
         "title": "Importa tus juegos",
-        "body": "Importar juegos busca juegos en este equipo y en tus bibliotecas de Steam, Epic y Xbox, y te deja revisar la lista antes de añadir nada.",
+        "body": "Importar juegos busca juegos en este equipo y en tus bibliotecas de Steam, Epic, Xbox y GOG, y te deja revisar la lista antes de añadir nada.",
         "step1": "Haz clic en Importar juegos en la Biblioteca.",
-        "step2": "Elige tus fuentes. Steam, Epic y Xbox te piden iniciar sesión una vez.",
+        "step2": "Elige tus fuentes. Steam, Epic, Xbox y GOG te piden iniciar sesión una vez.",
         "step3": "Revisa la lista y añade. Sigue en segundo plano."
       },
       "addGame": {
@@ -369,7 +369,7 @@
         "body": "Inicia sesión con tu cuenta de Microsoft y LastSave trae los juegos que jugaste en Xbox, en PC, con Game Pass o en consola, con sus horas. Los que tienes pero nunca abriste no aparecen, porque Xbox solo comparte lo que jugaste. Los juegos de consola se guardan como historial: puedes anotarlos y cronometrarlos, pero se abren en la consola.",
         "step1": "En Importar juegos, elige Xbox en Más fuentes, o conéctalo en tu perfil, en Cuentas conectadas.",
         "step2": "Inicia sesión en la página de Microsoft. LastSave nunca ve tu contraseña.",
-        "step3": "Decide si incluir los juegos de consola, revisa y añade."
+        "step3": "Decide si incluir los juegos de consola y tu lista de deseados de Xbox, revisa y añade."
       },
       "identify": {
         "title": "Arregla un juego que no se reconoció",

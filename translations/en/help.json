@@ -59,7 +59,7 @@
     "completeTitle": "You've got the basics",
     "completeBody": "Everything else lives in Help, the ? next to your notifications.",
     "objectives": {
-      "bringGames": "Import the games on this PC, or from Steam, Epic and Xbox. It runs in the background.",
+      "bringGames": "Import the games on this PC, or from Steam, Epic, Xbox and GOG. It runs in the background.",
       "buildShelf": "While your games come in, make a shelf and add a few that belong together: who you play with, or what mood they fit.",
       "whatPlaying": "Open your shelf's board and move a game you're playing these days to Playing.",
       "story": "Open a game and write a line in its journal. Your board move is already there.",
@@ -75,7 +75,7 @@
     "points": {
       "import": {
         "title": "Every library in one place",
-        "body": "This PC, Steam, Epic and Xbox, together."
+        "body": "This PC, Steam, Epic, Xbox and GOG, together."
       },
       "track": {
         "title": "Know what you're playing",
@@ -132,7 +132,7 @@
     "importGames": {
       "open": {
         "title": "Bring your games in",
-        "body": "Import Games finds what's on this PC and in your Steam, Epic and Xbox libraries. Pick your sources and LastSave does the rest in the background."
+        "body": "Import Games finds what's on this PC and in your Steam, Epic, Xbox and GOG libraries. Pick your sources and LastSave does the rest in the background."
       }
     },
     "addGame": {
@@ -322,7 +322,7 @@
     "guide": {
       "bringGames": {
         "title": "Bring your games",
-        "body": "Start by importing the games on this PC and in your Steam, Epic and Xbox libraries. Emulated games can come later. The import runs in the background, so you can keep going while it works."
+        "body": "Start by importing the games on this PC and in your Steam, Epic, Xbox and GOG libraries. Emulated games can come later. The import runs in the background, so you can keep going while it works."
       },
       "whatPlaying": {
         "title": "What are you playing?",
@@ -352,9 +352,9 @@
     "library": {
       "import": {
         "title": "Import your games",
-        "body": "Import Games looks for games on this PC and in your Steam, Epic and Xbox libraries, and lets you review the list before anything is added.",
+        "body": "Import Games looks for games on this PC and in your Steam, Epic, Xbox and GOG libraries, and lets you review the list before anything is added.",
         "step1": "Click Import Games in the Library.",
-        "step2": "Pick your sources. Steam, Epic and Xbox ask you to sign in once.",
+        "step2": "Pick your sources. Steam, Epic, Xbox and GOG ask you to sign in once.",
         "step3": "Review the list and add. It keeps going in the background."
       },
       "addGame": {
@@ -369,7 +369,7 @@
         "body": "Sign in with your Microsoft account and LastSave brings in the games you've played on Xbox, on PC, through Game Pass or on a console, with their hours. Games you own but never launched don't show up, because Xbox only shares what you played. Console games are kept as a record: you can log them and time them, but they launch on the console.",
         "step1": "In Import Games, pick Xbox under More sources, or connect it in your profile, under Connected accounts.",
         "step2": "Sign in on Microsoft's own page. LastSave never sees your password.",
-        "step3": "Choose whether to include console games, then review and add."
+        "step3": "Choose whether to include console games and your Xbox wishlist, then review and add."
       },
       "identify": {
         "title": "Fix a game that wasn't recognised",

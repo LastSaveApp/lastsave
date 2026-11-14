@@ -2,7 +2,8 @@
   "signIn": {
     "steam": "Connect Steam",
     "epic": "Connect Epic Games",
-    "xbox": "Connect Xbox"
+    "xbox": "Connect Xbox",
+    "gog": "Connect GOG"
   },
   "uninstall": {
     "title": "Uninstall LastSave",

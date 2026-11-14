@@ -52,6 +52,15 @@
       "generic": "No se pudo conectar tu cuenta de Xbox ahora mismo."
     }
   },
+  "gog": {
+    "connect": "Conectar con GOG",
+    "connected": "Conectado",
+    "connecting": "Conectando…",
+    "reconnect": "Reconectar",
+    "disconnect": "Desconectar GOG",
+    "accountFallback": "Cuenta de GOG",
+    "connectFailed": "No se pudo conectar tu cuenta de GOG ahora mismo."
+  },
   "integrations": {
     "title": "Integraciones",
     "status": {
@@ -128,6 +137,7 @@
       "steam": "Tus juegos, deseados y horas. También completa tu imagen y tu nombre.",
       "epic": "Tus juegos de Epic, lista de deseados y horas.",
       "xbox": "Los juegos que jugaste en Xbox, en PC y consola, con sus horas.",
+      "gog": "Tus juegos de GOG, con las horas que guardó GOG Galaxy.",
       "disclaimer": "LastSave no está afiliado a Valve, Epic Games ni Microsoft. Tus inicios de sesión se quedan en este equipo.",
       "handlesHint": "Los nombres con los que te pueden encontrar. Escritos aquí, sin vincular, y visibles en tu tarjeta de perfil.",
       "handlePlaceholders": {
@@ -163,7 +173,9 @@
     "epicDisconnectConfirmTitle": "¿Desconectar Epic?",
     "epicDisconnectConfirmMessage": "Tus juegos de Epic importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con Epic. Puedes volver a conectar la misma cuenta cuando quieras.",
     "xboxDisconnectConfirmTitle": "¿Desconectar Xbox?",
-    "xboxDisconnectConfirmMessage": "Tus juegos de Xbox importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con Xbox. Puedes volver a conectar la misma cuenta cuando quieras."
+    "xboxDisconnectConfirmMessage": "Tus juegos de Xbox importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con Xbox. Puedes volver a conectar la misma cuenta cuando quieras.",
+    "gogDisconnectConfirmTitle": "¿Desconectar GOG?",
+    "gogDisconnectConfirmMessage": "Tus juegos de GOG importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con GOG. Puedes volver a conectar la misma cuenta cuando quieras."
   },
   "gamePicker": {
     "title": "Elige tus juegos favoritos",
