@@ -1,0 +1,236 @@
+{
+  "labels": {
+    "optional": "(opcjonalnie)",
+    "optionalRecommended": "(opcjonalnie, ale zalecane)"
+  },
+  "addLog": {
+    "title": "Dodawanie wpisu",
+    "options": {
+      "statusUpdate": {
+        "title": "Zmiana statusu",
+        "description": "Zapisz postęp, czas gry, wrażenia i zmianę statusu."
+      },
+      "achievement": {
+        "title": "Osiągnięcie",
+        "description": "Zapisuj największe zwycięstwa i rekordy."
+      },
+      "journalEntry": {
+        "title": "Wpis do dziennika",
+        "description": "Zapisz wspomnienie, dodając obraz, film lub komentarz."
+      },
+      "session": {
+        "title": "Sesja",
+        "description": "Zapisz sesję gry ręcznie lub za pomocą stopera."
+      }
+    }
+  },
+  "targetSelection": {
+    "prompt": "Co rejestrujesz?",
+    "hide": "Ukryj",
+    "showAll": "Pokaż wszystkie",
+    "showLess": "Pokaż mniej",
+    "showMore_one": "Pokaż więcej (+{{count}} element)",
+    "showMore_few": "Pokaż więcej (+{{count}} elementy)",
+    "showMore_many": "Pokaż więcej (+{{count}} elementów)",
+    "showMore_other": "Pokaż więcej (+{{count}} elementu)"
+  },
+  "statusModal": {
+    "titles": {
+      "add": "Dodawanie wpisu",
+      "edit": "Edytowanie wpisu"
+    },
+    "labels": {
+      "status": "Status *",
+      "hoursPlayed": "Czas gry",
+      "started": "Rozpoczęcie",
+      "finished": "Zakończenie",
+      "impression": "Wrażenie",
+      "comment": "Komentarz"
+    },
+    "placeholders": {
+      "startDate": "Data rozpoczęcia",
+      "endDate": "Data zakończenia",
+      "commentPlaying": "Krótka refleksja lub notatka...",
+      "commentWishlist": "Dlaczego chciałbyś tę grę?",
+      "commentBacklog": "Dlaczego dajesz ją do zbioru zaległości?"
+    },
+    "units": {
+      "hours": "godz."
+    },
+    "actions": {
+      "decreaseHours": "Zmniejsz liczbę godzin",
+      "increaseHours": "Zwiększ liczbę godzin",
+      "saving": "Zapisywanie...",
+      "saveChanges": "Zapisz zmiany",
+      "saveLog": "Zapisz wpis"
+    },
+    "success": {
+      "saved": "Wpis zapisany!",
+      "updated": "Wpis zaktualizowany!"
+    }
+  },
+  "sessionModal": {
+    "titles": {
+      "add": "Dodawanie sesji",
+      "edit": "Edycja sesji"
+    },
+    "labels": {
+      "mode": "Tryb",
+      "sessionDate": "Data sesji",
+      "duration": "Czas trwania",
+      "adjustDuration": "Czas trwania",
+      "note": "Notatka",
+      "hours": "Godzin",
+      "minutes": "Minut"
+    },
+    "modes": {
+      "manual": {
+        "title": "Ręczny",
+        "description": "Wprowadź datę oraz czas rozgrywki."
+      },
+      "timer": {
+        "title": "Stoper",
+        "description": "Uruchom, wstrzymaj, wznów i zatrzymaj stoper mierzący czas sesji."
+      }
+    },
+    "durationSuffix": {
+      "hours": "godz.",
+      "minutes": "min"
+    },
+    "timer": {
+      "currentSession": "Bieżąca sesja",
+      "states": {
+        "ready": "Gotowy do startu",
+        "running": "Stoper odmierza czas",
+        "paused": "Stoper wstrzymany",
+        "stopped": "Stoper zatrzymany"
+      },
+      "start": "Start",
+      "pause": "Wstrzymaj",
+      "stop": "Zatrzymaj",
+      "resume": "Wznów",
+      "reset": "Zresetuj stoper",
+      "summaryTitle": "Odczyt stopera",
+      "playedOn": "Grano dnia {{date}}",
+      "recordedElapsed": "Zarejestrowany czas gry: {{time}}"
+    },
+    "placeholders": {
+      "note": "Jak wyglądała rozgrywka podczas tej sesji?"
+    },
+    "actions": {
+      "saving": "Zapisywanie...",
+      "saveChanges": "Zapisz zmiany",
+      "saveSession": "Zapisz sesję",
+      "decreaseHours": "Zmniejsz liczbę godzin",
+      "increaseHours": "Zwiększ liczbę godzin",
+      "decreaseMinutes": "Zmniejsz liczbę minut",
+      "increaseMinutes": "Zwiększ liczbę minut"
+    },
+    "discard": {
+      "title": "Zniszczyć trwającą sesję?",
+      "message": "Stoper odmierza czas gry ale sesja nie została zapisana. Jeżeli ją usuniesz, stoper zostanie wyzerowany a czas stracony.",
+      "confirm": "Zniszcz sesję",
+      "cancel": "Zachowaj sesję"
+    },
+    "errors": {
+      "enterDuration": "Wpisz jak długo grałeś podczas tej sesji.",
+      "futureDate": "Data sesji nie może pochodzić z przyszłości.",
+      "stopTimer": "Zatrzymaj licznik przed zapisem sesji.",
+      "durationPositive": "Czas trwania sesji musi być wyższy od zera.",
+      "saveFailed": "Nie udało się zapisać sesji.",
+      "updateFailed": "Nie udało się zaktualizować sesji."
+    },
+    "success": {
+      "saved": "Sesja zapisana.",
+      "updated": "Sesja zaktualizowana."
+    }
+  },
+  "achievementModal": {
+    "titles": {
+      "add": "Osiągnięcia",
+      "edit": "Edytuj osiągnięcie"
+    },
+    "labels": {
+      "achievementType": "Rodzaj osiągnięcia",
+      "title": "Tytuł",
+      "description": "Opis"
+    },
+    "placeholders": {
+      "description": "Dlaczego to osiągnięcie jest godne zapamiętania?"
+    },
+    "media": {
+      "emptyTitle": "Dodaj materiał lub wspomnienie",
+      "emptyDescription": "Przeciągnij zrzut ekranu lub klip, albo kliknij aby wybrać plik"
+    },
+    "actions": {
+      "saving": "Zapisywanie...",
+      "saveChanges": "Zapisz zmiany",
+      "saveAchievement": "Zapisz osiągnięcie"
+    },
+    "errors": {
+      "chooseType": "Najpierw wybierz rodzaj osiągnięcia.",
+      "saveFailed": "Nie udało się zapisać osiągnięcia.",
+      "updateFailed": "Nie udało się uaktualnić osiągnięcia."
+    },
+    "success": {
+      "saved": "Osiągnięcie zostało zapisane.",
+      "updated": "Osiągnięcie zostało zaktualizowane."
+    }
+  },
+  "journalModal": {
+    "titles": {
+      "add": "Wpis w dzienniku"
+    },
+    "labels": {
+      "comment": "Komentarz"
+    },
+    "placeholders": {
+      "comment": "Co się wydarzyło?"
+    },
+    "actions": {
+      "saving": "Zapisywanie...",
+      "saveChanges": "Zapisz zmiany",
+      "saveJournal": "Zapisz w dzienniku"
+    },
+    "errors": {
+      "saveFailed": "Nie udało się zapisać wpisu do dziennika.",
+      "updateFailed": "Nie udało się uaktualnić wpisu do dziennika."
+    },
+    "success": {
+      "saved": "Wpis do dziennika został zapisany.",
+      "updated": "Wpis do dziennika został zaktualizowany."
+    }
+  },
+  "media": {
+    "label": "Media",
+    "emptyTitle": "Dodaj zdjęcie lub klip",
+    "emptyDescription": "Przeciągnij tutaj, albo wybierz plik",
+    "or": "lub",
+    "paste": "Wklej materiał",
+    "pasting": "Wklejanie...",
+    "pasteHint": "Wklej ze schowka zrzut ekranu, zdjęcie lub klip.",
+    "pasteTitle": {
+      "empty": "W schowku nie znaleziono obsługiwanego obrazu ani filmu.",
+      "default": "Wklej obraz lub film ze schowka"
+    },
+    "remoteUrl": {
+      "label": "Zewnętrzny URL",
+      "placeholder": "https://.../klip.mp4 lub https://.../zdjecie.jpg"
+    },
+    "largeFile": {
+      "title": "Ostrzeżenie o dużym rozmiarze pliku",
+      "body": "Ten plik zajmuje {{size}}. Zapisanie go może trochę potrwać.",
+      "acknowledge": "Zrozumiałem i chcę zapisać plik."
+    },
+    "validity": {
+      "remoteMustPoint": "Adres URL musi wskazywać dokładnie na zdjęcie lub plik wideo."
+    },
+    "errors": {
+      "clipboardEmpty": "Schowek nie zawiera obsługiwanego obrazu ani filmu."
+    },
+    "fromLink": "Z linku"
+  },
+  "logTime": {
+    "label": "Godzina wpisu"
+  }
+}

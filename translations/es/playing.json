@@ -338,8 +338,9 @@
     "partialFailure_one": "Sesión guardada, pero {{count}} elemento no se pudo archivar. Sigue en tus capturas.",
     "partialFailure_many": "Sesión guardada, pero {{count}} elementos no se pudieron archivar. Siguen en tus capturas.",
     "partialFailure_other": "Sesión guardada, pero {{count}} elementos no se pudieron archivar. Siguen en tus capturas.",
-    "confirmDiscardMessage": "Se descarta el tiempo registrado y no se guarda nada. Lo que reunió esta sesión se queda en el disco, sin archivar.",
+    "confirmDiscardMessage": "Se descarta el tiempo registrado, no se guarda nada y el juego no aparecerá entre los jugados recientemente. Lo que reunió esta sesión se queda en el disco, sin archivar.",
     "toBeLogged": "por anotar",
+    "close": "Cerrar y guardar",
     "tally": {
       "screenshots_one": "{{count}} captura",
       "screenshots_many": "{{count}} capturas",

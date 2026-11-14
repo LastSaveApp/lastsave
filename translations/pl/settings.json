@@ -1,0 +1,495 @@
+{
+  "dialog": {
+    "title": "Ustawienia",
+    "search": {
+      "placeholder": "Wyszukaj",
+      "clear": "Wyczyść"
+    }
+  },
+  "general": {
+    "title": "Ogólne",
+    "subtitle": "Wygląd LastSave i jego działanie w systemie Windows",
+    "groups": {
+      "appearance": "Wygląd",
+      "startup": "Uruchamianie",
+      "window": "Okno",
+      "notifications": "Powiadomienia",
+      "content": "Zawartość",
+      "tutorials": "Poradniki i wskazówki"
+    },
+    "language": {
+      "title": "Język",
+      "description": "Język, którym posługuje się LastSave. Kolejne już wkrótce.",
+      "keywords": "tłumaczenie, język"
+    },
+    "languageStudio": {
+      "title": "Language Studio",
+      "description": "Ulepsz to tłumaczenie lub stwórz dla swojego języka, współtworząc LastSave.",
+      "keywords": "tłumaczenie, język, lokalizacja",
+      "action": "Otwórz Language Studio"
+    },
+    "tray": {
+      "title": "Przenieś do zasobnika",
+      "description": "Po zamknięciu okna LastSave działa w zasobniku i nadal wykrywa sesje gier.",
+      "keywords": "zamknij, wyjście, tło, pasek zadań"
+    },
+    "adultGames": {
+      "title": "Pokaż gry dla dorosłych",
+      "description": "Gry erotyczne w sekcji Odkrywaj i ich okładki w wynikach wyszukiwania.",
+      "keywords": "dla dorosłych, seks, erotyka, 18+, filtr zawartości",
+      "confirm": {
+        "title": "Pokazywać gry dla dorosłych?",
+        "message": "Gry dla dorosłych mogą zawierać treści seksualne. Włącz tę opcję tylko wtedy, gdy masz ukończone 18 lat.",
+        "confirm": "Pokazuj je"
+      }
+    },
+    "releaseNotices": {
+      "title": "Powiadomienia o premierach",
+      "description": "Premiery, opóźnienia i inne wybrane powiadomienia o grach z listy życzeń i zaległości.",
+      "keywords": "kalendarz, premiery, lista życzeń, zaległości, opóźnienie, przypomnienie, powiadomienia"
+    },
+    "openAtLogin": {
+      "title": "Uruchamiaj LastSave przy starcie systemu Windows",
+      "description": "Automatycznie uruchamia aplikację, dzięki czemu nic nie musisz robić aby sesje zostały wykryte.",
+      "keywords": "autostart, logowanie, okna, uruchamianie"
+    },
+    "startMinimized": {
+      "title": "Uruchamiaj zminimalizowane",
+      "description": "Po uruchomieniu program trafia do zasobnika systemowego, zamiast otwierać okno na pierwszym planie.",
+      "keywords": "ukryty, w tle, zasobnik"
+    },
+    "tips": {
+      "title": "Automatycznie wyświetlaj wskazówki",
+      "description": "Poradnik pierwsze kroki, wskazówki i zadania w grze. Pomoc działa niezależnie od tego ustawienia.",
+      "keywords": "pomoc, poradnik, wskazówki, przewodnik"
+    },
+    "guide": {
+      "title": "Pierwsze kroki",
+      "description": "Sześć kroków wyjaśniających podstawy. Możesz je wyświetlić ponownie, jeśli zostały ukryte.",
+      "keywords": "poradnik, pierwsze kroki, pomoc",
+      "show": "Pokaż poradnik",
+      "showing": "Wyświetl"
+    },
+    "resetHelp": {
+      "title": "Zresetuj postęp pomocy",
+      "description": "Odznacza poznane tematy poradnika, by widniały jako nieprzeczytane. To, co zrobiłeś w swojej bibliotece, pozostaje oznaczone.",
+      "keywords": "poradnik, przewodnik, pomoc, wskazówki",
+      "action": "Resetuj"
+    }
+  },
+  "playing": {
+    "title": "Rozgrywka",
+    "subtitle": "Ustawienia dotyczące uruchamiania gier. Poszczególne gry mogą mieć własne ustawienia, które zastępują te ogólne.",
+    "tracking": {
+      "title": "Śledź sesje gier",
+      "description": "Mierzy czas gry, wykrywa jej uruchomienie i zapisuje historię sesji. Wyłącz, jeśli chcesz tylko porządkować i uruchamiać gry. Każda gra zachowa własne ustawienie śledzenia.",
+      "keywords": "stoper, sesja, godziny, wykrycie"
+    },
+    "launching": {
+      "title": "Uruchamiaj gry z LastSave",
+      "description": "Uruchamia grę po naciśnięciu „Graj”. Wyłącz, jeśli chcesz uruchamiać gry samodzielnie — przycisk „Start” będzie tylko włączał pomiar czasu. Każda gra zachowa własne ustawienie uruchamiania.",
+      "keywords": "start, uruchom, otwórz, graj"
+    }
+  },
+  "overlay": {
+    "title": "Interfejs",
+    "subtitle": "Panel wyświetlany przez LastSave na ekranie gry podczas sesji.",
+    "groups": {
+      "placement": "Położenie",
+      "behaviour": "Zachowanie"
+    },
+    "corner": {
+      "title": "Położenie interfejsu",
+      "description": "Domyślne położenie interfejsu. Przesunięcie rozwiniętego panelu przesuwa też pasek.",
+      "keywords": "róg, pozycja, miejsce, ekran"
+    },
+    "cornerPreview": "· podgląd",
+    "corners": {
+      "top_left": "Lewy górny",
+      "top_center": "Górny wyśrodkowany",
+      "top_right": "Prawy górny",
+      "left_center": "Lewy wyśrodkowany",
+      "right_center": "Prawy wyśrodkowany",
+      "bottom_left": "Lewy dolny",
+      "bottom_center": "Dolny wyśrodkowany",
+      "bottom_right": "Prawy dolny"
+    },
+    "sounds": {
+      "title": "Dźwięki interfejsu",
+      "description": "Krótkie dźwięki przy zrzutach ekranu, notatkach, pauzie i wznowieniu.",
+      "keywords": "dźwięk, muzyka, wycisz, sygnał"
+    },
+    "recap": {
+      "title": "Ostatnia sesja",
+      "description": "Po uruchomieniu gry nakładka przypomina, na czym ostatnio skończyłeś, a tryb skupienia wyświetla Twoje poprzednie sesje.",
+      "keywords": "przypomnienie, poprzednia sesja, ostatnio"
+    }
+  },
+  "gaming": {
+    "title": "Tryb kanapowy",
+    "subtitle": "Widok biblioteki dostosowany przede wszystkim do obsługi kontrolerem.",
+    "groups": {
+      "controller": "Kontroler"
+    },
+    "glyphs": {
+      "title": "Podpowiedzi przycisków",
+      "description": "Wybierz układ przycisków kontrolera. „Automatycznie” wykrywa używany kontroler.",
+      "keywords": "znaki, ikony, przyciski, xbox, playstation, kontroler, pad",
+      "options": {
+        "auto": "Automatycznie",
+        "xbox": "Xbox Series / One",
+        "xbox360": "Xbox 360",
+        "ps5": "PlayStation 5",
+        "ps4": "PlayStation 4",
+        "ps3": "PlayStation 3",
+        "switch": "Nintendo Switch"
+      }
+    },
+    "sounds": {
+      "title": "Dźwięki trybu kanapowego",
+      "description": "Krótkie podpowiedzi podczas poruszania się, otwierania menu oraz włączania i wyłączania trybu kanapowego.",
+      "keywords": "dźwięk, muzyka, wycisz, sygnał"
+    },
+    "reduceMotion": {
+      "title": "Ogranicz animacje",
+      "description": "Bez powiększania, przesuwania i przenikania. Filmy odtwarzają się tylko podczas oglądania. Systemowe efekty animacji zgodne z ustawieniami Windows.",
+      "keywords": "ruch, animacja, redukcja",
+      "options": {
+        "system": "Systemowe",
+        "on": "Włącz",
+        "off": "Wyłącz"
+      }
+    }
+  },
+  "captures": {
+    "title": "Zrzuty ekranu i klipy",
+    "subtitle": "Co LastSave rejestruje podczas gry i gdzie szuka nagrań.",
+    "groups": {
+      "screenshots": "Zrzuty ekranu",
+      "clips": "Klipy"
+    },
+    "format": {
+      "title": "Format zrzutów ekranu",
+      "description": "JPEG to zrzut 1440p poniżej 1 MB; PNG jest bezstratny, ale kilka razy większy.",
+      "keywords": "jpeg, png, zdjęcie, jakość"
+    },
+    "formats": {
+      "jpeg": "JPEG",
+      "png": "PNG"
+    },
+    "recorder": {
+      "title": "Rejestrator klipów",
+      "description": "LastSave samo niczego nie nagrywa - używa skrótu klawiszowego rejestratora i importuje zapisany przez niego plik.",
+      "keywords": "menu gry, nvidia, amd, powtórka, nagrywanie"
+    },
+    "nvidiaFolder": {
+      "title": "Katalog klipów NVIDIA",
+      "description": "Folder zapisu klipów nakładki NVIDIA, jeśli zmieniono domyślną lokalizację."
+    },
+    "extraFolder": {
+      "title": "Dodatkowy katalog na klipy",
+      "description": "Dodatkowy folder do monitorowania klipów z gier."
+    },
+    "folders": {
+      "choose": "Wybierz",
+      "clear": "Wyczyść",
+      "unset": "Domyślnie"
+    }
+  },
+  "shortcuts": {
+    "title": "Skróty klawiszowe",
+    "groups": {
+      "playing": "Tryb gry",
+      "controller": "Kontroler"
+    },
+    "capture": {
+      "pressKeys": "Wciśnij klawisz",
+      "notSet": "brak",
+      "taken": "Inna aplikacja używa już tego skrótu klawiszowego.",
+      "pressPad": "Trzymaj {{modifier}}, i naciśnij przycisk",
+      "padTaken": "Nie udało się zapisać tego skrótu klawiszowego."
+    },
+    "overlay": {
+      "title": "Pokaż / minimalizuj interfejs",
+      "description": "Przełącza interfejs między paskiem a pełnym panelem."
+    },
+    "focus": {
+      "title": "Tryb skupienia",
+      "description": "Przyciemnia ekran, uwalnia kursor myszy i pozwala od razu opisywać zrzuty. Naciśnij ponownie lub Esc, aby wrócić do gry."
+    },
+    "hide": {
+      "title": "Pokaż / ukryj interfejs",
+      "description": "Ukrywa cały interfejs w grze, także pasek, i przywraca go."
+    },
+    "screenshot": {
+      "title": "Zrzut ekranu",
+      "description": "Wykonuje zrzut ekranu z gry i przypisuje go do sesji."
+    },
+    "quickJournal": {
+      "title": "Dodaj notatkę",
+      "description": "Interfejs otwiera krótką notatkę. Naciśnięty zaraz po zrzucie ekranu, staje się jego opisem."
+    },
+    "pause": {
+      "title": "Zatrzymaj / wznów czas",
+      "description": "Zatrzymuje licznik czasu bez kończenia sesji."
+    },
+    "stop": {
+      "title": "Zakończ sesję",
+      "description": "Przenosi LastSave na pierwszy plan i pyta o zakończenie sesji."
+    },
+    "clip": {
+      "title": "Zapis ostatnich sekund",
+      "description": "Prosi Pasek gry Xbox lub NVIDIA o zapisanie nagrania z bufora."
+    },
+    "record": {
+      "title": "Rozpocznij / zakończ nagrywanie",
+      "description": "Rozpoczyna i kończy nagrywanie z użyciem wybranego narzędzia."
+    },
+    "padModifier": "Podgląd",
+    "padCaptureDelay": {
+      "title": "Opóźnienie zrzutu ekranu z kontrolera",
+      "description": "Zrzut ekranu wywołany skrótem na kontrolerze zostanie wykonany po upływie tego czasu, aby umożliwić zamknięcie okna lub menu otwartego w grze. Ponowne użycie skrótu wykona zrzut natychmiast. Nagrania i skróty klawiaturowe nie podlegają temu opóźnieniu.",
+      "keywords": "kontroler, pad, opóźnienie, licznik, stoper, zrzut ekranu, menu",
+      "off": "Wył.",
+      "seconds_one": "{{count}} s",
+      "seconds_few": "{{count}} s",
+      "seconds_many": "{{count}} s",
+      "seconds_other": "{{count}} s"
+    }
+  },
+  "games": {
+    "title": "Gry i skanowanie",
+    "subtitle": "Co LastSave odczytuje na tym komputerze podczas wyszukiwania gier.",
+    "lookupFolders": {
+      "title": "Przeszukiwane foldery",
+      "description": "Dodatkowe foldery do wyszukiwania skrótów i plików wykonywalnych gier poza domyślnymi lokalizacjami: pulpitem, menu Start i folderami platform.",
+      "keywords": "skanowanie, katalogi, ścieżki, skróty"
+    },
+    "startupCheck": {
+      "title": "Skanowanie przy uruchomieniu",
+      "description": "Raz dziennie, przy pierwszym uruchomieniu LastSave, skanuje komputer w poszukiwaniu nowych gier. Powiadamia tylko o nowych znaleziskach.",
+      "keywords": "nowe gry, uruchom"
+    },
+    "configure": "Konfiguruj"
+  },
+  "emulators": {
+    "title": "Emulatory",
+    "subtitle": "Emulatory, za pomocą których LastSave uruchamia gry z plików ROM, oraz lokalizacje tych plików.",
+    "romSetup": {
+      "title": "Emulatory i foldery z plikami ROM",
+      "description": "Wskaż plik wykonywalny każdego emulatora LastSave oraz foldery, w których przechowujesz jego pliki ROM.",
+      "keywords": "romy, retroarch, emulacja, pcsx2, dolphin, rpcs3, duckstation, ppsspp, bios, systemy"
+    },
+    "configure": "Konfiguruj",
+    "summary_one": "{{count}} emulator skonfigurowany",
+    "summary_few": "{{count}} emulatory skonfigurowane",
+    "summary_many": "{{count}} emulatorów skonfigurowanych",
+    "summary_other": "{{count}} emulatorów skonfigurowanych",
+    "romPaths_one": "{{count}} ścieżka ROM",
+    "romPaths_few": "{{count}} ścieżki ROM",
+    "romPaths_many": "{{count}} ścieżek ROM",
+    "romPaths_other": "{{count}} ścieżek ROM",
+    "empty": "Brak skonfigurowanych emulatorów"
+  },
+  "art": {
+    "title": "Grafiki",
+    "subtitle": "Grafiki i logotypy wyświetlane przez LastSave przy grach.",
+    "heroes": {
+      "title": "Bannery ze SteamGridDB",
+      "description": "Szeroki wybór grafik w tle każdej gry, ze SteamGridDB lub sklepu Steam. Po wyłączeniu używana jest grafika katalogowa. Grafika wybrana dla gry (Zarządzaj → Grafika) ma pierwszeństwo.",
+      "keywords": "baner, bohater, tło, grafiki, steamgriddb, steam, igdb, tapeta"
+    },
+    "logos": {
+      "title": "Logotypy gier",
+      "description": "Logo każdej gry zamiast jej nazwy zapisanej tekstem, pobierane ze SteamGridDB lub Steam. W pierwszej kolejności używany jest obraz wybrany dla danej gry (Zarządzaj → Grafiki).",
+      "keywords": "logo, tytuł, nazwa, grafiki, steamgriddb, steam"
+    },
+    "visitSteamGridDb": "Odwiedź SteamGridDB",
+    "credit": "Banery i logotypy pochodzą ze <brand>SteamGridDB</brand>, gdzie prezentowane są prace społeczności, oraz z grafik sklepowych Steam. LastSave jest niezależnym projektem i nie jest powiązany z serwisem SteamGridDB, firmą Valve ani twórcami i wydawcami gier, ani przez nich wspierany."
+  },
+  "data": {
+    "title": "Dane",
+    "subtitle": "Gdzie aplikacja trzyma dane i jak je usunąć.",
+    "groups": {
+      "storage": "Przechowywanie",
+      "backups": "Archiwizacja",
+      "sharing": "Diagnostyka",
+      "danger": "Uwaga"
+    },
+    "loading": "Ładowanie...",
+    "openFolder": "Otwórz",
+    "database": {
+      "title": "Baza danych",
+      "description": "Miejsce lokalnej bazy danych SQLite.",
+      "keywords": "sqlite, plik, ścieżka, archiwum"
+    },
+    "mediaFolder": {
+      "title": "Folder multimediów",
+      "description": "Tutaj zapisywane są zrzuty ekranu, klipy, obrazy z dziennika i pliki do udostępniania. Baza danych biblioteki pozostaje na swoim miejscu.",
+      "keywords": "folder, dysk, stacja, zrzut ekranu, klip, film, przestrzeń, lokalizacja, ścieżka",
+      "change": "Zmień...",
+      "useDefault": "Ustaw domyślnie",
+      "open": "Otwórz folder multimediów",
+      "pickTitle": "Wybierz folder na multimedia"
+    },
+    "local": {
+      "title": "Przechowywanie danych",
+      "description": "Miejsce przechowywania danych",
+      "badge": "Tylko lokalnie"
+    },
+    "backups": {
+      "title": "Przywróć kopię zapasową",
+      "description": "Raz dziennie oraz przed każdą aktualizacją LastSave tworzy kopię zapasową twojej biblioteki i przechowuje je na komputerze.",
+      "empty": "Brak kopii zapasowej",
+      "action": "Przywróć",
+      "openFolder": "Otwórz folder kopii zapasowych",
+      "kind": {
+        "update": "Przed aktualizacją z wersji {{version}}",
+        "daily": "Kopia dzienna"
+      },
+      "confirmTitle": "Przywrócić tę kopię zapasową?"
+    },
+    "igdbCache": {
+      "title": "Pamięć podręczna IGDB",
+      "description": "Wyczyść zapisane dane IGDB: półki, dane selektorów i szczegóły gier.",
+      "keywords": "pamięć podręczna, cache, odśwież, okładki",
+      "action": "Wyczyść pamięć z IGDB"
+    },
+    "usageCounts": {
+      "title": "Uwzględnianie instalacji w statystykach",
+      "description": "Dodaje anonimowy identyfikator do zapytań LastSave o informacje i grafiki gier, co pozwala zliczać instalacje i wykrywać problemy. Twoja biblioteka i aktywność nigdy nie są wysyłane."
+    },
+    "resetLibrary": {
+      "title": "Resetowanie biblioteki",
+      "description": "Usuwa wszystkie gry, dzienniki, sesje, notatki, zrzuty i półki, przywracając LastSave do stanu z dnia instalacji. Profil pozostaje bez zmian.",
+      "action": "Zresetuj bibliotekę",
+      "confirmTitle": "Zresetować bibliotekę?",
+      "acknowledge": "Rozumiem, że tej operacji nie można cofnąć."
+    },
+    "clearEverything": {
+      "title": "Czyszczenie całkowite",
+      "description": "Usuwa całą bazę danych, profil i wszystkie zapisane pliki, a następnie uruchamia LastSave jak po pierwszej instalacji.",
+      "keywords": "ustawienia fabryczne, odinstalowanie, usuwanie",
+      "action": "Wyczyść wszystko",
+      "confirmTitle": "Wyczyścić wszystkie dane i zacząć od zera?",
+      "confirmMessage": "LastSave zostanie zamknięty, usunie wszystkie dane i uruchomi się ponownie z ekranem powitania.",
+      "removes": "Usunięte zostaną: profil, biblioteka, wszystkie ustawienia, połączenia ze Steam, Epic i Xbox, wszystkie zrzuty ekranu i klipy przechowywane przez LastSave oraz ich kopie zapasowe.",
+      "acknowledge": "Rozumiem, że zostaną usunięte wszystkie dane włącznie z moim profilem."
+    }
+  },
+  "about": {
+    "title": "Informacje i pomoc",
+    "subtitle": "Informacje o tej wersji i pomoc w razie problemów.",
+    "groups": {
+      "help": "Pomoc",
+      "legal": "Informacje prawne",
+      "credits": "Autorzy"
+    },
+    "versionPrefix": "wersja {{version}}",
+    "legalVersion": "wersja {{version}}",
+    "readDocument": "Czytaj",
+    "application": {
+      "title": "Aplikacja",
+      "description": "Nazwa i wersja"
+    },
+    "updates": {
+      "title": "Aktualizacje",
+      "description": "LastSave aktualizuje się w tle, a zmiany mają  zastosowanie po ponownym uruchomieniu.",
+      "keywords": "aktualizacja, wersja, ostatni"
+    },
+    "autoDownload": {
+      "title": "Automatyczna aktualizacja",
+      "description": "Pobieraj aktualizacje w tle."
+    },
+    "feedback": {
+      "title": "Zgłaszanie błędów i uwagi",
+      "description": "Zgłoś problem, podziel się opinią lub zaproponuj coś nowego.",
+      "keywords": "błąd, raport, pomysł, wsparcie"
+    },
+    "community": {
+      "title": "Społeczność",
+      "description": "Uzyskaj pomoc i śledź rozwój projektu na Discordzie.",
+      "keywords": "discord, czat, pomoc"
+    },
+    "logs": {
+      "title": "Dziennik diagnostyczny",
+      "description": "Lokalizacja pliku dziennika diagnostycznego LastSave."
+    },
+    "terms": {
+      "title": "Warunki korzystania"
+    },
+    "privacy": {
+      "title": "Polityka prywatności"
+    },
+    "translations": {
+      "title": "Tłumaczenia",
+      "description": "LastSave w Twoim języku, dzięki pracy osób, które je tłumaczą.",
+      "action": "Zobacz autorów",
+      "dialog": {
+        "title": "Autorzy tłumaczeń",
+        "subtitle": "Ludzie, dzięki którym LastSave mówi w różnych językach.",
+        "source": "Oryginalne",
+        "official": "Oficjalne",
+        "footer": "Każde tłumaczenie można ulepszyć na GitHubie lub w LastSave Language Studio.",
+        "help": "Pomóż w tłumaczeniu",
+        "helpHint": "Otwiera poradnik tłumacza na GitHub"
+      }
+    },
+    "igdb": {
+      "title": "Baza IGDB",
+      "description": "Informacje o grach, okładki, zrzuty ekranu",
+      "keywords": "autorzy, igdb, metadane, okładki, dane"
+    },
+    "steamgriddb": {
+      "title": "SteamGridDB",
+      "description": "Banery i logotypy udostępniane przez społeczność oraz grafiki ze sklepu Steam.",
+      "keywords": "autorzy, steamgriddb, steam, grafiki, banery, logotypy"
+    },
+    "visitProvider": "Odwiedź {{name}}",
+    "visit": "Odwiedź"
+  },
+  "support": {
+    "title": "Wesprzyj LastSave",
+    "subtitle": "Darmowy, tworzony przez jednego programistę i rozwijany dzięki wsparciu użytkowników.",
+    "groups": {
+      "spread": "Poleć innym"
+    },
+    "tip": {
+      "title": "Podoba ci się LastSave?",
+      "description": "LastSave rozwija jeden twórca, aktualizacja po aktualizacji. Jeśli pomaga Ci nadrabiać zaległości i wracać do ulubionych gier, napiwek wesprze dalszy rozwój i wiele dla niego znaczy.",
+      "action": "Wesprzyj LastSave",
+      "via": "Otwiera stronę {{platform}} w przeglądarce."
+    },
+    "star": {
+      "title": "Daj gwiazdkę na GitHubie",
+      "description": "Gwiazdka pomoże innym graczom dowiedzieć się o LastSave",
+      "keywords": "github, gwiazdka, repozytorium, udostępnij",
+      "action": "Gwiazdka na GitHubie"
+    },
+    "discord": {
+      "title": "Dołącz do społeczności",
+      "description": "Rozmawiaj o grach, dziel się pomysłami i pomagaj rozwijać projekt.",
+      "keywords": "discord, społeczność, czat, serwer"
+    },
+    "follow": {
+      "title": "Śledź postępy",
+      "description": "Nowości, zapowiedzi i plany na przyszłość.",
+      "keywords": "media społecznościowe, x, twitter, bluesky, instagram, wątki, youtube, tiktok, twitch, reddit, strony internetowe",
+      "open": "LastSave w {{network}}"
+    }
+  },
+  "closeBehavior": {
+    "dialog": {
+      "title": "Pozostawić LastSave uruchomione?",
+      "description": "Wykrywa sesje gry tylko wtedy, gdy jest uruchomiony. Minimalizacja przenosi go do zasobnika systemowego.",
+      "minimize": "Minimalizuj",
+      "quit": "Zamknij",
+      "hint": "Możesz to później zmienić w ustawieniach."
+    },
+    "tray": {
+      "open": "Otwórz LastSave",
+      "quit": "Wyjdź z LastSave",
+      "paused": "Wstrzymany - {{title}}"
+    }
+  }
+}

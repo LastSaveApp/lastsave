@@ -393,6 +393,8 @@
     "noCaptures": "Nothing was captured this session.",
     "unfiledBecomeJournal": "What you do not file is saved as a journal entry.",
     "discard": "Discard session",
+    "saveAndClose": "Save and close",
+    "discardDetail": "The tracked time is dropped, nothing is logged, and the game won't show as recently played.",
     "saved_one": "Session saved · {{duration}} · {{count}} log",
     "saved_other": "Session saved · {{duration}} · {{count}} logs"
   },

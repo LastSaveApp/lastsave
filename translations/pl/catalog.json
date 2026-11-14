@@ -1,0 +1,348 @@
+{
+  "adultCover": {
+    "badge": "18+",
+    "label": "Gry dla dorosłych: ich okładki są ukryte. Ustawienia - Ogólne - Zawartość"
+  },
+  "sourceBadges": {
+    "fromIgdb": "Dane z IGDB"
+  },
+  "search": {
+    "searching": "Wyszukiwanie...",
+    "clearSearch": "Wyczyść"
+  },
+  "company": {
+    "logoAlt": "Logotyp {{name}}",
+    "foundedYear": "Założona w {{year}}",
+    "statusUnknown": "Status nieznany",
+    "locationUnknown": "Brak danych",
+    "summary": "{{founded}} - {{developed}} stworzonych - {{published}} wydanych",
+    "openDetails": "Otwórz szczegóły {{name}}"
+  },
+  "event": {
+    "about": "O wydarzeniu",
+    "ongoing": "Trwające",
+    "upcoming": "Nadchodzące",
+    "upcomingIn": "Rozpoczęcie {{distance}}",
+    "dateUnknown": "Data nieznana",
+    "ended": "Zakończone",
+    "info": "Informacje",
+    "allYears": "Wszystkie lata",
+    "filterByYear": "Filtruj wydarzenia według roku",
+    "previousDecade": "Poprzednia dekada",
+    "nextDecade": "Następna dekada",
+    "livestream": "Transmisja na żywo",
+    "livestreamTitle": "Transmisja na żywo",
+    "links": "Odnośniki",
+    "watchYoutube": "Obejrzyj w YouTube"
+  },
+  "eventModal": {
+    "title": "Gry według wydarzenia",
+    "searchPlaceholder": "Wyszukaj wydarzeń w IGDB...",
+    "loadError": "Błąd podczas ładowania wydarzeń z IGDB.",
+    "currentSelection": "Obecny wybór",
+    "noneSelected": "Nie wybrano wydarzeń",
+    "noMatchFilters": "Żadne wydarzenia nie spełniają wybranych kryteriów",
+    "noResults": "Nie znaleziono wydarzeń"
+  },
+  "companyDetail": {
+    "title": "Szczegóły firmy",
+    "about": "O firmie",
+    "formerlyKnownAs": "Wcześniej znana jako",
+    "parentCompany": "Firma macierzysta",
+    "studiosSubsidiaries": "Studia i spółki zależne",
+    "collapse": "Zwiń",
+    "expand": "Rozwiń",
+    "website": "Strona internetowa",
+    "employees": "{{size}} pracowników",
+    "more": "+ {{count}} więcej",
+    "selectCompany": "Wybierz (Firmę)",
+    "until": "do {{year}}",
+    "since": "od {{year}}",
+    "changedTo": {
+      "merged": "Połączono z",
+      "renamed": "Przemianowano na"
+    },
+    "relationKinds": {
+      "studio": "Studio"
+    },
+    "types": {
+      "1": "Firma główna",
+      "2": "Oddział",
+      "3": "Firma zależna",
+      "4": "Firma dominująca"
+    }
+  },
+  "companies": {
+    "title": "Najlepsze według firmy",
+    "searchPlaceholder": "Wyszukaj firm w IGDB...",
+    "noResults": "Nie znaleziono żadnej firmy",
+    "currentSelection": "Obecny wybór",
+    "noneSelected": "Nie wybrano firmy"
+  },
+  "sagas": {
+    "title": "Najlepsze sagi",
+    "searchPlaceholder": "Wyszukaj sag w bazie IGDB...",
+    "noResults": "Nie znaleziono żadnej z sag",
+    "currentSelection": "Obecny wybór",
+    "noneSelected": "Nie wybrano żadnej sagi",
+    "gameCount_one": "{{count}} gra",
+    "gameCount_few": "{{count}} gry",
+    "gameCount_many": "{{count}} gier",
+    "gameCount_other": "{{count}} gier"
+  },
+  "labels": {
+    "tba": "Zostanie ogłoszona"
+  },
+  "gameForm": {
+    "titleAdd": "Ręczne dodawanie gry do katalogu",
+    "titleEdit": "Edytuj  lokalne metadane",
+    "pickCoverTitle": "Wybierz zdjęcie okładki z dysku",
+    "coverPreviewAlt": "Podgląd okładki",
+    "cover": "Okładka",
+    "coverHint": "Adres URL lub plik lokalny",
+    "pick": "Wybierz",
+    "coverUrl": "Adres URL okładki",
+    "urlPlaceholder": "https://...",
+    "localCoverPath": "Ścieżka lokalna okładki",
+    "coverPathPlaceholder": "C:\\ściezka\\okladka.png",
+    "background": "Tło",
+    "backgroundHint": "Szeroka grafika na stronie szczegółów gry",
+    "backgroundPreviewAlt": "Podgląd tła",
+    "noBackground": "Nie wybrano tła",
+    "backgroundUrl": "URL tła",
+    "localBackgroundPath": "Ścieżka lokalna tła",
+    "backgroundPathPlaceholder": "C:\\sciezka\\tlo.png",
+    "screenshotsHint": "Zrzuty ekranu zapisane lokalnie lub dostępne pod adresami internetowymi.",
+    "addLocalScreenshot": "Dodaj zdjęcia z dysku",
+    "remoteScreenshotUrls": "Adres URL do zrzutów ekranu",
+    "remoteScreenshotPlaceholder": "Każdy adres URL w osobnej linii",
+    "localScreenshotPaths": "Ścieżka lokalna do zrzutów ekranu",
+    "localScreenshotPlaceholder": "Każda ścieżka do pliku w osobnej linii",
+    "screenshotPreviewAlt": "Podgląd zrzutu ekranu {{number}}",
+    "remoteUrl": "Adres URL",
+    "localFile": "Plik lokalny",
+    "title": "Tytuł",
+    "releaseYear": "Rok wydania",
+    "releaseDate": "Data wydania (RRRR-MM-DD)",
+    "gameType": "Rodzaj gry",
+    "gameStatus": "Status gry",
+    "parentBaseGame": "Pierwowzór / Gra główna",
+    "parentHint": "Dodatki i rozszerzenia wymagają gry głównej. Możesz wskazać ją lokalnie lub z bazy IGDB i w razie potrzeby ją utworzymy.",
+    "sourceIgdb": "IGDB",
+    "searchParentPlaceholder": "Wyszukiwanie pierwowzoru...",
+    "franchise": "Marka",
+    "notes": "Notatka",
+    "saving": "Zapisywanie...",
+    "saveChanges": "Zapisz zmiany",
+    "addGame": "Dodaj grę",
+    "materializeFailed": "Nie udało się utworzyć wybranego pierwowzoru.",
+    "fields": {
+      "genres": "Gatunki (CSV)",
+      "themes": "Tematyka (CSV)",
+      "gameModes": "Tryby gry (CSV)",
+      "platforms": "Platformy (CSV)",
+      "developers": "Twórcy (CSV)",
+      "publishers": "Wydawcy (CSV)",
+      "collections": "Kolekcje (CSV)"
+    },
+    "placeholders": {
+      "genres": "Action, RPG, Indie",
+      "themes": "Fantasy, Sci-Fi",
+      "gameModes": "Single player, Co-op",
+      "platforms": "PC, PS5, Xbox Series",
+      "developers": "FromSoftware",
+      "publishers": "Bandai Namco",
+      "collections": "Dark Souls Collection",
+      "franchise": "Dark Souls"
+    },
+    "types": {
+      "notSpecified": "Nieokreślony",
+      "mainGame": "Gra główna",
+      "dlc": "Dodatek",
+      "expansion": "Rozszerzenie",
+      "standaloneExpansion": "Samodzielne rozrzerzenie",
+      "remake": "Odnowienie",
+      "remaster": "Odświeżenie",
+      "port": "Port",
+      "bundle": "Kolekcja",
+      "episode": "Epizod",
+      "season": "Sezon",
+      "mod": "Modyfikacja",
+      "update": "Aktualizacja",
+      "expandedGame": "Wersja rozszerzona"
+    },
+    "statuses": {
+      "notSpecified": "Nieokreślony",
+      "released": "Wydana",
+      "alpha": "Alfa",
+      "beta": "Beta",
+      "earlyAccess": "Wczesny dostęp",
+      "offline": "Offline",
+      "cancelled": "Anulowana",
+      "rumored": "Zapowiedziana",
+      "delisted": "Wycofana"
+    }
+  },
+  "mediaCard": {
+    "alreadyAdded": "Dodana",
+    "addToLibrary": "Dodaj do biblioteki",
+    "gameDetails": "Szczegóły gry"
+  },
+  "detail": {
+    "alreadyInLibrary": "W bibliotece",
+    "addToLibrary": "Dodaj do biblioteki",
+    "editLocal": "Edytuj lokalne metadane",
+    "materializeEdit": "Edytuj dane gry",
+    "syncFromIgdb": "Synchronizuj z  IGDB",
+    "openIn": "Otwórz w",
+    "summary": "Opis",
+    "screenshots": "Zrzuty ekranu",
+    "screenshotAlt": "Zrzut numer {{number}}",
+    "videos": "Filmy",
+    "scrollVideosLeft": "Przewiń filmy w lewo",
+    "scrollVideosRight": "Przewiń filmy w prawo",
+    "parentGame": "Pierwowzór",
+    "noParentGame": "Nie podłączono do pierwowzoru.",
+    "dlcsExpansions": "Dodatki / Rozszerzenia",
+    "ratings": "Oceny",
+    "userRating": "Ocena użytkowników",
+    "criticRating": "Ocena krytyków",
+    "typeOfGame": "Rodzaj gry",
+    "platforms": "Platformy",
+    "timeToBeat": "Czas ukończenia",
+    "sections": {
+      "genres": "Gatunki",
+      "themes": "Tematyka",
+      "gameModes": "Tryby gry",
+      "developers": "Twórcy",
+      "publishers": "Wydawcy",
+      "collections": "Kolekcje"
+    }
+  },
+  "discoverModal": {
+    "poweredBy": "Dane dzięki",
+    "close": "Zamknij {{title}}",
+    "igdbCredits": "Dane i materiały multimedialne pochodzą z API IGDB i służą do identyfikacji gier. Ta aplikacja jest niezależna i nie jest powiązana z żadnym z przedstawionych twórców, wydawców ani marek, ani przez nich sponsorowana czy wspierana."
+  },
+  "platforms": {
+    "title": "Ikony platform",
+    "searchPlaceholder": "Wyszukaj platformy w IGDB...",
+    "noResults": "Nie znaleziono platform",
+    "currentSelection": "Obecny wybór",
+    "clearSelection": "Odznacz wybraną platformę",
+    "noneSelected": "Nie wybrano platformy",
+    "generation": "{{number}} generacja"
+  },
+  "timeMachine": {
+    "title": "Wehikuł czasu",
+    "quickDecades": "Według dekad",
+    "previousYear": "Poprzedni rok",
+    "selectedYear": "Wybrany rok",
+    "nextYear": "Następny rok"
+  },
+  "actions": {
+    "clear": "Wyczyść"
+  },
+  "catalogPage": {
+    "title": "Odkrywaj",
+    "subtitle": "Odkrywaj najnowsze gry, nadchodzące premiery i ponadczasowe klasyki.",
+    "addGame": "Dodaj grę",
+    "filter": "Filtr",
+    "seeMore": "Zobacz więcej",
+    "resultCount_one": "{{count}} pozycja",
+    "resultCount_few": "{{count}} pozycje",
+    "resultCount_many": "{{count}} pozycji",
+    "resultCount_other": "{{count}} pozycji",
+    "searchPlaceholders": {
+      "filterGames": "Filtruj gry...",
+      "filterNamed": "Filtruj spośród gier {{label}}...",
+      "searchAll": "Przeszukaj IGDB + lokalną bazę..."
+    },
+    "rails": {
+      "latest": "Ostatnio wydane",
+      "trending": "Na czasie",
+      "anticipated": "Nadchodzące premiery",
+      "topPopular": "Najpopularniejsze"
+    },
+    "exploreTitles": {
+      "timeMachineYear": "Najlepsze gry {{year}} roku",
+      "timeMachineRange": "Najlepsze gry z lat {{range}}",
+      "timeMachineResults": "Wyniki wehikułu czasu",
+      "gamesFromEvent": "Gry pokazane na {{name}}",
+      "bestByCompany": "Najlepsze gry od {{name}}",
+      "bestForGenre": "Najlepsze gry z {{label}}",
+      "bestInSaga": "Najlepszy gry z serii {{name}}"
+    },
+    "sections": {
+      "yourGames": "Twoje gry"
+    },
+    "empty": {
+      "noMatchFilter": "Żadne gry nie pasują do tego filtra",
+      "noMatchFilterHint": "Zmień filtr lub wyczyść bieżący wybór."
+    },
+    "genreSummary": {
+      "genre_one": "{{count}} gatunku",
+      "genre_few": "{{count}} gatunków",
+      "genre_many": "{{count}} gatunków",
+      "genre_other": "{{count}} gatunku"
+    },
+    "filters": {
+      "title": "Filtry katalogu",
+      "subtitle": "Zawęź rezultat szukania",
+      "reset": "Resetuj",
+      "gameType": "Rodzaj gry",
+      "allGameTypes": "Wszystkie rodzaje",
+      "platforms": "Platformy",
+      "allPlatforms": "Wszystkie platformy",
+      "searchPlatforms": "Wyszukaj platformy...",
+      "genres": "Gatunki",
+      "allGenres": "Wszystkie gatunki",
+      "searchGenres": "Wyszukaj gatunki...",
+      "releaseYear": "Rok wydania"
+    },
+    "bento": {
+      "timeMachine": {
+        "title": "Wehikuł czasu",
+        "description": "Najlepsze gry danego roku"
+      },
+      "companies": {
+        "title": "Najlepsze według wydawców",
+        "description": "Najlepsze według studia"
+      },
+      "genres": {
+        "title": "Najlepsze z danego gatunku",
+        "description": "Gry, które definiują gatunek"
+      },
+      "platforms": {
+        "title": "Znaczące platformy",
+        "description": "Najlepsze dla danej platformy"
+      },
+      "events": {
+        "title": "Wydarzenia",
+        "description": "Gry z najważniejszych wydarzeń branżowych"
+      },
+      "gotys": {
+        "title": "Gry roku",
+        "description": "Zdobywcy nagród"
+      },
+      "sagas": {
+        "title": "Najlepsze sagi",
+        "description": "Filary branży growej"
+      }
+    }
+  },
+  "genre": {
+    "title": "Najlepsze z gatunku",
+    "searchPlaceholder": "Wyszukaj gatunki, tematykę, tryby gry i perspektywy…",
+    "noResults": "Nie znaleziono gatunków, taktyki, trybów gry ani perspektyw",
+    "noneSelected": "Nie wybrano gatunków, tematyki, trybów gry ani perspektywy.",
+    "selected": "Wybrane",
+    "selectedCount": "Wybrano ({{count}})",
+    "kinds": {
+      "genre": "Gatunek",
+      "theme": "Tematyka",
+      "playerPerspective": "Perspektywa",
+      "gameMode": "Tryb gry"
+    }
+  }
+}

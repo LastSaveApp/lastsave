@@ -110,7 +110,8 @@
     "openSteamSyncOptions": "Opciones de sincronización de Steam",
     "openEpicSyncOptions": "Opciones de sincronización de Epic",
     "openXboxSyncOptions": "Opciones de sincronización de Xbox",
-    "showWholeEntry": "Ver todo {{title}}"
+    "showWholeEntry": "Ver todo {{title}}",
+    "fullPage": "Pantalla completa"
   },
   "stats": {
     "status": "Estado",
@@ -183,6 +184,9 @@
     "expansion_one": "{{count}} expansión",
     "expansion_many": "{{count}} expansiones",
     "expansion_other": "{{count}} expansiones",
+    "mod_one": "{{count}} mod",
+    "mod_many": "{{count}} mods",
+    "mod_other": "{{count}} mods",
     "sessions_one": "{{count}} sesión",
     "sessions_many": "{{count}} sesiones",
     "sessions_other": "{{count}} sesiones"
@@ -291,6 +295,9 @@
   "deleteLog": {
     "title": "¿Eliminar la entrada?",
     "message": "La entrada se borrará para siempre, y si cambiaba el estado o el tiempo de juego, se recalcula el resumen de tu biblioteca.",
+    "sessionMessage_one": "Esta sesión se borrará para siempre, con su tiempo. Su entrada de diario o logro se queda en la actividad del juego.",
+    "sessionMessage_other": "Esta sesión se borrará para siempre, con su tiempo. Sus {{count}} entradas de diario y logros se quedan en la actividad del juego.",
+    "sessionMessage_many": "Esta sesión se borrará para siempre, con su tiempo. Sus {{count}} entradas de diario y logros se quedan en la actividad del juego.",
     "deleting": "Eliminando…",
     "confirm": "Eliminar entrada"
   },

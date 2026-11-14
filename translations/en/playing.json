@@ -334,8 +334,9 @@
     "saved_other": "Session saved with {{count}} entries.",
     "partialFailure_one": "Session saved, but {{count}} item could not be filed. It stays in your captures.",
     "partialFailure_other": "Session saved, but {{count}} items could not be filed. They stay in your captures.",
-    "confirmDiscardMessage": "The tracked time is dropped and nothing is logged. Whatever this session gathered stays on disk, unfiled.",
+    "confirmDiscardMessage": "The tracked time is dropped, nothing is logged, and the game won't show as recently played. Whatever this session gathered stays on disk, unfiled.",
     "toBeLogged": "to be logged",
+    "close": "Close and save",
     "tally": {
       "screenshots_one": "{{count}} screenshot",
       "screenshots_other": "{{count}} screenshots",

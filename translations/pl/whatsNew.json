@@ -1,0 +1,12 @@
+{
+  "title": "Co nowego?",
+  "versionTitle": "Co nowego w {{version}}",
+  "version": "Wersja {{version}}",
+  "otherVersions": "Wcześniejsze wersje",
+  "fullChangelog": "Pełna lista zmian",
+  "joinDiscord": "Dołącz do naszego Discorda",
+  "footer": "Dołącz do Discorda",
+  "support": "Wesprzyj LastSave",
+  "gotIt": "Rozumiem",
+  "open": "Co nowego w wersji {{version}}"
+}

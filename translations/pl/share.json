@@ -1,0 +1,157 @@
+{
+  "dialog": {
+    "title": "Udostępnij wpis",
+    "titleReview": "Udostępnianie recenzji ",
+    "titleGame": "Udostępnianie gry",
+    "subtitle": "{{game}} · {{type}}"
+  },
+  "variants": {
+    "card": "Karta",
+    "video": "Karta",
+    "original": "Oryginał"
+  },
+  "status": {
+    "generatingCard": "Generowanie karty",
+    "renderingVideo": "Renderowanie filmu",
+    "renderingPercent": "{{percent}} %",
+    "videoCancelled": "Renderowanie anulowane",
+    "readyMeta": {
+      "image": "{{width}} x {{height}} · {{format}} · {{size}}",
+      "originalVideo": "{{width}} x {{height}} · {{format}} · {{ duration}} · {{size}}"
+    }
+  },
+  "errors": {
+    "card": "Nie udało się wygenerować karty.",
+    "video": "Nie udało się wyrenderować filmu.",
+    "copy": "Nie udało się skopiować do schowka."
+  },
+  "card": {
+    "chips": {
+      "journal": "Dziennik",
+      "sessionWithDuration": "Sesja · {{duration}}",
+      "review": "Moja recenzja",
+      "game": "Gra"
+    },
+    "reviewRating": "{{rating}} / 10",
+    "ratingOutOf": "/ 10",
+    "mark": "LastSave",
+    "markSecond": "Zapisz"
+  },
+  "image": {
+    "label": "Jakość zdjęcia",
+    "presets": {
+      "compressed": "Skompresowana",
+      "lossless": "Bezstratna"
+    },
+    "presetHints": {
+      "compressed": "JPG - na tyle lekki, by wysłać go na czacie.",
+      "lossless": "PNG - co do piksela, kilkukrotnie większy rozmiar"
+    }
+  },
+  "video": {
+    "presets": {
+      "quality": "Jakość",
+      "compressed": "Skompresowana"
+    },
+    "presetHints": {
+      "quality": "Najlepszy obraz · dowolna długość",
+      "compressed": "Do 2 minut · poniżej 20 MB"
+    },
+    "trim": {
+      "window": "Zaznaczona część klipu",
+      "startHandle": "Początek zaznaczonego fragmentu",
+      "endHandle": "Koniec zaznaczonego fragmentu",
+      "range": "{{start}} - {{end}}",
+      "selected": "{{selected}} z {{total}} · do {{max}}"
+    },
+    "estimate": "≈ {{size}}",
+    "cancel": "Anuluj renderowanie",
+    "retry": "Spróbuj ponownie"
+  },
+  "description": {
+    "label": "Opis",
+    "context": {
+      "journal": "{{game}} · Dziennik · zanotowano w LastSave",
+      "sessionWithDuration": "{{game}} · czas sesji {{duration}} · zarejestrowano w LastSave",
+      "review": "{{game}} · {{rating}} /10 · zrecenzowano z LastSave."
+    },
+    "cta": "Pobierz z {{site}}"
+  },
+  "actions": {
+    "copyCard": "Skopiuj kartę",
+    "copyVideo": "Skopiuj film",
+    "copyOriginal": "Skopiuj oryginał",
+    "copyDescription": "Skopiuj opis",
+    "showInFolder": "Pokaż w folderze",
+    "drag": "Przeciągnij, aby udostępnić",
+    "dragHint": "Przeciągnij podgląd na okno czatu"
+  },
+  "footer": {
+    "pasteAnywhere": "Wklej gdzie chcesz"
+  },
+  "sizes": {
+    "mb": "{{value}} MB",
+    "kb": "{{value}} KB"
+  },
+  "time": {
+    "seconds": "{{value}} s"
+  },
+  "gameCard": {
+    "stats": {
+      "played": "czasu gry",
+      "sessions_one": "sesja",
+      "sessions_few": "sesje",
+      "sessions_many": "sesji",
+      "sessions_other": "sesji",
+      "achievements_one": "osiągnięcie",
+      "achievements_few": "osiągnięcia",
+      "achievements_many": "osiągnięć",
+      "achievements_other": "osiągnięć"
+    },
+    "description": {
+      "played": "{{duration}} czasu gry",
+      "context": "{{details}} · rejestrowane przez LastSave"
+    },
+    "showProfile": "Pokaż mój profil",
+    "captions": {
+      "impression": "Wrażenia"
+    }
+  },
+  "profileCard": {
+    "dialogTitle": "Udostępnij profil",
+    "backgroundLabel": "Tło",
+    "backgrounds": {
+      "steam": "Steam",
+      "game": "Najczęściej grane",
+      "last": "Ostatnio grane",
+      "plain": "Czyste"
+    },
+    "stats": {
+      "games_one": "Gra",
+      "games_few": "Gry",
+      "games_many": "Gier",
+      "games_other": "Gier",
+      "hours": "Godzin",
+      "logs_one": "Wpis",
+      "logs_few": "Wpisy",
+      "logs_many": "Wpisów",
+      "logs_other": "Wpisów"
+    },
+    "sections": {
+      "mostPlayed": "Najczęściej grane",
+      "favorites": "Ulubione",
+      "library": "Biblioteka",
+      "shelves": "Półki",
+      "lastPlayed": "Ostatnio grane",
+      "journeys": "Szlaki"
+    },
+    "description": {
+      "headline_one": "{{nickname}} na LastSave: {{games}} gra, {{hours}} rozegranych godzin",
+      "headline_few": "{{nickname}} na LastSave: {{games}} gry, {{hours}} rozegranych godzin",
+      "headline_many": "{{nickname}} na LastSave: {{games}} gier, {{hours}} rozegranych godzin",
+      "headline_other": "{{nickname}} na LastSave: {{games}} gier, {{hours}} rozegranych godzin",
+      "findMe": "Dodaj mnie: {{accounts}}"
+    },
+    "showPc": "Pokaż mój komputer"
+  }
+}

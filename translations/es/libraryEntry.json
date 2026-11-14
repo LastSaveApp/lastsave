@@ -313,5 +313,22 @@
   },
   "inBundle": {
     "note": "También está en {{title}}. Así queda como un juego aparte, con su propio historial."
+  },
+  "mods": {
+    "title": "Mods",
+    "selected_one": "{{count}} elegido",
+    "selected_many": "{{count}} elegidos",
+    "selected_other": "{{count}} elegidos",
+    "available_one": "{{count, number}} disponible",
+    "available_many": "{{count, number}} disponibles",
+    "available_other": "{{count, number}} disponibles",
+    "none": "Ninguno listado",
+    "hint": "Los mods de aquí viven dentro de esta entrada, cada uno con su estado y sus horas. Para jugar uno como juego propio, añádelo desde la búsqueda.",
+    "actions": {
+      "browse": "Ver mods",
+      "browseCount_one": "Ver {{count, number}} mod",
+      "browseCount_many": "Ver {{count, number}} mods",
+      "browseCount_other": "Ver {{count, number}} mods"
+    }
   }
 }

@@ -64,7 +64,8 @@
       "whatPlaying": "Abre el tablero de tu estantería y pasa a Jugando un juego que estés jugando estos días.",
       "story": "Abre un juego y escribe una línea en su diario. Tu movimiento en el tablero ya está ahí.",
       "pressStart": "Abre un juego desde LastSave. El overlay te mostrará el resto.",
-      "saveSession": "Cierra el juego cuando termines y guarda la sesión."
+      "saveSession": "Cierra el juego cuando termines y guarda la sesión.",
+      "meetLibrary": "Encuentra tus juegos y entra en Tablero y en Panel."
     }
   },
   "welcome": {
@@ -97,6 +98,7 @@
     "stop": "Parar",
     "close": "Cerrar",
     "ack": "Entendido",
+    "skip": "Saltar",
     "waiting": "Te esperamos",
     "pressHint": "Haz clic en el botón resaltado para seguir",
     "shortcut": {
@@ -106,7 +108,8 @@
     "missingTitle": "Esto no está en pantalla ahora",
     "missingBody": "Algo lo tapa, o todavía no está disponible. Vuelve a intentarlo desde Ayuda cuando quieras.",
     "stepOf": "Paso {{current}} de {{total}}",
-    "done": "Listo. Bien hecho."
+    "done": "Listo. Bien hecho.",
+    "whatsNew": "Novedades"
   },
   "quest": {
     "fraction": "{{current}}/{{total}}",
@@ -152,7 +155,7 @@
         "body": "Haz clic en Vista para cambiar cómo se muestran estos juegos."
       },
       "board": {
-        "title": "Elige Tablero",
+        "title": "Cambia a Tablero",
         "body": "El tablero muestra tus juegos en columnas por estado, como una lista de pendientes que puedes arrastrar."
       },
       "drag": {
@@ -185,7 +188,11 @@
     "writeJournal": {
       "game": {
         "title": "Abre un juego",
-        "body": "Cada juego tiene su página, con su historia hasta ahora. Haz clic en este para abrirlo."
+        "body": "Haz clic en un juego para abrir su página, con toda su historia."
+      },
+      "launcher": {
+        "title": "O ve directo",
+        "body": "Desde cualquier pantalla, Ctrl+K o esta barra te lleva a cualquier juego: escribe su nombre y presiona Enter."
       },
       "activity": {
         "title": "Cada juego guarda una historia",
@@ -273,6 +280,42 @@
         "title": "Créala",
         "body": "Presiona Crear misión. Se completa sola mientras juegas: no hay nada que marcar."
       }
+    },
+    "libraryNew": {
+      "toolbar": {
+        "title": "Filtrar, Agrupar y Ordenar viven aquí",
+        "body": "Dentro de la barra de búsqueda. Agrupar muestra el grupo que usas y Ordenar el orden, y Filtrar también elige estanterías."
+      },
+      "panel": {
+        "title": "Nuevo: vista Panel",
+        "body": "Tus juegos en una lista a la izquierda y la página del juego a la derecha, como un launcher. Cámbiate y échale un ojo: Cuadrícula, Lista y Tablero siguen a un clic."
+      },
+      "panelView": {
+        "title": "Esto es Panel",
+        "body": "Elige un juego a la izquierda y su página se abre aquí mismo. ¿Te gusta? Quédate. Cuadrícula, Lista y Tablero siguen en estos iconos."
+      },
+      "launcher": {
+        "title": "Cualquier juego, desde donde sea",
+        "body": "Presiona Ctrl+K y escribe unas letras. Enter abre la página del juego, Ctrl+Enter lo juega."
+      }
+    },
+    "meetLibrary": {
+      "toolbar": {
+        "title": "Encuentra lo que sea",
+        "body": "Busca por nombre, género o estudio, o presiona Ctrl+K en cualquier pantalla. Filtrar acota, Agrupar reparte en secciones y Ordenar pone orden."
+      },
+      "board": {
+        "title": "Tablero: tus estados en columnas",
+        "body": "Tus juegos en columnas por estado, de Por jugar a Completado, y los arrastras de una a otra. Cámbiate a él."
+      },
+      "panel": {
+        "title": "Y Panel, como un launcher",
+        "body": "Una lista a la izquierda y la página del juego a la derecha. Cámbiate a él: Cuadrícula, Lista y Tablero siguen en estos iconos."
+      },
+      "panelView": {
+        "title": "Esto es Panel",
+        "body": "Elige un juego a la izquierda y su página se abre aquí mismo. Cuadrícula, Lista y Tablero están en estos iconos cuando los quieras."
+      }
     }
   },
   "articles": {
@@ -300,6 +343,10 @@
       "saveSession": {
         "title": "Guarda la sesión",
         "body": "Cuando cierras el juego, LastSave cierra la sesión: el tiempo, tus capturas y una nota. Guárdala y queda en el historial del juego, listo."
+      },
+      "meetLibrary": {
+        "title": "Conoce tu biblioteca",
+        "body": "Tus juegos en cuadrícula, en lista, en un tablero por estado o en un panel junto a la página de cada juego. Busca, filtra, agrupa y ordena desde una sola barra."
       }
     },
     "library": {
@@ -336,11 +383,24 @@
       },
       "views": {
         "title": "Búsqueda, filtros y vistas",
-        "body": "Buscar encuentra juegos por nombre, género o estudio. Filtrar acota por estado, origen o género, y Vista cambia entre tarjetas, lista y tablero. Pon unos filtros y presiona Guardar filtro, junto a Quitar todo, para guardarlos con un nombre: te esperan en Filtrar, en Tus filtros, en la Biblioteca y en cada estantería."
+        "body": "Buscar encuentra juegos por nombre, género o estudio. Filtrar, Agrupar y Ordenar están dentro de la barra de búsqueda: Filtrar acota por estado, origen, estantería y más, Agrupar reparte los juegos en secciones que puedes plegar, y Ordenar los pone en orden. Instalados, al inicio de la fila de abajo, muestra solo lo que está en este PC. Pon unos filtros y presiona Guardar filtro para guardarlos con un nombre, en la Biblioteca y en cada estantería.",
+        "step1": "Cuadrícula muestra las portadas, Lista los detalles y Tablero tus estados en columnas.",
+        "step2": "Panel pone tus juegos en una lista a la izquierda y abre la página de cada uno a la derecha, como un launcher.",
+        "step3": "Los cuatro iconos al final de la barra cambian entre ellas. Cada estantería recuerda la suya."
       },
       "dlc": {
         "title": "DLC y expansiones",
         "body": "Las expansiones viven dentro de su juego base en lugar de como juegos aparte. Sus horas y entradas cuentan para el juego al que pertenecen."
+      },
+      "whatsNew": {
+        "title": "Novedades de la Biblioteca",
+        "body": "Filtrar, Agrupar y Ordenar se mudaron dentro de la barra de búsqueda, y Filtrar ya puede elegir estanterías. Panel es una vista nueva: una lista junto a la página del juego, como un launcher. Y Ctrl+K encuentra cualquier juego desde cualquier pantalla."
+      },
+      "quickLauncher": {
+        "title": "Busca o lanza con Ctrl+K",
+        "body": "Desde cualquier pantalla, Ctrl+K (o la barra de arriba de la ventana) encuentra un juego de tu biblioteca por su nombre o sus iniciales. También salen los juegos del catálogo de LastSave, e IGDB solo se busca cuando lo pides.",
+        "step1": "Presiona Ctrl+K y escribe unas letras.",
+        "step2": "Enter abre la página del juego. Ctrl+Enter lo juega."
       }
     },
     "organize": {
@@ -351,8 +411,8 @@
       "board": {
         "title": "El tablero",
         "body": "El tablero muestra tu biblioteca en columnas por estado. Arrastra un juego a otra columna y LastSave anota el cambio, con sus horas.",
-        "step1": "En la Biblioteca, haz clic en Vista.",
-        "step2": "Elige Tablero.",
+        "step1": "En la Biblioteca, busca los iconos de vista junto a Ordenar.",
+        "step2": "Elige Tablero, el último.",
         "step3": "Arrastra un juego a otra columna."
       },
       "shelves": {

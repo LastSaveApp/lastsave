@@ -168,24 +168,33 @@
     "releaseYear": "Año de lanzamiento",
     "developer": "Desarrollador",
     "publisher": "Distribuidor",
-    "collection": "Saga"
+    "collection": "Saga",
+    "availability": "Disponibilidad",
+    "shelf": "Estantería",
+    "journey": "Misión"
   },
   "groupKey": {
     "allGames": "Todos los juegos",
-    "unknownYear": "Año desconocido"
+    "unknownYear": "Año desconocido",
+    "installed": "Instalados",
+    "notInstalled": "No instalados",
+    "notOwned": "No los tienes",
+    "noShelf": "Sin estantería",
+    "noJourney": "Sin misión"
   },
   "toolbar": {
     "searchPlaceholder": "Buscar juegos, géneros, desarrolladores…",
     "filter": "Filtrar",
     "view": "Vista",
     "collection": "Colección",
-    "collectionHint": "Vista, agrupación y orden.",
+    "collectionHint": "Cómo se muestra esta colección.",
     "reset": "Restablecer",
     "viewMode": "Modo de vista",
     "modes": {
-      "cards": "Tarjetas",
+      "cards": "Cuadrícula",
       "list": "Lista",
-      "board": "Tablero"
+      "board": "Tablero",
+      "panel": "Panel"
     },
     "grouping": "Agrupar",
     "sort": "Ordenar",
@@ -215,19 +224,8 @@
     "overridesActive_other": "{{count}} juegos con su propio ajuste.",
     "containedHint": "Muestra los DLC y expansiones dentro de su juego base.",
     "separatedHint": "Muestra los DLC y expansiones como elementos propios.",
-    "shelves": "Estanterías",
-    "shelvesShow": "Mostrar juegos en estanterías",
-    "shelvesHide": "Ocultar juegos en estanterías",
-    "shelvesShowHint": "Muestra todos los juegos de la Biblioteca, también los que ya están en estanterías.",
-    "shelvesHideHint": "Oculta los juegos de la Biblioteca que estén en alguna estantería.",
-    "shelvesCustomHint_one": "{{count}} estantería oculta en la Biblioteca.",
-    "shelvesCustomHint_many": "{{count}} estanterías ocultas en la Biblioteca.",
-    "shelvesCustomHint_other": "{{count}} estanterías ocultas en la Biblioteca.",
     "boardColumns": "Columnas del tablero",
     "boardColumnsHint": "Arrastra para reordenar. Haz clic para ocultar o mostrar.",
-    "noShelves": "Todavía no hay estanterías.",
-    "hidden": "Oculta",
-    "shown": "Visible",
     "quickStatusAll": "Todos",
     "sections": {
       "layout": "Diseño",
@@ -249,7 +247,20 @@
       "unfold": "Mostrar de qué está hecho este filtro",
       "fold": "Ocultar de qué está hecho este filtro",
       "takeOff": "Quitar {{name}}"
-    }
+    },
+    "group": "Agrupar",
+    "groupBy": "Agrupar por",
+    "sortBy": "Ordenar por",
+    "groupByField": "Agrupar por: {{field}}",
+    "groupOffInBoard": "El tablero ya agrupa por estado",
+    "moreGroupings": "Más agrupaciones",
+    "sortByField": "Ordenar por: {{field}}",
+    "displayOptions": "Opciones de vista",
+    "installed": "Instalados",
+    "installedHint": "Solo los juegos instalados en este PC",
+    "scrollBack": "Desplazar atrás",
+    "scrollForward": "Desplazar adelante",
+    "searchPlaceholderShort": "Buscar…"
   },
   "filters": {
     "title": "Filtros",
@@ -260,6 +271,7 @@
     "sections": {
       "status": "Estado",
       "source": "Origen",
+      "shelves": "Estanterías",
       "genres": "Géneros y modos",
       "releaseYear": "Año de lanzamiento",
       "playtime": "Tiempo de juego",
@@ -290,6 +302,8 @@
     },
     "allGenres": "Todos los géneros",
     "allStatuses": "Todos los estados",
+    "allShelves": "Todas las estanterías",
+    "searchShelves": "Buscar estanterías",
     "allPlatforms": "Todas las plataformas",
     "allDevelopers": "Todos los desarrolladores",
     "allPublishers": "Todos los distribuidores",
@@ -446,7 +460,8 @@
     "updatedShelves_other": "Se actualizaron las estanterías de {{count}} juegos.",
     "updateShelvesError": "No se pudieron actualizar las estanterías.",
     "shelfGamesError": "No se pudieron actualizar los juegos de la estantería.",
-    "filterSaved": "{{name}} guardado. Lo encuentras en Filtrar, en Tus filtros."
+    "filterSaved": "{{name}} guardado. Lo encuentras en Filtrar, en Tus filtros.",
+    "manualCreateFailed": "No se pudo crear el juego."
   },
   "cleanup": {
     "offerOne": "{{title}} está en tu biblioteca solo por eso.",
@@ -459,5 +474,15 @@
     "removed_many": "Se quitaron {{count}} juegos de tu biblioteca.",
     "removed_other": "Se quitaron {{count}} juegos de tu biblioteca.",
     "failed": "No se pudo quitar de tu biblioteca."
+  },
+  "groups": {
+    "collapseAll": "Plegar todos",
+    "expandAll": "Desplegar todos",
+    "collapse": "Plegar {{group}}",
+    "expand": "Desplegar {{group}}"
+  },
+  "panel": {
+    "empty": "Ningún juego coincide.",
+    "pick": "Elige un juego de la lista."
   }
 }

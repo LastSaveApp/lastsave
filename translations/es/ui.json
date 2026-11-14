@@ -113,5 +113,36 @@
     "clearTo": "Borrar año final",
     "previousDecade": "Década anterior",
     "nextDecade": "Década siguiente"
+  },
+  "quickLauncher": {
+    "title": "Lanzador rápido",
+    "placeholder": "Busca o lanza un juego",
+    "pill": "Busca o lanza un juego",
+    "noMatch": "Nada en tu biblioteca coincide con «{{query}}».",
+    "noInstalled": "Todavía no hay juegos instalados. Escribe para buscar en toda tu biblioteca.",
+    "sections": {
+      "games": "Juegos",
+      "recent": "Recientes · instalados",
+      "catalog": "En el catálogo",
+      "igdb": "En IGDB"
+    },
+    "play": "Jugar",
+    "start": "Iniciar cronómetro",
+    "open": "Abrir",
+    "catalogSearching": "Buscando en el catálogo",
+    "searchInCatalog": "Buscar «{{query}}» en IGDB",
+    "catalogEmpty": "Tampoco hay nada en IGDB.",
+    "searchInExplore": "Buscar «{{query}}» en Explorar",
+    "notInstalled": "no instalado",
+    "notOwned": "no lo tienes",
+    "keys": {
+      "escape": "Esc",
+      "shortcut": "Ctrl K"
+    },
+    "hints": {
+      "play": "Ctrl ↵ Jugar",
+      "openPage": "↵ Abrir página",
+      "move": "↑ ↓ Mover"
+    }
   }
 }

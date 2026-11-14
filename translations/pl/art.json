@@ -1,0 +1,40 @@
+{
+  "credit": {
+    "from": "Grafiki pochodzą z ",
+    "about": "Banery i logotypy pochodzą ze SteamGridDB, gdzie prezentowane są prace społeczności, oraz z grafik sklepowych Steam. LastSave jest niezależnym projektem i nie jest powiązany z serwisem SteamGridDB, firmą Valve ani twórcami i wydawcami gier, ani przez nich wspierany."
+  },
+  "entry": {
+    "title": "Grafiki",
+    "hint": "Domyślnie według ustawień. Powyższe ustawienia obowiązują tylko dla tej gry.",
+    "banner": "Baner",
+    "logo": "Logo",
+    "choose": "Wybierz...",
+    "heroOptions": {
+      "auto": "Domyślnie",
+      "lookup": "SteamGridDB",
+      "catalog": "Katalog grafik (IGDB)",
+      "pinned": "Twoje wskazanie"
+    },
+    "logoOptions": {
+      "auto": "Domyślnie",
+      "lookup": "SteamGridDB",
+      "none": "Nazwa pisana tekstem",
+      "pinned": "Twoje wskazanie"
+    }
+  },
+  "picker": {
+    "titles": {
+      "hero": "Wybierz baner",
+      "logo": "Wybierz logo"
+    },
+    "description": "Od społeczności SteamGridDB oraz z oficjalnego sklepu Steam.",
+    "loading": "Wyszukiwanie grafik...",
+    "byAuthor": "autor: {{author}}",
+    "empty": {
+      "logo": "Brak logotypów dla tej gry."
+    },
+    "errors": {
+      "noMatch": "Na SteamGridDB nie ma grafik z tej gry."
+    }
+  }
+}

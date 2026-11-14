@@ -1,0 +1,10 @@
+{
+  "searchLibrary": "Przeszukaj swoją bibliotekę",
+  "searchAnywhere": "Wyszukaj w twojej bibliotece i poza nią",
+  "inLibrary": "Z twojej biblioteki",
+  "moreGames": "Pozostałe gry",
+  "notInLibrary": "Nie ma w bibliotece",
+  "noResults": "Brak pasujących gier.",
+  "anywhereHint": "Wpisz co najmniej dwie litery, aby znaleźć dowolną grę. Jeśli nie masz jej w swojej kolekcji, zostanie dodana do biblioteki bez statusu i oznaczona jako nieposiadana.",
+  "addFailed": "Nie udało się dodać {{title}} do biblioteki."
+}
