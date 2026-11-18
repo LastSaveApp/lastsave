@@ -3,7 +3,8 @@
     "title": "Compartir entrada",
     "titleReview": "Compartir reseña",
     "titleGame": "Compartir juego",
-    "subtitle": "{{game}} · {{type}}"
+    "subtitle": "{{game}} · {{type}}",
+    "titleAchievement": "Compartir logro"
   },
   "variants": {
     "card": "Tarjeta",
@@ -36,7 +37,8 @@
       "sessionWithDuration": "Sesión · {{duration}}",
       "statusUpdate": "Cambio de estado",
       "review": "Mi reseña",
-      "game": "Juego"
+      "game": "Juego",
+      "achievement": "Logro"
     },
     "reviewRating": "{{rating}} / 10",
     "ratingOutOf": "/ 10",
@@ -116,6 +118,20 @@
   "time": {
     "seconds": "{{value}} s"
   },
+  "sessionCard": {
+    "stats": {
+      "journals_one": "nota",
+      "journals_many": "notas",
+      "journals_other": "notas",
+      "milestones_one": "hito",
+      "milestones_many": "hitos",
+      "milestones_other": "hitos",
+      "achievements_one": "logro",
+      "achievements_many": "logros",
+      "achievements_other": "logros"
+    },
+    "more": "+{{count}}"
+  },
   "gameCard": {
     "stats": {
       "played": "jugadas",
@@ -125,9 +141,9 @@
       "journals_one": "diario",
       "journals_many": "diarios",
       "journals_other": "diarios",
-      "achievements_one": "logro",
-      "achievements_many": "logros",
-      "achievements_other": "logros"
+      "achievements_one": "hito",
+      "achievements_many": "hitos",
+      "achievements_other": "hitos"
     },
     "description": {
       "played": "{{duration}} jugadas",
@@ -137,7 +153,8 @@
     "showProfile": "Mostrar mi perfil",
     "captions": {
       "impression": "Impresión"
-    }
+    },
+    "platformAchievements": "Logros"
   },
   "profileCard": {
     "dialogTitle": "Compartir perfil",
@@ -180,5 +197,12 @@
       "findMe": "Añádeme: {{accounts}}"
     },
     "showPc": "Mostrar mi PC"
+  },
+  "achievementCard": {
+    "kicker": "Logro",
+    "unlocked": "Desbloqueado el {{date}}",
+    "rarity": "{{percent}} % de los jugadores",
+    "progress": "{{unlocked}} de {{total}} desbloqueados",
+    "description": "Desbloqueé «{{name}}» en {{game}}"
   }
 }

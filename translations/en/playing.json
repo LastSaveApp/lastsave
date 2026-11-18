@@ -213,8 +213,8 @@
     "logged": "{{duration}} logged",
     "updateStatus": "Update Status",
     "updateStatusHint": "Adjust your progress state.",
-    "achievement": "Achievement",
-    "achievementHint": "Mark an achievement from this session.",
+    "achievement": "Milestone",
+    "achievementHint": "Mark a milestone from this session.",
     "addJournal": "Add Journal Entry",
     "addJournalHint": "Save a memory or note from this session.",
     "noThanks": "No thanks"
@@ -290,7 +290,7 @@
     },
     "chip": {
       "journal": "Journal",
-      "achievement": "Achievement",
+      "achievement": "Milestone",
       "filed": "Saved"
     },
     "plan": {
@@ -301,7 +301,7 @@
       },
       "choices": {
         "journal": "Journal",
-        "achievement": "Achievement"
+        "achievement": "Milestone"
       },
       "save": "Keep",
       "discard": "Discard",
@@ -347,8 +347,8 @@
       "achievementBadge": "{{label}}: {{count}}",
       "journals_one": "{{count}} journal entry",
       "journals_other": "{{count}} journal entries",
-      "achievements_one": "{{count}} achievement",
-      "achievements_other": "{{count}} achievements"
+      "achievements_one": "{{count}} milestone",
+      "achievements_other": "{{count}} milestones"
     }
   },
   "clips": {

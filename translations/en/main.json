@@ -24,5 +24,70 @@
     "commonStartMenu": "Common Start Menu Programs",
     "epicManifests": "Epic Manifests",
     "customFolder": "Custom Lookup Folder"
+  },
+  "discord": {
+    "playing": {
+      "headline": "LastSave | {{title}}",
+      "hours": "{{hours}} h",
+      "justStarted": "Just started",
+      "rating": "⭐ {{rating}}/10",
+      "reactions": {
+        "garbage": "💩 Garbage",
+        "bad": "👎 Bad",
+        "ok": "👍 OK",
+        "great": "❤️ Great",
+        "masterpiece": "💎 Masterpiece"
+      },
+      "achievements": "🏆 {{unlocked}}/{{total}} achievements",
+      "milestones_one": "🚩 {{count}} milestone",
+      "milestones_other": "🚩 {{count}} milestones",
+      "journals_one": "📝 {{count}} journal entry",
+      "journals_other": "📝 {{count}} journal entries",
+      "sessions_one": "⏱️ {{count}} session",
+      "sessions_other": "⏱️ {{count}} sessions",
+      "paused": "Paused",
+      "badge": "Tracking with LastSave"
+    },
+    "idle": {
+      "name": "LastSave | {{line}}",
+      "moods": {
+        "picking": "Next game? 🎲",
+        "warmup": "Warming up 🔥",
+        "journal": "Journaling 📝",
+        "chilling": "Chilling 🎧",
+        "adventure": "On a quest 🐉",
+        "collection": "In my library 📚",
+        "nap": "Recovering 💤",
+        "oneMore": "Last one? 🎮",
+        "grinding": "Grinding ✨",
+        "trophies": "Trophy hunt 🏆",
+        "memories": "Rewinding 💭",
+        "backlog": "Backlog duty 📋",
+        "saving": "Saving 💾",
+        "respawn": "Respawning ⏳"
+      },
+      "stats": {
+        "games_one": "🎮 {{value}} game",
+        "games_other": "🎮 {{value}} games",
+        "hours_one": "⏱️ {{hours}} hour played",
+        "hours_other": "⏱️ {{hours}} hours played",
+        "completed_one": "✅ {{value}} game completed",
+        "completed_other": "✅ {{value}} games completed",
+        "playing_one": "🕹️ {{value}} playing",
+        "playing_other": "🕹️ {{value}} playing",
+        "backlog_one": "🎯 {{value}} to play",
+        "backlog_other": "🎯 {{value}} to play",
+        "logs_one": "📖 {{value}} log entry",
+        "logs_other": "📖 {{value}} log entries",
+        "journals_one": "📝 {{value}} journal",
+        "journals_other": "📝 {{value}} journals",
+        "milestones_one": "🚩 {{value}} milestone",
+        "milestones_other": "🚩 {{value}} milestones"
+      },
+      "avatar": "lastsave.app"
+    },
+    "buttons": {
+      "getLastSave": "💾 Get LastSave!"
+    }
   }
 }

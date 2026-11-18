@@ -88,6 +88,7 @@
   "header": {
     "baseGame": "Juego base",
     "art": "Arte",
+    "achievements": "Logros",
     "shelves": "Estanterías",
     "journeys": "Misiones",
     "shareGame": "Compartir este juego",
@@ -167,7 +168,7 @@
       "noMatches": "No se encontraron resultados"
     },
     "typeFilters": {
-      "achievements": "Logros",
+      "achievements": "Hitos",
       "journals": "Diario",
       "sessions": "Sesiones",
       "status": "Estado"
@@ -187,7 +188,7 @@
     "sessions": "Sesiones",
     "journalEntry": "Entrada de diario",
     "journalEntryFallback": "Entrada de diario",
-    "achievement": "Logro",
+    "achievement": "Hito",
     "statusUpdate": "Cambio de estado",
     "statusUpdated": "Estado cambiado",
     "movedTo": "Pasó a {{status}}",
@@ -233,7 +234,7 @@
       "added": "AÑADIDO A LA BIBLIOTECA",
       "statusUpdate": "CAMBIO DE ESTADO"
     },
-    "achievementCategory": "LOGRO: {{label}}",
+    "achievementCategory": "HITO: {{label}}",
     "statusCategory": "CAMBIO DE ESTADO: {{status}}",
     "tooltip": {
       "addedWithContent": "Juego base y contenido adicional añadidos",
@@ -330,15 +331,15 @@
   "deleteLog": {
     "title": "¿Eliminar la entrada?",
     "message": "La entrada se borrará para siempre, y si cambiaba el estado o el tiempo de juego, se recalcula el resumen de tu biblioteca.",
-    "sessionMessage_one": "Esta sesión se borrará para siempre, con su tiempo. Su entrada de diario o logro se queda en la actividad del juego.",
-    "sessionMessage_other": "Esta sesión se borrará para siempre, con su tiempo. Sus {{count}} entradas de diario y logros se quedan en la actividad del juego.",
-    "sessionMessage_many": "Esta sesión se borrará para siempre, con su tiempo. Sus {{count}} entradas de diario y logros se quedan en la actividad del juego.",
+    "sessionMessage_one": "Esta sesión se borrará para siempre, con su tiempo. Su entrada de diario o hito se queda en la actividad del juego.",
+    "sessionMessage_other": "Esta sesión se borrará para siempre, con su tiempo. Sus {{count}} entradas de diario y hitos se quedan en la actividad del juego.",
+    "sessionMessage_many": "Esta sesión se borrará para siempre, con su tiempo. Sus {{count}} entradas de diario y hitos se quedan en la actividad del juego.",
     "deleting": "Eliminando…",
     "confirm": "Eliminar entrada"
   },
   "deleteEntry": {
     "title": "¿Eliminar este juego?",
-    "message": "{{title}} se quitará de tu biblioteca junto con todo su historial: sesiones, logros y entradas de diario. No se puede deshacer.",
+    "message": "{{title}} se quitará de tu biblioteca junto con todo su historial: sesiones, hitos y entradas de diario. No se puede deshacer.",
     "deleting": "Eliminando…",
     "confirm": "Eliminar juego"
   },
@@ -368,12 +369,12 @@
   },
   "playSession": {
     "lastNote": "Última nota",
-    "entries_one": "{{count}} entrada",
-    "entries_many": "{{count}} entradas",
-    "entries_other": "{{count}} entradas",
-    "achievements_one": "{{count}} logro",
-    "achievements_many": "{{count}} logros",
-    "achievements_other": "{{count}} logros",
+    "entries_one": "{{count}} nota",
+    "entries_many": "{{count}} notas",
+    "entries_other": "{{count}} notas",
+    "achievements_one": "{{count}} hito",
+    "achievements_many": "{{count}} hitos",
+    "achievements_other": "{{count}} hitos",
     "moreTiles": "+{{extra}}",
     "groupLabel": "{{date}} · {{duration}}"
   }

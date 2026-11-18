@@ -183,7 +183,9 @@ también escribe (backup, changelog, gamepad).
 | Profile | Perfil | | |
 | Game Mode | Modo Juego | | |
 | Playing · Paused · Played | Jugando · En pausa · Jugado | | |
-| Session · Journal · Achievement | Sesión · Diario · Logro | Nota | «Trofeos» es de PlayStation |
+| Session · Journal · Milestone | Sesión · Diario · Hito | Nota | El log del jugador. Era «Achievement / Logro» hasta 2026-11-14: «logro» pasó a ser el de la plataforma |
+| Achievement (Steam, Epic, Xbox, RetroAchievements) | Logro | | Siempre el de la plataforma, nunca el log del jugador. «Trofeos» es de PlayStation. Masculino: «el logro», «21 de 100 logros» |
+| Badge (LastSave's own) | Insignia | | Reservado para las insignias propias de LastSave (todavía no existen) |
 | Status update | Cambio de estado | | |
 | Screenshot · Clip · Recording | Captura · Clip · Grabación | | |
 | Memories | Recuerdos | | |

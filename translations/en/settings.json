@@ -95,6 +95,66 @@
       "keywords": "start, run, open, play"
     }
   },
+  "discord": {
+    "title": "Discord Rich Presence",
+    "subtitle": "Show friends what you're playing on Discord. Choose here what it may say about you.",
+    "groups": {
+      "playing": "While you play",
+      "idle": "When you're not playing"
+    },
+    "enabled": {
+      "title": "Share my activity on Discord",
+      "description": "The main switch: while it is off, Discord shows nothing from LastSave. Needs the Discord app open, with Share my activity turned on in its Activity Privacy settings.",
+      "keywords": "rich presence, status, activity, friends, profile, playing"
+    },
+    "shareGame": {
+      "title": "Share the game I'm playing",
+      "description": "Its name and cover. Off, you show as not playing, never the game.",
+      "keywords": "game, title, cover, hide, private, playing"
+    },
+    "hours": {
+      "title": "Hours played",
+      "description": "Your total hours on the game, under its name."
+    },
+    "impression": {
+      "title": "My rating or impression",
+      "description": "Your rating out of 10, or your latest impression (💎 Masterpiece, ❤️ Great…) when you have not rated it."
+    },
+    "progress": {
+      "title": "The game's figures",
+      "description": "Its achievements, milestones, journal entries and sessions, one at a time.",
+      "keywords": "achievements, milestones, journal, sessions, trophies"
+    },
+    "idleGames": {
+      "title": "Games in my library",
+      "description": "How many games your library holds, under a line from Savvy.",
+      "keywords": "idle, browsing, stats, library, watching"
+    },
+    "idleHours": {
+      "title": "Hours played",
+      "description": "Your total hours across every game."
+    },
+    "idleCompleted": {
+      "title": "Games completed",
+      "description": "How many games you have completed."
+    },
+    "idlePlaying": {
+      "title": "Playing and to play",
+      "description": "How many games you are playing, and how many are waiting in your backlog."
+    },
+    "idleLogs": {
+      "title": "Log entries",
+      "description": "How many log entries you have, with your journals and milestones.",
+      "keywords": "logs, log entries, journal, milestones"
+    },
+    "restoreDefaults": "Restore defaults",
+    "preview": {
+      "playing": "While you play",
+      "idle": "When you're not playing",
+      "gameTitle": "Your game",
+      "note": "This is how friends see it. Discord can take a few seconds to show a change."
+    }
+  },
   "overlay": {
     "title": "Overlay",
     "subtitle": "The panel LastSave draws over your game while a session is running.",
@@ -292,7 +352,15 @@
     "summary_other": "{{count}} emulators configured",
     "romPaths_one": "{{count}} ROM path",
     "romPaths_other": "{{count}} ROM paths",
-    "empty": "No emulators configured"
+    "empty": "No emulators configured",
+    "retroAchievements": {
+      "title": "RetroAchievements",
+      "description": "See your emulated games' achievements, read with your own key from retroachievements.org.",
+      "keywords": "retroachievements, achievements, ra, cheevos, retroarch, pcsx2, emulated"
+    },
+    "groups": {
+      "retroAchievements": "RetroAchievements"
+    }
   },
   "art": {
     "title": "Art",
@@ -449,7 +517,7 @@
       "confirmTitle": "Reset your library?",
       "confirmMessage": "This cannot be undone. LastSave will restart its window once it is done.",
       "keeps": "Kept: your profile and nickname, every setting on these pages, and your Steam, Epic and Xbox connections.",
-      "removes": "Removed: your games, logs, sessions, journal entries, achievements, screenshots, clips and shelves.",
+      "removes": "Removed: your games, logs, sessions, journal entries, milestones, screenshots, clips and shelves.",
       "acknowledge": "I understand this cannot be undone.",
       "done_one": "Reset done — {{count}} row removed.",
       "done_other": "Reset done — {{count}} rows removed.",

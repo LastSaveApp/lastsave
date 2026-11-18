@@ -224,7 +224,7 @@
   "hub": {
     "sessions": "Sesiones",
     "journals": "Diarios",
-    "achievements": "Logros",
+    "achievements": "Hitos",
     "shelves": "Estanterías",
     "journeys": "Misiones",
     "achievementCount": "{{type}} · {{count}}",
@@ -245,10 +245,11 @@
     },
     "tabs": {
       "all": "Todo",
-      "achievements": "Logros",
+      "achievements": "Hitos",
       "journals": "Diarios",
       "status": "Estado",
-      "sessions": "Sesiones"
+      "sessions": "Sesiones",
+      "platform": "Logros"
     },
     "scopes": {
       "all": "Todo",
@@ -268,7 +269,8 @@
       "note": "Diario",
       "shelves": "Estanterías",
       "more": "Más"
-    }
+    },
+    "platformAchievements": "Logros"
   },
   "padStatus": {
     "none": "No hay ningún control conectado"
@@ -326,7 +328,7 @@
   "captureSheet": {
     "choices": {
       "journal": "Entrada de diario",
-      "achievement": "Logro"
+      "achievement": "Hito"
     },
     "kinds": {
       "screenshot": "Captura",
@@ -398,6 +400,9 @@
     "status": "Estado",
     "changed": "cambió",
     "unchanged": "igual",
+    "journals_one": "Entrada de diario",
+    "journals_many": "Entradas de diario",
+    "journals_other": "Entradas de diario",
     "note": "Nota de la sesión",
     "addNote": "Añade una nota sobre esta sesión…",
     "captures_one": "Capturas · {{count}}",

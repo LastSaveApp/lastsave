@@ -90,7 +90,7 @@
     "confirm": "Cambiar juego",
     "startOver": "Cambiar y borrar todo",
     "startOverTitle": "¿Borrar todo y cambiar el juego?",
-    "startOverMessage": "Se borran todos los logs, sesiones, entradas de diario y logros de esta entrada, y se guarda con el juego nuevo. No se puede deshacer.",
+    "startOverMessage": "Se borran todos los logs, sesiones, entradas de diario y hitos de esta entrada, y se guarda con el juego nuevo. No se puede deshacer.",
     "startOverConfirm": "Borrar todo y cambiar"
   },
   "duplicateWarning": {

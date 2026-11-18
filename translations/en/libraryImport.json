@@ -225,6 +225,10 @@
       "emulators": {
         "name": "Emulators",
         "tagline": "Emulated games from your emulator and ROM folders."
+      },
+      "retroachievements": {
+        "name": "RetroAchievements",
+        "tagline": "Games you've played there, even without the ROM."
       }
     },
     "state": {
@@ -270,7 +274,9 @@
       "gogDisconnected": "Connect GOG to import your library",
       "gogIncludeOwned": "Your library",
       "gogIncludeUnplayed": "unplayed",
-      "gogIncludeWishlist": "wishlist"
+      "gogIncludeWishlist": "wishlist",
+      "retroachievementsDisconnected": "Connect your account",
+      "retroachievementsGames": "Your RetroAchievements games"
     },
     "pc": {
       "yourStuff": {
@@ -486,20 +492,23 @@
         "wishlist": "wishlist",
         "family": "family shared you've played",
         "autoSync": "auto-synced playtime",
-        "none": "No categories selected"
+        "none": "No categories selected",
+        "achievements": "achievements"
       },
       "epic": {
         "library": "Your Epic library",
         "unplayed": "unplayed games",
         "wishlist": "wishlisted games",
         "autoSync": "auto-synced playtime",
-        "none": "No categories selected"
+        "none": "No categories selected",
+        "achievements": "achievements"
       },
       "xbox": {
         "history": "Your Xbox history",
         "console": "console games",
         "wishlist": "wishlisted games",
-        "autoSync": "auto-synced playtime"
+        "autoSync": "auto-synced playtime",
+        "achievements": "achievements"
       },
       "gog": {
         "library": "Your GOG library",
@@ -507,7 +516,10 @@
         "wishlist": "wishlisted games",
         "autoSync": "auto-synced playtime"
       },
-      "failed": "Scan failed."
+      "failed": "Scan failed.",
+      "retroachievements": {
+        "games": "Your RetroAchievements games, as emulated games without a ROM"
+      }
     },
     "review": {
       "foundCount_one": "{{count}} game found",
@@ -576,7 +588,8 @@
         "columns": {
           "game": "Game",
           "source": "Source",
-          "hours": "Hours"
+          "hours": "Hours",
+          "achievements": "Achievements"
         },
         "noHours": "—"
       },
@@ -636,7 +649,9 @@
         "xboxConsole": "From your Xbox history · played on console",
         "xboxWishlist": "From your Xbox wishlist",
         "gog": "From your GOG library",
-        "gogWishlist": "From your GOG wishlist"
+        "gogWishlist": "From your GOG wishlist",
+        "retroachievements": "From your RetroAchievements games",
+        "retroachievementsConsole": "From your RetroAchievements games · {{console}}"
       },
       "modal": {
         "title": "Review this game",
@@ -651,7 +666,8 @@
           "hours_one": "{{count}} h",
           "hours_other": "{{count}} h",
           "useThisHint": "Use this source for the launcher and paths. The other store’s id is kept either way.",
-          "separate": "Not this game — separate it"
+          "separate": "Not this game — separate it",
+          "achievements": "{{unlocked}}/{{total}} achievements"
         },
         "foundBy": "Sources",
         "setup": "Platform",
@@ -745,7 +761,8 @@
         "xboxPlaytimeUnavailable": "Xbox shared your games but not your hours this time, so they arrive without playtime. A sync later fills them in when Xbox answers.",
         "xboxWishlistUnavailable": "Xbox shared your history but not your wishlist this time, so wishlisted games are missing. Scan again later to bring them in.",
         "gogPlaytimeUnavailable": "GOG shared your games but not your hours this time, so they arrive without playtime. A sync later fills them in when GOG answers.",
-        "gogWishlistUnavailable": "GOG shared your games but not your wishlist this time, so wishlisted games are missing. Scan again later to bring them in."
+        "gogWishlistUnavailable": "GOG shared your games but not your wishlist this time, so wishlisted games are missing. Scan again later to bring them in.",
+        "expired": "{{source}} wasn't checked: its sign-in expired"
       },
       "errors": {
         "add": "Couldn't start the import."
@@ -919,7 +936,19 @@
       "pending_other": "{{count}} need a look",
       "review": "Review",
       "caughtUp": "No new games found.",
-      "sourceBreakdown": "{{source}}: {{count}}"
+      "sourceBreakdown": "{{source}}: {{count}}",
+      "open": "Open",
+      "issues": {
+        "titleOne": "Check incomplete: {{source}}",
+        "titleMany_one": "Check incomplete: {{count}} source",
+        "titleMany_other": "Check incomplete: {{count}} sources",
+        "descriptionMany": "Open the check to see what was missed, and reconnect or try again.",
+        "expired": "Its sign-in expired, so nothing new from it was found. Reconnect to check it.",
+        "failed": "It couldn't be read this time. Open the check to try again.",
+        "wishlist": "Your wishlist there couldn't be read. Open the check to try again.",
+        "wishlistReconnect": "Your sign-in no longer covers the store, so your wishlist was skipped. Reconnect to bring it in.",
+        "playtime": "Your hours there couldn't be read. Open the check to try again."
+      }
     },
     "errors": {
       "add": "Couldn't start the import."
@@ -943,5 +972,19 @@
     "restoreDefaults": "Restore Defaults",
     "saving": "Saving...",
     "save": "Save Folders"
+  },
+  "retroachievements": {
+    "connect": {
+      "action": "Connect",
+      "reconnect": "Reconnect",
+      "checking": "Checking your account…",
+      "expired": "RetroAchievements no longer accepts the saved key. Connect again."
+    },
+    "disconnect": {
+      "title": "Disconnect RetroAchievements?",
+      "message": "The games and achievements already brought in stay. LastSave stops reading new ones and deletes the saved key.",
+      "confirm": "Disconnect",
+      "cancel": "Keep connected"
+    }
   }
 }

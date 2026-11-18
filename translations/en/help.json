@@ -24,6 +24,7 @@
     "rotation": "Your rotation",
     "art": "Game art",
     "logs": "Logs and memories",
+    "achievements": "Achievements",
     "playing": "Playing",
     "captures": "Clips and shortcuts",
     "gameMode": "Game Mode",
@@ -220,7 +221,7 @@
     "wrapUp": {
       "captures": {
         "title": "Your session, wrapped up",
-        "body": "Everything you captured while playing is here. Click one to keep it as a journal entry or an achievement."
+        "body": "Everything you captured while playing is here. Click one to keep it as a journal entry or a milestone."
       },
       "save": {
         "title": "Save it",
@@ -334,7 +335,7 @@
       },
       "story": {
         "title": "Every game has a story",
-        "body": "Each game keeps its own activity: status changes, sessions, journal entries and achievements. Write one line and you'll find it there next time you come back."
+        "body": "Each game keeps its own activity: status changes, sessions, journal entries and milestones. Write one line and you'll find it there next time you come back."
       },
       "pressStart": {
         "title": "Press start",
@@ -515,12 +516,12 @@
         "step3": "Pick Journal entry, write and save."
       },
       "achievements": {
-        "title": "Achievements",
+        "title": "Milestones",
         "body": "Log the moments that mattered to you: a boss, a chapter behind you, a challenge done the hard way, a place found, an upgrade, a 100%. Each type has its own medal on the game's page; hover a type to see what it's for."
       },
       "activity": {
         "title": "A game's activity",
-        "body": "Everything that happened with a game, newest first: sessions, status changes, journal entries and achievements, with their screenshots and clips. What you made while playing stays inside its session."
+        "body": "Everything that happened with a game, newest first: sessions, status changes, journal entries and milestones, with their screenshots and clips. What you made while playing stays inside its session."
       },
       "memories": {
         "title": "Memories",
@@ -545,6 +546,44 @@
         "body": "Every log has a day and a time, at the bottom of its window. Leave them alone and it's now. Change them to put a day's logs in the order they happened, or to write about yesterday. Hover a log's date on a game's page to see its time."
       }
     },
+    "achievements": {
+      "overview": {
+        "title": "What achievements are",
+        "body": "Achievements are the ones a platform gives you: Steam, Epic, Xbox, RetroAchievements, and the trophies RPCS3, shadPS4, Xenia and Vita3K save on your PC. They show on the game's page under Achievements, with a bar of how far along you are and your latest unlocks. Each game reads them from one place, the one it comes from. They aren't milestones: milestones are the moments you log yourself, and the two never mix."
+      },
+      "stores": {
+        "title": "From Steam, Epic and Xbox",
+        "body": "Once a store is connected, its games bring their achievements with every sync: when LastSave starts, after each session, and when you press Sync. Steam usually answers in seconds; Xbox and Epic can take a few minutes after you play.",
+        "step1": "Connect the store in Import Games, or in your profile under Connected accounts.",
+        "step2": "Open a game from that store: after its first sync, the Achievements card is on its page.",
+        "step3": "On Steam, make your game details public in your privacy settings. While they are private, LastSave can only show the count."
+      },
+      "retro": {
+        "title": "RetroAchievements",
+        "body": "RetroAchievements is a community that makes achievements for classic games. Connect your own account and your emulated games show theirs next to the rest: LastSave matches each game with the ones you've played there, by console and title. It's also a source in Import Games, which brings in the games you've played there even without the ROM.",
+        "step1": "On retroachievements.org, open your settings and copy your Web API key.",
+        "step2": "In Settings → Emulators, connect RetroAchievements with your username and the key. LastSave keeps the key encrypted on this PC.",
+        "step3": "If a game shows the wrong set or none, press Choose game on its card, or Wrong game? in Manage → Achievements, and pick it from your RetroAchievements games."
+      },
+      "emulators": {
+        "title": "Emulator trophies",
+        "body": "RPCS3, shadPS4, Xenia Canary and Vita3K keep the trophies you earn in files on your PC, and LastSave reads them there: the whole list, the date of each unlock, each trophy's grade (bronze, silver, gold or platinum) and Xenia's gamerscore. There's no account to connect.",
+        "step1": "Add the game with that emulator, from Import Games → Emulators.",
+        "step2": "Open it once in the emulator, so it writes its trophy file.",
+        "step3": "Play: LastSave reads the files again after every session, and when you press Sync."
+      },
+      "view": {
+        "title": "See them all",
+        "body": "See all, on the card, opens every achievement in the game. Hidden ones keep their name and description to themselves until you reveal them, one at a time, so nothing gets spoiled. The card's X hides it on that game; Manage → Achievements shows it again.",
+        "step1": "Show switches between All, Unlocked and Locked; Sort puts the recent ones, the rarest or the game's own order first.",
+        "step2": "Switch between List and Grid at the top. Sync reads them again from the source.",
+        "step3": "Hover an achievement and press Share to turn it into a card. A hidden one has to be revealed first."
+      },
+      "sessions": {
+        "title": "Achievements in your sessions",
+        "body": "Nothing is detected while you play. When a session ends, LastSave asks the game's source right away, and the session screen lists what you unlocked during it, in Game Mode too. After that they stay with the session, in the game's activity and on the session's share card. If Xbox or Epic haven't answered yet, they show up on the session when they arrive."
+      }
+    },
     "playing": {
       "launch": {
         "title": "Launch a game",
@@ -562,7 +601,7 @@
       },
       "screenshots": {
         "title": "Screenshots",
-        "body": "Press Shift+F11 in a game. The screenshot joins the session, and at the end you choose whether it becomes a journal entry or an achievement."
+        "body": "Press Shift+F11 in a game. The screenshot joins the session, and at the end you choose whether it becomes a journal entry or a milestone."
       },
       "focus": {
         "title": "Focus mode",
@@ -611,7 +650,7 @@
       },
       "hub": {
         "title": "A game's page",
-        "body": "Opening a game lands on Play. Next to it: Status, a journal entry and More, which holds your review, the game's shelves and its journeys. The shoulders switch between all its logs, achievements, journals and sessions."
+        "body": "Opening a game lands on Play. Next to it: Status, a journal entry and More, which holds your review, the game's shelves and its journeys. The shoulders switch between all its logs, milestones, journals and sessions."
       },
       "shelves": {
         "title": "Shelves on the couch",

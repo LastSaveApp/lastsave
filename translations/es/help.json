@@ -24,6 +24,7 @@
     "rotation": "Tu rotación",
     "art": "Arte de los juegos",
     "logs": "Entradas y recuerdos",
+    "achievements": "Logros",
     "playing": "Jugando",
     "captures": "Clips y atajos",
     "gameMode": "Modo Juego",
@@ -220,7 +221,7 @@
     "wrapUp": {
       "captures": {
         "title": "Tu sesión, lista",
-        "body": "Todo lo que capturaste mientras jugabas está aquí. Haz clic en una para guardarla como entrada de diario o como logro."
+        "body": "Todo lo que capturaste mientras jugabas está aquí. Haz clic en una para guardarla como entrada de diario o como hito."
       },
       "save": {
         "title": "Guárdala",
@@ -334,7 +335,7 @@
       },
       "story": {
         "title": "Cada juego tiene una historia",
-        "body": "Cada juego guarda su propio historial: cambios de estado, sesiones, entradas de diario y logros. Escribe una línea y la encontrarás ahí la próxima vez que vuelvas."
+        "body": "Cada juego guarda su propio historial: cambios de estado, sesiones, entradas de diario y hitos. Escribe una línea y la encontrarás ahí la próxima vez que vuelvas."
       },
       "pressStart": {
         "title": "Presiona Start",
@@ -515,12 +516,12 @@
         "step3": "Elige Entrada de diario, escribe y guarda."
       },
       "achievements": {
-        "title": "Logros",
+        "title": "Hitos",
         "body": "Anota los momentos que te importaron: un jefe, un capítulo superado, un reto hecho por las malas, un lugar descubierto, una mejora, un 100 %. Cada tipo tiene su medalla en la página del juego; pasa el mouse por un tipo para ver para qué es."
       },
       "activity": {
         "title": "El historial de progreso",
-        "body": "Todo lo que pasó con un juego, lo más nuevo primero: sesiones, cambios de estado, entradas de diario y logros, con sus capturas y clips. Lo que hiciste mientras jugabas queda dentro de su sesión."
+        "body": "Todo lo que pasó con un juego, lo más nuevo primero: sesiones, cambios de estado, entradas de diario y hitos, con sus capturas y clips. Lo que hiciste mientras jugabas queda dentro de su sesión."
       },
       "memories": {
         "title": "Recuerdos",
@@ -545,6 +546,44 @@
         "body": "Cada entrada tiene un día y una hora, abajo en su ventana. Si no los tocas, es ahora. Cámbialos para poner las entradas de un día en el orden en que pasaron, o para escribir sobre ayer. Pasa el mouse por la fecha de una entrada en la página del juego para ver su hora."
       }
     },
+    "achievements": {
+      "overview": {
+        "title": "Qué son los logros",
+        "body": "Los logros son los que te da una plataforma: Steam, Epic, Xbox, RetroAchievements, y los trofeos que RPCS3, shadPS4, Xenia y Vita3K guardan en tu PC. Aparecen en la página del juego, en Logros, con una barra de cuánto llevas y tus últimos desbloqueos. Cada juego los lee de un solo sitio, el de donde viene. No son hitos: los hitos son los momentos que anotas tú, y nunca se mezclan."
+      },
+      "stores": {
+        "title": "De Steam, Epic y Xbox",
+        "body": "Con la tienda conectada, sus juegos traen sus logros en cada sincronización: al abrir LastSave, después de cada sesión y cuando pulsas Sincronizar. Steam suele responder en segundos; Xbox y Epic pueden tardar unos minutos después de jugar.",
+        "step1": "Conecta la tienda en Importar juegos, o en tu perfil, en Cuentas conectadas.",
+        "step2": "Abre un juego de esa tienda: tras su primera sincronización, la tarjeta de Logros está en su página.",
+        "step3": "En Steam, pon los detalles de tus juegos como públicos en tu configuración de privacidad. Mientras sean privados, LastSave solo puede mostrar el número."
+      },
+      "retro": {
+        "title": "RetroAchievements",
+        "body": "RetroAchievements es una comunidad que crea logros para juegos clásicos. Conecta tu propia cuenta y tus juegos emulados muestran los suyos junto al resto: LastSave empareja cada juego con los que has jugado allí, por consola y título. También es una fuente en Importar juegos, que trae lo que jugaste allí aunque ya no tengas la ROM.",
+        "step1": "En retroachievements.org, abre tus ajustes y copia tu clave de la Web API.",
+        "step2": "En Ajustes → Emuladores, conecta RetroAchievements con tu usuario y la clave. LastSave guarda la clave cifrada en este PC.",
+        "step3": "Si un juego muestra otros logros o ninguno, pulsa Elegir juego en su tarjeta, o ¿No es este juego? en Gestionar → Logros, y elígelo entre tus juegos de RetroAchievements."
+      },
+      "emulators": {
+        "title": "Trofeos de emuladores",
+        "body": "RPCS3, shadPS4, Xenia Canary y Vita3K guardan los trofeos que ganas en archivos de tu PC, y LastSave los lee de ahí: la lista completa, la fecha de cada desbloqueo, el grado de cada trofeo (bronce, plata, oro o platino) y el gamerscore de Xenia. No hay cuenta que conectar.",
+        "step1": "Añade el juego con ese emulador, desde Importar juegos → Emuladores.",
+        "step2": "Ábrelo una vez en el emulador, para que escriba su archivo de trofeos.",
+        "step3": "Juega: LastSave vuelve a leer los archivos después de cada sesión y cuando pulsas Sincronizar."
+      },
+      "view": {
+        "title": "Verlos todos",
+        "body": "Ver todos, en la tarjeta, abre todos los logros del juego. Los ocultos se guardan su nombre y descripción hasta que los revelas, uno a uno, para que nada te haga spoiler. La X de la tarjeta la oculta en ese juego; Gestionar → Logros la vuelve a mostrar.",
+        "step1": "Mostrar cambia entre Todos, Desbloqueados y Bloqueados; Ordenar pone primero los recientes, los más raros o el orden del juego.",
+        "step2": "Cambia entre Lista y Cuadrícula arriba. Sincronizar los vuelve a leer de la fuente.",
+        "step3": "Pasa el mouse por un logro y pulsa Compartir para convertirlo en tarjeta. Uno oculto hay que revelarlo antes."
+      },
+      "sessions": {
+        "title": "Logros en tus sesiones",
+        "body": "Mientras juegas no se detecta nada. Al terminar una sesión, LastSave pregunta enseguida a la fuente del juego, y la pantalla de la sesión muestra lo que desbloqueaste en ella, también en el Modo Juego. Después se quedan con la sesión, en la actividad del juego y en la tarjeta para compartirla. Si Xbox o Epic aún no han respondido, aparecen en la sesión cuando llegan."
+      }
+    },
     "playing": {
       "launch": {
         "title": "Abre un juego",
@@ -562,7 +601,7 @@
       },
       "screenshots": {
         "title": "Capturas",
-        "body": "Presiona Shift+F11 en un juego. La captura se une a la sesión, y al final eliges si se convierte en entrada de diario o en logro."
+        "body": "Presiona Shift+F11 en un juego. La captura se une a la sesión, y al final eliges si se convierte en entrada de diario o en hito."
       },
       "focus": {
         "title": "Modo enfoque",
@@ -611,7 +650,7 @@
       },
       "hub": {
         "title": "La página de un juego",
-        "body": "Al abrir un juego caes en Jugar. Al lado: Estado, una entrada de diario y Más, que guarda tu reseña, las estanterías del juego y sus misiones. Los gatillos superiores cambian entre todas sus entradas, logros, diarios y sesiones."
+        "body": "Al abrir un juego caes en Jugar. Al lado: Estado, una entrada de diario y Más, que guarda tu reseña, las estanterías del juego y sus misiones. Los gatillos superiores cambian entre todas sus entradas, hitos, diarios y sesiones."
       },
       "shelves": {
         "title": "Estanterías desde el sofá",

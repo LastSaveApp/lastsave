@@ -61,12 +61,6 @@
     "accountFallback": "Cuenta de GOG",
     "connectFailed": "No se pudo conectar tu cuenta de GOG ahora mismo."
   },
-  "integrations": {
-    "title": "Integraciones",
-    "status": {
-      "expired": "Hay que reconectar"
-    }
-  },
   "viewSwitch": {
     "toLocal": "Cambiar a la vista del perfil local",
     "toSteam": "Cambiar a la vista del perfil de Steam",
@@ -124,7 +118,8 @@
     "accounts": {
       "groups": {
         "libraries": "Bibliotecas de juegos",
-        "handles": "Otras cuentas"
+        "handles": "Otras cuentas",
+        "achievements": "Logros"
       },
       "status": {
         "connected": "Conectado",
@@ -146,7 +141,8 @@
         "nintendo": "Código de amigo, SW-1234-5678-9012",
         "battlenet": "BattleTag, Nombre#1234",
         "riot": "Riot ID, Nombre#TAG"
-      }
+      },
+      "retroAchievements": "Los logros de tus juegos emulados."
     },
     "nickname": "Apodo",
     "scanning": "Detectando…",
@@ -175,7 +171,9 @@
     "xboxDisconnectConfirmTitle": "¿Desconectar Xbox?",
     "xboxDisconnectConfirmMessage": "Tus juegos de Xbox importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con Xbox. Puedes volver a conectar la misma cuenta cuando quieras.",
     "gogDisconnectConfirmTitle": "¿Desconectar GOG?",
-    "gogDisconnectConfirmMessage": "Tus juegos de GOG importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con GOG. Puedes volver a conectar la misma cuenta cuando quieras."
+    "gogDisconnectConfirmMessage": "Tus juegos de GOG importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con GOG. Puedes volver a conectar la misma cuenta cuando quieras.",
+    "raDisconnectConfirmTitle": "¿Desconectar RetroAchievements?",
+    "raDisconnectConfirmMessage": "Los logros que ya trajo se quedan en tus juegos. LastSave deja de leer los nuevos y borra la clave guardada."
   },
   "gamePicker": {
     "title": "Elige tus juegos favoritos",
@@ -204,5 +202,11 @@
     "favoriteGames": "Juegos favoritos",
     "minimal": "Tu perfil está casi vacío. Haz clic en «Editar perfil» para añadir más detalles.",
     "shareProfile": "Compartir perfil"
+  },
+  "accounts": {
+    "title": "Cuentas",
+    "status": {
+      "expired": "Hay que reconectar"
+    }
   }
 }

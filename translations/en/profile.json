@@ -61,12 +61,6 @@
     "accountFallback": "GOG account",
     "connectFailed": "Could not connect your GOG account right now."
   },
-  "integrations": {
-    "title": "Integrations",
-    "status": {
-      "expired": "Reconnect needed"
-    }
-  },
   "viewSwitch": {
     "toLocal": "Switch to local profile view",
     "toSteam": "Switch to Steam profile view",
@@ -124,7 +118,8 @@
     "accounts": {
       "groups": {
         "libraries": "Game libraries",
-        "handles": "Other accounts"
+        "handles": "Other accounts",
+        "achievements": "Achievements"
       },
       "status": {
         "connected": "Connected",
@@ -146,7 +141,8 @@
         "nintendo": "Friend code, SW-1234-5678-9012",
         "battlenet": "BattleTag, Name#1234",
         "riot": "Riot ID, Name#TAG"
-      }
+      },
+      "retroAchievements": "Your emulated games' achievements."
     },
     "nickname": "Nickname",
     "scanning": "Scanning...",
@@ -175,7 +171,9 @@
     "xboxDisconnectConfirmTitle": "Disconnect Xbox?",
     "xboxDisconnectConfirmMessage": "Your imported Xbox games stay in your library with their hours and history. Only syncing with Xbox stops. You can reconnect the same account at any time.",
     "gogDisconnectConfirmTitle": "Disconnect GOG?",
-    "gogDisconnectConfirmMessage": "Your imported GOG games stay in your library with their hours and history. Only syncing with GOG stops. You can reconnect the same account at any time."
+    "gogDisconnectConfirmMessage": "Your imported GOG games stay in your library with their hours and history. Only syncing with GOG stops. You can reconnect the same account at any time.",
+    "raDisconnectConfirmTitle": "Disconnect RetroAchievements?",
+    "raDisconnectConfirmMessage": "The achievements already brought in stay on your games. LastSave stops reading new ones and deletes the saved key."
   },
   "gamePicker": {
     "title": "Pick Favorite Games",
@@ -204,5 +202,11 @@
     "favoriteGames": "Favorite Games",
     "minimal": "Your profile is minimal. Click \"Edit Profile\" to add more details.",
     "shareProfile": "Share Profile"
+  },
+  "accounts": {
+    "title": "Accounts",
+    "status": {
+      "expired": "Reconnect needed"
+    }
   }
 }

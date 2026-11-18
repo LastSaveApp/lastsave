@@ -82,62 +82,62 @@
   "achievements": {
     "trophy": {
       "label": "Trophy",
-      "chip": "Achievement: Trophy",
-      "description": "A milestone, achievement, or trophy."
+      "chip": "Milestone: Trophy",
+      "description": "A trophy, a feat, anything worth marking."
     },
     "boss_combat": {
       "label": "Boss Combat",
-      "chip": "Achievement: Boss",
+      "chip": "Milestone: Boss",
       "description": "A hard fight, monster kill, or combat challenge."
     },
     "dungeon": {
       "label": "Dungeon",
-      "chip": "Achievement: Dungeon",
+      "chip": "Milestone: Dungeon",
       "description": "A dungeon, raid, level, or difficult area."
     },
     "treasure_loot": {
       "label": "Treasure",
-      "chip": "Achievement: Loot",
+      "chip": "Milestone: Loot",
       "description": "A rare item, secret chest, drop, or collection."
     },
     "easter_egg_secret": {
       "label": "Easter Egg",
-      "chip": "Achievement: Secret",
+      "chip": "Milestone: Secret",
       "description": "A hidden detail, easter egg, or secret discovery."
     },
     "record_high_score": {
       "label": "Record",
-      "chip": "Achievement: Record",
+      "chip": "Milestone: Record",
       "description": "A speed, high score, streak, or personal best."
     },
     "rank_level": {
       "label": "Rank / Level",
-      "chip": "Achievement: Rank",
+      "chip": "Milestone: Rank",
       "description": "A max level, ladder or competitive rank."
     },
     "upgrade": {
       "label": "Upgrade",
-      "chip": "Achievement: Upgrade",
+      "chip": "Milestone: Upgrade",
       "description": "A new ability, weapon, tool or build that changes how you play."
     },
     "chapter": {
       "label": "Chapter",
-      "chip": "Achievement: Chapter",
+      "chip": "Milestone: Chapter",
       "description": "A chapter, act, world or stage behind you."
     },
     "challenge": {
       "label": "Challenge",
-      "chip": "Achievement: Challenge",
+      "chip": "Milestone: Challenge",
       "description": "Done the hard way: no hit, hardest difficulty, no deaths."
     },
     "discovery": {
       "label": "Discovery",
-      "chip": "Achievement: Discovery",
+      "chip": "Milestone: Discovery",
       "description": "A place found: a new region, a landmark, the whole map."
     },
     "other": {
       "label": "Other",
-      "chip": "Achievement: Other",
+      "chip": "Milestone: Other",
       "description": "Anything memorable."
     }
   },

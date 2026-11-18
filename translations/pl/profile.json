@@ -52,12 +52,6 @@
       "generic": "Nie udało się połączyć z kontem Xbox."
     }
   },
-  "integrations": {
-    "title": "Integracje",
-    "status": {
-      "expired": "Wymagane ponowne połączenie"
-    }
-  },
   "viewSwitch": {
     "toLocal": "Przełącz na lokalny widok profilu",
     "toSteam": "Przełącz na widok profilu Steam",
@@ -192,5 +186,11 @@
     "favoriteGames": "Ulubione gry",
     "minimal": "W twoim profilu jest mało danych. Wybierz \"Edytuj profil\", aby uzupełnić dane.",
     "shareProfile": "Udostępnij profil"
+  },
+  "accounts": {
+    "title": "Konta",
+    "status": {
+      "expired": "Wymagane ponowne połączenie"
+    }
   }
 }

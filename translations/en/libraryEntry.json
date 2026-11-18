@@ -81,7 +81,7 @@
     "confirm": "Change Game",
     "startOver": "Change and delete all",
     "startOverTitle": "Delete all and change the game?",
-    "startOverMessage": "This deletes every log, session, journal entry and achievement of this entry, then saves it with the new game. It cannot be undone.",
+    "startOverMessage": "This deletes every log, session, journal entry and milestone of this entry, then saves it with the new game. It cannot be undone.",
     "startOverConfirm": "Delete all and change"
   },
   "duplicateWarning": {

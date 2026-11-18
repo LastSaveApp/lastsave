@@ -213,8 +213,8 @@
     "logged": "Anotado: {{duration}}",
     "updateStatus": "Cambiar estado",
     "updateStatusHint": "Ajusta tu progreso.",
-    "achievement": "Logro",
-    "achievementHint": "Marca un logro de esta sesión.",
+    "achievement": "Hito",
+    "achievementHint": "Marca un hito de esta sesión.",
     "addJournal": "Añadir entrada de diario",
     "addJournalHint": "Guarda un recuerdo o una nota de esta sesión.",
     "noThanks": "No, gracias"
@@ -292,7 +292,7 @@
     },
     "chip": {
       "journal": "Diario",
-      "achievement": "Logro",
+      "achievement": "Hito",
       "filed": "Guardado"
     },
     "plan": {
@@ -303,7 +303,7 @@
       },
       "choices": {
         "journal": "Diario",
-        "achievement": "Logro"
+        "achievement": "Hito"
       },
       "save": "Conservar",
       "discard": "Descartar",
@@ -355,9 +355,9 @@
       "journals_one": "{{count}} entrada de diario",
       "journals_many": "{{count}} entradas de diario",
       "journals_other": "{{count}} entradas de diario",
-      "achievements_one": "{{count}} logro",
-      "achievements_many": "{{count}} logros",
-      "achievements_other": "{{count}} logros"
+      "achievements_one": "{{count}} hito",
+      "achievements_many": "{{count}} hitos",
+      "achievements_other": "{{count}} hitos"
     }
   },
   "clips": {

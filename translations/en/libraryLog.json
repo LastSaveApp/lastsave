@@ -11,7 +11,7 @@
         "description": "Track progress, playtime, reaction, and status changes."
       },
       "achievement": {
-        "title": "Achievement",
+        "title": "Milestone",
         "description": "Remember your greatest victories and personal bests"
       },
       "journalEntry": {
@@ -154,17 +154,17 @@
   },
   "achievementModal": {
     "titles": {
-      "add": "Achievement",
-      "edit": "Edit Achievement"
+      "add": "Milestone",
+      "edit": "Edit Milestone"
     },
     "labels": {
-      "achievementType": "Achievement Type",
+      "achievementType": "Milestone Type",
       "title": "Title",
       "description": "Description"
     },
     "placeholders": {
       "title": "Defeated Malenia without summons",
-      "description": "What made this achievement worth remembering?"
+      "description": "What made this milestone worth remembering?"
     },
     "media": {
       "emptyTitle": "Add proof or a memory",
@@ -173,17 +173,17 @@
     "actions": {
       "saving": "Saving...",
       "saveChanges": "Save Changes",
-      "saveAchievement": "Save Achievement"
+      "saveAchievement": "Save Milestone"
     },
     "errors": {
-      "chooseType": "Choose an achievement type first.",
+      "chooseType": "Choose a milestone type first.",
       "mediaNotReady": "Media is not ready to save.",
-      "saveFailed": "Failed to save achievement.",
-      "updateFailed": "Failed to update achievement."
+      "saveFailed": "Failed to save milestone.",
+      "updateFailed": "Failed to update milestone."
     },
     "success": {
-      "saved": "Achievement saved.",
-      "updated": "Achievement updated."
+      "saved": "Milestone saved.",
+      "updated": "Milestone updated."
     }
   },
   "journalModal": {
