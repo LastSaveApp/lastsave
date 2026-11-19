@@ -28,7 +28,7 @@ and what happened along the way. All in one app on your PC.
 
 **Your library, not a spreadsheet.**<br>
 Everything you own or want to play, with cover art, filters and shelves you make yourself. Import
-from Steam, Epic, your installed PC games, or an emulator library.
+from Steam, Epic, Xbox, GOG, your installed PC games, or an emulator library.
 
 </td>
 <td width="50%" valign="top">
@@ -101,8 +101,9 @@ later the Game Mode themes will too.
 
 ## 🌍 Translate LastSave
 
-LastSave speaks **English** and, from 0.6.0, **Español**. Every language lives in
-[`translations/`](translations/), under the MIT license, and you can help it speak yours:
+LastSave speaks **English**, **Español** and, from 0.8.0, **Polski**, translated by a player.
+**Português** is on the way. Every language lives in [`translations/`](translations/), under the
+MIT license, and you can help it speak yours:
 
 - **No Git needed:** open **Settings → General → Language Studio** in LastSave 0.6.0 or later.
   Translate beside the app, see every change live, and send your work to the team with your name

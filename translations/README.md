@@ -1,7 +1,8 @@
 # 🌍 Translate LastSave
 
-LastSave speaks English and, from 0.6.0, Spanish. This folder is where every other language
-lives, and where you can help LastSave speak yours — or make one that already ships sound better.
+LastSave speaks English, Spanish and, from 0.8.0, Polish, its first community translation.
+Portuguese is on the way. This folder is where every other language lives, and where you can help
+LastSave speak yours — or make one that already ships sound better.
 
 Everything in `translations/` is [MIT-licensed](LICENSE). The rest of this repository is not.
 
