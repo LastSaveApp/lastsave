@@ -122,7 +122,7 @@
     "noInstalled": "Todavía no hay juegos instalados. Escribe para buscar en toda tu biblioteca.",
     "sections": {
       "games": "Juegos",
-      "recent": "Recientes · instalados",
+      "recent": "Recientes",
       "catalog": "En el catálogo",
       "igdb": "En IGDB"
     },

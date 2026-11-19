@@ -120,7 +120,7 @@
     "noInstalled": "No installed games yet. Type to search your whole library.",
     "sections": {
       "games": "Games",
-      "recent": "Recent · installed",
+      "recent": "Recent",
       "catalog": "In the catalog",
       "igdb": "On IGDB"
     },

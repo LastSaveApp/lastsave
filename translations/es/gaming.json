@@ -115,6 +115,7 @@
     "anyStatus": "Cualquier estado",
     "anySource": "Cualquier origen",
     "anyShelf": "Cualquier estantería",
+    "shelvesMatchAll": "Solo juegos en todas las estanterías elegidas",
     "more": "+{{count}}",
     "nothingToFilter": "Nada que filtrar"
   },

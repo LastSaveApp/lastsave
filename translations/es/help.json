@@ -662,7 +662,7 @@
       },
       "settings": {
         "title": "Ajustes del Modo Juego",
-        "body": "Iconos de botones, sonidos, pantalla completa y cada combinación dentro del juego. Abre Ajustes desde el menú del Modo Juego."
+        "body": "Iconos de botones, sonidos, pantalla completa, el idioma y cada combinación dentro del juego. Abre Ajustes desde el menú del Modo Juego."
       },
       "rotation": {
         "title": "Tu rotación desde el sofá",

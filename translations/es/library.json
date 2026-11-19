@@ -267,6 +267,15 @@
     "subtitle": "Reduce la estantería a lo que buscas.",
     "reset": "Restablecer",
     "clear": "Limpiar",
+    "match": {
+      "label": "Coincidir",
+      "any": "Alguno",
+      "all": "Todos",
+      "hints": {
+        "any": "Juegos con al menos uno de estos",
+        "all": "Juegos con todos estos"
+      }
+    },
     "more": "Más filtros",
     "sections": {
       "status": "Estado",

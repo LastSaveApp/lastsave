@@ -249,6 +249,15 @@
     "subtitle": "Narrow the shelf to what you are looking for.",
     "reset": "Reset",
     "clear": "Clear",
+    "match": {
+      "label": "Match",
+      "any": "Any",
+      "all": "All",
+      "hints": {
+        "any": "Games with any of these",
+        "all": "Games with all of these"
+      }
+    },
     "more": "More filters",
     "sections": {
       "status": "Status",

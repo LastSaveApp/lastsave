@@ -109,6 +109,7 @@
     "anyStatus": "Any status",
     "anySource": "Any source",
     "anyShelf": "Any shelf",
+    "shelvesMatchAll": "Only games on every chosen shelf",
     "more": "+{{count}}",
     "nothingToFilter": "Nothing to filter"
   },

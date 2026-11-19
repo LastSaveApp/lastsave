@@ -2,7 +2,8 @@
   "back": {
     "toNamed": "Back to {{name}}",
     "toLibrary": "Back to Library",
-    "shelfFallback": "Shelf"
+    "shelfFallback": "Shelf",
+    "previous": "Back"
   },
   "sync": {
     "notSynced": "Not synced yet",
