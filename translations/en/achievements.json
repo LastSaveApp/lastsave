@@ -162,5 +162,28 @@
     "unavailable": "{{platform}} didn't answer. Check you're signed in and try again.",
     "failed": "Couldn't read the achievements from {{platform}}. Try again in a moment.",
     "noSource": "This game isn't on a platform with achievements."
+  },
+  "local": {
+    "thisPc": "this PC",
+    "offer": "No achievements for this game yet. LastSave can look for them on this PC.",
+    "find": "Find local achievements",
+    "orFind": "or find local achievements",
+    "looking": "Looking on this PC…",
+    "unknownTitle": "This game",
+    "summary": "{{unlocked}} of {{total}} unlocked",
+    "summaryLatest": "{{unlocked}} of {{total}} unlocked · latest {{date}}",
+    "summaryZero": "{{unlocked}} of {{total}} unlocked · fills in as you play",
+    "accept": "Add these achievements",
+    "reject": "Not this game",
+    "notFound": "Nothing on this PC yet. The file can show up after you play a while or unlock your first achievement, so try again later.",
+    "tryAgain": "Try again",
+    "chooseFile": "Choose file…",
+    "invalid": "LastSave can't read that file. Choose the achievements file from the game's save folder.",
+    "noGame": "LastSave can't tell which game that file belongs to.",
+    "failed": "Couldn't look on this PC. Try again.",
+    "credit": "Local achievements",
+    "about": "Read from a file on this PC.",
+    "manageHint": "Look on this PC for this game's achievements file.",
+    "openFolder": "Open folder"
   }
 }

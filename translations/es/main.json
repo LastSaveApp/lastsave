@@ -100,5 +100,12 @@
     "buttons": {
       "getLastSave": "💾 ¡Consigue LastSave!"
     }
+  },
+  "achievements": {
+    "localFile": {
+      "title": "Elige el archivo de logros",
+      "filter": "Archivos de logros",
+      "all": "Todos los archivos"
+    }
   }
 }

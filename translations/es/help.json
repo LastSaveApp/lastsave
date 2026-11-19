@@ -549,11 +549,11 @@
     "achievements": {
       "overview": {
         "title": "Qué son los logros",
-        "body": "Los logros son los que te da una plataforma: Steam, Epic, Xbox, RetroAchievements, y los trofeos que RPCS3, shadPS4, Xenia y Vita3K guardan en tu PC. Aparecen en la página del juego, en Logros, con una barra de cuánto llevas y tus últimos desbloqueos. Cada juego los lee de un solo sitio, el de donde viene. No son hitos: los hitos son los momentos que anotas tú, y nunca se mezclan."
+        "body": "Los logros son los que te da una plataforma: Steam, Epic, Xbox, GOG, RetroAchievements, los trofeos que RPCS3, shadPS4, Xenia y Vita3K guardan en tu PC, y los logros locales de un juego de PC que no tiene ninguno de esos. Aparecen en la página del juego, en Logros, con una barra de cuánto llevas y tus últimos desbloqueos. Cada juego los lee de un solo sitio, el de donde viene. No son hitos: los hitos son los momentos que anotas tú, y nunca se mezclan."
       },
       "stores": {
-        "title": "De Steam, Epic y Xbox",
-        "body": "Con la tienda conectada, sus juegos traen sus logros en cada sincronización: al abrir LastSave, después de cada sesión y cuando pulsas Sincronizar. Steam suele responder en segundos; Xbox y Epic pueden tardar unos minutos después de jugar.",
+        "title": "De Steam, Epic, Xbox y GOG",
+        "body": "Con la tienda conectada, sus juegos traen sus logros en cada sincronización: al abrir LastSave, después de cada sesión y cuando pulsas Sincronizar. Steam suele responder en segundos; Xbox y Epic pueden tardar unos minutos después de jugar. Los logros de GOG solo existen si jugaste con GOG Galaxy abierto y con tu sesión iniciada.",
         "step1": "Conecta la tienda en Importar juegos, o en tu perfil, en Cuentas conectadas.",
         "step2": "Abre un juego de esa tienda: tras su primera sincronización, la tarjeta de Logros está en su página.",
         "step3": "En Steam, pon los detalles de tus juegos como públicos en tu configuración de privacidad. Mientras sean privados, LastSave solo puede mostrar el número."
@@ -571,6 +571,13 @@
         "step1": "Añade el juego con ese emulador, desde Importar juegos → Emuladores.",
         "step2": "Ábrelo una vez en el emulador, para que escriba su archivo de trofeos.",
         "step3": "Juega: LastSave vuelve a leer los archivos después de cada sesión y cuando pulsas Sincronizar."
+      },
+      "local": {
+        "title": "Logros locales",
+        "body": "Un juego de PC sin tienda detrás puede guardar igual sus logros en un archivo de tu PC. Cuando lo pides, LastSave busca ese archivo, te enseña lo que encontró y, cuando lo añades, lo lee en cada sincronización como cualquier otra fuente. Lo que LastSave ya leyó se queda, aunque el archivo se borre después.",
+        "step1": "En la página del juego, pulsa Buscar logros locales en la tarjeta de Logros, o abre Gestionar → Logros.",
+        "step2": "Comprueba el juego y cuántos tienes, y pulsa Añadir estos logros.",
+        "step3": "¿Todavía nada? Juega un rato o saca tu primer logro, y vuelve a intentarlo. Con Elegir archivo… puedes indicar tú el archivo."
       },
       "view": {
         "title": "Verlos todos",

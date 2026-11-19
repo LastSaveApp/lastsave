@@ -89,5 +89,12 @@
     "buttons": {
       "getLastSave": "💾 Get LastSave!"
     }
+  },
+  "achievements": {
+    "localFile": {
+      "title": "Choose the achievements file",
+      "filter": "Achievement files",
+      "all": "All files"
+    }
   }
 }
