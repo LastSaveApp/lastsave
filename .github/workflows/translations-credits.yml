@@ -32,7 +32,9 @@ concurrency:
 
 jobs:
   credit:
-    if: github.event_name != 'pull_request_target' || (github.event.pull_request.merged == true && github.event.pull_request.user.type != 'Bot')
+    # Not the app's own sync (`sync/english`, opened with the team's token, so not a Bot): merging it
+    # credited the person who merged it with every language it carried — Polish, on 2026-11-19.
+    if: github.event_name != 'pull_request_target' || (github.event.pull_request.merged == true && github.event.pull_request.user.type != 'Bot' && github.event.pull_request.head.ref != 'sync/english')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7

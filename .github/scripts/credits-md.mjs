@@ -57,7 +57,7 @@ const languages = readdirSync(ROOT, { withFileTypes: true })
 const sections = languages.map((language) => {
   const title = language.name && language.name !== language.englishName ? `${language.name} (${language.englishName})` : language.name ?? language.code;
   const credits = people(language);
-  return [`## ${title} · ${STATUS_LABEL[language.status] ?? 'Community'}`, '', ...(credits.length > 0 ? credits.map(line) : ['- Waiting for its first translator']), ''].join('\n');
+  return [`## ${title} · ${STATUS_LABEL[language.status] ?? 'Community'}`, '', ...(credits.length > 0 ? credits.map(line) : ['- No one listed by name']), ''].join('\n');
 });
 
 const text = [

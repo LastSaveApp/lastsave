@@ -16,4 +16,4 @@ automatically. Want your name here? Read the [guide](README.md).
 
 ## Polski (Polish) · Community
 
-- [@mvelezg99](https://github.com/mvelezg99)
+- No one listed by name
