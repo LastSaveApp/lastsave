@@ -213,8 +213,8 @@
     "logged": "{{duration}} logged",
     "updateStatus": "Update Status",
     "updateStatusHint": "Adjust your progress state.",
-    "achievement": "Achievement",
-    "achievementHint": "Mark an achievement from this session.",
+    "achievement": "Milestone",
+    "achievementHint": "Mark a milestone from this session.",
     "addJournal": "Add Journal Entry",
     "addJournalHint": "Save a memory or note from this session.",
     "noThanks": "No thanks"
@@ -290,7 +290,7 @@
     },
     "chip": {
       "journal": "Journal",
-      "achievement": "Achievement",
+      "achievement": "Milestone",
       "filed": "Saved"
     },
     "plan": {
@@ -301,7 +301,7 @@
       },
       "choices": {
         "journal": "Journal",
-        "achievement": "Achievement"
+        "achievement": "Milestone"
       },
       "save": "Keep",
       "discard": "Discard",
@@ -334,8 +334,9 @@
     "saved_other": "Session saved with {{count}} entries.",
     "partialFailure_one": "Session saved, but {{count}} item could not be filed. It stays in your captures.",
     "partialFailure_other": "Session saved, but {{count}} items could not be filed. They stay in your captures.",
-    "confirmDiscardMessage": "The tracked time is dropped and nothing is logged. Whatever this session gathered stays on disk, unfiled.",
+    "confirmDiscardMessage": "The tracked time is dropped, nothing is logged, and the game won't show as recently played. Whatever this session gathered stays on disk, unfiled.",
     "toBeLogged": "to be logged",
+    "close": "Close and save",
     "tally": {
       "screenshots_one": "{{count}} screenshot",
       "screenshots_other": "{{count}} screenshots",
@@ -346,8 +347,8 @@
       "achievementBadge": "{{label}}: {{count}}",
       "journals_one": "{{count}} journal entry",
       "journals_other": "{{count}} journal entries",
-      "achievements_one": "{{count}} achievement",
-      "achievements_other": "{{count}} achievements"
+      "achievements_one": "{{count}} milestone",
+      "achievements_other": "{{count}} milestones"
     }
   },
   "clips": {

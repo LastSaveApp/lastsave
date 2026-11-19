@@ -1,0 +1,107 @@
+{
+  "entry": {
+    "open": "Zgłoś błąd lub prześlij opinię",
+    "openWithVersion": "Zgłoś błąd lub prześlij opinię · wersja {{version}}",
+    "version": "wersja {{version}}"
+  },
+  "dialog": {
+    "title": "Opisz, co się stało.",
+    "subtitle": "Błędy, opinie, pomysły, wszystko trafia do  jednej osoby.",
+    "crashTitle": "Zgłoś awarię",
+    "crashSubtitle": "Informacje o błędzie są dołączone do zgłoszenia. Zapamiętane przez ciebie okoliczności zdarzenia będą pomocne."
+  },
+  "types": {
+    "groupLabel": "Jakiego rodzaju jest to zgłoszenie?",
+    "bug": "Błąd",
+    "feedback": "Opinia",
+    "idea": "Pomysł"
+  },
+  "fields": {
+    "title": "Krótki opis",
+    "titlePlaceholder": {
+      "bug": "Co poszło nie tak, w kilku słowach",
+      "crash": "Co robiłeś gdy wystąpiła awaria?",
+      "feedback": "Czego dotyczy opinia?",
+      "idea": "Twój pomysł, w kilku słowach"
+    },
+    "description": "Szczegóły",
+    "descriptionPlaceholder": {
+      "bug": "Co robiłeś, czego się spodziewałeś i co stało się zamiast tego?",
+      "crash": "Na którym ekranie byłeś? Czy zdarzało się to wcześniej?",
+      "feedback": "Co ci odpowiada, a co sprawia trudności?",
+      "idea": "Co chciałbyś zmienić lub dodać w LastSave i w jakich sytuacjach korzystałbyś z tej funkcji?"
+    },
+    "contact": "Kontakt (opcjonalnie)",
+    "contactPlaceholder": "Nazwa użytkownika na Discordzie lub email, jeżeli oczekujesz odpowiedzi",
+    "contactHint": "Wpisz jeśli chcesz odpowiedzi. Pomysły zgłaszaj na Discordzie w #ideas by inni mogli głosować.",
+    "errorTitle": "Awaria: {{error}}",
+    "uncleanExitTitle": "LastSave został zamknięty nieoczekiwanie"
+  },
+  "images": {
+    "label": "Zrzuty ekranu",
+    "add": "Dodaj zdjęcie",
+    "paste": "Wklej zdjęcie",
+    "hint": "Wklej, przeciągnij lub wybierz do {{max}} zdjęć.",
+    "remove": "Usuń zrzut ekranu {{index}}",
+    "preview": "Zrzut ekranu {{index}}",
+    "errors": {
+      "unreadable": "Nie udało się odczytać tego zdjęcia.",
+      "tooLarge": "To zdjęcia jest za duże nawet po kompresji.",
+      "clipboardEmpty": "W schowku nie ma zdjęcia."
+    }
+  },
+  "diagnostics": {
+    "include": "Załącz plik dziennika diagnostycznego",
+    "includeDescription": "Ostatni dziennik aplikacji, który pomoże ustalić przyczynę problemu.",
+    "whatsIncluded": "Co zawiera?",
+    "hide": "Ukryj szczegóły",
+    "items": {
+      "log": "Najnowsze wpisy z dziennika LastSave (do około 1,5 MB).",
+      "crash": "W razie awarii: błąd i miejsce w kodzie LastSave, w którym wystąpił, oraz informacja o tym, jak zakończyło się ostatnie uruchomienie, jeśli program zamknął się niespodziewanie.",
+      "system": "Wersje aplikacji, wersję systemu Windows, język i nazwę otwartego ekranu.",
+      "install": "Losowy identyfikator tej instalacji, pozwalający odróżnić zgłoszenia z jednego komputera. Nie jest powiązany z Twoim imieniem, kontem ani sprzętem.",
+      "scrubbed": "Nazwa użytkownika Windows i nazwa komputera są zastępowane przed wysłaniem. Hasła i tokeny nigdy nie trafiają do dziennika.",
+      "never": "Nigdy nie są dołączane: biblioteka gier, twoje wpisy, zrzuty ekranu ani żadne dane, których samodzielnie nie załączysz."
+    }
+  },
+  "actions": {
+    "send": "Wyślij zgłoszenie",
+    "sending": "Wysyłanie...",
+    "retry": "Spróbuj ponownie",
+    "copyId": "Skopiuj ID",
+    "copied": "Skopiowano",
+    "joinDiscord": "Dołącz do Discorda",
+    "openLogsFolder": "Otwórz folder dziennika"
+  },
+  "sent": {
+    "title": "Zgłoszenie zostało wysłane. Dziękuję!",
+    "idLabel": "Numer ID zgłoszenia",
+    "noReply": "Nie podano danych kontaktowych, więc nie możemy odpowiedzieć bezpośrednio."
+  },
+  "errors": {
+    "unconfigured": "Ta wersja nie obsługuje wysyłania zgłoszeń. Możesz skontaktować się z nami na Discordzie.",
+    "offline": "LastSave nie mógł połączyć się z usługą zgłoszeń. Sprawdź połączenie i spróbuj ponownie.",
+    "rateLimited": "Zbyt dużo zgłoszeń w krótkim czasie. Poczekaj chwilę i spróbuj ponownie.",
+    "tooLarge": "Zgłoszenie zajmuje zbyt dużo miejsca. Usuń zrzut ekranu i spróbuj ponownie.",
+    "rejected": "Zgłoszenie nie zostało przyjęte. Spróbuj uaktualnić LastSave.",
+    "unavailable": "Usługa zgłoszeń jest obecnie nieaktywna. Spróbuj ponownie później."
+  },
+  "crash": {
+    "description": "Wystąpił błąd. Twoja biblioteka i wpisy są bezpieczne.",
+    "details": "Szczegóły techniczne",
+    "actions": {
+      "report": "Wyślij zgłoszenie",
+      "reload": "Przeładuj",
+      "restart": "Urochom ponownie LastSave"
+    }
+  },
+  "notifications": {
+    "uncleanShutdown": {
+      "title": "Ostatnim razem LastSave nieoczekiwanie się zamknął.",
+      "action": "Wyślij zgłoszenie"
+    },
+    "windowReloaded": {
+      "action": "Wyślij zgłoszenie"
+    }
+  }
+}

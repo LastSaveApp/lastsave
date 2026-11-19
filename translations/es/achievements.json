@@ -1,0 +1,196 @@
+{
+  "card": {
+    "title": "Logros",
+    "countAria": "{{unlocked}} de {{total}} logros desbloqueados",
+    "ofTotal": "/ {{total}}",
+    "more": "+{{count}}",
+    "moreAria_one": "{{count}} logro más",
+    "moreAria_many": "{{count}} logros más",
+    "moreAria_other": "{{count}} logros más",
+    "openAll": "Ver todos los logros",
+    "seeAll": "Ver todos",
+    "countOnly": "Solo se ve el número: los detalles de tus juegos en {{platform}} son privados.",
+    "loading": "Trayendo tus logros…",
+    "syncingAria": "Sincronizando logros",
+    "empty": {
+      "connect": "Conecta {{platform}} para ver los logros de este juego.",
+      "reconnect": "{{platform}} te pide volver a iniciar sesión para mostrar los logros de este juego.",
+      "connectAction": "Conectar {{platform}}",
+      "reconnectAction": "Volver a iniciar sesión",
+      "notFound": "No está en RetroAchievements.",
+      "choose": "Elegir juego",
+      "neverSynced": "Aún sin sincronizar.",
+      "sync": "Sincronizar",
+      "hide": "Ocultar en este juego"
+    }
+  },
+  "achievement": {
+    "unlockedOn": "Desbloqueado el {{date}}",
+    "unlocked": "Desbloqueado",
+    "locked": "Bloqueado",
+    "hiddenName": "Logro oculto",
+    "hiddenDescription": "Su nombre y descripción siguen ocultos hasta que lo muestres.",
+    "hidden": "Oculto",
+    "reveal": "Mostrar",
+    "revealHint": "Haz clic para revelarlo",
+    "rarity": "{{percent}} % de los jugadores",
+    "points_one": "{{count}} punto",
+    "points_many": "{{count}} puntos",
+    "points_other": "{{count}} puntos",
+    "grade": {
+      "bronze": "Bronce",
+      "silver": "Plata",
+      "gold": "Oro",
+      "platinum": "Platino"
+    }
+  },
+  "dialog": {
+    "summary": "{{unlocked}} de {{total}} · {{percent}} %",
+    "syncedAgo": "Sincronizado {{age}}",
+    "sync": "Sincronizar",
+    "syncing": "Sincronizando…",
+    "syncFailed": "No se pudieron sincronizar los logros.",
+    "lastError": "{{platform}} no respondió. Se muestra lo que se sincronizó antes.",
+    "close": "Cerrar",
+    "filters": {
+      "label": "Mostrar",
+      "all": "Todos",
+      "unlocked": "Desbloqueados",
+      "locked": "Bloqueados"
+    },
+    "sorts": {
+      "label": "Ordenar",
+      "recent": "Recientes",
+      "rarest": "Más raros",
+      "gameOrder": "Orden del juego"
+    },
+    "empty": "Aquí no hay nada.",
+    "points": "{{unlocked}} / {{total}} puntos",
+    "views": {
+      "label": "Vista",
+      "list": "Lista",
+      "grid": "Cuadrícula"
+    },
+    "source": {
+      "from": "Logros de",
+      "retroachievements": "Una comunidad que crea logros para juegos clásicos. Abre este juego en su web.",
+      "store": "Leídos de tu cuenta de {{platform}}.",
+      "emulator": "Leídos de los archivos de trofeos que {{platform}} guarda en este PC."
+    }
+  },
+  "syncPreview": {
+    "label": "Logros",
+    "count": "{{unlocked}} / {{total}}",
+    "from": "{{count}} →",
+    "datedLatest_one": "{{count}} con fecha, el último el {{date}}",
+    "datedLatest_many": "{{count}} con fecha, el último el {{date}}",
+    "datedLatest_other": "{{count}} con fecha, el último el {{date}}"
+  },
+  "import": {
+    "chipAria": "{{unlocked}} de {{total}} logros",
+    "chip": "{{unlocked}}/{{total}}",
+    "unlockedOnly": "{{count}}",
+    "unlockedOnlyAria_one": "{{count}} logro desbloqueado",
+    "unlockedOnlyAria_many": "{{count}} logros desbloqueados",
+    "unlockedOnlyAria_other": "{{count}} logros desbloqueados"
+  },
+  "retroConnect": {
+    "title": "Conectar RetroAchievements",
+    "intro": "Mira los logros de tus juegos emulados junto al resto.",
+    "step1": "Abre tus ajustes en retroachievements.org y copia tu clave de la Web API.",
+    "openSettings": "Abrir tus ajustes de RetroAchievements",
+    "step2": "Pega tu usuario y la clave.",
+    "username": "Usuario",
+    "apiKey": "Clave de la Web API",
+    "keyNote": "LastSave guarda la clave cifrada en este equipo y solo la usa para leer tus logros.",
+    "connect": "Conectar",
+    "connecting": "Conectando…",
+    "cancel": "Cancelar",
+    "failed": "No se pudo conectar con RetroAchievements.",
+    "connectedToast": "Conectado a RetroAchievements como {{username}}."
+  },
+  "retroAccount": {
+    "connectedAs": "Conectado como {{username}}",
+    "connected": "Conectado",
+    "connect": "Conectar",
+    "reconnect": "Reconectar",
+    "disconnect": "Desconectar",
+    "expired": "RetroAchievements ya no acepta la clave guardada. Vuelve a conectar."
+  },
+  "retroLink": {
+    "title": "Vincular un juego de RetroAchievements",
+    "notConnected": "Conecta RetroAchievements para elegir cuál de tus juegos es este.",
+    "search": "Busca en tus juegos de RetroAchievements",
+    "note": "Vincular elige de qué juego muestra LastSave los logros. Si tu archivo cuenta lo decide RetroAchievements.",
+    "loading": "Cargando tus juegos de RetroAchievements…",
+    "empty": "Ninguno de tus juegos de RetroAchievements coincide.",
+    "count": "{{unlocked}}/{{total}}",
+    "current": "Vinculado",
+    "linked": "Juego de RetroAchievements vinculado.",
+    "failed": "No se pudo vincular ese juego de RetroAchievements.",
+    "loadFailed": "No se pudieron cargar tus juegos de RetroAchievements.",
+    "noneYet": "Aún no has jugado un juego de esta consola con RetroAchievements. Cuando lo hagas, se vincula solo."
+  },
+  "manage": {
+    "title": "Logros",
+    "from": "De {{platform}}",
+    "count": "{{unlocked}} de {{total}} desbloqueados",
+    "notConnected": "{{platform}} no está conectado.",
+    "none": "{{platform}} no tiene logros para este juego.",
+    "local": "Leídos de los archivos de {{platform}} en este PC.",
+    "localMissing": "Aún no hay trofeos. Abre el juego una vez en {{platform}}.",
+    "wrongGame": "¿No es este juego?",
+    "showCard": "Mostrar la tarjeta en este juego",
+    "noSource": "La plataforma de este juego no tiene logros que LastSave pueda leer."
+  },
+  "session": {
+    "title_one": "{{count}} logro en esta sesión",
+    "title_many": "{{count}} logros en esta sesión",
+    "title_other": "{{count}} logros en esta sesión",
+    "checking": "Revisando logros…",
+    "late": "{{platform}} puede tardar unos minutos. Aparecerán en esta sesión cuando lleguen.",
+    "line_one": "{{count}} logro",
+    "line_many": "{{count}} logros",
+    "line_other": "{{count}} logros",
+    "badgeAria_one": "{{count}} logro en esta sesión",
+    "badgeAria_many": "{{count}} logros en esta sesión",
+    "badgeAria_other": "{{count}} logros en esta sesión",
+    "header": "Logros · {{count}}"
+  },
+  "share": {
+    "action": "Compartir",
+    "count": "{{unlocked}} / {{total}}",
+    "position": "{{unlocked}} de {{total}}",
+    "rarestAria": "Logros más raros"
+  },
+  "syncResult": {
+    "none": "{{platform}} no tiene logros para este juego.",
+    "notFound": "No se encontró este juego en {{platform}} para leer sus logros.",
+    "unavailable": "{{platform}} no respondió. Revisa que tengas la sesión iniciada e inténtalo de nuevo.",
+    "failed": "No se pudieron leer los logros de {{platform}}. Inténtalo de nuevo en un momento.",
+    "noSource": "Este juego no está en una plataforma con logros."
+  },
+  "local": {
+    "thisPc": "este PC",
+    "offer": "Aún no hay logros para este juego. LastSave puede buscarlos en este PC.",
+    "find": "Buscar logros locales",
+    "orFind": "o buscar logros locales",
+    "looking": "Buscando en este PC…",
+    "unknownTitle": "Este juego",
+    "summary": "{{unlocked}} de {{total}} desbloqueados",
+    "summaryLatest": "{{unlocked}} de {{total}} desbloqueados · el último el {{date}}",
+    "summaryZero": "{{unlocked}} de {{total}} desbloqueados · se irá llenando mientras juegas",
+    "accept": "Añadir estos logros",
+    "reject": "No es este juego",
+    "notFound": "Aún no hay nada en este PC. El archivo puede aparecer cuando juegues un rato o saques tu primer logro, así que vuelve a intentarlo más tarde.",
+    "tryAgain": "Reintentar",
+    "chooseFile": "Elegir archivo…",
+    "invalid": "LastSave no puede leer ese archivo. Elige el archivo de logros de la carpeta de partidas del juego.",
+    "noGame": "LastSave no sabe de qué juego es ese archivo.",
+    "failed": "No se pudo buscar en este PC. Inténtalo de nuevo.",
+    "credit": "Logros locales",
+    "about": "Leídos de un archivo en este PC.",
+    "manageHint": "Busca en este PC el archivo de logros de este juego.",
+    "openFolder": "Abrir carpeta"
+  }
+}

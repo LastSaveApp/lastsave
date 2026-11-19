@@ -11,7 +11,7 @@
         "description": "Anota tu progreso, tiempo, reacción y estado."
       },
       "achievement": {
-        "title": "Logro",
+        "title": "Hito",
         "description": "Recuerda tus mayores victorias y tus mejores marcas"
       },
       "journalEntry": {
@@ -155,17 +155,17 @@
   },
   "achievementModal": {
     "titles": {
-      "add": "Logro",
-      "edit": "Editar logro"
+      "add": "Hito",
+      "edit": "Editar hito"
     },
     "labels": {
-      "achievementType": "Tipo de logro",
+      "achievementType": "Tipo de hito",
       "title": "Título",
       "description": "Descripción"
     },
     "placeholders": {
       "title": "Derroté a Malenia sin invocaciones",
-      "description": "¿Qué hace que este logro valga la pena recordarlo?"
+      "description": "¿Qué hace que este hito valga la pena recordarlo?"
     },
     "media": {
       "emptyTitle": "Añade una prueba o un recuerdo",
@@ -174,17 +174,17 @@
     "actions": {
       "saving": "Guardando…",
       "saveChanges": "Guardar cambios",
-      "saveAchievement": "Guardar logro"
+      "saveAchievement": "Guardar hito"
     },
     "errors": {
-      "chooseType": "Elige primero un tipo de logro.",
+      "chooseType": "Elige primero un tipo de hito.",
       "mediaNotReady": "La imagen o el video todavía no están listos para guardar.",
-      "saveFailed": "No se pudo guardar el logro.",
-      "updateFailed": "No se pudo actualizar el logro."
+      "saveFailed": "No se pudo guardar el hito.",
+      "updateFailed": "No se pudo actualizar el hito."
     },
     "success": {
-      "saved": "Logro guardado.",
-      "updated": "Logro actualizado."
+      "saved": "Hito guardado.",
+      "updated": "Hito actualizado."
     }
   },
   "journalModal": {

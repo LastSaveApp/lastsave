@@ -1,0 +1,399 @@
+{
+  "titleBar": {
+    "label": "Tryb kanapowy",
+    "tooltip": "Uruchom tryb kanapowy",
+    "tooltipWithPad": "Przełącz się w tryb kanapowy - kontroler jest podłączony"
+  },
+  "tabs": {
+    "home": "Główna",
+    "library": "Biblioteka",
+    "shelves": "Półki",
+    "soon": "Wkrótce",
+    "journeys": "Szlaki"
+  },
+  "greeting": {
+    "morning": "Dzień dobry",
+    "afternoon": "Dzień dobry",
+    "evening": "Dobry wieczór",
+    "night": "Jeszcze nie śpisz?"
+  },
+  "hero": {
+    "kicker": {
+      "jumpBackIn": "Wróć do gry",
+      "recentlyAdded": "Ostatnio dodane"
+    },
+    "played": "grałeś {{hours}}",
+    "lastPlayed": "Ostatnie uruchomienie {{when}}",
+    "addedWhen": "Dodane {{when}}",
+    "noSessionsYet": "Brak sesji. Kliknij «Graj», a LastSave zacznie liczyć czas od pierwszej minuty."
+  },
+  "rails": {
+    "recentGames": "Ostatnie gry"
+  },
+  "memories": {
+    "title": "Wspomnienia",
+    "empty": "Tutaj zobaczysz zrzuty ekranu, klipy i notatki zrobione podczas gry.",
+    "video": "Filmy"
+  },
+  "library": {
+    "tabs": {
+      "installed": "Zainstalowano",
+      "all": "Wszystkie",
+      "status": "Status",
+      "source": "Żródło",
+      "shelf": "Półki"
+    },
+    "stateLine_one": "Posortowano według {{sort}} · {{count}} gra",
+    "stateLine_few": "Posortowano według {{sort}} · {{count}} gry",
+    "stateLine_many": "Posortowano według {{sort}} · {{count}} gier",
+    "stateLine_other": "Posortowano według {{sort}} · {{count}} gier",
+    "stateLineFiltered_one": "Posortowano wegług {{sort}} · Użyto filtra · {{count}} gra",
+    "stateLineFiltered_few": "Posortowano wegług {{sort}} · Użyto filtra · {{count}} gry",
+    "stateLineFiltered_many": "Posortowano wegług {{sort}} · Użyto filtra · {{count}} gier",
+    "stateLineFiltered_other": "Posortowano wegług {{sort}} · Użyto filtra · {{count}} gry",
+    "stateLineSearch_one": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · {{count}} gra",
+    "stateLineSearch_few": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · {{count}} gry",
+    "stateLineSearch_many": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · {{count}} gier",
+    "stateLineSearch_other": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · {{count}} gry",
+    "stateLineSearchFiltered_one": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · Użyto filtra · {{count}} gra",
+    "stateLineSearchFiltered_few": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · Użyto filtra · {{count}} gry",
+    "stateLineSearchFiltered_many": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · Użyto filtra · {{count}} gier",
+    "stateLineSearchFiltered_other": "Wyszukano \"{{query}}\" · Posortowano według {{sort}} · Użyto filtra · {{count}} gry",
+    "sortInLine": {
+      "lastPlayed": "ostatniego uruchomienia",
+      "title": "tytułu",
+      "playtime": "czasu gry",
+      "lastActivity": "ostatniej aktywności"
+    },
+    "noShelf": "Bez półki",
+    "empty": {
+      "search": {
+        "again": "Wyszukaj ponownie"
+      },
+      "shelf": {
+        "title": "Niczego nie ma na tej półce",
+        "description": "Umieść gry poprzez menu lub tryb komputerowy."
+      }
+    }
+  },
+  "search": {
+    "title": "Wyszukaj",
+    "placeholder": "Tytuł, gatunek, twórca",
+    "count_one": "{{count}} gra",
+    "count_few": "{{count}} gier",
+    "count_many": "{{count}} gier",
+    "count_other": "{{count}} gier",
+    "showKeyboard": "Wyświetl klawiaturę ekranową"
+  },
+  "filters": {
+    "title": "Filtry",
+    "count_one": "{{count}} gra",
+    "count_few": "{{count}} gry",
+    "count_many": "{{count}} gier",
+    "count_other": "{{count}} gry",
+    "sort": "Sortuj według",
+    "sortOptions": {
+      "lastPlayed": "Ostatnio grane",
+      "title": "Tytuł",
+      "playtime": "Czas gry",
+      "lastActivity": "Ostatnia aktywność"
+    },
+    "installedOnly": "Tylko zainstalowane",
+    "showAttachedContent": "Dodatki i rozszerzenia w osobnych kartach",
+    "status": "Status",
+    "source": "Źródło",
+    "shelves": "Półki",
+    "anyStatus": "Dowolny status",
+    "anySource": "Dowolne źródło",
+    "anyShelf": "Dowolna półka"
+  },
+  "legend": {
+    "continue": "Kontynuuj",
+    "play": "Graj",
+    "start": "Start",
+    "open": "Otwórz",
+    "goToGame": "Przejdź do gry",
+    "select": "Wybierz",
+    "back": "Wstecz",
+    "close": "Zamknij",
+    "cancel": "Anuluj",
+    "options": "Opcje",
+    "menu": "Menu",
+    "exit": "Wyjdź z trybu kanapowego",
+    "keyboard": "Klawiatura",
+    "device": {
+      "xbox": "Kontroler Xbox'a",
+      "xbox360": "Kontroler Xbox'a 360",
+      "ps3": "Kontroler PS3",
+      "ps4": "Kontroler PS4",
+      "ps5": "Kontroler PS5",
+      "playstation": "Kontroler PlayStation",
+      "switch": "Kontroler Switch'a",
+      "generic": "Kontroler",
+      "keyboard": "Mysz i klawiatura"
+    },
+    "change": "Zmień",
+    "clearAll": "Wyczyść wszystko",
+    "clear": "Wyczyść",
+    "toggle": "Wybierz",
+    "clearSearch": "Wyczyść szukanie",
+    "search": "Wyszukaj",
+    "filters": "Filtry",
+    "clearFilters": "Wyczyść filtry",
+    "done": "Gotowe"
+  },
+  "menu": {
+    "title": "LastSave",
+    "home": "Główna",
+    "library": "Biblioteka",
+    "shelves": "Półki",
+    "journeys": "Szlaki",
+    "settings": "Ustawienia",
+    "fullscreen": "Pełny ekran",
+    "exit": "Wyjdź z trybu kanapowego",
+    "quit": "Zamknij LastSave"
+  },
+  "splash": {
+    "launching": "Uruchamianie..."
+  },
+  "settingsPage": {
+    "title": "Ustawienia",
+    "on": "Wł.",
+    "off": "Wył.",
+    "fullscreenDescription": "Tryb kanapowy otwiera się tak jak go pozostawiono. Klawiszem F11 możesz włączać/wyłączać pełny ekran.",
+    "controllerShortcuts": "Skróty kontrolera",
+    "controllerShortcutsNote": "Przytrzymaj przycisk podglądu podczas gry. Gra nadal reaguje na oba przyciski: kombinacja Podgląd + RB otwiera ekran przypisany do Podglądu (najczęściej mapę), a następnie naciska RB na tym ekranie.",
+    "notSet": "Brak",
+    "captures": "Materiały",
+    "clipsTitle": "Rejestrowanie klipów",
+    "clipsDescription": "Rejestrator, którego LastSave użyje do nagrywania klipów, i jakie opcje w nim włączyć.",
+    "open": "Otwórz"
+  },
+  "keyboard": {
+    "delete": "Delete",
+    "space": "Spacja",
+    "save": "Zapisz"
+  },
+  "shelves": {
+    "count_one": "{{count}} gra",
+    "count_few": "{{count}} gier",
+    "count_many": "{{count}} gier",
+    "count_other": "{{count}} gier",
+    "more": "+ {{count}}",
+    "nothingToPlay": "Niczego nie ma na tej półce",
+    "empty": {
+      "title": "Brak półek"
+    },
+    "manageGames": "Gry",
+    "addGames": "Dodaj gry"
+  },
+  "hub": {
+    "sessions": "Sesje",
+    "journals": "Dziennik",
+    "achievements": "Osiągnięcia",
+    "shelves": "Półki",
+    "journeys": "Szlaki",
+    "achievementCount": "{{type}} · {{count}}",
+    "noneYet": "Brak",
+    "journeyPosition": "{{position}} z {{total}}",
+    "none": "—",
+    "never": "Nigdy",
+    "stats": {
+      "status": "Status",
+      "progress": "Postęp",
+      "hours": "Godziny",
+      "lastPlayed": "Ostatnie uruchomienie",
+      "impression": "Wrażenie",
+      "rating": "Ocena"
+    },
+    "tabs": {
+      "all": "Wszystko",
+      "achievements": "Osiągnięcia",
+      "journals": "Dziennik",
+      "status": "Status",
+      "sessions": "Sesje"
+    },
+    "scopes": {
+      "all": "Wszystkie",
+      "base": "Gra główna"
+    },
+    "logs": {
+      "added": "Dodano do biblioteki",
+      "empty": "Brak zapisanych sesji. Twoja przygoda z tą grą zacznie się, gdy po raz pierwszy klikniesz «Graj»."
+    },
+    "viewer": {
+      "previous": "Poprzedni",
+      "next": "Następny",
+      "hideText": "Ukryj tekst"
+    },
+    "actions": {
+      "status": "Status",
+      "note": "Dziennik",
+      "shelves": "Półki",
+      "more": "Więcej"
+    }
+  },
+  "padStatus": {
+    "none": "Nie podłączono kontrolera"
+  },
+  "statusSheet": {
+    "title": "Status",
+    "now": "Obecnie",
+    "impression": "Wrażenie",
+    "comment": "Komentarz",
+    "addComment": "Dodaj komentarz",
+    "optional": "Opcjonalnie",
+    "commentPlaceholder": "Co się zmieniło?",
+    "save": "Zapisz",
+    "discardTitle": "Zniszczyć wprowadzone zmiany?"
+  },
+  "shelvesSheet": {
+    "toggle": "Dodaj lub usuń"
+  },
+  "journeysSheet": {
+    "toggle": "Dodaj lub usuń",
+    "games_one": "{{count}} gra",
+    "games_few": "{{count}} gry",
+    "games_many": "{{count}} gier",
+    "games_other": "{{count}} gry"
+  },
+  "editor": {
+    "discardTitle": "Zniszczyć to co napisałeś?",
+    "discard": "Zniszcz",
+    "keepEditing": "Kontynuuj"
+  },
+  "note": {
+    "title": "Nowy wpis w dzienniku",
+    "context": "{{game}} | Dzisiaj",
+    "placeholder": "Co się wydarzyło?"
+  },
+  "chord": {
+    "hold": "Trzymaj"
+  },
+  "captures": {
+    "journal": "Dziennik"
+  },
+  "captureSheet": {
+    "choices": {
+      "journal": "Wpis w dzienniku",
+      "achievement": "Osiągnięcie"
+    },
+    "kinds": {
+      "screenshot": "Zrzut ekranu",
+      "clip": "Klip",
+      "note": "Zanotuj"
+    },
+    "fileAs": "Zapisz jako",
+    "title": "Tytuł",
+    "titlePlaceholder": "Czego udało ci się dokonać?",
+    "text": "Treść",
+    "captionPlaceholder": "Co się wydarzyło?",
+    "discard": "Zniszcz wpis",
+    "discardTitle": "Zniszczyć ten wpis?",
+    "failed": "Nie udało się zapisać zmian."
+  },
+  "clipsSheet": {
+    "ready": "Gotowy",
+    "unavailable": {
+      "nvidia": "Nie działa",
+      "amd": "Nie działa"
+    }
+  },
+  "focusMode": {
+    "clips": "Rejestrowanie klipów:",
+    "newLog": "Nowy wpis",
+    "backToGame": "Wróć do gry",
+    "keepPlaying": "Kontynuuj rozgrywkę",
+    "thisSession_one": "Ta sesja · {{count}}",
+    "thisSession_few": "Ta sesja · {{count}}",
+    "thisSession_many": "Ta sesja · {{count}}",
+    "thisSession_other": "Ta sesja · {{count}}",
+    "empty": "Tutaj zobaczysz zrzuty ekranu, klipy i notatki zrobione podczas gry."
+  },
+  "nowPlaying": {
+    "live": "Na żywo",
+    "startedAt": "Rozpoczęto o {{time}}",
+    "playingFor": "Grasz przez",
+    "backToGame": "Wróć do gry",
+    "stop": "Zakończ sesję"
+  },
+  "sessionOver": {
+    "kicker": "Sesja zakończona",
+    "whichGame": "Która gra?",
+    "whichGameHintEdition": "Wskaż jedną z gier lub dodatków, które zawiera",
+    "playedOn": "Grano dnia",
+    "duration": "Czas trwania",
+    "hours": "Godziny",
+    "minutes": "Minuty",
+    "status": "Status",
+    "unchanged": "bez zmian",
+    "note": "Notatka o sesji",
+    "addNote": "Dodaj notatkę opisującą sesję...",
+    "captures_one": "{{count}} materiał",
+    "captures_few": "{{count}} materiały",
+    "captures_many": "{{count}} materiałów",
+    "captures_other": "{{count}} materiału",
+    "noCaptures": "Niczego nie zarejestrowano podczas sesji",
+    "discard": "Zniszcz sesję",
+    "saved_one": "Sesja zapisana · {{duration}} · {{count}} wpis",
+    "saved_few": "Sesja zapisana · {{duration}} · {{count}} wpisy",
+    "saved_many": "Sesja zapisana · {{duration}} · {{count}} wpisów",
+    "saved_other": "Sesja zapisana · {{duration}} · {{count}} wpisu"
+  },
+  "padBind": {
+    "prompt": "Przytrzymaj {{modifier}} i wciśnij przycisk",
+    "tapOrHold": "Naciśnij krótko lub przytrzymaj.",
+    "now": "Obecnie"
+  },
+  "shelfGames": {
+    "hint_one": "{{count}} gra na półce · zmiany są zapisywane natychmiast",
+    "hint_few": "{{count}} gry na półce · zmiany są zapisywane natychmiast",
+    "hint_many": "{{count}} gier na półce · zmiany są zapisywane natychmiast",
+    "hint_other": "{{count}} gry na półce · zmiany są zapisywane natychmiast",
+    "searchPlaceholder": "Przeszukaj bibliotekę",
+    "noResults": "W bibliotece nie znaleziono dopasowania."
+  },
+  "moreSheet": {
+    "title": "Więcej",
+    "review": "Ocena i recenzja",
+    "reviewHint": "Oceń od 1 do 10 i uzasadnij",
+    "shelves": "Półki",
+    "shelvesHint": "Umieść lub zdejmij z półki",
+    "journeys": "Szlaki",
+    "journeysHint": "Umieść lub usuń ze szlaku."
+  },
+  "reviewSheet": {
+    "title": "Recenzja",
+    "rating": "Ocena",
+    "outOf": "/ 10",
+    "body": "Recenzja",
+    "addBody": "Napisz kilka słów",
+    "bodyPlaceholder": "Co zapadło Ci w pamięć?",
+    "save": "Zapisz recenzję",
+    "saved": "Recenzja została zapisana",
+    "failed": "Nie udało się zapisać recenzji",
+    "delete": "Usuń recenzję",
+    "deleteTitle": "Usunąć recenzję?",
+    "deleted": "Recenzja została usunięta",
+    "deleteFailed": "Nie udało się usnąć recenzji"
+  },
+  "reviewOffer": {
+    "title": "Czy chcesz teraz zrecenzować {{title}}?",
+    "confirm": "Napisz recenzję",
+    "cancel": "Nie teraz"
+  },
+  "journeys": {
+    "count": "{{done}} z {{counted}}",
+    "notInLibrary": "Nie ma w bibliotece",
+    "skipped": "Pominięta",
+    "empty": {
+      "title": "Nie podążasz żadnym szlakiem",
+      "description": "Szlaki, które tworzysz w trybie komputerowym widoczne są tutaj, gotowe do uruchomienia."
+    },
+    "groups": {
+      "completed": "Ukończone"
+    },
+    "manageGames": "Gry",
+    "skip": "Pomiń"
+  }
+}

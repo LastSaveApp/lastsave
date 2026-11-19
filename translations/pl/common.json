@@ -1,0 +1,63 @@
+{
+  "app": {
+    "name": "LastSave",
+    "description": "Twoje osobiste archiwum gracza. Zapisuj sesje, notuj wrażenia z rozgrywki i wreszcie uporządkuj listę gier, które ciągle czekają na ukończenie.",
+    "descriptionShort": "Twoje osobiste archiwum gracza. Zapisuj sesje, notuj wrażenia z rozgrywki i nadrabiaj zaległości.",
+    "logoAlt": "Logotyp LastSave"
+  },
+  "actions": {
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź",
+    "save": "Zapisz",
+    "delete": "Usuń",
+    "upload": "Wstaw",
+    "back": "Cofnij",
+    "continue": "Kontynuuj",
+    "skip": "Pomiń",
+    "change": "Zmień",
+    "close": "Zamknij",
+    "done": "Gotowe"
+  },
+  "back": {
+    "toNamed": "Wróć do {{name}}"
+  },
+  "labels": {
+    "never": "Nigdy",
+    "yes": "Tak",
+    "no": "Nie",
+    "unknownGame": "Nieznana gra",
+    "unknownYear": "Rok nieznany",
+    "unknownDeveloper": "Producent nieznany",
+    "releaseDateUnknown": "Nieznana data wydania",
+    "searchingGames": "Wyszukiwanie gier..."
+  },
+  "errors": {
+    "unknown": "Nieznany błąd"
+  },
+  "duration": {
+    "hoursMinutes": "{{hours}} godz. {{minutes}} min",
+    "hours": "{{hours}} godz.",
+    "minutes": "{{minutes}} min",
+    "hoursSpaced": "{{value}} godz.",
+    "minutesSpaced": "{{value}} min"
+  },
+  "splash": {
+    "title": "Wczytuję wszystko dla ciebie",
+    "message": "Twoja biblioteka, twoje sesje i to, co przed tobą."
+  },
+  "offline": {
+    "title": "Jesteś offline",
+    "message": "Wymagane jest połączenie z internetem. Funkcja będzie dostępna po przywróceniu połączenia.",
+    "chip": "Offline · wyświetlane są ostatnio dostępne dane",
+    "localOnly": "Jesteś offline. Zobaczysz tylko gry zapisane lokalnie przez LastSave."
+  },
+  "language": {
+    "community": "{{name}} Społeczność {{percent}}%",
+    "info": {
+      "community": "Tłumaczenie przygotowane przez graczy takich jak Ty. Jeśli coś brzmi niepoprawnie, daj nam znać, korzystając z formularza opinii. Wspólnie zadbamy o jego jakość.",
+      "draft": "Tłumaczenie w przygotowaniu. Niektóre teksty mogą być wyświetlane po angielsku lub ulegać zmianom. Dostępne tylko w wersjach rozwojowych.",
+      "personal": "Twoja własna wersja stworzona w Language Studio. Widoczna tylko na twoim komputerze."
+    },
+    "personal": "{{name}} · Twoja wersja"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "back": "Wróć do Odkrywaj",
+    "top": "Do góry",
+    "newest": "Najnowsze",
+    "oldest": "Najstarsze",
+    "decadeNavigation": "Nawigacja po dekadach",
+    "jumpTo": "Przejdź do {{year}}",
+    "decadeLabel": "{{decade}}"
+  },
+  "filters": {
+    "all": "Wszystkie"
+  },
+  "header": {
+    "eyebrow": "Galeria chwały",
+    "title": "Gry roku",
+    "description": "Laureaci nagrody Gry Roku, docenieni przez najważniejsze gremia branżowe i uwiecznieni dla kolejnych pokoleń graczy."
+  },
+  "card": {
+    "userRating": "Ocena użytkowników",
+    "grandSlam": "Wielki Szlem",
+    "allFiveMajors": "Pięć najważniejszych nagród"
+  },
+  "states": {
+    "loadError": "Nie udało się wczytać galerii chwały"
+  }
+}

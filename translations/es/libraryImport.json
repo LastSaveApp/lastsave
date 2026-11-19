@@ -125,6 +125,10 @@
         "title": "Incluir juegos de consola",
         "description": "Juegos que jugaste en una consola Xbox. LastSave guarda su historial y sus horas, pero no puede abrirlos."
       },
+      "wishlist": {
+        "title": "Incluir juegos deseados",
+        "description": "Los juegos de tu lista de deseados de Xbox llegan como deseados, con la fecha en que los añadiste."
+      },
       "autoSync": {
         "title": "Autosincronizar juegos",
         "description": "Los juegos importados mantendrán su tiempo de juego al día con Xbox."
@@ -142,6 +146,40 @@
     "disconnect": {
       "title": "¿Desconectar Xbox?",
       "message": "Tus juegos de Xbox importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con Xbox. Puedes volver a conectar la misma cuenta cuando quieras.",
+      "confirm": "Desconectar",
+      "cancel": "Mantener conectado"
+    }
+  },
+  "gog": {
+    "capabilities": {
+      "title": "Qué traer de GOG",
+      "description": "Cada juego que tiene tu cuenta de GOG, con las horas y la última sesión que guardó GOG Galaxy. Los instalados llegan con su carpeta y se abren con Galaxy.",
+      "unplayed": {
+        "title": "Incluir juegos sin jugar",
+        "description": "Juegos que tienes pero nunca jugaste con GOG Galaxy."
+      },
+      "wishlist": {
+        "title": "Incluir juegos deseados",
+        "description": "Los juegos de tu lista de deseados de GOG llegan como deseados, listos para cuando los consigas."
+      },
+      "autoSync": {
+        "title": "Autosincronizar juegos",
+        "description": "Los juegos importados mantendrán su tiempo de juego al día con GOG."
+      },
+      "galaxyNote": "GOG cuenta el tiempo que juegas con GOG Galaxy. Un juego abierto de otra forma no tiene horas en GOG."
+    },
+    "connect": {
+      "required": "Requiere cuenta",
+      "title": "Conecta tu cuenta de GOG",
+      "description": "GOG le dice a LastSave cada juego que tienes allí y cuánto lo jugaste. Los juegos ya instalados aquí los encuentra Este equipo de todos modos.",
+      "checking": "Revisando tu conexión con GOG…",
+      "expired": "Tu sesión de GOG caducó. Vuelve a conectar para seguir importando y sincronizando.",
+      "googleNote": "Entrar con Google no funciona dentro de LastSave, porque Google bloquea el inicio de sesión dentro de las apps. Usa tu correo y contraseña de GOG, Steam, Discord o Xbox.",
+      "disclaimer": "LastSave no está afiliado a GOG. Inicias sesión en la página de GOG, y la sesión se queda en este equipo como en tu navegador."
+    },
+    "disconnect": {
+      "title": "¿Desconectar GOG?",
+      "message": "Tus juegos de GOG importados se quedan en tu biblioteca con sus horas e historial. Solo se detiene la sincronización con GOG. Puedes volver a conectar la misma cuenta cuando quieras.",
       "confirm": "Desconectar",
       "cancel": "Mantener conectado"
     }
@@ -187,9 +225,17 @@
         "name": "Xbox",
         "tagline": "Jugados en PC, Game Pass y consola Xbox, con tus horas."
       },
+      "gog": {
+        "name": "GOG",
+        "tagline": "Tus juegos de GOG, con las horas que guardó GOG Galaxy."
+      },
       "emulators": {
         "name": "Emuladores",
         "tagline": "Juegos de tus emuladores y carpetas de ROMs."
+      },
+      "retroachievements": {
+        "name": "RetroAchievements",
+        "tagline": "Lo que jugaste allí, aunque ya no tengas la ROM."
       }
     },
     "state": {
@@ -236,7 +282,14 @@
       "epicIncludeUnplayed": "sin jugar",
       "xboxDisconnected": "Conecta Xbox para importar tu historial",
       "xboxIncludePlayed": "Tus juegos jugados",
-      "xboxIncludeConsole": "juegos de consola"
+      "xboxIncludeConsole": "juegos de consola",
+      "xboxIncludeWishlist": "deseados",
+      "gogDisconnected": "Conecta GOG para importar tu biblioteca",
+      "gogIncludeOwned": "Tu biblioteca",
+      "gogIncludeUnplayed": "sin jugar",
+      "gogIncludeWishlist": "deseados",
+      "retroachievementsDisconnected": "Conecta tu cuenta",
+      "retroachievementsGames": "Tus juegos de RetroAchievements"
     },
     "pc": {
       "yourStuff": {
@@ -457,21 +510,34 @@
         "wishlist": "deseados",
         "family": "compartidos en familia que jugaste",
         "autoSync": "tiempo autosincronizado",
-        "none": "Ninguna categoría elegida"
+        "none": "Ninguna categoría elegida",
+        "achievements": "logros"
       },
       "epic": {
         "library": "Tu biblioteca de Epic",
         "unplayed": "juegos sin jugar",
         "wishlist": "juegos deseados",
         "autoSync": "tiempo autosincronizado",
-        "none": "Ninguna categoría elegida"
+        "none": "Ninguna categoría elegida",
+        "achievements": "logros"
       },
       "xbox": {
         "history": "Tu historial de Xbox",
         "console": "juegos de consola",
+        "wishlist": "juegos deseados",
+        "autoSync": "tiempo autosincronizado",
+        "achievements": "logros"
+      },
+      "gog": {
+        "library": "Tu biblioteca de GOG",
+        "unplayed": "juegos sin jugar",
+        "wishlist": "juegos deseados",
         "autoSync": "tiempo autosincronizado"
       },
-      "failed": "La búsqueda falló."
+      "failed": "La búsqueda falló.",
+      "retroachievements": {
+        "games": "Tus juegos de RetroAchievements, como juegos emulados sin ROM"
+      }
     },
     "review": {
       "foundCount_one": "{{count}} juego encontrado",
@@ -552,7 +618,8 @@
         "columns": {
           "game": "Juego",
           "source": "Fuente",
-          "hours": "Horas"
+          "hours": "Horas",
+          "achievements": "Logros"
         },
         "noHours": "—"
       },
@@ -612,7 +679,12 @@
         "epic": "De tu biblioteca de Epic",
         "epicWishlist": "De tu lista de deseados de Epic",
         "xbox": "De tu historial de Xbox",
-        "xboxConsole": "De tu historial de Xbox · jugado en consola"
+        "xboxConsole": "De tu historial de Xbox · jugado en consola",
+        "xboxWishlist": "De tu lista de deseados de Xbox",
+        "gog": "De tu biblioteca de GOG",
+        "gogWishlist": "De tu lista de deseados de GOG",
+        "retroachievements": "De tus juegos de RetroAchievements",
+        "retroachievementsConsole": "De tus juegos de RetroAchievements · {{console}}"
       },
       "modal": {
         "title": "Revisar este juego",
@@ -628,7 +700,8 @@
           "hours_many": "{{count}} h",
           "hours_other": "{{count}} h",
           "useThisHint": "Usa esta fuente para el launcher y las rutas. El id de la otra tienda se guarda igual.",
-          "separate": "No es este juego: separarlo"
+          "separate": "No es este juego: separarlo",
+          "achievements": "{{unlocked}}/{{total}} logros"
         },
         "foundBy": "Fuentes",
         "setup": "Plataforma",
@@ -650,7 +723,8 @@
           "attachedContent_one": "{{count}} extra",
           "attachedContent_many": "{{count}} extras",
           "attachedContent_other": "{{count}} extras",
-          "xboxLink": "el vínculo con Xbox"
+          "xboxLink": "el vínculo con Xbox",
+          "gogLink": "el vínculo con GOG"
         },
         "unknownEmulator": "Emulador desconocido",
         "discard": {
@@ -727,7 +801,11 @@
         "stoppedHint": "Lo que ves es real, pero es solo lo encontrado hasta entonces; busca de nuevo para la lista completa.",
         "wishlistUnavailable": "No se pudo leer tu lista de deseados de Epic, así que no se incluye. Todo lo demás de Epic se importó con normalidad.",
         "wishlistNeedsReconnect": "Tu sesión de Epic ya no cubre la tienda, así que se omitió tu lista de deseados. Reconecta Epic para traerla. Todo lo demás de Epic se importó con normalidad.",
-        "xboxPlaytimeUnavailable": "Xbox compartió tus juegos pero no tus horas esta vez, así que llegan sin tiempo de juego. Una sincronización posterior las completa cuando Xbox responda."
+        "xboxPlaytimeUnavailable": "Xbox compartió tus juegos pero no tus horas esta vez, así que llegan sin tiempo de juego. Una sincronización posterior las completa cuando Xbox responda.",
+        "xboxWishlistUnavailable": "Xbox compartió tu historial pero no tu lista de deseados esta vez, así que faltan los deseados. Vuelve a escanear más tarde para traerlos.",
+        "gogPlaytimeUnavailable": "GOG compartió tus juegos pero no tus horas esta vez, así que llegan sin tiempo de juego. Una sincronización posterior las completa cuando GOG responda.",
+        "gogWishlistUnavailable": "GOG compartió tus juegos pero no tu lista de deseados esta vez, así que faltan los deseados. Vuelve a escanear más tarde para traerlos.",
+        "expired": "No se revisó {{source}}: su sesión caducó"
       },
       "errors": {
         "add": "No se pudo iniciar la importación."
@@ -912,7 +990,20 @@
       "pending_other": "{{count}} necesitan un vistazo",
       "review": "Revisar",
       "caughtUp": "No se encontraron juegos nuevos.",
-      "sourceBreakdown": "{{source}}: {{count}}"
+      "sourceBreakdown": "{{source}}: {{count}}",
+      "open": "Abrir",
+      "issues": {
+        "titleOne": "Revisión incompleta: {{source}}",
+        "titleMany_one": "Revisión incompleta: {{count}} fuente",
+        "titleMany_many": "Revisión incompleta: {{count}} fuentes",
+        "titleMany_other": "Revisión incompleta: {{count}} fuentes",
+        "descriptionMany": "Abre la revisión para ver qué faltó y reconectar o reintentar.",
+        "expired": "Su sesión caducó, así que no se buscaron juegos nuevos ahí. Reconecta para volver a revisar.",
+        "failed": "No se pudo leer esta vez. Abre la revisión para reintentar.",
+        "wishlist": "No se pudo leer tu lista de deseados ahí. Abre la revisión para reintentar.",
+        "wishlistReconnect": "Tu sesión ya no cubre la tienda, así que se omitió tu lista de deseados. Reconecta para traerla.",
+        "playtime": "No se pudieron leer tus horas ahí. Abre la revisión para reintentar."
+      }
     },
     "errors": {
       "add": "No se pudo iniciar la importación."
@@ -937,5 +1028,19 @@
     "restoreDefaults": "Restablecer",
     "saving": "Guardando…",
     "save": "Guardar carpetas"
+  },
+  "retroachievements": {
+    "connect": {
+      "action": "Conectar",
+      "reconnect": "Reconectar",
+      "checking": "Comprobando tu cuenta…",
+      "expired": "RetroAchievements ya no acepta la clave guardada. Vuelve a conectar."
+    },
+    "disconnect": {
+      "title": "¿Desconectar RetroAchievements?",
+      "message": "Los juegos y logros que ya trajo se quedan. LastSave deja de leer los nuevos y borra la clave guardada.",
+      "confirm": "Desconectar",
+      "cancel": "Mantener conectado"
+    }
   }
 }

@@ -213,8 +213,8 @@
     "logged": "Anotado: {{duration}}",
     "updateStatus": "Cambiar estado",
     "updateStatusHint": "Ajusta tu progreso.",
-    "achievement": "Logro",
-    "achievementHint": "Marca un logro de esta sesión.",
+    "achievement": "Hito",
+    "achievementHint": "Marca un hito de esta sesión.",
     "addJournal": "Añadir entrada de diario",
     "addJournalHint": "Guarda un recuerdo o una nota de esta sesión.",
     "noThanks": "No, gracias"
@@ -292,7 +292,7 @@
     },
     "chip": {
       "journal": "Diario",
-      "achievement": "Logro",
+      "achievement": "Hito",
       "filed": "Guardado"
     },
     "plan": {
@@ -303,7 +303,7 @@
       },
       "choices": {
         "journal": "Diario",
-        "achievement": "Logro"
+        "achievement": "Hito"
       },
       "save": "Conservar",
       "discard": "Descartar",
@@ -338,8 +338,9 @@
     "partialFailure_one": "Sesión guardada, pero {{count}} elemento no se pudo archivar. Sigue en tus capturas.",
     "partialFailure_many": "Sesión guardada, pero {{count}} elementos no se pudieron archivar. Siguen en tus capturas.",
     "partialFailure_other": "Sesión guardada, pero {{count}} elementos no se pudieron archivar. Siguen en tus capturas.",
-    "confirmDiscardMessage": "Se descarta el tiempo registrado y no se guarda nada. Lo que reunió esta sesión se queda en el disco, sin archivar.",
+    "confirmDiscardMessage": "Se descarta el tiempo registrado, no se guarda nada y el juego no aparecerá entre los jugados recientemente. Lo que reunió esta sesión se queda en el disco, sin archivar.",
     "toBeLogged": "por anotar",
+    "close": "Cerrar y guardar",
     "tally": {
       "screenshots_one": "{{count}} captura",
       "screenshots_many": "{{count}} capturas",
@@ -354,9 +355,9 @@
       "journals_one": "{{count}} entrada de diario",
       "journals_many": "{{count}} entradas de diario",
       "journals_other": "{{count}} entradas de diario",
-      "achievements_one": "{{count}} logro",
-      "achievements_many": "{{count}} logros",
-      "achievements_other": "{{count}} logros"
+      "achievements_one": "{{count}} hito",
+      "achievements_many": "{{count}} hitos",
+      "achievements_other": "{{count}} hitos"
     }
   },
   "clips": {

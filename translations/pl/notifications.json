@@ -1,0 +1,33 @@
+{
+  "bell": {
+    "open": "Powiadomienia",
+    "unread_one": "Powiadomienia, {{count}} nieprzeczytane",
+    "unread_few": "Powiadomienia, {{count}} nieprzeczytane",
+    "unread_many": "Powiadomienia, {{count}} nieprzeczytanych",
+    "unread_other": "Powiadomienia, {{count}} nieprzeczytane"
+  },
+  "tray": {
+    "title": "Powiadomienia",
+    "markAllRead": "Wszystkie przeczytane",
+    "markAllUnread": "Wszystkie nieprzeczytane",
+    "markRead": "Oznacz jako przeczytane",
+    "markUnread": "Oznacz jako nieprzeczytane",
+    "clearAll": "Usuń wszystkie",
+    "dismiss": "Odrzuć",
+    "today": "Dzisiaj",
+    "earlier": "Wcześniej",
+    "empty": "Jesteś na bieżąco."
+  },
+  "time": {
+    "justNow": "Teraz",
+    "minutesAgo": "{{count}} min. temu",
+    "hoursAgo": "{{count}} godz. temu"
+  },
+  "providerSync": {
+    "gamesTwo": "{{first}} i {{second}}"
+  },
+  "sessionSaved": {
+    "description": "{{title}} · {{duration}}",
+    "open": "Otwórz grę"
+  }
+}

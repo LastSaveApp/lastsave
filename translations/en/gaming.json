@@ -109,6 +109,7 @@
     "anyStatus": "Any status",
     "anySource": "Any source",
     "anyShelf": "Any shelf",
+    "shelvesMatchAll": "Only games on every chosen shelf",
     "more": "+{{count}}",
     "nothingToFilter": "Nothing to filter"
   },
@@ -217,7 +218,7 @@
   "hub": {
     "sessions": "Sessions",
     "journals": "Journals",
-    "achievements": "Achievements",
+    "achievements": "Milestones",
     "shelves": "Shelves",
     "journeys": "Journeys",
     "achievementCount": "{{type}} · {{count}}",
@@ -237,10 +238,11 @@
     },
     "tabs": {
       "all": "All",
-      "achievements": "Achievements",
+      "achievements": "Milestones",
       "journals": "Journals",
       "status": "Status",
-      "sessions": "Sessions"
+      "sessions": "Sessions",
+      "platform": "Achievements"
     },
     "scopes": {
       "all": "All",
@@ -260,7 +262,8 @@
       "note": "Journal",
       "shelves": "Shelves",
       "more": "More"
-    }
+    },
+    "platformAchievements": "Achievements"
   },
   "padStatus": {
     "none": "No controller connected"
@@ -315,7 +318,7 @@
   "captureSheet": {
     "choices": {
       "journal": "Journal entry",
-      "achievement": "Achievement"
+      "achievement": "Milestone"
     },
     "kinds": {
       "screenshot": "Screenshot",
@@ -386,6 +389,8 @@
     "status": "Status",
     "changed": "changed",
     "unchanged": "unchanged",
+    "journals_one": "Journal entry",
+    "journals_other": "Journal entries",
     "note": "Session note",
     "addNote": "Add a note about this session…",
     "captures_one": "Captures · {{count}}",
@@ -393,6 +398,8 @@
     "noCaptures": "Nothing was captured this session.",
     "unfiledBecomeJournal": "What you do not file is saved as a journal entry.",
     "discard": "Discard session",
+    "saveAndClose": "Save and close",
+    "discardDetail": "The tracked time is dropped, nothing is logged, and the game won't show as recently played.",
     "saved_one": "Session saved · {{duration}} · {{count}} log",
     "saved_other": "Session saved · {{duration}} · {{count}} logs"
   },

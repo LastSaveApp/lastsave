@@ -3,7 +3,8 @@
     "title": "Share log",
     "titleReview": "Share review",
     "titleGame": "Share game",
-    "subtitle": "{{game}} · {{type}}"
+    "subtitle": "{{game}} · {{type}}",
+    "titleAchievement": "Share achievement"
   },
   "variants": {
     "card": "Card",
@@ -36,7 +37,8 @@
       "sessionWithDuration": "Session · {{duration}}",
       "statusUpdate": "Status update",
       "review": "My review",
-      "game": "Game"
+      "game": "Game",
+      "achievement": "Achievement"
     },
     "reviewRating": "{{rating}} / 10",
     "ratingOutOf": "/ 10",
@@ -116,6 +118,17 @@
   "time": {
     "seconds": "{{value}} s"
   },
+  "sessionCard": {
+    "stats": {
+      "journals_one": "journal",
+      "journals_other": "journals",
+      "milestones_one": "milestone",
+      "milestones_other": "milestones",
+      "achievements_one": "achievement",
+      "achievements_other": "achievements"
+    },
+    "more": "+{{count}}"
+  },
   "gameCard": {
     "stats": {
       "played": "played",
@@ -123,8 +136,8 @@
       "sessions_other": "sessions",
       "journals_one": "journal",
       "journals_other": "journals",
-      "achievements_one": "achievement",
-      "achievements_other": "achievements"
+      "achievements_one": "milestone",
+      "achievements_other": "milestones"
     },
     "description": {
       "played": "{{duration}} played",
@@ -134,7 +147,8 @@
     "showProfile": "Show my profile",
     "captions": {
       "impression": "Impression"
-    }
+    },
+    "platformAchievements": "Achievements"
   },
   "profileCard": {
     "dialogTitle": "Share profile",
@@ -174,5 +188,12 @@
       "findMe": "Add me: {{accounts}}"
     },
     "showPc": "Show my PC"
+  },
+  "achievementCard": {
+    "kicker": "Achievement",
+    "unlocked": "Unlocked {{date}}",
+    "rarity": "{{percent}}% of players",
+    "progress": "{{unlocked}} of {{total}} unlocked",
+    "description": "Unlocked “{{name}}” in {{game}}"
   }
 }

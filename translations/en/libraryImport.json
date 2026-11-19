@@ -118,6 +118,10 @@
         "title": "Include console games",
         "description": "Games you played on an Xbox console. LastSave keeps their history and hours; it can't start them."
       },
+      "wishlist": {
+        "title": "Include wishlisted games",
+        "description": "Games on your Xbox wishlist arrive as wishlisted, dated the day you added them."
+      },
       "autoSync": {
         "title": "Auto-sync games",
         "description": "Imported games will keep playtime aligned with Xbox."
@@ -135,6 +139,40 @@
     "disconnect": {
       "title": "Disconnect Xbox?",
       "message": "Your imported Xbox games stay in your library with their hours and history. Only syncing with Xbox stops. You can reconnect the same account at any time.",
+      "confirm": "Disconnect",
+      "cancel": "Keep connected"
+    }
+  },
+  "gog": {
+    "capabilities": {
+      "title": "What to bring in from GOG",
+      "description": "Every game your GOG account owns, with the hours and last session GOG Galaxy kept. Installed games arrive with their install folder and launch through Galaxy.",
+      "unplayed": {
+        "title": "Include unplayed games",
+        "description": "Games you own but never played through GOG Galaxy."
+      },
+      "wishlist": {
+        "title": "Include wishlisted games",
+        "description": "Games on your GOG wishlist arrive as wishlisted, ready for when you get them."
+      },
+      "autoSync": {
+        "title": "Auto-sync games",
+        "description": "Imported games will keep playtime aligned with GOG."
+      },
+      "galaxyNote": "GOG counts the time you play through GOG Galaxy. Games started some other way have no hours on GOG."
+    },
+    "connect": {
+      "required": "Account required",
+      "title": "Connect your GOG account",
+      "description": "GOG can tell LastSave every game you own there and how long you played it. Games already installed here are found by This PC either way.",
+      "checking": "Checking your GOG connection...",
+      "expired": "Your GOG session expired. Reconnect to keep importing and syncing.",
+      "googleNote": "Signing in with Google does not work inside LastSave, because Google blocks sign-in windows inside apps. Use your GOG email and password, Steam, Discord or Xbox.",
+      "disclaimer": "LastSave is not affiliated with GOG. You sign in on GOG's own page, and the session stays on this PC like it would in your browser."
+    },
+    "disconnect": {
+      "title": "Disconnect GOG?",
+      "message": "Your imported GOG games stay in your library with their hours and history. Only syncing with GOG stops. You can reconnect the same account at any time.",
       "confirm": "Disconnect",
       "cancel": "Keep connected"
     }
@@ -180,9 +218,17 @@
         "name": "Xbox",
         "tagline": "Played on PC, Game Pass and Xbox console, with your hours."
       },
+      "gog": {
+        "name": "GOG",
+        "tagline": "Games you own on GOG, with the hours GOG Galaxy kept."
+      },
       "emulators": {
         "name": "Emulators",
         "tagline": "Emulated games from your emulator and ROM folders."
+      },
+      "retroachievements": {
+        "name": "RetroAchievements",
+        "tagline": "Games you've played there, even without the ROM."
       }
     },
     "state": {
@@ -223,7 +269,14 @@
       "epicIncludeUnplayed": "unplayed",
       "xboxDisconnected": "Connect Xbox to import your history",
       "xboxIncludePlayed": "Your played games",
-      "xboxIncludeConsole": "console games"
+      "xboxIncludeConsole": "console games",
+      "xboxIncludeWishlist": "wishlist",
+      "gogDisconnected": "Connect GOG to import your library",
+      "gogIncludeOwned": "Your library",
+      "gogIncludeUnplayed": "unplayed",
+      "gogIncludeWishlist": "wishlist",
+      "retroachievementsDisconnected": "Connect your account",
+      "retroachievementsGames": "Your RetroAchievements games"
     },
     "pc": {
       "yourStuff": {
@@ -439,21 +492,34 @@
         "wishlist": "wishlist",
         "family": "family shared you've played",
         "autoSync": "auto-synced playtime",
-        "none": "No categories selected"
+        "none": "No categories selected",
+        "achievements": "achievements"
       },
       "epic": {
         "library": "Your Epic library",
         "unplayed": "unplayed games",
         "wishlist": "wishlisted games",
         "autoSync": "auto-synced playtime",
-        "none": "No categories selected"
+        "none": "No categories selected",
+        "achievements": "achievements"
       },
       "xbox": {
         "history": "Your Xbox history",
         "console": "console games",
+        "wishlist": "wishlisted games",
+        "autoSync": "auto-synced playtime",
+        "achievements": "achievements"
+      },
+      "gog": {
+        "library": "Your GOG library",
+        "unplayed": "unplayed games",
+        "wishlist": "wishlisted games",
         "autoSync": "auto-synced playtime"
       },
-      "failed": "Scan failed."
+      "failed": "Scan failed.",
+      "retroachievements": {
+        "games": "Your RetroAchievements games, as emulated games without a ROM"
+      }
     },
     "review": {
       "foundCount_one": "{{count}} game found",
@@ -522,7 +588,8 @@
         "columns": {
           "game": "Game",
           "source": "Source",
-          "hours": "Hours"
+          "hours": "Hours",
+          "achievements": "Achievements"
         },
         "noHours": "—"
       },
@@ -579,7 +646,12 @@
         "epic": "From your Epic library",
         "epicWishlist": "From your Epic wishlist",
         "xbox": "From your Xbox history",
-        "xboxConsole": "From your Xbox history · played on console"
+        "xboxConsole": "From your Xbox history · played on console",
+        "xboxWishlist": "From your Xbox wishlist",
+        "gog": "From your GOG library",
+        "gogWishlist": "From your GOG wishlist",
+        "retroachievements": "From your RetroAchievements games",
+        "retroachievementsConsole": "From your RetroAchievements games · {{console}}"
       },
       "modal": {
         "title": "Review this game",
@@ -594,7 +666,8 @@
           "hours_one": "{{count}} h",
           "hours_other": "{{count}} h",
           "useThisHint": "Use this source for the launcher and paths. The other store’s id is kept either way.",
-          "separate": "Not this game — separate it"
+          "separate": "Not this game — separate it",
+          "achievements": "{{unlocked}}/{{total}} achievements"
         },
         "foundBy": "Sources",
         "setup": "Platform",
@@ -615,7 +688,8 @@
           "emulatorSetup": "emulator setup",
           "attachedContent_one": "{{count}} extra",
           "attachedContent_other": "{{count}} extras",
-          "xboxLink": "the Xbox link"
+          "xboxLink": "the Xbox link",
+          "gogLink": "the GOG link"
         },
         "unknownEmulator": "Unknown emulator",
         "discard": {
@@ -684,7 +758,11 @@
         "stoppedHint": "What's here is real, but it's only what had been found by then — scan again for the full list.",
         "wishlistUnavailable": "Your Epic wishlist could not be read, so it is not included. Everything else from Epic imported normally.",
         "wishlistNeedsReconnect": "Your Epic sign-in no longer covers the store, so your wishlist was skipped. Reconnect Epic to bring it in. Everything else from Epic imported normally.",
-        "xboxPlaytimeUnavailable": "Xbox shared your games but not your hours this time, so they arrive without playtime. A sync later fills them in when Xbox answers."
+        "xboxPlaytimeUnavailable": "Xbox shared your games but not your hours this time, so they arrive without playtime. A sync later fills them in when Xbox answers.",
+        "xboxWishlistUnavailable": "Xbox shared your history but not your wishlist this time, so wishlisted games are missing. Scan again later to bring them in.",
+        "gogPlaytimeUnavailable": "GOG shared your games but not your hours this time, so they arrive without playtime. A sync later fills them in when GOG answers.",
+        "gogWishlistUnavailable": "GOG shared your games but not your wishlist this time, so wishlisted games are missing. Scan again later to bring them in.",
+        "expired": "{{source}} wasn't checked: its sign-in expired"
       },
       "errors": {
         "add": "Couldn't start the import."
@@ -858,7 +936,19 @@
       "pending_other": "{{count}} need a look",
       "review": "Review",
       "caughtUp": "No new games found.",
-      "sourceBreakdown": "{{source}}: {{count}}"
+      "sourceBreakdown": "{{source}}: {{count}}",
+      "open": "Open",
+      "issues": {
+        "titleOne": "Check incomplete: {{source}}",
+        "titleMany_one": "Check incomplete: {{count}} source",
+        "titleMany_other": "Check incomplete: {{count}} sources",
+        "descriptionMany": "Open the check to see what was missed, and reconnect or try again.",
+        "expired": "Its sign-in expired, so nothing new from it was found. Reconnect to check it.",
+        "failed": "It couldn't be read this time. Open the check to try again.",
+        "wishlist": "Your wishlist there couldn't be read. Open the check to try again.",
+        "wishlistReconnect": "Your sign-in no longer covers the store, so your wishlist was skipped. Reconnect to bring it in.",
+        "playtime": "Your hours there couldn't be read. Open the check to try again."
+      }
     },
     "errors": {
       "add": "Couldn't start the import."
@@ -882,5 +972,19 @@
     "restoreDefaults": "Restore Defaults",
     "saving": "Saving...",
     "save": "Save Folders"
+  },
+  "retroachievements": {
+    "connect": {
+      "action": "Connect",
+      "reconnect": "Reconnect",
+      "checking": "Checking your account…",
+      "expired": "RetroAchievements no longer accepts the saved key. Connect again."
+    },
+    "disconnect": {
+      "title": "Disconnect RetroAchievements?",
+      "message": "The games and achievements already brought in stay. LastSave stops reading new ones and deletes the saved key.",
+      "confirm": "Disconnect",
+      "cancel": "Keep connected"
+    }
   }
 }

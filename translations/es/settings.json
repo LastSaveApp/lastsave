@@ -95,6 +95,66 @@
       "keywords": "iniciar, ejecutar, abrir, jugar"
     }
   },
+  "discord": {
+    "title": "Discord Rich Presence",
+    "subtitle": "Enseña a tus amigos a qué juegas en Discord. Elige aquí qué puede contar de ti.",
+    "groups": {
+      "playing": "Mientras juegas",
+      "idle": "Cuando no juegas"
+    },
+    "enabled": {
+      "title": "Compartir mi actividad en Discord",
+      "description": "El interruptor principal: mientras esté apagado, Discord no muestra nada de LastSave. Necesita la app de Discord abierta y Compartir mi actividad activado en su Privacidad de la actividad.",
+      "keywords": "rich presence, estado, actividad, amigos, perfil, jugando"
+    },
+    "shareGame": {
+      "title": "Compartir el juego que estoy jugando",
+      "description": "Su nombre y su carátula. Apagado, apareces como sin jugar, nunca el juego.",
+      "keywords": "juego, título, carátula, ocultar, privado, jugando"
+    },
+    "hours": {
+      "title": "Horas jugadas",
+      "description": "Tus horas totales en el juego, bajo su nombre."
+    },
+    "impression": {
+      "title": "Mi puntaje o impresión",
+      "description": "Tu puntaje sobre 10, o tu última impresión (💎 Maravilla, ❤️ Genial…) si no le has puesto puntaje."
+    },
+    "progress": {
+      "title": "Las cifras del juego",
+      "description": "Sus logros, hitos, entradas de diario y sesiones, de uno en uno.",
+      "keywords": "logros, hitos, diario, sesiones, trofeos"
+    },
+    "idleGames": {
+      "title": "Juegos en mi biblioteca",
+      "description": "Cuántos juegos tiene tu biblioteca, bajo una frase de Savvy.",
+      "keywords": "inactivo, navegando, estadísticas, biblioteca, viendo"
+    },
+    "idleHours": {
+      "title": "Horas jugadas",
+      "description": "Tus horas totales entre todos los juegos."
+    },
+    "idleCompleted": {
+      "title": "Juegos completados",
+      "description": "Cuántos juegos has completado."
+    },
+    "idlePlaying": {
+      "title": "Jugando y por jugar",
+      "description": "Cuántos juegos estás jugando y cuántos esperan entre tus pendientes."
+    },
+    "idleLogs": {
+      "title": "Entradas del historial",
+      "description": "Cuántas entradas tienes en tu historial, con tus diarios e hitos.",
+      "keywords": "historial, diario, hitos, entradas"
+    },
+    "restoreDefaults": "Restablecer valores",
+    "preview": {
+      "playing": "Mientras juegas",
+      "idle": "Cuando no juegas",
+      "gameTitle": "Tu juego",
+      "note": "Así lo ven tus amigos. Discord puede tardar unos segundos en mostrar un cambio."
+    }
+  },
   "overlay": {
     "title": "Overlay",
     "subtitle": "El panel que LastSave dibuja sobre tu juego mientras hay una sesión en curso.",
@@ -295,7 +355,15 @@
     "romPaths_one": "{{count}} ruta de ROMs",
     "romPaths_many": "{{count}} de rutas de ROMs",
     "romPaths_other": "{{count}} rutas de ROMs",
-    "empty": "Ningún emulador configurado"
+    "empty": "Ningún emulador configurado",
+    "retroAchievements": {
+      "title": "RetroAchievements",
+      "description": "Mira los logros de tus juegos emulados, leídos con tu propia clave de retroachievements.org.",
+      "keywords": "retroachievements, logros, ra, cheevos, retroarch, pcsx2, emulados"
+    },
+    "groups": {
+      "retroAchievements": "RetroAchievements"
+    }
   },
   "art": {
     "title": "Arte",
@@ -456,7 +524,7 @@
       "confirmTitle": "¿Reiniciar tu biblioteca?",
       "confirmMessage": "No se puede deshacer. LastSave reiniciará su ventana cuando termine.",
       "keeps": "Se conserva: tu perfil y apodo, cada ajuste de estas páginas y tus conexiones con Steam, Epic y Xbox.",
-      "removes": "Se borra: tus juegos, entradas, sesiones, entradas de diario, logros, capturas, clips y estanterías.",
+      "removes": "Se borra: tus juegos, entradas, sesiones, entradas de diario, hitos, capturas, clips y estanterías.",
       "acknowledge": "Entiendo que no se puede deshacer.",
       "done_one": "Biblioteca reiniciada: se quitó {{count}} fila.",
       "done_many": "Biblioteca reiniciada: se quitaron {{count}} de filas.",
@@ -554,6 +622,11 @@
       "title": "SteamGridDB",
       "description": "Banners y logos que crea y comparte su comunidad, junto al arte de la tienda de Steam.",
       "keywords": "créditos, atribución, steamgriddb, steam, arte, banners, logos"
+    },
+    "retroachievements": {
+      "title": "RetroAchievements",
+      "description": "Logros para juegos clásicos, creados por su comunidad.",
+      "keywords": "créditos, atribución, retroachievements, logros, retro, emuladores"
     },
     "visitProvider": "Visitar {{name}}",
     "visit": "Visitar"

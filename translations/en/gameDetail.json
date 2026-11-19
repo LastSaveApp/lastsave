@@ -2,7 +2,8 @@
   "back": {
     "toNamed": "Back to {{name}}",
     "toLibrary": "Back to Library",
-    "shelfFallback": "Shelf"
+    "shelfFallback": "Shelf",
+    "previous": "Back"
   },
   "sync": {
     "notSynced": "Not synced yet",
@@ -71,12 +72,24 @@
     "autoSyncUpdateFailedXbox": "Could not update Xbox auto-sync.",
     "xboxConnected": "Xbox connected successfully.",
     "xboxConnectFailed": "Could not connect your Xbox account right now.",
+    "previewGogSyncFailed": "Failed to preview GOG sync.",
+    "alreadyInSyncGog": "This game is already in sync with GOG.",
+    "syncedHoursGog": "Synced {{hours}}h from GOG.",
+    "applyGogSyncFailed": "Failed to apply GOG sync to this game.",
+    "syncGameFailedGog": "Failed to sync this game from GOG.",
+    "autoSyncUpdateFailedGameGog": "Could not update GOG auto-sync for this game.",
+    "autoSyncEnabledGog": "GOG auto-sync enabled.",
+    "autoSyncDisabledGog": "GOG auto-sync disabled.",
+    "autoSyncUpdateFailedGog": "Could not update GOG auto-sync.",
+    "gogConnected": "GOG connected successfully.",
+    "gogConnectFailed": "Could not connect your GOG account right now.",
     "entryDeleted": "{{title}} was removed from your library.",
     "entryDeleteFailed": "Could not delete this game."
   },
   "header": {
     "baseGame": "Base Game",
     "art": "Art",
+    "achievements": "Achievements",
     "shelves": "Shelves",
     "journeys": "Journeys",
     "shareGame": "Share this game",
@@ -110,7 +123,14 @@
     "openSteamSyncOptions": "Steam sync options",
     "openEpicSyncOptions": "Epic sync options",
     "openXboxSyncOptions": "Xbox sync options",
-    "showWholeEntry": "Show all of {{title}}"
+    "syncGog": "Sync GOG",
+    "connectGogFirstSync": "Connect GOG first to sync this game.",
+    "autoSyncAlignedGog": "Keep GOG playtime aligned silently.",
+    "connectGogToEnable": "Connect GOG to enable this.",
+    "connectGogFirstAuto": "Connect GOG first to enable auto-sync.",
+    "openGogSyncOptions": "GOG sync options",
+    "showWholeEntry": "Show all of {{title}}",
+    "fullPage": "Full page"
   },
   "stats": {
     "status": "Status",
@@ -149,7 +169,7 @@
       "noMatches": "No matches found"
     },
     "typeFilters": {
-      "achievements": "Achievements",
+      "achievements": "Milestones",
       "journals": "Journals",
       "sessions": "Sessions",
       "status": "Status"
@@ -169,7 +189,7 @@
     "sessions": "Sessions",
     "journalEntry": "Journal Entry",
     "journalEntryFallback": "Journal entry",
-    "achievement": "Achievement",
+    "achievement": "Milestone",
     "statusUpdate": "Status Update",
     "statusUpdated": "Status updated",
     "movedTo": "Moved to {{status}}",
@@ -181,6 +201,8 @@
     "dlc_other": "{{count}} DLCs",
     "expansion_one": "{{count}} Expansion",
     "expansion_other": "{{count}} Expansions",
+    "mod_one": "{{count}} Mod",
+    "mod_other": "{{count}} Mods",
     "sessions_one": "{{count}} Session",
     "sessions_other": "{{count}} Sessions"
   },
@@ -209,7 +231,7 @@
       "added": "ADDED TO LIBRARY",
       "statusUpdate": "STATUS UPDATE"
     },
-    "achievementCategory": "ACHIEVEMENT: {{label}}",
+    "achievementCategory": "MILESTONE: {{label}}",
     "statusCategory": "STATUS UPDATE: {{status}}",
     "tooltip": {
       "addedWithContent": "Added base game and additional content",
@@ -249,6 +271,13 @@
     "body": "Manual sync and auto-sync need an active Xbox session. Reconnect your account here, then return to the sync action.",
     "dismissMessage": "Dismiss Xbox connection message"
   },
+  "gogPrompt": {
+    "title": "GOG connection",
+    "subtitle": "Connect GOG to sync playtime for this game.",
+    "close": "Close GOG connection prompt",
+    "body": "Manual sync and auto-sync need an active GOG session. Reconnect your account here, then return to the sync action.",
+    "dismissMessage": "Dismiss GOG connection message"
+  },
   "steamSync": {
     "familyShared": "Family Shared Library",
     "owned": "Owned Library",
@@ -285,15 +314,28 @@
     "confirm": "Confirm Sync",
     "syncing": "Syncing..."
   },
+  "gogSync": {
+    "badge": "GOG Sync",
+    "title": "Sync playtime from GOG?",
+    "subtitle": "Your current playtime will be updated with the hours detected in GOG.",
+    "close": "Close GOG sync dialog",
+    "detectedAs": "Detected as",
+    "currentHours": "Current Hours",
+    "detectedInGog": "Detected in GOG",
+    "confirm": "Confirm Sync",
+    "syncing": "Syncing..."
+  },
   "deleteLog": {
     "title": "Delete log?",
     "message": "This log will be permanently removed and your library snapshot will be recalculated if it affects status or playtime.",
+    "sessionMessage_one": "This session will be permanently removed, with its time. Its entry, a journal or a milestone, stays in the game's activity.",
+    "sessionMessage_other": "This session will be permanently removed, with its time. Its {{count}} entries, journals and milestones, stay in the game's activity.",
     "deleting": "Deleting...",
     "confirm": "Delete Log"
   },
   "deleteEntry": {
     "title": "Delete this game?",
-    "message": "{{title}} will be removed from your library along with all of its logs, sessions and achievements. This cannot be undone.",
+    "message": "{{title}} will be removed from your library along with all of its logs, sessions and milestones. This cannot be undone.",
     "deleting": "Deleting...",
     "confirm": "Delete Game"
   },
@@ -323,10 +365,10 @@
   },
   "playSession": {
     "lastNote": "Last note",
-    "entries_one": "{{count}} entry",
-    "entries_other": "{{count}} entries",
-    "achievements_one": "{{count}} achievement",
-    "achievements_other": "{{count}} achievements",
+    "entries_one": "{{count}} journal",
+    "entries_other": "{{count}} journals",
+    "achievements_one": "{{count}} milestone",
+    "achievements_other": "{{count}} milestones",
     "moreTiles": "+{{extra}}",
     "groupLabel": "{{date}} · {{duration}}"
   }

@@ -18,7 +18,7 @@
     "latestLog": {
       "session": "Latest session",
       "journal": "Latest journal",
-      "achievement": "Latest achievement",
+      "achievement": "Latest milestone",
       "status": "Latest status",
       "added": "Added to library"
     },
@@ -43,7 +43,7 @@
     "title": "Latest activity",
     "types": {
       "session": "Session",
-      "achievement": "Achievement",
+      "achievement": "Milestone",
       "journal": "Journal",
       "status": "Status",
       "added": "Added",
@@ -59,7 +59,7 @@
     "addedToLibrary": "Added to your library",
     "emptyState": {
       "title": "Nothing logged yet",
-      "description": "Sessions, journals, achievements and status changes all land here, newest first."
+      "description": "Sessions, journals, milestones and status changes all land here, newest first."
     },
     "media": {
       "image": "Has an image",
@@ -87,7 +87,7 @@
     },
     "emptyLogs": {
       "title": "No memories yet",
-      "description": "Journals and achievements you log become memories here."
+      "description": "Journals and milestones you log become memories here."
     },
     "previous": "Previous memory",
     "next": "Next memory",

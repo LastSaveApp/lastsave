@@ -24,6 +24,7 @@
     "rotation": "Tu rotación",
     "art": "Arte de los juegos",
     "logs": "Entradas y recuerdos",
+    "achievements": "Logros",
     "playing": "Jugando",
     "captures": "Clips y atajos",
     "gameMode": "Modo Juego",
@@ -59,12 +60,13 @@
     "completeTitle": "Ya tienes lo básico",
     "completeBody": "Todo lo demás está en Ayuda, el ? junto a tus notificaciones.",
     "objectives": {
-      "bringGames": "Importa los juegos de este equipo, o de Steam, Epic y Xbox. Corre en segundo plano.",
+      "bringGames": "Importa los juegos de este equipo, o de Steam, Epic, Xbox y GOG. Corre en segundo plano.",
       "buildShelf": "Mientras llegan tus juegos, crea una estantería y añade unos cuantos que vayan juntos: con quién juegas o qué ánimo les va.",
       "whatPlaying": "Abre el tablero de tu estantería y pasa a Jugando un juego que estés jugando estos días.",
       "story": "Abre un juego y escribe una línea en su diario. Tu movimiento en el tablero ya está ahí.",
       "pressStart": "Abre un juego desde LastSave. El overlay te mostrará el resto.",
-      "saveSession": "Cierra el juego cuando termines y guarda la sesión."
+      "saveSession": "Cierra el juego cuando termines y guarda la sesión.",
+      "meetLibrary": "Encuentra tus juegos y entra en Tablero y en Panel."
     }
   },
   "welcome": {
@@ -74,7 +76,7 @@
     "points": {
       "import": {
         "title": "Todas tus bibliotecas en un lugar",
-        "body": "Este equipo, Steam, Epic y Xbox, juntos."
+        "body": "Este equipo, Steam, Epic, Xbox y GOG, juntos."
       },
       "track": {
         "title": "Sabe a qué estás jugando",
@@ -97,6 +99,7 @@
     "stop": "Parar",
     "close": "Cerrar",
     "ack": "Entendido",
+    "skip": "Saltar",
     "waiting": "Te esperamos",
     "pressHint": "Haz clic en el botón resaltado para seguir",
     "shortcut": {
@@ -106,7 +109,8 @@
     "missingTitle": "Esto no está en pantalla ahora",
     "missingBody": "Algo lo tapa, o todavía no está disponible. Vuelve a intentarlo desde Ayuda cuando quieras.",
     "stepOf": "Paso {{current}} de {{total}}",
-    "done": "Listo. Bien hecho."
+    "done": "Listo. Bien hecho.",
+    "whatsNew": "Novedades"
   },
   "quest": {
     "fraction": "{{current}}/{{total}}",
@@ -129,7 +133,7 @@
     "importGames": {
       "open": {
         "title": "Trae tus juegos",
-        "body": "Importar juegos encuentra lo que hay en este equipo y en tus bibliotecas de Steam, Epic y Xbox. Elige tus fuentes y LastSave hace el resto en segundo plano."
+        "body": "Importar juegos encuentra lo que hay en este equipo y en tus bibliotecas de Steam, Epic, Xbox y GOG. Elige tus fuentes y LastSave hace el resto en segundo plano."
       }
     },
     "addGame": {
@@ -152,7 +156,7 @@
         "body": "Haz clic en Vista para cambiar cómo se muestran estos juegos."
       },
       "board": {
-        "title": "Elige Tablero",
+        "title": "Cambia a Tablero",
         "body": "El tablero muestra tus juegos en columnas por estado, como una lista de pendientes que puedes arrastrar."
       },
       "drag": {
@@ -185,7 +189,11 @@
     "writeJournal": {
       "game": {
         "title": "Abre un juego",
-        "body": "Cada juego tiene su página, con su historia hasta ahora. Haz clic en este para abrirlo."
+        "body": "Haz clic en un juego para abrir su página, con toda su historia."
+      },
+      "launcher": {
+        "title": "O ve directo",
+        "body": "Desde cualquier pantalla, Ctrl+K o esta barra te lleva a cualquier juego: escribe su nombre y presiona Enter."
       },
       "activity": {
         "title": "Cada juego guarda una historia",
@@ -213,7 +221,7 @@
     "wrapUp": {
       "captures": {
         "title": "Tu sesión, lista",
-        "body": "Todo lo que capturaste mientras jugabas está aquí. Haz clic en una para guardarla como entrada de diario o como logro."
+        "body": "Todo lo que capturaste mientras jugabas está aquí. Haz clic en una para guardarla como entrada de diario o como hito."
       },
       "save": {
         "title": "Guárdala",
@@ -273,13 +281,49 @@
         "title": "Créala",
         "body": "Presiona Crear misión. Se completa sola mientras juegas: no hay nada que marcar."
       }
+    },
+    "libraryNew": {
+      "toolbar": {
+        "title": "Filtrar, Agrupar y Ordenar viven aquí",
+        "body": "Dentro de la barra de búsqueda. Agrupar muestra el grupo que usas y Ordenar el orden, y Filtrar también elige estanterías."
+      },
+      "panel": {
+        "title": "Nuevo: vista Panel",
+        "body": "Tus juegos en una lista a la izquierda y la página del juego a la derecha, como un launcher. Cámbiate y échale un ojo: Cuadrícula, Lista y Tablero siguen a un clic."
+      },
+      "panelView": {
+        "title": "Esto es Panel",
+        "body": "Elige un juego a la izquierda y su página se abre aquí mismo. ¿Te gusta? Quédate. Cuadrícula, Lista y Tablero siguen en estos iconos."
+      },
+      "launcher": {
+        "title": "Cualquier juego, desde donde sea",
+        "body": "Presiona Ctrl+K y escribe unas letras. Enter abre la página del juego, Ctrl+Enter lo juega."
+      }
+    },
+    "meetLibrary": {
+      "toolbar": {
+        "title": "Encuentra lo que sea",
+        "body": "Busca por nombre, género o estudio, o presiona Ctrl+K en cualquier pantalla. Filtrar acota, Agrupar reparte en secciones y Ordenar pone orden."
+      },
+      "board": {
+        "title": "Tablero: tus estados en columnas",
+        "body": "Tus juegos en columnas por estado, de Por jugar a Completado, y los arrastras de una a otra. Cámbiate a él."
+      },
+      "panel": {
+        "title": "Y Panel, como un launcher",
+        "body": "Una lista a la izquierda y la página del juego a la derecha. Cámbiate a él: Cuadrícula, Lista y Tablero siguen en estos iconos."
+      },
+      "panelView": {
+        "title": "Esto es Panel",
+        "body": "Elige un juego a la izquierda y su página se abre aquí mismo. Cuadrícula, Lista y Tablero están en estos iconos cuando los quieras."
+      }
     }
   },
   "articles": {
     "guide": {
       "bringGames": {
         "title": "Trae tus juegos",
-        "body": "Empieza importando los juegos de este equipo y de tus bibliotecas de Steam, Epic y Xbox. Los emulados pueden venir después. La importación corre en segundo plano, así que puedes seguir mientras trabaja."
+        "body": "Empieza importando los juegos de este equipo y de tus bibliotecas de Steam, Epic, Xbox y GOG. Los emulados pueden venir después. La importación corre en segundo plano, así que puedes seguir mientras trabaja."
       },
       "whatPlaying": {
         "title": "¿A qué estás jugando?",
@@ -291,7 +335,7 @@
       },
       "story": {
         "title": "Cada juego tiene una historia",
-        "body": "Cada juego guarda su propio historial: cambios de estado, sesiones, entradas de diario y logros. Escribe una línea y la encontrarás ahí la próxima vez que vuelvas."
+        "body": "Cada juego guarda su propio historial: cambios de estado, sesiones, entradas de diario y hitos. Escribe una línea y la encontrarás ahí la próxima vez que vuelvas."
       },
       "pressStart": {
         "title": "Presiona Start",
@@ -300,14 +344,18 @@
       "saveSession": {
         "title": "Guarda la sesión",
         "body": "Cuando cierras el juego, LastSave cierra la sesión: el tiempo, tus capturas y una nota. Guárdala y queda en el historial del juego, listo."
+      },
+      "meetLibrary": {
+        "title": "Conoce tu biblioteca",
+        "body": "Tus juegos en cuadrícula, en lista, en un tablero por estado o en un panel junto a la página de cada juego. Busca, filtra, agrupa y ordena desde una sola barra."
       }
     },
     "library": {
       "import": {
         "title": "Importa tus juegos",
-        "body": "Importar juegos busca juegos en este equipo y en tus bibliotecas de Steam, Epic y Xbox, y te deja revisar la lista antes de añadir nada.",
+        "body": "Importar juegos busca juegos en este equipo y en tus bibliotecas de Steam, Epic, Xbox y GOG, y te deja revisar la lista antes de añadir nada.",
         "step1": "Haz clic en Importar juegos en la Biblioteca.",
-        "step2": "Elige tus fuentes. Steam, Epic y Xbox te piden iniciar sesión una vez.",
+        "step2": "Elige tus fuentes. Steam, Epic, Xbox y GOG te piden iniciar sesión una vez.",
         "step3": "Revisa la lista y añade. Sigue en segundo plano."
       },
       "addGame": {
@@ -322,7 +370,7 @@
         "body": "Inicia sesión con tu cuenta de Microsoft y LastSave trae los juegos que jugaste en Xbox, en PC, con Game Pass o en consola, con sus horas. Los que tienes pero nunca abriste no aparecen, porque Xbox solo comparte lo que jugaste. Los juegos de consola se guardan como historial: puedes anotarlos y cronometrarlos, pero se abren en la consola.",
         "step1": "En Importar juegos, elige Xbox en Más fuentes, o conéctalo en tu perfil, en Cuentas conectadas.",
         "step2": "Inicia sesión en la página de Microsoft. LastSave nunca ve tu contraseña.",
-        "step3": "Decide si incluir los juegos de consola, revisa y añade."
+        "step3": "Decide si incluir los juegos de consola y tu lista de deseados de Xbox, revisa y añade."
       },
       "identify": {
         "title": "Arregla un juego que no se reconoció",
@@ -336,11 +384,24 @@
       },
       "views": {
         "title": "Búsqueda, filtros y vistas",
-        "body": "Buscar encuentra juegos por nombre, género o estudio. Filtrar acota por estado, origen o género, y Vista cambia entre tarjetas, lista y tablero. Pon unos filtros y presiona Guardar filtro, junto a Quitar todo, para guardarlos con un nombre: te esperan en Filtrar, en Tus filtros, en la Biblioteca y en cada estantería."
+        "body": "Buscar encuentra juegos por nombre, género o estudio. Filtrar, Agrupar y Ordenar están dentro de la barra de búsqueda: Filtrar acota por estado, origen, estantería y más, Agrupar reparte los juegos en secciones que puedes plegar, y Ordenar los pone en orden. Instalados, al inicio de la fila de abajo, muestra solo lo que está en este PC. Pon unos filtros y presiona Guardar filtro para guardarlos con un nombre, en la Biblioteca y en cada estantería.",
+        "step1": "Cuadrícula muestra las portadas, Lista los detalles y Tablero tus estados en columnas.",
+        "step2": "Panel pone tus juegos en una lista a la izquierda y abre la página de cada uno a la derecha, como un launcher.",
+        "step3": "Los cuatro iconos al final de la barra cambian entre ellas. Cada estantería recuerda la suya."
       },
       "dlc": {
         "title": "DLC y expansiones",
         "body": "Las expansiones viven dentro de su juego base en lugar de como juegos aparte. Sus horas y entradas cuentan para el juego al que pertenecen."
+      },
+      "whatsNew": {
+        "title": "Novedades de la Biblioteca",
+        "body": "Filtrar, Agrupar y Ordenar se mudaron dentro de la barra de búsqueda, y Filtrar ya puede elegir estanterías. Panel es una vista nueva: una lista junto a la página del juego, como un launcher. Y Ctrl+K encuentra cualquier juego desde cualquier pantalla."
+      },
+      "quickLauncher": {
+        "title": "Busca o lanza con Ctrl+K",
+        "body": "Desde cualquier pantalla, Ctrl+K (o la barra de arriba de la ventana) encuentra un juego de tu biblioteca por su nombre o sus iniciales. También salen los juegos del catálogo de LastSave, e IGDB solo se busca cuando lo pides.",
+        "step1": "Presiona Ctrl+K y escribe unas letras.",
+        "step2": "Enter abre la página del juego. Ctrl+Enter lo juega."
       }
     },
     "organize": {
@@ -351,8 +412,8 @@
       "board": {
         "title": "El tablero",
         "body": "El tablero muestra tu biblioteca en columnas por estado. Arrastra un juego a otra columna y LastSave anota el cambio, con sus horas.",
-        "step1": "En la Biblioteca, haz clic en Vista.",
-        "step2": "Elige Tablero.",
+        "step1": "En la Biblioteca, busca los iconos de vista junto a Ordenar.",
+        "step2": "Elige Tablero, el último.",
         "step3": "Arrastra un juego a otra columna."
       },
       "shelves": {
@@ -455,12 +516,12 @@
         "step3": "Elige Entrada de diario, escribe y guarda."
       },
       "achievements": {
-        "title": "Logros",
+        "title": "Hitos",
         "body": "Anota los momentos que te importaron: un jefe, un capítulo superado, un reto hecho por las malas, un lugar descubierto, una mejora, un 100 %. Cada tipo tiene su medalla en la página del juego; pasa el mouse por un tipo para ver para qué es."
       },
       "activity": {
         "title": "El historial de progreso",
-        "body": "Todo lo que pasó con un juego, lo más nuevo primero: sesiones, cambios de estado, entradas de diario y logros, con sus capturas y clips. Lo que hiciste mientras jugabas queda dentro de su sesión."
+        "body": "Todo lo que pasó con un juego, lo más nuevo primero: sesiones, cambios de estado, entradas de diario y hitos, con sus capturas y clips. Lo que hiciste mientras jugabas queda dentro de su sesión."
       },
       "memories": {
         "title": "Recuerdos",
@@ -485,6 +546,51 @@
         "body": "Cada entrada tiene un día y una hora, abajo en su ventana. Si no los tocas, es ahora. Cámbialos para poner las entradas de un día en el orden en que pasaron, o para escribir sobre ayer. Pasa el mouse por la fecha de una entrada en la página del juego para ver su hora."
       }
     },
+    "achievements": {
+      "overview": {
+        "title": "Qué son los logros",
+        "body": "Los logros son los que te da una plataforma: Steam, Epic, Xbox, GOG, RetroAchievements, los trofeos que RPCS3, shadPS4, Xenia y Vita3K guardan en tu PC, y los logros locales de un juego de PC que no tiene ninguno de esos. Aparecen en la página del juego, en Logros, con una barra de cuánto llevas y tus últimos desbloqueos. Cada juego los lee de un solo sitio, el de donde viene. No son hitos: los hitos son los momentos que anotas tú, y nunca se mezclan."
+      },
+      "stores": {
+        "title": "De Steam, Epic, Xbox y GOG",
+        "body": "Con la tienda conectada, sus juegos traen sus logros en cada sincronización: al abrir LastSave, después de cada sesión y cuando pulsas Sincronizar. Steam suele responder en segundos; Xbox y Epic pueden tardar unos minutos después de jugar. Los logros de GOG solo existen si jugaste con GOG Galaxy abierto y con tu sesión iniciada.",
+        "step1": "Conecta la tienda en Importar juegos, o en tu perfil, en Cuentas conectadas.",
+        "step2": "Abre un juego de esa tienda: tras su primera sincronización, la tarjeta de Logros está en su página.",
+        "step3": "En Steam, pon los detalles de tus juegos como públicos en tu configuración de privacidad. Mientras sean privados, LastSave solo puede mostrar el número."
+      },
+      "retro": {
+        "title": "RetroAchievements",
+        "body": "RetroAchievements es una comunidad que crea logros para juegos clásicos. Conecta tu propia cuenta y tus juegos emulados muestran los suyos junto al resto: LastSave empareja cada juego con los que has jugado allí, por consola y título. También es una fuente en Importar juegos, que trae lo que jugaste allí aunque ya no tengas la ROM.",
+        "step1": "En retroachievements.org, abre tus ajustes y copia tu clave de la Web API.",
+        "step2": "En Ajustes → Emuladores, conecta RetroAchievements con tu usuario y la clave. LastSave guarda la clave cifrada en este PC.",
+        "step3": "Si un juego muestra otros logros o ninguno, pulsa Elegir juego en su tarjeta, o ¿No es este juego? en Gestionar → Logros, y elígelo entre tus juegos de RetroAchievements."
+      },
+      "emulators": {
+        "title": "Trofeos de emuladores",
+        "body": "RPCS3, shadPS4, Xenia Canary y Vita3K guardan los trofeos que ganas en archivos de tu PC, y LastSave los lee de ahí: la lista completa, la fecha de cada desbloqueo, el grado de cada trofeo (bronce, plata, oro o platino) y el gamerscore de Xenia. No hay cuenta que conectar.",
+        "step1": "Añade el juego con ese emulador, desde Importar juegos → Emuladores.",
+        "step2": "Ábrelo una vez en el emulador, para que escriba su archivo de trofeos.",
+        "step3": "Juega: LastSave vuelve a leer los archivos después de cada sesión y cuando pulsas Sincronizar."
+      },
+      "local": {
+        "title": "Logros locales",
+        "body": "Un juego de PC sin tienda detrás puede guardar igual sus logros en un archivo de tu PC. Cuando lo pides, LastSave busca ese archivo, te enseña lo que encontró y, cuando lo añades, lo lee en cada sincronización como cualquier otra fuente. Lo que LastSave ya leyó se queda, aunque el archivo se borre después.",
+        "step1": "En la página del juego, pulsa Buscar logros locales en la tarjeta de Logros, o abre Gestionar → Logros.",
+        "step2": "Comprueba el juego y cuántos tienes, y pulsa Añadir estos logros.",
+        "step3": "¿Todavía nada? Juega un rato o saca tu primer logro, y vuelve a intentarlo. Con Elegir archivo… puedes indicar tú el archivo."
+      },
+      "view": {
+        "title": "Verlos todos",
+        "body": "Ver todos, en la tarjeta, abre todos los logros del juego. Los ocultos se guardan su nombre y descripción hasta que los revelas, uno a uno, para que nada te haga spoiler. La X de la tarjeta la oculta en ese juego; Gestionar → Logros la vuelve a mostrar.",
+        "step1": "Mostrar cambia entre Todos, Desbloqueados y Bloqueados; Ordenar pone primero los recientes, los más raros o el orden del juego.",
+        "step2": "Cambia entre Lista y Cuadrícula arriba. Sincronizar los vuelve a leer de la fuente.",
+        "step3": "Pasa el mouse por un logro y pulsa Compartir para convertirlo en tarjeta. Uno oculto hay que revelarlo antes."
+      },
+      "sessions": {
+        "title": "Logros en tus sesiones",
+        "body": "Mientras juegas no se detecta nada. Al terminar una sesión, LastSave pregunta enseguida a la fuente del juego, y la pantalla de la sesión muestra lo que desbloqueaste en ella, también en el Modo Juego. Después se quedan con la sesión, en la actividad del juego y en la tarjeta para compartirla. Si Xbox o Epic aún no han respondido, aparecen en la sesión cuando llegan."
+      }
+    },
     "playing": {
       "launch": {
         "title": "Abre un juego",
@@ -502,7 +608,7 @@
       },
       "screenshots": {
         "title": "Capturas",
-        "body": "Presiona Shift+F11 en un juego. La captura se une a la sesión, y al final eliges si se convierte en entrada de diario o en logro."
+        "body": "Presiona Shift+F11 en un juego. La captura se une a la sesión, y al final eliges si se convierte en entrada de diario o en hito."
       },
       "focus": {
         "title": "Modo enfoque",
@@ -551,7 +657,7 @@
       },
       "hub": {
         "title": "La página de un juego",
-        "body": "Al abrir un juego caes en Jugar. Al lado: Estado, una entrada de diario y Más, que guarda tu reseña, las estanterías del juego y sus misiones. Los gatillos superiores cambian entre todas sus entradas, logros, diarios y sesiones."
+        "body": "Al abrir un juego caes en Jugar. Al lado: Estado, una entrada de diario y Más, que guarda tu reseña, las estanterías del juego y sus misiones. Los gatillos superiores cambian entre todas sus entradas, hitos, diarios y sesiones."
       },
       "shelves": {
         "title": "Estanterías desde el sofá",
@@ -563,7 +669,7 @@
       },
       "settings": {
         "title": "Ajustes del Modo Juego",
-        "body": "Iconos de botones, sonidos, pantalla completa y cada combinación dentro del juego. Abre Ajustes desde el menú del Modo Juego."
+        "body": "Iconos de botones, sonidos, pantalla completa, el idioma y cada combinación dentro del juego. Abre Ajustes desde el menú del Modo Juego."
       },
       "rotation": {
         "title": "Tu rotación desde el sofá",

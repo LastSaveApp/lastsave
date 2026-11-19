@@ -18,7 +18,7 @@
     "latestLog": {
       "session": "Última sesión",
       "journal": "Última entrada",
-      "achievement": "Último logro",
+      "achievement": "Último hito",
       "status": "Último estado",
       "added": "Añadido a la biblioteca"
     },
@@ -43,7 +43,7 @@
     "title": "Actividad reciente",
     "types": {
       "session": "Sesión",
-      "achievement": "Logro",
+      "achievement": "Hito",
       "journal": "Diario",
       "status": "Estado",
       "added": "Añadido",
@@ -59,7 +59,7 @@
     "addedToLibrary": "Añadido a tu biblioteca",
     "emptyState": {
       "title": "Todavía no hay entradas",
-      "description": "Sesiones, entradas de diario, logros y cambios de estado aparecen aquí, lo más nuevo primero."
+      "description": "Sesiones, entradas de diario, hitos y cambios de estado aparecen aquí, lo más nuevo primero."
     },
     "media": {
       "image": "Tiene una imagen",
@@ -87,7 +87,7 @@
     },
     "emptyLogs": {
       "title": "Todavía no hay recuerdos",
-      "description": "Las entradas de diario y los logros que anotes se convierten aquí en recuerdos."
+      "description": "Las entradas de diario y los hitos que anotes se convierten aquí en recuerdos."
     },
     "previous": "Recuerdo anterior",
     "next": "Recuerdo siguiente",

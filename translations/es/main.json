@@ -2,7 +2,8 @@
   "signIn": {
     "steam": "Conectar Steam",
     "epic": "Conectar Epic Games",
-    "xbox": "Conectar Xbox"
+    "xbox": "Conectar Xbox",
+    "gog": "Conectar GOG"
   },
   "uninstall": {
     "title": "Desinstalar LastSave",
@@ -23,5 +24,88 @@
     "commonStartMenu": "Programas del menú Inicio (todos)",
     "epicManifests": "Manifiestos de Epic",
     "customFolder": "Carpeta de búsqueda propia"
+  },
+  "discord": {
+    "playing": {
+      "headline": "LastSave | {{title}}",
+      "hours": "{{hours}} h",
+      "justStarted": "Recién empezado",
+      "rating": "⭐ {{rating}}/10",
+      "reactions": {
+        "garbage": "💩 Basura",
+        "bad": "👎 Malo",
+        "ok": "👍 OK",
+        "great": "❤️ Genial",
+        "masterpiece": "💎 Maravilla"
+      },
+      "achievements": "🏆 {{unlocked}}/{{total}} logros",
+      "milestones_one": "🚩 {{count}} hito",
+      "milestones_other": "🚩 {{count}} hitos",
+      "milestones_many": "🚩 {{count}} hitos",
+      "journals_one": "📝 {{count}} entrada de diario",
+      "journals_other": "📝 {{count}} entradas de diario",
+      "journals_many": "📝 {{count}} entradas de diario",
+      "sessions_one": "⏱️ {{count}} sesión",
+      "sessions_other": "⏱️ {{count}} sesiones",
+      "sessions_many": "⏱️ {{count}} sesiones",
+      "paused": "En pausa",
+      "badge": "Registrando con LastSave"
+    },
+    "idle": {
+      "name": "LastSave | {{line}}",
+      "moods": {
+        "picking": "¿Qué juego? 🎲",
+        "warmup": "Calentando 🔥",
+        "journal": "En el diario 📝",
+        "chilling": "De chill 🎧",
+        "adventure": "De misión 🐉",
+        "collection": "Mi biblioteca 📚",
+        "nap": "Recargando 💤",
+        "oneMore": "¿La última? 🎮",
+        "grinding": "Farmeando ✨",
+        "trophies": "Cazalogros 🏆",
+        "memories": "Recordando 💭",
+        "backlog": "Pendientes 📋",
+        "saving": "Guardando 💾",
+        "respawn": "Reviviendo ⏳"
+      },
+      "stats": {
+        "games_one": "🎮 {{value}} juego",
+        "games_other": "🎮 {{value}} juegos",
+        "games_many": "🎮 {{value}} juegos",
+        "hours_one": "⏱️ {{hours}} hora jugada",
+        "hours_other": "⏱️ {{hours}} horas jugadas",
+        "hours_many": "⏱️ {{hours}} horas jugadas",
+        "completed_one": "✅ {{value}} juego completado",
+        "completed_other": "✅ {{value}} juegos completados",
+        "completed_many": "✅ {{value}} juegos completados",
+        "playing_one": "🕹️ {{value}} jugando",
+        "playing_other": "🕹️ {{value}} jugando",
+        "playing_many": "🕹️ {{value}} jugando",
+        "backlog_one": "🎯 {{value}} por jugar",
+        "backlog_other": "🎯 {{value}} por jugar",
+        "backlog_many": "🎯 {{value}} por jugar",
+        "logs_one": "📖 {{value}} entrada",
+        "logs_other": "📖 {{value}} entradas",
+        "logs_many": "📖 {{value}} entradas",
+        "journals_one": "📝 {{value}} de diario",
+        "journals_other": "📝 {{value}} de diario",
+        "journals_many": "📝 {{value}} de diario",
+        "milestones_one": "🚩 {{value}} hito",
+        "milestones_other": "🚩 {{value}} hitos",
+        "milestones_many": "🚩 {{value}} hitos"
+      },
+      "avatar": "lastsave.app"
+    },
+    "buttons": {
+      "getLastSave": "💾 ¡Consigue LastSave!"
+    }
+  },
+  "achievements": {
+    "localFile": {
+      "title": "Elige el archivo de logros",
+      "filter": "Archivos de logros",
+      "all": "Todos los archivos"
+    }
   }
 }

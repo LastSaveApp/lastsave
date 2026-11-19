@@ -1,0 +1,15 @@
+{
+  "ready": {
+    "title": "Aktualizacja jest gotowa",
+    "message": "Uruchom ponownie LastSave, aby zainstalować wersję {{version}}.",
+    "restart": "Uruchom ponownie"
+  },
+  "check": {
+    "action": "Sprawdź aktualizacje",
+    "checking": "Sprawdzam...",
+    "upToDate": "Masz aktualną wersję LastSave."
+  },
+  "notes": {
+    "action": "Informacje o wydaniu"
+  }
+}

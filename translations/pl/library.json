@@ -1,0 +1,314 @@
+{
+  "title": "Biblioteka",
+  "installState": {
+    "installed": "Zainstalowana",
+    "notInstalled": "Nie zainstalowana",
+    "missing": "Nie znaleziono na tym komputerze",
+    "review": "Recenzja",
+    "storeUninstalled": {
+      "single": "{{title}} została odinstalowana",
+      "singleDetail": "Poprzednie ścieżki zostały wyczyszczone",
+      "many_one": "{{count}} gra została odinstalowana",
+      "many_few": "{{count}} gry zostały odinstalowane",
+      "many_many": "{{count}} gier zostało odinstalowanych",
+      "many_other": "{{count}} gry zostało odinstalowane",
+      "more_one": "{{count}) więcej",
+      "more_few": "{{count}} więcej",
+      "more_many": "{{count}} więcej",
+      "more_other": "{{count}} więcej"
+    },
+    "markUninstalled": {
+      "title_one": "Oznaczyć grę jako niezainstalowaną?",
+      "title_few": "Oznaczyć {{count}} gry jako niezainstalowane?",
+      "title_many": "Oznaczyć {{count}} gier jako niezainstalowane?",
+      "title_other": "Oznaczyć {{count}} gry jako niezainstalowane?",
+      "confirmBusy": "Oznaczanie..."
+    }
+  },
+  "subtitle": {
+    "collection": {
+      "games_one": "{{count}} gra w twojej kolekcji",
+      "games_few": "{{count}} gry w twojej kolekcji",
+      "games_many": "{{count}} gier w twojej kolekcji",
+      "games_other": "{{count}} gry w twojej kolekcji",
+      "gamesFiltered_one": "{{filtered}} z {{count}} gry w twojej kolekcji",
+      "gamesFiltered_few": "{{filtered}} z {{count}} gier w twojej kolekcji",
+      "gamesFiltered_many": "{{filtered}} z {{count}} gier w twojej kolekcji",
+      "gamesFiltered_other": "{{filtered}} z {{count}} gry w twojej kolekcji",
+      "items_one": "{{count}} element w twojej kolekcji",
+      "items_few": "{{count}} elementy w twojej kolekcji",
+      "items_many": "{{count}} elementów w twojej kolekcji",
+      "items_other": "{{count}} elementu w twojej kolekcji",
+      "itemsFiltered_one": "{{filtered}} z {{count}} elementu w twojej kolekcji",
+      "itemsFiltered_few": "{{filtered}} z {{count}} elementów w twojej kolekcji",
+      "itemsFiltered_many": "{{filtered}} z {{count}} elementów w twojej kolekcji",
+      "itemsFiltered_other": "{{filtered}} z {{count}} elementów w twojej kolekcji"
+    },
+    "shelf": {
+      "games_one": "{{count}} gra na półce",
+      "games_few": "{{count}} gry na półce",
+      "games_many": "{{count}} gier na półce",
+      "games_other": "{{count}} gry na półce",
+      "gamesFiltered_one": "{{filtered}} z {{count}} gry na półce",
+      "gamesFiltered_few": "{{filtered}} z {{count}} gier na półce",
+      "gamesFiltered_many": "{{filtered}} z {{count}} gier na półce",
+      "gamesFiltered_other": "{{filtered}} z {{count}} gier na półce",
+      "items_one": "{{count}} element na półce",
+      "items_few": "{{count}} elementy na półce",
+      "items_many": "{{count}} elementów na półce",
+      "items_other": "{{count}} elementu na półce"
+    }
+  },
+  "actions": {
+    "addGame": "Dodaj grę",
+    "importGames": "Importuj gry",
+    "importInstalledGames": "Zaimportuj zainstalowane gry",
+    "removeEntry": "Usuń grę",
+    "removeFromShelf": "Usuń z półki"
+  },
+  "order": {
+    "top": "Przenieś na początek",
+    "up": "Przesuń wyżej",
+    "down": "Przesuń niżej",
+    "bottom": "Przenieś na koniec"
+  },
+  "attachedMode": {
+    "contained": "Razem",
+    "separated": "Osobno"
+  },
+  "importJob": {
+    "addingGames": "Dodawanie gier...",
+    "phase": {
+      "resolvingGames": "Identyfikowanie gier",
+      "fetchingMetadata": "Pobieranie metadanych",
+      "savingEntries": "Zapisywanie danych",
+      "attachingDlcs": "Dołączanie dodatków",
+      "creatingLogs": "Tworzenie wpisów",
+      "cancelled": "Anulowano",
+      "failed": "Niepowodzenie",
+      "finishing": "Kończenie"
+    }
+  },
+  "bulk": {
+    "selectedCount_one": "{{count}} wybrana",
+    "selectedCount_few": "{{count}} wybrane",
+    "selectedCount_many": "{{count}} wybranych",
+    "selectedCount_other": "{{count}} wybranych",
+    "selectAll": "Zaznacz wszystkie",
+    "unselect": "Odznacz",
+    "clear": "Wyczyść",
+    "status": "Status",
+    "changeStatus": "Zmień status",
+    "actions": "Akcje",
+    "attachedContent": "Powiązana zawartość",
+    "launchOffHint": "Start uruchamia tylko stoper.",
+    "shelves": "Półki",
+    "journeys": "Szlaki",
+    "noAttachedContent": "Brak powiązanej zawartości w bieżącym wyborze."
+  },
+  "contextMenu": {
+    "quickActions": "Podręczne opcje",
+    "launchSettings": "Uruchom",
+    "launchPanelTitle": "Uruchamianie i śledzenie",
+    "order": "Kolejność",
+    "current": "Wybrane",
+    "active": "Wybrano"
+  },
+  "card": {
+    "selectCard": "Wybierz kartę",
+    "deselectCard": "Odznacz kartę",
+    "addLog": "Dodaj wpis"
+  },
+  "list": {
+    "columns": {
+      "game": "Gra",
+      "status": "Status",
+      "platform": "Platforma",
+      "totalPlaytime": "Łączny czas gry",
+      "lastActivity": "Ostatnia aktywność",
+      "actions": "Działania"
+    }
+  },
+  "board": {
+    "itemCount": "Pozycji: {{count}}",
+    "scrollLeft": "Poprzednie kolumny",
+    "scrollRight": "Następne kolumny"
+  },
+  "grouping": {
+    "none": "Brak",
+    "status": "Status",
+    "source": "Żródło",
+    "genre": "Gatunek",
+    "releaseYear": "Rok wydania",
+    "developer": "Twórca",
+    "publisher": "Wydawca",
+    "collection": "Kolekcja"
+  },
+  "groupKey": {
+    "allGames": "Wszystkie gry"
+  },
+  "toolbar": {
+    "searchPlaceholder": "Wyszukaj według tytułu, gatunku, twórcy...",
+    "filter": "Filtr",
+    "view": "Widok",
+    "collection": "Kolekcja",
+    "collectionHint": "Widok, grupowanie i sortowanie",
+    "reset": "Resetuj",
+    "viewMode": "Rodzaj widoku",
+    "modes": {
+      "cards": "Karty",
+      "list": "Lista",
+      "board": "Tablice"
+    },
+    "grouping": "Grupowanie",
+    "sort": "Sortowanie",
+    "sortFields": {
+      "title": "Tytuł",
+      "releaseYear": "Rok wydania",
+      "dateAdded": "Data dodania",
+      "lastUpdated": "Ostatnio uaktualnione",
+      "totalPlaytime": "Łączny czas gry",
+      "lastActivity": "Ostania aktywność",
+      "lastPlayed": "Ostatnia rozgrywka",
+      "myRating": "Moja ocena",
+      "custom": "Własne"
+    },
+    "asc": "Rosnąco",
+    "desc": "malejąco",
+    "attachedContent": "Dodatkowa zawartość",
+    "custom": "Dostosuj",
+    "attachedModes": {
+      "contained": "Razem",
+      "separated": "Osobno"
+    },
+    "containedHint": "Domyślnie pokazuj dodatki i rozszerzenia we wpisie gry podstawowej.",
+    "separatedHint": "Domyślnie wyświetlaj dodatki i rozszerzenia jako osobne pozycje.",
+    "boardColumns": "Kolumny na tablicy",
+    "boardColumnsHint": "Przeciągnij, aby zmienić kolejność. Kliknij, aby ukryć lub pokazać.",
+    "quickStatusAll": "Wszystkie",
+    "sections": {
+      "layout": "Układ",
+      "display": "Wyświetlanie"
+    },
+    "visibleColumnsCount": "{{visible}} / {{total}} widocznych",
+    "resultCount_one": "{{count}} gra",
+    "resultCount_few": "{{count}} gry",
+    "resultCount_many": "{{count}} gier",
+    "resultCount_other": "{{count}} gry",
+    "clearSearch": "Wyczyść wyszukiwanie",
+    "removeFilter": "Usuń filtr: {{filter}}",
+    "clearAllFilters": "Wyczyść wszystko",
+    "savedFilter": {
+      "save": "Zapisz filtr",
+      "nameLabel": "Nazwij ustawiony filtr",
+      "namePlaceholder": "Nazwij go, np. Zaległe RPGi",
+      "confirm": "Zapisz filtr",
+      "cancel": "Anuluj",
+      "unfold": "Pokaż kryteria tego filtra",
+      "fold": "Ukryj kryteria tego filtra"
+    }
+  },
+  "filters": {
+    "title": "Filtry",
+    "subtitle": "Zawęź listę gier, aby szybciej znaleźć to, czego szukasz.",
+    "reset": "Resetuj",
+    "clear": "Wyczyść",
+    "more": "Więcej filtrów",
+    "sections": {
+      "status": "Status",
+      "source": "Źródło",
+      "genres": "Gatunki i tryby gry",
+      "releaseYear": "Rok wydania",
+      "playtime": "Czas gry",
+      "availableOn": "Dostępne na",
+      "developers": "Twórcy",
+      "publishers": "Wydawcy",
+      "collections": "Kolekcje",
+      "otherEmulator": "Inny emulator",
+      "myRating": "Moje oceny",
+      "quick": "Filtry zdefiniowane"
+    },
+    "toggles": {
+      "installed": "Zainstalowane",
+      "hasPlaytime": "Z czasem gry",
+      "withAttachedContent": "Zawierające dodatki"
+    },
+    "playtimeBuckets": {
+      "under1": "Poniżej 1 godz.",
+      "1to10": "1 - 10 godz.",
+      "10to50": "10 - 50 godz.",
+      "over50": "Powyżej 50 godz."
+    },
+    "allGenres": "Dowolny gatunek",
+    "allStatuses": "Dowolny status",
+    "allPlatforms": "Dowolna platforma",
+    "allDevelopers": "Dowolny twórca",
+    "allPublishers": "Dowolny wydawca",
+    "allCollections": "Dowolna kolekcja",
+    "searchGenres": "Wyszukaj według gatunku",
+    "searchPlatforms": "Wyszukaj platformę...",
+    "searchCompanies": "Wyszukaj firmę...",
+    "searchCollections": "Wyszukaj kolekcję...",
+    "allSources": "Dowolne źródło",
+    "myRating": {
+      "any": "Każda",
+      "anyHint": "Gry, które zrecenzowałeś",
+      "atLeast": "{{value}}+",
+      "atLeastHint": "Ocenione na {{value}} lub wyżej"
+    },
+    "quick": {
+      "none": "Brak",
+      "builtIn": "Wbudowane",
+      "yours": "Twoje filtry",
+      "yoursEmpty": "Ustaw kryteria i kliknij «Zapisz filtr» obok «Wyczyść wszystko», aby go zapisać.",
+      "editing": "Edytujesz \"{{name}}\": wprowadzone zmiany zostaną zapisane do filtra.",
+      "edit": "Zmień nazwę lub usuń \"{{name}}\"",
+      "renameLabel": "Nazwa filtra",
+      "saveName": "Zapisz nazwę",
+      "cancelRename": "Anuluj",
+      "delete": "Usuń",
+      "confirmDelete": "Usuń go"
+    }
+  },
+  "emptyState": {
+    "filter": {
+      "title": "Żadna gra nie spełnia wybranych kryteriów",
+      "subtitle": "Spróbuj wyczyścić filtry, zmienić widok lub przywrócić ustawienia domyślne."
+    },
+    "library": {
+      "title": "Biblioteka jest pusta"
+    }
+  },
+  "confirm": {
+    "bulkLaunch": {
+      "title": "Zmienić opcje uruchamiania?",
+      "confirm": "Zatwierdź"
+    },
+    "stopImport": {
+      "confirm": "Zatrzymaj importowanie",
+      "cancel": "Kontynuuj importowanie"
+    },
+    "removeFromShelf": {
+      "title": "Usunąć grę z półki?",
+      "message": "{{game}} zostanie usunięty z {{shelf}}. Gra pozostanie w Bibliotece."
+    },
+    "bulkDelete": {
+      "title": "Usunąć wybrane karty?",
+      "titleShelf": "Usunąć grę z półki?",
+      "messageShelf_one": "Spowoduje usunięcie {{count}} gry z półki \"{{shelf}}\". Gra pozostanie w bibliotece.",
+      "messageShelf_few": "Spowoduje usunięcie {{count}} gier z półki \"{{shelf}}\". Gry pozostaną w bibliotece.",
+      "messageShelf_many": "Spowoduje usunięcie {{count}} gier z półki \"{{shelf}}\". Gry pozostaną w bibliotece.",
+      "messageShelf_other": "Spowoduje usunięcie {{count}} gier z półki \"{{shelf}}\". Gry pozostaną w bibliotece.",
+      "confirmRemovingBusy": "Usuwanie...",
+      "confirmDelete": "Usuń wybrane"
+    }
+  },
+  "toast": {
+    "filterSaved": "Filtr zapisano jako \"{{name}}\". Znajdziesz go w sekcji «Twoje filtry» -> «Filtr»."
+  },
+  "cleanup": {
+    "offerOne": "{{title}} nadal jest w twojej bibliotece.",
+    "description": "Gra bez statusu, nie oznaczona jako posiadana, brak wpisów. Usunąć ją również z biblioteki?",
+    "remove": "Usuń z biblioteki"
+  }
+}

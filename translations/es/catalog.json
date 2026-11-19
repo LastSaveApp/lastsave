@@ -154,11 +154,11 @@
     "localFile": "Archivo local",
     "title": "Título",
     "releaseYear": "Año de lanzamiento",
-    "releaseDate": "Fecha de lanzamiento (AAAA-MM-DD)",
+    "releaseDate": "Fecha de lanzamiento",
     "gameType": "Tipo de juego",
     "gameStatus": "Estado del juego",
-    "parentBaseGame": "Juego base",
-    "parentHint": "Los DLC y expansiones necesitan un juego base. Puedes elegir un juego local o un resultado de IGDB, y lo crearemos en el catálogo si hace falta.",
+    "parentBaseGame": "Juego base (opcional)",
+    "parentHint": "Vincula el DLC o la expansión a su juego base para que viva dentro de su entrada. Sin vincular, es una entrada propia.",
     "sourceIgdb": "IGDB",
     "sourceLocal": "Local",
     "searchParentPlaceholder": "Buscar el juego base…",
@@ -169,26 +169,25 @@
     "saving": "Guardando…",
     "saveChanges": "Guardar cambios",
     "addGame": "Añadir juego",
-    "parentRequired": "Los DLC y expansiones necesitan un juego base.",
     "materializeFailed": "No se pudo crear el juego base elegido.",
     "fields": {
-      "genres": "Géneros (,)",
-      "themes": "Temas (,)",
-      "gameModes": "Modos de juego (,)",
-      "platforms": "Plataformas (,)",
-      "developers": "Desarrolladores (,)",
-      "publishers": "Distribuidores (,)",
-      "collections": "Sagas (,)"
+      "genres": "Géneros",
+      "themes": "Temas",
+      "gameModes": "Modos de juego",
+      "platforms": "Plataformas",
+      "developers": "Desarrolladores",
+      "publishers": "Distribuidores",
+      "collections": "Sagas"
     },
     "placeholders": {
-      "genres": "Acción, RPG, Indie",
-      "themes": "Fantasía, Ciencia ficción",
-      "gameModes": "Un jugador, Cooperativo",
-      "platforms": "PC, PS5, Xbox Series",
-      "developers": "FromSoftware",
-      "publishers": "Bandai Namco",
-      "collections": "Dark Souls Collection",
-      "franchise": "Dark Souls"
+      "genres": "Shooter, RPG…",
+      "themes": "Fantasía, Terror…",
+      "gameModes": "Un jugador…",
+      "platforms": "PC (Microsoft Windows)…",
+      "developers": "id Software…",
+      "publishers": "Bandai Namco…",
+      "collections": "Doom…",
+      "franchise": "Doom"
     },
     "types": {
       "notSpecified": "Sin especificar",
@@ -218,7 +217,10 @@
       "cancelled": "Cancelado",
       "rumored": "Rumoreado",
       "delisted": "Retirado de la venta"
-    }
+    },
+    "parentModGame": "Juego que modifica (opcional)",
+    "parentModHint": "Vincula el mod a su juego para encontrarlo entre sus mods y guardarlo dentro de su entrada.",
+    "parentNone": "Sin vincular"
   },
   "mediaCard": {
     "alreadyAdded": "Ya añadido",
@@ -259,7 +261,12 @@
       "publishers": "Distribuidores",
       "collections": "Sagas"
     },
-    "inBundle": "En {{title}}"
+    "inBundle": "En {{title}}",
+    "mods": "Mods",
+    "browseMods_one": "Ver {{count, number}} mod",
+    "browseMods_many": "Ver {{count, number}} mods",
+    "browseMods_other": "Ver {{count, number}} mods",
+    "modsHint": "Campañas, conversiones totales y romhacks hechos por jugadores."
   },
   "discoverModal": {
     "poweredBy": "Datos de",
@@ -297,6 +304,17 @@
     "subtitle": "Lo más nuevo, lo que viene y los grandes de siempre",
     "addGame": "Añadir juego",
     "filter": "Filtrar",
+    "sort": {
+      "heading": "Ordenar por",
+      "reset": "Restablecer",
+      "options": {
+        "relevance": "Relevancia",
+        "newest": "Más recientes",
+        "oldest": "Más antiguos",
+        "title": "Título",
+        "rating": "Valoración"
+      }
+    },
     "seeMore": "Ver más",
     "seeMoreAria": "Ver más de {{title}}",
     "scrollLeftAria": "Desplazar {{title}} a la izquierda",
@@ -461,5 +479,32 @@
       "playerPerspective": "Perspectiva",
       "gameMode": "Modo de juego"
     }
+  },
+  "gameTypeChip": {
+    "modOf": "Mod · {{title}}"
+  },
+  "mods": {
+    "title": "Mods de {{title}}",
+    "count_one": "{{count, number}} mod",
+    "count_many": "{{count, number}} mods",
+    "count_other": "{{count, number}} mods",
+    "selected_one": "{{count}} elegido",
+    "selected_many": "{{count}} elegidos",
+    "selected_other": "{{count}} elegidos",
+    "emptyState": {
+      "search": "Ningún mod coincide con esa búsqueda.",
+      "none": "Este juego aún no tiene mods listados."
+    },
+    "errors": {
+      "loadFailed": "No se pudieron cargar los mods."
+    },
+    "actions": {
+      "showMore": "Ver más",
+      "loadingMore": "Cargando…",
+      "confirm": "Listo"
+    },
+    "countWithOriginal_one": "{{count, number}} mod, incluidos los del juego original",
+    "countWithOriginal_many": "{{count, number}} mods, incluidos los del juego original",
+    "countWithOriginal_other": "{{count, number}} mods, incluidos los del juego original"
   }
 }

@@ -24,6 +24,7 @@
     "rotation": "Your rotation",
     "art": "Game art",
     "logs": "Logs and memories",
+    "achievements": "Achievements",
     "playing": "Playing",
     "captures": "Clips and shortcuts",
     "gameMode": "Game Mode",
@@ -59,12 +60,13 @@
     "completeTitle": "You've got the basics",
     "completeBody": "Everything else lives in Help, the ? next to your notifications.",
     "objectives": {
-      "bringGames": "Import the games on this PC, or from Steam, Epic and Xbox. It runs in the background.",
+      "bringGames": "Import the games on this PC, or from Steam, Epic, Xbox and GOG. It runs in the background.",
       "buildShelf": "While your games come in, make a shelf and add a few that belong together: who you play with, or what mood they fit.",
       "whatPlaying": "Open your shelf's board and move a game you're playing these days to Playing.",
       "story": "Open a game and write a line in its journal. Your board move is already there.",
       "pressStart": "Launch a game from LastSave. The overlay will show you the rest.",
-      "saveSession": "Close the game when you're done and save the session."
+      "saveSession": "Close the game when you're done and save the session.",
+      "meetLibrary": "Find your games, then step into Board and Panel."
     }
   },
   "welcome": {
@@ -74,7 +76,7 @@
     "points": {
       "import": {
         "title": "Every library in one place",
-        "body": "This PC, Steam, Epic and Xbox, together."
+        "body": "This PC, Steam, Epic, Xbox and GOG, together."
       },
       "track": {
         "title": "Know what you're playing",
@@ -97,6 +99,7 @@
     "stop": "Stop",
     "close": "Close",
     "ack": "Got it",
+    "skip": "Skip",
     "waiting": "Waiting for you",
     "pressHint": "Click the highlighted button to continue",
     "shortcut": {
@@ -106,7 +109,8 @@
     "missingTitle": "This isn't on screen right now",
     "missingBody": "Something is covering it, or it isn't available yet. Try again from Help when you're ready.",
     "stepOf": "Step {{current}} of {{total}}",
-    "done": "That's it. Nicely done."
+    "done": "That's it. Nicely done.",
+    "whatsNew": "What's new"
   },
   "quest": {
     "fraction": "{{current}}/{{total}}",
@@ -129,7 +133,7 @@
     "importGames": {
       "open": {
         "title": "Bring your games in",
-        "body": "Import Games finds what's on this PC and in your Steam, Epic and Xbox libraries. Pick your sources and LastSave does the rest in the background."
+        "body": "Import Games finds what's on this PC and in your Steam, Epic, Xbox and GOG libraries. Pick your sources and LastSave does the rest in the background."
       }
     },
     "addGame": {
@@ -152,7 +156,7 @@
         "body": "Click View to change how these games are laid out."
       },
       "board": {
-        "title": "Pick Board",
+        "title": "Switch to Board",
         "body": "The board shows your games as columns by status, like a backlog you can drag around."
       },
       "drag": {
@@ -185,7 +189,11 @@
     "writeJournal": {
       "game": {
         "title": "Open a game",
-        "body": "Every game has its own page, with its story so far. Click this one to open it."
+        "body": "Click a game to open its page, with its whole story."
+      },
+      "launcher": {
+        "title": "Or go straight there",
+        "body": "From any screen, Ctrl+K or this bar takes you to any game: type its name and press Enter."
       },
       "activity": {
         "title": "Every game keeps a story",
@@ -213,7 +221,7 @@
     "wrapUp": {
       "captures": {
         "title": "Your session, wrapped up",
-        "body": "Everything you captured while playing is here. Click one to keep it as a journal entry or an achievement."
+        "body": "Everything you captured while playing is here. Click one to keep it as a journal entry or a milestone."
       },
       "save": {
         "title": "Save it",
@@ -273,13 +281,49 @@
         "title": "Create it",
         "body": "Press Create journey. It fills in by itself as you play: nothing to tick off."
       }
+    },
+    "libraryNew": {
+      "toolbar": {
+        "title": "Filter, Group and Sort live here now",
+        "body": "Inside the search bar. Group shows the grouping in use and Sort the order, and Filter can pick shelves too."
+      },
+      "panel": {
+        "title": "New: Panel view",
+        "body": "Your games as a list on the left and the game's page on the right, like a launcher. Switch to it and have a look: Grid, List and Board stay one click away."
+      },
+      "panelView": {
+        "title": "This is Panel",
+        "body": "Pick a game on the left and its page opens right here. Like it? Stay. Grid, List and Board are still in these icons."
+      },
+      "launcher": {
+        "title": "Any game, from anywhere",
+        "body": "Press Ctrl+K and type a few letters. Enter opens the game's page, Ctrl+Enter plays it."
+      }
+    },
+    "meetLibrary": {
+      "toolbar": {
+        "title": "Find anything",
+        "body": "Search by name, genre or studio, or press Ctrl+K on any screen. Filter narrows it down, Group splits it into sections and Sort puts it in order."
+      },
+      "board": {
+        "title": "Board: your statuses as columns",
+        "body": "Your games in columns by status, from Backlog to Completed, and you drag them from one to another. Switch to it."
+      },
+      "panel": {
+        "title": "And Panel, like a launcher",
+        "body": "A list on the left and the game's page on the right. Switch to it: Grid, List and Board stay in these icons."
+      },
+      "panelView": {
+        "title": "This is Panel",
+        "body": "Pick a game on the left and its page opens right here. Grid, List and Board are in these icons whenever you want them."
+      }
     }
   },
   "articles": {
     "guide": {
       "bringGames": {
         "title": "Bring your games",
-        "body": "Start by importing the games on this PC and in your Steam, Epic and Xbox libraries. Emulated games can come later. The import runs in the background, so you can keep going while it works."
+        "body": "Start by importing the games on this PC and in your Steam, Epic, Xbox and GOG libraries. Emulated games can come later. The import runs in the background, so you can keep going while it works."
       },
       "whatPlaying": {
         "title": "What are you playing?",
@@ -291,7 +335,7 @@
       },
       "story": {
         "title": "Every game has a story",
-        "body": "Each game keeps its own activity: status changes, sessions, journal entries and achievements. Write one line and you'll find it there next time you come back."
+        "body": "Each game keeps its own activity: status changes, sessions, journal entries and milestones. Write one line and you'll find it there next time you come back."
       },
       "pressStart": {
         "title": "Press start",
@@ -300,14 +344,18 @@
       "saveSession": {
         "title": "Save the session",
         "body": "When you close the game, LastSave wraps the session up: the time, your captures and a note. Save it and it's in the game's activity, done."
+      },
+      "meetLibrary": {
+        "title": "Meet your library",
+        "body": "Your games as a grid, a list, a board by status, or a panel beside each game's page. Search, filter, group and sort from one bar."
       }
     },
     "library": {
       "import": {
         "title": "Import your games",
-        "body": "Import Games looks for games on this PC and in your Steam, Epic and Xbox libraries, and lets you review the list before anything is added.",
+        "body": "Import Games looks for games on this PC and in your Steam, Epic, Xbox and GOG libraries, and lets you review the list before anything is added.",
         "step1": "Click Import Games in the Library.",
-        "step2": "Pick your sources. Steam, Epic and Xbox ask you to sign in once.",
+        "step2": "Pick your sources. Steam, Epic, Xbox and GOG ask you to sign in once.",
         "step3": "Review the list and add. It keeps going in the background."
       },
       "addGame": {
@@ -322,7 +370,7 @@
         "body": "Sign in with your Microsoft account and LastSave brings in the games you've played on Xbox, on PC, through Game Pass or on a console, with their hours. Games you own but never launched don't show up, because Xbox only shares what you played. Console games are kept as a record: you can log them and time them, but they launch on the console.",
         "step1": "In Import Games, pick Xbox under More sources, or connect it in your profile, under Connected accounts.",
         "step2": "Sign in on Microsoft's own page. LastSave never sees your password.",
-        "step3": "Choose whether to include console games, then review and add."
+        "step3": "Choose whether to include console games and your Xbox wishlist, then review and add."
       },
       "identify": {
         "title": "Fix a game that wasn't recognised",
@@ -336,11 +384,24 @@
       },
       "views": {
         "title": "Search, filters and views",
-        "body": "Search finds games by name, genre or studio. Filter narrows by status, source or genre, and View switches between cards, a list and the board. Set a few filters and press Save filter, next to Clear all, to keep them under a name: they wait in Filter, under Your filters, in the Library and in every shelf."
+        "body": "Search finds games by name, genre or studio. Filter, Group and Sort sit inside the search bar: Filter narrows by status, source, shelf and more, Group splits the games into sections you can fold, and Sort puts them in order. Installed, at the start of the row below, shows only what is on this PC. Set a few filters and press Save filter to keep them under a name, in the Library and in every shelf.",
+        "step1": "Grid shows the covers, List the details, and Board your statuses as columns.",
+        "step2": "Panel lists your games on the left and opens each one's page on the right, like a launcher.",
+        "step3": "The four icons at the end of the bar switch between them. Each shelf remembers its own."
       },
       "dlc": {
         "title": "DLC and expansions",
         "body": "Expansions live inside their base game rather than as separate games. Their hours and logs count towards the game they belong to."
+      },
+      "whatsNew": {
+        "title": "What's new in the Library",
+        "body": "Filter, Group and Sort moved inside the search bar, and Filter can pick shelves. Panel is a new view: a list beside the game's page, like a launcher. And Ctrl+K finds any game from anywhere."
+      },
+      "quickLauncher": {
+        "title": "Search or launch with Ctrl+K",
+        "body": "From any screen, Ctrl+K (or the bar at the top of the window) finds a game in your library by its name or initials. Games in LastSave's catalog show up too, and IGDB is searched only when you ask.",
+        "step1": "Press Ctrl+K and type a few letters.",
+        "step2": "Enter opens the game's page. Ctrl+Enter plays it."
       }
     },
     "organize": {
@@ -351,8 +412,8 @@
       "board": {
         "title": "The board",
         "body": "The board lays your library out as columns by status. Drag a game to a new column and LastSave logs the change, with its hours.",
-        "step1": "In the Library, click View.",
-        "step2": "Pick Board.",
+        "step1": "In the Library, find the view icons beside Sort.",
+        "step2": "Pick Board, the last one.",
         "step3": "Drag a game into another column."
       },
       "shelves": {
@@ -455,12 +516,12 @@
         "step3": "Pick Journal entry, write and save."
       },
       "achievements": {
-        "title": "Achievements",
+        "title": "Milestones",
         "body": "Log the moments that mattered to you: a boss, a chapter behind you, a challenge done the hard way, a place found, an upgrade, a 100%. Each type has its own medal on the game's page; hover a type to see what it's for."
       },
       "activity": {
         "title": "A game's activity",
-        "body": "Everything that happened with a game, newest first: sessions, status changes, journal entries and achievements, with their screenshots and clips. What you made while playing stays inside its session."
+        "body": "Everything that happened with a game, newest first: sessions, status changes, journal entries and milestones, with their screenshots and clips. What you made while playing stays inside its session."
       },
       "memories": {
         "title": "Memories",
@@ -485,6 +546,51 @@
         "body": "Every log has a day and a time, at the bottom of its window. Leave them alone and it's now. Change them to put a day's logs in the order they happened, or to write about yesterday. Hover a log's date on a game's page to see its time."
       }
     },
+    "achievements": {
+      "overview": {
+        "title": "What achievements are",
+        "body": "Achievements are the ones a platform gives you: Steam, Epic, Xbox, GOG, RetroAchievements, the trophies RPCS3, shadPS4, Xenia and Vita3K save on your PC, and local achievements for a PC game with none of those. They show on the game's page under Achievements, with a bar of how far along you are and your latest unlocks. Each game reads them from one place, the one it comes from. They aren't milestones: milestones are the moments you log yourself, and the two never mix."
+      },
+      "stores": {
+        "title": "From Steam, Epic, Xbox and GOG",
+        "body": "Once a store is connected, its games bring their achievements with every sync: when LastSave starts, after each session, and when you press Sync. Steam usually answers in seconds; Xbox and Epic can take a few minutes after you play. GOG's achievements only exist if you played with GOG Galaxy open and signed in.",
+        "step1": "Connect the store in Import Games, or in your profile under Connected accounts.",
+        "step2": "Open a game from that store: after its first sync, the Achievements card is on its page.",
+        "step3": "On Steam, make your game details public in your privacy settings. While they are private, LastSave can only show the count."
+      },
+      "retro": {
+        "title": "RetroAchievements",
+        "body": "RetroAchievements is a community that makes achievements for classic games. Connect your own account and your emulated games show theirs next to the rest: LastSave matches each game with the ones you've played there, by console and title. It's also a source in Import Games, which brings in the games you've played there even without the ROM.",
+        "step1": "On retroachievements.org, open your settings and copy your Web API key.",
+        "step2": "In Settings → Emulators, connect RetroAchievements with your username and the key. LastSave keeps the key encrypted on this PC.",
+        "step3": "If a game shows the wrong set or none, press Choose game on its card, or Wrong game? in Manage → Achievements, and pick it from your RetroAchievements games."
+      },
+      "emulators": {
+        "title": "Emulator trophies",
+        "body": "RPCS3, shadPS4, Xenia Canary and Vita3K keep the trophies you earn in files on your PC, and LastSave reads them there: the whole list, the date of each unlock, each trophy's grade (bronze, silver, gold or platinum) and Xenia's gamerscore. There's no account to connect.",
+        "step1": "Add the game with that emulator, from Import Games → Emulators.",
+        "step2": "Open it once in the emulator, so it writes its trophy file.",
+        "step3": "Play: LastSave reads the files again after every session, and when you press Sync."
+      },
+      "local": {
+        "title": "Local achievements",
+        "body": "A PC game with no store behind it can still keep its achievements in a file on your PC. When you ask, LastSave looks for that file, shows you what it found, and once you add it, reads it with every sync like any other source. What LastSave has read stays, even if the file is deleted later.",
+        "step1": "On the game's page, press Find local achievements on the Achievements card, or open Manage → Achievements.",
+        "step2": "Check the game and how many you have, then press Add these achievements.",
+        "step3": "Nothing yet? Play for a while or unlock your first achievement, then try again. Choose file… lets you point at the file yourself."
+      },
+      "view": {
+        "title": "See them all",
+        "body": "See all, on the card, opens every achievement in the game. Hidden ones keep their name and description to themselves until you reveal them, one at a time, so nothing gets spoiled. The card's X hides it on that game; Manage → Achievements shows it again.",
+        "step1": "Show switches between All, Unlocked and Locked; Sort puts the recent ones, the rarest or the game's own order first.",
+        "step2": "Switch between List and Grid at the top. Sync reads them again from the source.",
+        "step3": "Hover an achievement and press Share to turn it into a card. A hidden one has to be revealed first."
+      },
+      "sessions": {
+        "title": "Achievements in your sessions",
+        "body": "Nothing is detected while you play. When a session ends, LastSave asks the game's source right away, and the session screen lists what you unlocked during it, in Game Mode too. After that they stay with the session, in the game's activity and on the session's share card. If Xbox or Epic haven't answered yet, they show up on the session when they arrive."
+      }
+    },
     "playing": {
       "launch": {
         "title": "Launch a game",
@@ -502,7 +608,7 @@
       },
       "screenshots": {
         "title": "Screenshots",
-        "body": "Press Shift+F11 in a game. The screenshot joins the session, and at the end you choose whether it becomes a journal entry or an achievement."
+        "body": "Press Shift+F11 in a game. The screenshot joins the session, and at the end you choose whether it becomes a journal entry or a milestone."
       },
       "focus": {
         "title": "Focus mode",
@@ -551,7 +657,7 @@
       },
       "hub": {
         "title": "A game's page",
-        "body": "Opening a game lands on Play. Next to it: Status, a journal entry and More, which holds your review, the game's shelves and its journeys. The shoulders switch between all its logs, achievements, journals and sessions."
+        "body": "Opening a game lands on Play. Next to it: Status, a journal entry and More, which holds your review, the game's shelves and its journeys. The shoulders switch between all its logs, milestones, journals and sessions."
       },
       "shelves": {
         "title": "Shelves on the couch",
@@ -563,7 +669,7 @@
       },
       "settings": {
         "title": "Game Mode settings",
-        "body": "Button prompts, sounds, fullscreen and every in-game chord. Open Settings from Game Mode's menu."
+        "body": "Button prompts, sounds, fullscreen, the language and every in-game chord. Open Settings from Game Mode's menu."
       },
       "rotation": {
         "title": "Your rotation on the couch",

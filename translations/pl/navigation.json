@@ -1,0 +1,23 @@
+{
+  "items": {
+    "home": "Główna",
+    "library": "Biblioteka",
+    "explore": "Odkrywaj",
+    "calendar": "Kalendarz",
+    "shelves": "Półki",
+    "journeys": "Szlaki",
+    "settings": "Ustawienia",
+    "profile": "Profil"
+  },
+  "labels": {
+    "localUser": "Użytkownik lokalny"
+  },
+  "tooltips": {
+    "collapseShelves": "Zwiń półki",
+    "expandShelves": "Rozwiń półki",
+    "collapseSidebar": "Zwiń panel boczny",
+    "expandSidebar": "Rozwiń panel boczny",
+    "collapseJourneys": "Zwiń szlaki",
+    "expandJourneys": "Rozwiń szlaki"
+  }
+}

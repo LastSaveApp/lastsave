@@ -1,0 +1,179 @@
+{
+  "remove": {
+    "title": "Usunąć z biblioteki?",
+    "confirmQuestion": "Chcesz usunąć <game> {{title}} </game> z biblioteki?",
+    "warning": "Ostrzeżenie",
+    "warningBody": "Gra zostanie usunięta z biblioteki oraz powiązane z nią wpisy. Czynności nie będzie można cofnąć.",
+    "removing": "Usuwanie...",
+    "confirm": "Tak, usuń"
+  },
+  "removeAttached": {
+    "removing": "Usuwanie...",
+    "confirm": "Tak, usuń"
+  },
+  "edition": {
+    "sync": {
+      "running": "Dodawanie zawartości posiadanego wydania gry",
+      "runningDetail_one": "{{count}} wydanie lub kolekcja",
+      "runningDetail_few": "{{count}} wydania lub kolekcje",
+      "runningDetail_many": "{{count}} wydań lub kolekcji",
+      "runningDetail_other": "{{count}} wydania lub kolekcji",
+      "done": "Wydanie jest gotowe do rejestrowania",
+      "doneDetail_one": "{{title}}: każdą grę i dodatek można teraz rejestrować oddzielnie. ",
+      "doneDetail_few": "{{count}} edycje: każdą grę i dodatek można teraz rejestrować oddzielnie. ",
+      "doneDetail_many": "{{count}} edycji: każdą grę i dodatek można teraz rejestrować oddzielnie. ",
+      "doneDetail_other": "{{count}} edycji: każdą grę i dodatek można teraz rejestrować oddzielnie. "
+    },
+    "title": "Zawarte w tym wydaniu",
+    "count_one": "{{count}} element",
+    "count_few": "{{count}} elementy",
+    "count_many": "{{count}} elementów",
+    "count_other": "{{count}} elementu",
+    "hint": "Zawartość tego wydania. Każdą z tych gier zapisuj osobno po dodaniu do biblioteki."
+  },
+  "attachedSelector": {
+    "loading": "Sprawdzanie...",
+    "available_one": "{{count}} dostępna",
+    "available_few": "{{count}} dostępne",
+    "available_many": "{{count}} dostępnych",
+    "available_other": "{{count}} dostępnych",
+    "selectedOfTotal": "Wybrano {{selected}} z {{total}}",
+    "allDlcs": "Wszystkie dodatki",
+    "allExpansions": "Wszystkie rozszerzenia",
+    "hide": "Ukryj",
+    "showAll": "Pokaż wszystkie"
+  },
+  "add": {
+    "title": "Dodaj do biblioteki",
+    "step1": "Wybierz grę z katalogu",
+    "step2": "Wybierz status gry",
+    "step3": "Skonfiguruj wpis do biblioteki",
+    "add": "Dodaj do kolekcji",
+    "adding": "Dodawanie..."
+  },
+  "baseGameStatus": {
+    "checking": "Sprawdzanie biblioteki...",
+    "alreadyInLibrary": "Jest w bibliotece"
+  },
+  "edit": {
+    "title": "Edytowanie wpisu z biblioteki",
+    "close": "Zamknij",
+    "ownSubtitle": "Dodaj do kolekcji z launcherem lub ścieżką",
+    "notOwnSubtitle": "Dodaj do kolekcji bez informacji o launcherze",
+    "save": "Zapisz zmiany",
+    "saving": "Zapisywanie..."
+  },
+  "lookup": {
+    "searchTooltip": "Przeskanuj skróty i typowe lokalizacje instalacji, aby automatycznie przypisać grę do platformy.",
+    "searchGame": "Wyszukaj grę",
+    "stop": "Zatrzymaj"
+  },
+  "search": {
+    "placeholder": "Wyszukaj grę po tytule...",
+    "loading": "Wyszukiwanie...",
+    "noResults": "Nie znaleziono gier.",
+    "addManually": "Nie znalazłeś gry? Dodaj ją ręcznie"
+  },
+  "source": {
+    "local": "Lokalnie",
+    "igdb": "IGDB"
+  },
+  "actions": {
+    "change": "Zmień",
+    "close": "Zamknij"
+  },
+  "labels": {
+    "dlcsExpansions": "Dodatki / Rozszerzenia",
+    "platform": "Platforma",
+    "launcher": "Launcher",
+    "optional": "(opcjonalnie)"
+  },
+  "emptyState": {
+    "attachedContent": "Brak dodatków i rozszerzeń kojarzonych z tą grą"
+  },
+  "status": {
+    "title": "Status",
+    "current": "Aktualny status",
+    "change": "Zmień status",
+    "keepCurrent": "Zachowaj obecny status"
+  },
+  "ownership": {
+    "ownTitle": "Mam lub gram  w tę grę",
+    "ownSubtitle": "Możesz dodać launcher i ścieżki do plików gry.",
+    "notOwnTitle": "Nie mam jej",
+    "notOwnSubtitle": "Umieść w kolekcji bez informacji o launcherze."
+  },
+  "romPicker": {
+    "chooseFile": "Wybierz plik...",
+    "chooseFolder": "Wybierz katalog..."
+  },
+  "paths": {
+    "shortcutLabel": "Ścieżka do skrótu (.lnk)",
+    "shortcutPlaceholder": "C:\\Gry\\MojeGry.lnk",
+    "browseFiles": "Wybierz pliki",
+    "executableLabel": "Ścieżka do pliku wykonalnego (.exe)",
+    "executablePlaceholder": "C:\\Gry\\MojeGry\\gra.exe",
+    "browseExecutable": "Wybierz plik",
+    "emulatorPlaceholder": "C:\\Emulatory\\PCSX2\\PCSX2.lnk",
+    "romLabel": "Ścieżka do pliku ROM",
+    "romPlaceholder": "D:\\RetroBat\\romy\\ps2\\God of War.iso",
+    "browseRom": "Wybierz plik ROM"
+  },
+  "dialog": {
+    "selectShortcut": "Wybierz skrót do gry",
+    "selectExecutable": "Wybierz plik wykonywalny",
+    "filterShortcuts": "Skróty",
+    "filterExecutables": "Pliki wykonywalne"
+  },
+  "advancedLaunch": {
+    "title": "Zaawansowane opcje uruchamiania i wykrywania gry",
+    "configured": "Skonfigurowane",
+    "dialogDescription": "Ustaw co uruchamia przycisk \"Graj\", i warunki wykrycia uruchomionej gry.",
+    "launchSection": "Uruchamianie",
+    "detectionSection": "Wykrywanie",
+    "commandLine": "Komenda LastSave, która zostanie wykonana",
+    "commandAutomatic": "Automatycznie",
+    "commandHint": "Wprowadź własne polecenie, które ma zostać wykonane - zatwierdź Enterem lub kliknięciem poza pole.",
+    "commandEmpty": "Nie ma jeszcze nic do uruchomienia — ustaw wyżej ścieżkę lub wpisz tutaj polecenie.",
+    "useCustomExecutable": "Użyj wskazanego pliku wykonalnego",
+    "useCustomExecutableHint": "Zmienia sposób uruchamiania tej gry. Powyższa ścieżka do pliku wykonywalnego nadal służy do wykrywania gry.",
+    "customExecutable": "Wskazany plik wykonywalny",
+    "arguments": "Opcje uruchomienia",
+    "argumentsPlaceholder": "-fullscreen -- \"D:\\Romy\\gra.iso\"",
+    "workingDir": "Katalog roboczy",
+    "workingDirHint": "Katalog, w którym uruchamiane jest polecenie. Jeżeli puste, będzie nim folder pliku wykonywalnego.",
+    "installDir": "Katalog instalacyjny",
+    "installDirHint": "Główny katalog gry, w którym LastSave szuka jej plików.",
+    "directoryPlaceholder": "C:\\Gry\\MojaGra",
+    "browseFolder": "Wybierz katalog",
+    "trackingModes": {
+      "auto": "Automatycznie",
+      "directory": "Katalog instalacyjny",
+      "exe": "Plik wykonywalny",
+      "processName": "Nazwa procesu",
+      "manualOnly": "Ręczne"
+    },
+    "trackingModeHints": {
+      "auto": "LastSave wybiera najlepszy dostępny sygnał dla tej gry.",
+      "directory": "Bierze pod uwagę każdy proces uruchomiony z folderu gry. Najlepsze rozwiązanie dla gier z własnym programem uruchamiającym lub kilkoma plikami wykonywalnymi.",
+      "exe": "Tylko uruchomienie wskazanego pliku wykonywalnego będzie sygnałem uruchomienia gry.",
+      "processName": "Poprzez uruchomienie procesu o wskazanej nazwie, niezależnie od miejsca jego uruchomienia.",
+      "manualOnly": "Na pozwala na wykrywanie. Sesja gry rozpoczyna się wyłącznie poprzez ręczne uruchomienie.",
+      "manualOnlyEmulator": "Emulator nie wykrywa gry automatycznie. \"Graj\" uruchamia grę; stoper jest do twojej dyspozycji."
+    },
+    "autoResolvesTo": "Obecne wskazanie: {{mode}}",
+    "trackedProcessName": "Nazwa obserwowanego procesu",
+    "trackedProcessNamePlaceholder": "gra.exe"
+  },
+  "emulatorPicker": {
+    "label": "Emulator",
+    "settings": "Skonfiguruj emulator",
+    "placeholder": "Wybierz emulator",
+    "groups": {
+      "configured": "Skonfigurowane",
+      "other": "Spoza listy",
+      "notSetUp": "Nieskonfigurowane"
+    },
+    "addAnother": "Dodaj inny emulator"
+  }
+}

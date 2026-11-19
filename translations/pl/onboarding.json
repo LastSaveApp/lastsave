@@ -1,0 +1,61 @@
+{
+  "stepCounter": "Krok {{current}} z {{total}}",
+  "nav": {
+    "saving": "Zapisywanie..."
+  },
+  "steam": {
+    "optional": "Opcjonalnie",
+    "title": "Połącz ze Steam",
+    "description": "Połącz z kontem Steam, aby pobrać pseudonim i awatar oraz umożliwić późniejszy import biblioteki gier.",
+    "skipNote": "Możesz zignorować tę opcję i normalnie korzystać z LastSave. Steam nie jest wymagany aby zakończyć konfigurację."
+  },
+  "identity": {
+    "title": "Twoja tożsamość",
+    "subtitle": "Wybierz pseudonim i opcjonalnie awatar.",
+    "nickname": "Pseudonim",
+    "nicknamePlaceholder": "np. Gracz42",
+    "nicknameRequired": "Pseudonim jest wymagany"
+  },
+  "pcBuild": {
+    "title": "Twój komputer",
+    "scanning": "Skanowanie komputera...",
+    "scan": "Skanuj komputer",
+    "cpu": "CPU",
+    "cpuPlaceholder": "np. AMD Ryzen 5 5600X",
+    "gpu": "GPU",
+    "gpuPlaceholder": "np. NVIDIA GeForce RTX 3070",
+    "ram": "RAM (GB)",
+    "ramPlaceholder": "np. 16",
+    "os": "System operacyjny",
+    "osPlaceholder": "np. Windows 11 Pro"
+  },
+  "genres": {
+    "title": "Ulubione gatunki",
+    "subtitle": "Wskaż gatunki, które najbardziej lubisz. Możesz je zmienić później.",
+    "choose": "Wybierz gatunki ( {{count}} )"
+  },
+  "favoriteGames": {
+    "title": "Ulubione gry",
+    "choose": "Wybierz gry ( {{count}} / {{max}} )"
+  },
+  "summary": {
+    "title": "Wszystko gotowe!",
+    "subtitle": "To jest podsumowanie twojego profilu. Możesz go edytować później.",
+    "avatarAlt": "Awatar",
+    "localProfile": "Profil lokalny",
+    "ram": "{{gb}} GB",
+    "favoriteGenres": "Ulubione gatunki",
+    "favoriteGames": "Ulubione gry"
+  },
+  "disconnect": {
+    "title": "Rozłączyć ze Steam?",
+    "confirm": "Rozłącz",
+    "cancel": "Zachowaj połączenie"
+  },
+  "errors": {
+    "hardware": "Nie udało się wykryć konfiguracji twojego komputera.",
+    "connectSteam": "Nie udało się połączyć z kontem Steam.",
+    "disconnectSteam": "Nie udało się odłączyć konta Steam.",
+    "save": "Coś poszło nie tak. Spóbuj ponownie."
+  }
+}

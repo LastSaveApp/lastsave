@@ -1,0 +1,189 @@
+{
+  "card": {
+    "title": "Achievements",
+    "countAria": "{{unlocked}} of {{total}} achievements unlocked",
+    "ofTotal": "/ {{total}}",
+    "more": "+{{count}}",
+    "moreAria_one": "{{count}} more achievement",
+    "moreAria_other": "{{count}} more achievements",
+    "openAll": "See all achievements",
+    "seeAll": "See all",
+    "countOnly": "Only the count is shown: your {{platform}} game details are private.",
+    "loading": "Bringing your achievements…",
+    "syncingAria": "Syncing achievements",
+    "empty": {
+      "connect": "Connect {{platform}} to see this game's achievements.",
+      "reconnect": "{{platform}} needs you to sign in again to show this game's achievements.",
+      "connectAction": "Connect {{platform}}",
+      "reconnectAction": "Sign in again",
+      "notFound": "Not found on RetroAchievements.",
+      "choose": "Choose game",
+      "neverSynced": "Never synced.",
+      "sync": "Sync",
+      "hide": "Hide on this game"
+    }
+  },
+  "achievement": {
+    "unlockedOn": "Unlocked {{date}}",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "hiddenName": "Hidden achievement",
+    "hiddenDescription": "Its name and description stay hidden until you reveal it.",
+    "hidden": "Hidden",
+    "reveal": "Reveal",
+    "revealHint": "Click to reveal",
+    "rarity": "{{percent}}% of players",
+    "points_one": "{{count}} point",
+    "points_other": "{{count}} points",
+    "grade": {
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "platinum": "Platinum"
+    }
+  },
+  "dialog": {
+    "summary": "{{unlocked}} of {{total}} · {{percent}}%",
+    "syncedAgo": "Synced {{age}}",
+    "sync": "Sync",
+    "syncing": "Syncing…",
+    "syncFailed": "Couldn't sync the achievements.",
+    "lastError": "{{platform}} didn't answer. Showing what was synced before.",
+    "close": "Close",
+    "filters": {
+      "label": "Show",
+      "all": "All",
+      "unlocked": "Unlocked",
+      "locked": "Locked"
+    },
+    "sorts": {
+      "label": "Sort",
+      "recent": "Recent",
+      "rarest": "Rarest",
+      "gameOrder": "Game order"
+    },
+    "empty": "Nothing to show here.",
+    "points": "{{unlocked}} / {{total}} points",
+    "views": {
+      "label": "View",
+      "list": "List",
+      "grid": "Grid"
+    },
+    "source": {
+      "from": "Achievements from",
+      "retroachievements": "A community that makes achievements for classic games. Opens this game on its site.",
+      "store": "Read from your {{platform}} account.",
+      "emulator": "Read from the trophy files {{platform}} keeps on this PC."
+    }
+  },
+  "syncPreview": {
+    "label": "Achievements",
+    "count": "{{unlocked}} / {{total}}",
+    "from": "{{count}} →",
+    "datedLatest_one": "{{count}} with a date, the latest on {{date}}",
+    "datedLatest_other": "{{count}} with a date, the latest on {{date}}"
+  },
+  "import": {
+    "chipAria": "{{unlocked}} of {{total}} achievements",
+    "chip": "{{unlocked}}/{{total}}",
+    "unlockedOnly": "{{count}}",
+    "unlockedOnlyAria_one": "{{count}} achievement unlocked",
+    "unlockedOnlyAria_other": "{{count}} achievements unlocked"
+  },
+  "retroConnect": {
+    "title": "Connect RetroAchievements",
+    "intro": "See your emulated games' achievements next to the rest.",
+    "step1": "Open your settings on retroachievements.org and copy your Web API key.",
+    "openSettings": "Open your RetroAchievements settings",
+    "step2": "Paste your username and the key.",
+    "username": "Username",
+    "apiKey": "Web API key",
+    "keyNote": "LastSave keeps the key encrypted on this computer and only uses it to read your achievements.",
+    "connect": "Connect",
+    "connecting": "Connecting…",
+    "cancel": "Cancel",
+    "failed": "Couldn't connect to RetroAchievements.",
+    "connectedToast": "Connected to RetroAchievements as {{username}}."
+  },
+  "retroAccount": {
+    "connectedAs": "Connected as {{username}}",
+    "connected": "Connected",
+    "connect": "Connect",
+    "reconnect": "Reconnect",
+    "disconnect": "Disconnect",
+    "expired": "RetroAchievements no longer accepts the saved key. Connect again."
+  },
+  "retroLink": {
+    "title": "Link a RetroAchievements game",
+    "notConnected": "Connect RetroAchievements to choose which of your games this is.",
+    "search": "Search your RetroAchievements games",
+    "note": "Linking chooses which game's achievements LastSave shows. Whether your file counts is up to RetroAchievements.",
+    "loading": "Loading your RetroAchievements games…",
+    "empty": "None of your RetroAchievements games match.",
+    "count": "{{unlocked}}/{{total}}",
+    "current": "Linked",
+    "linked": "RetroAchievements game linked.",
+    "failed": "Couldn't link that RetroAchievements game.",
+    "loadFailed": "Couldn't load your RetroAchievements games.",
+    "noneYet": "You haven't played a game of this console with RetroAchievements yet. Once you do, it links itself."
+  },
+  "manage": {
+    "title": "Achievements",
+    "from": "From {{platform}}",
+    "count": "{{unlocked}} of {{total}} unlocked",
+    "notConnected": "{{platform}} isn't connected.",
+    "none": "{{platform}} has no achievements for this game.",
+    "local": "Read from {{platform}}'s files on this PC.",
+    "localMissing": "No trophies found yet. Open the game once in {{platform}}.",
+    "wrongGame": "Wrong game?",
+    "showCard": "Show the card on this game",
+    "noSource": "This game's platform has no achievements LastSave can read."
+  },
+  "session": {
+    "title_one": "{{count}} achievement this session",
+    "title_other": "{{count}} achievements this session",
+    "checking": "Checking achievements…",
+    "late": "{{platform}} can take a few minutes. They'll appear on this session when they arrive.",
+    "line_one": "{{count}} achievement",
+    "line_other": "{{count}} achievements",
+    "badgeAria_one": "{{count}} achievement in this session",
+    "badgeAria_other": "{{count}} achievements in this session",
+    "header": "Achievements · {{count}}"
+  },
+  "share": {
+    "action": "Share",
+    "count": "{{unlocked}} / {{total}}",
+    "position": "{{unlocked}} of {{total}}",
+    "rarestAria": "Rarest achievements"
+  },
+  "syncResult": {
+    "none": "{{platform}} lists no achievements for this game.",
+    "notFound": "Couldn't find this game on {{platform}} to read its achievements.",
+    "unavailable": "{{platform}} didn't answer. Check you're signed in and try again.",
+    "failed": "Couldn't read the achievements from {{platform}}. Try again in a moment.",
+    "noSource": "This game isn't on a platform with achievements."
+  },
+  "local": {
+    "thisPc": "this PC",
+    "offer": "No achievements for this game yet. LastSave can look for them on this PC.",
+    "find": "Find local achievements",
+    "orFind": "or find local achievements",
+    "looking": "Looking on this PC…",
+    "unknownTitle": "This game",
+    "summary": "{{unlocked}} of {{total}} unlocked",
+    "summaryLatest": "{{unlocked}} of {{total}} unlocked · latest {{date}}",
+    "summaryZero": "{{unlocked}} of {{total}} unlocked · fills in as you play",
+    "accept": "Add these achievements",
+    "reject": "Not this game",
+    "notFound": "Nothing on this PC yet. The file can show up after you play a while or unlock your first achievement, so try again later.",
+    "tryAgain": "Try again",
+    "chooseFile": "Choose file…",
+    "invalid": "LastSave can't read that file. Choose the achievements file from the game's save folder.",
+    "noGame": "LastSave can't tell which game that file belongs to.",
+    "failed": "Couldn't look on this PC. Try again.",
+    "credit": "Local achievements",
+    "about": "Read from a file on this PC.",
+    "manageHint": "Look on this PC for this game's achievements file.",
+    "openFolder": "Open folder"
+  }
+}

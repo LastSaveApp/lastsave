@@ -1,0 +1,338 @@
+{
+  "detectionPrompt": {
+    "switchGame": {
+      "message": "Grasz w {{current}}. Przełączyć sesję na grę {{next}}? Najpierw zaproponuję recenzję {{current}}.",
+      "confirm": "Przełącz",
+      "cancel": "Ignoruj"
+    },
+    "gameChange": {
+      "confirm": "Przełącz grę",
+      "cancel": "Pozostań przy obecnej"
+    }
+  },
+  "feedback": {
+    "launchFailed": "LastSave rozpoczął śledzenie, ale nie udało się uruchomić tej gry: {{error}}",
+    "launchOnlyFailed": "Nie udało się uruchomić gry: {{error}}",
+    "launchDisabledGlobally": "Uruchamianie gier przez LastSave jest wyłączone w «Ustawieniach».",
+    "emulatorStillOpen": "{{emulator}} jest wciąż otwarty. Zamknij go, i ponownie wybierz «Uruchom»."
+  },
+  "sessionButton": {
+    "play": "Graj",
+    "start": "Start",
+    "paused": "Wstrzymana",
+    "playing": "W trakcie",
+    "resume": "Wznów sesję",
+    "starting": "Uruchamianie...",
+    "yourGame": "twoja gra",
+    "menu": "Ustawienia sesji",
+    "playAndTrack": "Graj (uruchom i śledź)",
+    "launchOnly": "Graj (bez śledzenia czasu)",
+    "timerOnly": "Uruchom tylko stoper",
+    "launchGame": "Uruchom grę",
+    "launchGameHintOn": "Uruchamia i śledzi czas",
+    "launchGameHintOnUntracked": "Tylko uruchamia",
+    "launchGameHintOff": "Tylko stoper",
+    "launchGameHintUnavailable": "Nie wskazano pliku",
+    "launchGameHintNotOwned": "Nie masz jej.",
+    "launchGameHintNotInstalled": "Nie zainstalowana",
+    "launchGameHintMissing": "Nie znaleziono pliku",
+    "launchGameHintGloballyOff": "Wyłączone w ustawieniach",
+    "trackGame": "Śledź czas gry",
+    "trackGameHintOn": "Mierzy czas sesji w grze",
+    "trackGameHintOff": "Bez mierzenia czasu",
+    "trackGameHintUnavailable": "Nie wskazano pliku.",
+    "trackGameHintGloballyOff": "Wyłączone w ustawieniach"
+  },
+  "confirm": {
+    "closeEmulator": {
+      "title": "{{emulator}} jest obecnie otwarty",
+      "message": "Aby uruchomić {{next}}, LastSave zamknie {{emulator}} i otworzy go ponownie z tą grą. Jeśli są w nim niezapisane zmiany, najpierw zapyta Cię o zgodę.",
+      "confirm": "Zamknij i uruchom"
+    }
+  },
+  "dashboard": {
+    "playingMode": "Tryb gry",
+    "trackingLine": "Śledzenie <target> {{title}} </target> · {{source}}",
+    "source": {
+      "manual": "uruchomione ręcznie"
+    },
+    "liveSession": "Na żywo",
+    "paused": "Wstrzymana",
+    "actions": {
+      "pause": "Wstrzymaj",
+      "resume": "Wznów",
+      "stop": "Zakończ",
+      "addLog": "Dodaj wpis",
+      "screenshot": "Zrzut ekranu",
+      "clip": "Klip",
+      "record": "Nagraj",
+      "stopRecording": "Zatrzymaj nagrywanie"
+    },
+    "thisSession": {
+      "empty": "Wpisy i zrzuty ekranu, które wykonasz podczas grania, pokażą się tutaj."
+    },
+    "overlay": {
+      "title": "Interfejs",
+      "compact": "Kompaktowy",
+      "expanded": "Rozszerzony",
+      "hidden": "Ukryty",
+      "resetPosition": "Zresetuj pozycję",
+      "shortcuts": {
+        "overlay": "Pokaż / minimalizuj interfejs",
+        "focus": "Tryb skupienia",
+        "hide": "Ukryj / pokaż interfejs",
+        "screenshot": "Zrzut ekranu",
+        "quickJournal": "Dodaj wpis",
+        "pause": "Wstrzymaj / wznów",
+        "stop": "Zakończ sesję",
+        "clip": "Zapisz ostatnie sekundy",
+        "record": "Nagraj"
+      },
+      "shortcutUnavailable": "W użyciu przez inną aplikację"
+    },
+    "presentationMode": {
+      "windowed": "W oknie",
+      "detecting": "Wykrywanie"
+    },
+    "liveOnPid": "PID {{pid}}",
+    "configuredExe": "Czekanie na exe",
+    "manualTrackingOnly": "Ręczne śledzenie",
+    "stopConfirm": {
+      "title": "Zakończyć sesję?",
+      "body": "Twój czas w {{title}} zostanie zapisany, a następnie otworzy się ekran podsumowania sesji."
+    },
+    "shortcuts": {
+      "title": "Skróty",
+      "hint": "Przypisz ponownie"
+    }
+  },
+  "errors": {
+    "screenshotFailed": "Nie udało się przechwycić zrzutu ekranu.",
+    "missingTrackingData": "Ta sesja rozgrywki nie zawiera wymaganych danych."
+  },
+  "notifications": {
+    "overlayUnavailableFullscreen": {
+      "title": "LastSave",
+      "body": "Nakładka nie może wyświetlać się na tej grze w trybie pełnoekranowym. LastSave nadal śledzi rozgrywkę. Aby korzystać z nakładki, przełącz grę na tryb okienkowy bez ramek."
+    },
+    "clipNoFileGameBar": {
+      "title": "Nie zapisano żadnego klipu"
+    },
+    "clipNoFileNvidia": {
+      "title": "Nie zapisano żadnego klipu",
+      "body": "Nakładka NVIDIA nie zapisała pliku. Włącz funkcję «Natychmiastowa powtórka» w nakładce NVIDIA (Alt+Z), a następnie spróbuj ponownie."
+    }
+  },
+  "modeHost": {
+    "sessionFallback": "Sesja"
+  },
+  "finalization": {
+    "trackedSession": "Śledziona sesja",
+    "recordedElapsed": "Zarejestrowany czas:",
+    "chooseGame": "Wybierz grę",
+    "saveSessionTo": "Przypisz sesję do",
+    "playedOn": "Grano dnia",
+    "adjustDuration": "Czas trwania",
+    "hoursSuffix": "godz.",
+    "minutesSuffix": "min",
+    "note": "Notatka",
+    "noteOptional": "(opcjonalnie)",
+    "notePlaceholder": "Było coś wartego zapamiętanie podczas tej sesji?",
+    "discard": "Zniszcz",
+    "saving": "Zapisywanie...",
+    "saveSession": "Zapisz sesję",
+    "durationError": "Czas trwania sesji musi być wyższy niż zero.",
+    "futureDateError": "Data sesji nie może być z przyszłości.",
+    "selectGameError": "Przed zapisaniem wybierz grę której dotyczy sesja.",
+    "saveFailed": "Nie udało się zapisać sesji.",
+    "saved": "Sesja zapisana.",
+    "confirmDiscardTitle": "Zniszczyć tą sesję?",
+    "confirmDiscardConfirm": "Zniszcz sesję",
+    "confirmDiscardCancel": "Zachowaj",
+    "helper": {
+      "editionOptions": "Wybierz grę lub dodatek z tej edycji, do którego przypisać tę sesję."
+    }
+  },
+  "followUp": {
+    "title": "Sesja została zapisana",
+    "logged": "Zapisano {{duration}} sesji",
+    "updateStatus": "Zaktualizuj status",
+    "updateStatusHint": "Dostosuj status do postępu",
+    "achievement": "Osiągnięcie",
+    "achievementHint": "Zanotuj osiągnięcie podczas tej sesji",
+    "addJournal": "Dodaj wpis do dziennika",
+    "addJournalHint": "Zapisz wspomnienie lub notatkę z tej sesji.",
+    "noThanks": "Nie, dziękuję"
+  },
+  "overlay": {
+    "playing": "W grze",
+    "paused": "Wstrzymana",
+    "minimize": "Minimalizuj",
+    "resume": "Wznów",
+    "pause": "Wstrzymaj",
+    "stop": "Stop",
+    "log": "Wpis",
+    "screenshot": "Zrzut",
+    "dragHint": "Przeciągnij",
+    "note": {
+      "placeholder": "Krótka notatka...",
+      "hint": "Enter zapisuje · Esc anuluje",
+      "save": "Zapisz"
+    },
+    "clip": "Klip",
+    "record": "Nagraj",
+    "stopRecording": "Zatrzymaj nagrywanie",
+    "hideOverlay": "Ukryj interfejs",
+    "recording": "Nagraj",
+    "screenshotLong": "Zrzut ekranu",
+    "clipLong": "Zapisz ostatnie 30 sek.",
+    "focus": {
+      "close": "Wróć do gry",
+      "closeHint": "<shortcut/> lub <esc/> powraca do gry"
+    },
+    "focusMode": "Skupienie",
+    "minimizeHint": "{{shortcut}}, aby zminimalizować",
+    "hide": "Ukryj",
+    "recap": {
+      "title": "Ostatnio",
+      "recallKeyboard": "<shortcut> {{shortcut}} </shortcut> Przywołaj",
+      "recallPad": "<chord> </chord> Przywołaj"
+    }
+  },
+  "captures": {
+    "toast": {
+      "screenshot": "Zrzut ekranu zapisany",
+      "note": "Notatka zapisana"
+    },
+    "strip": {
+      "count_one": "{{count}} element",
+      "count_few": "{{count}} elementy",
+      "count_many": "{{count}} elementów",
+      "count_other": "{{count}} elementu",
+      "edit": "Edytuj",
+      "discard": "Zniszcz",
+      "discardConfirmTitle": "Zniszczyć ten zrzut?",
+      "discardConfirmMessage": "Znika teraz z tej listy i zostaje usunięty po zapisaniu sesji.",
+      "discardConfirm": "Zniszcz",
+      "view": "Otwórz"
+    },
+    "chip": {
+      "journal": "Dziennik"
+    },
+    "plan": {
+      "title": {
+        "screenshot": "Do czego przypisać ten zrzut ekranu?",
+        "clip": "Co to za klip?",
+        "note": "Edytuj notatkę"
+      },
+      "choices": {
+        "journal": "Dziennik",
+        "achievement": "Osiągnięcie"
+      },
+      "save": "Zachowaj",
+      "discard": "Zniszcz",
+      "achievementTitle": "Tytuł *"
+    },
+    "note": {
+      "title": "Notatka do tej sesji",
+      "placeholder": "Co się wydarzyło?",
+      "hint": "Zapisze w sesji jako wpis do dziennika.",
+      "save": "Dodaj wpis"
+    }
+  },
+  "consolidation": {
+    "kicker": "Sesja zakończona",
+    "items": {
+      "title": "Zebrane podczas sesji",
+      "empty": "Podczas tej sesji nic nie zostało zarejestrowane.",
+      "captionPlaceholder": "Napisz kilka słów (opcjonalnie)",
+      "descriptionPlaceholder": "Szczegóły (opcjonalnie)"
+    },
+    "saved_zero": "Sesja została zapisana.",
+    "saved_one": "Sesja została zapisana z {{count}} elementem.",
+    "saved_few": "Sesja została zapisana z {{count}} elementami.",
+    "saved_many": "Sesja została zapisana z {{count}} elementami.",
+    "saved_other": "Sesja została zapisana z {{count}} elementami.",
+    "confirmDiscardMessage": "Czas gry będzie usunięty. Wszystko zebrane podczas tej sesji pozostaje na dysku, ale nie będzie nigdzie przypisane.",
+    "toBeLogged": "do zapisania",
+    "tally": {
+      "screenshots_one": "{{count}} zrzut ekranu",
+      "screenshots_few": "{{count}} zrzuty ekranu",
+      "screenshots_many": "{{count}} zrzutów ekranu",
+      "screenshots_other": "{{count}} zrzutu ekranu",
+      "clips_one": "{{count}} klip",
+      "clips_few": "{{count}} klipy",
+      "clips_many": "{{count}} klipów",
+      "clips_other": "{{count}} klipu",
+      "notes_one": "{{count}} notatka",
+      "notes_few": "{{count}} notatki",
+      "notes_many": "{{count}} notatek",
+      "notes_other": "{{count}} notatki",
+      "journals_one": "{{count}} wpis do dziennika",
+      "journals_few": "{{count}} wpisy do dziennika",
+      "journals_many": "{{count}} wpisów do dziennika",
+      "journals_other": "{{count}} wpisu do dziennika"
+    }
+  },
+  "clips": {
+    "recorders": {
+      "gamebar": "Pasek gry Xbox",
+      "nvidia": "NVIDIA App",
+      "amd": "AMD Adrenalin"
+    },
+    "unavailable": {
+      "noRecorder": "Nie znaleziono rejestratora klipów. Włącz Pasek gry Xbox lub nakładkę NVIDIA, żeby nagrywać stąd."
+    },
+    "setUp": "Ustaw",
+    "changeRecorder": "Zmień",
+    "recorderLabel": "Rejestrowanie klipów:"
+  },
+  "setup": {
+    "title": "Rejestrowanie klipów",
+    "subtitle": "Opcjonalnie. LastSave przechwyci pliki i dołączy je do sesji.",
+    "recorderStep": "Rejestrator",
+    "recorders": {
+      "autoWith": "Auto: {{recorder}}",
+      "off": "Wył."
+    },
+    "detection": {
+      "checking": "Wyszukiwanie rejestratora...",
+      "none": "Nie znaleziono rejestratorów na tym komputerze"
+    },
+    "howTo": {
+      "title": "Co włączyć",
+      "gamebar": {
+        "clip": "Klip: Ustawienia Windows > Granie > Ujęcia, włącz \"Rejestruj w tle podczas gry\".",
+        "record": "Nagranie: po włączeniu nagrywania przez Game Bar"
+      },
+      "nvidia": {
+        "clip": "Klip: otwórz nakładkę NVIDIA (Alt+Z) i włącz «Natychmiastową powtórkę»."
+      }
+    },
+    "testStep": "Sprawdź, czy działa",
+    "tests": {
+      "clip": "Zapisz ostatnie sekundy",
+      "record": "Nagraj kilka sekund"
+    },
+    "testsCleanUpInGame": "Gra zostanie wyświetlona na pierwszym planie na kilka sekund, aby umożliwić rejestratorowi nagranie obrazu. Następnie powrócisz do tego panelu. Plik zostanie od razu usunięty.",
+    "testsNeedGame": "Test wymaga uruchomionej gry, dlatego odbywa się podczas rozgrywki. Naciśnij «Klip» lub «Nagrywaj» na nakładce - pierwsze naciśnięcie będzie testem. Jeśli nic się nie zapisze, nakładka poinformuje cię o tym i wrócisz tutaj.",
+    "fix": {
+      "openWindows": "Otwórz ustawienia Ujęć systemu Windows",
+      "openRecorder": "Otwórz {{recorder}}"
+    },
+    "done": "Gotowe",
+    "unavailable": {
+      "gamebar": "Xbox Game Bar jest wyłączony w Windows, Ustawienia, Granie.",
+      "nvidia": "Nie uruchomiono aplikacji Nvidia.",
+      "amd": "Nie uruchomiono AMD Software: Adrenalin Edition."
+    }
+  },
+  "history": {
+    "tabs": {
+      "thisSession": "Aktualna sesja",
+      "previousSessions": "Poprzednie sesje"
+    },
+    "searchPlaceholder": "Wyszukaj",
+    "empty": "Brak poprzednich sesji. Ta która trwa teraz będzie widoczna tutaj następnym razem."
+  }
+}

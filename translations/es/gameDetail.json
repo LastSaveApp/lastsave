@@ -2,7 +2,8 @@
   "back": {
     "toNamed": "Volver a {{name}}",
     "toLibrary": "Volver a la Biblioteca",
-    "shelfFallback": "Estantería"
+    "shelfFallback": "Estantería",
+    "previous": "Volver"
   },
   "sync": {
     "notSynced": "Sin sincronizar todavía",
@@ -71,12 +72,24 @@
     "autoSyncUpdateFailedXbox": "No se pudo cambiar la autosincronización de Xbox.",
     "xboxConnected": "Xbox conectado.",
     "xboxConnectFailed": "No se pudo conectar tu cuenta de Xbox en este momento.",
+    "previewGogSyncFailed": "No se pudo consultar la sincronización con GOG.",
+    "alreadyInSyncGog": "Este juego ya está sincronizado con GOG.",
+    "syncedHoursGog": "{{hours}}h sincronizadas desde GOG.",
+    "applyGogSyncFailed": "No se pudo aplicar la sincronización de GOG a este juego.",
+    "syncGameFailedGog": "No se pudo sincronizar este juego desde GOG.",
+    "autoSyncUpdateFailedGameGog": "No se pudo cambiar la autosincronización de GOG de este juego.",
+    "autoSyncEnabledGog": "Autosincronización de GOG activada.",
+    "autoSyncDisabledGog": "Autosincronización de GOG desactivada.",
+    "autoSyncUpdateFailedGog": "No se pudo cambiar la autosincronización de GOG.",
+    "gogConnected": "GOG conectado.",
+    "gogConnectFailed": "No se pudo conectar tu cuenta de GOG en este momento.",
     "entryDeleted": "{{title}} se quitó de tu biblioteca.",
     "entryDeleteFailed": "No se pudo eliminar este juego."
   },
   "header": {
     "baseGame": "Juego base",
     "art": "Arte",
+    "achievements": "Logros",
     "shelves": "Estanterías",
     "journeys": "Misiones",
     "shareGame": "Compartir este juego",
@@ -110,7 +123,14 @@
     "openSteamSyncOptions": "Opciones de sincronización de Steam",
     "openEpicSyncOptions": "Opciones de sincronización de Epic",
     "openXboxSyncOptions": "Opciones de sincronización de Xbox",
-    "showWholeEntry": "Ver todo {{title}}"
+    "syncGog": "Sincronizar GOG",
+    "connectGogFirstSync": "Conecta GOG para sincronizar este juego.",
+    "autoSyncAlignedGog": "Mantener el tiempo de GOG al día en silencio.",
+    "connectGogToEnable": "Conecta GOG para activarlo.",
+    "connectGogFirstAuto": "Conecta GOG para activar la autosincronización.",
+    "openGogSyncOptions": "Opciones de sincronización de GOG",
+    "showWholeEntry": "Ver todo {{title}}",
+    "fullPage": "Pantalla completa"
   },
   "stats": {
     "status": "Estado",
@@ -149,7 +169,7 @@
       "noMatches": "No se encontraron resultados"
     },
     "typeFilters": {
-      "achievements": "Logros",
+      "achievements": "Hitos",
       "journals": "Diario",
       "sessions": "Sesiones",
       "status": "Estado"
@@ -169,7 +189,7 @@
     "sessions": "Sesiones",
     "journalEntry": "Entrada de diario",
     "journalEntryFallback": "Entrada de diario",
-    "achievement": "Logro",
+    "achievement": "Hito",
     "statusUpdate": "Cambio de estado",
     "statusUpdated": "Estado cambiado",
     "movedTo": "Pasó a {{status}}",
@@ -183,6 +203,9 @@
     "expansion_one": "{{count}} expansión",
     "expansion_many": "{{count}} expansiones",
     "expansion_other": "{{count}} expansiones",
+    "mod_one": "{{count}} mod",
+    "mod_many": "{{count}} mods",
+    "mod_other": "{{count}} mods",
     "sessions_one": "{{count}} sesión",
     "sessions_many": "{{count}} sesiones",
     "sessions_other": "{{count}} sesiones"
@@ -212,7 +235,7 @@
       "added": "AÑADIDO A LA BIBLIOTECA",
       "statusUpdate": "CAMBIO DE ESTADO"
     },
-    "achievementCategory": "LOGRO: {{label}}",
+    "achievementCategory": "HITO: {{label}}",
     "statusCategory": "CAMBIO DE ESTADO: {{status}}",
     "tooltip": {
       "addedWithContent": "Juego base y contenido adicional añadidos",
@@ -252,6 +275,13 @@
     "body": "La sincronización manual y la automática necesitan una sesión activa de Xbox. Vuelve a conectar tu cuenta aquí y luego repite la sincronización.",
     "dismissMessage": "Cerrar el mensaje de conexión con Xbox"
   },
+  "gogPrompt": {
+    "title": "Conexión con GOG",
+    "subtitle": "Conecta GOG para sincronizar el tiempo de juego de este juego.",
+    "close": "Cerrar el aviso de conexión con GOG",
+    "body": "La sincronización manual y la automática necesitan una sesión activa de GOG. Vuelve a conectar tu cuenta aquí y luego repite la sincronización.",
+    "dismissMessage": "Cerrar el mensaje de conexión con GOG"
+  },
   "steamSync": {
     "familyShared": "Biblioteca familiar compartida",
     "owned": "Biblioteca propia",
@@ -288,15 +318,29 @@
     "confirm": "Confirmar sincronización",
     "syncing": "Sincronizando…"
   },
+  "gogSync": {
+    "badge": "Sincronización de GOG",
+    "title": "¿Sincronizar el tiempo desde GOG?",
+    "subtitle": "Tu tiempo de juego actual se actualizará con las horas que detectó GOG.",
+    "close": "Cerrar la sincronización de GOG",
+    "detectedAs": "Detectado como",
+    "currentHours": "Horas actuales",
+    "detectedInGog": "Detectado en GOG",
+    "confirm": "Confirmar sincronización",
+    "syncing": "Sincronizando…"
+  },
   "deleteLog": {
     "title": "¿Eliminar la entrada?",
     "message": "La entrada se borrará para siempre, y si cambiaba el estado o el tiempo de juego, se recalcula el resumen de tu biblioteca.",
+    "sessionMessage_one": "Esta sesión se borrará para siempre, con su tiempo. Su entrada de diario o hito se queda en la actividad del juego.",
+    "sessionMessage_other": "Esta sesión se borrará para siempre, con su tiempo. Sus {{count}} entradas de diario y hitos se quedan en la actividad del juego.",
+    "sessionMessage_many": "Esta sesión se borrará para siempre, con su tiempo. Sus {{count}} entradas de diario y hitos se quedan en la actividad del juego.",
     "deleting": "Eliminando…",
     "confirm": "Eliminar entrada"
   },
   "deleteEntry": {
     "title": "¿Eliminar este juego?",
-    "message": "{{title}} se quitará de tu biblioteca junto con todo su historial: sesiones, logros y entradas de diario. No se puede deshacer.",
+    "message": "{{title}} se quitará de tu biblioteca junto con todo su historial: sesiones, hitos y entradas de diario. No se puede deshacer.",
     "deleting": "Eliminando…",
     "confirm": "Eliminar juego"
   },
@@ -326,12 +370,12 @@
   },
   "playSession": {
     "lastNote": "Última nota",
-    "entries_one": "{{count}} entrada",
-    "entries_many": "{{count}} entradas",
-    "entries_other": "{{count}} entradas",
-    "achievements_one": "{{count}} logro",
-    "achievements_many": "{{count}} logros",
-    "achievements_other": "{{count}} logros",
+    "entries_one": "{{count}} nota",
+    "entries_many": "{{count}} notas",
+    "entries_other": "{{count}} notas",
+    "achievements_one": "{{count}} hito",
+    "achievements_many": "{{count}} hitos",
+    "achievements_other": "{{count}} hitos",
     "moreTiles": "+{{extra}}",
     "groupLabel": "{{date}} · {{duration}}"
   }

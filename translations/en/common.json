@@ -62,5 +62,9 @@
       "personal": "Your own version, made in the Language Studio. Only this PC uses it."
     },
     "personal": "{{name}} · Your version"
+  },
+  "tagInput": {
+    "remove": "Remove {{value}}",
+    "addNew": "Add “{{value}}”"
   }
 }
