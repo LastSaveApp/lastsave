@@ -32,5 +32,11 @@
     "editFromCatalog": "Edit this game from the main Catalog.",
     "syncFromCatalog": "Sync this game from the main Catalog.",
     "added": "Added \"{{title}}\" to your library."
+  },
+  "nominees": {
+    "title": "The Game Awards {{year}} · Game of the Year nominees",
+    "ceremony": "Winner announced on {{date}}",
+    "announced": "Announced on {{date}}",
+    "winner": "Winner"
   }
 }

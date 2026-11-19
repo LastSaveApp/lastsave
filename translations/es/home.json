@@ -108,12 +108,19 @@
   "explore": {
     "tabs": {
       "latest": "Lo último",
+      "goty": "GOTY",
       "upcoming": "Próximos"
     },
     "latestOffline": "Los lanzamientos aparecen cuando se puede acceder al catálogo.",
     "upcomingOffline": "Los próximos lanzamientos aparecen cuando se puede acceder al catálogo.",
     "offlineTitle": "Explorar está sin conexión",
-    "autoRotate": "Alterna entre Lo último y Próximos; pasa el ratón o elige una pestaña para fijarla"
+    "autoRotate": "Alterna entre Lo último y Próximos; pasa el ratón o elige una pestaña para fijarla",
+    "autoRotateWithGoty": "Alterna entre Lo último, los nominados al GOTY y Próximos; pasa el ratón o elige una pestaña para fijarla",
+    "goty": {
+      "winner": "Ganador",
+      "winnerTitle": "Juego del año {{year}}",
+      "tooltip": "Nominados a Juego del año en The Game Awards {{year}} · gala el {{date}}"
+    }
   },
   "rail": {
     "scrollLeft": "Desplazar {{title}} a la izquierda",

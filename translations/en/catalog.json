@@ -448,7 +448,8 @@
       },
       "gotys": {
         "title": "GOTYs",
-        "description": "Award winners"
+        "description": "Award winners",
+        "nominees": "Nominees {{year}}"
       },
       "sagas": {
         "title": "Best Sagas",
