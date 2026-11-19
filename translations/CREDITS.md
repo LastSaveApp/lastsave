@@ -16,4 +16,4 @@ automatically. Want your name here? Read the [guide](README.md).
 
 ## Polski (Polish) · Community
 
-- Waiting for its first translator
+- [@mvelezg99](https://github.com/mvelezg99)

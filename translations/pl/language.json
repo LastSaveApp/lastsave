@@ -4,5 +4,9 @@
   "englishName": "Polish",
   "status": "community",
   "maintainers": [],
-  "contributors": []
+  "contributors": [
+    {
+      "github": "mvelezg99"
+    }
+  ]
 }
