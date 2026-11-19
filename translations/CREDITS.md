@@ -13,3 +13,7 @@ automatically. Want your name here? Read the [guide](README.md).
 ## Español (Spanish) · Official
 
 - Miguel Velez ([@mvelezg99](https://github.com/mvelezg99))
+
+## Polski (Polish) · Community
+
+- Waiting for its first translator
