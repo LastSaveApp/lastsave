@@ -6,9 +6,9 @@
   "empty": "There are no notes for this version.",
   "fullChangelog": "Full changelog",
   "joinDiscord": "Join our Discord",
-  "footer": "Join our Discord",
-  "support": "Support LastSave",
-  "follow": "Follow LastSave",
+  "footer": "Discord",
+  "support": "Support",
+  "follow": "Follow",
   "followHint": "News, sneak peeks and what's coming next.",
   "gotIt": "Got it",
   "open": "What's new in v{{version}}"

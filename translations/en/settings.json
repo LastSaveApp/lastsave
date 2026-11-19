@@ -615,6 +615,11 @@
       "description": "Banners and logos made and shared by its community, alongside Steam's store art.",
       "keywords": "credits, attribution, steamgriddb, steam, art, banners, logos"
     },
+    "retroachievements": {
+      "title": "RetroAchievements",
+      "description": "Achievement sets for classic games, made by its community.",
+      "keywords": "credits, attribution, retroachievements, achievements, retro, emulators"
+    },
     "visitProvider": "Visit {{name}}",
     "visit": "Visit"
   },
