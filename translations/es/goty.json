@@ -32,5 +32,11 @@
     "editFromCatalog": "Edita este juego desde el catálogo.",
     "syncFromCatalog": "Sincroniza este juego desde el catálogo.",
     "added": "«{{title}}» añadido a tu biblioteca."
+  },
+  "nominees": {
+    "title": "The Game Awards {{year}} · Nominados a Juego del año",
+    "ceremony": "El ganador se anuncia el {{date}}",
+    "announced": "Anunciado el {{date}}",
+    "winner": "Ganador"
   }
 }

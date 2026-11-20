@@ -455,7 +455,8 @@
       },
       "gotys": {
         "title": "GOTY",
-        "description": "Ganadores de premios"
+        "description": "Ganadores de premios",
+        "nominees": "Nominados {{year}}"
       },
       "sagas": {
         "title": "Mejores sagas",

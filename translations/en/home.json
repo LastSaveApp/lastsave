@@ -108,12 +108,19 @@
   "explore": {
     "tabs": {
       "latest": "Latest",
+      "goty": "GOTY",
       "upcoming": "Upcoming"
     },
     "latestOffline": "New releases show up when the catalog is reachable.",
     "upcomingOffline": "Upcoming releases show up when the catalog is reachable.",
     "offlineTitle": "Explore is offline",
-    "autoRotate": "Rotates between Latest and Upcoming; hover or pick a tab to hold it"
+    "autoRotate": "Rotates between Latest and Upcoming; hover or pick a tab to hold it",
+    "autoRotateWithGoty": "Rotates between Latest, the GOTY nominees and Upcoming; hover or pick a tab to hold it",
+    "goty": {
+      "winner": "Winner",
+      "winnerTitle": "Game of the Year {{year}}",
+      "tooltip": "The Game Awards {{year}} nominees for Game of the Year · ceremony on {{date}}"
+    }
   },
   "rail": {
     "scrollLeft": "Scroll {{title}} left",
